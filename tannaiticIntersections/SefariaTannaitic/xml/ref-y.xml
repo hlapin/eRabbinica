@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/xml" href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model type="application/xml" href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ref-y">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An Electronic Edition of the Talmud Yerushalmi</title>
+            <editor>
+               <persName corresp="ref.xml#HL">Hayim Lapin</persName>
+            </editor>
+            <respStmt>
+               <resp>file conversion</resp>
+               <persName corresp="ref.xml#HL">Hayim Lapin</persName>
+            </respStmt>
+            <respStmt>
+               <resp>transcription</resp>
+               <orgName corresp="ref.xml#mechon-mamre">Mechon Mamre</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>encoding</resp>
+               <orgName corresp="ref.xml#mechon-mamre">Mechon Mamre</orgName>
+            </respStmt>
+            <sponsor n="primary">Joseph and Rebecca Meyerhoff Center for Jewish Studies</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica</publisher>
+            <pubPlace>...</pubPlace>
+            <address>
+               <addrLine>...</addrLine>
+            </address>
+            <idno type="local">ref-y</idno>
+            <availability status="restricted">
+               <p>This work is copyright Hayim lapin and the Joseph and Rebecca Meyerhoff Center for
+                  Jewish Studies and licensed under a <ref target="http://creativecommons.org/licenses/by-sa/4.0//">Creative Commons
+                  Attribution International 4.0 License</ref> except where otherwise constrained by Mechon
+                  Mamre.</p>
+            </availability>
+            <pubPlace>College Park, MD USA</pubPlace>
+            <date>2018-09-03</date>
+         </publicationStmt>
+         <notesStmt>
+            <note>
+               <p>Talmud Yerushalmi from <ref target="http://www.mechon-mamre.org">mechon-mamre</ref>. Rights reserved by organization.</p>
+               <p>Based on the 1898 Piotrokow Edition</p>
+               <p>Edited and converted by TEI/XML by Hayim Lapin</p>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct xml:id="tba">
+               <monogr>
+                  <title xml:lang="en">Talmud Yerushalmi</title>
+                  <title xml:lang="he">תלמוד ירושליי</title>
+                  <imprint n="1">
+                     <pubPlace>...</pubPlace>
+                     <publisher>...</publisher>
+                     <date>...</date>
+                  </imprint>
+               </monogr>
+               <note type="nli-ref">...</note>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl/>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2018-09-02" who="ref.xml#HL">Begun editing and tagging</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="order" xml:id="ref-y.01" n="Zeraim">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0101.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0102.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0103.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0104.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0105.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0106.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0107.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0108.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0109.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0110.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0111.xml"/>
+         </div>
+         <div type="order" xml:id="ref-y.02" n="Moed">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0201.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0202.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0203.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0204.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0205.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0206.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0207.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0208.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0209.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0210.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0211.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0212.xml"/>
+         </div>
+         <div type="order" xml:id="ref-y.03" n="Nashim">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0301.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0302.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0303.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0304.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0305.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0306.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0307.xml"/>
+         </div>
+         <div type="order" xml:id="ref-y.04" n="Neziqin">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0401.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0402.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0403.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0404.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0405.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0408.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0410.xml"/>
+         </div>
+         <div type="order" xml:id="ref-y.06" n="Toharot">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ref-y/ref-y-0601.xml"/>
+         </div>
+      </body>
+   </text>
+</TEI>
