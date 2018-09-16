@@ -7,10 +7,10 @@
    exclude-result-prefixes="tei xs xlink j local">
 
    <xsl:output indent="yes"/>
-   <xsl:param name="pathToFile" select="'../SefariaTannaitic/json/'"/>
+   <xsl:param name="pathToFile" select="'../data/json/'"/>
    <xsl:param name="fName" select="'Sifra - he - Venice 1545.json'"/>
 
-   <xsl:variable name="k-vPairs" select="document('../SefariaTannaitic/xml/biblRabbValues.xml')"
+   <xsl:variable name="k-vPairs" select="document('../data/xml/biblRabbValues.xml')"
       as="document-node()"/>
    <xsl:key name="biblRabb" match="local:item" use="@k"/>
    <xsl:key name="gematria" match="local:letter" use="@k"/>
@@ -378,7 +378,7 @@
    <xsl:template name="quotes">
       <xsl:param name="str"/>
       <xsl:variable name="regex"
-         select="concat('&quot;([\p{IsHebrew}\.].+?[', $punctChars, '\p{IsHebrew}])&quot;([^\p{IsHebrew}]*)')"/>
+         select="concat('&quot;(([^@quote;])+?[', $punctChars, '\p{IsHebrew}])&quot;([^\p{IsHebrew}]*)')"/>
       <xsl:analyze-string select="normalize-space($str)" regex="{$regex}">
          <xsl:matching-substring>
             <quote>
@@ -387,7 +387,7 @@
                </xsl:call-template>
             </quote>
             <xsl:call-template name="sqBrackets">
-               <xsl:with-param name="str" select="regex-group(2)"/>
+               <xsl:with-param name="str" select="regex-group(3)"/>
             </xsl:call-template>
          </xsl:matching-substring>
          <xsl:non-matching-substring>

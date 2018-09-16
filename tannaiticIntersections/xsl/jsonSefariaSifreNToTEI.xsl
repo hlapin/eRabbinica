@@ -7,14 +7,31 @@
    exclude-result-prefixes="tei xs j local">
 
    <xsl:output indent="yes"/>
-   <xsl:param name="pathToFile" select="'../SefariaTannaitic/json/'"/>
-   <xsl:param name="fName" select="'Sifrei Bamidbar - he - Wikisource.json'"/>
-   <xsl:param name="localID" select="'ref-sifre-n'"/>
-   <xsl:variable name="k-vPairs" select="document('../SefariaTannaitic/xml/biblRabbValues.xml')"
+   <xsl:param name="pathToFile" select="'../data/json/'"/>
+   <xsl:param name="src" select="'sifn'"/>
+   <xsl:variable name="fName"
+      select="
+         if ($src = 'sifd') then
+            'Sifrei Devarim - he - Sifrei Devarim, Hebrew.json'
+         else
+            if ($src = 'sifn') then
+               'Sifrei Bamidbar - he - Wikisource.json'
+            else
+               ()"/>
+   <xsl:variable name="localID"
+      select="
+         if ($src = 'sifd') then
+            'ref-sifre-d'
+         else
+            if ($src = 'sifn') then
+               'ref-sifre-n'
+            else
+               ()"/>
+   <xsl:variable name="k-vPairs" select="document('../data/xml/biblRabbValues.xml')"
       as="document-node()"/>
    <xsl:key name="biblRabb" match="local:item" use="@k"/>
    <xsl:key name="gematria" match="local:letter" use="@k"/>
-   <xsl:variable name="punctChars">\.,!:;?-</xsl:variable>
+   <xsl:variable name="punctChars">\.,!:;?\|\-–—</xsl:variable>
 
    <xsl:template name="startSingle">
       <!--<xsl:message select="string($k-vPairs/key('biblRabb','חולין')/@v)"/>
@@ -164,11 +181,17 @@
    <!-- regex patterns to address typographical markup of text in these files  -->
    <xsl:template name="thingsLabeledSmall">
       <xsl:param name="str"/>
-      <xsl:analyze-string select="$str" regex="&lt;small&gt;([^&lt;]+)&lt;/small&gt;">
+      <xsl:analyze-string select="$str" regex="(.*)&lt;small&gt;([^&lt;]+)&lt;/small&gt;(.*)">
          <xsl:matching-substring>
+            <xsl:call-template name="quotes">
+               <xsl:with-param name="str" select="regex-group(1)"/>
+            </xsl:call-template>
             <gloss resp="source">
-               <xsl:value-of select="normalize-space(translate(regex-group(1), '()', ''))"/>
+               <xsl:value-of select="normalize-space(translate(regex-group(2), '()', ''))"/>
             </gloss>
+            <xsl:call-template name="quotes">
+               <xsl:with-param name="str" select="regex-group(3)"/>
+            </xsl:call-template>
          </xsl:matching-substring>
          <xsl:non-matching-substring>
             <xsl:call-template name="quotes">
@@ -180,30 +203,37 @@
 
    <xsl:template name="quotes">
       <xsl:param name="str"/>
-      <xsl:analyze-string select="normalize-space($str)" regex="([^\p{{IsHebrew}}]*)&quot;(.+?)&quot;([^\p{{IsHebrew}}]*)">
+      <xsl:analyze-string select="normalize-space($str)"
+         regex="(^|\s|[^\p{{IsHebrew}}])&quot;(.+?)&quot;([\s\.,!:;?\|\-–—]|[^\p{{IsHebrew}}]|$)">
          <xsl:matching-substring>
-            <xsl:choose><xsl:when test="regex-group(1)"><xsl:call-template name="parens">
-               <xsl:with-param name="str" select="regex-group(1)"></xsl:with-param>
-            </xsl:call-template><quote>
-               <xsl:call-template name="parens">
-               <xsl:with-param name="str" select="regex-group(2)"></xsl:with-param>
-            </xsl:call-template>
-            </quote><xsl:call-template name="parens">
-               <xsl:with-param name="str" select="regex-group(3)"></xsl:with-param>
-            </xsl:call-template></xsl:when></xsl:choose>
+            <!--<xsl:choose>
+               <xsl:when test="regex-group(3)">-->
+                  <xsl:call-template name="parens">
+                     <xsl:with-param name="str" select="regex-group(1)"/>
+                  </xsl:call-template>
+                  <quote>
+                     <xsl:call-template name="parens">
+                        <xsl:with-param name="str" select="regex-group(2)"/>
+                     </xsl:call-template>
+                  </quote>
+                  <xsl:call-template name="parens">
+                     <xsl:with-param name="str" select="regex-group(3)"/>
+                  </xsl:call-template>
+               <!--</xsl:when>
+            </xsl:choose>-->
          </xsl:matching-substring>
          <xsl:non-matching-substring>
             <xsl:call-template name="parens">
-               <xsl:with-param name="str" select="."></xsl:with-param>
+               <xsl:with-param name="str" select="."/>
             </xsl:call-template>
          </xsl:non-matching-substring>
       </xsl:analyze-string>
    </xsl:template>
    <xsl:template name="parens">
       <xsl:param name="str"/>
-      <xsl:analyze-string select="$str" regex="\(([^\)]+)\)">
+      <xsl:analyze-string select="$str" regex="\((.+?)\)">
          <xsl:matching-substring>
-            <xsl:message select="regex-group(1)"></xsl:message>
+            <xsl:message select="regex-group(1)"/>
             <!-- could do this more compactly -->
             <xsl:variable name="tkns"
                select="
@@ -288,7 +318,9 @@
             <xsl:choose>
                <xsl:when test="$tknsToUse = 'useDel' or string-length(regex-group(1)) &gt; 20">
                   <del resp="#source">
-                     <xsl:call-template name="sqBrackets"><xsl:with-param name="str" select="regex-group(1)"/></xsl:call-template>
+                     <xsl:call-template name="sqBrackets">
+                        <xsl:with-param name="str" select="regex-group(1)"/>
+                     </xsl:call-template>
                   </del>
                </xsl:when>
                <xsl:otherwise>
@@ -300,15 +332,21 @@
 
          </xsl:matching-substring>
          <xsl:non-matching-substring>
-            <xsl:call-template name="sqBrackets"><xsl:with-param name="str" select="."/></xsl:call-template>
+            <xsl:call-template name="sqBrackets">
+               <xsl:with-param name="str" select="."/>
+            </xsl:call-template>
          </xsl:non-matching-substring>
       </xsl:analyze-string>
    </xsl:template>
    <xsl:template name="sqBrackets">
-      <xsl:param name="str"></xsl:param>
+      <xsl:param name="str"/>
       <xsl:analyze-string select="$str" regex="\[([^\]]+)\]">
          <xsl:matching-substring>
-            <add resp="#source"><xsl:call-template name="apos"><xsl:with-param name="str" select="regex-group(1)"/></xsl:call-template></add>
+            <add resp="#source">
+               <xsl:call-template name="apos">
+                  <xsl:with-param name="str" select="regex-group(1)"/>
+               </xsl:call-template>
+            </add>
          </xsl:matching-substring>
          <xsl:non-matching-substring>
             <xsl:call-template name="apos">
@@ -316,27 +354,41 @@
             </xsl:call-template>
          </xsl:non-matching-substring>
       </xsl:analyze-string>
-      
+
    </xsl:template>
-   
+
    <!-- this now duplicates some tests in template apos -->
    <!-- could be simplified? -->
    <xsl:template name="apos">
-      <xsl:param name="str"></xsl:param>
- 
+      <xsl:param name="str"/>
+
       <!--<xsl:variable name="regex">([&quot;&apos;])</xsl:variable>-->
       <xsl:analyze-string select="$str" regex="(\p{{IsHebrew}}*)([&apos;&quot;׳״])(\p{{IsHebrew}}*)">
          <xsl:matching-substring>
-         <xsl:message select="(regex-group(1),regex-group(3))"/>
+            <xsl:message select="(regex-group(1), regex-group(3))"/>
             <xsl:choose>
-               <xsl:when test="string-length(regex-group(1))&gt;=1 and regex-group(2)='&quot;' and string-length(regex-group(3))&gt;=1">
-                  <xsl:value-of select="regex-group(1)"/><am rend="gershayyim"><xsl:value-of select="'״'"/></am><xsl:value-of select="regex-group(3)"/>
+               <xsl:when
+                  test="string-length(regex-group(1)) &gt;= 1 and regex-group(2) = '&quot;' and string-length(regex-group(3)) &gt;= 1">
+                  <xsl:value-of select="regex-group(1)"/>
+                  <am rend="gershayyim">
+                     <xsl:value-of select="'״'"/>
+                  </am>
+                  <xsl:value-of select="regex-group(3)"/>
                </xsl:when>
-               <xsl:when test="(string-length(regex-group(1))&gt;=0  or string-length(regex-group(3))&gt;=0) and regex-group(2)='&quot;'">
-                  <xsl:value-of select="regex-group(1)"/><pc type="quote"><xsl:value-of select="'״'"/></pc><xsl:value-of select="regex-group(3)"/>
+               <xsl:when
+                  test="(string-length(regex-group(1)) &gt;= 0 or string-length(regex-group(3)) &gt;= 0) and regex-group(2) = '&quot;'">
+                  <xsl:value-of select="regex-group(1)"/>
+                  <pc type="quote">
+                     <xsl:value-of select="'&quot;'"/>
+                  </pc>
+                  <xsl:value-of select="regex-group(3)"/>
                </xsl:when>
                <xsl:otherwise>
-                  <xsl:value-of select="regex-group(1)"/><am rend="{if (matches(regex-group(2),'[''׳]')) then 'geresh' else 'gershayyim'}"><xsl:value-of select="'׳'"/></am><xsl:value-of select="regex-group(3)"/>
+                  <xsl:value-of select="regex-group(1)"/>
+                  <am rend="{if (matches(regex-group(2),'[''׳]')) then 'geresh' else 'gershayyim'}">
+                     <xsl:value-of select="'׳'"/>
+                  </am>
+                  <xsl:value-of select="regex-group(3)"/>
                </xsl:otherwise>
             </xsl:choose>
          </xsl:matching-substring>
@@ -344,20 +396,25 @@
             <xsl:call-template name="punct">
                <xsl:with-param name="str" select="."/>
             </xsl:call-template>
-         </xsl:non-matching-substring>      
+         </xsl:non-matching-substring>
       </xsl:analyze-string>
    </xsl:template>
-   
+
    <xsl:template name="punct">
       <xsl:param name="str"/>
-      <xsl:analyze-string select="$str" regex="{concat('([',$punctChars,']+)')}">
-         <xsl:matching-substring><pc type="source-supplied"><xsl:value-of select="regex-group(1)"/></pc></xsl:matching-substring>
-      <xsl:non-matching-substring>
-         <xsl:value-of select="."/>
-      </xsl:non-matching-substring>
+      <xsl:analyze-string select="$str" regex="{concat('([',$punctChars,'\s*]+)')}">
+         <xsl:matching-substring>
+            <xsl:choose><xsl:when test="not(normalize-space(regex-group(1)))"><xsl:text>&#x20;</xsl:text></xsl:when>
+               <xsl:otherwise><pc type="source-supplied">
+                  <xsl:value-of select="normalize-space(regex-group(1))"/>
+               </pc><xsl:text>&#x20;</xsl:text></xsl:otherwise></xsl:choose>
+         </xsl:matching-substring>
+         <xsl:non-matching-substring>
+            <xsl:value-of select="."/>
+         </xsl:non-matching-substring>
       </xsl:analyze-string>
    </xsl:template>
-   
+
    <xsl:function name="local:gematria">
       <xsl:param name="str"/>
       <xsl:value-of
@@ -367,6 +424,7 @@
             else
                sum(for $c in string-to-codepoints($str)
                return
-                  xs:integer($k-vPairs//local:letter[@k = codepoints-to-string($c)]/@v))"/>
+                  xs:integer($k-vPairs//local:letter[@k = codepoints-to-string($c)]/@v))"
+      />
    </xsl:function>
 </xsl:stylesheet>
