@@ -7,7 +7,7 @@
    exclude-result-prefixes="tei xs xlink j local">
 
    <xsl:output indent="yes"/>
-   <xsl:param name="pathToFile" select="'../SefariaTannaitic/json/'"/>
+   <xsl:param name="pathToFile" select="'../data/json/'"/>
    <xsl:param name="fName" select="'Sifra - he - Venice 1545.json'"/>
 
 
