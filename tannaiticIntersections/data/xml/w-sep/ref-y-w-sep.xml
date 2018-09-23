@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="ref-y">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An Electronic Edition of the Talmud Yerushalmi</title>
+            <editor>
+               <persName corresp="ref.xml#HL">Hayim Lapin</persName>
+            </editor>
+            <respStmt>
+               <resp>file conversion</resp>
+               <persName corresp="ref.xml#HL">Hayim Lapin</persName>
+            </respStmt>
+            <respStmt>
+               <resp>transcription</resp>
+               <orgName corresp="ref.xml#mechon-mamre">Mechon Mamre</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>encoding</resp>
+               <orgName corresp="ref.xml#mechon-mamre">Mechon Mamre</orgName>
+            </respStmt>
+            <sponsor n="primary">Joseph and Rebecca Meyerhoff Center for Jewish Studies</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica</publisher>
+            <pubPlace>...</pubPlace>
+            <address>
+               <addrLine>...</addrLine>
+            </address>
+            <idno type="local">ref-y</idno>
+            <availability status="restricted">
+               <p>This work is copyright Hayim lapin and the Joseph and Rebecca Meyerhoff Center for
+                  Jewish Studies and licensed under a <w/>
+                  <ref target="http://creativecommons.org/licenses/by-sa/4.0//">Creative Commons
+                  Attribution International 4.0 License</ref>
+                  <w/> except where otherwise constrained by Mechon
+                  Mamre.</p>
+            </availability>
+            <pubPlace>College Park, MD USA</pubPlace>
+            <date>2018-09-03</date>
+         </publicationStmt>
+         <notesStmt>
+            <note>
+               <p>Talmud Yerushalmi from <w/>
+                  <ref target="http://www.mechon-mamre.org">mechon-mamre</ref>
+                  <w/>. Rights reserved by organization.</p>
+               <p>Based on the 1898 Piotrokow Edition</p>
+               <p>Edited and converted by TEI/XML by Hayim Lapin</p>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct xml:id="tba">
+               <monogr>
+                  <title xml:lang="en">Talmud Yerushalmi</title>
+                  <title xml:lang="he">תלמוד ירושלמי</title>
+                  <imprint n="1">
+                     <pubPlace>...</pubPlace>
+                     <publisher>...</publisher>
+                     <date>...</date>
+                  </imprint>
+               </monogr>
+               <note type="nli-ref">...</note>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl/>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2018-09-02" who="ref.xml#HL">Begun editing and tagging</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="order" xml:id="ref-y.01" n="Zeraim">
+            <xi:include href="ref-y/ref-y-0101-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0102-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0103-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0104-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0105-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0106-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0107-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0108-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0109-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0110-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0111-w-sep.xml"/>
+         </div>
+         <div type="order" xml:id="ref-y.02" n="Moed">
+            <xi:include href="ref-y/ref-y-0201-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0202-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0203-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0204-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0205-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0206-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0207-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0208-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0209-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0210-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0211-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0212-w-sep.xml"/>
+         </div>
+         <div type="order" xml:id="ref-y.03" n="Nashim">
+            <xi:include href="ref-y/ref-y-0301-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0302-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0303-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0304-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0305-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0306-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0307-w-sep.xml"/>
+         </div>
+         <div type="order" xml:id="ref-y.04" n="Neziqin">
+            <xi:include href="ref-y/ref-y-0401-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0402-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0403-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0404-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0405-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0408-w-sep.xml"/>
+            <xi:include href="ref-y/ref-y-0410-w-sep.xml"/>
+         </div>
+         <div type="order" xml:id="ref-y.06" n="Toharot">
+            <xi:include href="ref-y/ref-y-0601-w-sep.xml"/>
+         </div>
+      </body>
+   </text>
+</TEI>

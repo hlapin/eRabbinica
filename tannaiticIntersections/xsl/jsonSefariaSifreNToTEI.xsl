@@ -34,9 +34,7 @@
    <xsl:variable name="punctChars">\.,!:;?\|\-–—</xsl:variable>
 
    <xsl:template name="startSingle">
-      <!--<xsl:message select="string($k-vPairs/key('biblRabb','חולין')/@v)"/>
-      <xsl:message select="$k-vPairs/key('gematria','א')/@v"/>-->
-      <!--<xsl:copy-of select="json-to-xml(unparsed-text(encode-for-uri(concat($pathToFile, $fName))))"></xsl:copy-of>-->
+      
       <xsl:apply-templates
          select="json-to-xml(unparsed-text(encode-for-uri(concat($pathToFile, $fName))))/*"/>
 
@@ -233,15 +231,16 @@
       <xsl:param name="str"/>
       <xsl:analyze-string select="$str" regex="\((.+?)\)">
          <xsl:matching-substring>
-            <xsl:message select="regex-group(1)"/>
             <!-- could do this more compactly -->
+            <xsl:variable name="removeMe">'"’“”‟׳״</xsl:variable>
+            <xsl:variable name="strippedTkns" select="translate(normalize-space(regex-group(1)),$removeMe,'')"/>
             <xsl:variable name="tkns"
                select="
                   if (starts-with(regex-group(1), 'משנה'))
                   then
-                     tokenize(normalize-space(substring-after(regex-group(1), 'משנה')), '\s')
+                     tokenize(normalize-space(substring-after($strippedTkns, 'משנה')), '\s')
                   else
-                     tokenize(normalize-space(regex-group(1)), '\s')"/>
+                     tokenize(normalize-space($strippedTkns), '\s')"/>
             <xsl:variable name="shamNisman"
                select="
                   for $t in 2 to 6
@@ -329,7 +328,6 @@
                      n="{regex-group(1)}"/>
                </xsl:otherwise>
             </xsl:choose>
-
          </xsl:matching-substring>
          <xsl:non-matching-substring>
             <xsl:call-template name="sqBrackets">
@@ -365,7 +363,6 @@
       <!--<xsl:variable name="regex">([&quot;&apos;])</xsl:variable>-->
       <xsl:analyze-string select="$str" regex="(\p{{IsHebrew}}*)([&apos;&quot;׳״])(\p{{IsHebrew}}*)">
          <xsl:matching-substring>
-            <xsl:message select="(regex-group(1), regex-group(3))"/>
             <xsl:choose>
                <xsl:when
                   test="string-length(regex-group(1)) &gt;= 1 and regex-group(2) = '&quot;' and string-length(regex-group(3)) &gt;= 1">

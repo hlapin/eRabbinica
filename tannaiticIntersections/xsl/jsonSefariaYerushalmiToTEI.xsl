@@ -7,7 +7,7 @@
    exclude-result-prefixes="tei xs xlink j local">
 
    <xsl:output indent="yes"/>
-   <xsl:param name="pathToFile" select="'../SefariaTannaitic/json/Yerushalmi/'"/>
+   <xsl:param name="pathToFile" select="'../xml/json/Yerushalmi/'"/>
    <xsl:param name="fName" select="'Jerusalem Talmud Peah - he - Mechon Mamre Talmud Yerushalmi.json'"/>
 <xsl:param name="localID" select="'ref-sifre-d'"></xsl:param>
 
