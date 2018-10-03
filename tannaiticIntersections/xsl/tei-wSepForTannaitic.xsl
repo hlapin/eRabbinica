@@ -5,7 +5,7 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xi xs local"
     version="2.0">
     <xsl:variable name="docs"
-        select="collection('../data/xml/?select=ref-y.xml;recurse=yes;on-error=warning')"/>
+        select="collection('../data/xml/?select=ref-*.xml;recurse=yes;on-error=warning')"/>
     <xsl:template name="start">
         <xsl:for-each select="$docs">
             <xsl:message select="substring-after(document-uri(.), 'xml/')"/>
