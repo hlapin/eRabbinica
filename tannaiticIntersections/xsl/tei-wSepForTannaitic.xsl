@@ -5,7 +5,7 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xi xs local"
     version="2.0">
     <xsl:variable name="docs"
-        select="collection('../data/xml/?select=ref-*.xml;recurse=yes;on-error=warning')"/>
+        select="collection('../data/xml/?select=ref-mek.xml;recurse=no;on-error=warning')"/>
     <xsl:template name="start">
         <xsl:for-each select="$docs">
             <xsl:message select="substring-after(document-uri(.), 'xml/')"/>
@@ -76,7 +76,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    <xsl:template match="text()[ancestor-or-self::*[self::ab | self::head | self::trailer]]">
+    <xsl:template match="text()[ancestor::body][ancestor-or-self::*[self::ab | self::head | self::trailer]]">
         <xsl:analyze-string select="." regex="\s+">
             <xsl:matching-substring>
                 <w/>
@@ -86,7 +86,7 @@
             </xsl:non-matching-substring>
         </xsl:analyze-string>
     </xsl:template>
-    <xsl:template match="ab | head | trailer">
+    <xsl:template match="(ab | head | trailer)[ancestor::body]">
         <xsl:variable name="tokenized">
             <xsl:apply-templates/>
         </xsl:variable>

@@ -4,7 +4,7 @@ import csv
 # "parameters"
 n = 3
 nEnd = 6
-inFName = "ref-plain"
+inFName = "ref-t-plain"
 moreThan = 5 #use to get above threshold
 #topN = 0 #use to set n most frequent
 

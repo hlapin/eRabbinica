@@ -84,7 +84,8 @@
       <!-- sub documents -->
       <xsl:variable name="pathIn" select="'../data/html/'"/>
       <xsl:variable name="pathOut" select="'../data/xml/ref-y/'"/>
-      <xsl:variable name="docs" select="collection(concat($pathIn, '?select=*.xml?;recurse=yes'))"/>
+      <xsl:variable name="docs"
+         select="collection(concat($pathIn, '?select=ref-y*.xml?;recurse=yes'))"/>
       <xsl:for-each select="$docs">
          <xsl:sort select="root/@id" order="ascending"/>
          <xsl:result-document href="{concat($pathOut,'ref-y-',/root/@id,'.xml')}" method="xml"
@@ -94,16 +95,7 @@
       </xsl:for-each>
 
       <!-- containing documents -->
-      <xsl:processing-instruction name="xml-model">
-                <xsl:text>type="application/xml" </xsl:text>
-  <xsl:text>href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" </xsl:text>
-                <xsl:text>schematypens="http://relaxng.org/ns/structure/1.0"</xsl:text>
-            </xsl:processing-instruction>
-      <xsl:processing-instruction name="xml-model">
-                <xsl:text>type="application/xml" </xsl:text>
-  <xsl:text>href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"</xsl:text>
-                 <xsl:text>schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:text>
-            </xsl:processing-instruction>
+
       <TEI xml:id="ref-y" xmlns:xi="http://www.w3.org/2001/XInclude">
          <xsl:copy-of select="$teiHeader"/>
          <text>
@@ -168,8 +160,8 @@
       <xsl:message>
          <xsl:value-of select="root/@*"/>
       </xsl:message>
-      <xsl:variable name="chaptersHeads">
-         <xsl:variable name="regex" select="'.*(פרק [א-ת]{1,2}\s+.*הלכה\s+א\s+גמרא.*).*'"/>
+      <xsl:variable name="regex" select="'.*(פרק [א-ת]{1,2}\s+.*הלכה\s+א\s+גמרא.*).*'"/>
+      <xsl:variable name="chaptersHeads" as="element()*">
          <xsl:for-each select="root/body/div/p/b[not(contains(., 'משנה'))]">
             <xsl:choose>
                <xsl:when test="not(preceding::b)">
@@ -183,6 +175,26 @@
          </xsl:for-each>
       </xsl:variable>
       <div type="tractate" xml:id="{$tractID}" n="{$name}"
+         xmlns:xi="http://www.w3.org/2001/XInclude">
+         <xsl:for-each-group select="/root/body/div/p"
+            group-starting-with="p[exists(b intersect $chaptersHeads)]">
+            <xsl:variable name="chaptID"
+               select="
+                  concat($tractID, '.', for $i in 1 to count($chaptersHeads)
+                  return
+                     $i[$chaptersHeads[$i] is current-group()[1]/b[1]])"/>
+            <xsl:if test="matches(current-group()[1], $regex)">
+               <div type="chapter" xml:id="{$chaptID}">
+                  <ab xml:id="{$chaptID}.00">
+                     <xsl:apply-templates
+                        select="current-group()[not(self::p[contains(b, 'משנה')])]"
+                     />
+                  </ab>
+               </div>
+            </xsl:if>
+         </xsl:for-each-group>
+      </div>
+      <!--<div type="tractate" xml:id="{$tractID}" n="{$name}"
          xmlns:xi="http://www.w3.org/2001/XInclude">
          <xsl:for-each select="$chaptersHeads/b">
             <xsl:variable name="this" select="."/>
@@ -210,7 +222,7 @@
                </xsl:otherwise>
             </xsl:choose>
          </xsl:for-each>
-      </div>
+      </div>-->
    </xsl:template>
    <xsl:template match="p">
       <xsl:apply-templates/>
@@ -249,8 +261,8 @@
             <seg type="type-1" rend="square_brackets">
                <!--<xsl:value-of select="regex-group(1)"/>-->
                <xsl:call-template name="parens">
-                        <xsl:with-param name="str" select="regex-group(1)"/>
-                     </xsl:call-template>
+                  <xsl:with-param name="str" select="regex-group(1)"/>
+               </xsl:call-template>
             </seg>
          </xsl:matching-substring>
          <xsl:non-matching-substring>
@@ -267,9 +279,9 @@
             <xsl:variable name="toTest" select="normalize-space(regex-group(1))"/>
             <xsl:variable name="results"
                select="
-               for $t in tokenize($toTest, ';')
-               return
-               local:convertCrossRefs($t)"/>
+                  for $t in tokenize($toTest, ';')
+                  return
+                     local:convertCrossRefs($t)"/>
             <xsl:choose>
                <xsl:when test="$results[self::*:use]">
                   <ref target="{string-join($results[self::*:use],' ')}"

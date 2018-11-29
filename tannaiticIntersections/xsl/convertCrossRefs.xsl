@@ -10,7 +10,6 @@
     <xsl:key name="gematria" match="local:letter" use="@k"/>
     <xsl:function name="local:convertCrossRefs">
         <xsl:param name="str"/>
-        
                 <!-- could do this more compactly -->
                 <xsl:variable name="removeMe">'"’“”‟׳״</xsl:variable>
                 <xsl:variable name="strippedTkns" select="translate(normalize-space($str),$removeMe,'')"/>

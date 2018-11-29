@@ -109,9 +109,13 @@ def reducedTokenList(plainTxtList, idListF):
 		isListReader = csv.reader (idList, delimiter = ',')
 		idItems = list(list(r) for r in csv.reader(idList, delimiter=','))
 	
+
+
 	outList = []
 	j=0
 	i=0
+
+
 	while i <= len(idItems):
 		#should use try ...
 		if j < len (plainTxtList) -1 :
@@ -119,12 +123,13 @@ def reducedTokenList(plainTxtList, idListF):
 			if idItems[i][1] == compString[0]:
 				idItems[i][1] = plainTxtList[j]
 				outList.append(idItems[i])
-				#print idItems[i][1] + ' ' + plainTxtList[j]
+				#print outList[i]
+				#print str(i) + ': ' + idItems[i][1] + ' ' + plainTxtList[j]
 				i= i + len(compString)
+			else: i = i + 1	
 			j=j+1
 		else:
+
 			i=i+1
 	
 	return outList
-
-

@@ -5,10 +5,11 @@ import os
 import shutil
 
 #'parameters'
-plainTxtF = "ref-plain"
-tokensListWIds = "ref"
+plainTxtF = "ref-t-plain"
+tokensListWIds = "ref-t"
 nGramsList = ""
 
+print "starting"
 #these go into file name
 n = 3 			#smaller n in tested range of nGrams
 nEnd = 6 		#larger n for nGrams
