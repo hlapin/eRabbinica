@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ref-b">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An Electronic Edition of the Babylonian Talmud</title>
+            <editor>
+               <persName corresp="ref.xml#HL">Hayim Lapin</persName>
+            </editor>
+            <respStmt>
+               <resp>file conversion</resp>
+               <persName corresp="ref.xml#HL">Hayim Lapin</persName>
+            </respStmt>
+            <respStmt>
+               <resp>transcription</resp>
+               <orgName corresp="ref.xml#Responsa">Responsa Project</orgName>
+            </respStmt>
+            <sponsor n="primary">Joseph and Rebecca Meyerhoff Center for Jewish
+                        Studies</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica</publisher>
+            <pubPlace>...</pubPlace>
+            <address>
+               <addrLine>...</addrLine>
+            </address>
+            <idno type="local">ref-mek</idno>
+            <availability status="restricted">
+               <p>This work is copyright Hayim Lapin and the Joseph and Rebecca Meyerhoff
+                            Center for Jewish Studies and licensed under a <ref target="http://creativecommons.org/licenses/by-sa/4.0//">Creative
+                                Commons Attribution International 4.0 License</ref>.</p>
+            </availability>
+            <pubPlace>College Park, MD USA</pubPlace>
+            <date>2018-09-03</date>
+         </publicationStmt>
+         <notesStmt>
+            <note>
+               <p>Mekhilta from <ref target="http://www.daat.ac.il/daat/tanach/mehilta/tohen2.htm">Daat</ref>.</p>
+               <p>Divisions restored to Lauterbach's division of the text</p>
+               <p>Edited and converted by TEI/XML by Hayim Lapin</p>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct xml:id="tba">
+               <monogr>
+                  <title xml:lang="en">Babylonian Talmud based on the Vilna
+                                Printing</title>
+                  <title xml:lang="he">תלמוד בבלי ע"פ דפוס וילנא</title>
+                  <imprint n="1">
+                     <pubPlace>...</pubPlace>
+                     <publisher>...</publisher>
+                     <date>...</date>
+                  </imprint>
+               </monogr>
+               <note type="nli-ref">...</note>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl/>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2018-09-02" who="ref.xml#HL">Begun editing and tagging</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-1.01-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-2.02-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-2.03-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-2.04-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-2.06-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-2.07-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-2.08-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-2.09-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-2.10-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-2.11-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-2.12-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-2.13-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-3.01-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-3.02-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-3.03-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-3.04-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-3.05-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-3.06-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-3.07-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-4.01-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-4.02-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-4.03-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-4.04-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-4.05-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-4.06-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-4.08-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-4.10-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-5.01-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-5.02-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-5.03-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-5.04-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-5.05-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-5.06-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-5.07-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-5.08-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-5.09-w-sep.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ref-b/ref-b-6.07-w-sep.xml"/>
+      </body>
+   </text>
+</TEI>

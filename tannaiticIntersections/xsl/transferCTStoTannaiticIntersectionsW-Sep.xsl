@@ -11,13 +11,13 @@
         select="'file:///C:/Users/hlapin/Documents/GitHub/eRabbinica/tannaiticIntersections/data/xml/w-sep/'"/>
     <xsl:variable name="ref-name"
         select="
-            if ($src = 'bible') then
-                'ref-bible'
-            else
-                if ($src = 'talmud') then
-                    'ref-b'
-                else
-                    ()"/>
+        if ($src = 'bible') then
+        'ref-bible'
+        else
+        if ($src = 'talmud') then
+        'ref-b'
+        else
+        ()"/>
     <xsl:variable name="teiHeader-bible">
         <teiHeader>
             <fileDesc>
@@ -126,8 +126,8 @@
                 <notesStmt>
                     <note>
                         <p>Mekhilta from <ref
-                                target="http://www.daat.ac.il/daat/tanach/mehilta/tohen2.htm"
-                                >Daat</ref>.</p>
+                            target="http://www.daat.ac.il/daat/tanach/mehilta/tohen2.htm"
+                            >Daat</ref>.</p>
                         <p>Divisions restored to Lauterbach's division of the text</p>
                         <p>Edited and converted by TEI/XML by Hayim Lapin</p>
                     </note>
@@ -172,13 +172,13 @@
                 <body>
                     <xsl:variable name="elemstoProcess"
                         select="
-                            if ($src = 'bible') then
-                                /local:bibleRabbRefValues/local:bibBookNameNum
-                            else
-                                if ($src = 'talmud') then
-                                    /local:bibleRabbRefValues/local:tractNameNum
-                                else
-                                    ()"/>
+                        if ($src = 'bible') then
+                        /local:bibleRabbRefValues/local:bibBookNameNum
+                        else
+                        if ($src = 'talmud') then
+                        /local:bibleRabbRefValues/local:tractNameNum
+                        else
+                        ()"/>
                     <xsl:for-each select="$elemstoProcess/local:item">
                         <xsl:variable name="pathToTake">
                             <xsl:choose>
@@ -253,7 +253,7 @@
             <xsl:apply-templates> 
                 <xsl:with-param name="wPrefix" select="concat($abID,'.',@n)"/>
             </xsl:apply-templates>
-
+            
         </ab>
     </xsl:template>
     <xsl:template match="tei:ab[not(tei:w)]">
@@ -291,5 +291,8 @@
                 </w>
             </xsl:when>
         </xsl:choose>
+    </xsl:template>
+    <xsl:template match="tei:*[ancestor::tei:ab]">
+        <xsl:copy-of select="."></xsl:copy-of>
     </xsl:template>
 </xsl:stylesheet>
