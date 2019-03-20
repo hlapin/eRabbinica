@@ -3,7 +3,7 @@ import os
 import itertools
 import jellyfish
 #why this syntax?
-from operator  import itemgetter
+from operator import itemgetter
 
 
 #read list of nGrams from file,

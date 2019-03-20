@@ -4,7 +4,7 @@ import csv
 # "parameters"
 n = 3
 nEnd = 6
-inFName = "ref-t-plain"
+inFName = "ref-sifrei-d-plain"
 moreThan = 5 #use to get above threshold
 #topN = 0 #use to set n most frequent
 

@@ -77,8 +77,8 @@ def sortByFreq(freqList, beg, end):
 #also writes new data to new file
 #is it "good form" to have a single function do two different things"
 def replaceNGramWToken(strFile,nGrFile):
-	#empties the redeuced text file to start over.
-	open(strFile + "_reduced.txt","w").close()
+	#empties the reduced text file to start over.
+	open(strFile + "-reduced.txt","w").close()
 
 	f1 = open(strFile + ".txt", "r")
 	text = f1.read()
