@@ -19,7 +19,7 @@
                 <xsl:when test="$mode = 'w2vec'">
                     <xsl:message select="concat($pathOut,'w2vec/', tei:TEI/@xml:id, '-w2vec.txt')"/>
                     <xsl:result-document encoding="UTF-8" method="text"
-                        href="{concat($pathOut,'w2vec/',tei:TEI/@xml:id,'-w2vec.txt')}">
+                        href="{concat($pathOut,'w2vec/',tei:TEI/@xml:id,'-w2vec.txt')}" byte-order-mark="no">
                         <xsl:apply-templates select=".//tei:ab" mode="w2vec">
                             <xsl:with-param name="mode" select="'plain'" tunnel="yes"/>
                         </xsl:apply-templates>
