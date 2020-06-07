@@ -47,7 +47,7 @@
             </xsl:choose>
         </xsl:for-each>
     </xsl:template>
-    <xsl:template match="tei:ab" mode="w2vec">
+    <xsl:template match="tei:ab[normalize-space()]" mode="w2vec">
         <xsl:param name="mode" tunnel="yes"/>
         <xsl:if test="ancestor::tei:div2/tei:div3[1]/tei:ab[1] is .">
             <xsl:message><xsl:value-of select="@xml:id"/></xsl:message>
