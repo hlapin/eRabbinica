@@ -3,6 +3,9 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs"
     xmlns:tei="http://www.tei-c.org/ns/1.0" version="2.0">
     <xsl:strip-space elements="*"/>
+    
+    <!-- note :: kinda kludgy to deal with punctuation marks and numerals in data -->
+    
     <xsl:param name="pathIn" select="'../data/xml/w-sep/'"/>
     <xsl:param name="pathOut" select="'../data/txt/'"/>
     <xsl:param name="mode" select="'w2vec'">
@@ -12,7 +15,7 @@
         <!-- plain: each token one line -->
         <!-- ids: each line xml:id, token -->
     </xsl:param>
-    <xsl:variable name="docs" select="collection(concat($pathIn, '?select=ref-t.xml?;recurse=no'))"/>
+    <xsl:variable name="docs" select="collection(concat($pathIn, '?select=ref-*.xml?;recurse=no'))"/>
     <xsl:template name="startFromCollection">
         <xsl:for-each select="$docs">
             <xsl:choose>
@@ -65,13 +68,20 @@
                 <xsl:value-of select="@xml:id"/>
                 <xsl:text>,</xsl:text>
             </xsl:if>
-            <xsl:value-of
-                select="
-                    translate(
-                    if (tei:choice) then
-                        tei:choice/tei:expan
-                    else
-                        ., $quots, '&#x5f3;&#x5f4;')"/>
+            <!-- some kludges to deal with messy text -->
+            <xsl:variable name="outStr">
+               <xsl:value-of
+                   select="
+                       translate(
+                       if (tei:choice) then
+                           tei:choice/tei:expan
+                       else
+                           ., $quots, '&#x5f3;&#x5f4;')"/>
+            </xsl:variable>  
+            <xsl:variable name="reduce" select="replace($outStr,'[A-Z\d,!?\.,:]+','')"/>
+            <xsl:if test="normalize-space($reduce)">
+                <xsl:value-of select="$reduce"/>
+            </xsl:if>
             <xsl:choose>
                 <xsl:when test="$mode = 'plain'">
                     <xsl:text>&#x20;</xsl:text>
