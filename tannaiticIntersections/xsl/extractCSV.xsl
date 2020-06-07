@@ -12,7 +12,7 @@
         <!-- plain: each token one line -->
         <!-- ids: each line xml:id, token -->
     </xsl:param>
-    <xsl:variable name="docs" select="collection(concat($pathIn, '?select=ref-*.xml?;recurse=no'))"/>
+    <xsl:variable name="docs" select="collection(concat($pathIn, '?select=ref-t.xml?;recurse=no'))"/>
     <xsl:template name="startFromCollection">
         <xsl:for-each select="$docs">
             <xsl:choose>
