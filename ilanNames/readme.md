@@ -5,7 +5,7 @@
 Records
 
 ```xml
-        <listPerson xml:id="Abshalom" n="אבשלום">
+<listPerson xml:id="Abshalom" n="אבשלום">
             <!-- ... -->        
             <person xml:id="vol-2-B_M-d1e722" n="Abshalom-2">
                <sex cert="high">M</sex>
