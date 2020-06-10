@@ -5,39 +5,35 @@
 Records
 
 ```
-         <listPerson xml:id="eg_Abraham">
-            <!-- use @corresp rather than nymRef on individual names? -->
-            <person xml:id="ID" n="eg_Abraham_1" corresp="#some_key_to_original_publication_by_vol_ch_entry?">
-               <!-- as many as necessary to cover different spellings, renderings, transcriptions -->
-               <sex cert="may_be_useful_to_indicate"></sex>
-               <persName type="full" xml:lang="en">Full name as cited in English</persName>
-               <persName type="full" xml:lang="original_language_code">Full name as cited in source language</persName>
-               <persName nymRef="#nym_main_or_form">
-                  <name></name>
-                  <addName type="eg_toponym">
-                     <placeName></placeName>
-                  </addName>
-                  <addName type="eg_Patronymic"></addName>
+         <listPerson xml:id="Abshalom" n="אבשלום">
+            <!-- ... -->        
+            <person xml:id="vol-2-B_M-d1e722" n="Abshalom-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אבשלום<ref corresp="#d1e675"/>
                </persName>
-               <persName> ... </persName>
-               <floruit notBefore="2019" notAfter="2020"></floruit>
-               <listRelation> <!-- NB: invalid here under default TEI-all -->
-                  <!-- as many as necessary to cover family, associates, disciples etc. -->
-                  <relation key="is-related-by_some_key"></relation>
-               </listRelation>
-               <bibl><!-- for the most part field "S[ource]" from the original --></bibl>
-               <!-- may make sense to keep notes elsewere at some point but for now keep with record. -->
-               <note></note>
-               <note></note>
-               
-               <!-- one or more of these as needed, or @xml:id -->
-               <idno></idno>
+               <persName type="lemma" xml:lang="en">Abshalom</persName>
+               <persName xml:lang="he-or-aram">אבטולמוס<ref corresp="#d12e3"/>
+               </persName>
+               <persName xml:lang="he-or-aram">/אבטלמס<ref corresp="#d12e11"/>
+               </persName>
+               <persName xml:lang="he-or-aram">/אבטלוס<ref corresp="#d12e19"/>
+               </persName>
+               <persName xml:lang="he-or-aram">/אבישלום<ref corresp="#d12e27"/>
+               </persName>
+               <state type="desc">
+                  <note>Simon (31)’s father</note>
+               </state>
+               <bibl>bBer7b<ref corresp="#d1e765"/>(Kosowsky,Babylonico, 1686)</bibl>
+               <floruit>Pre-400<ref corresp="#d1e788"/>
+               </floruit>
+               <note xml:id="d1e726" n="2">So in the printed version tobBB68a, This person was obviously not well known, and his name was not stable so that the scribes of the mss were not sure how to write it, see vol. 4, Introduction 5.1.1.2.1.1, pp. 23-4. For this form see vol. 1, under Eutolmus (3) G/M, p. 279. Perhaps this was his name, and אבשלום is a scribal “correction” see vol. 4, Introduction 2.7.2, p. 18.</note>
+               <note xml:id="d1e733" n="3">So in the Vatican 115 Ms tobBB68a, see previous note. On the form אבטולמוס see previous note. On the fall of the וs see vol. 4, Introduction 2.3.5.4, p. 13.</note>
+               <note xml:id="d1e740" n="4">So in the Florence II-I-9 Ms tobBB68a, see above, n. 3. For this form see vol. 1, under Eutolmus (2) G/M, p. 279.</note>
+               <note xml:id="d1e747" n="5">So in the printed versions ofbBer7b, see above, n. 3. For this form see vol. 1, under Abshalom (6) B/M, p. 60.</note>
+               <note xml:id="d1e765" n="6">Although mentioned only in BT, his son is designated רבי in all the traditions in which he is mentioned (bBer7a;bMeg14a andbBB68a), see Introduction 5.1.3.2.2 and transmits traditions in Hebrew, see Introduction 5.1.3.2.5.</note>
+               <note xml:id="d1e788" n="7">Mentioned in no chronological context, see Introduction 7.4.4.</note>
             </person>
-            <person xml:id="ID2" n="eg_Abraham_2" corresp="#some_key_to_original_publication_by_vol_ch_entry?"></person>
-         </listPerson>
-         <listPerson xml:id="eg_Abshalom">
-            <person>
-               <persName></persName></person>
+            <!-- ... -->            
          </listPerson>
 ```
 
