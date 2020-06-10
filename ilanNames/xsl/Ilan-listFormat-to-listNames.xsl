@@ -37,7 +37,6 @@
     <xsl:template match="/TEI/text/body/p"/>
     <xsl:template match="/TEI/text/body/list | /TEI/text/body/div/list">
         <!-- cleaner way to do this? -->
-        <xsl:message select="preceding-sibling::p[1]/hi[last()]/text()[starts-with(.,'– ')]"></xsl:message>
         <listPerson xml:id="{if (starts-with(preceding-sibling::p[1]/hi[last()],'– ')) then substring-after(preceding-sibling::p[1]/hi[last()],'– ')
             else preceding-sibling::p[1]/hi[last()]}"
             n="{preceding-sibling::p[1]/hi[1]}">

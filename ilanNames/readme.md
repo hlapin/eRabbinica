@@ -5,6 +5,11 @@
 Records
 
 ```
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader> <!-- --> </teiHeader>
+   <text>
+      <body>
          <listPerson xml:id="Abshalom" n="אבשלום">
             <!-- ... -->        
             <person xml:id="vol-2-B_M-d1e722" n="Abshalom-2">
@@ -48,6 +53,9 @@ Possibly elsehwere
             <!-- eventually just link to authority file? -->
             <place></place>
          </listPlace>
+     </body>         
+  </text>         
+</TEI>         
 ```
 
 Note: current step doc/docx to TEI
