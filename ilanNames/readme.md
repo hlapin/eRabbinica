@@ -4,8 +4,7 @@
 
 Records
 
-```
-<?xml version="1.0" encoding="UTF-8"?>
+```xml
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader> <!-- --> </teiHeader>
    <text>
