@@ -143,17 +143,21 @@
             </xsl:choose>
         </persName>
     </xsl:template>
-    <!--<xsl:template match="hi" mode="names">
-        <persName type="orthographic">
-            <xsl:if
+    <xsl:template match="hi" mode="fn">
+        <xsl:choose>
+            <xsl:when
                 test="matches(@style, '(Coptic|Graeca)') or matches(text(), '(\p{IsArabic}|\p{IsHebrew})')">
+                <span>
+                    <xsl:call-template name="lang"/>
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
 
-                <xsl:call-template name="lang"/>
-
-            </xsl:if>
-            <xsl:apply-templates/>
-        </persName>
-    </xsl:template>-->
+    </xsl:template>
     <xsl:template match="text()" mode="names">
         <persName type="orth">
             <xsl:value-of select="."/>
@@ -165,15 +169,16 @@
     <xsl:template name="lang">
         <xsl:attribute name="xml:lang"
             select="
-                if (matches(@style, 'Graeca')) then
-                    'gr'
-                else if (matches(@style, 'Coptic')) then
-                        'cop'
-                else if (matches(text(), '\p{IsArabic}')) then
-                            'ar'
-                else if (matches(text(), '\p{IsHebrew}')) then
-                                'he-or-aram'
-                else 'checkme'"> </xsl:attribute>
+                if (some $s in @style satisfies matches($s, 'Graeca')) then
+                'gr'
+                else if (some $s in @style satisfies matches($s, 'Coptic')) then
+                'cop'
+                else if (some $t in text() satisfies matches($t, '\p{IsArabic}')) then
+                'ar'
+                else if (some $t in text() satisfies matches($t, '\p{IsHebrew}')) then
+                'he-or-aram'
+                else 'checkme'">
+        </xsl:attribute>
     </xsl:template>
     <!--<xsl:template match="list">
         <xsl:apply-templates/>
@@ -188,7 +193,7 @@
         <xsl:variable name="this" select="."/>
         <note xml:id="{generate-id()}"
             n="{for $i in (1 to count($seq)) return $i[$seq[$i] is $this]}" >
-            <xsl:apply-templates select="p/node()"/>
+            <xsl:apply-templates select="p/node()" mode="fn"/>
         </note>
     </xsl:template>
     <xsl:template match="text()" priority="1">
