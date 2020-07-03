@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Samuel-60/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e49135-person" n="vol-2-P_M-Samuel-60">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שמואל<ref corresp="#d2e46885"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Samuel</persName>
+               <persName xml:lang="checkme">–<ref corresp="#d1248e3"/>
+               </persName>
+               <persName xml:lang="checkme"/>
+               <state type="desc">
+                  <note>Artist<ref corresp="#d2e49146"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Graffiti on a fresco, Mampsis<ref corresp="#d2e49156"/>
+                  </note>
+               </state>
+               <bibl>Negev,Masters of the Desert, 189</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref corresp="#d2e49170"/>
+                  </note>
+               </state>
+               <floruit>Pre-222<ref corresp="#d2e49180"/>
+               </floruit>
+               <note xml:id="d2e49139" n="109"> It is not clear in
+                                which alphabet the name appears. Negev reports about it in this
+                                early popular publication but not in his final report (see next
+                                note). It may have been in Greek or in Nabatean. I present it here
+                                in Hebrew because Negev’s publication is in this language, see
+                                Introduction 2.4.</note>
+               <note xml:id="d2e49146" n="110"> In this popular book in Hebrew, Negev
+                                writes: “Samuel, the artist who produced this fresco, signed his
+                                name under one of his paintings” (translation and paraphrase mine).
+                                Nowhere (not even in his book Greek Inscriptions from the Negev (Jerusalem 1981), where he published all
+                                other inscriptions from Mampsis, and mentioned the exact fresco he
+                                claims this Samuel has painted, has he published this
+                                inscription.</note>
+               <note xml:id="d2e49156" n="111"> In the
+                            Negev.</note>
+               <note xml:id="d2e49170" n="112">According to J.
+                                Goodman, “The Frescoes in Building XII,” in A. Negev (ed.), The Architecture of Mampsis, Final Report. Vol I: The Middle and Late Nabatean Period (Qedem
+                                26; Jerusalem 1988) 147, the frescoes are no older than 222 and thus
+                                are unlikely to be Christian. The name is, therefore, Jewish and so
+                                must the artist have been.</note>
+               <note xml:id="d2e49180" n="113"> See previous note.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Isaac-14/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e32379-person" n="vol-2-B_M-Isaac-14">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יצחק</persName>
+               <persName type="lemma" xml:lang="en">Isaac</persName>–<state type="desc">
+                  <note>Ṭavla (1)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yDem2:1, 22d (Kosovsky,Yerushalmi, 288)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#d2e32408"/>
+               </floruit>
+               <note xml:id="d2e32408" n="23"> Was a student of Rabbi Yohanan (10) see
+                                Introduction 7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Simon-85/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e52795-person" n="vol-2-P_M-Simon-85">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שמעון<ref corresp="#d2e49692"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Simon</persName>
+               <persName xml:lang="gr"><ref corresp="#d1347e5"/>
+               </persName>
+               <persName xml:lang="checkme"/>
+               <state type="desc">
+                  <note>Yohanan (32)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>Oil lamp, Jersualem</note>
+               </state>
+               <bibl>Loffreda,LA44 (1994) 595</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref corresp="#d2e52821"/>
+                  </note>
+               </state>
+               <floruit>–<ref corresp="#d2e52828"/>
+               </floruit>
+               <note xml:id="d2e52801" n="174"> See above, n. 96.</note>
+               <note xml:id="d2e52821" n="175"> The editor suggested that the persons
+                                mentioned on this lamp were Jewish because of their names, and
+                                because this type of lamp was idenitifed as being in use by Jews,
+                                but at this time, both are not decisive, see Introduction 6.6.7, p.
+                                52.</note>
+               <note xml:id="d2e52828" n="176"> See above, n. 79.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

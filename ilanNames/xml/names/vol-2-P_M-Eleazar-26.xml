@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Eleazar-26/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e3746-person" n="vol-2-P_M-Eleazar-26">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אלעזר<ref corresp="#d2e2729"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Eleazar</persName>
+               <persName xml:lang="checkme">–</persName>
+               <state type="desc">
+                  <note>Benjamin (10)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>bHul19b<ref corresp="#d2e3762"/>(Kosowsky,Babylonico, 212)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-320<ref corresp="#d2e3776"/>
+               </floruit>
+               <note xml:id="d2e3762" n="63"> Although he appears only here in BT, he is
+                            consistently designated by the title רבי and transmits a tradition in
+                            Hebrew, see above, n. 60.</note>
+               <note xml:id="d2e3776" n="64">
+                            Naḥmani (1) B/M in vol. 4, p. 112 transmits in his name. This is the
+                            date of his death, see introduction 7.4.5.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

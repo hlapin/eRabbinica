@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Judah-100/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e18684-person" n="vol-2-P_M-Judah-100">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יהודה<ref corresp="#d2e15002"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Judah</persName>
+               <persName xml:lang="gr"><ref corresp="#d469e4"/>
+               </persName>
+               <state type="desc">
+                  <note>Elder<ref corresp="#d2e18695"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaph, Binyamina<ref corresp="#d2e18702"/>
+                  </note>
+               </state>
+               <bibl>Lehmann &amp; Holum,CMER5, no. 137</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>410/1<ref corresp="#d2e18719"/>
+               </floruit>
+               <note xml:id="d2e18689" n="225"> See above, no.
+                                141.</note>
+               <note xml:id="d2e18695" n="226"> In Greek – (). On this title see
+                                vol. 3, Introduction 6.4.1.2.2.5.3, p. 41.</note>
+               <note xml:id="d2e18702" n="227"> South of the
+                                Carmel.</note>
+               <note xml:id="d2e18719" n="228"> The inscription is dated according to the era
+                                of one of the coastal cities of Palestine, see Introduction
+                                7.5.4.3.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

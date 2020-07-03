@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Judah-115/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e19227-person" n="vol-2-B_M-Judah-115">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יהודה</persName>
+               <persName type="lemma" xml:lang="en">Judah</persName><ref type="note" corresp="#d484e4"/>
+               <state type="desc">
+                  <note>Tiberius (5)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>Curse amulet, Beth She’an</note>
+               </state>
+               <bibl>Youtie &amp; Bonner,APAT68 (1937) 75</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#d2e19254"/>
+               </floruit>
+               <note xml:id="d2e19232" n="262"> For this form,
+                                written in the reverse, see vol. 1, under Judah (77) B/M, p.
+                                115.</note>
+               <note xml:id="d2e19254" n="263"> See
+                                above, no. 148.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

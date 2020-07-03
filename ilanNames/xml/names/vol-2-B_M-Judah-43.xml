@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Judah-43/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e16628-person" n="vol-2-B_M-Judah-43">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יהודה</persName>
+               <persName type="lemma" xml:lang="en">Judah</persName>
+               <persName xml:lang="he">יודא On this form see vol. 4,
+                            under Judah (12) B/M, p.
+                    82.</persName>
+               <state type="desc">
+                  <note>Ṣereda (1)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yNed7:1, 40b (Kosovsky,Yerushalmi, 324)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-400<ref type="note" corresp="#d2e16657"/>
+               </floruit>
+               <note xml:id="d2e16632" n="93"> On this form see vol. 4,
+                            under Judah (12) B/M, p.
+                    82.</note>
+               <note xml:id="d2e16657" n="94"> See above, no.
+                        20.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

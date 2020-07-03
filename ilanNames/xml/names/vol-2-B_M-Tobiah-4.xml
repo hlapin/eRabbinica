@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Tobiah-4/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e14513-person" n="vol-2-B_M-Tobiah-4">
+               <sex cert="high">M</sex>
+               <persName type="lemma">טוביה</persName>
+               <persName type="lemma" xml:lang="en">Tobiah</persName>
+               <persName xml:lang="he">טובי See above, n.
+                    2.</persName>
+               <state type="desc">
+                  <note>Helkiah (2)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yBB3:3, 14a (Kosovsky,Yerushalmi, 260)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#d2e14545"/>
+               </floruit>
+               <note xml:id="d2e14517" n="7"> See above, n.
+                    2.</note>
+               <note xml:id="d2e14545" n="8"> His son was a contemporary of Gidol (3), who
+                            transmits in the name of Joseph (28), Rabbi Ami (1)’s companion, see
+                            Introduction 7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

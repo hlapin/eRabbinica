@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Jacob-61/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e31126-person" n="vol-2-P_M-Jacob-61">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יעקב<ref corresp="#d2e28803"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Jacob</persName>
+               <persName xml:lang="gr"><ref corresp="#d791e4"/>
+               </persName>
+               <state type="desc">
+                  <note>–</note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaph, Caesarea</note>
+               </state>
+               <bibl>Lehmann &amp; Holum,CMER5, no. 174</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref corresp="#d2e31156"/>
+                  </note>
+               </state>
+               <floruit>5th-7thC<ref corresp="#d2e31168"/>
+               </floruit>
+               <note xml:id="d2e31131" n="120"> For the form <span xml:lang="checkme"></span>see vol. 1, under Jacob
+                                (37) B/M, p. 172. The final <span xml:lang="checkme"></span>
+                                seems to be a uniquely Caesarean suffix of this name, and see also
+                                the Jacob (62) and Jacob (63),
+                        below.</note>
+               <note xml:id="d2e31156" n="121"> The inscription is
+                                accompanied by a menorah, see vol. 3, Introduction 6.3.1, p.
+                            35.</note>
+               <note xml:id="d2e31168" n="122"> See
+                                above, n. 95.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

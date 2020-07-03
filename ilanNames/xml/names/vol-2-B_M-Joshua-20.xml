@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Joshua-20/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e20159-person" n="vol-2-B_M-Joshua-20">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יהושע</persName>
+               <persName type="lemma" xml:lang="en">Joshua</persName>–<state type="desc">
+                  <note>Saraf (1)’s son, priest of Arbel<ref type="note" corresp="#d2e20166"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>SOZ9:6</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Post-270<ref type="note" corresp="#d2e20188"/>
+               </floruit>
+               <note xml:id="d2e20166" n="35"> In Hebrew – כהן מארבל, see Reeg, Ortsnamen, 56-7. On such designations see
+                                vol. 1, Introduction 3.2.5-6, pp.
+                        33-4.</note>
+               <note xml:id="d2e20188" n="36"> In this chronicle,
+                                just before he is mentioned, we are informed that 166 years after
+                                the destruction of the Temple there was a war between Rome and the
+                                Persians. He was therefore supposed to have lived shortly
+                                thereafter.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Jeremiah-3/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e34673-person" n="vol-2-B_M-Jeremiah-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ירמיה</persName>
+               <persName type="lemma" xml:lang="en">Jeremiah</persName>–<state type="desc">
+                  <note>Scribe<ref type="note" corresp="#d2e34680"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yBer4:1, 7c (Kosovsky,Yerushalmi, 464)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#d2e34706"/>
+               </floruit>
+               <note xml:id="d2e34680" n="3"> In Aramaic – ספרא. On this title see
+                                Introduction 3.1.2.4.</note>
+               <note xml:id="d2e34706" n="4"> Was a contemporary of Jeremiah (2), see
+                                above, n. 3.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

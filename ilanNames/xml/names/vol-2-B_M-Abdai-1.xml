@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Abdai-1/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e42028-person" n="vol-2-B_M-Abdai-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עבדי</persName>
+               <persName type="lemma" xml:lang="en">Abdai</persName>–<ref type="note" corresp="#d1073e3"/>
+               <state type="desc">
+                  <note>Priest, of the clan of Ithamar<ref type="note" corresp="#d2e42039"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Tulida124</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#d2e42051"/>
+                  </note>
+               </state>
+               <floruit>3rd-4thC<ref type="note" corresp="#d2e42064"/>
+               </floruit>
+               <note xml:id="d2e42032" n="1"> In the Samaritan
+                                script, see Introduction 2.5.1.</note>
+               <note xml:id="d2e42039" n="2"> On these see
+                                Introduction
+                        3.3.2.2.</note>
+               <note xml:id="d2e42051" n="3"> This is a Samaritan
+                                chronicle, see Introduction 5.1.2.1. All the persons mentioned in
+                                it, unless otherwise stated, are Samaritans, see Introduction
+                                6.1.2.</note>
+               <note xml:id="d2e42064" n="4"> Was a contemporary of
+                                Baba Rabba (Bebai [1]). These are his dates, see Introdution
+                                7.2.3.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

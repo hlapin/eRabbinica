@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Judah-19/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e15732-person" n="vol-2-P_M-Judah-19">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יהודה<ref corresp="#d2e15002"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Judah</persName>
+               <persName xml:lang="checkme">יודן<ref corresp="#d388e3"/>
+               </persName>
+               <state type="desc">
+                  <note>Dorotheus (1)’s son<ref corresp="#d2e15742"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yPea1:1, 15d (Kosovsky,Yerushalmi, 184)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-400<ref corresp="#d2e15768"/>
+               </floruit>
+               <note xml:id="d2e15736" n="46"> See above, no.
+                    22.</note>
+               <note xml:id="d2e15742" n="47">
+                            Probably not identical with Judah (63) B/M of vol. 1 (p. 114) because he
+                            transmits a tradition in the name of Rabbi Simon bar Yohai (Simon [51]
+                            son of Yohanan [32] vol. 1, p. 220) who is later. In volume 1, I
+                            probably gave the wrong reference. It should have been
+                            bPes70b.</note>
+               <note xml:id="d2e15768" n="48"> See above, no.
+                        20.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

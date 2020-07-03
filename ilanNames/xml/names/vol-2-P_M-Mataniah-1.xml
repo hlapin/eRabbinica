@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Mataniah-1/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e39353-person" n="vol-2-P_M-Mataniah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מתניה<ref corresp="#d2e39343"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Mataniah</persName>
+               <persName xml:lang="checkme">–</persName>
+               <state type="desc">
+                  <note>–</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yBer2:4, 5a (Kosovsky,Yerushalmi, 541-2)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>4thC<ref corresp="#d2e39382"/>
+               </floruit>
+               <note xml:id="d2e39382" n="1"> Was
+                                associated with the general Ursicinus, who was active in Palestine
+                                in the year 351-2
+                                (yBes1:7, 60c), see
+                                Introduction 7.4.3.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

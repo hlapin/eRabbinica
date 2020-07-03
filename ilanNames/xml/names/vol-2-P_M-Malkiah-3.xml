@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Malkiah-3/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e37638-person" n="vol-2-P_M-Malkiah-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מלכיה<ref corresp="#d2e37557"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Malkiah</persName>
+               <persName xml:lang="checkme">מלוך<ref corresp="#d964e3"/>
+               </persName>
+               <persName xml:lang="checkme"/>
+               <state type="desc">
+                  <note>–</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>ySuk3:1, 53c (Kosovsky,Yerushalmi, 519)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref corresp="#d2e37670"/>
+               </floruit>
+               <note xml:id="d2e37642" n="6"> On such kern forms
+                                see vol. 1, Introduction 2.6.2, p. 29. The additional ו is probably
+                                an indication of a pronounciation based on dialect, see vol. 4,
+                                Introoduction 2.3.5.1, p. 13.</note>
+               <note xml:id="d2e37670" n="7"> Transmits in the name of the last tannaim,
+                                see Introduction 7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

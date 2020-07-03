@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Jacob-69/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e31451-person" n="vol-2-B_M-Jacob-69">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יעקב</persName>
+               <persName type="lemma" xml:lang="en">Jacob</persName><ref type="note" corresp="#d799e4"/>
+               <state type="desc">
+                  <note>Alexander (12)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>Sarcophagus, Gilboa</note>
+               </state>
+               <bibl>Lifschitz,RB76 (1969) 92</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#d2e31475"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#d2e31481"/>
+               </floruit>
+               <note xml:id="d2e31456" n="145"> See above, n.
+                                102.</note>
+               <note xml:id="d2e31475" n="146"> See above, n.
+                                125.</note>
+               <note xml:id="d2e31481" n="147"> See
+                                above, n. 75.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

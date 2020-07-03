@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Shabtai-2/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e46001-person" n="vol-2-B_M-Shabtai-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שבתי</persName>
+               <persName type="lemma" xml:lang="en">Shabtai</persName>
+               <persName xml:lang="he">שובתי See above, n. 2.
+                            </persName>
+               <state type="desc">
+                  <note>Of Zaduka<ref type="note" corresp="#d2e46011"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yShevi2:5, 34a (Kosovsky,Yerushalmi, 593)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#d2e46040"/>
+               </floruit>
+               <note xml:id="d2e46005" n="3"> See above, n. 2.
+                            </note>
+               <note xml:id="d2e46011" n="4"> In
+                                Aramaic – דצדוקי, see Reeg, Ortsnamen, 526.
+                                On such designations see vol. 1, Introduction 3.2.6, p.
+                            34.</note>
+               <note xml:id="d2e46040" n="5"> See above, n. 3.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

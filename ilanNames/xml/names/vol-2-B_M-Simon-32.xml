@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Simon-32/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e50829-person" n="vol-2-B_M-Simon-32">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שמעון</persName>
+               <persName type="lemma" xml:lang="en">Simon</persName>–<state type="desc">
+                  <note>Yohanan (1)’s student</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>bBer21b<ref type="note" corresp="#d2e50845"/>(Kosowsky,Babylonico, 1685)</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious?<ref type="note" corresp="#d2e50856"/>
+                  </note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#d2e50866"/>
+               </floruit>
+               <note xml:id="d2e50845" n="50"> Although mentioned
+                                only here in BT, he is designated רבי, see Introduction 5.1.3.2.2,
+                                and transmits traditions in the name of the Palestinian Rabbi
+                                Yohanan (1), see Introduction 5.1.3.2.3.</note>
+               <note xml:id="d2e50856" n="51"> The text tells of Abdimi (1) (S-H/M in vol. 4,
+                                318) coming to Babylonia and transmitting a tradition in his and
+                                Judah (47)’s name. Usually ר' יהודה ור' שמעון are the famous Judah
+                                (30) B/M vol.1, p. 113 and Simon (51) B/M vol. 1, p. 220, but they
+                                cannot be students of Yohanan (1). Thus I assume these are otherwise
+                                unknown students, from Palestine of course, although it cannot be
+                                ruled out that they are a literary invention of an early
+                            sage.</note>
+               <note xml:id="d2e50866" n="52">
+                                See Introduction 7.4.1. </note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

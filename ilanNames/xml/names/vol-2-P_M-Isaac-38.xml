@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Isaac-38/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e33302-person" n="vol-2-P_M-Isaac-38">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יצחק<ref corresp="#d2e31887"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Isaac</persName>
+               <persName xml:lang="checkme">–</persName>
+               <state type="desc">
+                  <note>Menahem (13)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>Midrash Tehilim34:2 (Hyman,Toldoth, 796)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-400<ref corresp="#d2e33328"/>
+               </floruit>
+               <note xml:id="d2e33328" n="59"> See
+                                above, n. 34.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

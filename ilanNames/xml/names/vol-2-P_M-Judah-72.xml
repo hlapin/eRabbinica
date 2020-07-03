@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Judah-72/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e17696-person" n="vol-2-P_M-Judah-72">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יהודה<ref corresp="#d2e15002"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Judah</persName>
+               <persName xml:lang="gr"><ref corresp="#d441e4"/>
+               </persName>
+               <state type="desc">
+                  <note>Archisynagogus<ref corresp="#d2e17707"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Synagogue inscription, Sepphoris, Ewing</note>
+               </state>
+               <bibl>CIJ991</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>4th-5thC</floruit>
+               <note xml:id="d2e17701" n="156"> On this form see vol.
+                                3, under Judah (47) B/M, p.
+                        97.</note>
+               <note xml:id="d2e17707" n="157"> In Greek - <span xml:lang="checkme"></span>. On this title
+                                see vol. 3, Introduction 6.4.1.2.2.5.1, p. 40.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

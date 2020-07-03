@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Abraham-5/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e517-person" n="vol-2-B_M-Abraham-5">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אברהם</persName>
+               <persName type="lemma" xml:lang="en">Abraham</persName>
+               <persName xml:lang="checkme">Abraha<ref type="note" corresp="#d12e3"/>
+               </persName>
+               <state type="desc">
+                  <note>The Syrian?<ref type="note" corresp="#d2e527"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaph, Celeia,<ref type="note" corresp="#d2e534"/>Diehl</note>
+               </state>
+               <bibl>CIJ91*</bibl>
+               <state type="addl-Descr">
+                  <note>Christian?<ref type="note" corresp="#d2e547"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#d2e554"/>
+               </floruit>
+               <note xml:id="d2e521" n="13"> For this form as being an
+                            abbreviation of the biblical name Abraham, in which the Hebrew suffix
+                            fell because it was interpreted as belonging to a misunderstood case
+                            system, see vol. 3, Introduction 2.2.1.1.6, p.
+                    12.</note>
+               <note xml:id="d2e527" n="14"> In Latin –
+                            Sir[..], see vol. 1, Introduction 3.2.6, p. 34.</note>
+               <note xml:id="d2e534" n="15"> Near Venice , in
+                        Italy.</note>
+               <note xml:id="d2e547" n="16"> The name and
+                            provenance made editors consider it Jewish, but the name was also common
+                            among Syrian Christians, see vol. 3, Introduction 6.6.7, p.
+                        52.</note>
+               <note xml:id="d2e554" n="17"> The inscription is not dated. Late antique date
+                            presumed, see vol. 3, Introduction 8.3, p. 60.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

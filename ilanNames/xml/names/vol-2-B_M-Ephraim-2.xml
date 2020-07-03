@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Ephraim-2/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e5239-person" n="vol-2-B_M-Ephraim-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אפרים</persName>
+               <persName type="lemma" xml:lang="en">Ephraim</persName>
+               <persName xml:lang="he">אבירים/אבירם Both forms, as well as
+                            Epraim, are found in ms versions of Est Rab, see
+                                http://www.schechter.ac.il/pdf/ה.pdf. The name is unstable
+                            because the person was obviously unknown to the scribes, see vol. 4,
+                            Introduction 5.2.1.1.2.1.1, pp. 23-4. אבירם is also a biblical name, see
+                            Num 16:1. </persName>
+               <persName xml:lang="he">/בודי/בירי/ברי All three forms are found in ms versions of
+                            Midrash Shmuel 13:6, which
+                            is the only other source in which he is mentioned, see previous note.
+                        </persName>
+               <state type="desc">
+                  <note>Joshua (19)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>Est Rab5:4 (Hyman,Toldoth, 620-1)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-400<ref type="note" corresp="#d2e5281"/>
+               </floruit>
+               <note xml:id="d2e5243" n="3"> Both forms, as well as
+                            Epraim, are found in ms versions of Est Rab, see
+                                http://www.schechter.ac.il/pdf/ה.pdf. The name is unstable
+                            because the person was obviously unknown to the scribes, see vol. 4,
+                            Introduction 5.2.1.1.2.1.1, pp. 23-4. אבירם is also a biblical name, see
+                            Num 16:1. </note>
+               <note xml:id="d2e5253" n="4"> All three forms are found in ms versions of
+                            Midrash Shmuel13:6, which
+                            is the only other source in which he is mentioned, see previous note.
+                        </note>
+               <note xml:id="d2e5281" n="5"> Mentioned in a
+                            Palestinian-amoraic source with no chronological context, see
+                            Introduction 7.4.4.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Hananiah-27/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e13148-person" n="vol-2-P_M-Hananiah-27">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חנניה<ref corresp="#d2e12221"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Hananiah</persName>
+               <persName xml:lang="checkme">חנינא<ref corresp="#d323e3"/>
+               </persName>
+               <persName xml:lang="checkme"/>
+               <state type="desc">
+                  <note>Kahai (1)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yPes2:7, 29c (Kosovsky,Yerushalmi, 276)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref corresp="#d2e13180"/>
+               </floruit>
+               <note xml:id="d2e13152" n="46"> See above, n. 5.</note>
+               <note xml:id="d2e13180" n="47"> Was a contemporary of Rabbi Mana (1), who was a
+                            contemporary of Rabbi Yohanan (1), see Introduction 7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

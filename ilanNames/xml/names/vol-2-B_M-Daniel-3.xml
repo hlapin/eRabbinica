@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Daniel-3/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e8596-person" n="vol-2-B_M-Daniel-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">דניאל</persName>
+               <persName type="lemma" xml:lang="en">Daniel</persName><ref type="note" corresp="#d204e4"/>
+               <state type="desc">
+                  <note>Ada (22)’s son, of Tyre<ref type="note" corresp="#d2e8607"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaph, Beit She‘arim, Avigad S:IJO3, Syr7</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#d2e8629"/>
+               </floruit>
+               <note xml:id="d2e8601" n="4"> For this form see vol. 3, under Daniel (1) B/M, p.
+                            83.</note>
+               <note xml:id="d2e8607" n="5">
+                            In Greek – <span xml:lang="gr"></span>. On
+                            such designtions see vol. 1, Introduction 3.2.6, p. 34.</note>
+               <note xml:id="d2e8629" n="6"> This is the
+                            year in which Beth She‘arim was destroyed, see Introduction
+                        7.5.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

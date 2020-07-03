@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Benjamin-1/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e6168-person" n="vol-2-P_M-Benjamin-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">בנימין<ref corresp="#d2e6156"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Benjamin</persName>
+               <persName xml:lang="gr"><ref corresp="#d146e4"/>
+               </persName>
+               <persName xml:lang="checkme"/>
+               <state type="desc">
+                  <note>Of Tiberias<ref corresp="#d2e6180"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>Theophanes,PG108, 676</bibl>
+               <state type="addl-Descr">
+                  <note>Christian convert<ref corresp="#d2e6199"/>
+                  </note>
+               </state>
+               <floruit>628<ref corresp="#d2e6212"/>
+               </floruit>
+               <note xml:id="d2e6173" n="1"> On this form see vol 1, Benjamin (1) B/M, p.
+                            82.</note>
+               <note xml:id="d2e6180" n="2"> Described in the text – <span xml:lang="checkme"></span> (in Tiberias). On
+                            such designations see vol. 1, Introduction 3.2.6, p.
+                    34.</note>
+               <note xml:id="d2e6199" n="3"> First he is
+                            described as of the <span xml:lang="checkme"></span>
+                            (the Christians). Then we are informed that <span xml:lang="checkme"></span> (for he had
+                            been Jewish).</note>
+               <note xml:id="d2e6212" n="4"> Served as host to the Emperor Heraclius when he
+                            came to Palestine in this year, see Introduction 7.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

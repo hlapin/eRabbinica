@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Aqub-12/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e43804-person" n="vol-2-B_M-Aqub-12">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עקוב</persName>
+               <persName type="lemma" xml:lang="en">Aqub</persName>
+               <persName xml:lang="he">עקיבה For this form see
+                                vol. 1, under Aqub (3) B/M, p.
+                        203.</persName>
+               <state type="desc">
+                  <note>Of Antioch,<ref type="note" corresp="#d2e43814"/>Muhammad’s colleague<ref type="note" corresp="#d2e43818"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>Leveen,JQR16 (1925-6) 402</bibl>
+               <state type="addl-Descr">
+                  <note>Muslim convert<ref type="note" corresp="#d2e43835"/>
+                  </note>
+               </state>
+               <floruit>Pre-632<ref type="note" corresp="#d2e43842"/>
+               </floruit>
+               <note xml:id="d2e43808" n="34"> For this form see
+                                vol. 1, under Aqub (3) B/M, p.
+                        203.</note>
+               <note xml:id="d2e43814" n="35"> In Hebrew – האנטוכי (in Syria). On such
+                                designations see vol. 1, Introduction 3.2.6, p. 34.</note>
+               <note xml:id="d2e43818" n="36"> In Judeo-Arabic – אלטאיר פי אלגנה.</note>
+               <note xml:id="d2e43835" n="37"> On this
+                                text, see vol. 4, Introduction 6.1.3.1, p. 31. This man’s daughter
+                                (Muhammad’s wife) is known from Muslim sources. </note>
+               <note xml:id="d2e43842" n="38"> Was a contemporary of
+                                MuÎammad, who died in this year, see vol. 4, Introduction 8.3.2, p.
+                                42.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

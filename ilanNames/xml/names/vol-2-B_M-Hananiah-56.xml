@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Hananiah-56/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e14252-person" n="vol-2-B_M-Hananiah-56">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חנניה</persName>
+               <persName type="lemma" xml:lang="en">Hananiah</persName>
+               <persName xml:lang="he">אנינה On this form see vol. 3,
+                            under Hananiah (11) B/M, p. 92. This could be an example of a Greek
+                            transliteration, transliterated back into Jewish characters, see
+                            Introduction
+                    2.2.</persName>
+               <state type="desc">
+                  <note>–</note>
+               </state>
+               <state type="provenance">
+                  <note>Synagogue inscription, Sepphoris</note>
+               </state>
+               <bibl>Weiss,Sepphoris Synagogue, no. 10</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>5th-7thC<ref type="note" corresp="#d2e14284"/>
+               </floruit>
+               <note xml:id="d2e14256" n="111"> On this form see vol. 3,
+                            under Hananiah (11) B/M, p. 92. This could be an example of a Greek
+                            transliteration, transliterated back into Jewish characters, see
+                            Introduction
+                    2.2.</note>
+               <note xml:id="d2e14284" n="112"> I have inserted these dates when editors claimed the composition or
+                            find was Byzantine, see Introduction 7.5.4.2.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

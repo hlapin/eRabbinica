@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Shabtai-4/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e46074-person" n="vol-2-B_M-Shabtai-4">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שבתי</persName>
+               <persName type="lemma" xml:lang="en">Shabtai</persName>–<state type="desc">
+                  <note>Joseph (42)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yGit9:7, 50c (Kosovsky,Yerushalmi, 432)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-400<ref type="note" corresp="#d2e46100"/>
+               </floruit>
+               <note xml:id="d2e46100" n="7"> See previous note.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

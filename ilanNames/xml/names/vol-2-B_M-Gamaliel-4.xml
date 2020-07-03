@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Gamaliel-4/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e8007-person" n="vol-2-B_M-Gamaliel-4">
+               <sex cert="high">M</sex>
+               <persName type="lemma">גמליאל</persName>
+               <persName type="lemma" xml:lang="en">Gamaliel</persName>–<state type="desc">
+                  <note>The 3rd<ref type="note" corresp="#d2e8016"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yKil2:8, 28b (Kosovsky,Yerushalmi, 173)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>225-35<ref type="note" corresp="#d2e8044"/>
+               </floruit>
+               <note xml:id="d2e8016" n="10"> Meaning after Rabban Gamaliel the 1st (of the New Testament, see vol. 1, under
+                            Gamaliel [1] B/M, p. 85) and Gamaliel the 2nd (of Yavneh, see vol. 1, under Gamaliel [4] B/M, p. 85).
+                            This one is Judah the Patriarch’s son, see vol. 1, under Judah (36) B/M,
+                            p. 113. On this family see Introduction 3.1.3.5.1.</note>
+               <note xml:id="d2e8044" n="11"> According to
+                            Graetz, see Jacobs, Die Institution des jüdischen Patriarchen, 205 and Introduction 7.4.6.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

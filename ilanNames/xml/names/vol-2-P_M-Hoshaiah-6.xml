@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Hoshaiah-6/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e8892-person" n="vol-2-P_M-Hoshaiah-6">
+               <sex cert="high">M</sex>
+               <persName type="lemma">הושעיה<ref corresp="#d2e8705"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Hoshaiah</persName>
+               <persName xml:lang="checkme">אושעיא<ref corresp="#d212e3"/>
+               </persName>
+               <persName xml:lang="checkme">/הושעיא<ref corresp="#d212e8"/>
+               </persName>
+               <persName xml:lang="checkme">/יהושעיא<ref corresp="#d212e13"/>
+               </persName>
+               <state type="desc">
+                  <note>Zebadiah (6)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>bTaan26b<ref corresp="#d2e8920"/>(Kosowsky,Babylonico, 127)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref corresp="#d2e8937"/>
+               </floruit>
+               <note xml:id="d2e8896" n="9"> So in the London – BL Harl.
+                            5508 (400), the Oxford Opp. Add. Fol. 23 and in the Munich 140 Mss. This
+                            person was obviously not well known, and his name was not stable so that
+                            scribes of the mss were not sure how to write it, see vol. 4,
+                            Introduction 5.2.1.1.2.1.1, pp. 23-4. For this form see above, n.
+                        8.</note>
+               <note xml:id="d2e8900" n="10"> So in the Goettingen 3, the Cambridge T-S F2 (2)
+                            73 and the Munich 95 Mss, see previous note. On the replacement of the ה
+                            suffix with א see vol. 1, Introduction 2.4.2.7, p.
+                        26.</note>
+               <note xml:id="d2e8904" n="11"> So in the Vatican 487 Ms, see above, n. 10. On the
+                            replacement of the הsuffix with א see vol. 1, Introduction 2.4.2.7, p.
+                            26. On the additional י see under Hezekiah (6) B/M in vol. 1, pp. 95,
+                            and 96, n.
+                    17.</note>
+               <note xml:id="d2e8920" n="12"> Although mentioned only
+                            here in BT, he reacts to the words of Palestinian sages (see
+                            Introduction 5.3.2.3) and in Hebrew, see Introduction
+                        5.1.3.2.5.</note>
+               <note xml:id="d2e8937" n="13"> Was a contemporary of the last tannaim, see
+                            Introduction 7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

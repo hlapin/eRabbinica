@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Simon-2/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e49747-person" n="vol-2-P_M-Simon-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שמעון<ref corresp="#d2e49692"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Simon</persName>
+               <persName xml:lang="checkme">–</persName>
+               <state type="desc">
+                  <note>Laqish (1)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yBer1:1, 2d (Kosovsky,Yerushalmi, 487-501)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref corresp="#d2e49776"/>
+               </floruit>
+               <note xml:id="d2e49776" n="4"> Was Rabbi Yohanan (1)’s companion, see
+                                Introduction 7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

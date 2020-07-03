@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Joseph-51/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e25533-person" n="vol-2-P_M-Joseph-51">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יוסף<ref corresp="#d2e23629"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Joseph</persName>
+               <persName xml:lang="checkme">יוסי<ref corresp="#d648e3"/>
+               </persName>
+               <state type="desc">
+                  <note>Joshua (14)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yNid3:2, 50d (Kosovsky,Yerushalmi, –<ref corresp="#d2e25555"/>)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref corresp="#d2e25580"/>
+               </floruit>
+               <note xml:id="d2e25537" n="127"> See above, n.
+                            24.</note>
+               <note xml:id="d2e25555" n="128"> In Kosovsky, Yerushalmi, 430-1 one is informed that any
+                                Joseph son of Joshua refers to Joseph (34) son of Joshua ben Levi
+                                (vol. 1, Joshua [25], p. 126) but the text here does not imply this.
+                                Hyman, Toldoth, 728 identified him as a
+                                separate person, also mentioned in bHul 56b
+                                and bNid 24a, but because he is cited by
+                                Rabbu Yohanan (1), he thought he was a tanna, i.e. too early for
+                                this volume. Yet he is only recorded in amoraic literature.
+                            </note>
+               <note xml:id="d2e25580" n="129"> See above, n. 67.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

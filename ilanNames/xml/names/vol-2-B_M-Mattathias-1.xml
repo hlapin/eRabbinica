@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Mattathias-1/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e39441-person" n="vol-2-B_M-Mattathias-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מתתיה</persName>
+               <persName type="lemma" xml:lang="en">Mattathias</persName>
+               <persName xml:lang="he">מתיה For this form see
+                                vol. 1, under Mattathias (24) B/M, p.
+                        192.</persName>
+               <state type="desc">
+                  <note>Of Betarta<ref type="note" corresp="#d2e39451"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yOrl1:1, 60d (Kosovsky,Yerushalmi, 541)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>4thC<ref type="note" corresp="#d2e39480"/>
+               </floruit>
+               <note xml:id="d2e39445" n="1"> For this form see
+                                vol. 1, under Mattathias (24) B/M, p.
+                        192.</note>
+               <note xml:id="d2e39451" n="2"> In Aramaic – מן דבתרתא, perhaps ברתותא, see
+                                Reeg Ortsnamen, 153-4. On such designations
+                                see vol. 1, Introduction 3.2.6, p. 34.</note>
+               <note xml:id="d2e39480" n="3"> Was a contemporary of Joseph (7), see
+                                Introduction 7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

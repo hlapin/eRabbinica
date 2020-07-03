@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Benjamin-2/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e6217-person" n="vol-2-P_M-Benjamin-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">בנימין<ref corresp="#d2e6156"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Benjamin</persName>
+               <persName xml:lang="checkme">بنيمين<ref corresp="#d147e3"/>
+               </persName>
+               <persName xml:lang="checkme"/>
+               <state type="desc">
+                  <note>Leader of the Jews<ref corresp="#d2e6228"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>Esbroeck,AB104 (1986) 156</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref corresp="#d2e6245"/>
+                  </note>
+               </state>
+               <floruit>452<ref corresp="#d2e6251"/>
+               </floruit>
+               <note xml:id="d2e6221" n="5"> In Arabic, see Introduction 2.5.2. In Hebrew this
+                            would be בנימין.</note>
+               <note xml:id="d2e6228" n="6"> In Arabic –
+                            رايس اليهود.</note>
+               <note xml:id="d2e6245" n="7"> This is a
+                            pseudepigraphic letter. All mentioned in it are
+                        fictitious.</note>
+               <note xml:id="d2e6251" n="8"> This
+                            fictitious letter (see previous note) is dated.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

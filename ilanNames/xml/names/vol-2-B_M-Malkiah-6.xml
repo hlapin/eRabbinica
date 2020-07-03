@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Malkiah-6/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e37760-person" n="vol-2-B_M-Malkiah-6">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מלכיה</persName>
+               <persName type="lemma" xml:lang="en">Malkiah</persName><ref type="note" corresp="#d967e4"/>
+               <state type="desc">
+                  <note>Gelasius (3)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1a, no. 76</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#d2e37784"/>
+                  </note>
+               </state>
+               <floruit>395<ref type="note" corresp="#d2e37791"/>
+               </floruit>
+               <note xml:id="d2e37765" n="17"> The consonants in
+                                this name are the same, but the vowels are completely different from
+                                those in other forms of the name here. With these vowels the name
+                                would be pronounced like the name of the despised biblical idol
+                                Molech (e.g. Jer 32:35). If this is indeed the name intended here,
+                                this makes the likelyhood that he is Jewish smaller.</note>
+               <note xml:id="d2e37784" n="18"> The inscription is
+                                neither specifically Christian, nor undoubtedly pagan. Since the
+                                Zoar cemetery includes Jewish tombstones, this one could also be
+                                Jewish, see Introduction 6.2.1.1, but see previous note.</note>
+               <note xml:id="d2e37791" n="19"> The inscription is dated according to the era
+                                of the Province of Arabia, see Introduction
+                        7.5.2.2.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

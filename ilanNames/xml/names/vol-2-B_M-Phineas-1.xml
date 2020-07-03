@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Phineas-1/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e44193-person" n="vol-2-B_M-Phineas-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">פנחס</persName>
+               <persName type="lemma" xml:lang="en">Phineas</persName>
+               <persName xml:lang="checkme">Phineas<ref type="note" corresp="#d1123e3"/>
+               </persName>
+               <state type="desc">
+                  <note>Of Tiberias, philosopher<ref type="note" corresp="#d2e44204"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>Conybeare,BZ6 (1897) 579</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#d2e44221"/>
+                  </note>
+               </state>
+               <floruit>Post-565<ref type="note" corresp="#d2e44228"/>
+               </floruit>
+               <note xml:id="d2e44197" n="1"> The original is in
+                                Armenian, see vol. 4, Introduction 2.8.5, p. 19. So in the
+                                translation of Conybeare.</note>
+               <note xml:id="d2e44204" n="2"> The persons described
+                                in this text (in Armenian) are said to be philosophers, and this
+                                person is said to originate in Tiberias.</note>
+               <note xml:id="d2e44221" n="3"> Described in the text
+                                (in Armenian) as a Jew.</note>
+               <note xml:id="d2e44228" n="4"> The Pesah calculations in which he was
+                                involved are post-Justinian. This is the date of his
+                            death.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

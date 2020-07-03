@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Simon-54/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e51673-person" n="vol-2-B_M-Simon-54">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שמעון</persName>
+               <persName type="lemma" xml:lang="en">Simon</persName><ref type="note" corresp="#d1316e4"/>
+               <state type="desc">
+                  <note>Melitius (1)’s father, of Hawarah<ref type="note" corresp="#d2e51684"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaph, Beth She‘arim, catacomb 1,CIJ1069</note>
+               </state>
+               <bibl>BS2:60</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#d2e51710"/>
+               </floruit>
+               <note xml:id="d2e51678" n="97"> See above, n.
+                            96.</note>
+               <note xml:id="d2e51684" n="98"> In Greek – <span xml:lang="gr"></span>, The editors suggest a location near Beit
+                                She‘arim. On such designations see vol. 1, Introduction 3.2.6, p.
+                                34.</note>
+               <note xml:id="d2e51710" n="99"> See above, n. 95.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

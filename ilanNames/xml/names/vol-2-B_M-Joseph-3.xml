@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Joseph-3/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e23728-person" n="vol-2-B_M-Joseph-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יוסף</persName>
+               <persName type="lemma" xml:lang="en">Joseph</persName>–<ref type="note" corresp="#d600e3"/>
+               <state type="desc">
+                  <note>Saninah, priest<ref type="note" corresp="#d2e23738"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>Tulida, 133</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#d2e23755"/>
+                  </note>
+               </state>
+               <floruit>3rd-4thC<ref type="note" corresp="#d2e23768"/>
+               </floruit>
+               <note xml:id="d2e23732" n="9"> See above, n.
+                            6.</note>
+               <note xml:id="d2e23738" n="10"> In the text – צנינה. Described in Hebrew as
+                                officiating as priest – כהן, see Introduction 3.3.2.</note>
+               <note xml:id="d2e23755" n="11"> See above, n.
+                            8.</note>
+               <note xml:id="d2e23768" n="12"> See
+                                above, n. 9.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

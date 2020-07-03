@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Hananiah-14/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e12696-person" n="vol-2-P_M-Hananiah-14">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חנניה<ref corresp="#d2e12221"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Hananiah</persName>
+               <persName xml:lang="checkme">–</persName>
+               <state type="desc">
+                  <note>Of En-Tena<ref corresp="#d2e12703"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yPea1:1, 16b (Kosovsky,Yerushalmi, 274)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>4thC<ref corresp="#d2e12731"/>
+               </floruit>
+               <note xml:id="d2e12703" n="25"> In
+                            Aramaic – ענתוניה, see Reeg, Ortsnamen, 483-4. On
+                            such designations see vol. 1, Introduction 3.2.6, p. 34.</note>
+               <note xml:id="d2e12731" n="26"> Was a contemporary of Rabbi Yonah (2) and Rabbi
+                            Yosi (Joseph [7]), see Introduction 7.4.3.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

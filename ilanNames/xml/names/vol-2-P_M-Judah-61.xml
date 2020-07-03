@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Judah-61/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e17317-person" n="vol-2-P_M-Judah-61">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יהודה<ref corresp="#d2e15002"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Judah</persName>
+               <persName xml:lang="checkme">יודן<ref corresp="#d430e3"/>
+               </persName>
+               <persName xml:lang="checkme"/>
+               <state type="desc">
+                  <note>Architect from Emaus<ref corresp="#d2e17328"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Synagogue inscription, Hammat Gader, Sukenik</note>
+               </state>
+               <bibl>CIJ857</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-438?<ref corresp="#d2e17351"/>
+               </floruit>
+               <note xml:id="d2e17321" n="134"> See above, no.
+                        22.</note>
+               <note xml:id="d2e17328" n="135"> In Aramaic – ארדה מן חימאוס. Naveh, OSM, 57 interprets ארדה as short for ארדיכל. On
+                            the geographical designation see vol. 1, Introduction 3.2.6, p. 34. On
+                            the profession see Introduction 3.1.3.3.</note>
+               <note xml:id="d2e17351" n="136"> On the dating of this synagogue see Introduction
+                    7.5.3.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

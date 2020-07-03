@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Nehemiah-7/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e40597-person" n="vol-2-B_M-Nehemiah-7">
+               <sex cert="high">M</sex>
+               <persName type="lemma">נחמיה</persName>
+               <persName type="lemma" xml:lang="en">Nehemiah</persName><ref type="note" corresp="#d1039e4"/>
+               <state type="desc">
+                  <note>Archisynagogus<ref type="note" corresp="#d2e40609"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Synagogue mosaic, Apamea, Mayence</note>
+               </state>
+               <bibl>CIJ803</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#d2e40635"/>
+                  </note>
+               </state>
+               <floruit>391<ref type="note" corresp="#d2e40642"/>
+               </floruit>
+               <note xml:id="d2e40602" n="10"> See above, n.
+                            11.</note>
+               <note xml:id="d2e40609" n="11"> In Greek – <span xml:lang="gr"></span>&lt;<span xml:lang="gr"></span>&gt;<span xml:lang="gr"></span> (of the
+                                most pious of archisynagogoi). On this title see vol. 3 Introduction
+                                6.4.1.2.2.5.1, p. 40.</note>
+               <note xml:id="d2e40635" n="12"> This is a synagogue
+                                inscription, see vol. 3, Introduction 6.4.1, p. 36.</note>
+               <note xml:id="d2e40642" n="13"> The mosaic is dated according to the Seleucid
+                                era, see Introduction 7.5.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

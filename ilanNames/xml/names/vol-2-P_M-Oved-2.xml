@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Oved-2/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e42152-person" n="vol-2-P_M-Oved-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עובד<ref corresp="#d2e42103"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Oved</persName>
+               <persName xml:lang="gr"><ref corresp="#d1076e4"/>
+               </persName>
+               <persName xml:lang="checkme"/>
+               <state type="desc">
+                  <note>Orion (3)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1b, no. 22</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref corresp="#d2e42191"/>
+                  </note>
+               </state>
+               <floruit>423<ref corresp="#d2e42197"/>
+               </floruit>
+               <note xml:id="d2e42157" n="5"> In LXX this name is
+                                transliterated as <span xml:lang="checkme"></span> (see H
+                                &amp; R Suppl. 161), but this could also be a transliteration of the
+                                name. For the interchange of <span xml:lang="checkme"></span>
+                                and <span xml:lang="checkme"></span> see vol. 1, Introduction
+                                2.3.3.1, p. 22. On the interchange of <span xml:lang="checkme"></span> and <span xml:lang="checkme"></span> see vol. 1,
+                                Introduction 2.3.3.2, p. 22. On the double consonant see vol. 1,
+                                Introduction 2.3.4, p. 22. On the Greek suffix see vol. 1,
+                                Introduction 2.3.5, pp. 22-3.</note>
+               <note xml:id="d2e42191" n="6"> The inscription is neither
+                                specifically Christian, nor undoubtedly pagan. Since the Zoar
+                                cemetery includes Jewish tombstones, this one could also be Jewish,
+                                see Introduction
+                        6.2.1.1.</note>
+               <note xml:id="d2e42197" n="7"> The
+                                inscription is dated, according to the era of the Province of
+                                Arabia, see Introduction 7.5.2.2.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

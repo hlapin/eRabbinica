@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Yohanan-32/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e21962-person" n="vol-2-B_M-Yohanan-32">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יוחנן</persName>
+               <persName type="lemma" xml:lang="en">Yohanan</persName>
+               <persName xml:lang="gr">[][] Reading reconstructed
+                                by editor, see vol. 3, Introduction 2.1, p. 11. On this form see
+                                above, n. 43. </persName>
+               <state type="desc">
+                  <note>Simon (85)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>Oil lamp, Jerusalem</note>
+               </state>
+               <bibl>Loffreda,LA44 (1994) 595</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#d2e21995"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#d2e22002"/>
+               </floruit>
+               <note xml:id="d2e21975" n="79"> Reading reconstructed
+                                by editor, see vol. 3, Introduction 2.1, p. 11. On this form see
+                                above, n. 43. </note>
+               <note xml:id="d2e21995" n="80"> The editor suggested
+                                that the persons mentioned on this lamp were Jewish because of their
+                                names, and because this type of lamp was idenitifed as being in use
+                                by Jews, but at this time, both are not decisive, see vol. 3,
+                                Introduction 6.6.7, p.
+                            52.</note>
+               <note xml:id="d2e22002" n="81"> See
+                                above, n. 36.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

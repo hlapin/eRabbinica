@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Joseph-87/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e26950-person" n="vol-2-B_M-Joseph-87">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יוסף</persName>
+               <persName type="lemma" xml:lang="en">Joseph</persName><ref type="note" corresp="#d684e4"/>
+               <persName xml:lang="gr">/ So in
+                                BS 2:28. For this form
+                                see above, n. 188.</persName>
+               <state type="desc">
+                  <note>Sapho (1)’s son, the minor<ref type="note" corresp="#d2e26974"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaphs, Beth She‘arim, catacomb 1,CIJ1000, 1038</note>
+               </state>
+               <bibl>1.BS2:27; 2. 2:28</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#d2e27010"/>
+               </floruit>
+               <note xml:id="d2e26955" n="221"> So in
+                                BS2:27. For this form
+                                see above, n. 186.</note>
+               <note xml:id="d2e26964" n="222"> So in
+                                BS2:28. For this form
+                                see above, n. 188.</note>
+               <note xml:id="d2e26974" n="223"> In Greek – <span xml:lang="gr"></span>&lt;<span xml:lang="gr"></span>&gt;(<span xml:lang="gr"></span>)<span xml:lang="gr"></span>. This is my reading and translation. The editor
+                                offered none. On such designations see vol. 1, Introduction 3.2.4,
+                                p. 33.</note>
+               <note xml:id="d2e27010" n="224"> See above, n. 221.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

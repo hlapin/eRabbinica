@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Isaac-30/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e32963-person" n="vol-2-B_M-Isaac-30">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יצחק</persName>
+               <persName type="lemma" xml:lang="en">Isaac</persName>–<state type="desc">
+                  <note>Phineas (10)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>bPes114a<ref type="note" corresp="#d2e32979"/>(Kosowsky,Babylonico, 919)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-400<ref type="note" corresp="#d2e33008"/>
+               </floruit>
+               <note xml:id="d2e32979" n="44"> Appears only in BT,
+                                here and in bHul 27b (and also in
+                                bQid71a, but not in the
+                                Vilna print, where his name has been skipped), but I assume he is
+                                Palestinian because he is always designated רבי, see Introduction
+                                5.1.3.2.2, because in bPes 114a he is
+                                designated דאגדתא (he who transmits aggadah, see Introduction
+                                5.1.3.2.6) and in bQid 71 he is described
+                                within the context of the Palestinian study house. Hyman, Toldoth, 782-4 argues that he is the person
+                                designated simply Isaac (5) in PT, but he has no proof for this, and
+                                Isaac (5) is probably Ahi (7)’s son.</note>
+               <note xml:id="d2e33008" n="45">
+                                Mentioned with no chronological context, see Introduction
+                            7.4.4.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Ezra-1/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e42505-person" n="vol-2-B_M-Ezra-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עזרא</persName>
+               <persName type="lemma" xml:lang="en">Ezra</persName>–<state type="desc">
+                  <note>Eutolmus (1)’s grandson</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>bMen53a<ref type="note" corresp="#d2e42521"/>(Kosowsky,Babylonico, 1152)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>5thC<ref type="note" corresp="#d2e42538"/>
+               </floruit>
+               <note xml:id="d2e42521" n="1"> Although
+                                he appears only in BT, he bears the title רבי, see Introduction see
+                                Introduction 5.1.3.2.2, and is described as descending from a
+                                Palestinian rabbi, and see Introduction 5.1.3.2.3.</note>
+               <note xml:id="d2e42538" n="2"> The
+                                calculation is completely fictional. His grandfather is described as
+                                a tenth generation after Eleazar ben Azariah (See vol. 1, Eleazar
+                                (43), p. 66 son of Azariah (3), vol. 1, p. 202). If we calculate
+                                four generations as a century he is of the 5th century.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

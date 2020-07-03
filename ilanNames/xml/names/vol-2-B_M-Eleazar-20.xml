@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Eleazar-20/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e3473-person" n="vol-2-B_M-Eleazar-20">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אלעזר</persName>
+               <persName type="lemma" xml:lang="en">Eleazar</persName>
+               <persName xml:lang="he"> ליעזר For the name אליעזר see vol. 1, under Eleazar (3)
+                            B/M, p. 65. On the fall of the initial א as a Palestinian-Aramaic
+                            linguistic phenomenon see vol. 1, Introduction 2.5.2, p. 29.</persName>
+               <state type="desc">
+                  <note>Ishmael (7)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yNaz6:2 55a (Kosovsky,Yerushalmi, 109)</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious?<ref type="note" corresp="#d2e3500"/>
+                  </note>
+               </state>
+               <floruit>Pre-400<ref type="note" corresp="#d2e3513"/>
+               </floruit>
+               <note xml:id="d2e3477" n="46"> For the name אליעזר see vol. 1, under Eleazar (3)
+                            B/M, p. 65. On the fall of the initial א as a Palestinian-Aramaic
+                            linguistic phenomenon see vol. 1, Introduction 2.5.2, p. 29.</note>
+               <note xml:id="d2e3500" n="47"> Hyman, Toldoth, 185, claims there is no such person,
+                            because in his appearance in yTer 11:2, 47d, the
+                            text which runs: לעזר ביה ר' ישמעאל should be read לעזר בשם ר' ישמעאל.
+                            However, he does not refer to the text here, which runs רבי ליעזר בן
+                            ישמעאל. This notwithstanding, because both texts refer beforehand to the
+                            tanna Rabbi Yishmael (Ishmael [4] B/M. in vol. 1, p. 177), he may be
+                            correct, and no such person exists.</note>
+               <note xml:id="d2e3513" n="48"> See above, n. 38.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Joseph-9/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e23990-person" n="vol-2-P_M-Joseph-9">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יוסף<ref corresp="#d2e23629"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Joseph</persName>
+               <persName xml:lang="checkme">יוסי<ref corresp="#d606e3"/>
+               </persName>
+               <state type="desc">
+                  <note>Nehorai (1)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yBer3:3, 6b (Kosovsky,Yerushalmi, 431-2)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref corresp="#d2e24022"/>
+               </floruit>
+               <note xml:id="d2e23994" n="31"> See above, n.
+                            24.</note>
+               <note xml:id="d2e24022" n="32"> Was a contemporary of last tannaim, see
+                                Introduction 7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

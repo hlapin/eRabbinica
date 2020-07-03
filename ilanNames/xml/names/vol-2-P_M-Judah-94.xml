@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Judah-94/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e18463-person" n="vol-2-P_M-Judah-94">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יהודה<ref corresp="#d2e15002"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Judah</persName>
+               <persName xml:lang="checkme">יודן<ref corresp="#d463e3"/>
+               </persName>
+               <persName xml:lang="checkme"/>
+               <state type="desc">
+                  <note>Ṣereda (2)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>Synagogue inscription, Khirbet Yitzhakiah,<ref corresp="#d2e18477"/>Avigad</note>
+               </state>
+               <bibl>Naveh,OSM, no. 40</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>–<ref corresp="#d2e18494"/>
+               </floruit>
+               <note xml:id="d2e18467" n="207"> See above, no.
+                                22.</note>
+               <note xml:id="d2e18477" n="208"> In Lower Galilee.</note>
+               <note xml:id="d2e18494" n="209"> See
+                                above, no. 148.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

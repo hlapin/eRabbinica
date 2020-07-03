@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Isaac-34/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e33136-person" n="vol-2-P_M-Isaac-34">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יצחק<ref corresp="#d2e31887"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Isaac</persName>
+               <persName xml:lang="checkme">–</persName>
+               <state type="desc">
+                  <note>Tobiah (6)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>Gen Rab40:4 (Hyman,Toldoth, 523)</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref corresp="#d2e33159"/>
+                  </note>
+               </state>
+               <floruit>3rdC<ref corresp="#d2e33188"/>
+               </floruit>
+               <note xml:id="d2e33159" n="53"> This
+                                figure could be a literary invention, since the text runs: <span xml:lang="checkme">ר' טוביה בר' יצחק</span> אמר: שני אהלים רות
+                                המואביה ונעמה העמונית. דכוותה "קום קח את אשתך ואת שתי בנותיך
+                                הנמצאות" (בראשית יט טו). <span xml:lang="checkme">ר' טוביה</span>
+                                אמר: שתי מציאות רות ונעמה. אמר <span xml:lang="checkme">ר' יצחק</span>: "מצאתי דוד עבדי" (תהלים פט כא). איכו מצאתיו? בסדום.
+                                    “Rabbi Tobiah son of Rabbi Isaac said: Two
+                                tents – Ruth the Moabite and Naama the Amonite. And likewise: “Arise
+                                and take your two daughters found here” (Gen 19:15). Rabbi Tobiah said: Two found – Ruth and Naama. Rabbi Isaac said: “I have found my slave David”
+                                (Ps 89:21). Where have I found him? In Sodom.” Since in the the
+                                introductory passage there are two names mentioned as father and
+                                son, and further down two rabbis by these same two names are
+                                mentioned, perhaps there really was no such sage with a combined
+                                name, and this is merely a literary combination.</note>
+               <note xml:id="d2e33188" n="54">
+                                See above, n. 48.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

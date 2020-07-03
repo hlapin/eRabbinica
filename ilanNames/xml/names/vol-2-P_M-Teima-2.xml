@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Teima-2/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e53327-person" n="vol-2-P_M-Teima-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">תימא<ref corresp="#d2e53280"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Teima</persName>
+               <persName xml:lang="gr"><ref corresp="#d1360e5"/>
+               </persName>
+               <persName xml:lang="checkme">/ Thaemi<ref corresp="#d1360e13"/>
+               </persName>
+               <persName xml:lang="checkme"/>
+               <state type="desc">
+                  <note>Julianus (2), Saad (1)’s son, Syrian of Canotha<ref corresp="#d2e53347"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaph, France, Oehler</note>
+               </state>
+               <bibl>CIJ61*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref corresp="#d2e53379"/>D: Post-211<ref corresp="#d2e53393"/>
+                  </note>
+               </state>
+               <note xml:id="d2e53333" n="2"> The inscription is
+                                bilingual Greek and Latin. So in the Greek. In LXX this name is
+                                recorded as <span xml:lang="checkme"></span>in Gen
+                                25:15, see H &amp; R Suppl, 69. This is a close enough rendition.
+                            </note>
+               <note xml:id="d2e53340" n="3"> The inscription is bilingual Greek and Latin.
+                                So in the Latin. In the Vulgate the reading is for Gen 25:15 is
+                                Thema. This is a close enough rendition.</note>
+               <note xml:id="d2e53347" n="4"> In Greek – <span xml:lang="checkme"></span>[<span xml:lang="checkme"></span>]<span xml:lang="checkme"></span>[<span xml:lang="checkme"></span>]<span xml:lang="checkme"></span>. In Latin – Septimiano
+                                Canotha (Septimiana being the Latin name of the town). Canatha is
+                                situated in Transjordan. On such designations see vol. 1,
+                                Introduction 3.2.6, p. 34.</note>
+               <note xml:id="d2e53379" n="5"> Oehler,
+                                MGWJ53 (1909) 449
+                                writes “vielleicht ein Jude” probably based on the fact that he came
+                                to Gaul from Syria and had a Semitic name, but both criteria are not
+                                decisive, see vol. 3, Introduction 6.6.7, p. 52. CIJ thought he was a pagan.</note>
+               <note xml:id="d2e53393" n="6"> The name of the town “[S]eptimiano,” is
+                                after the emperor Septimius Severus. This is the year in which he
+                                died, see Introduction 7.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

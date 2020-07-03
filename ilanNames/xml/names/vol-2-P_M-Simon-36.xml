@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Simon-36/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e51002-person" n="vol-2-P_M-Simon-36">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שמעון<ref corresp="#d2e49692"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Simon</persName>
+               <persName xml:lang="checkme">ישמעאל<ref corresp="#d1298e3"/>
+               </persName>
+               <state type="desc">
+                  <note>Ziroz (2)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>bSan14b<ref corresp="#d2e51025"/>(Kosowsky,Babylonico, 1707)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref corresp="#d2e51044"/>
+               </floruit>
+               <note xml:id="d2e51006" n="62"> So in the printed
+                                versions to bAZ 30a, but in all mss שמעון. On
+                                this name see under Ishmael
+                        B/M.</note>
+               <note xml:id="d2e51025" n="63"> Although mentioned
+                                only in BT, here and in
+                                bAZ30 a, he
+                                bears the Palestinian title רבי (see Introduction 5.1.3.2.2) and is
+                                found in association with Palestinian rabbis, and see Introduction
+                                5.1.3.2.3.</note>
+               <note xml:id="d2e51044" n="64"> See above, n. 19.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

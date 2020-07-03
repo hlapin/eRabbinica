@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Isaac-15/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e32412-person" n="vol-2-B_M-Isaac-15">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יצחק</persName>
+               <persName type="lemma" xml:lang="en">Isaac</persName>–<state type="desc">
+                  <note>Redifa (2)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yShevi9:4, 39a (Kosovsky,Yerushalmi, 446)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#d2e32435"/>
+                  </note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#d2e32459"/>
+               </floruit>
+               <note xml:id="d2e32435" n="24"> He is mentioned in
+                                four traditions. In three of them, two of them Palestinian and one
+                                Babylonian (yShevi 9:4, 39a; ySheq 4:2, 48a; bKet
+                                106a) he is designated with the Palestinian title רבי and is found
+                                in association with Palestinian rabbis. In another Babylonian
+                                tradition (bShab 23b) he bears the Babylonian
+                                title רב and transmits a tradition in the name of a Babylonian rabbi
+                                (רב הונא – Huna [1] S-H/M in vol. 4, p. 347). However, the earlier
+                                Palestinian traditions seem more reliable, and contra Hyman, Toldoth,
+                            798.</note>
+               <note xml:id="d2e32459" n="25"> Was a student of Rabbi Ami (1), see
+                                Introduction 7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

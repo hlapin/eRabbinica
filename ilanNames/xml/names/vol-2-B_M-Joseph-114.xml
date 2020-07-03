@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Joseph-114/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e28020-person" n="vol-2-B_M-Joseph-114">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יוסף</persName>
+               <persName type="lemma" xml:lang="en">Joseph</persName><ref type="note" corresp="#d711e4"/>
+               <state type="desc">
+                  <note>Neriyah (1)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>Wine press inscription, Har Bezeq<ref type="note" corresp="#d2e28044"/>
+                  </note>
+               </state>
+               <bibl>Tzori,EI10 (1971) 240</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan?<ref type="note" corresp="#d2e28058"/>D: –<ref type="note" corresp="#d2e28065"/>
+                  </note>
+               </state>
+               <note xml:id="d2e28025" n="305"> For the form <span xml:lang="gr"></span>see vol. 1, under
+                                Joseph (5) B/M, p. 150. The replacement of <span xml:lang="gr"></span> with <span xml:lang="gr"></span> is probably a scribal error,
+                                see vol. 3, Introduction 2.8.4, p. 20.</note>
+               <note xml:id="d2e28044" n="306"> In Samaria.</note>
+               <note xml:id="d2e28058" n="307"> The
+                                location of the find suggests this, but see Introduction
+                            6.1.5.</note>
+               <note xml:id="d2e28065" n="308"> See above, n. 183.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

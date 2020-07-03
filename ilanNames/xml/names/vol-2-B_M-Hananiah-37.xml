@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Hananiah-37/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e13514-person" n="vol-2-B_M-Hananiah-37">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חנניה</persName>
+               <persName type="lemma" xml:lang="en">Hananiah</persName>
+               <persName xml:lang="he">חנינא See above, n. 5.</persName>
+               <state type="desc">
+                  <note>Qara<ref type="note" corresp="#d2e13525"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>bTaan27b<ref type="note" corresp="#d2e13539"/>(Kosowsky,Babylonico, 514)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#d2e13568"/>
+               </floruit>
+               <note xml:id="d2e13518" n="65"> See above, n. 5.</note>
+               <note xml:id="d2e13525" n="66"> In Hebrew – קרא, perhaps refering to his
+                            proficiency in the Bible (מקרא), see Introduction 3.1.2.2.</note>
+               <note xml:id="d2e13539" n="67"> Although he appears only in BT (and often:
+                            bBer30b; bMeg 22a; bYev 40a;
+                            bKet56a), he is always
+                            associated with Palestinian rabbis, see Introduction 5.1.3.2.3.
+                        </note>
+               <note xml:id="d2e13568" n="68"> Was a student of the last tannaim, see
+                            Introduction 7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

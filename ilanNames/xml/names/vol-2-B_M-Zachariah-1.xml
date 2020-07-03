@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Zachariah-1/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e10295-person" n="vol-2-B_M-Zachariah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">זכריה</persName>
+               <persName type="lemma" xml:lang="en">Zachariah</persName>
+               <persName xml:lang="he">זכאי For this form see vol. 1,
+                            under Zachariah (18) B/M, p. 91.</persName>
+               <persName xml:lang="he">/זכיי In the Bible the form זכי
+                            is recorded, see Ezra 2:9. On the double י as a consonant see vol. 4,
+                            Introduction 2.3.4.3, p. 12.</persName>
+               <state type="desc">
+                  <note>–</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yBer3:5, 6d (Kosovsky,Yerushalmi, 211)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#d2e10326"/>
+                  </note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#d2e10336"/>
+               </floruit>
+               <note xml:id="d2e10299" n="1"> For this form see vol. 1,
+                            under Zachariah (18) B/M, p. 91.</note>
+               <note xml:id="d2e10303" n="2"> In the Bible the form זכי
+                            is recorded, see Ezra 2:9. On the double י as a consonant see vol. 4,
+                            Introduction 2.3.4.3, p. 12.</note>
+               <note xml:id="d2e10326" n="3"> Hyman, 401
+                            claims he was Babylonian, but his reference is incorrect, and in all
+                            other references he is associated with Palestinian rabbis, and is
+                            designated רבי, see vol. 4, Introduction 7.1,
+                        pp.39-40.</note>
+               <note xml:id="d2e10336" n="4"> Was a contemporary of Rabbi Yohanan (1), see
+                            Introduction 7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

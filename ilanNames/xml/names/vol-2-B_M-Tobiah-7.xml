@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Tobiah-7/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e14638-person" n="vol-2-B_M-Tobiah-7">
+               <sex cert="high">M</sex>
+               <persName type="lemma">טוביה</persName>
+               <persName type="lemma" xml:lang="en">Tobiah</persName><ref type="note" corresp="#d362e4"/>
+               <state type="desc">
+                  <note>Gadrathi (1)’s husband?<ref type="note" corresp="#d2e14650"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Dedicatory inscription, Dama,<ref type="note" corresp="#d2e14657"/>Waddington</note>
+               </state>
+               <bibl>CIJ864</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#d2e14671"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#d2e14677"/>
+               </floruit>
+               <note xml:id="d2e14643" n="13"> In vol. 3, under Tobiah (1) B/M, p. 94 I explained
+                            the absence of a standard transliteration for this name.</note>
+               <note xml:id="d2e14650" n="14"> The name of this woman
+                            appears at the end of the inscription, just after its initiator had
+                            praised marriage. The editor assumed this means she was his
+                        wife.</note>
+               <note xml:id="d2e14657" n="15"> In Transjordan.</note>
+               <note xml:id="d2e14671" n="16"> Jewishness suggested, based
+                            on name, but see vol. 3, Introduction 6.6.7, p.
+                        52.</note>
+               <note xml:id="d2e14677" n="17"> The
+                            inscription is not dated. Late antique date presumed, see vol. 3,
+                            Introduction 8.3, p. 60.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

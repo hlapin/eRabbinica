@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Joseph-64/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e26057-person" n="vol-2-B_M-Joseph-64">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יוסף</persName>
+               <persName type="lemma" xml:lang="en">Joseph</persName>
+               <persName xml:lang="he">יוסי See above, n.
+                            24.</persName>
+               <state type="desc">
+                  <note>Joseph (63)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>Saadia Gaon,Ha’egron, 155</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>5th-7thC<ref type="note" corresp="#d2e26089"/>
+               </floruit>
+               <note xml:id="d2e26061" n="160"> See above, n.
+                            24.</note>
+               <note xml:id="d2e26089" n="161"> See
+                                above, n. 160.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Meadiah-1/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e38839-person" n="vol-2-P_M-Meadiah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מעדיה<ref corresp="#d2e38828"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Meadiah</persName>
+               <persName xml:lang="checkme">–</persName>
+               <state type="desc">
+                  <note>His son<ref corresp="#d2e38846"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yDem2:1, 22c (Kosovsky,Yerushalmi, 431)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname?<ref corresp="#d2e38866"/>
+                  </note>
+               </state>
+               <floruit>Pre-400<ref corresp="#d2e38873"/>
+               </floruit>
+               <note xml:id="d2e38846" n="1"> In the text – רבי בן מעדיה.</note>
+               <note xml:id="d2e38866" n="2"> On such
+                                nicknames see vol. 1, Introduction 6.1.1, p. 46.</note>
+               <note xml:id="d2e38873" n="3"> Appears in a Palestinian-amoraic
+                                source with no chronological context, see Introduction
+                            7.4.4.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

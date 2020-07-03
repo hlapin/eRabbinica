@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Uzi-2/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e42370-person" n="vol-2-P_M-Uzi-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עזי<ref corresp="#d2e42327"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Uzi</persName>
+               <persName xml:lang="checkme">–</persName>
+               <state type="desc">
+                  <note>Blacksmith?<ref corresp="#d2e42377"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Synagogue inscription, Rehov<ref corresp="#d2e42384"/>
+                  </note>
+               </state>
+               <bibl>Vito, “Reḥob,” 93<ref corresp="#d2e42392"/>
+               </bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>4th-7thC</floruit>
+               <note xml:id="d2e42377" n="4"> In Aramaic – (ב)נפחא. On such designations see
+                                Introduction 3.1.3.3.</note>
+               <note xml:id="d2e42384" n="5"> South of Beth
+                                She’an.</note>
+               <note xml:id="d2e42392" n="6"> In this publication
+                                there is a partial photograph of this inscription. Ada Yardeni read
+                                the entire inscription and kindly allowed me to make use of her
+                                readings. Not all the names she read can be seen in the
+                                photograph.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

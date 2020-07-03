@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Jacob-58/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e31015-person" n="vol-2-B_M-Jacob-58">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יעקב</persName>
+               <persName type="lemma" xml:lang="en">Jacob</persName><ref type="note" corresp="#d788e4"/>
+               <state type="desc">
+                  <note>–</note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaph, Beth She‘arim, catacomb 21</note>
+               </state>
+               <bibl>BS2:130</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#d2e31042"/>
+               </floruit>
+               <note xml:id="d2e31020" n="112"> See above, n.
+                            86.</note>
+               <note xml:id="d2e31042" n="113"> See above, n. 103.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

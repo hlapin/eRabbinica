@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Yohanan-23/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e21572-person" n="vol-2-B_M-Yohanan-23">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יוחנן</persName>
+               <persName type="lemma" xml:lang="en">Yohanan</persName><ref type="note" corresp="#d546e5"/>
+               <state type="desc">
+                  <note>–</note>
+               </state>
+               <state type="provenance">
+                  <note>Inscription on column base, Sheikh Meyser<ref type="note" corresp="#d2e21599"/>
+                  </note>
+               </state>
+               <bibl>Zertal,Har Menashe3 (2000) 266</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#d2e21613"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#d2e21620"/>
+               </floruit>
+               <note xml:id="d2e21578" n="46"> This is all that
+                                could be read from the publication. Perhaps another name is intended
+                                and maybe other names were found on this inscription. If this is the
+                                name intended the following observations can be made: On the
+                                interchange of <span xml:lang="gr"></span> and <span xml:lang="gr"></span>, see vol. 1, Introduction
+                                2.3.3.1, p. 22. On the form <span xml:lang="gr"></span>, see vol. 3, under Yohanan (23) B/M, p. 106. The
+                                additional <span xml:lang="gr"></span> is obviously a
+                                scribal error, see vol. 3, Introduction 2.8.1, p. 20. The declension
+                                is probably in the
+                        vocative.</note>
+               <note xml:id="d2e21599" n="47"> In
+                                Samaria.</note>
+               <note xml:id="d2e21613" n="48"> Suggested based on location, see
+                                Introduction 6.1.5, but this could be a Christian name, see vol. 3,
+                                Introduction 6.6.7, p. 52, or the reading could be wrong.</note>
+               <note xml:id="d2e21620" n="49"> See above, n. 36.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

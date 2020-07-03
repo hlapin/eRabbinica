@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Joseph-129/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e28589-person" n="vol-2-P_M-Joseph-129">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יוסף<ref corresp="#d2e23629"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Joseph</persName>
+               <persName xml:lang="checkme">יוסי<ref corresp="#d726e3"/>
+               </persName>
+               <state type="desc">
+                  <note>Zenobia (4)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>Amulet, Marot<ref corresp="#d2e28602"/>
+                  </note>
+               </state>
+               <bibl>MSFno. 16</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>5th-7thC<ref corresp="#d2e28625"/>
+               </floruit>
+               <note xml:id="d2e28593" n="352"> See above, n.
+                            24.</note>
+               <note xml:id="d2e28602" n="353"> In the Upper Jordan
+                                Valley.</note>
+               <note xml:id="d2e28625" n="354"> See
+                                above, n. 284.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

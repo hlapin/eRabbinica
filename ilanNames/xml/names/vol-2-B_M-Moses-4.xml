@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Moses-4/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e39100-person" n="vol-2-B_M-Moses-4">
+               <sex cert="high">M</sex>
+               <persName type="lemma">משה</persName>
+               <persName type="lemma" xml:lang="en">Moses</persName>–<state type="desc">
+                  <note>–</note>
+               </state>
+               <state type="provenance">
+                  <note>Graffiti, Parod<ref type="note" corresp="#d2e39110"/>
+                  </note>
+               </state>
+               <bibl>Ben-Zvi,BIES1 (1933) 19</bibl>
+               <state type="addl-Descr">
+                  <note>Late?<ref type="note" corresp="#d2e39127"/>
+                  </note>
+               </state>
+               <floruit>
+                  <ref type="note" corresp="#d2e39133"/>
+               </floruit>
+               <note xml:id="d2e39110" n="18"> South-west of Safed.</note>
+               <note xml:id="d2e39127" n="19"> Ben Zvi maintained
+                                that it is impossible, according to the shape of the letters, to
+                                date the inscriptions but he connected them with reports of medieval
+                                pilgrims about their visit to the cave of Rabbi Tanḥum of Parod,
+                                and thus concluded that the inscriptions too are medieval. On this
+                                sort of problem see Introduction 6.4.</note>
+               <note xml:id="d2e39133" n="20"> See previous note.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

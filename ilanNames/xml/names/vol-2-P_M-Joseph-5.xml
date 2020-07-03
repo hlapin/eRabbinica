@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Joseph-5/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e23808-person" n="vol-2-P_M-Joseph-5">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יוסף<ref corresp="#d2e23629"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Joseph</persName>
+               <persName xml:lang="checkme">يوسي<ref corresp="#d602e3"/>
+               </persName>
+               <persName xml:lang="checkme">/יצובו<ref corresp="#d602e10"/>
+               </persName>
+               <persName xml:lang="checkme">/יצובי<ref corresp="#d602e20"/>
+               </persName>
+               <state type="desc">
+                  <note>Sage<ref corresp="#d2e23837"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>Abu’l-Fath, 141</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref corresp="#d2e23850"/>
+                  </note>
+               </state>
+               <floruit>3rd-4thC<ref corresp="#d2e23863"/>
+               </floruit>
+               <note xml:id="d2e23812" n="17"> In Arabic, see
+                                Introduction 2.5.2. In Hebrew this would read יוסי. This may be a
+                                scribal “correction,” see the next two forms of the name and vol. 4,
+                                Introduction 2.7.2, p. 18.</note>
+               <note xml:id="d2e23818" n="18"> So in Adler &amp; Séligsohn, REJ 45 (1902) 90. I have no idea what this name
+                            is.</note>
+               <note xml:id="d2e23827" n="19"> So according to
+                                Cohen, Chronicle, 15, see previous
+                            note.</note>
+               <note xml:id="d2e23837" n="20"> In
+                                Arabic – الحكيم. On this title see Introduction 3.3.3.</note>
+               <note xml:id="d2e23850" n="21"> See above, n.
+                            8.</note>
+               <note xml:id="d2e23863" n="22"> See
+                                above, n. 9.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

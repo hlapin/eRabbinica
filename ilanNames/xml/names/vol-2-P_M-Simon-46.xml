@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Simon-46/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e51377-person" n="vol-2-P_M-Simon-46">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שמעון<ref corresp="#d2e49692"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Simon</persName>
+               <persName xml:lang="gr"><ref corresp="#d1308e4"/>
+               </persName>
+               <persName xml:lang="checkme"/>
+               <state type="desc">
+                  <note>–</note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaph, Jaffa, Euting</note>
+               </state>
+               <bibl>CIJ923</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC</floruit>
+               <note xml:id="d2e51382" n="84"> This form is not
+                                recorded anywhere, but obviously this is the name
+                            intended.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Hananiah-20/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e12919-person" n="vol-2-B_M-Hananiah-20">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חנניה</persName>
+               <persName type="lemma" xml:lang="en">Hananiah</persName>–<state type="desc">
+                  <note>Akhbari (1)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yTer11:5, 48b (Kosovsky,Yerushalmi, 276)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#d2e12948"/>
+               </floruit>
+               <note xml:id="d2e12948" n="37"> Was a contemporary of Ḥiyya (6), who was a
+                            student of Ami (1), see Introudction 7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

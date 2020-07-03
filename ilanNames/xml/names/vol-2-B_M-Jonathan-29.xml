@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Jonathan-29/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e23493-person" n="vol-2-B_M-Jonathan-29">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יונתן</persName>
+               <persName type="lemma" xml:lang="en">Jonathan</persName><ref type="note" corresp="#d594e4"/>
+               <state type="desc">
+                  <note>–</note>
+               </state>
+               <state type="provenance">
+                  <note>Synagogue inscription, Beth She’an, Tzori S:Roth-Gerson,GISEI, no. 7</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>6thC</floruit>
+               <note xml:id="d2e23498" n="59"> See above, n.
+                            53.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

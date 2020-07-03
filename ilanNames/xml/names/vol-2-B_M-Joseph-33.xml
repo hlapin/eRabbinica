@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Joseph-33/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e24874-person" n="vol-2-B_M-Joseph-33">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יוסף</persName>
+               <persName type="lemma" xml:lang="en">Joseph</persName>–<state type="desc">
+                  <note>Abba (31)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yBes1:3, 60b (Kosovsky,Yerushalmi, 14)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#d2e24902"/>
+               </floruit>
+               <note xml:id="d2e24902" n="85"> His son was a contemporary of Joseph (6),
+                                who was a student of Rabbi Yohanan (1), see Introduction
+                            7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Jacob-56/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e30935-person" n="vol-2-P_M-Jacob-56">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יעקב<ref corresp="#d2e28803"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Jacob</persName>
+               <persName xml:lang="gr"><ref corresp="#d786e4"/>
+               </persName>
+               <state type="desc">
+                  <note>Eusebius (3)’s son, Samuel (48)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaphs, Beth She‘arim, catacomb 4,CIJ1117, 1119</note>
+               </state>
+               <bibl>1.BS2:94; 2. 2:96</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref corresp="#d2e30965"/>
+               </floruit>
+               <note xml:id="d2e30940" n="107"> For this form see
+                                vol. 3, under Jacob (8) B/M, p.
+                        121.</note>
+               <note xml:id="d2e30965" n="108"> See above, n. 103.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

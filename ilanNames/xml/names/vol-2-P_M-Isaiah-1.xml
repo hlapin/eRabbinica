@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Isaiah-1/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e35574-person" n="vol-2-P_M-Isaiah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ישעיה<ref corresp="#d2e35562"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Isaiah</persName>
+               <persName xml:lang="checkme">Iaisati<ref corresp="#d911e3"/>
+               </persName>
+               <persName xml:lang="checkme"/>
+               <state type="desc">
+                  <note>Nonnus (4)’s father, the Syrian<ref corresp="#d2e35585"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Dedicatory inscription, Italy, Diehl</note>
+               </state>
+               <bibl>CIJ92*</bibl>
+               <state type="addl-Descr">
+                  <note>Christian?<ref corresp="#d2e35605"/>
+                  </note>
+               </state>
+               <floruit>–<ref corresp="#d2e35612"/>
+               </floruit>
+               <note xml:id="d2e35578" n="1"> In the Vulgate this
+                                prophet is sometimes (but not always) designates Isaias. The editor
+                                must have understood this as the same name, but see vol. 3,
+                                Introduction 6.6.3, p. 51.</note>
+               <note xml:id="d2e35585" n="2"> In Latin – Suro<span xml:lang="checkme"></span>On such designations see vol.
+                                1, Introduction 3.2.6, p. 34.</note>
+               <note xml:id="d2e35605" n="3"> The name
+                                and provenance (Syria) made editors consider it Jewish, see vol. 3,
+                                Introduction 6.8, p. 54, but both are inconclusive, see vol. 3,
+                                Introduction 6.6.7, p. 52.</note>
+               <note xml:id="d2e35612" n="4"> The inscription is not dated. Late antique
+                                date presumed, see vol. 3, Introduction 8.3, p.
+                        60.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Yohanan-15/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e21255-person" n="vol-2-P_M-Yohanan-15">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יוחנן<ref corresp="#d2e20748"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Yohanan</persName>
+               <persName xml:lang="checkme">–</persName>
+               <state type="desc">
+                  <note>Zebadiah (7)’s son,physician,<ref corresp="#d2e21265"/>of Jericho<ref corresp="#d2e21269"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>Pines,PIASH5 (1971-6) 258</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious?<ref corresp="#d2e21288"/>
+                  </note>
+               </state>
+               <floruit>Pre-6thC<ref corresp="#d2e21302"/>
+               </floruit>
+               <note xml:id="d2e21265" n="25"> In
+                                Hebrew – הרופא. On this Jewish medical literature see Introduction
+                                5.1.4.2. </note>
+               <note xml:id="d2e21269" n="26"> In Hebrew – הירחוני, according to
+                                Muntner, Assaph,
+                        163.</note>
+               <note xml:id="d2e21288" n="27"> On the
+                                question of his historicity see Pines, ibid.</note>
+               <note xml:id="d2e21302" n="28"> So
+                                according to Muntner, Assaph,
+                                33-7.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

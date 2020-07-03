@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Uzi-1/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e42337-person" n="vol-2-B_M-Uzi-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עזי</persName>
+               <persName type="lemma" xml:lang="en">Uzi</persName>
+               <persName xml:lang="he">[ע]וזי Reading reconstructed
+                                by editor, see vol. 3, Introduction 2.1, p. 11. On the additional ו
+                                as a vowel see vol. 4, Introduction 2.3.5.1, p.
+                        13.</persName>
+               <state type="desc">
+                  <note>–</note>
+               </state>
+               <state type="provenance">
+                  <note>Synagogue inscription, Katzrin,<ref type="note" corresp="#d2e42350"/>Urman</note>
+               </state>
+               <bibl>Naveh,OSM, no. 110</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>
+                  <ref type="note" corresp="#d2e42366"/>
+               </floruit>
+               <note xml:id="d2e42341" n="1"> Reading reconstructed
+                                by editor, see vol. 3, Introduction 2.1, p. 11. On the additional ו
+                                as a vowel see vol. 4, Introduction 2.3.5.1, p.
+                        13.</note>
+               <note xml:id="d2e42350" n="2"> In the
+                            Golan</note>
+               <note xml:id="d2e42366" n="3"> The inscription is not dated. Late antique
+                                date presumed, see vol. 3, Introduction 8.3, p.
+                        60.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Eleazar-22/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e3552-person" n="vol-2-B_M-Eleazar-22">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אלעזר</persName>
+               <persName type="lemma" xml:lang="en">Eleazar</persName>
+               <persName xml:lang="he"> לעזר See above, n. 33.</persName>
+               <state type="desc">
+                  <note>Isaac (24)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yBB8:1, 15a (Kosovsky,Yerushalmi, 40)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#d2e3585"/>
+               </floruit>
+               <note xml:id="d2e3556" n="51"> See above, n. 33.</note>
+               <note xml:id="d2e3585" n="52"> His son was a student of the last tannaim,
+                            see Introduction 7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

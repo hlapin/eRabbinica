@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Levi-10/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e36244-person" n="vol-2-P_M-Levi-10">
+               <sex cert="high">M</sex>
+               <persName type="lemma">לוי<ref corresp="#d2e35892"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Levi</persName>
+               <persName xml:lang="checkme">–</persName>
+               <state type="desc">
+                  <note>Zebadi (5) and Shalman (1)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yDem7:1, 26a (Kosovsky,Yerushalmi, 208)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref corresp="#d2e36273"/>
+               </floruit>
+               <note xml:id="d2e36273" n="23"> His sons
+                                transmit in the name of Rabbi Yohanan (1), see Introduction
+                                7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

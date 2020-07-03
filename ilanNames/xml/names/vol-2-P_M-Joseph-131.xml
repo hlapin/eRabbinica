@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Joseph-131/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e28666-person" n="vol-2-P_M-Joseph-131">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יוסף<ref corresp="#d2e23629"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Joseph</persName>
+               <persName xml:lang="gr"></persName>
+               <state type="desc">
+                  <note>Uzi (*)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>Lintel inscription, Par‘am (Eastern Galilee)</note>
+               </state>
+               <bibl>Shivtiel &amp; Stepansky,Jerusalem &amp; Eretz Israel8-9 (2013) 242-3</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>2nd-7thC</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

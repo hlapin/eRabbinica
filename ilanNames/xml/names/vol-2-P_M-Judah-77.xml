@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Judah-77/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e17873-person" n="vol-2-P_M-Judah-77">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יהודה<ref corresp="#d2e15002"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Judah</persName>
+               <persName xml:lang="checkme">[יה]וד[ה]<ref corresp="#d446e3"/>
+               </persName>
+               <persName xml:lang="gr">/<ref corresp="#d446e14"/>
+               </persName>
+               <state type="desc">
+                  <note>The good<ref corresp="#d2e17893"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaphs, Beth She‘arim, catacomb 1,CIJ1070, 1072</note>
+               </state>
+               <bibl>1.BS1:79; 2. 2:63</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref corresp="#d2e17916"/>
+               </floruit>
+               <note xml:id="d2e17877" n="167"> So in
+                                BS1:79 in Hebrew. The
+                                reading is suggested by the editor, see vol. 3, Introduction 2.1.
+                            </note>
+               <note xml:id="d2e17887" n="168"> So in 2:63 in Greek. On this form see above,
+                                n. 5.</note>
+               <note xml:id="d2e17893" n="169"> In Hebrew – הטוב. On such titles see Introduction
+                            3.1.3.7.2.</note>
+               <note xml:id="d2e17916" n="170"> See
+                                above, no. 167. </note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

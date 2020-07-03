@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Nahmani-8/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e41164-person" n="vol-2-P_M-Nahmani-8">
+               <sex cert="high">M</sex>
+               <persName type="lemma">נחמני<ref corresp="#d2e40854"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Nahmani</persName>
+               <persName xml:lang="checkme">נחמן<ref corresp="#d1052e3"/>
+               </persName>
+               <state type="desc">
+                  <note>Kahana (9)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>bKet105b<ref corresp="#d2e41184"/>(Kosowsky,Babylonico, 1115)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref corresp="#d2e41206"/>
+               </floruit>
+               <note xml:id="d2e41168" n="18"> See above, n.
+                            2.</note>
+               <note xml:id="d2e41184" n="19"> Although he is
+                                mentioned only in BT and always bears the Babylonian title רב (see
+                                vol. 4, Introduction 6.6.1, p. 36), he is always mentioned in a
+                                Palestinian context and always in Hebrew, see Introduction
+                                5.1.3.2.3. In bKet 105b a tradition by him is
+                                transmitted in Babylonia by a נחותי (i.e. a sage who transmits
+                                Palestinian traditions in Babylonia, and see Hyman, Toldoth, 945) , and see Introduction
+                                5.1.3.2.4.</note>
+               <note xml:id="d2e41206" n="20"> Transmits in the name of Joseph (28),
+                                who was Rabbi Ami (1)’s companion, see Introduction
+                            7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

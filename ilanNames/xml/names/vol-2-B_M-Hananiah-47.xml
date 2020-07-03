@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Hananiah-47/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e13868-person" n="vol-2-B_M-Hananiah-47">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חנניה</persName>
+               <persName type="lemma" xml:lang="en">Hananiah</persName><ref type="note" corresp="#d343e4"/>
+               <persName xml:lang="gr">/ So in Beth She’an. On this form see vol. 3, under
+                            Hananiah (7) B/M, p. 92.</persName>
+               <state type="desc">
+                  <note>Marinus (6)’s son, artist<ref type="note" corresp="#d2e13886"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Synagogue inscriptions, Beth Alpha<ref type="note" corresp="#d2e13900"/>-Beth She’an, Sukenik</note>
+               </state>
+               <bibl>1.CIJ1166; 2. Roth-Gerson,GISEI, no. 5</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>6thC</floruit>
+               <note xml:id="d2e13873" n="80"> So in Beth Alpha. On this form see vol. 1, under
+                            Hananiah (50) B/M, p. 104.</note>
+               <note xml:id="d2e13879" n="81"> So in Beth She’an. On this form see vol. 3, under
+                            Hananiah (7) B/M, p. 92.</note>
+               <note xml:id="d2e13886" n="82"> In both synagogues where
+                            they worked their handywork is comemorated. In Beit She’an with the word
+                                <span xml:lang="gr"></span> (the work of their
+                            hands) and in Beit Alpha with the words: <span xml:lang="gr">    </span> (The artists who
+                            executed this work).</note>
+               <note xml:id="d2e13900" n="83"> In the Beth She’an Valley.
+                        </note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

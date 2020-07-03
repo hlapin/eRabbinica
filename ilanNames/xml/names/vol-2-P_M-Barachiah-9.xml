@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Barachiah-9/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e7546-person" n="vol-2-P_M-Barachiah-9">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ברכיה<ref corresp="#d2e7223"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Barachiah</persName>
+               <persName xml:lang="gr"><ref corresp="#d180e4"/>
+               </persName>
+               <state type="desc">
+                  <note>–</note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaph, Caesarea</note>
+               </state>
+               <bibl>CIIP2, 1461</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref corresp="#d2e7569"/>
+                  </note>
+               </state>
+               <floruit>–<ref corresp="#d2e7575"/>
+               </floruit>
+               <note xml:id="d2e7551" n="18"> See above, n.
+                    16.</note>
+               <note xml:id="d2e7569" n="19"> One person mentioned in
+                            this epitaph has a biblical name and the other a Semitic one, but in the
+                            period in which it was composed these could have been Christian names,
+                            see vol. 3, Introduction 6.6.7, p.
+                        52.</note>
+               <note xml:id="d2e7575" n="20"> The
+                            inscription is not dated. Late antique date presumed, see vol. 3,
+                            Introduction 8.3, p. 60.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

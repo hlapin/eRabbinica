@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Yohanan-16/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e21309-person" n="vol-2-P_M-Yohanan-16">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יוחנן<ref corresp="#d2e20748"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Yohanan</persName>
+               <persName xml:lang="checkme">–</persName>
+               <state type="desc">
+                  <note>Zebadiah (8)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>Synagogue inscription, Capernaum,<ref corresp="#d2e21319"/>Klein</note>
+               </state>
+               <bibl>CIJ982</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC</floruit>
+               <note xml:id="d2e21319" n="29"> On the northern shore of the Sea of
+                                Galilee.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

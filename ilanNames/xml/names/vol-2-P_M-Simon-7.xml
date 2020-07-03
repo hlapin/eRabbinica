@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Simon-7/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e49926-person" n="vol-2-P_M-Simon-7">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שמעון<ref corresp="#d2e49692"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Simon</persName>
+               <persName xml:lang="checkme">–</persName>
+               <state type="desc">
+                  <note>Cloths superintendant<ref corresp="#d2e49933"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yBer9:2, 13d (Kosovsky,Yerushalmi, 606)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rd-4thC<ref corresp="#d2e49968"/>
+               </floruit>
+               <note xml:id="d2e49933" n="12"> In Greek, in Jewish characters – קמטריא. From
+                                the Greek – <span xml:lang="checkme"></span> (see
+                                Jastrow, DTTBYML, 1385). This is the word
+                                used in the Targum for אֲשֶׁר עַל הַמֶּלְתָּחָה in 2 Kgs 10:22. On
+                                such designations see Introduction 3.1.3.3.</note>
+               <note xml:id="d2e49968" n="13"> Was a
+                                contemporary of Hiyya (4), see Introduction 7.4.2.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

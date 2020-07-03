@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Yonah-8/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e22335-person" n="vol-2-B_M-Yonah-8">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יונה</persName>
+               <persName type="lemma" xml:lang="en">Yonah</persName><ref type="note" corresp="#d564e4"/>
+               <state type="desc">
+                  <note>Aged 75<ref type="note" corresp="#d2e22358"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaph, El-Al<ref type="note" corresp="#d2e22374"/>
+                  </note>
+               </state>
+               <bibl>Gregg &amp; Urman, no. 50</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#d2e22385"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#d2e22392"/>
+               </floruit>
+               <note xml:id="d2e22340" n="17"> This is an alternative reading
+                                suggested by the editors. The main text has <span xml:lang="gr"></span>. On the form <span xml:lang="gr"></span> see vol. 1, under Yonah
+                                (3) B/M, p. 143. On the interchange of <span xml:lang="gr"></span>with <span xml:lang="gr"></span> as part of the iotacism
+                                phenomenon see vol. 1, Introduction 2.3.2, p.
+                        21.</note>
+               <note xml:id="d2e22358" n="18"> In
+                                Greek: <span xml:lang="gr"></span>(<span xml:lang="gr"></span>) <span xml:lang="gr"></span>. On these details see vol.
+                                3, Introduction 3.1, p. 21.</note>
+               <note xml:id="d2e22374" n="19"> In the
+                                Golan.</note>
+               <note xml:id="d2e22385" n="20"> Jewishness may be
+                                suggested based on name, but see vol. 3, Introduction 6.6.2, p. 51.
+                                Note that the area were the inscription was found was not uniquely
+                                Jewish.</note>
+               <note xml:id="d2e22392" n="21"> The inscription is
+                                not dated. Late antique date presumed, see vol. 3, Introduction 8.3,
+                                p. 60.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

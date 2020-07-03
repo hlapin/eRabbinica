@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Judah-113/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e19154-person" n="vol-2-P_M-Judah-113">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יהודה<ref corresp="#d2e15002"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Judah</persName>
+               <persName xml:lang="checkme">יודן<ref corresp="#d482e3"/>
+               </persName>
+               <state type="desc">
+                  <note>–</note>
+               </state>
+               <state type="provenance">
+                  <note>Ossuary, Horvat Kishor<ref corresp="#d2e19167"/>
+                  </note>
+               </state>
+               <bibl>Zissu,Atiqot46 (2004) 34</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rd-4thC</floruit>
+               <note xml:id="d2e19158" n="258"> See above, no.
+                                22.</note>
+               <note xml:id="d2e19167" n="259"> South-west of
+                                Hebron.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

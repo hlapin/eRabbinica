@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Joseph-86/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e26891-person" n="vol-2-P_M-Joseph-86">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יוסף<ref corresp="#d2e23629"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Joseph</persName>
+               <persName xml:lang="gr"><ref corresp="#d683e4"/>
+               </persName>
+               <persName xml:lang="gr">/<ref corresp="#d683e17"/>
+               </persName>
+               <persName xml:lang="gr">/<ref corresp="#d683e27"/>
+               </persName>
+               <state type="desc">
+                  <note>Isaac (47)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaphs, Beth She‘arim, catacomb 1,CIJ996, 997, 998, 999, 1043, 1044</note>
+               </state>
+               <bibl>1.BS1:40; 2. 2:19; 3. 2:22; 4. 2:23; 5. 2:26; 6. 2:32; 7. 2:33</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref corresp="#d2e26946"/>
+               </floruit>
+               <note xml:id="d2e26896" n="217"> In
+                                BS1:40 the form יוסף is
+                                recorded. So in BS2:19.
+                                For this form see above, n. 188.</note>
+               <note xml:id="d2e26908" n="218"> So in BS 2:22. For this form see vol. 1, under
+                                Joseph (113) B/M, p. 153. Perhaps it is the vocative.</note>
+               <note xml:id="d2e26917" n="219"> So in BS 2:23, 26, 32 and 33. For this form see
+                                above, n.
+                        186.</note>
+               <note xml:id="d2e26946" n="220"> This is the year in which Beth She‘arim was
+                                destroyed, see Introduction 7.5.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Yohanan-24/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e21625-person" n="vol-2-P_M-Yohanan-24">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יוחנן<ref corresp="#d2e20748"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Yohanan</persName>
+               <persName xml:lang="gr"><ref corresp="#d547e4"/>
+               </persName>
+               <persName xml:lang="checkme"/>
+               <state type="desc">
+                  <note>Isidorus (3)’s son, aged 10 months<ref corresp="#d2e21637"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1b, no. 59</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref corresp="#d2e21658"/>
+                  </note>
+               </state>
+               <floruit>4th-6thC<ref corresp="#d2e21673"/>
+               </floruit>
+               <note xml:id="d2e21630" n="50"> On this form see vol.
+                                1, under Yohanan (67) B/M, p. 136.</note>
+               <note xml:id="d2e21637" n="51"> In Greek – <span xml:lang="checkme"></span>[<span xml:lang="checkme"></span>]. On
+                                these details see vol. 3, Introduction 3.1, p.
+                        21.</note>
+               <note xml:id="d2e21658" n="52"> The inscription
+                                mentions <span xml:lang="checkme"></span> (one God who rules all)
+                                but this is no indication of Jewishness, especially not in Zoar, see
+                                Introduction 6.1.6. The inscription is neither specifically
+                                Christian, nor undoubtedly pagan. Since the Zoar cemetery includes
+                                Jewish tombstones, this one could also be Jewish, see Introduction
+                                6.2.1.1.</note>
+               <note xml:id="d2e21673" n="53"> Because
+                                so many of the inscriptions from Zoar are dated, it is easy to date
+                                the others approximately, see Introduction 7.5.2.3.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Levi-18/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e36528-person" n="vol-2-P_M-Levi-18">
+               <sex cert="high">M</sex>
+               <persName type="lemma">לוי<ref corresp="#d2e35892"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Levi</persName>
+               <persName xml:lang="checkme">–</persName>
+               <state type="desc">
+                  <note>Hanan (5)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yBes4:1, 62b (Kosovsky,Yerushalmi, 264)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-400<ref corresp="#d2e36554"/>
+               </floruit>
+               <note xml:id="d2e36554" n="35"> See above, n. 21.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

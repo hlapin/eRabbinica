@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Hanan-10/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e12067-person" n="vol-2-B_M-Hanan-10">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חנן</persName>
+               <persName type="lemma" xml:lang="en">Hanan</persName>–<state type="desc">
+                  <note>Nahmani (9)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>Gen Rab40:7 (Hyman,Toldoth, 941)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-400<ref type="note" corresp="#d2e12093"/>
+               </floruit>
+               <note xml:id="d2e12093" n="16"> See above, n.
+                    5.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Isaac-63/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e34228-person" n="vol-2-B_M-Isaac-63">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יצחק</persName>
+               <persName type="lemma" xml:lang="en">Isaac</persName><ref type="note" corresp="#d874e4"/>
+               <state type="desc">
+                  <note>–</note>
+               </state>
+               <state type="provenance">
+                  <note>Memorial inscription, Hammat Gader</note>
+               </state>
+               <bibl>Di Segni,Hammat Gader, no. 8</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#d2e34258"/>
+                  </note>
+               </state>
+               <floruit>5th-6thC</floruit>
+               <note xml:id="d2e34233" n="114"> For this form see
+                                vol. 3, under Isaac (9) B/M, p. 128. On the interchange of <span xml:lang="gr"></span>with <span xml:lang="gr"></span> as part of the iotacism
+                                phenomenon see vol. 1, Introduction 2.3.2, p.
+                        21.</note>
+               <note xml:id="d2e34258" n="115"> Jewishness suggested based on name, but see
+                                vol. 3, Introduction 6.6.7, p. 52.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Hezekiah-13/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e11474-person" n="vol-2-B_M-Hezekiah-13">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חזקיה</persName>
+               <persName type="lemma" xml:lang="en">Hezekiah</persName><ref type="note" corresp="#d278e4"/>
+               <state type="desc">
+                  <note>Isaac (66)’s nephew<ref type="note" corresp="#d2e11486"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaph, Jaffa</note>
+               </state>
+               <bibl>Price,SCI22 (2003) 218</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC?<ref type="note" corresp="#d2e11512"/>
+               </floruit>
+               <note xml:id="d2e11479" n="22"> See above, n. 19.</note>
+               <note xml:id="d2e11486" n="23"> In Greek – <span xml:lang="gr"></span>.</note>
+               <note xml:id="d2e11512" n="24"> The early editors of the Jewish inscriptions from
+                            Jaffa suggested this date for them, see Introduction 5.2.2.1. If the
+                            date is correct for the other Jaffa inscriptions, it is correct for this
+                            one as well.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

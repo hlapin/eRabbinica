@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Simon-19/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e50353-person" n="vol-2-B_M-Simon-19">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שמעון</persName>
+               <persName type="lemma" xml:lang="en">Simon</persName>–<state type="desc">
+                  <note>Jonathan’s<ref type="note" corresp="#d2e50360"/>son</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yShab13:7, 14b (Kosovsky,Yerushalmi, 439)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#d2e50386"/>
+               </floruit>
+               <note xml:id="d2e50360" n="29"> In vol. 1, under Jonathan (21) B/M, p.
+                                145.</note>
+               <note xml:id="d2e50386" n="30"> Was the son of a late tanna, see Introduction
+                                7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Hananiah-57/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e14288-person" n="vol-2-B_M-Hananiah-57">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חנניה</persName>
+               <persName type="lemma" xml:lang="en">Hananiah</persName><ref type="note" corresp="#d353e4"/>
+               <state type="desc">
+                  <note>–</note>
+               </state>
+               <state type="provenance">
+                  <note>Memorial inscription, Hammat Gader</note>
+               </state>
+               <bibl>Di Segni,Hammat Gader, no. 70</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#d2e14312"/>
+                  </note>
+               </state>
+               <floruit>5th-6thC</floruit>
+               <note xml:id="d2e14293" n="113"> See above, n.
+                    81.</note>
+               <note xml:id="d2e14312" n="114"> See above, n.
+                            97. </note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

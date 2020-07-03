@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Aqub-9/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e43691-person" n="vol-2-P_M-Aqub-9">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עקוב<ref corresp="#d2e43359"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Aqub</persName>
+               <persName xml:lang="checkme">עוקבה<ref corresp="#d1112e3"/>
+               </persName>
+               <state type="desc">
+                  <note>Ami (8)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>yKet7:7, 31c (Kosovsky,Yerushalmi, 97)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref corresp="#d2e43723"/>
+               </floruit>
+               <note xml:id="d2e43695" n="27"> The displacement of
+                                the ו is probably a dialect variant, see vol. 4, Introduction 2.3.5,
+                                pp. 12-3.On the ה suffix see vol. 1, Introduction 2.4.2.9, p.
+                                26.</note>
+               <note xml:id="d2e43723" n="28"> His son transmits in the name of Joseph
+                                (13), who was a contemporary of Rabbi Yohanan (1), see introduction
+                                7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Bebai-1/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e5506-person" n="vol-2-B_M-Bebai-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">בבי</persName>
+               <persName type="lemma" xml:lang="en">Bebai</persName>
+               <persName xml:lang="he">בבא In the Samaritan script,
+                            see Introduction 2.5.1. On this form see vol. 1, Babi (3) B/M, p. 80.
+                        </persName>
+               <state type="desc">
+                  <note>The Great<ref type="note" corresp="#d2e5517"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>Tulida, 122</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#d2e5532"/>
+                  </note>
+               </state>
+               <floruit>3rd-4thC<ref type="note" corresp="#d2e5544"/>
+               </floruit>
+               <note xml:id="d2e5510" n="1"> In the Samaritan script,
+                            see Introduction 2.5.1. On this form see vol. 1, Babi (3) B/M, p. 80.
+                        </note>
+               <note xml:id="d2e5517" n="2"> In Aramaic – רבא. On this
+                            title see Introduction 3.1.3.1.
+                    </note>
+               <note xml:id="d2e5532" n="3"> He is the great leader of
+                            the Samaritans, see Introduction
+                    7.2.3..</note>
+               <note xml:id="d2e5544" n="4"> These are his
+                            dates according to Cowley, The Samaritan Liturgy, xxi, and see also Introduction 7.2.3.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

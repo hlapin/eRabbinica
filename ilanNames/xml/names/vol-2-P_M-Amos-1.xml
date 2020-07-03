@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Amos-1/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e42799-person" n="vol-2-P_M-Amos-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עמוס<ref corresp="#d2e42789"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Amos</persName>
+               <persName xml:lang="gr"><ref corresp="#d1091e4"/>
+               </persName>
+               <persName xml:lang="checkme"/>
+               <state type="desc">
+                  <note>Gabriel (1)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>Synagogue inscription, Caesarea, Schwabe</note>
+               </state>
+               <bibl>Lehmann &amp; Holum,CMER5, no. 293</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>–<ref corresp="#d2e42827"/>
+               </floruit>
+               <note xml:id="d2e42804" n="1"> So is this name
+                                recorded in LXX, see H &amp; R Suppl. 16.</note>
+               <note xml:id="d2e42827" n="2">
+                                The inscription is not dated. Late antique date presumed, see vol.
+                                3, Introduction 8.3, p. 60.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

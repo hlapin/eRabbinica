@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Simon-63/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e51966-person" n="vol-2-P_M-Simon-63">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שמעון<ref corresp="#d2e49692"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Simon</persName>
+               <persName xml:lang="gr"><ref corresp="#d1325e4"/>
+               </persName>
+               <state type="desc">
+                  <note>Justinus (3)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>Inscription, Ahmadiyye<ref corresp="#d2e51980"/>
+                  </note>
+               </state>
+               <bibl>Gregg &amp; Urman, no. 91*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref corresp="#d2e51991"/>
+                  </note>
+               </state>
+               <floruit>–<ref corresp="#d2e51998"/>
+               </floruit>
+               <note xml:id="d2e51971" n="116"> See above, n.
+                            96.</note>
+               <note xml:id="d2e51980" n="117"> In the Golan.</note>
+               <note xml:id="d2e51991" n="118"> The editors thought the inscription Jewish because of the names,
+                                but this is not decisive, see vol. 3, Introduction 6.6.7, p.
+                            52.</note>
+               <note xml:id="d2e51998" n="119"> See above, n.
+                            79.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

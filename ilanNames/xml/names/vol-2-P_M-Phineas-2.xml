@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Phineas-2/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e44232-person" n="vol-2-P_M-Phineas-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">פנחס<ref corresp="#d2e44183"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Phineas</persName>
+               <persName xml:lang="checkme">פינחס<ref corresp="#d1124e3"/>
+               </persName>
+               <persName xml:lang="checkme"/>
+               <state type="desc">
+                  <note>Bebai (1)’s brother</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>Abu’l Fath, 135</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref corresp="#d2e44253"/>
+                  </note>
+               </state>
+               <floruit>3rd-4thC<ref corresp="#d2e44266"/>
+               </floruit>
+               <note xml:id="d2e44236" n="5"> In Samaritan script,
+                                see Introduction 2.5.1. For this form see vol. 1, under Phineas (13)
+                                B/M, p. 206.</note>
+               <note xml:id="d2e44253" n="6"> This is a Samaritan
+                                chronicle, see Introduction 5.1.2.2. All the persons mentioned in
+                                it, unless otherwise stated, are Samaritans, see Introduction
+                                6.1.2.</note>
+               <note xml:id="d2e44266" n="7"> These are the dates of Baba Rabba (Bebai
+                                [1]), see Introduction 7.2.3. He was his
+                        contemporary.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

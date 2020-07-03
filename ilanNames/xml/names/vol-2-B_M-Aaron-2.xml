@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Aaron-2/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e943-person" n="vol-2-B_M-Aaron-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אהרן</persName>
+               <persName type="lemma" xml:lang="en">Aaron</persName>–<ref type="note" corresp="#d21e3"/>
+               <state type="desc">
+                  <note>Zebadi (1)’s son, priest<ref type="note" corresp="#d2e953"/>F:–</note>
+               </state>
+               <bibl>Tulida, 134</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#d2e969"/>
+                  </note>
+               </state>
+               <floruit>3rd-4thC<ref type="note" corresp="#d2e981"/>
+               </floruit>
+               <note xml:id="d2e947" n="5"> See above, n.
+                    2.</note>
+               <note xml:id="d2e953" n="6"> See
+                            above, n. 3.</note>
+               <note xml:id="d2e969" n="7"> See above, n.
+                        4.</note>
+               <note xml:id="d2e981" n="8"> See above, n.
+                            5</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

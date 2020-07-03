@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Samuel-31/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e47953-person" n="vol-2-P_M-Samuel-31">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שמואל<ref corresp="#d2e46885"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Samuel</persName>
+               <persName xml:lang="checkme">–</persName>
+               <state type="desc">
+                  <note>Hananiah (18)’s son-in-law</note>
+               </state>
+               <bibl>–</bibl>
+               <bibl>Gen Rab14:10 (Hyman,Toldoth, 1149)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref corresp="#d2e47982"/>
+               </floruit>
+               <note xml:id="d2e47982" n="44"> His father-in-law was a contemporary of
+                                Ze‘ira (4), who was a contemporary of Rabbi Yohanan (1), see
+                                Introduction 7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

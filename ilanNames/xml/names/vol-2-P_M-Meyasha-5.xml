@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Meyasha-5/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e37427-person" n="vol-2-P_M-Meyasha-5">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מישא<ref corresp="#d2e37269"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Meyasha</persName>
+               <persName xml:lang="checkme">מיאשה<ref corresp="#d959e3"/>
+               </persName>
+               <state type="desc">
+                  <note>Judah (89)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaph, Beth She‘arim, catacomb 20</note>
+               </state>
+               <bibl>BS3:22</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref corresp="#d2e37453"/>
+               </floruit>
+               <note xml:id="d2e37431" n="10"> On the additional א
+                                as a dialect variant see vol 4, Introduction 2.3.5.3, pp.
+                            13.</note>
+               <note xml:id="d2e37453" n="11"> This is the year in which Beth She‘arim was
+                                destroyed, see Introduction 7.5.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

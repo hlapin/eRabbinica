@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Shafat-2/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e53173-person" n="vol-2-P_M-Shafat-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שפט–</persName>
+               <persName type="lemma" xml:lang="en">Shafat</persName>
+               <persName xml:lang="checkme">שפטיה<ref corresp="#d1357e3"/>
+               </persName>
+               <persName xml:lang="checkme">/שפטי<ref corresp="#d1357e10"/>
+               </persName>
+               <persName xml:lang="checkme">/שפטאי<ref corresp="#d1357e15"/>
+               </persName>
+               <persName xml:lang="checkme"/>
+               <state type="desc">
+                  <note>–</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>bMeg32a<ref corresp="#d2e53204"/>(Kosowsky,Babylonico, 1750-1)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref corresp="#d2e53221"/>
+               </floruit>
+               <note xml:id="d2e53177" n="5"> So in the Vilna Print. This person was
+                                obviously not well known, and his name was not stable so that the
+                                scribes of the mss were not sure how to write it, see vol. 4,
+                                Introduction 5.1.1.2.1.1, pp. 23-4. This being a biblical name e.g.
+                                2 Sam 3:4, this is obviously a scribal “correction,” see vol. 4,
+                                Introduction 2.7.2, p. 18.</note>
+               <note xml:id="d2e53183" n="6"> So in
+                                most versions, see previous note. On this suffix see vol. 1,
+                                Introduction 2.4.1, p. 23.</note>
+               <note xml:id="d2e53187" n="7"> So in the Oxford
+                                Opp.Add. fol. 23 Ms, see n. 6.</note>
+               <note xml:id="d2e53204" n="8"> Although he appears
+                                only here in BT, he is designated רבי, see Introduction 5.1.3.2.2,
+                                and is found in association with Palestinian rabbis, see
+                                Introduction 5.1.3.2.3.</note>
+               <note xml:id="d2e53221" n="9">
+                                Transmits in the name of Rabbi Yohanan (1), see Introduction
+                                7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

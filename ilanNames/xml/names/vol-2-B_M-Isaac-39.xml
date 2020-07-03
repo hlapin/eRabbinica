@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Isaac-39/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e33332-person" n="vol-2-B_M-Isaac-39">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יצחק</persName>
+               <persName type="lemma" xml:lang="en">Isaac</persName>–<state type="desc">
+                  <note>Physician<ref type="note" corresp="#d2e33339"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>Muntner,Assaph, 157</bibl>
+               <state type="addl-Descr">
+                  <note>Proselyte<ref type="note" corresp="#d2e33356"/>
+                  </note>
+               </state>
+               <floruit>Pre-6thC<ref type="note" corresp="#d2e33365"/>
+               </floruit>
+               <note xml:id="d2e33339" n="60"> Is cited
+                                as an authority on a medical substance in the Book of Assaph the
+                                Physician, see Introduction 5.1.4.2.</note>
+               <note xml:id="d2e33356" n="61"> In Hebrew – גר
+                                צדק.</note>
+               <note xml:id="d2e33365" n="62"> So according to Muntner, Assaph, 33-7.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

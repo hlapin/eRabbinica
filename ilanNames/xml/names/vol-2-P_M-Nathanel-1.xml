@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Nathanel-1/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e41775-person" n="vol-2-P_M-Nathanel-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">נתנאל<ref corresp="#d2e41764"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Nathanel</persName>
+               <persName xml:lang="checkme">–<ref corresp="#d1067e3"/>
+               </persName>
+               <persName xml:lang="checkme"/>
+               <state type="desc">
+                  <note>Priest (XXIII)<ref corresp="#d2e41786"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>Tulida, 121</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref corresp="#d2e41803"/>
+                  </note>
+               </state>
+               <floruit>3rdC<ref corresp="#d2e41813"/>
+               </floruit>
+               <note xml:id="d2e41779" n="1"> In the Samaritan
+                                script, see Introduction 2.5.1.</note>
+               <note xml:id="d2e41786" n="2"> On this list see Introduction
+                                3.3.2.1.</note>
+               <note xml:id="d2e41803" n="3"> This is a Samaritan
+                                chronicle, see Introduction 5.1.2.1. All the persons mentioned in
+                                it, unless otherwise stated, are Samaritans, see Introduction
+                                6.1.2.</note>
+               <note xml:id="d2e41813" n="4"> Chronology calculated
+                                roughly according to the Tulida, see
+                                Introduction 7.2.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

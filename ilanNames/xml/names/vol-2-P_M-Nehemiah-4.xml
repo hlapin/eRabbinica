@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Nehemiah-4/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e40495-person" n="vol-2-P_M-Nehemiah-4">
+               <sex cert="high">M</sex>
+               <persName type="lemma">נחמיה<ref corresp="#d2e40382"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Nehemiah</persName>
+               <persName xml:lang="checkme">–</persName>
+               <state type="desc">
+                  <note>In-law of the patriarchal house<ref corresp="#d2e40502"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>bYom78a<ref corresp="#d2e40516"/>(Kosowsky,Babylonico, 1074)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref corresp="#d2e40532"/>
+               </floruit>
+               <note xml:id="d2e40502" n="5"> In Aramaic – חתניה דבי נשיאה. On this
+                                family see Introduction 3.1.3.5.1.</note>
+               <note xml:id="d2e40516" n="6"> Although mentioned
+                                only here in BT, he is a relative of the Palestinian patriarchal
+                                house, see Introduction 5.1.3.2.3.</note>
+               <note xml:id="d2e40532" n="7"> Was a contemporary of Rabbi Ami (1), see
+                                Introduction 7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

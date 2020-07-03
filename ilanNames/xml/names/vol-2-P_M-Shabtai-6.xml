@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-P_M-Shabtai-6/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-P_M-d2e46150-person" n="vol-2-P_M-Shabtai-6">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שבתי<ref corresp="#d2e45951"/>
+               </persName>
+               <persName type="lemma" xml:lang="en">Shabtai</persName>
+               <persName xml:lang="checkme">שבתאי<ref corresp="#d1173e3"/>
+               </persName>
+               <state type="desc">
+                  <note>Marinus (5)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>bBes32b<ref corresp="#d2e46170"/>(Kosowsky,Babylonico, 1543)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-400<ref corresp="#d2e46183"/>
+               </floruit>
+               <note xml:id="d2e46154" n="12"> See above, n. 9.
+                            </note>
+               <note xml:id="d2e46170" n="13"> This is his only
+                                appearance in rabbinic literature and he is described as having come
+                                to Babylonia (אקלע לבבל) indicating that he is originally from
+                                Palestine, and see Introduction 5.1.3.2.1.</note>
+               <note xml:id="d2e46183" n="14"> Mentioned in an amoraic source with no
+                                chronological context, see Introduction 7.4.4.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Aqub-11/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e43763-person" n="vol-2-B_M-Aqub-11">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עקוב</persName>
+               <persName type="lemma" xml:lang="en">Aqub</persName>
+               <persName xml:lang="he">עוקבה See above, n.
+                            28.</persName>
+               <state type="desc">
+                  <note>Samuel (24)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>bBer10a<ref type="note" corresp="#d2e43783"/>(Kosowsky,Babylonico, 1551)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#d2e43799"/>
+               </floruit>
+               <note xml:id="d2e43767" n="31"> See above, n.
+                            28.</note>
+               <note xml:id="d2e43783" n="32"> Although mentioned
+                                only here in BT (and in some mss his son is designated רבי, see
+                                Introduction 5.1.3.2.2), he is described in the presence of a
+                                Palestinian rabbi, dealing with אגדתא (aggadah), see Introduction
+                                5.1.3.2.6.</note>
+               <note xml:id="d2e43799" n="33"> His son was a contemporary Simon (34), who
+                                was a student of Rabbi Yohanan (1), see Introduction
+                            7.4.1.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

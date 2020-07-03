@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Elisha-1/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e2688-person" n="vol-2-B_M-Elisha-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אלישע</persName>
+               <persName type="lemma" xml:lang="en">Elisha</persName>–<state type="desc">
+                  <note>–</note>
+               </state>
+               <state type="provenance">
+                  <note>Graffiti, Parod<ref type="note" corresp="#d2e2698"/>
+                  </note>
+               </state>
+               <bibl>Ben-Zvi,BIES1 (1933) 19</bibl>
+               <state type="addl-Descr">
+                  <note>Late?<ref type="note" corresp="#d2e2714"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#d2e2721"/>
+               </floruit>
+               <note xml:id="d2e2698" n="1"> South-west of
+                    Safed.</note>
+               <note xml:id="d2e2714" n="2"> Ben Zvi maintained that it is not possible,
+                            according to the shape of the letters, to date the inscriptions but he
+                            connected them with reports of medieval pilgrims about their visit to
+                            the cave of Rabbi Tanḥum of Parod, and thus concluded that the
+                            inscriptions too are medieval. On this sort of problem see Introduction
+                            6.4.</note>
+               <note xml:id="d2e2721" n="3"> The inscription is not dated. Late antique date
+                            presumed, see vol. 3, Introduction 8.3, p. 60. However, see also
+                            previous note.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

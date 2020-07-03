@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Yohanan-22/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e21523-person" n="vol-2-B_M-Yohanan-22">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יוחנן</persName>
+               <persName type="lemma" xml:lang="en">Yohanan</persName><ref type="note" corresp="#d545e4"/>
+               <state type="desc">
+                  <note>Innkeeper<ref type="note" corresp="#d2e21534"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Inscription, Antioch<ref type="note" corresp="#d2e21544"/>
+                  </note>
+               </state>
+               <bibl>Jalabert &amp; Mouterde,IGLS770</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#d2e21558"/>
+                  </note>
+               </state>
+               <floruit>6thC</floruit>
+               <note xml:id="d2e21528" n="42"> On this form see vol.
+                                3, under Yohanan (17) B/M, p. 106.
+                        </note>
+               <note xml:id="d2e21534" n="43"> In Greek
+                                – <span xml:lang="gr"></span> (of the
+                                innkeepers). On such designations see Introduction
+                            3.1.3.3.</note>
+               <note xml:id="d2e21544" n="44"> In Syria.</note>
+               <note xml:id="d2e21558" n="45"> This is an inn inscription. It bears
+                                Hebrew names and a biblical quotation (1 Sam 16:4). Yet its
+                                tentative date (and the popularity of this name among Christians,
+                                see vol. 3, Introduction 1.1.1.2, p. 4-5) puts its Jewish character
+                                into question, see vol. 3, Introduction 6.6.7, p. 52. IJO 3, App19 specifically denied the
+                                Jewishness of this inscription.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

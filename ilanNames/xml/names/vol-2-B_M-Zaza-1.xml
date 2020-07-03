@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Zaza-1/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e10243-person" n="vol-2-B_M-Zaza-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">זזא</persName>
+               <persName type="lemma" xml:lang="en">Zaza</persName>
+               <persName xml:lang="he"> זוזי This form is recorded in Palmayra, see Stark, PNPI, 86. The vowel ordering is
+                            probably a reflaction of the dialect, see vol. 4, Introduction 2.3.5,
+                            pp. 12-3.</persName>
+               <state type="desc">
+                  <note>Zebadiah (11)’s father</note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaph, Kafra<ref type="note" corresp="#d2e10259"/>
+                  </note>
+               </state>
+               <bibl>Ilan,Ancient Synagogues, 160</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#d2e10275"/>
+               </floruit>
+               <note xml:id="d2e10247" n="1"> This form is recorded in Palmayra, see Stark, PNPI, 86. The vowel ordering is
+                            probably a reflaction of the dialect, see vol. 4, Introduction 2.3.5,
+                            pp. 12-3.</note>
+               <note xml:id="d2e10259" n="2"> South of
+                        Tiberias.</note>
+               <note xml:id="d2e10275" n="3"> The
+                            inscription is not dated. Late antique date presumed, see vol. 3,
+                            Introduction 8.3, p. 60.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Eleazar-54/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e4757-person" n="vol-2-B_M-Eleazar-54">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אלעזר</persName>
+               <persName type="lemma" xml:lang="en">Eleazar</persName><ref type="note" corresp="#d114e5"/>
+               <anchor type="commentRangeEnd" n="1"/>
+               <ref type="note" corresp="#d114e12"/>
+               <state type="desc">
+                  <note>Abba (59)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaph, Lahav<ref type="note" corresp="#d2e4786"/>
+                  </note>
+               </state>
+               <bibl>Meehan,ZDPV96 (1980) 59</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#d2e4798"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#d2e4806"/>
+               </floruit>
+               <note xml:id="d2e4764" n="125"> The inscription is bilingual. So in Greek.
+                            The Hebrew has אלעזר. For this form as being an abbreviation of the
+                            biblical name Eleazar, see vol. 3, Introduction 2.2.1.1.6, p. 12. This
+                            is of course an abbreviation of the already corrupted form Lazarus, see
+                            above, n. 92.</note>
+               <note xml:id="d2e4786" n="127"> Kibbutz in the north-eastern
+                    Negev.</note>
+               <note xml:id="d2e4798" n="128"> Jewishness
+                            indicated by the Aramaic part off the inscription, see vol. 3,
+                            Introduction 6.2, pp. 33-4.</note>
+               <note xml:id="d2e4806" n="129"> See above, n. 83.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

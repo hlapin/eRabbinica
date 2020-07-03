@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Hananiah-39/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e13611-person" n="vol-2-B_M-Hananiah-39">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חנניה</persName>
+               <persName type="lemma" xml:lang="en">Hananiah</persName>
+               <persName xml:lang="he">חננא On this form see vol. 1,
+                            under Hananiah (52) B/M, p. 104.</persName>
+               <state type="desc">
+                  <note>Sansan (1)’s son</note>
+               </state>
+               <state type="provenance">
+                  <note>–</note>
+               </state>
+               <bibl>Gen Rab19:2 (Hyman,Toldoth, 493-4)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-400<ref type="note" corresp="#d2e13641"/>
+               </floruit>
+               <note xml:id="d2e13615" n="71"> On this form see vol. 1,
+                            under Hananiah (52) B/M, p. 104.</note>
+               <note xml:id="d2e13641" n="72"> See above, n.
+                            17.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

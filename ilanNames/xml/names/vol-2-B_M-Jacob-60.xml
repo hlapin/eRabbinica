@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Jacob-60/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e31082-person" n="vol-2-B_M-Jacob-60">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יעקב</persName>
+               <persName type="lemma" xml:lang="en">Jacob</persName><ref type="note" corresp="#d790e4"/>
+               <state type="desc">
+                  <note>Cantor<ref type="note" corresp="#d2e31093"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Epitaph, Caesarea</note>
+               </state>
+               <bibl>Lehmann &amp; Holum,CMER5, no. 166</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#d2e31113"/>
+                  </note>
+               </state>
+               <floruit>4th-7thC</floruit>
+               <note xml:id="d2e31087" n="117"> See above, n.
+                            86.</note>
+               <note xml:id="d2e31093" n="118"> In
+                                Hebrew (in Greek characters) – <span xml:lang="gr"></span>. On this title see introduction
+                            3.1.2.2.</note>
+               <note xml:id="d2e31113" n="119"> Jewishness indicated
+                                by his title, see previous
+                        note.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica.org</publisher>
+            <authority/>
+            <idno type="URI">http://syriaca.org/names/vol-2-B_M-Joseph-84/tei</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="vol-2-B_M-d2e26799-person" n="vol-2-B_M-Joseph-84">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יוסף</persName>
+               <persName type="lemma" xml:lang="en">Joseph</persName><ref type="note" corresp="#d681e4"/>
+               <state type="desc">
+                  <note>Tailor<ref type="note" corresp="#d2e26810"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Stamp, Sidon, Huezey</note>
+               </state>
+               <bibl>IJO3, Syr14</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#d2e26830"/>
+                  </note>
+               </state>
+               <floruit>
+                  <ref type="note" corresp="#d2e26836"/>
+               </floruit>
+               <note xml:id="d2e26804" n="208"> See above, n.
+                                186.</note>
+               <note xml:id="d2e26810" n="209"> In Greek – <span xml:lang="gr"></span>. On such designations
+                                see Introduction 3.1.3.3.</note>
+               <note xml:id="d2e26830" n="210">
+                                Jewishness suggested based on name but a late date may indicate
+                                Christianity, see vol. 3, Introduction 6.6.7, p. 52.</note>
+               <note xml:id="d2e26836" n="211"> See above, n. 183.</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
