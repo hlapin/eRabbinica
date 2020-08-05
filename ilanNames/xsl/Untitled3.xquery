@@ -81,11 +81,15 @@ declare variable $files := <files>
 </files>;
 
 for $f in $files/f
-    let $doc := concat('zip:file:',$f/text(),'!/word/fontTable.xml')
+    let $doc := concat('zip:file:',$f/text(),'!/word/document.xml')
     let $uz := doc($doc)
     
     return 
-        for $font in $uz//*:font return string-join(($f,$font/@*:name,'&#xd;'),'--')
+        string-join(codepoints-to-string(distinct-values(for $font in $uz//*:document/*:body/*:p/*:r[not(matches(text(),'(\p{IsArabic}|\p{IsHebrew})'))][*:rPr/*:rFonts[@* = "Times Beyrut Roman"]] 
+        return string-to-codepoints($font/*:t[matches(text(),'[&#x00A1;-&#x0178;]')]/text()))))
+        (:for $font in $uz//*:r[*:rPr/@* eq "Times Beyrut Roman"] return *:t:)
+
+
 
 (:let $coll := collection('zip:file:/C:/Users/hlapin/Dropbox/IlanLexiconNames/Vol%201/?select=*.docx!/word/fontTable.xml')
 return

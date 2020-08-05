@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:local="http://local-functions.uri">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name-list">
+            <ab type="name" n="Ginnai-Ginnai">
+               <ref type="note" corresp="#Vol-4-S-d8e6"/>
+               <listPerson xml:id="Ginnai-Vol-4-S-G_M" n="Ginnai">
+                  <person xml:id="Vol-4-S-G_M-d8e16-person"
+                          n="Vol-4-S-G_M-Semitic-Greek-Males-Ginnai-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ginnai</persName>
+                     <persName type="lemma" xml:lang="en">Ginnai</persName>
+                     <persName>Ginn[aei]<ref type="note" corresp="#Vol-4-S-d20e3"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Aurelius (5) ʿAqub (14)</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Military roster papyrus, Dura-Europos</note>
+                     </state>
+                     <bibl>Welles et al.Dura-Europos(1959) 100, xxvii, 101, i</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-d8e39"/>Second NameP:Dura-Europos</note>
+                     </state>
+                     <floruit>Pre-256 CE<ref type="note" corresp="#Vol-4-S-d8e49"/>
+                     </floruit>
+                     <note xml:id="Vol-4-S-d8e20" n="2"> This is the suggested reading of the editor, see Introduction 2.1.</note>
+                     <note xml:id="Vol-4-S-d8e39" n="3"> Jewishness suggested based on other name, but see Introduction 6.5.2.</note>
+                     <note xml:id="Vol-4-S-d8e49" n="4"> This is the year Dura was destroyed, see Introduction 8.4.2.2.</note>
+                  </person>
+               </listPerson>
+            </ab>
+            <ab type="name" n="Ḥasinai-Ḥasinai">
+               <ref type="note" corresp="#Vol-4-S-d8e55"/>
+               <listPerson xml:id="asinai-Vol-4-S-G_M" n="Ḥasinai">
+                  <person xml:id="Vol-4-S-G_M-d8e65-person"
+                          n="Vol-4-S-G_M-Semitic-Greek-Males-Ḥasinai-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ḥasinai</persName>
+                     <persName type="lemma" xml:lang="en">Ḥasinai</persName>
+                     <persName>̓Ασιναῖος<ref type="note" corresp="#Vol-4-S-d57e4"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Ḥanilai (1)’s brother, of Nehardea<ref type="note" corresp="#Vol-4-S-d8e76"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>AJ18:314 (Schalit,NB, 19)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-d8e100"/>P:Babylonia</note>
+                     </state>
+                     <floruit>44 CE<ref type="note" corresp="#Vol-4-S-d8e116"/>
+                     </floruit>
+                     <note xml:id="Vol-4-S-d8e70" n="2"> On the tranliteration of Semitic names into Greek see Introduction 2.2.2.</note>
+                     <note xml:id="Vol-4-S-d8e76" n="3"> In Greek – Νεερδᾶται, see Oppenheimer, Babylonia Judaica, 276-93.</note>
+                     <note xml:id="Vol-4-S-d8e100" n="4"> Josephus begins his and his brother’s story in the following manner: Γίνεται δὲ καὶ περί τοὺς ἐν τῇ Μεσοποταμίᾳ καὶ μάλιστα τὴν Βαβυλωνίαν οἰκοῦντος ̓Ιουδαίους δεινὴ καὶ ο̓δεμιᾶς ἡστινος  (The Jews of Mesopotamia and especially those inhabiting Babylonia now met with a terrible and unparalleled disaster), see Introduction 6.1. He then goes on to tell of the actions of these two brothers, who were obviously Jewish from context.</note>
+                     <note xml:id="Vol-4-S-d8e116" n="5"> See vol. 1, Introduction 7.2, p. 51.</note>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+         <div type="notes">
+            <note xml:id="Vol-4-S-d8e6" n="1"> גיניי/גינאי in Aramaic means “group of gardens, country residence” and also “dyke for irrigating gardens” (Jastrow, DTTBYML, 239). It is also the name of a river. The name JNY is recorded for Arabs (Harding, ICPIANI, 168).</note>
+            <note xml:id="Vol-4-S-d8e55" n="1"> חסינא/חסינא means “stong, hard” in Aramaic (Jastrow, DTTBYML, 487). The form ḤSN is recorded for Arabs (Harding, ICPIANI, 189).</note>
+         </div>
+      </body>
+   </text>
+</TEI>

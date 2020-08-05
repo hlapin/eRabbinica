@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:local="http://local-functions.uri">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name-list">
+            <ab type="name" n="Wardus-Wardus">
+               <ref type="note" corresp="#Vol-2-d8e9"/>
+               <listPerson xml:id="Wardus-Vol-2-P_F" n="Wardus">
+                  <person xml:id="Vol-2-P_F-d8e16-person" n="Vol-2-P_F-Persian-Fales-Wardus-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Wardus</persName>
+                     <persName type="lemma" xml:lang="en">Wardus</persName>
+                     <persName>Ο̓αρδοῦς<ref type="note" corresp="#Vol-2-d20e8"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Auxibius (1)’s daughter, Troila (1)’s sister, aged 30<ref type="note" corresp="#Vol-2-d8e41"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1a, no. 9</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-d8e59"/>
+                        </note>
+                     </state>
+                     <floruit>347<ref type="note" corresp="#Vol-2-d8e65"/>
+                     </floruit>
+                     <note xml:id="Vol-2-d8e25" n="2">  This is how this likely Persian name is transliterated in Greek characters. WGE, 1086 mentions the male name Ο̓άρδης.</note>
+                     <note xml:id="Vol-2-d8e41" n="3"> In Greek – ἐτῶν λ ́.</note>
+                     <note xml:id="Vol-2-d8e59" n="4"> The inscription is neither specifically Christian, nor undoubtedly pagan. Since the Zoar cemetery includes Jewish tombstones, this one could also be Jewish, see Introduction 6.2.1.1.</note>
+                     <note xml:id="Vol-2-d8e65" n="5"> The inscription is dated according to the era of the Province of Arabia, see Introduction 7.5.2.2.</note>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+         <div type="notes">
+            <note xml:id="Vol-2-d8e9" n="1"> This is probably an Iranian name derived from Ward, see Justi, INB, 350-1.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

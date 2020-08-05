@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:local="http://local-functions.uri">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name-list">
+            <ab type="name" n="Licinius-Licinius">
+               <ref type="note" corresp="#Vol-3-Add-d8e8"/>
+               <listPerson xml:id="Licinius-Vol-3-Add-L_M" n="Licinius">
+                  <person xml:id="Vol-3-Add-L_M-d8e15-person"
+                          n="Vol-3-Add-L_M-Latin-Males-Licinius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Licinius</persName>
+                     <persName type="lemma" xml:lang="en">Licinius</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>–</note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Augustinus,Epistle 8*</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-Add-d8e41"/>P:North Africa</note>
+                     </state>
+                     <floruit>354-430 CE<ref type="note" corresp="#Vol-3-Add-d8e52"/>
+                     </floruit>
+                     <note xml:id="Vol-3-Add-d8e41" n="2"> Described in the text as Iudaeus, see Introduction 6.1.1.1.</note>
+                     <note xml:id="Vol-3-Add-d8e52" n="3">  These are the dates of Saint Augustine of Hippo.</note>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+         <div type="notes">
+            <note xml:id="Vol-3-Add-d8e8" n="1"> Latin gentilium, RNGCL, 104.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

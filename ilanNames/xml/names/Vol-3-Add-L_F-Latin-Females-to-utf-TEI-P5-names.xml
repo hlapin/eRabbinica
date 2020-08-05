@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:local="http://local-functions.uri">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name-list">
+            <ab type="name" n="Marullina-Marullina">
+               <ref type="note" corresp="#Vol-3-Add-d8e8"/>
+               <listPerson xml:id="Marullina-Vol-3-Add-L_F" n="Marullina">
+                  <person xml:id="Vol-3-Add-L_F-d8e15-person"
+                          n="Vol-3-Add-L_F-Latin-Females-Marullina-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Marullina</persName>
+                     <persName type="lemma" xml:lang="en">Marullina</persName>
+                     <persName>Μαρυλλε[ῖ]να<ref type="note" corresp="#Vol-3-Add-d20e12"/>
+                     </persName>
+                     <state type="desc">
+                        <note>–</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Amulet, Comiso</note>
+                     </state>
+                     <bibl>Belivacque &amp; de Romanis,RendicontiSeries 9, 14 (2003) 390</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-Add-d8e52"/>P:Sicily</note>
+                     </state>
+                     <floruit>5thC CE</floruit>
+                     <note xml:id="Vol-3-Add-d8e28" n="2"> See Introduction 2.1 and above, under Marullina L/F, n. 2 (p. 599).</note>
+                     <note xml:id="Vol-3-Add-d8e52" n="3">  Jewishness suggested based on the many Jewish names of God and magical formula in the amulet, but in magical texts these are not decisive, see Introduction 6.10.1.6.</note>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+         <div type="notes">
+            <note xml:id="Vol-3-Add-d8e8" n="1"> Latin cognomen (Marullinus), RNGCL, 359.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
