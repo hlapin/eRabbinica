@@ -15,22 +15,20 @@
     <xsl:variable name="doc-uri" select="document-uri(/)" as="xs:string"/>
     <xsl:param name="path"
         select="'file:///C:/Users/hlapin/Documents/GitHub/eRabbinica/ilanNames/xml/'"/>
-    
+    <!--<xsl:variable name="files" select="collection(concat($to_TEI, '?select=[PS][0-9]+?.xml;recurse=no'))"/>-->
+    <!-- <xsl:variable name="files"
+        select="collection('file:/C:/Users/hlapin/Dropbox/IlanLexiconNames/Vol%202/utf-converted/Vol-2-B_F-Biblical-Females-to-utf-TEI-P5.xml')"/> -->
     <xsl:variable name="collect-files" select="collection(concat($to_TEI, '?select=*-to-utf-TEI-P5.xml;recurse=no'))"/>
     
     <xsl:include href="langageConversion.xsl"/>
     <xsl:variable name="to-file-out" select="'names/'"/>
     
-    <!--start from xml-->
     <xsl:template match="/">
         
-            <xsl:message><xsl:value-of select="base-uri(.)"/><xsl:text> 
+            <xsl:message><xsl:value-of select="base-uri(.)"/><xsl:text>
            </xsl:text></xsl:message>
-        <!--<!-\- this pass is a kludge to provide notes with IDs despite inconsistencies in the base word files and the way they convert to TEI -\->
-        <xsl:variable name="firstPass">
-            <xsl:apply-templates mode="firstPass"></xsl:apply-templates>
-        </xsl:variable>   -->
             <xsl:variable name="parsedTitle" select="local:parseURI(base-uri(.))"/>
+            <!--<xsl:result-document encoding="UTF-8" href="{concat($path,'names/',$parsedTitle[1],'.xml')}">-->
                 <TEI>
                     <teiHeader>
                         <fileDesc>
@@ -61,7 +59,6 @@
             <!--</xsl:result-document>-->
     </xsl:template>
     
-    <!--start from template-->
     <xsl:template name="start">
        <xsl:for-each select="$collect-files">
            <xsl:message><xsl:value-of select="document-uri(.)"/><xsl:text>
@@ -95,30 +92,14 @@
         </xsl:for-each>
     </xsl:template>
     
-    <!-- next two templates a kludge to deal with inconsistencies in underlying word files and how they transfer to TEI -->
-    <xsl:template match="node() | @*" mode="firstPass" priority="5">
-        <xsl:copy>
-            <xsl:apply-templates select="node() | @*" mode="firstPass"/>
-        </xsl:copy>
-    </xsl:template>
-    <xsl:template match="note" mode="firstPass">
-        <note>
-            <xsl:copy-of select="@*"/>
-            <xsl:if test="not(@xml:id)"><xsl:attribute name="xml:id" select="generate-id(.)"></xsl:attribute></xsl:if>
-            <xsl:apply-templates mode="firstPass"></xsl:apply-templates>
-        </note>
-    </xsl:template>
-    
-    
     <xsl:template match="node() | @*" mode="#all">
         <xsl:copy>
             <xsl:apply-templates select="node() | @*" mode="#current"/>
         </xsl:copy>
     </xsl:template>
     
-    <!-- list based transformations -->
     <xsl:template match="body" mode="list">
-        
+        <!-- copied to variable to make sure that generate-id gives the same value, not once from doc and once from variable -->
         <xsl:variable name="names">
             <xsl:for-each-group select=".[list]/*| .//div[list]/*"
                 group-starting-with="p[following-sibling::*[1][self::list]]">
@@ -142,7 +123,7 @@
     <!-- alternate version of above for starting from template -->
     <xsl:template name="fromList">
         <xsl:param name="body"></xsl:param>
-       
+        <!-- copied to variable to make sure that generate-id gives the same value, not once from doc and once from variable -->
         <xsl:variable name="names">
             <xsl:for-each-group select="$body/* | $body/div[list]/*"
                 group-starting-with="p[following-sibling::*[1][self::list]]">
@@ -181,9 +162,9 @@
                     <xsl:variable name="nameOrig" select="if (empty($nameWritten)) then $nameTranslit  else $nameWritten"/>
                     
                     <ab type="name" n="{$nameTranslit}-{$nameOrig}">
-                        <!--<note><xsl:copy-of select="./preceding-sibling::*[last()]//note/@*"></xsl:copy-of></note>-->
-                        <xsl:apply-templates select="./preceding-sibling::*[1]//note"/>
-                        <xsl:apply-templates select="." mode="table">
+
+                        <xsl:apply-templates select="./preceding-sibling::*[last()]//note"/>
+                        <xsl:apply-templates select=".">
                             <xsl:with-param name="nameTranslit" select="$nameTranslit" tunnel="yes"/>
                             <xsl:with-param name="nameOrig" select="$nameOrig" tunnel="yes"></xsl:with-param>
                         </xsl:apply-templates>
@@ -205,6 +186,18 @@
     </xsl:template>
     <xsl:template match="list[not(ancestor::cell)]">
        <xsl:param  name="parsed-URI" tunnel="yes"></xsl:param>
+        <!-- cleaner way to do this? -->
+        <!-- change to regex to exclude occasional minus sign &#x2212; -->
+        <!--<xsl:variable name="nameTranslit"
+            select="
+                normalize-space(if (matches(preceding-sibling::p[1]/hi[last()], '[&#x2d;&#x2212;&#x2013;] ')) then
+                    tokenize(preceding-sibling::p[1]/hi[last()], '[&#x2d;&#x2212;&#x2013;]')[2]
+                else
+                    preceding-sibling::p[1]/hi[last()])"/>
+        <xsl:variable name="nameOrig"
+            select="normalize-space(replace(preceding-sibling::p[1]/hi[1], '[&#x2d;&#x2212;&#x2013;]', ''))"/>-->
+        <!-- as long as each name heading as a fn this should work  -->
+        
         <!-- This could be done more sensibly consistently and in function to remove duplication -->
         <xsl:variable name="nameTranslit"
             select="if (normalize-space(string-join(preceding-sibling::p[1]/note[1]/(following-sibling::text()|following-sibling::hi)))) then
@@ -265,13 +258,16 @@
                                                 <persName type="lemma" xml:lang="en">
                                                     <xsl:value-of select="$nameTranslit"/>
                                                 </persName>
-                                                <xsl:apply-templates select="$groups/persName"/>
+                                                
+                                                <xsl:apply-templates select="$groups/persName"
+                                                  />
                                             </xsl:when>
                                             <xsl:when test="contains(current-group()[1], 'Ds:')">
                                                 <state type="desc">
                                                   <note>
                                                   <xsl:apply-templates
-                                                  select="current-group()[not(. is current-group()[1])]"/>
+                                                  select="current-group()[not(. is current-group()[1])]"
+                                                  />
                                                   </note>
                                                 </state>
                                             </xsl:when>
@@ -311,21 +307,24 @@
                                         <!--</xsl:if>-->
                                     </xsl:for-each-group>
                                 </xsl:variable>
+                                
                                 <xsl:copy-of select="$name-groups"></xsl:copy-of>
                                 <xsl:apply-templates select=".//note" mode="fn"/>
                             </person>
     </xsl:template>
     
     <!-- for table based files -->
-    <xsl:template match="table" mode="table">
+    <xsl:template match="table">
         <xsl:param name="nameTranslit" tunnel="yes"></xsl:param>
         <xsl:param name="nameOrig" tunnel="yes"></xsl:param>
         <xsl:variable name="parsedfileName" select="local:parseURI(base-uri(.))[3]"/>
-        
+        <!-- copying contents so that all the generate-ids operate on copy, not *some* on original -->
+        <xsl:variable select="." name="table"></xsl:variable>
         <listPerson xml:id="{translate(local:stripChars($nameTranslit),' ','_')}-{$parsedfileName}" n="{$nameOrig}">
-            <xsl:apply-templates select="*"></xsl:apply-templates>
+            <xsl:apply-templates select="$table/*"></xsl:apply-templates>
         </listPerson>
     </xsl:template>
+    
     <xsl:template match="row">
         <xsl:param name="nameTranslit" tunnel="yes"></xsl:param>
         <xsl:param name="nameOrig" tunnel="yes"></xsl:param>
@@ -333,10 +332,10 @@
         <xsl:variable name="name" select="translate($nameTranslit,' ','_')"/>
         <person xml:id="{concat($parsedfileName[3],'-',generate-id(.),'-person')}"
             n="{concat($parsedfileName[3],'-',$name,'-',count(preceding-sibling::row) + 1)}">
-            <persName type="lemma"><xsl:value-of select="$nameOrig"/></persName>
-            <persName type="lemma" xml:lang="en"><xsl:value-of select="$nameTranslit"/></persName>
             <sex cert="high"><xsl:value-of select="substring-after($parsedfileName[4],'_')"/></sex>
             <xsl:apply-templates select="cell"/>
+            <persName type="lemma"><xsl:value-of select="$nameOrig"/></persName>
+            <persName type="lemma" xml:lang="en"><xsl:value-of select="$nameTranslit"/></persName>
             <xsl:apply-templates select=".//note" mode="fn"></xsl:apply-templates> 
         </person>
     </xsl:template>
@@ -346,21 +345,16 @@
             <xsl:when test="not(preceding-sibling::cell)">
                 <!-- skip me -->
             </xsl:when>
-            <!-- 1. O: orthography abidwn  
-                       Ds: description High priest  
-                       F: find location– 
-                       S: bibl Pseudo-Cyril of Jerusalem, The Cross, 29b II 
-                       E: ethnicity? -> addlDesc – 
-                       D: floruit -->
+            <!-- 1.	O: abidwn  Ds: High priest  F: – S: Pseudo-Cyril of Jerusalem, The Cross, 29b II E: – D: -->
             <xsl:when test="count(preceding-sibling::cell) = 1">
                 <xsl:variable name="nameTkns" as="node()*">
-                    <xsl:apply-templates mode="nameTkns" select="if (./div|./p) then (./div|./p)/node() else node()"></xsl:apply-templates>
+                    <xsl:apply-templates mode="nameTkns" select="if (div) then ./div/node() else node()"></xsl:apply-templates>
                 </xsl:variable>
                 <!--<xsl:copy-of select="$nameTkns"></xsl:copy-of>-->
-                <xsl:for-each-group select="$nameTkns" group-adjacent="not(self::*:sep)">
+                <xsl:for-each-group select="$nameTkns" group-starting-with="*:sep">
                     <xsl:variable name="pname">
                         <persName>
-                            <xsl:apply-templates select="current-group()"/>
+                            <xsl:apply-templates select="current-group()[not(self::*:sep)]"/>
                         </persName>
                     </xsl:variable>
                     <xsl:apply-templates select="$pname/*" mode="names"></xsl:apply-templates>
@@ -401,12 +395,6 @@
                     <xsl:apply-templates/>
                 </floruit>
             </xsl:when>
-            <xsl:when test="count(preceding-sibling::cell) >= 7">
-                <!--D-->
-                <state>
-                    <note type="prob-in-source"><xsl:apply-templates/></note>
-                </state>
-            </xsl:when>
         </xsl:choose>
     </xsl:template>
     <xsl:template match="text()[ancestor::cell]" mode="nameTkns">
@@ -417,18 +405,20 @@
     </xsl:template>
     <xsl:template match="element()[ancestor-or-self::cell]" mode="nameTkns">
         <xsl:choose>
-            <xsl:when test="self::hi[not(ancestor::note)]">
+            <xsl:when test="self::hi[not(ancestor-or-self::note)]">
                     <xsl:apply-templates mode="nameTkns"> </xsl:apply-templates>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:element name="{name()}">
-                    <xsl:copy-of select="@*"></xsl:copy-of>
                     <xsl:apply-templates mode="nameTkns"> </xsl:apply-templates>
                 </xsl:element>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-        <xsl:template match="list[ancestor::cell]">
+    <xsl:template match="head">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="list[ancestor::cell]">
         <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="item[ancestor::cell]">
@@ -440,11 +430,8 @@
     <xsl:template match="div[ancestor::cell]">
         <xsl:apply-templates></xsl:apply-templates>
     </xsl:template>
-    <xsl:template match="head">
-        <xsl:apply-templates/>
-    </xsl:template>
     <xsl:template match="note" mode="#default">
-        <ref type="note" corresp="#{local:parseURI($doc-uri)[3]}-{@xml:id}"/>
+        <ref type="note" corresp="#{local:parseURI($doc-uri)[5]}{generate-id()}"/>
     </xsl:template>
     <xsl:template match="hi | seg" mode="#default">
         <xsl:apply-templates mode="#current"/>
@@ -457,7 +444,7 @@
                 <xsl:variable name="seq"
                     select="(ancestor-or-self::list//note | ancestor-or-self::list/preceding-sibling::p[1]/note | ancestor-or-self::p[1]/note)"/>
                 <xsl:variable name="this" select="."/>
-                <note xml:id="{local:parseURI($doc-uri)[3]}-{@xml:id}"
+                <note xml:id="{local:parseURI($doc-uri)[5]}{generate-id()}"
                     n="{for $i in (1 to count($seq)) return $i[$seq[$i] is $this]}">
                     <xsl:apply-templates select="p/node()" mode="fn"/>
                 </note>
@@ -466,7 +453,7 @@
                 <xsl:variable name="seq"
                     select="(.[not(ancestor::table)]/(ancestor::head | p)//note | ancestor-or-self::table//note)"/>
                 <xsl:variable name="this" select="."/>
-                <note xml:id="{local:parseURI($doc-uri)[3]}-{@xml:id}">
+                <note xml:id="{local:parseURI($doc-uri)[5]}{generate-id()}">
                     <xsl:attribute name="n">
                         <!-- if headings before tables are inconsistent re number of notes will need to adjust -->
                         <xsl:choose>

@@ -7,8 +7,9 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:output indent="yes"></xsl:output>
-    <xsl:variable name="src" select="collection('file:/C:/Users/hlapin/Documents/GitHub/eRabbinica/ilanNames/xml/names/?select=*-to-utf-TEI-P5-names.xml;recurse=no')"/>
-
+    <!--<xsl:variable name="src" select="collection('file:/C:/Users/hlapin/Documents/GitHub/eRabbinica/ilanNames/xml/names/?select=*-to-utf-TEI-P5-names.xml;recurse=no')"/> -->
+    <xsl:variable name="src" select="collection('file:/C:/Users/hlapin/Documents/GitHub/eRabbinica/ilanNames/xml/names/?select=Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml;recurse=no')"/>
+    
     <xsl:template name="start">
         <TEI>
             <teiHeader>
@@ -26,11 +27,12 @@
             </teiHeader>
             <text><body><div type="name-list">
             <xsl:for-each-group select="$src//ab" group-by="@n" >
-                <ab corresp="{for $id in current-group()/listPerson return concat('names/#',$id/@xml:id)}">
+                <!-- tidier way to do this? -->
+                <ab corresp="{for $id in current-group()/listPerson return concat('names/',tokenize(base-uri($id),'/')[last()],'/#',$id/@xml:id)}">
                     <xsl:copy-of select="current-group()[1]/@*"></xsl:copy-of>
                     <xsl:copy-of select="current-group()/ref"></xsl:copy-of>
                     <listPerson>
-                    <xsl:apply-templates select="current-group()/listPerson/*"/>
+                        <xsl:apply-templates select="current-group()/listPerson/*"/>
                     </listPerson>
                 </ab>
             </xsl:for-each-group>
@@ -49,7 +51,7 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="note">
+    <xsl:template match="note[@xml:id]">
         <!-- omit on this pass -->
     </xsl:template>
 </xsl:stylesheet>
