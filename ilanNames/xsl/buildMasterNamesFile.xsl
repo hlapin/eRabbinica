@@ -7,8 +7,8 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:output indent="yes"></xsl:output>
-    <!--<xsl:variable name="src" select="collection('file:/C:/Users/hlapin/Documents/GitHub/eRabbinica/ilanNames/xml/names/?select=*-to-utf-TEI-P5-names.xml;recurse=no')"/> -->
-    <xsl:variable name="src" select="collection('file:/C:/Users/hlapin/Documents/GitHub/eRabbinica/ilanNames/xml/names/?select=Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml;recurse=no')"/>
+    <xsl:variable name="src" select="collection('file:/C:/Users/hlapin/Documents/GitHub/eRabbinica/ilanNames/xml/names/?select=*-to-utf-TEI-P5-names.xml;recurse=no')"/> 
+    <!--<xsl:variable name="src" select="collection('file:/C:/Users/hlapin/Documents/GitHub/eRabbinica/ilanNames/xml/names/?select=Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml;recurse=no')"/>-->
     
     <xsl:template name="start">
         <TEI>
@@ -39,7 +39,6 @@
         </div>
             <div type="notes">
                 <xsl:for-each select="$src">
-                    
                     <xsl:copy-of select="./TEI/text/body/div/note[@xml:id] | ./TEI/text/body/div/ab/listPerson/person/note[@xml:id] "/></xsl:for-each>
             </div></body></text>
         </TEI>
