@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Shamoa Shamla-שמועשמלה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Shamoa_Shamla-Vol-1-B_M"
+                type="name"
+                n="Shamoa Shamla-שמועשמלה"
+                xml:id="name-Shamoa_Shamla-d1e164503">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_M-ftn4042"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_M-d2e52829-person" n="Vol-1-B_M-Shamoa_Shamla-1">
+                     <persName type="lemma">שמועשמלה</persName>
+                     <persName type="lemma" xml:lang="en">Shamoa Shamla</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">שמלא<ref type="note" corresp="#Vol-1-B_M-ftn4043"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Nabataean deed, Babtha archive</note>
+                     </state>
+                     <bibl>PYadin 9</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>122 CE<ref type="note" corresp="#Vol-1-B_M-ftn4044"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-B_M-d2e52855-person" n="Vol-1-B_M-Shamoa_Shamla-2">
+                     <persName type="lemma">שמועשמלה</persName>
+                     <persName type="lemma" xml:lang="en">Shamoa Shamla</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">שמלא<ref type="note" corresp="#Vol-1-B_M-ftn4045"/>
+                     </persName>
+                     <persName xml:lang="gr">Σωμαλα<ref type="note" corresp="#Vol-1-B_M-ftn4046"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e15515-person" type="relation" n="father-of">Hananiah (73)’s father</ref>
+                           <ref type="note" corresp="#Vol-1-B_M-ftn4047"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, marriage contract, Babatha archive</note>
+                     </state>
+                     <bibl>PYadin 18</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>128 CE<ref type="note" corresp="#Vol-1-B_M-ftn4048"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-B_M-d2e52891-person" n="Vol-1-B_M-Shamoa_Shamla-3">
+                     <persName type="lemma">שמועשמלה</persName>
+                     <persName type="lemma" xml:lang="en">Shamoa Shamla</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—<ref type="note" corresp="#Vol-1-B_M-ftn4049"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Masada</note>
+                     </state>
+                     <bibl>Mas 514</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn4050"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

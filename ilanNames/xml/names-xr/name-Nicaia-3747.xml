@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Nicaia-Νίκαια</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Nicaia-Vol-3-G_F"
+                type="name"
+                n="Nicaia-Νίκαια"
+                xml:id="name-Nicaia-d1e481620">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn878"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e15375-person" n="Vol-3-G_F-Greek-Females-Nicaia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Νίκαια</persName>
+                     <persName type="lemma" xml:lang="en">Nicaia</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Silvana (1), <ref corresp="#Vol-3-E_M-d8e7636-person" type="relation" n="daughter-of">Psoubios (1)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Oxyrhynchus, Grenfell &amp; Hunt</note>
+                     </state>
+                     <bibl>CPJ423</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn879"/>P:Egypt</note>
+                     </state>
+                     <floruit>85 CE<ref type="note" corresp="#Vol-3-G_F-ftn880"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e15428-person" n="Vol-3-G_F-Greek-Females-Nicaia-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Νίκαια</persName>
+                     <persName type="lemma" xml:lang="en">Nicaia</persName>
+                     <persName>Νείκαιαν<ref type="note" corresp="#Vol-3-G_F-ftn881"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e54045-person"
+                                type="relation"
+                                n="daughter-of">Lysimachus (6)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Heracleopolis</note>
+                     </state>
+                     <bibl>PC29 (2001) 4</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn882"/>P:Egypt</note>
+                     </state>
+                     <floruit>134 BCE<ref type="note" corresp="#Vol-3-G_F-ftn883"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e15466-person" n="Vol-3-G_F-Greek-Females-Nicaia-3">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Νίκαια</persName>
+                     <persName type="lemma" xml:lang="en">Nicaia</persName>
+                     <persName>Νείκαις<ref type="note" corresp="#Vol-3-G_F-ftn884"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e7299-person" type="relation" n="daughter-of">Androsthenes (2)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira</note>
+                     </state>
+                     <bibl>Reynolds,CJZC16c</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn885"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

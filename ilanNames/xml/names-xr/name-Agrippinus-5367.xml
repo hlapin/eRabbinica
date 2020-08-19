@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Agrippinus-Agrippinus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Agrippinus-Vol-3-L_M"
+                type="name"
+                n="Agrippinus-Agrippinus"
+                xml:id="name-Agrippinus-d1e543934">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn67"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e1128-person"
+                          n="Vol-3-L_M-Latin-Males-Agrippinus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Agrippinus</persName>
+                     <persName type="lemma" xml:lang="en">Agrippinus</persName>
+                     <persName>̓Αγριππείνου<ref type="note" corresp="#Vol-3-L_M-ftn68"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e25500-person" type="relation" n="father-of">Helles (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Schneider Graziosi</note>
+                     </state>
+                     <bibl>CIJ322</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn69"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

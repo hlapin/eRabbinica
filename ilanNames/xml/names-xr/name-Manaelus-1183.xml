@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Manaelus-Μαναηλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Manaelus-Vol-1-S-G_M"
+                type="name"
+                n="Manaelus-Μαναηλος"
+                xml:id="name-Manaelus-d1e285862">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-G_M-ftn126"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-G_M-d2e2227-person" n="Vol-1-S-G_M-Manaelus-1">
+                     <persName type="lemma">Μαναηλος</persName>
+                     <persName type="lemma" xml:lang="en">Manaelus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-S-G_M-d2e2247-person" type="relation" n="son-of">Manaelus (2)’s son</ref>
+                           <ref type="note" corresp="#Vol-1-S-G_M-ftn127"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, declaration, “Seyal”</note>
+                     </state>
+                     <bibl>Se 62c-m</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>127 CE<ref type="note" corresp="#Vol-1-S-G_M-ftn128"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-S-G_M-d2e2247-person" n="Vol-1-S-G_M-Manaelus-2">
+                     <persName type="lemma">Μαναηλος</persName>
+                     <persName type="lemma" xml:lang="en">Manaelus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Μαναηλου<ref type="note" corresp="#Vol-1-S-G_M-ftn129"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Manaelus (1) and <ref corresp="#" type="relation" n="father-of">Shamua (5)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, declaration, “Seyal”</note>
+                     </state>
+                     <bibl>Se 62c-m</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>127 CE<ref type="note" corresp="#Vol-1-S-G_M-ftn130"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

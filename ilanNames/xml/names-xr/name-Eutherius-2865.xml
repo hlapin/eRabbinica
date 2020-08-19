@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Eutherius-Ε̓θήριος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Eutherius-Vol-2-Vol-1-ADD-G_M"
+                type="name"
+                n="Eutherius-Ε̓θήριος"
+                xml:id="name-Eutherius-d1e444094">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-G_M-ftn119"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-G_M-d8e1705-person"
+                          n="Vol-2-Vol-1-ADD-G_M-Greek-Males-Eutherius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ε̓θήριος</persName>
+                     <persName type="lemma" xml:lang="en">Eutherius</persName>
+                     <persName>Ε̓θήρι<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn120"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn121"/>Tomb of the Prophets, Clermon-Gannau</note>
+                     </state>
+                     <bibl>CIIP1/2, 950</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn122"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn123"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

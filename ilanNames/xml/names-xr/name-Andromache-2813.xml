@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Andromache-̓Ανδρομάχη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Andromache-Vol-2-Vol-1-ADD-G_F"
+                type="name"
+                n="Andromache-̓Ανδρομάχη"
+                xml:id="name-Andromache-d1e438463">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-G_F-ftn14"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-G_F-d8e219-person"
+                          n="Vol-2-Vol-1-ADD-G_F-Greek-Females-Andromache-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Ανδρομάχη</persName>
+                     <persName type="lemma" xml:lang="en">Andromache</persName>
+                     <persName>̓Ανδρομάχης</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-L_M-d8e5364-person" type="relation" n="mother-of">Justus (2)’s mother</ref>, of Tiberias<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn15"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Laconia,<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn16"/>Robert</note>
+                     </state>
+                     <bibl>CIJ721a</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn17"/>
+                        </note>
+                     </state>
+                     <floruit>1st-2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

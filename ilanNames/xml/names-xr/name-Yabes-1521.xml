@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Yabes-יעבץ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Yabes-Vol-2-B_M"
+                type="name"
+                n="Yabes-יעבץ"
+                xml:id="name-Yabes-d1e335111">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-B_M-ftn1805"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-B_M-d8e26795-person" n="Vol-2-B_M-Biblical-Males-Yabes-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">יעבץ</persName>
+                     <persName type="lemma" xml:lang="en">Yabes</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>yHag2:1, 77a (Kosovsky,Yerushalmi, 440)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>4thC<ref type="note" corresp="#Vol-2-B_M-ftn1806"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

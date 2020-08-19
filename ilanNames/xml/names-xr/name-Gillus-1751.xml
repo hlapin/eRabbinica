@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Gillus-Γίλλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Gillus-Vol-2-G_M"
+                type="name"
+                n="Gillus-Γίλλος"
+                xml:id="name-Gillus-d1e357226">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn271"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e3947-person" n="Vol-2-G_M-Greek-Males-Gillus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Γίλλος</persName>
+                     <persName type="lemma" xml:lang="en">Gillus</persName>
+                     <persName>Γίλς<ref type="note" corresp="#Vol-2-G_M-ftn272"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_F-d8e827-person" type="relation" n="son-of">Demetra (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Elijah’s Cave</note>
+                     </state>
+                     <bibl>Appendix, no. 16</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn273"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-8thC<ref type="note" corresp="#Vol-2-G_M-ftn274"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

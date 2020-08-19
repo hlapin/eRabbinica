@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Čihrāzād-Čihrāzād</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_F-Iranian-Females-to-utf-TEI-P5-names.xml/#ihrzd-Vol-4-I_F"
+                type="name"
+                n="Čihrāzād-Čihrāzād"
+                xml:id="name-ihrzd-d1e608402">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_F-ftn571"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_F-d8e6978-person"
+                          n="Vol-4-I_F-Iranian-Females-Čihrāzād-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Čihrāzād</persName>
+                     <persName type="lemma" xml:lang="en">Čihrāzād</persName>
+                     <persName>טשיהארזד<ref type="note" corresp="#Vol-4-I_F-ftn572"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e12225-person"
+                                type="relation"
+                                n="mother-of">Barshibabi (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Nippur, Montgomery</note>
+                     </state>
+                     <bibl>Isbell, no. 26</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn573"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn574"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

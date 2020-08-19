@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Peticia-Peticia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Peticia-Vol-3-L_F"
+                type="name"
+                n="Peticia-Peticia"
+                xml:id="name-Peticia-d1e537773">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn899"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e28444-person"
+                          n="Vol-3-L_F-Latin-Females-Peticia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Peticia</persName>
+                     <persName type="lemma" xml:lang="en">Peticia</persName>
+                     <persName>Pticia<ref type="note" corresp="#Vol-3-L_F-ftn900"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Aster (3), Julius (8) <ref corresp="#Vol-3-L_M-d8e35989-person" type="relation" n="wife-of">Sabinus (6)’s wife</ref>, aged 48<ref type="note" corresp="#Vol-3-L_F-ftn901"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Schneider Graziosi</note>
+                     </state>
+                     <bibl>CIJ468</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn902"/>; second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

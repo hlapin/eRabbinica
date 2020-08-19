@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Hōrmīzdad-Hōrmīzdad</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#Hrmzdad-Vol-4-I_M"
+                type="name"
+                n="Hōrmīzdad-Hōrmīzdad"
+                xml:id="name-Hrmzdad-d1e620908">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn399"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_M-d8e4656-person"
+                          n="Vol-4-I_M-Iranian-Males-Hōrmīzdad-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Hōrmīzdad</persName>
+                     <persName type="lemma" xml:lang="en">Hōrmīzdad</persName>
+                     <persName>הרמסדר<ref type="note" corresp="#Vol-4-I_M-ftn400"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_F-d8e13728-person" type="relation" n="son-of">Tardi (1)’s son</ref>
+                           <ref type="note" corresp="#Vol-4-I_M-ftn401"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Nippur, Montgomery</note>
+                     </state>
+                     <bibl>Isbell, no. 27</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn402"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn403"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_M-d8e4700-person"
+                          n="Vol-4-I_M-Iranian-Males-Hōrmīzdad-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Hōrmīzdad</persName>
+                     <persName type="lemma" xml:lang="en">Hōrmīzdad</persName>
+                     <persName>הורמזדד<ref type="note" corresp="#Vol-4-I_M-ftn404"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_F-d8e2318-person" type="relation" n="son-of">Daδī (9)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, JTS, Gordon</note>
+                     </state>
+                     <bibl>Isbell, no. 46</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn405"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn406"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

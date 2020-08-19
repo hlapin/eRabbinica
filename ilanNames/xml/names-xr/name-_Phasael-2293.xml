@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Φασάηλος Phasael-Φασάηλος Phasael</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#_Phasael-Vol-2-S-G_M"
+                type="name"
+                n="Φασάηλος Phasael-Φασάηλος Phasael"
+                xml:id="name-_Phasael-d1e398481">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-G_M-ftn149"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-G_M-d8e2338-person"
+                          n="Vol-2-S-G_M-Semitic-Greek-Males-Φασάηλος Phasael-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Φασάηλος Phasael</persName>
+                     <persName type="lemma" xml:lang="en">Φασάηλος Phasael</persName>
+                     <persName>Φασέλες<ref type="note" corresp="#Vol-2-S-G_M-ftn150"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e17584-person" type="relation" n="son-of">Timotheus (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1a, no. 296</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-S-G_M-ftn151"/>
+                        </note>
+                     </state>
+                     <floruit>4th-6thC<ref type="note" corresp="#Vol-2-S-G_M-ftn152"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

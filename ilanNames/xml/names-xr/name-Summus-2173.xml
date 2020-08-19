@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Summus-Summus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Summus-Vol-2-L_M"
+                type="name"
+                n="Summus-Summus"
+                xml:id="name-Summus-d1e394956">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn808"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_M-d8e10641-person" n="Vol-2-L_M-Latin-Males-Summus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Summus</persName>
+                     <persName type="lemma" xml:lang="en">Summus</persName>
+                     <persName>Σούμμου<ref type="note" corresp="#Vol-2-L_M-ftn809"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-L_M-d8e10679-person" type="relation" n="father-of">Summus (2)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1a, no. 265</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn810"/>
+                        </note>
+                     </state>
+                     <floruit>4th-6thC<ref type="note" corresp="#Vol-2-L_M-ftn811"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-L_M-d8e10679-person" n="Vol-2-L_M-Latin-Males-Summus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Summus</persName>
+                     <persName type="lemma" xml:lang="en">Summus</persName>
+                     <persName>Σοῦμμος<ref type="note" corresp="#Vol-2-L_M-ftn812"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-L_M-d8e10641-person" type="relation" n="son-of">Summus (1)’s son</ref>, aged 22<ref type="note" corresp="#Vol-2-L_M-ftn813"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1a, no. 265</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn814"/>
+                        </note>
+                     </state>
+                     <floruit>4th-6thC<ref type="note" corresp="#Vol-2-L_M-ftn815"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

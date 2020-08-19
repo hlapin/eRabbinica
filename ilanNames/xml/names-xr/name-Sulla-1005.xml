@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sulla-Sulla</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Sulla-Vol-1-L_M"
+                type="name"
+                n="Sulla-Sulla"
+                xml:id="name-Sulla-d1e278324">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-L_M-ftn342"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-L_M-d2e5080-person" n="Vol-1-L_M-Sulla-1">
+                     <persName type="lemma">Sulla</persName>
+                     <persName type="lemma" xml:lang="en">Sulla</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Σύλλας<ref type="note" corresp="#Vol-1-L_M-ftn343"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-L_M-d2e250-person" type="relation" n="general-of">Agrippa (2)’s general</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Vita398 (Schalit,NB, 116)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-1-L_M-ftn344"/>
+                        </note>
+                     </state>
+                     <floruit>67 CE<ref type="note" corresp="#Vol-1-L_M-ftn345"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

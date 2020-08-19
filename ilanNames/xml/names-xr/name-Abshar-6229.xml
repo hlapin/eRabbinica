@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Abshaʿr-ابشعر</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Abshar-Vol-4-A_M"
+                type="name"
+                n="Abshaʿr-ابشعر"
+                xml:id="name-Abshar-d1e575383">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn1"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e16-person" n="Vol-4-A_M-Arabic-Males-Abshaʿr-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">ابشعر</persName>
+                     <persName type="lemma" xml:lang="en">Abshaʿr</persName>
+                     <persName>
+                        <ref type="note" corresp="#Vol-4-A_M-ftn2"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_M-d8e10197-person" type="relation" n="slave-of">Šahrām (1)’s slave</ref>?<ref type="note" corresp="#Vol-4-A_M-ftn3"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Ḥimyar</note>
+                     </state>
+                     <bibl>CIS4/2, 543</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-A_M-ftn4"/>P:Arab. Pen.<ref type="note" corresp="#Vol-4-A_M-ftn5"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-4-A_M-ftn6"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

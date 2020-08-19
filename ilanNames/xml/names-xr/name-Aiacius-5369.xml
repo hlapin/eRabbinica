@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aiacius-Aiacius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Aiacius-Vol-3-L_M"
+                type="name"
+                n="Aiacius-Aiacius"
+                xml:id="name-Aiacius-d1e543982">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn70"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e1178-person" n="Vol-3-L_M-Latin-Males-Aiacius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Aiacius</persName>
+                     <persName type="lemma" xml:lang="en">Aiacius</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn71"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Aquilea, Pais</note>
+                     </state>
+                     <bibl>CIJ643</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn72"/>; second nameP:Italy</note>
+                     </state>
+                     <floruit>1stC BCE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

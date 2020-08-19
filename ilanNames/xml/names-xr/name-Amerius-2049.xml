@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Amerius-Amerius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Amerius-Vol-2-L_M names/Vol-2-Vol-1-ADD-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Amerius-Vol-2-Vol-1-ADD-L_M"
+                type="name"
+                n="Amerius-Amerius"
+                xml:id="name-Amerius-d1e384085">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn32"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-L_M-ftn6"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_M-d8e430-person" n="Vol-2-L_M-Latin-Males-Amerius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Amerius</persName>
+                     <persName type="lemma" xml:lang="en">Amerius</persName>
+                     <persName>̓Αμήρου<ref type="note" corresp="#Vol-2-L_M-ftn33"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-L_M-d8e6934-person" type="relation" n="father-of">Macrinus (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1a, no. 1</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn34"/>
+                        </note>
+                     </state>
+                     <floruit>309<ref type="note" corresp="#Vol-2-L_M-ftn35"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-L_M-d8e59-person"
+                          n="Vol-2-Vol-1-ADD-L_M-Latin-Males-Amerius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Amerius</persName>
+                     <persName type="lemma" xml:lang="en">Amerius</persName>
+                     <persName>Αμερος<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn7"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="son-of">Mattathias (11)’s son</ref>, <ref corresp="#" type="relation" n="brother-of">Onainus (1)’s brother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory altar inscription, Hauran<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn8"/>
+                        </note>
+                     </state>
+                     <bibl>Ewing,PEFQS27 (1895) 55</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn9"/>
+                        </note>
+                     </state>
+                     <floruit>126<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn10"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

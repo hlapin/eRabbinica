@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Pylades-Πυλάδης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Pylades-Vol-2-G_M"
+                type="name"
+                n="Pylades-Πυλάδης"
+                xml:id="name-Pylades-d1e372978">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn1066"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e16317-person" n="Vol-2-G_M-Greek-Males-Pylades-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πυλάδης</persName>
+                     <persName type="lemma" xml:lang="en">Pylades</persName>
+                     <persName>Py[ladi]<ref type="note" corresp="#Vol-2-G_M-ftn1067"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Marcus (2) Aurelius (4), <ref corresp="#Vol-2-B_M-d8e15924-person" type="relation" n="son-of">Judah (58)’s son</ref>, actor, of Scythopolis, decurion in Ashkelon and Damascus<ref type="note" corresp="#Vol-2-G_M-ftn1068"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Italy, Meiggs,CIJ534a</note>
+                     </state>
+                     <bibl>JIWE1, 15</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-2-G_M-ftn1069"/>
+                        </note>
+                     </state>
+                     <floruit>3rdC</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

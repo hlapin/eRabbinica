@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Qimhit-קמחית</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-H_F-Semitic-Hebrew-Females-to-utf-TEI-P5-names.xml/#Qimhit-Vol-1-S-H_F"
+                type="name"
+                n="Qimhit-קמחית"
+                xml:id="name-Qimhit-d1e294137">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-H_F-ftn154"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-H_F-d2e2156-person" n="Vol-1-S-H_F-Qimhit-1">
+                     <persName type="lemma">קמחית</persName>
+                     <persName type="lemma" xml:lang="en">Qimhit</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="gr">Κάμιθος<ref type="note" corresp="#Vol-1-S-H_F-ftn155"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>AJ18:34 (Schalit,NB, 70) SECTIONyYoma1:1, 38d (Kosovsky,Yerushalmi, 606).</bibl>
+                     <state type="addl-Descr">
+                        <note>Family<ref type="note" corresp="#Vol-1-S-H_F-ftn156"/>
+                        </note>
+                     </state>
+                     <floruit>17-18 CE<ref type="note" corresp="#Vol-1-S-H_F-ftn157"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

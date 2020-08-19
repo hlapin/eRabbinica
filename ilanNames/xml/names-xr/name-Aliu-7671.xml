@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ʿAliʿu-עליעו</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Aliu-Vol-4-S-H_M"
+                type="name"
+                n="ʿAliʿu-עליעו"
+                xml:id="name-Aliu-d1e649077">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn2159"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e31164-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-ʿAliʿu-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">עליעו</persName>
+                     <persName type="lemma" xml:lang="en">ʿAliʿu</persName>
+                     <persName>[ע]ליעו<ref type="note" corresp="#Vol-4-S-H_M-ftn2160"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e28558-person" type="relation" n="father-of">Shabtai (2)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Madāʾin Ṣāliḥ, Jaussen &amp; Savignac</note>
+                     </state>
+                     <bibl>CIJ1422</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2161"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>43 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2162"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Polon-Πόλων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Polon-Vol-3-G_M"
+                type="name"
+                n="Polon-Πόλων"
+                xml:id="name-Polon-d1e520362">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3827"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e66374-person" n="Vol-3-G_M-Greek-Males-Polon-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πόλων</persName>
+                     <persName type="lemma" xml:lang="en">Polon</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e24297-person" type="relation" n="son-of">Dositheus (73)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Donor inscription, Berenice, Caputo</note>
+                     </state>
+                     <bibl>CJZC72</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3828"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>55/6 CE<ref type="note" corresp="#Vol-3-G_M-ftn3829"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

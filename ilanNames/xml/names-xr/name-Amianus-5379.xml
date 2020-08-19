@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Amianus-Amianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Amianus-Vol-3-L_M"
+                type="name"
+                n="Amianus-Amianus"
+                xml:id="name-Amianus-d1e544223">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn85"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e1421-person" n="Vol-3-L_M-Latin-Males-Amianus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Amianus</persName>
+                     <persName type="lemma" xml:lang="en">Amianus</persName>
+                     <persName>̓Αμμιανοῦ<ref type="note" corresp="#Vol-3-L_M-ftn86"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Aurelia (19) <ref corresp="#Vol-3-G_F-d8e4619-person" type="relation" n="father-of">Glyconis (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Judeich</note>
+                     </state>
+                     <bibl>CIJ776</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn87"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e1459-person" n="Vol-3-L_M-Latin-Males-Amianus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Amianus</persName>
+                     <persName type="lemma" xml:lang="en">Amianus</persName>
+                     <persName>̓Αμμιανός<ref type="note" corresp="#Vol-3-L_M-ftn88"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+                     </state>
+                     <bibl>IJO2, 14B:29</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn89"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e1494-person" n="Vol-3-L_M-Latin-Males-Amianus-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Amianus</persName>
+                     <persName type="lemma" xml:lang="en">Amianus</persName>
+                     <persName>̓Αμμιανός<ref type="note" corresp="#Vol-3-L_M-ftn90"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e28233-person" type="relation" n="son-of">Hermogenes (6)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Miranda</note>
+                     </state>
+                     <bibl>IJO2, 190</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn91"/>P:Asia</note>
+                     </state>
+                     <floruit>2nd-3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e1535-person" n="Vol-3-L_M-Latin-Males-Amianus-4">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Amianus</persName>
+                     <persName type="lemma" xml:lang="en">Amianus</persName>
+                     <persName>̓Αμιανοῦ</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e70542-person" type="relation" n="son-of">Seleucus (6)’s son</ref>, Ammias (2) <ref corresp="#Vol-3-L_F-d8e3145-person" type="relation" n="father-of">Aurelia (34)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Wagener,CIJ777</note>
+                     </state>
+                     <bibl>IJO2, 196</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn92"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

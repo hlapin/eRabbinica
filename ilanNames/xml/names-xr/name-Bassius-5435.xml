@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Bassius-Bassius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Bassius-Vol-3-L_M"
+                type="name"
+                n="Bassius-Bassius"
+                xml:id="name-Bassius-d1e545950">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn536"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e9362-person" n="Vol-3-L_M-Latin-Males-Bassius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Bassius</persName>
+                     <persName type="lemma" xml:lang="en">Bassius</persName>
+                     <persName>Βασσίω<ref type="note" corresp="#Vol-3-L_M-ftn537"/>
+                     </persName>
+                     <persName>/Βάσος<ref type="note" corresp="#Vol-3-L_M-ftn538"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e12012-person" type="relation" n="son-of">Artemas (1)’s son</ref>, Marin (16) and <ref corresp="#Vol-3-G_F-d8e13365-person" type="relation" n="father-of">Cleupatra (1)’s father</ref>, aged 46<ref type="note" corresp="#Vol-3-L_M-ftn539"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaphs, Teucheira, Gray</note>
+                     </state>
+                     <bibl>CJZC57a,b,g</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn540"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e9408-person" n="Vol-3-L_M-Latin-Males-Bassius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Bassius</persName>
+                     <persName type="lemma" xml:lang="en">Bassius</persName>
+                     <persName>Βάσσιος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn541"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira, Gray</note>
+                     </state>
+                     <bibl>CJZC57c</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn542"/>Second nameP:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e9444-person" n="Vol-3-L_M-Latin-Males-Bassius-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Bassius</persName>
+                     <persName type="lemma" xml:lang="en">Bassius</persName>
+                     <persName>Βάσσιος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn543"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira, Gray</note>
+                     </state>
+                     <bibl>CJZC57d</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn544"/>Second nameP:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

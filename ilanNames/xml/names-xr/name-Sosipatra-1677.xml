@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sosipatra-Σωσιπάτρα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Sosipatra-Vol-2-G_F"
+                type="name"
+                n="Sosipatra-Σωσιπάτρα"
+                xml:id="name-Sosipatra-d1e353175">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_F-ftn303"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_F-d8e4623-person"
+                          n="Vol-2-G_F-Greek-Females-Sosipatra-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Σωσιπάτρα</persName>
+                     <persName type="lemma" xml:lang="en">Sosipatra</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-L_M-d8e4022-person" type="relation" n="wife-of">Germanus (5)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Elijah’s Cave</note>
+                     </state>
+                     <bibl>Appendix, no. 39</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn304"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-8thC<ref type="note" corresp="#Vol-2-G_F-ftn305"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

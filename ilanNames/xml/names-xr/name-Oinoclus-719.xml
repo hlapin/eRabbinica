@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Oinoclus-Οἴνοκλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Oinoclus-Vol-1-G_M"
+                type="name"
+                n="Oinoclus-Οἴνοκλος"
+                xml:id="name-Oinoclus-d1e238164">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn1014"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e14128-person" n="Vol-1-G_M-Oinoclus-1">
+                     <persName type="lemma">Οἴνοκλος</persName>
+                     <persName type="lemma" xml:lang="en">Oinoclus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">אונקלוס<ref type="note" corresp="#Vol-1-G_M-ftn1015"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-1-G_M-ftn1016"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>tDemai6:13 (Kasowski, Thosephthae, 531)</bibl>
+                     <state type="addl-Descr">
+                        <note>Proselyte<ref type="note" corresp="#Vol-1-G_M-ftn1017"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn1018"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

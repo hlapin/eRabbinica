@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Auxanon-Α̓ξάνων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Auxanon-Vol-3-G_M"
+                type="name"
+                n="Auxanon-Α̓ξάνων"
+                xml:id="name-Auxanon-d1e491956">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn797"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e13625-person" n="Vol-3-G_M-Greek-Males-Auxanon-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Α̓ξάνων</persName>
+                     <persName type="lemma" xml:lang="en">Auxanon</persName>
+                     <persName>Auxanon</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Glass, Schwabe &amp; Reifenberg</note>
+                     </state>
+                     <bibl>CIJ732a</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn798"/>P:Rome</note>
+                     </state>
+                     <floruit>4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e13656-person" n="Vol-3-G_M-Greek-Males-Auxanon-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Α̓ξάνων</persName>
+                     <persName type="lemma" xml:lang="en">Auxanon</persName>
+                     <persName>Α̓ξάνοντος</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Incense burner, Cooney</note>
+                     </state>
+                     <bibl>JIGRE134</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn799"/>P:Egypt</note>
+                     </state>
+                     <floruit>4th-5th C CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e13692-person" n="Vol-3-G_M-Greek-Males-Auxanon-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Α̓ξάνων</persName>
+                     <persName type="lemma" xml:lang="en">Auxanon</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Phrygia</note>
+                     </state>
+                     <bibl>Ramsay,Cities and Bishoprics2, no. 394</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn800"/>Second nameP:Asia</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-G_M-ftn801"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

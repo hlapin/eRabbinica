@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Irakus-Ιρακος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Irakus-Vol-1-S-G_M"
+                type="name"
+                n="Irakus-Ιρακος"
+                xml:id="name-Irakus-d1e285056">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-G_M-ftn71"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-G_M-d2e1324-person" n="Vol-1-S-G_M-Irakus-1">
+                     <persName type="lemma">Ιρακος</persName>
+                     <persName type="lemma" xml:lang="en">Irakus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Ιρακου<ref type="note" corresp="#Vol-1-S-G_M-ftn72"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Silwan, Spoer, 1907</note>
+                     </state>
+                     <bibl>CIJ, no. 1339</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-S-G_M-ftn73"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

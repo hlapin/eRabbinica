@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Serapion-Σεραπίων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Serapion-Vol-3-G_M"
+                type="name"
+                n="Serapion-Σεραπίων"
+                xml:id="name-Serapion-d1e522255">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4081"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e70603-person" n="Vol-3-G_M-Greek-Males-Serapion-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Σεραπίων</persName>
+                     <persName type="lemma" xml:lang="en">Serapion</persName>
+                     <persName>[Σ]εραπίωνος<ref type="note" corresp="#Vol-3-G_M-ftn4082"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+                     </state>
+                     <bibl>IJO2, 14:B2</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4083"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e70642-person" n="Vol-3-G_M-Greek-Males-Serapion-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Σεραπίων</persName>
+                     <persName type="lemma" xml:lang="en">Serapion</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e11242-person" type="relation" n="father-of">Aristobulus (5)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaphs, Teucheira, Gray</note>
+                     </state>
+                     <bibl>CJZC53a,c</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4084"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>49/50 CE<ref type="note" corresp="#Vol-3-G_M-ftn4085"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e70674-person" n="Vol-3-G_M-Greek-Males-Serapion-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Σεραπίων</persName>
+                     <persName type="lemma" xml:lang="en">Serapion</persName>
+                     <persName>Σεραπίωνος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e12814-person" type="relation" n="father-of">Isidora (5)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Donors inscription, Berenice, Caputo</note>
+                     </state>
+                     <bibl>CJZC72</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4086"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>55/6 CE<ref type="note" corresp="#Vol-3-G_M-ftn4087"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

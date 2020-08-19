@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Yazēdād-Yazēdād</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#Yazdd-Vol-4-I_M"
+                type="name"
+                n="Yazēdād-Yazēdād"
+                xml:id="name-Yazdd-d1e621793">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn470"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_M-d8e5510-person" n="Vol-4-I_M-Iranian-Males-Yazēdād-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Yazēdād</persName>
+                     <persName type="lemma" xml:lang="en">Yazēdād</persName>
+                     <persName>יזידאד<ref type="note" corresp="#Vol-4-I_M-ftn471"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="son-of">Yazdān-Dūχt (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowls, Nippur, Montgomery</note>
+                     </state>
+                     <bibl>1. Isbell, no. 3; no. 6</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn472"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn473"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_M-d8e5548-person" n="Vol-4-I_M-Iranian-Males-Yazēdād-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Yazēdād</persName>
+                     <persName type="lemma" xml:lang="en">Yazēdād</persName>
+                     <persName>יזדיד<ref type="note" corresp="#Vol-4-I_M-ftn474"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_F-d8e7129-person" type="relation" n="son-of">Komiš (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Nipur, Montgomery</note>
+                     </state>
+                     <bibl>Isbell, no. 13</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn475"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn476"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

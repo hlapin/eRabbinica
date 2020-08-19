@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Mannius-Mannius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Mannius-Vol-3-L_M"
+                type="name"
+                n="Mannius-Mannius"
+                xml:id="name-Mannius-d1e553427">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1541"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e25799-person" n="Vol-3-L_M-Latin-Males-Mannius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Mannius</persName>
+                     <persName type="lemma" xml:lang="en">Mannius</persName>
+                     <persName>Mannus<ref type="note" corresp="#Vol-3-L_M-ftn1542"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Migliore</note>
+                     </state>
+                     <bibl>CIJ472</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1543"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e25836-person" n="Vol-3-L_M-Latin-Males-Mannius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Mannius</persName>
+                     <persName type="lemma" xml:lang="en">Mannius</persName>
+                     <persName>Μαννα<ref type="note" corresp="#Vol-3-L_M-ftn1544"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e14126-person" type="relation" n="father-of">Cyrilla (3)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Tyana</note>
+                     </state>
+                     <bibl>IJO2, 258</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1545"/>P:Asia</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn1546"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e25871-person" n="Vol-3-L_M-Latin-Males-Mannius-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Mannius</persName>
+                     <persName type="lemma" xml:lang="en">Mannius</persName>
+                     <persName>Μάνιος<ref type="note" corresp="#Vol-3-L_M-ftn1547"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e63215-person" type="relation" n="son-of">Papias (8)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zemme</note>
+                     </state>
+                     <bibl>MAMA10, 197</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1548"/>P:Asia</note>
+                     </state>
+                     <floruit>2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

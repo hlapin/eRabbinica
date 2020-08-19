@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Chilas-Χιλᾶς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Chilas-Vol-3-G_M"
+                type="name"
+                n="Chilas-Χιλᾶς"
+                xml:id="name-Chilas-d1e528644">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4726"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e81260-person" n="Vol-3-G_M-Greek-Males-Chilas-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Χιλᾶς</persName>
+                     <persName type="lemma" xml:lang="en">Chilas</persName>
+                     <persName>–<ref type="note" corresp="#Vol-3-G_M-ftn4727"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+                     </state>
+                     <bibl>IJO2, 14:B29</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4728"/>; second nameP:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

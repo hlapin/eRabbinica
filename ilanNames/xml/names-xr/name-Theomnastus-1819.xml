@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Theomnastus-Θεόμναστος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Theomnastus-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Theomnastus-Vol-3-G_M"
+                type="name"
+                n="Theomnastus-Θεόμναστος"
+                xml:id="name-Theomnastus-d1e362919">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn643"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2605"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e9628-person"
+                          n="Vol-2-G_M-Greek-Males-Theomnastus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Θεόμναστος</persName>
+                     <persName type="lemma" xml:lang="en">Theomnastus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-G_M-ftn644"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Libanius,GLAJJ2, 501</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn645"/>
+                        </note>
+                     </state>
+                     <floruit>388-93<ref type="note" corresp="#Vol-2-G_M-ftn646"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e45350-person"
+                          n="Vol-3-G_M-Greek-Males-Theomnastus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Θεόμναστος</persName>
+                     <persName type="lemma" xml:lang="en">Theomnastus</persName>
+                     <persName>Θεομνῆστος<ref type="note" corresp="#Vol-3-G_M-ftn2606"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e41012-person" type="relation" n="son-of">Theodotus (8)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Fayum, Smyly</note>
+                     </state>
+                     <bibl>CPJ32</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2607"/>P:Egypt</note>
+                     </state>
+                     <floruit>2ndC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e45394-person"
+                          n="Vol-3-G_M-Greek-Males-Theomnastus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Θεόμναστος</persName>
+                     <persName type="lemma" xml:lang="en">Theomnastus</persName>
+                     <persName>Θεόμνηστος<ref type="note" corresp="#Vol-3-G_M-ftn2608"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e22434-person" type="relation" n="son-of">Dositheus (21)’s son</ref>, <ref corresp="#Vol-3-G_M-d8e43379-person"
+                                type="relation"
+                                n="grandson-of">Theodorus (15)’s grandson</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Arsinoe, Schürer</note>
+                     </state>
+                     <bibl>CPJ47</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2609"/>P:Egypt</note>
+                     </state>
+                     <floruit>2ndC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e45431-person"
+                          n="Vol-3-G_M-Greek-Males-Theomnastus-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Θεόμναστος</persName>
+                     <persName type="lemma" xml:lang="en">Theomnastus</persName>
+                     <persName>Θεομνᾶτος<ref type="note" corresp="#Vol-3-G_M-ftn2610"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="father-of">Joseph (23)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Fayum, Viereck</note>
+                     </state>
+                     <bibl>CPJ427</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2611"/>P:Egypt</note>
+                     </state>
+                     <floruit>101 CE<ref type="note" corresp="#Vol-3-G_M-ftn2612"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e45469-person"
+                          n="Vol-3-G_M-Greek-Males-Theomnastus-4">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Θεόμναστος</persName>
+                     <persName type="lemma" xml:lang="en">Theomnastus</persName>
+                     <persName>Θεόμνηστος<ref type="note" corresp="#Vol-3-G_M-ftn2613"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e12380-person" type="relation" n="brother-of">Irene (1)’s brother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Trikomia</note>
+                     </state>
+                     <bibl>CPR13, 4:144</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2614"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e45504-person"
+                          n="Vol-3-G_M-Greek-Males-Theomnastus-5">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Θεόμναστος</persName>
+                     <persName type="lemma" xml:lang="en">Theomnastus</persName>
+                     <persName>Θεομνήστου<ref type="note" corresp="#Vol-3-G_M-ftn2615"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Heracleopolis</note>
+                     </state>
+                     <bibl>PC29 (2001) 18</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2616"/>P:Egypt</note>
+                     </state>
+                     <floruit>142 BCE<ref type="note" corresp="#Vol-3-G_M-ftn2617"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e45542-person"
+                          n="Vol-3-G_M-Greek-Males-Theomnastus-6">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Θεόμναστος</persName>
+                     <persName type="lemma" xml:lang="en">Theomnastus</persName>
+                     <persName>Θεομνήστωι<ref type="note" corresp="#Vol-3-G_M-ftn2618"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Heracleopolis</note>
+                     </state>
+                     <bibl>PC29 (2001) 19</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2619"/>P:Egypt</note>
+                     </state>
+                     <floruit>141-131 BCE<ref type="note" corresp="#Vol-3-G_M-ftn2620"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ammonia-̓Αμμωνία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Ammonia-Vol-3-G_F"
+                type="name"
+                n="Ammonia-̓Αμμωνία"
+                xml:id="name-Ammonia-d1e471361">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn92"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e1606-person" n="Vol-3-G_F-Greek-Females-Ammonia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Αμμωνία</persName>
+                     <persName type="lemma" xml:lang="en">Ammonia</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Heracleopolis</note>
+                     </state>
+                     <bibl>PC29 (2001) 14</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn93"/>P:Egypt</note>
+                     </state>
+                     <floruit>134 BCE<ref type="note" corresp="#Vol-3-G_F-ftn94"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e1637-person" n="Vol-3-G_F-Greek-Females-Ammonia-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Αμμωνία</persName>
+                     <persName type="lemma" xml:lang="en">Ammonia</persName>
+                     <persName>̓Αμμ[ων]ία<ref type="note" corresp="#Vol-3-G_F-ftn95"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-P_M-d8e412-person" type="relation" n="daughter-of">Artabanus (7)’s daughter</ref>, aged 3<ref type="note" corresp="#Vol-3-G_F-ftn96"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira</note>
+                     </state>
+                     <bibl>Reynolds,CJZC12l</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn97"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

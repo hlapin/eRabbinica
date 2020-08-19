@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Panibecis-Panibecis</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Panibecis-Vol-3-E_M"
+                type="name"
+                n="Panibecis-Panibecis"
+                xml:id="name-Panibecis-d1e464937">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn286"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e4747-person"
+                          n="Vol-3-E_M-Egyptian-Males-Panibecis-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Panibecis</persName>
+                     <persName type="lemma" xml:lang="en">Panibecis</persName>
+                     <persName>Πανιβῆκις</persName>
+                     <state type="desc">
+                        <note>Senpeamus (1), Achillas (1) <ref corresp="#Vol-3-L_M-d8e34990-person" type="relation" n="son-of">Rufus (2)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostraca, Edfu, Manteuffel</note>
+                     </state>
+                     <bibl>CPJ376, 377, 380, 382, 383, 386, 388, 389, 391, 401, 402, 403</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn287"/>Second nameP:Egypt</note>
+                     </state>
+                     <floruit>161-5 CE<ref type="note" corresp="#Vol-3-E_M-ftn288"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

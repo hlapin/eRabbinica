@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Menippus-Μένιππος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Menippus-Vol-1-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Menippus-Vol-3-G_M"
+                type="name"
+                n="Menippus-Μένιππος"
+                xml:id="name-Menippus-d1e235775">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn910"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3215"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e12762-person" n="Vol-1-G_M-Menippus-1">
+                     <persName type="lemma">Μένιππος</persName>
+                     <persName type="lemma" xml:lang="en">Menippus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-1-G_M-ftn911"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Tomb inscription, Rhodes</note>
+                     </state>
+                     <bibl>IGXII: 1:11</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn912"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e55899-person" n="Vol-3-G_M-Greek-Males-Menippus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μένιππος</persName>
+                     <persName type="lemma" xml:lang="en">Menippus</persName>
+                     <persName>Μένιππον</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e12265-person" type="relation" n="son-of">Artemidorus (4)’s son</ref>, of Heracleon<ref type="note" corresp="#Vol-3-G_M-ftn3216"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Delos, Bruneau</note>
+                     </state>
+                     <bibl>IJO1, Ach66</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-3-G_M-ftn3217"/>P:Greek</note>
+                     </state>
+                     <floruit>3rd-2ndC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e55943-person" n="Vol-3-G_M-Greek-Males-Menippus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μένιππος</persName>
+                     <persName type="lemma" xml:lang="en">Menippus</persName>
+                     <persName>Μενίππου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e69961-person" type="relation" n="father-of">Rhodocles (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Rhodes, Salzmann</note>
+                     </state>
+                     <bibl>IJO2, 11</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-3-G_M-ftn3218"/>P:Greece</note>
+                     </state>
+                     <floruit>2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Gani-גני</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Gani-Vol-1-S-H_M"
+                type="name"
+                n="Gani-גני"
+                xml:id="name-Gani-d1e307884">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-H_M-ftn231"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-H_M-d2e3433-person" n="Vol-1-S-H_M-Gani-1">
+                     <persName type="lemma">גני</persName>
+                     <persName type="lemma" xml:lang="en">Gani</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="father-of">Eleazer (72)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Gezer, Macalister, 1912</note>
+                     </state>
+                     <bibl>CIJ, no. 1176</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn232"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn233"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

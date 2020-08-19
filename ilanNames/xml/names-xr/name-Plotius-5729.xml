@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Plotius-Plotius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Plotius-Vol-3-L_M"
+                type="name"
+                n="Plotius-Plotius"
+                xml:id="name-Plotius-d1e555897">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1887"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e31635-person" n="Vol-3-L_M-Latin-Males-Plotius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Plotius</persName>
+                     <persName type="lemma" xml:lang="en">Plotius</persName>
+                     <persName>Πλῶτις<ref type="note" corresp="#Vol-3-L_M-ftn1888"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Villa Torlonia, Paribeni</note>
+                     </state>
+                     <bibl>CIJ49</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1889"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e31676-person" n="Vol-3-L_M-Latin-Males-Plotius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Plotius</persName>
+                     <persName type="lemma" xml:lang="en">Plotius</persName>
+                     <persName>Plotio</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn1890"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Ostia, Floriani</note>
+                     </state>
+                     <bibl>JIWE1, 14</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1891"/>P:Italy</note>
+                     </state>
+                     <floruit>1st-2ndC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e31713-person" n="Vol-3-L_M-Latin-Males-Plotius-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Plotius</persName>
+                     <persName type="lemma" xml:lang="en">Plotius</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Ostia, Floriani</note>
+                     </state>
+                     <bibl>JIWE1, 14</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1892"/>P:Italy</note>
+                     </state>
+                     <floruit>1st-2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

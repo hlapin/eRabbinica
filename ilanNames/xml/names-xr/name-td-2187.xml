@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Āštād-Āštād</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#td-Vol-2-P_M names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#td-Vol-4-I_M"
+                type="name"
+                n="Āštād-Āštād"
+                xml:id="name-td-d1e395532">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-P_M-ftn1"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn132"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-P_M-d8e12-person" n="Vol-2-P_M-Persian-Males-Āštād-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Āštād</persName>
+                     <persName type="lemma" xml:lang="en">Āštād</persName>
+                     <persName>אישתותא<ref type="note" corresp="#Vol-2-P_M-ftn2"/>
+                     </persName>
+                     <persName>/אישתתא<ref type="note" corresp="#Vol-2-P_M-ftn3"/>
+                     </persName>
+                     <persName>/אשתיתא<ref type="note" corresp="#Vol-2-P_M-ftn4"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e15606-person" type="relation" n="father-of">Judah (49)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bEruv52a<ref type="note" corresp="#Vol-2-P_M-ftn5"/>(Kosowsky,Babylonico, 660)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname?<ref type="note" corresp="#Vol-2-P_M-ftn6"/>
+                        </note>
+                     </state>
+                     <floruit>3rd<ref type="note" corresp="#Vol-2-P_M-ftn7"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_M-d8e1490-person" n="Vol-4-I_M-Iranian-Males-Āštād-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Āštād</persName>
+                     <persName type="lemma" xml:lang="en">Āštād</persName>
+                     <persName>אשתד<ref type="note" corresp="#Vol-4-I_M-ftn133"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="son-of">Māh-Dūχt (4)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl</note>
+                     </state>
+                     <bibl>CAMIBBM026A</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn134"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn135"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

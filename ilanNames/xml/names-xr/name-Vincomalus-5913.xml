@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Vincomalus-Vincomalus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Vincomalus-Vol-3-L_M"
+                type="name"
+                n="Vincomalus-Vincomalus"
+                xml:id="name-Vincomalus-d1e562728">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2532"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e42332-person"
+                          n="Vol-3-L_M-Latin-Males-Vincomalus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Vincomalus</persName>
+                     <persName type="lemma" xml:lang="en">Vincomalus</persName>
+                     <persName>Βιν[κ]ομάλο[υ]<ref type="note" corresp="#Vol-3-L_M-ftn2533"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e15217-person" type="relation" n="father-of">Faustinus (5)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Venosa, Müller</note>
+                     </state>
+                     <bibl>CIJ593</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2534"/>P:Italy</note>
+                     </state>
+                     <floruit>5th-6thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e42384-person"
+                          n="Vol-3-L_M-Latin-Males-Vincomalus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Vincomalus</persName>
+                     <persName type="lemma" xml:lang="en">Vincomalus</persName>
+                     <persName>Vincomaus<ref type="note" corresp="#Vol-3-L_M-ftn2535"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Milan, Diehl</note>
+                     </state>
+                     <bibl>CIJ93*</bibl>
+                     <state type="addl-Descr">
+                        <note>Christian?<ref type="note" corresp="#Vol-3-L_M-ftn2536"/>P:Italy</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn2537"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

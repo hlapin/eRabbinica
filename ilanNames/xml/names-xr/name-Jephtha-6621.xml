@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Jephthaḥ-יפתח</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Jephtha-Vol-4-B_M"
+                type="name"
+                n="Jephthaḥ-יפתח"
+                xml:id="name-Jephtha-d1e597034">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-B_M-ftn1118"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-B_M-d8e13526-person"
+                          n="Vol-4-B_M-Biblical-Males-Jephthaḥ-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">יפתח</persName>
+                     <persName type="lemma" xml:lang="en">Jephthaḥ</persName>
+                     <persName>
+                        <ref type="note" corresp="#Vol-4-B_M-ftn1119"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-B_M-ftn1120"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Leveen,JQR16 (1925-6) 402</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>Muslim convert<ref type="note" corresp="#Vol-4-B_M-ftn1121"/>; fictitious<ref type="note" corresp="#Vol-4-B_M-ftn1122"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>Pre-632 CE<ref type="note" corresp="#Vol-4-B_M-ftn1123"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

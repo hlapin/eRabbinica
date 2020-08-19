@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Apheles-̓Αφέλης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Apheles-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Apheles-Vol-3-G_M"
+                type="name"
+                n="Apheles-̓Αφέλης"
+                xml:id="name-Apheles-d1e356342">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn208"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn808"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e3108-person" n="Vol-2-G_M-Greek-Males-Apheles-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αφέλης</persName>
+                     <persName type="lemma" xml:lang="en">Apheles</persName>
+                     <persName>Αφελλω<ref type="note" corresp="#Vol-2-G_M-ftn209"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Sakhnin<ref type="note" corresp="#Vol-2-G_M-ftn210"/>
+                        </note>
+                     </state>
+                     <bibl>Yitach,ISE113 (2001) 16</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn211"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-G_M-ftn212"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e13857-person" n="Vol-3-G_M-Greek-Males-Apheles-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αφέλης</persName>
+                     <persName type="lemma" xml:lang="en">Apheles</persName>
+                     <persName>̓Αφελίου<ref type="note" corresp="#Vol-3-G_M-ftn809"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Marcus (8) Aurelius (28) Alexander (41), <ref corresp="#Vol-3-G_M-d8e46109-person" type="relation" n="son-of">Theophilus (12)’s son</ref>, Aurelia (19) <ref corresp="#Vol-3-G_F-d8e4619-person" type="relation" n="husband-of">Glyconis (1)’s husband</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Judeich</note>
+                     </state>
+                     <bibl>CIJ776</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn810"/>; second nameP:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Asclepiodote-̓Ασκληπιοδότη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Asclepiodote-Vol-3-G_F"
+                type="name"
+                n="Asclepiodote-̓Ασκληπιοδότη"
+                xml:id="name-Asclepiodote-d1e472580">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn174"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e3097-person"
+                          n="Vol-3-G_F-Greek-Females-Asclepiodote-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Ασκληπιοδότη</persName>
+                     <persName type="lemma" xml:lang="en">Asclepiodote</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Frey</note>
+                     </state>
+                     <bibl>CIJ91</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn175"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e3131-person"
+                          n="Vol-3-G_F-Greek-Females-Asclepiodote-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Ασκληπιοδότη</persName>
+                     <persName type="lemma" xml:lang="en">Asclepiodote</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e12574-person" type="relation" n="mother-of">Constantius (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ92</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn176"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

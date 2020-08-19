@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Tisiphone-Τισιφόνη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Tisiphone-Vol-3-G_F"
+                type="name"
+                n="Tisiphone-Τισιφόνη"
+                xml:id="name-Tisiphone-d1e484307">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn1048"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e18438-person"
+                          n="Vol-3-G_F-Greek-Females-Tisiphone-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Τισιφόνη</persName>
+                     <persName type="lemma" xml:lang="en">Tisiphone</persName>
+                     <persName>Tisipho<ref type="note" corresp="#Vol-3-G_F-ftn1049"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Antonia (1), Publius (6) <ref corresp="#Vol-3-L_M-d8e593-person" type="relation" n="mother-of">Aelius (5)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Tortona, Oehler</note>
+                     </state>
+                     <bibl>CIJ59*</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn1050"/>P:Italy</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-G_F-ftn1051"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

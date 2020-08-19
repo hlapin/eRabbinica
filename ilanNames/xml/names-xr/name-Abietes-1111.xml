@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Abietes-Αβιητης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Abietes-Vol-1-S-G_M"
+                type="name"
+                n="Abietes-Αβιητης"
+                xml:id="name-Abietes-d1e283901">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-G_M-ftn1"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-G_M-d2e68-person" n="Vol-1-S-G_M-Abietes-1">
+                     <persName type="lemma">Αβιητης</persName>
+                     <persName type="lemma" xml:lang="en">Abietes</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">אביטוס<ref type="note" corresp="#Vol-1-S-G_M-ftn2"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Arist50</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-1-S-G_M-ftn3"/>
+                        </note>
+                     </state>
+                     <floruit>3rdC BCE<ref type="note" corresp="#Vol-1-S-G_M-ftn4"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

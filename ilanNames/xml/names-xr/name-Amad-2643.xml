@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Amad-עמד</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Amad-Vol-2-S-H_M"
+                type="name"
+                n="Amad-עמד"
+                xml:id="name-Amad-d1e430265">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn1345"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e21603-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Amad-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">עמד</persName>
+                     <persName type="lemma" xml:lang="en">Amad</persName>
+                     <persName>–<ref type="note" corresp="#Vol-2-S-H_M-ftn1346"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-S-H_M-d8e25312-person"
+                                type="relation"
+                                n="father-of">Sharian (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Tulida, 136</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-S-H_M-ftn1347"/>; nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn1348"/>
+                        </note>
+                     </state>
+                     <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1349"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

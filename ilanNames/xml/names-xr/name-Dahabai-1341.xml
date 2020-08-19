@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Dahabai-דהבאי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Dahabai-Vol-1-S-H_M names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Dahabai-Vol-4-S-H_M"
+                type="name"
+                n="Dahabai-דהבאי"
+                xml:id="name-Dahabai-d1e308217">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-H_M-ftn250"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn947"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-H_M-d2e3758-person" n="Vol-1-S-H_M-Dahabai-1">
+                     <persName type="lemma">דהבאי</persName>
+                     <persName type="lemma" xml:lang="en">Dahabai</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e25850-person" type="relation" n="father-of">Yohanan (36)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>tHag1:1 (Kasowski, Thosephthae, -)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn251"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn252"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_M-d8e13638-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Dahabai-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">דהבאי</persName>
+                     <persName type="lemma" xml:lang="en">Dahabai</persName>
+                     <persName>דהבא<ref type="note" corresp="#Vol-4-S-H_M-ftn948"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Mesharshiya (1), <ref corresp="#Vol-4-S-H_F-d8e4419-person" type="relation" n="son-of">Maḥlafta (2)’s son</ref>,</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Nippur, Montgomery</note>
+                     </state>
+                     <bibl>Isbell, no. 21</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn949"/>Second nameP:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn950"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

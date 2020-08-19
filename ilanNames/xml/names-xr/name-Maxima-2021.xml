@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Maxima-Maxima</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_F-Latin-Female-to-utf-TEI-P5-names.xml/#Maxima-Vol-2-L_F names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Maxima-Vol-3-L_F names/Vol-4-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Maxima-Vol-4-L_F"
+                type="name"
+                n="Maxima-Maxima"
+                xml:id="name-Maxima-d1e382467">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_F-ftn182"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn820"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-L_F-ftn20"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_F-d8e2175-person" n="Vol-2-L_F-Latin-Female-Maxima-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Maxima</persName>
+                     <persName type="lemma" xml:lang="en">Maxima</persName>
+                     <persName>מכסימ[ה]<ref type="note" corresp="#Vol-2-L_F-ftn183"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Tel Aviv</note>
+                     </state>
+                     <bibl>Tzafrir,IEJ31 (1981) 226</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-L_F-ftn184"/>
+                        </note>
+                     </state>
+                     <floruit>7thC</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e27141-person" n="Vol-3-L_F-Latin-Females-Maxima-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Maxima</persName>
+                     <persName type="lemma" xml:lang="en">Maxima</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Graffito, Monteverde, Schneider Graziosi</note>
+                     </state>
+                     <bibl>CIJ473</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn821"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e27175-person" n="Vol-3-L_F-Latin-Females-Maxima-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Maxima</persName>
+                     <persName type="lemma" xml:lang="en">Maxima</persName>
+                     <persName>Μαξήμα<ref type="note" corresp="#Vol-3-L_F-ftn822"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Thessalonica</note>
+                     </state>
+                     <bibl>Nystrom,HTR74 (1981) 325</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn823"/>Second nameP:Greece</note>
+                     </state>
+                     <floruit>4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-4-L_F-d8e235-person" n="Vol-4-L_F-Latin-Females-Maxima-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Maxima</persName>
+                     <persName type="lemma" xml:lang="en">Maxima</persName>
+                     <persName>Μαξίμα<ref type="note" corresp="#Vol-4-L_F-ftn21"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-L_F-ftn22"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaphs, catacomb 4,CIJ1124, 1125</note>
+                     </state>
+                     <bibl>Beth Sheʿarim2:101, 102</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-L_F-ftn23"/>; second nameP:Babylonia</note>
+                     </state>
+                     <floruit>Pre-352 CE<ref type="note" corresp="#Vol-4-L_F-ftn24"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

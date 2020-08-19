@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Cenedaius-Κενεδαιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Cenedaius-Vol-1-S-G_M"
+                type="name"
+                n="Cenedaius-Κενεδαιος"
+                xml:id="name-Cenedaius-d1e285284">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-G_M-ftn90"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-G_M-d2e1619-person" n="Vol-1-S-G_M-Cenedaius-1">
+                     <persName type="lemma">Κενεδαιος</persName>
+                     <persName type="lemma" xml:lang="en">Cenedaius</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="relative-of">Monobazus (1)’s relative</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ2:520 (Schalit,NB, 74)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>70 CE<ref type="note" corresp="#Vol-1-S-G_M-ftn91"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Poziqtōē-Poziqtōē</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_F-Iranian-Females-to-utf-TEI-P5-names.xml/#Poziqt-Vol-4-I_F"
+                type="name"
+                n="Poziqtōē-Poziqtōē"
+                xml:id="name-Poziqt-d1e613348">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_F-ftn946"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_F-d8e11580-person"
+                          n="Vol-4-I_F-Iranian-Females-Poziqtōē-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Poziqtōē</persName>
+                     <persName type="lemma" xml:lang="en">Poziqtōē</persName>
+                     <persName>[פ]וזיקתוי<ref type="note" corresp="#Vol-4-I_F-ftn947"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_F-d8e6585-person" type="relation" n="mother-of">Kākōē (3)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, National Library, Jerusalem</note>
+                     </state>
+                     <bibl>AMBno. 12a</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn948"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn949"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

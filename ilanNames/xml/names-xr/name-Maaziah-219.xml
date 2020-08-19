@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Maaziah-מעזיה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Maaziah-Vol-1-B_M"
+                type="name"
+                n="Maaziah-מעזיה"
+                xml:id="name-Maaziah-d1e131880">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_M-ftn3386"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_M-d2e44021-person" n="Vol-1-B_M-Maaziah-1">
+                     <persName type="lemma">מעזיה</persName>
+                     <persName type="lemma" xml:lang="en">Maaziah</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">מעזי<ref type="note" corresp="#Vol-1-B_M-ftn3387"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, letter, Masada</note>
+                     </state>
+                     <bibl>Mas no. 554</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname?<ref type="note" corresp="#Vol-1-B_M-ftn3388"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-73 CE<ref type="note" corresp="#Vol-1-B_M-ftn3389"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

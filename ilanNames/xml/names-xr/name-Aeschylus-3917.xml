@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aeschylus-Αἰσχύλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Aeschylus-Vol-3-G_M"
+                type="name"
+                n="Aeschylus-Αἰσχύλος"
+                xml:id="name-Aeschylus-d1e487687">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn132"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e2163-person" n="Vol-3-G_M-Greek-Males-Aeschylus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Αἰσχύλος</persName>
+                     <persName type="lemma" xml:lang="en">Aeschylus</persName>
+                     <persName>̓Αισχύλου<ref type="note" corresp="#Vol-3-G_M-ftn133"/>
+                     </persName>
+                     <persName>/̓Ισχύλος<ref type="note" corresp="#Vol-3-G_M-ftn134"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="son-of">Joseph (18)’s son</ref>, Joseph (15) and <ref corresp="#Vol-3-G_M-d8e18-person" type="relation" n="father-of">Abascantus (1)’s father</ref>, tax collector<ref type="note" corresp="#Vol-3-G_M-ftn135"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracons, Edfu, Manteuffel &amp; Wessely</note>
+                     </state>
+                     <bibl>CPJ183, 185, 240, 302, 309</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn136"/>P:Egypt</note>
+                     </state>
+                     <floruit>70-101 CE<ref type="note" corresp="#Vol-3-G_M-ftn137"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

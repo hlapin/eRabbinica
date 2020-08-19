@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Parnakh-פרנך</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Parnakh-Vol-1-B_M names/Vol-2-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Parnakh-Vol-2-B_M names/Vol-2-Vol-1-ADD-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Parnakh-Vol-2-Vol-1-ADD-B_M"
+                type="name"
+                n="Parnakh-פרנך"
+                xml:id="name-Parnakh-d1e151643">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_M-ftn3813"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-B_M-ftn2772"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-B_M-ftn680"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_M-d2e49672-person" n="Vol-1-B_M-Parnakh-1">
+                     <persName type="lemma">פרנך</persName>
+                     <persName type="lemma" xml:lang="en">Parnakh</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e39188-person" type="relation" n="father-of">Isaac (8)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Kallah Rabbati3:1</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious,<ref type="note" corresp="#Vol-1-B_M-ftn3814"/>Nickname?<ref type="note" corresp="#Vol-1-B_M-ftn3815"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-1-B_M-ftn3816"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-B_M-d8e41780-person"
+                          n="Vol-2-B_M-Biblical-Males-Parnakh-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">פרנך</persName>
+                     <persName type="lemma" xml:lang="en">Parnakh</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>yPes5:7, 32c (Kosovsky,Yerushalmi, 591)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>3rdC<ref type="note" corresp="#Vol-2-B_M-ftn2773"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-B_M-d8e9588-person"
+                          n="Vol-2-Vol-1-ADD-B_M-Biblical-Males-Parnakh-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">פרנך</persName>
+                     <persName type="lemma" xml:lang="en">Parnakh</persName>
+                     <persName>פנדא<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn681"/>
+                     </persName>
+                     <persName>/פדנא<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn682"/>
+                     </persName>
+                     <persName>/פרנא<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn683"/>
+                     </persName>
+                     <persName>/פבנא<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn684"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bBer55b (Kosowsky,Babylonico, 1194)</bibl>
+                     <state type="addl-Descr">
+                        <note>Pre-135 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn685"/>
+                        </note>
+                     </state>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

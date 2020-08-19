@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Maʿn-מען</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Man-Vol-4-S-H_M"
+                type="name"
+                n="Maʿn-מען"
+                xml:id="name-Man-d1e645520">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn1784"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e25846-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Maʿn-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">מען</persName>
+                     <persName type="lemma" xml:lang="en">Maʿn</persName>
+                     <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1785"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_M-d8e11345-person" type="relation" n="son-of">Wardān (1)’s son</ref>, <ref corresp="#Vol-4-B_M-d8e32691-person" type="relation" n="father-of">Simon (41)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Ra’a ash-Shaʿr</note>
+                     </state>
+                     <bibl>Schlumberger,Palmerène,154</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn1786"/>P:Palmyra</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1787"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

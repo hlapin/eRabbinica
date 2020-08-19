@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ampilius-Ampilius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Ampilius-Vol-2-L_M"
+                type="name"
+                n="Ampilius-Ampilius"
+                xml:id="name-Ampilius-d1e384184">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn36"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_M-d8e473-person" n="Vol-2-L_M-Latin-Males-Ampilius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ampilius</persName>
+                     <persName type="lemma" xml:lang="en">Ampilius</persName>
+                     <persName>̓Αμπιλᾶ<ref type="note" corresp="#Vol-2-L_M-ftn37"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e11204-person" type="relation" n="father-of">Cyrillus (4)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Beth She‘arim, catacomb 5,CIJ1130</note>
+                     </state>
+                     <bibl>BS2:107</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-352<ref type="note" corresp="#Vol-2-L_M-ftn38"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

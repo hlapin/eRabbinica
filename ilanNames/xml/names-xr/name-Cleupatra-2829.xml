@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Cleupatra-Κλευπάτρα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Cleupatra-Vol-2-Vol-1-ADD-G_F names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Cleupatra-Vol-3-G_F"
+                type="name"
+                n="Cleupatra-Κλευπάτρα"
+                xml:id="name-Cleupatra-d1e439007">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-G_F-ftn60"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn755"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-G_F-d8e977-person"
+                          n="Vol-2-Vol-1-ADD-G_F-Greek-Females-Cleupatra-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Κλευπάτρα</persName>
+                     <persName type="lemma" xml:lang="en">Cleupatra</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="daughter-of">Euphanes (1)’s daughter</ref>, of Sichem<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn61"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Caria,<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn62"/>Bean</note>
+                     </state>
+                     <bibl>IJO2, 24</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn63"/>
+                        </note>
+                     </state>
+                     <floruit>1stC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e13365-person"
+                          n="Vol-3-G_F-Greek-Females-Cleupatra-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Κλευπάτρα</persName>
+                     <persName type="lemma" xml:lang="en">Cleupatra</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e42351-person"
+                                type="relation"
+                                n="daughter-of">Theodotus (44)’s daughter</ref>, aged 30<ref type="note" corresp="#Vol-3-G_F-ftn756"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, el-Beida, Oliverio</note>
+                     </state>
+                     <bibl>CJZC30</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn757"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>41/2 CE<ref type="note" corresp="#Vol-3-G_F-ftn758"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e13404-person"
+                          n="Vol-3-G_F-Greek-Females-Cleupatra-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Κλευπάτρα</persName>
+                     <persName type="lemma" xml:lang="en">Cleupatra</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e9362-person" type="relation" n="daughter-of">Bassius (1)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira, Gray</note>
+                     </state>
+                     <bibl>CJZC57g</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn759"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

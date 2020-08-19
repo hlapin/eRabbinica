@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Pacusis-Pacusis</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Pacusis-Vol-3-E_M"
+                type="name"
+                n="Pacusis-Pacusis"
+                xml:id="name-Pacusis-d1e464647">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn266"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e4456-person"
+                          n="Vol-3-E_M-Egyptian-Males-Pacusis-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Pacusis</persName>
+                     <persName type="lemma" xml:lang="en">Pacusis</persName>
+                     <persName>Πακυσίος<ref type="note" corresp="#Vol-3-E_M-ftn267"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_F-d8e4535-person" type="relation" n="son-of">Shabtit (10)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Karanis, Boak</note>
+                     </state>
+                     <bibl>CPJ487</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn268"/>P:Egypt</note>
+                     </state>
+                     <floruit>112 CE<ref type="note" corresp="#Vol-3-E_M-ftn269"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-E_M-d8e4497-person"
+                          n="Vol-3-E_M-Egyptian-Males-Pacusis-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Pacusis</persName>
+                     <persName type="lemma" xml:lang="en">Pacusis</persName>
+                     <persName>Πακῦσις</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e20296-person" type="relation" n="son-of">Dius (4)’s son</ref>, <ref corresp="#" type="relation" n="grandson-of">Isaac (27)’s grandson</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Arsinoe</note>
+                     </state>
+                     <bibl>P. Stras. 868</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-E_M-ftn270"/>P:Egypt</note>
+                     </state>
+                     <floruit>2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

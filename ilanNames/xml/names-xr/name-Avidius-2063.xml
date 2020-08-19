@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Avidius-Avidius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Avidius-Vol-2-L_M"
+                type="name"
+                n="Avidius-Avidius"
+                xml:id="name-Avidius-d1e384709">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn139"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_M-d8e1802-person" n="Vol-2-L_M-Latin-Males-Avidius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Avidius</persName>
+                     <persName type="lemma" xml:lang="en">Avidius</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Agrippa (1), <ref corresp="#Vol-2-B_M-d8e49518-person" type="relation" n="brother-of">Teima (2)’s brother</ref>, Syrian of Canotha<ref type="note" corresp="#Vol-2-L_M-ftn140"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, France, Oehler</note>
+                     </state>
+                     <bibl>CIJ61*</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn141"/>Second name</note>
+                     </state>
+                     <floruit>Post-211<ref type="note" corresp="#Vol-2-L_M-ftn142"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

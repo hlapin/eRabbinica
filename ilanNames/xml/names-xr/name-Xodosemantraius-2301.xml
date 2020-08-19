@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Xodosemantraius-Xodosemantraius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Xodosemantraius-Vol-2-S-G_M"
+                type="name"
+                n="Xodosemantraius-Xodosemantraius"
+                xml:id="name-Xodosemantraius-d1e398673">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-G_M-ftn161"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-G_M-d8e2531-person"
+                          n="Vol-2-S-G_M-Semitic-Greek-Males-Xodosemantraius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Xodosemantraius</persName>
+                     <persName type="lemma" xml:lang="en">Xodosemantraius</persName>
+                     <persName>–<ref type="note" corresp="#Vol-2-S-G_M-ftn162"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophargus, Nablus</note>
+                     </state>
+                     <bibl>Magen,Flavia Neapolis, 303</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan?<ref type="note" corresp="#Vol-2-S-G_M-ftn163"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-S-G_M-ftn164"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sisois-Sisois</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Sisois-Vol-3-E_M"
+                type="name"
+                n="Sisois-Sisois"
+                xml:id="name-Sisois-d1e469196">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn541"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e8922-person" n="Vol-3-E_M-Egyptian-Males-Sisois-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Sisois</persName>
+                     <persName type="lemma" xml:lang="en">Sisois</persName>
+                     <persName>Σίσοις</persName>
+                     <state type="desc">
+                        <note>Petermouthis (1) and <ref corresp="#Vol-3-B_F-d8e4641-person" type="relation" n="son-of">Shabtit (13)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Theadelphia, Westerman &amp; Keyes</note>
+                     </state>
+                     <bibl>CPJ489a</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn542"/>P:Egypt</note>
+                     </state>
+                     <floruit>128/9 CE<ref type="note" corresp="#Vol-3-E_M-ftn543"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-E_M-d8e8954-person" n="Vol-3-E_M-Egyptian-Males-Sisois-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Sisois</persName>
+                     <persName type="lemma" xml:lang="en">Sisois</persName>
+                     <persName>Sissoi</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e11567-person" type="relation" n="son-of">Ciceronius (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Mauritania</note>
+                     </state>
+                     <bibl>Le Bohec,Ant. Afr.17 (1981) no. 77</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn544"/>P:North Africa</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

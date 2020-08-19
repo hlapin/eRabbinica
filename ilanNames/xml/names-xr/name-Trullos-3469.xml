@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Trullos-Trullos</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Trullos-Vol-3-E_M"
+                type="name"
+                n="Trullos-Trullos"
+                xml:id="name-Trullos-d1e470274">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn609"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e9960-person"
+                          n="Vol-3-E_M-Egyptian-Males-Trullos-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Trullos</persName>
+                     <persName type="lemma" xml:lang="en">Trullos</persName>
+                     <persName>Τρύλλις<ref type="note" corresp="#Vol-3-E_M-ftn610"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e30190-person" type="relation" n="son-of">Eulogius (3)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Marucchi</note>
+                     </state>
+                     <bibl>CIJ112</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-E_M-ftn611"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-E_M-d8e9998-person"
+                          n="Vol-3-E_M-Egyptian-Males-Trullos-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Trullos</persName>
+                     <persName type="lemma" xml:lang="en">Trullos</persName>
+                     <persName>Τρυλες<ref type="note" corresp="#Vol-3-E_M-ftn612"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Amphorae, Pompeii, Sogliano,CIJ563</note>
+                     </state>
+                     <bibl>JIWE1, 40</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-E_M-ftn613"/>P:Italy</note>
+                     </state>
+                     <floruit>Pre-79 CE<ref type="note" corresp="#Vol-3-E_M-ftn614"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

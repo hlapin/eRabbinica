@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Asia-̓Ασία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Asia-Vol-2-G_F names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Asia-Vol-3-G_F"
+                type="name"
+                n="Asia-̓Ασία"
+                xml:id="name-Asia-d1e348440">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_F-ftn46"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn172"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_F-d8e669-person" n="Vol-2-G_F-Greek-Females-Asia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Ασία</persName>
+                     <persName type="lemma" xml:lang="en">Asia</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Caesarea</note>
+                     </state>
+                     <bibl>Lehmann &amp; Holum,CMER5, no. 270</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn47"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-G_F-ftn48"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e3050-person" n="Vol-3-G_F-Greek-Females-Asia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Ασία</persName>
+                     <persName type="lemma" xml:lang="en">Asia</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Fabia (2), Fabia (1) <ref corresp="#Vol-3-L_F-d8e27095-person" type="relation" n="mother-of">Mauria (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Paribeni</note>
+                     </state>
+                     <bibl>CIJ413</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn173"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

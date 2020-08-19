@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Timarṣu-תימרצו</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Timaru-Vol-4-S-H_M"
+                type="name"
+                n="Timarṣu-תימרצו"
+                xml:id="name-Timaru-d1e652089">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn2418"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn2419"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e34727-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Timarṣu-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">תימרצו</persName>
+                     <persName type="lemma" xml:lang="en">Timarṣu</persName>
+                     <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2420"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e21003-person" type="relation" n="son-of">Ḥalafta (3)’s son</ref>, <ref corresp="#Vol-4-S-H_M-d8e20969-person"
+                                type="relation"
+                                n="father-of">Ḥalafta (2)’s father</ref>, <ref corresp="#Vol-4-B_M-d8e32065-person"
+                                type="relation"
+                                n="grandson-of">Simon (22)’s grandson</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Palmyra, Lidzbarski</note>
+                     </state>
+                     <bibl>CIS2/3, 4277</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn2421"/>P:Palmyra</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2422"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_M-d8e34761-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Timarṣu-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">תימרצו</persName>
+                     <persName type="lemma" xml:lang="en">Timarṣu</persName>
+                     <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2423"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e32888-person"
+                                type="relation"
+                                n="grandson-of">Simon (47)’s grandson</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Burial cave contract, Palmyra</note>
+                     </state>
+                     <bibl>Cantineau,RB39 (1930) 526</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn2424"/>P:Palmyra</note>
+                     </state>
+                     <floruit>118 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2425"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

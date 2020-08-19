@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Papion-Παπίων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Papion-Vol-2-Vol-1-ADD-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Papion-Vol-3-G_M"
+                type="name"
+                n="Papion-Παπίων"
+                xml:id="name-Papion-d1e445349">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-G_M-ftn259"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3650"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-G_M-d8e3790-person"
+                          n="Vol-2-Vol-1-ADD-G_M-Greek-Males-Papion-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Παπίων</persName>
+                     <persName type="lemma" xml:lang="en">Papion</persName>
+                     <persName>Παπίωνος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn260"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Hebrew University,</note>
+                     </state>
+                     <bibl>CIIP1.1, no. 579</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn261"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e63364-person" n="Vol-3-G_M-Greek-Males-Papion-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Παπίων</persName>
+                     <persName type="lemma" xml:lang="en">Papion</persName>
+                     <persName>Παππίων<ref type="note" corresp="#Vol-3-G_M-ftn3651"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn3652"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Leontopolis, Edgar</note>
+                     </state>
+                     <bibl>CIJ1519</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3653"/>P:Egypt</note>
+                     </state>
+                     <floruit>5 BCE<ref type="note" corresp="#Vol-3-G_M-ftn3654"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e63408-person" n="Vol-3-G_M-Greek-Males-Papion-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Παπίων</persName>
+                     <persName type="lemma" xml:lang="en">Papion</persName>
+                     <persName>Παππίωνα<ref type="note" corresp="#Vol-3-G_M-ftn3655"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn3656"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Leontopolis, Edgar</note>
+                     </state>
+                     <bibl>CIJ1522</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3657"/>P:Egypt</note>
+                     </state>
+                     <floruit>2ndC BCE-2ndC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e63458-person" n="Vol-3-G_M-Greek-Males-Papion-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Παπίων</persName>
+                     <persName type="lemma" xml:lang="en">Papion</persName>
+                     <persName>Παππίωνος<ref type="note" corresp="#Vol-3-G_M-ftn3658"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Joseph (91) and <ref corresp="#Vol-3-G_M-d8e63620-person" type="relation" n="father-of">Pappus (4)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Cairo?<ref type="note" corresp="#Vol-3-G_M-ftn3659"/>Wagner</note>
+                     </state>
+                     <bibl>JIGRE132</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3660"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Seʿuram-סעורם</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Seuram-Vol-4-S-H_M"
+                type="name"
+                n="Seʿuram-סעורם"
+                xml:id="name-Seuram-d1e647691">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn2040"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e29497-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Seʿuram-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">סעורם</persName>
+                     <persName type="lemma" xml:lang="en">Seʿuram</persName>
+                     <persName>שעורים<ref type="note" corresp="#Vol-4-S-H_M-ftn2041"/>
+                     </persName>
+                     <persName>/סעורים<ref type="note" corresp="#Vol-4-S-H_M-ftn2042"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e789-person" type="relation" n="brother-of">Abba (17)’s brother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bBM73b (Kosowsky,Babylonico, 1132)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2043"/>P: Babylonia</note>
+                     </state>
+                     <floruit>4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2044"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

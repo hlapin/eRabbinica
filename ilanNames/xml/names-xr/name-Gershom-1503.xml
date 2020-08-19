@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Gershom-גרשום</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Gershom-Vol-2-B_M"
+                type="name"
+                n="Gershom-גרשום"
+                xml:id="name-Gershom-d1e322175">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-B_M-ftn523"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-B_M-d8e7608-person"
+                          n="Vol-2-B_M-Biblical-Males-Gershom-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">גרשום</persName>
+                     <persName type="lemma" xml:lang="en">Gershom</persName>
+                     <persName>גרשון<ref type="note" corresp="#Vol-2-B_M-ftn524"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-S-H_M-d8e5085-person" type="relation" n="father-of">Ada (10)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>yTer10:10, 47b<ref type="note" corresp="#Vol-2-B_M-ftn525"/>(Kosovsky,Yerushalmi, 56)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-400<ref type="note" corresp="#Vol-2-B_M-ftn526"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-B_M-d8e7643-person"
+                          n="Vol-2-B_M-Biblical-Males-Gershom-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">גרשום</persName>
+                     <persName type="lemma" xml:lang="en">Gershom</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>yNed3:8, 38a (Kosovsky,Yerushalmi, 178)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>3rdC<ref type="note" corresp="#Vol-2-B_M-ftn527"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

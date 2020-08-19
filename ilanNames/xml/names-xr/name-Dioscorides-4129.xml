@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Dioscorides-Διοσκορίδης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Dioscorides-Vol-3-G_M"
+                type="name"
+                n="Dioscorides-Διοσκορίδης"
+                xml:id="name-Dioscorides-d1e495768">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1198"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e20387-person"
+                          n="Vol-3-G_M-Greek-Males-Dioscorides-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Διοσκορίδης</persName>
+                     <persName type="lemma" xml:lang="en">Dioscorides</persName>
+                     <persName>Διοσκουρίδης<ref type="note" corresp="#Vol-3-G_M-ftn1199"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e36810-person" type="relation" n="son-of">Simon (19)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Fayum, Smyly</note>
+                     </state>
+                     <bibl>CPJ32</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1200"/>P:Egypt</note>
+                     </state>
+                     <floruit>2ndC BCE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

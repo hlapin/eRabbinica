@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Samuelis-שמואליס</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-B_F-Biblical-Females-to-utf-TEI-P5-names.xml/#Samuelis-Vol-3-B_F"
+                type="name"
+                n="Samuelis-שמואליס"
+                xml:id="name-Samuelis-d1e455086">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-B_F-ftn514"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-B_F-d8e7259-person"
+                          n="Vol-3-B_F-Biblical-Females-Samuelis-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">שמואליס</persName>
+                     <persName type="lemma" xml:lang="en">Samuelis</persName>
+                     <persName>Σομοείλο<ref type="note" corresp="#Vol-3-B_F-ftn515"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Didymus (5) <ref corresp="#Vol-3-G_M-d8e67897-person" type="relation" n="wife-of">Ptolemaius (11)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Fayum, Kortenbeutel</note>
+                     </state>
+                     <bibl>CPJ459</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-B_F-ftn516"/>P:Egypt</note>
+                     </state>
+                     <floruit>149 CE<ref type="note" corresp="#Vol-3-B_F-ftn517"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

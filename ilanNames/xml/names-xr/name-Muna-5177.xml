@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Muna-Muna</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Muna-Vol-3-L_F"
+                type="name"
+                n="Muna-Muna"
+                xml:id="name-Muna-d1e537046">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn851"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e27666-person" n="Vol-3-L_F-Latin-Females-Muna-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Muna</persName>
+                     <persName type="lemma" xml:lang="en">Muna</persName>
+                     <persName>Μουννα<ref type="note" corresp="#Vol-3-L_F-ftn852"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ239</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn853"/>; name?<ref type="note" corresp="#Vol-3-L_F-ftn854"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

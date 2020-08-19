@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Volumnius-Volumnius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Volumnius-Vol-1-L_M"
+                type="name"
+                n="Volumnius-Volumnius"
+                xml:id="name-Volumnius-d1e280110">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-L_M-ftn379"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-L_M-d2e5682-person" n="Vol-1-L_M-Volumnius-1">
+                     <persName type="lemma">Volumnius</persName>
+                     <persName type="lemma" xml:lang="en">Volumnius</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Ο̓ολόμνιος<ref type="note" corresp="#Vol-1-L_M-ftn380"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-G_M-d2e8218-person" type="relation" n="friend-of">Herod (1)’s friend</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ1:535;AJ16:332 (Schalit,NB, 94)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-1-L_M-ftn381"/>
+                        </note>
+                     </state>
+                     <floruit>7 BCE<ref type="note" corresp="#Vol-1-L_M-ftn382"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

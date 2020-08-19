@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Zuni-זוני</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_F-Semitic-Hebrew-Females-to-utf-TEI-P5-names.xml/#Zuni-Vol-4-S-H_F"
+                type="name"
+                n="Zuni-זוני"
+                xml:id="name-Zuni-d1e630743">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_F-ftn266"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_F-d8e3522-person"
+                          n="Vol-4-S-H_F-Semitic-Hebrew-Females-Zuni-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">זוני</persName>
+                     <persName type="lemma" xml:lang="en">Zuni</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e17098-person"
+                                type="relation"
+                                n="mother-of">Zebina (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, New York</note>
+                     </state>
+                     <bibl>AMBno. 12b</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_F-ftn267"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_F-ftn268"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

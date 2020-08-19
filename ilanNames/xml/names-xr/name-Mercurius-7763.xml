@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Mercurius-Mercurius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-Vol-3-Add-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Mercurius-Vol-4-Vol-3-Add-L_M"
+                type="name"
+                n="Mercurius-Mercurius"
+                xml:id="name-Mercurius-d1e652778">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-Vol-3-Add-L_M-ftn14"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-Vol-3-Add-L_M-d8e165-person"
+                          n="Vol-4-Vol-3-Add-L_M-Latin-Males-Mercurius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Mercurius</persName>
+                     <persName type="lemma" xml:lang="en">Mercurius</persName>
+                     <persName>Μερκώριος</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Grafitto, catacomb, Venosa</note>
+                     </state>
+                     <bibl>Colafemmina,Materia giudaica9 (2004) 39</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-Vol-3-Add-L_M-ftn15"/>P:Italy</note>
+                     </state>
+                     <floruit>5th-6thC<ref type="note" corresp="#Vol-4-Vol-3-Add-L_M-ftn16"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

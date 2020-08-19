@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Crescentia-Crescentia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Crescentia-Vol-3-L_F"
+                type="name"
+                n="Crescentia-Crescentia"
+                xml:id="name-Crescentia-d1e532349">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn338"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e6317-person"
+                          n="Vol-3-L_F-Latin-Females-Crescentia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Crescentia</persName>
+                     <persName type="lemma" xml:lang="en">Crescentia</persName>
+                     <persName>Criscentia<ref type="note" corresp="#Vol-3-L_F-ftn339"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-S-G_M-d8e3433-person"
+                                type="relation"
+                                n="daughter-of">Pascasus (1)’s daughter</ref>, virgin, aged 18<ref type="note" corresp="#Vol-3-L_F-ftn340"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Naples, Serrao</note>
+                     </state>
+                     <bibl>JIWE1, 35</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn341"/>P:Italy</note>
+                     </state>
+                     <floruit>5thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

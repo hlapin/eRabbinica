@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Valentianus-Valentianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Valentianus-Vol-2-L_M names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Valentianus-Vol-3-L_M"
+                type="name"
+                n="Valentianus-Valentianus"
+                xml:id="name-Valentianus-d1e395293">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn850"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2438"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_M-d8e11161-person"
+                          n="Vol-2-L_M-Latin-Males-Valentianus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Valentianus</persName>
+                     <persName type="lemma" xml:lang="en">Valentianus</persName>
+                     <persName>Ο̓αλοντίνου<ref type="note" corresp="#Vol-2-L_M-ftn851"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e8815-person" type="relation" n="son-of">Theodotus (3)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1b,no. 1</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn852"/>
+                        </note>
+                     </state>
+                     <floruit>333<ref type="note" corresp="#Vol-2-L_M-ftn853"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e40711-person"
+                          n="Vol-3-L_M-Latin-Males-Valentianus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Valentianus</persName>
+                     <persName type="lemma" xml:lang="en">Valentianus</persName>
+                     <persName>Βαλεντιανώ<ref type="note" corresp="#Vol-3-L_M-ftn2439"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e14047-person" type="relation" n="father-of">Cyrilla (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Schneider Graziosi</note>
+                     </state>
+                     <bibl>CIJ310</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2440"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e40752-person"
+                          n="Vol-3-L_M-Latin-Males-Valentianus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Valentianus</persName>
+                     <persName type="lemma" xml:lang="en">Valentianus</persName>
+                     <persName>Barvalentini<ref type="note" corresp="#Vol-3-L_M-ftn2441"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Garrucci</note>
+                     </state>
+                     <bibl>CIJ528</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2442"/>P:Rome</note>
+                     </state>
+                     <floruit>387 CE<ref type="note" corresp="#Vol-3-L_M-ftn2443"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

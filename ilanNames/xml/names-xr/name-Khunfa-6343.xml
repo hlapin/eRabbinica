@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Khunāfa-خنافة</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Khunfa-Vol-4-A_M"
+                type="name"
+                n="Khunāfa-خنافة"
+                xml:id="name-Khunfa-d1e579520">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn334"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e4191-person" n="Vol-4-A_M-Arabic-Males-Khunāfa-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">خنافة</persName>
+                     <persName type="lemma" xml:lang="en">Khunāfa</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e31528-person" type="relation" n="son-of">Simon (7)’s son</ref>, <ref corresp="#Vol-4-A_M-d8e9732-person" type="relation" n="father-of">ʿUmar (11)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Ṭabarī, iii, 2432</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn335"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>6thC CE<ref type="note" corresp="#Vol-4-A_M-ftn336"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-A_M-d8e4221-person" n="Vol-4-A_M-Arabic-Males-Khunāfa-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">خنافة</persName>
+                     <persName type="lemma" xml:lang="en">Khunāfa</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-A_M-ftn337"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Samhūdī,wafāʾ al-wafāII, 153</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn338"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>Pre-632 CE<ref type="note" corresp="#Vol-4-A_M-ftn339"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

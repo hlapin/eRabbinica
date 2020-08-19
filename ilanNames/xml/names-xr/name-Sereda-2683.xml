@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ṣereda-צרדה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Sereda-Vol-2-S-H_M"
+                type="name"
+                n="Ṣereda-צרדה"
+                xml:id="name-Sereda-d1e431602">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn1442"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e22957-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ṣereda-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">צרדה</persName>
+                     <persName type="lemma" xml:lang="en">Ṣereda</persName>
+                     <persName>צרדייא<ref type="note" corresp="#Vol-2-S-H_M-ftn1443"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e15389-person" type="relation" n="father-of">Judah (43)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>yNed7:1, 40b (Kosovsky,Yerushalmi, 324)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn1444"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-400<ref type="note" corresp="#Vol-2-S-H_M-ftn1445"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-S-H_M-d8e22994-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ṣereda-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">צרדה</persName>
+                     <persName type="lemma" xml:lang="en">Ṣereda</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e17100-person" type="relation" n="father-of">Judah (94)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Khirbet Yitzhakiah,<ref type="note" corresp="#Vol-2-S-H_M-ftn1446"/>Avigad</note>
+                     </state>
+                     <bibl>Naveh,OSM, no. 40</bibl>
+                     <state type="addl-Descr">
+                        <note>Name?<ref type="note" corresp="#Vol-2-S-H_M-ftn1447"/>
+                        </note>
+                     </state>
+                     <floruit>
+                        <ref type="note" corresp="#Vol-2-S-H_M-ftn1448"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

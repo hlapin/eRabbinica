@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ʿAṭūr-עטור</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Ar-Vol-4-S-H_M"
+                type="name"
+                n="ʿAṭūr-עטור"
+                xml:id="name-Ar-d1e648686">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn2130"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e30716-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-ʿAṭūr-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">עטור</persName>
+                     <persName type="lemma" xml:lang="en">ʿAṭūr</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e16963-person" type="relation" n="son-of">Menaḥem (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, el-ʿUlā</note>
+                     </state>
+                     <bibl>Milik,North Arabia, 163</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2131"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2132"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

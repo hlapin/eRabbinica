@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Eusebia-Ε̓σεβία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Eusebia-Vol-3-G_F"
+                type="name"
+                n="Eusebia-Ε̓σεβία"
+                xml:id="name-Eusebia-d1e477155">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn507"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e9166-person" n="Vol-3-G_F-Greek-Females-Eusebia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Ε̓σεβία</persName>
+                     <persName type="lemma" xml:lang="en">Eusebia</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_F-ftn508"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Schneider Graziosi</note>
+                     </state>
+                     <bibl>CIJ330</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn509"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

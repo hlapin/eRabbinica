@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Rimna-Rimna</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_F-Iranian-Females-to-utf-TEI-P5-names.xml/#Rimna-Vol-4-I_F"
+                type="name"
+                n="Rimna-Rimna"
+                xml:id="name-Rimna-d1e614026">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_F-ftn1000"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_F-d8e12219-person"
+                          n="Vol-4-I_F-Iranian-Females-Rimna-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Rimna</persName>
+                     <persName type="lemma" xml:lang="en">Rimna</persName>
+                     <persName>
+                        <ref type="note" corresp="#Vol-4-I_F-ftn1001"/>
+                     </persName>
+                     <floruit>Aysalhubab (1)’s mother</floruit>
+                     <state type="provenance">
+                        <note>Incantation bowls, Borsippa</note>
+                     </state>
+                     <bibl>1. Levene,JJS54 (2003) 105; 2. p. 107</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-I_F-ftn1002"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn1003"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

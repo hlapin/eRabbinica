@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Calandina-Calandina</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Calandina-Vol-3-L_F"
+                type="name"
+                n="Calandina-Calandina"
+                xml:id="name-Calandina-d1e531254">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn241"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e4676-person"
+                          n="Vol-3-L_F-Latin-Females-Calandina-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Calandina</persName>
+                     <persName type="lemma" xml:lang="en">Calandina</persName>
+                     <persName>Καλανδία<ref type="note" corresp="#Vol-3-L_F-ftn242"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Thessalonica, Oehler</note>
+                     </state>
+                     <bibl>CIJ66*</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn243"/>P:Greece</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn244"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

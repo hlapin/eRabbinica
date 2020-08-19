@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Chobares-Chobares</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Chobares-Vol-1-P_M"
+                type="name"
+                n="Chobares-Chobares"
+                xml:id="name-Chobares-d1e281402">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-P_M-ftn46"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-P_M-d2e685-person" n="Vol-1-P_M-Chobares-1">
+                     <persName type="lemma">Chobares</persName>
+                     <persName type="lemma" xml:lang="en">Chobares</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Χωβαρεῖς<ref type="note" corresp="#Vol-1-P_M-ftn47"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e11347-person" type="relation" n="father-of">Hezekiah (5)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ5:6 (Schalit,NB, 127)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-1-P_M-ftn48"/>
+                        </note>
+                     </state>
+                     <floruit>69 CE<ref type="note" corresp="#Vol-1-P_M-ftn49"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

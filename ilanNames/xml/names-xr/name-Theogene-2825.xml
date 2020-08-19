@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Theogene-Θεογένη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Theogene-Vol-2-Vol-1-ADD-G_F"
+                type="name"
+                n="Theogene-Θεογένη"
+                xml:id="name-Theogene-d1e438922">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-G_F-ftn54"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-G_F-d8e881-person"
+                          n="Vol-2-Vol-1-ADD-G_F-Greek-Females-Theogene-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Θεογένη</persName>
+                     <persName type="lemma" xml:lang="en">Theogene</persName>
+                     <persName>Theogene<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn55"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e13391-person"
+                                type="relation"
+                                n="daughter-of">Tobiah (3)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Pagan altar, Beit She’an</note>
+                     </state>
+                     <bibl>Foerster &amp; Tzafrir,ESI6 (1987) 29</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn56"/>
+                        </note>
+                     </state>
+                     <floruit>2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

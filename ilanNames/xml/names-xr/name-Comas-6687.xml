@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Comas-Κῶμας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Comas-Vol-4-G_M"
+                type="name"
+                n="Comas-Κῶμας"
+                xml:id="name-Comas-d1e601640">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-G_M-ftn86"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-G_M-d8e1134-person" n="Vol-4-G_M-Greek-Males-Comas-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Κῶμας</persName>
+                     <persName type="lemma" xml:lang="en">Comas</persName>
+                     <persName>Κῶμα</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-G_M-d8e608-person" type="relation" n="father-of">Epictetus (1)’s father</ref>, <ref corresp="#Vol-4-B_M-d8e33551-person" type="relation" n="son-of">Seth (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Jerusalem, Abel</note>
+                     </state>
+                     <bibl>CIJ1238</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-G_M-ftn87"/>P:Palmyra<ref type="note" corresp="#Vol-4-G_M-ftn88"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-4-G_M-ftn89"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

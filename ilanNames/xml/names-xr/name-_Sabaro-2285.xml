@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Σάβαρος Ṣabaro-Σάβαρος Ṣabaro</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#_Sabaro-Vol-2-S-G_M"
+                type="name"
+                n="Σάβαρος Ṣabaro-Σάβαρος Ṣabaro"
+                xml:id="name-_Sabaro-d1e398277">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-G_M-ftn134"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-G_M-d8e2113-person"
+                          n="Vol-2-S-G_M-Semitic-Greek-Males-Σάβαρος Ṣabaro-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Σάβαρος Ṣabaro</persName>
+                     <persName type="lemma" xml:lang="en">Σάβαρος Ṣabaro</persName>
+                     <persName>Σαβάρωνος<ref type="note" corresp="#Vol-2-S-G_M-ftn135"/>
+                     </persName>
+                     <persName>/Σαβάρου<ref type="note" corresp="#Vol-2-S-G_M-ftn136"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-L_M-d8e4069-person" type="relation" n="father-of">Julianus (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>1. Malalas,ECASS, no. 127; 2. Procopius,ECASS, no. 131</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-S-G_M-ftn137"/>
+                        </note>
+                     </state>
+                     <floruit>527-65<ref type="note" corresp="#Vol-2-S-G_M-ftn138"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Polia-Polia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Polia-Vol-3-L_F"
+                type="name"
+                n="Polia-Polia"
+                xml:id="name-Polia-d1e538064">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn919"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e28765-person" n="Vol-3-L_F-Latin-Females-Polia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Polia</persName>
+                     <persName type="lemma" xml:lang="en">Polia</persName>
+                     <persName>Πολλία<ref type="note" corresp="#Vol-3-L_F-ftn920"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_F-ftn921"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostraca, Thebes, Meyer</note>
+                     </state>
+                     <bibl>CPJ462</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn922"/>Second nameP:Egypt</note>
+                     </state>
+                     <floruit>150-61 CE<ref type="note" corresp="#Vol-3-L_F-ftn923"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e28807-person" n="Vol-3-L_F-Latin-Females-Polia-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Polia</persName>
+                     <persName type="lemma" xml:lang="en">Polia</persName>
+                     <persName>Polla<ref type="note" corresp="#Vol-3-L_F-ftn924"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_F-d8e22904-person" type="relation" n="mother-of">Julia (9)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ241</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn925"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e28844-person" n="Vol-3-L_F-Latin-Females-Polia-3">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Polia</persName>
+                     <persName type="lemma" xml:lang="en">Polia</persName>
+                     <persName>Πῶλλα<ref type="note" corresp="#Vol-3-L_F-ftn926"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e2644-person" type="relation" n="daughter-of">Annius (7)’s daughter</ref>, Marcus (23) Aurelius (64) <ref corresp="#Vol-3-G_M-d8e24933-person" type="relation" n="wife-of">Eirenaius (5)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Miranda</note>
+                     </state>
+                     <bibl>IJO2, 199</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn927"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e28885-person" n="Vol-3-L_F-Latin-Females-Polia-4">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Polia</persName>
+                     <persName type="lemma" xml:lang="en">Polia</persName>
+                     <persName>Πώλλῃ<ref type="note" corresp="#Vol-3-L_F-ftn928"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Aurelius (88) <ref corresp="#Vol-3-Add-G_M-d8e82-person Vol-3-G_M-d8e26623-person"
+                                type="relation"
+                                n="wife-of">Epictetus (1)’s wife</ref>, of Betenia<ref type="note" corresp="#Vol-3-L_F-ftn929"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Satala</note>
+                     </state>
+                     <bibl>Tituli Asiae Minoris5, 608</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn930"/>P:Asia</note>
+                     </state>
+                     <floruit>269-324 CE<ref type="note" corresp="#Vol-3-L_F-ftn931"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

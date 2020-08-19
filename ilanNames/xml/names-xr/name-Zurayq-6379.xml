@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Zurayq-زريق</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Zurayq-Vol-4-A_M"
+                type="name"
+                n="Zurayq-زريق"
+                xml:id="name-Zurayq-d1e581115">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn464"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e5678-person" n="Vol-4-A_M-Arabic-Males-Zurayq-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">زريق</persName>
+                     <persName type="lemma" xml:lang="en">Zurayq</persName>
+                     <persName>זריקא<ref type="note" corresp="#Vol-4-A_M-ftn465"/>
+                     </persName>
+                     <persName>/זריקן<ref type="note" corresp="#Vol-4-A_M-ftn466"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>1.yBer7:5, 11c (Kosovsky,Yerushalmi, 232-3); 2.bBer3b (Kosowsky,Babylonico, 450-2)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn467"/>P:Babylonia<ref type="note" corresp="#Vol-4-A_M-ftn468"/>
+                        </note>
+                     </state>
+                     <floruit>3rdC CE<ref type="note" corresp="#Vol-4-A_M-ftn469"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-A_M-d8e5736-person" n="Vol-4-A_M-Arabic-Males-Zurayq-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">زريق</persName>
+                     <persName type="lemma" xml:lang="en">Zurayq</persName>
+                     <persName>Ζερέκα<ref type="note" corresp="#Vol-4-A_M-ftn470"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-G_M-d8e1512-person" type="relation" n="father-of">Megalus (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Caesarea, Schwabe</note>
+                     </state>
+                     <bibl>CIJ889</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn471"/>P:Babylonia<ref type="note" corresp="#Vol-4-A_M-ftn472"/>
+                        </note>
+                     </state>
+                     <floruit>4thC CE<ref type="note" corresp="#Vol-4-A_M-ftn473"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-A_M-d8e5784-person" n="Vol-4-A_M-Arabic-Males-Zurayq-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">زريق</persName>
+                     <persName type="lemma" xml:lang="en">Zurayq</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Ibn Hishām,Leben Muhammed’s, 352</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn474"/>; family<ref type="note" corresp="#Vol-4-A_M-ftn475"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>Pre-Islamic<ref type="note" corresp="#Vol-4-A_M-ftn476"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

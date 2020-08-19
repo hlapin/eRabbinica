@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Fiṭyawn-فطيون</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Fiyawn-Vol-4-A_M"
+                type="name"
+                n="Fiṭyawn-فطيون"
+                xml:id="name-Fiyawn-d1e586301">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn848"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e10556-person" n="Vol-4-A_M-Arabic-Males-Fiṭyawn-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">فطيون</persName>
+                     <persName type="lemma" xml:lang="en">Fiṭyawn</persName>
+                     <persName>الفطيون<ref type="note" corresp="#Vol-4-A_M-ftn849"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-A_M-d8e2008-person" type="relation" n="father-of">Thaʿlaba (2)’s father</ref>, head of clan<ref type="note" corresp="#Vol-4-A_M-ftn850"/>
+                           <ref type="note" corresp="#Vol-4-A_M-ftn851"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>1. Ibn Hishām,Leben Muhammed’s, 351; 2. Athīr,taʾrīkh1, 656</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn852"/>; family<ref type="note" corresp="#Vol-4-A_M-ftn853"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>Pre-Islamic<ref type="note" corresp="#Vol-4-A_M-ftn854"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

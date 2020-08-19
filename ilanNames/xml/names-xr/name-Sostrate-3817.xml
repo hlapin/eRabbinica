@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sostrate-Σωστράτη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Sostrate-Vol-3-G_F"
+                type="name"
+                n="Sostrate-Σωστράτη"
+                xml:id="name-Sostrate-d1e483845">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn1020"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e17957-person"
+                          n="Vol-3-G_F-Greek-Females-Sostrate-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Σωστράτη</persName>
+                     <persName type="lemma" xml:lang="en">Sostrate</persName>
+                     <persName>Σωστράτης</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e65833-person" type="relation" n="wife-of">Polyctor (1)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Heracleopolis</note>
+                     </state>
+                     <bibl>PC29 (2001) 5</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn1021"/>P:Egypt</note>
+                     </state>
+                     <floruit>135/4 BCE<ref type="note" corresp="#Vol-3-G_F-ftn1022"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

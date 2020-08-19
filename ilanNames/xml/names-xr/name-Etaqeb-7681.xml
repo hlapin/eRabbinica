@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ʿEtʿaqeb-עתעקב</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Etaqeb-Vol-4-S-H_M"
+                type="name"
+                n="ʿEtʿaqeb-עתעקב"
+                xml:id="name-Etaqeb-d1e649342">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn2181"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e31461-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-ʿEtʿaqeb-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">עתעקב</persName>
+                     <persName type="lemma" xml:lang="en">ʿEtʿaqeb</persName>
+                     <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2182"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Gadia (4), <ref corresp="#Vol-4-B_M-d8e21264-person" type="relation" n="father-of">ʿAqub (12)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Palmyra, Gottheil</note>
+                     </state>
+                     <bibl>CIS2/3, 4117</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn2183"/>P:Palmyra</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2184"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Martinus-Martinus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Martinus-Vol-4-L_M"
+                type="name"
+                n="Martinus-Martinus"
+                xml:id="name-Martinus-d1e628218">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-L_M-ftn92"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-L_M-d8e992-person" n="Vol-4-L_M-Latin-Males-Martinus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Martinus</persName>
+                     <persName type="lemma" xml:lang="en">Martinus</persName>
+                     <persName>מרתינא<ref type="note" corresp="#Vol-4-L_M-ftn93"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Graffito, synagogue Dura-Europos, du Mesnil</note>
+                     </state>
+                     <bibl>IJO3, Syr89</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-L_M-ftn94"/>; name?<ref type="note" corresp="#Vol-4-L_M-ftn95"/>P:Dura-Europos</note>
+                     </state>
+                     <floruit>244/5 CE<ref type="note" corresp="#Vol-4-L_M-ftn96"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

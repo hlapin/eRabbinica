@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Bagabag-Bagabag</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Bagabag-Vol-1-P_M"
+                type="name"
+                n="Bagabag-Bagabag"
+                xml:id="name-Bagabag-d1e280933">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-P_M-ftn19"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-P_M-d2e284-person" n="Vol-1-P_M-Bagabag-1">
+                     <persName type="lemma">Bagabag</persName>
+                     <persName type="lemma" xml:lang="en">Bagabag</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">בג-בג<ref type="note" corresp="#Vol-1-P_M-ftn20"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e25998-person" type="relation" n="father-of">Yohanan (42)’s father</ref>
+                           <ref type="note" corresp="#Vol-1-P_M-ftn21"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>mAb5:22 (Kasovsky,Mishnae, 391)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-1-P_M-ftn22"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-135 CE<ref type="note" corresp="#Vol-1-P_M-ftn23"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

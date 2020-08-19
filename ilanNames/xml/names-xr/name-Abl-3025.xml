@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Abī‘lī-ابعلي</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-4-ADD-A_F-Arabic-Females-to-utf-TEI-P5-names.xml/#Abl-Vol-2-Vol-4-ADD-A_F"
+                type="name"
+                n="Abī‘lī-ابعلي"
+                xml:id="name-Abl-d1e452009">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-4-ADD-A_F-ftn1"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-4-ADD-A_F-d8e16-person"
+                          n="Vol-2-Vol-4-ADD-A_F-Arabic-Females-Abī‘lī-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">ابعلي</persName>
+                     <persName type="lemma" xml:lang="en">Abī‘lī</persName>
+                     <persName>אבעלי<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_F-ftn2"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e5644-person" type="relation" n="wife-of">Benjamin (1)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedication inscription, Zafar, Yemen</note>
+                     </state>
+                     <bibl>Robin, “Ḥimyar et Israel,” no. 1</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_F-ftn3"/>P:Arabia</note>
+                     </state>
+                     <floruit>470 CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_F-ftn4"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Rakhish-רכיש</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Rakhish-Vol-4-S-H_M"
+                type="name"
+                n="Rakhish-רכיש"
+                xml:id="name-Rakhish-d1e650272">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn2282"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e32759-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Rakhish-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">רכיש</persName>
+                     <persName type="lemma" xml:lang="en">Rakhish</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_M-d8e9580-person" type="relation" n="son-of">Pāpā (19)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bḤul43a (Kosowsky,Babylonico, 1529)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2283"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Post-247 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2284"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

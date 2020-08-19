@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aribaius-̓Αρίβαιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Aribaius-Vol-3-G_M"
+                type="name"
+                n="Aribaius-̓Αρίβαιος"
+                xml:id="name-Aribaius-d1e489955">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn610"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e10459-person" n="Vol-3-G_M-Greek-Males-Aribaius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αρίβαιος</persName>
+                     <persName type="lemma" xml:lang="en">Aribaius</persName>
+                     <persName>̓Αριβα<ref type="note" corresp="#Vol-3-G_M-ftn611"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Graffito, Teucheira, Oliverio</note>
+                     </state>
+                     <bibl>CJZC41c</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn612"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

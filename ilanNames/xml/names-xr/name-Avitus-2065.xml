@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Avitus-Avitus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Avitus-Vol-2-L_M"
+                type="name"
+                n="Avitus-Avitus"
+                xml:id="name-Avitus-d1e384761">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn143"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_M-d8e1866-person" n="Vol-2-L_M-Latin-Males-Avitus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Avitus</persName>
+                     <persName type="lemma" xml:lang="en">Avitus</persName>
+                     <persName>̓Αυίτος<ref type="note" corresp="#Vol-2-L_M-ftn144"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Beth She‘arim</note>
+                     </state>
+                     <bibl>BS2:212</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-352<ref type="note" corresp="#Vol-2-L_M-ftn145"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

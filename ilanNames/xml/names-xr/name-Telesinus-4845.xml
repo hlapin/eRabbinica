@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Telesinus-Τελεσῖνος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Telesinus-Vol-3-G_M"
+                type="name"
+                n="Telesinus-Τελεσῖνος"
+                xml:id="name-Telesinus-d1e524391">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4346"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e74945-person"
+                          n="Vol-3-G_M-Greek-Males-Telesinus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Τελεσῖνος</persName>
+                     <persName type="lemma" xml:lang="en">Telesinus</persName>
+                     <persName>Telesinus</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn4347"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Gelasius, fr. 45</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4348"/>P:Rome?<ref type="note" corresp="#Vol-3-G_M-ftn4349"/>
+                        </note>
+                     </state>
+                     <floruit>492-6 CE<ref type="note" corresp="#Vol-3-G_M-ftn4350"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e74980-person"
+                          n="Vol-3-G_M-Greek-Males-Telesinus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Τελεσῖνος</persName>
+                     <persName type="lemma" xml:lang="en">Telesinus</persName>
+                     <persName>Telesini</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Mommsen</note>
+                     </state>
+                     <bibl>CIJ479</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4351"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e75014-person"
+                          n="Vol-3-G_M-Greek-Males-Telesinus-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Τελεσῖνος</persName>
+                     <persName type="lemma" xml:lang="en">Telesinus</persName>
+                     <persName>Thelesini<ref type="note" corresp="#Vol-3-G_M-ftn4352"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e6755-person" type="relation" n="father-of">Eirene (6)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Naples, Galante</note>
+                     </state>
+                     <bibl>CIJ559</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4353"/>P:Rome<ref type="note" corresp="#Vol-3-G_M-ftn4354"/>
+                        </note>
+                     </state>
+                     <floruit>5th-6thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

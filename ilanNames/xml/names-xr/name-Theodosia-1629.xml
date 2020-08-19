@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Theodosia-Θεοδοσία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Theodosia-Vol-2-G_F names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Theodosia-Vol-3-G_F"
+                type="name"
+                n="Theodosia-Θεοδοσία"
+                xml:id="name-Theodosia-d1e350986">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_F-ftn143"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn605"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_F-d8e2266-person"
+                          n="Vol-2-G_F-Greek-Females-Theodosia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Θεοδοσία</persName>
+                     <persName type="lemma" xml:lang="en">Theodosia</persName>
+                     <persName>Θεοδοσίας</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-G_F-ftn144"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Beth She‘arim, catacomb 21</note>
+                     </state>
+                     <bibl>BS2:199</bibl>
+                     <state type="addl-Descr">
+                        <note>Second name</note>
+                     </state>
+                     <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_F-ftn145"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e10886-person"
+                          n="Vol-3-G_F-Greek-Females-Theodosia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Θεοδοσία</persName>
+                     <persName type="lemma" xml:lang="en">Theodosia</persName>
+                     <persName>[Θεοδο]σίαν/ [Θεο]δοσία<ref type="note" corresp="#Vol-3-G_F-ftn606"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Calypso (1), <ref corresp="#Vol-3-G_M-d8e21411-person"
+                                type="relation"
+                                n="daughter-of">Dorotheus (4)’s daughter</ref>, aged 18<ref type="note" corresp="#Vol-3-G_F-ftn607"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Kaibel</note>
+                     </state>
+                     <bibl>JIGRE141</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn608"/>P:Rome / Egypt<ref type="note" corresp="#Vol-3-G_F-ftn609"/>
+                        </note>
+                     </state>
+                     <floruit>2ndC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e10944-person"
+                          n="Vol-3-G_F-Greek-Females-Theodosia-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Θεοδοσία</persName>
+                     <persName type="lemma" xml:lang="en">Theodosia</persName>
+                     <persName>Θεδοσία<ref type="note" corresp="#Vol-3-G_F-ftn610"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e80272-person"
+                                type="relation"
+                                n="daughter-of">Philon (20)’s daughter</ref>, aged 20<ref type="note" corresp="#Vol-3-G_F-ftn611"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira, Pacho</note>
+                     </state>
+                     <bibl>CJZC68</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn612"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

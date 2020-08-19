@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Synesius-Συνέσιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Synesius-Vol-3-G_M"
+                type="name"
+                n="Synesius-Συνέσιος"
+                xml:id="name-Synesius-d1e523539">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4223"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e73009-person" n="Vol-3-G_M-Greek-Males-Synesius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Συνέσιος</persName>
+                     <persName type="lemma" xml:lang="en">Synesius</persName>
+                     <persName>Συνεσίου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn4224"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Nicolai</note>
+                     </state>
+                     <bibl>CIJ319</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4225"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e73050-person" n="Vol-3-G_M-Greek-Males-Synesius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Συνέσιος</persName>
+                     <persName type="lemma" xml:lang="en">Synesius</persName>
+                     <persName>Συνεσίου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="father-of">Joseph (83)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Renovation inscription, Golgoi, Menardos</note>
+                     </state>
+                     <bibl>CIJ735</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4226"/>P:Cyprus</note>
+                     </state>
+                     <floruit>4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

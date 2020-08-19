@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Stratonice-Στρατονίκη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Stratonice-Vol-3-G_F"
+                type="name"
+                n="Stratonice-Στρατονίκη"
+                xml:id="name-Stratonice-d1e483666">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn1011"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e17752-person"
+                          n="Vol-3-G_F-Greek-Females-Stratonice-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Στρατονίκη</persName>
+                     <persName type="lemma" xml:lang="en">Stratonice</persName>
+                     <persName>Στρατονείκη<ref type="note" corresp="#Vol-3-G_F-ftn1012"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Marcus (21) Aurelius (62) <ref corresp="#Vol-3-G_M-d8e11377-person"
+                                type="relation"
+                                n="daughter-of">Aristodemus (2)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Pennacchietti</note>
+                     </state>
+                     <bibl>IJO2, 197</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn1013"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e17790-person"
+                          n="Vol-3-G_F-Greek-Females-Stratonice-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Στρατονίκη</persName>
+                     <persName type="lemma" xml:lang="en">Stratonice</persName>
+                     <persName>Σθρατονίκης<ref type="note" corresp="#Vol-3-G_F-ftn1014"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Aurelia (40), <ref corresp="#Vol-3-G_M-d8e46176-person"
+                                type="relation"
+                                n="daughter-of">Theophilus (14)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Miranda</note>
+                     </state>
+                     <bibl>IJO2, 207</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn1015"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

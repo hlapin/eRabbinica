@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Φελφέλα Felfela-Φελφέλα Felfela</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-G_F-Semitic-Greek-Females-to-utf-TEI-P5-names.xml/#_Felfela-Vol-2-S-G_F"
+                type="name"
+                n="Φελφέλα Felfela-Φελφέλα Felfela"
+                xml:id="name-_Felfela-d1e396245">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-G_F-ftn39"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-G_F-d8e529-person"
+                          n="Vol-2-S-G_F-Semitic-Greek-Females-Φελφέλα Felfela-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Φελφέλα Felfela</persName>
+                     <persName type="lemma" xml:lang="en">Φελφέλα Felfela</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Amulet, Samaria</note>
+                     </state>
+                     <bibl>Piccirillo,Historiam pictura, 468</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan?<ref type="note" corresp="#Vol-2-S-G_F-ftn40"/>Second name</note>
+                     </state>
+                     <floruit>572<ref type="note" corresp="#Vol-2-S-G_F-ftn41"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

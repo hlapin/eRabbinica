@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Harnius-Harnius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Harnius-Vol-3-L_M"
+                type="name"
+                n="Harnius-Harnius"
+                xml:id="name-Harnius-d1e550970">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1136"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e19014-person" n="Vol-3-L_M-Latin-Males-Harnius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Harnius</persName>
+                     <persName type="lemma" xml:lang="en">Harnius</persName>
+                     <persName>Harnes<ref type="note" corresp="#Vol-3-L_M-ftn1137"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-S-H_F-d8e24-person" type="relation" n="son-of">Imma (1)’s son</ref>, aged 20<ref type="note" corresp="#Vol-3-L_M-ftn1138"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Urbino, De Rossi</note>
+                     </state>
+                     <bibl>CIJ57*</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1139"/>P:Italy</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn1140"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sha’avyah-שאביה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Shaavyah-Vol-2-S-H_M"
+                type="name"
+                n="Sha’avyah-שאביה"
+                xml:id="name-Shaavyah-d1e433081">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn1526"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e24231-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Sha’avyah-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">שאביה</persName>
+                     <persName type="lemma" xml:lang="en">Sha’avyah</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e9579-person" type="relation" n="father-of">Theodorus (18)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Sepphoris</note>
+                     </state>
+                     <bibl>Weiss,Sepphoris Synagogue, no. 4</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn1527"/>
+                        </note>
+                     </state>
+                     <floruit>5th-7thC<ref type="note" corresp="#Vol-2-S-H_M-ftn1528"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

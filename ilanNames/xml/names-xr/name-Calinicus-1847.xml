@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Calinicus-Καλίνικος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Calinicus-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Calinicus-Vol-3-G_M"
+                type="name"
+                n="Calinicus-Καλίνικος"
+                xml:id="name-Calinicus-d1e364615">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn716"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2838"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e10730-person"
+                          n="Vol-2-G_M-Greek-Males-Calinicus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Καλίνικος</persName>
+                     <persName type="lemma" xml:lang="en">Calinicus</persName>
+                     <persName>Καλλίνικος<ref type="note" corresp="#Vol-2-G_M-ftn717"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Hammat Tiberias, Dothan</note>
+                     </state>
+                     <bibl>Roth-Gerson,GISEI, no. 16</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>4thC</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e49391-person"
+                          n="Vol-3-G_M-Greek-Males-Calinicus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Καλίνικος</persName>
+                     <persName type="lemma" xml:lang="en">Calinicus</persName>
+                     <persName>[Καλλι]νείκου<ref type="note" corresp="#Vol-3-G_M-ftn2839"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn2840"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Villa Torlonia, Lietzmann</note>
+                     </state>
+                     <bibl>CIJ36</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2841"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e49449-person"
+                          n="Vol-3-G_M-Greek-Males-Calinicus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Καλίνικος</persName>
+                     <persName type="lemma" xml:lang="en">Calinicus</persName>
+                     <persName>Καλλίνικος<ref type="note" corresp="#Vol-3-G_M-ftn2842"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+                     </state>
+                     <bibl>IJO2, 14:B55</bibl>
+                     <state type="addl-Descr">
+                        <note>God-fearer<ref type="note" corresp="#Vol-3-G_M-ftn2843"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

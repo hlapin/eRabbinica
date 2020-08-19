@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Daru-דרו</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Daru-Vol-4-S-H_M"
+                type="name"
+                n="Daru-דרו"
+                xml:id="name-Daru-d1e637253">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn997"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e14468-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Daru-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">דרו</persName>
+                     <persName type="lemma" xml:lang="en">Daru</persName>
+                     <persName>דרי<ref type="note" corresp="#Vol-4-S-H_M-ftn998"/>
+                     </persName>
+                     <persName>/דאדי<ref type="note" corresp="#Vol-4-S-H_M-ftn999"/>
+                     </persName>
+                     <persName>/דאווי<ref type="note" corresp="#Vol-4-S-H_M-ftn1000"/>
+                     </persName>
+                     <persName>/דדי<ref type="note" corresp="#Vol-4-S-H_M-ftn1001"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e13071-person"
+                                type="relation"
+                                n="father-of">Gursaq (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bʿEruv29a (Kosowsky,Babylonico, 361)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1002"/>P:Babylonia</note>
+                     </state>
+                     <floruit>3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1003"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_M-d8e14524-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Daru-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">דרו</persName>
+                     <persName type="lemma" xml:lang="en">Daru</persName>
+                     <persName>דארו<ref type="note" corresp="#Vol-4-S-H_M-ftn1004"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e18754-person" type="relation" n="slave-of">Naḥmani (2)’s slave</ref>
+                           <ref type="note" corresp="#Vol-4-S-H_M-ftn1005"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bBQ97a (Kosowsky,Babylonico, 361)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn1006"/>P:Babylonia</note>
+                     </state>
+                     <floruit>3rd-4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1007"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_M-d8e14574-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Daru-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">דרו</persName>
+                     <persName type="lemma" xml:lang="en">Daru</persName>
+                     <persName>דארו<ref type="note" corresp="#Vol-4-S-H_M-ftn1008"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_M-d8e9497-person" type="relation" n="son-of">Pāpā (17)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bʿAZ27a (Kosowsky,Babylonico, 361)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1009"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Post-247 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1010"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

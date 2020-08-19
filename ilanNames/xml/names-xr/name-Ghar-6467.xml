@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Gharīḍ-غريض</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Ghar-Vol-4-A_M"
+                type="name"
+                n="Gharīḍ-غريض"
+                xml:id="name-Ghar-d1e586161">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn839"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e10423-person" n="Vol-4-A_M-Arabic-Males-Gharīḍ-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">غريض</persName>
+                     <persName type="lemma" xml:lang="en">Gharīḍ</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e30376-person" type="relation" n="father-of">Samuel (34)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>kitāb al-aghānī19:98</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn840"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>6thC CE<ref type="note" corresp="#Vol-4-A_M-ftn841"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sapricia-Sapricia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_F-Latin-Female-to-utf-TEI-P5-names.xml/#Sapricia-Vol-2-L_F"
+                type="name"
+                n="Sapricia-Sapricia"
+                xml:id="name-Sapricia-d1e383494">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_F-ftn211"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_F-d8e2559-person" n="Vol-2-L_F-Latin-Female-Sapricia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Sapricia</persName>
+                     <persName type="lemma" xml:lang="en">Sapricia</persName>
+                     <persName>Σαπρικ[ί]α<ref type="note" corresp="#Vol-2-L_F-ftn212"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue mosaic, Apamea/Syria, Mayence</note>
+                     </state>
+                     <bibl>CIJ811</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>391<ref type="note" corresp="#Vol-2-L_F-ftn213"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Herodion-̔Ηρωδίων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Herodion-Vol-3-G_M"
+                type="name"
+                n="Herodion-̔Ηρωδίων"
+                xml:id="name-Herodion-d1e505476">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2223"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e39039-person" n="Vol-3-G_M-Greek-Males-Herodion-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̔Ηρωδίων</persName>
+                     <persName type="lemma" xml:lang="en">Herodion</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e31159-person"
+                                type="relation"
+                                n="relative-of">Paulus (1)’s relative</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Romans 16:11 (VKGNT 507)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2224"/>P:Rome</note>
+                     </state>
+                     <floruit>34-63 CE<ref type="note" corresp="#Vol-3-G_M-ftn2225"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e39072-person" n="Vol-3-G_M-Greek-Males-Herodion-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̔Ηρωδίων</persName>
+                     <persName type="lemma" xml:lang="en">Herodion</persName>
+                     <persName>[̔Η]ροδίων<ref type="note" corresp="#Vol-3-G_M-ftn2226"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <bibl>CIJ173</bibl>
+                     <state type="addl-Descr">
+                        <note>–,<ref type="note" corresp="#Vol-3-G_M-ftn2227"/>name?<ref type="note" corresp="#Vol-3-G_M-ftn2228"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

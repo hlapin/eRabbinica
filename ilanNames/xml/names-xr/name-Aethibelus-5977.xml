@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aethibelus-Aethibelus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Aethibelus-Vol-3-S-G_M"
+                type="name"
+                n="Aethibelus-Aethibelus"
+                xml:id="name-Aethibelus-d1e566303">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-S-G_M-ftn12"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-S-G_M-d8e213-person"
+                          n="Vol-3-S-G_M-Semitic-Greek-Males-Aethibelus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Aethibelus</persName>
+                     <persName type="lemma" xml:lang="en">Aethibelus</persName>
+                     <persName>Αἰθιβήλου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e17292-person" type="relation" n="father-of">Demas (7)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Hermopolis, Zucker</note>
+                     </state>
+                     <bibl>JIGRE156:95</bibl>
+                     <state type="addl-Descr">
+                        <note>Idumean<ref type="note" corresp="#Vol-3-S-G_M-ftn13"/>P:Egypt</note>
+                     </state>
+                     <floruit>78 BCE<ref type="note" corresp="#Vol-3-S-G_M-ftn14"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-S-G_M-d8e245-person"
+                          n="Vol-3-S-G_M-Semitic-Greek-Males-Aethibelus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Aethibelus</persName>
+                     <persName type="lemma" xml:lang="en">Aethibelus</persName>
+                     <persName>Αἰθιβήλ[ι]ον<ref type="note" corresp="#Vol-3-S-G_M-ftn15"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Community inscription, Cilicia</note>
+                     </state>
+                     <bibl>Hicks,JHS12 (1891) 234</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-S-G_M-ftn16"/>P:Asia</note>
+                     </state>
+                     <floruit>Pre-20 CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

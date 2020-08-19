@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Mahsiah-מחסיה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Mahsiah-Vol-2-B_M names/Vol-2-Vol-1-ADD-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Mahsiah-Vol-2-Vol-1-ADD-B_M"
+                type="name"
+                n="Mahsiah-מחסיה"
+                xml:id="name-Mahsiah-d1e335401">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-B_M-ftn2256"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-B_M-ftn512"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-B_M-d8e34627-person"
+                          n="Vol-2-B_M-Biblical-Males-Mahsiah-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">מחסיה</persName>
+                     <persName type="lemma" xml:lang="en">Mahsiah</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-S-H_M-d8e573-person" type="relation" n="father-of">Abba (17)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>yBer6:6, 10d (Kosovsky,Yerushalmi, 22)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>3rdC<ref type="note" corresp="#Vol-2-B_M-ftn2257"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-B_M-d8e34658-person"
+                          n="Vol-2-B_M-Biblical-Males-Mahsiah-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">מחסיה</persName>
+                     <persName type="lemma" xml:lang="en">Mahsiah</persName>
+                     <persName>מחסיא<ref type="note" corresp="#Vol-2-B_M-ftn2258"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-S-H_M-d8e5338-person" type="relation" n="son-of">Ada (17)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bYom2a<ref type="note" corresp="#Vol-2-B_M-ftn2259"/>(Kosowsky,Babylonico, 1015)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>3rdC<ref type="note" corresp="#Vol-2-B_M-ftn2260"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-B_M-d8e7339-person"
+                          n="Vol-2-Vol-1-ADD-B_M-Biblical-Males-Mahsiah-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">מחסיה</persName>
+                     <persName type="lemma" xml:lang="en">Mahsiah</persName>
+                     <persName>מחסה<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn513"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Jar, Ein Gedi</note>
+                     </state>
+                     <bibl>Eshel,Atiqot46 (2004) 7</bibl>
+                     <state type="addl-Descr">
+                        <note>3rdC BCE</note>
+                     </state>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

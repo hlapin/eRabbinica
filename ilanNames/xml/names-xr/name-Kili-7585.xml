@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Kili-כילי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Kili-Vol-4-S-H_M"
+                type="name"
+                n="Kili-כילי"
+                xml:id="name-Kili-d1e644215">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn1684"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e24446-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Kili-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">כילי</persName>
+                     <persName type="lemma" xml:lang="en">Kili</persName>
+                     <persName>כייליל<ref type="note" corresp="#Vol-4-S-H_M-ftn1685"/>
+                     </persName>
+                     <persName>/יליל<ref type="note" corresp="#Vol-4-S-H_M-ftn1686"/>
+                     </persName>
+                     <persName>/בילול<ref type="note" corresp="#Vol-4-S-H_M-ftn1687"/>
+                     </persName>
+                     <persName>/מלל<ref type="note" corresp="#Vol-4-S-H_M-ftn1688"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e4806-person" type="relation" n="father-of">Abbayye (1)’s father</ref>
+                           <ref type="note" corresp="#Vol-4-S-H_M-ftn1689"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bZev118b (Kosowsky,Babylonico, 971)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1690"/>P:Babylonia</note>
+                     </state>
+                     <floruit>3rd-4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1691"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_M-d8e24509-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Kili-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">כילי</persName>
+                     <persName type="lemma" xml:lang="en">Kili</persName>
+                     <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1692"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e13298-person" type="relation" n="son-of">Jacob (13)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Altar dedication inscription, Palmyra, de Vogüé</note>
+                     </state>
+                     <bibl>CIS2/3, 4029</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn1693"/>P:Palmyra</note>
+                     </state>
+                     <floruit>231 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1694"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

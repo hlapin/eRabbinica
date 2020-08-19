@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Numerius-Numerius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Numerius-Vol-3-L_M"
+                type="name"
+                n="Numerius-Numerius"
+                xml:id="name-Numerius-d1e554963">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1802"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e30253-person" n="Vol-3-L_M-Latin-Males-Numerius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Numerius</persName>
+                     <persName type="lemma" xml:lang="en">Numerius</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn1803"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Naples, Serrao</note>
+                     </state>
+                     <bibl>JIWE1, 33</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1804"/>P:Italy</note>
+                     </state>
+                     <floruit>5thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e30289-person" n="Vol-3-L_M-Latin-Males-Numerius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Numerius</persName>
+                     <persName type="lemma" xml:lang="en">Numerius</persName>
+                     <persName>Νωμερείου<ref type="note" corresp="#Vol-3-L_M-ftn1805"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Venosa, Colafemmina</note>
+                     </state>
+                     <bibl>JIWE1, 95</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1806"/>P:Italy</note>
+                     </state>
+                     <floruit>4th-5thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

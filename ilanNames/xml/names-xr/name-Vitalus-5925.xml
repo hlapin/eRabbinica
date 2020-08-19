@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Vitalus-Vitalus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Vitalus-Vol-3-L_M"
+                type="name"
+                n="Vitalus-Vitalus"
+                xml:id="name-Vitalus-d1e563256">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2570"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e42936-person" n="Vol-3-L_M-Latin-Males-Vitalus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Vitalus</persName>
+                     <persName type="lemma" xml:lang="en">Vitalus</persName>
+                     <persName>Vitale</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Glass amulet, Dölger</note>
+                     </state>
+                     <bibl>CIJ522</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2571"/>P:Rome</note>
+                     </state>
+                     <floruit>4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

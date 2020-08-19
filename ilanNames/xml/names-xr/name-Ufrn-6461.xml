@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ʿUfrān-عفران</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Ufrn-Vol-4-A_M"
+                type="name"
+                n="ʿUfrān-عفران"
+                xml:id="name-Ufrn-d1e585950">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn822"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e10201-person" n="Vol-4-A_M-Arabic-Males-ʿUfrān-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">عفران</persName>
+                     <persName type="lemma" xml:lang="en">ʿUfrān</persName>
+                     <persName>עופרן<ref type="note" corresp="#Vol-4-A_M-ftn823"/>
+                     </persName>
+                     <persName>/עפרון<ref type="note" corresp="#Vol-4-A_M-ftn824"/>
+                     </persName>
+                     <persName>/אפדון<ref type="note" corresp="#Vol-4-A_M-ftn825"/>
+                     </persName>
+                     <persName>/אפרון<ref type="note" corresp="#Vol-4-A_M-ftn826"/>
+                     </persName>
+                     <persName>/איפתון<ref type="note" corresp="#Vol-4-A_M-ftn827"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e2336-person" type="relation" n="father-of">Abba (52)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bMeg10b (Kosowsky,Babylonico, 1465)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn828"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Post-200 CE<ref type="note" corresp="#Vol-4-A_M-ftn829"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

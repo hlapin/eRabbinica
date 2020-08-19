@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Tullius-Tullius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Tullius-Vol-3-L_M"
+                type="name"
+                n="Tullius-Tullius"
+                xml:id="name-Tullius-d1e561217">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2407"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e40251-person" n="Vol-3-L_M-Latin-Males-Tullius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Tullius</persName>
+                     <persName type="lemma" xml:lang="en">Tullius</persName>
+                     <persName>Τουλλιο<ref type="note" corresp="#Vol-3-L_M-ftn2408"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Eirenaius (3), Aelia (4) <ref corresp="#Vol-3-L_F-d8e28148-person" type="relation" n="husband-of">Patricia (1)’s husband</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ266</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2409"/>; second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e40290-person" n="Vol-3-L_M-Latin-Males-Tullius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Tullius</persName>
+                     <persName type="lemma" xml:lang="en">Tullius</persName>
+                     <persName>Tuli<ref type="note" corresp="#Vol-3-L_M-ftn2410"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Jacob (51), <ref corresp="#Vol-3-L_M-d8e2180-person" type="relation" n="son-of">Annianus (10)’s son</ref>, aged 17<ref type="note" corresp="#Vol-3-L_M-ftn2411"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Sassari, Maetzke</note>
+                     </state>
+                     <bibl>CIJ660b</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2412"/>; second nameP:Sardinia</note>
+                     </state>
+                     <floruit>4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

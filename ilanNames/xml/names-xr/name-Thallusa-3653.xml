@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Thallusa-Θάλλουσα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Thallusa-Vol-3-G_F"
+                type="name"
+                n="Thallusa-Θάλλουσα"
+                xml:id="name-Thallusa-d1e478345">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn592"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e10697-person"
+                          n="Vol-3-G_F-Greek-Females-Thallusa-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Θάλλουσα</persName>
+                     <persName type="lemma" xml:lang="en">Thallusa</persName>
+                     <persName>[Θα]λλούσῃ<ref type="note" corresp="#Vol-3-G_F-ftn593"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e17438-person" type="relation" n="wife-of">Gaius (13)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Acmonia, Ramsay</note>
+                     </state>
+                     <bibl>CIJ765</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn594"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE<ref type="note" corresp="#Vol-3-G_F-ftn595"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e10743-person"
+                          n="Vol-3-G_F-Greek-Females-Thallusa-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Θάλλουσα</persName>
+                     <persName type="lemma" xml:lang="en">Thallusa</persName>
+                     <persName>Thallusa</persName>
+                     <state type="desc">
+                        <note>Pompeia (1), Sextus (1) Pompeius (3) <ref corresp="#Vol-3-G_M-d8e39522-person" type="relation" n="mother-of">Thallus (2)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, De Rossi</note>
+                     </state>
+                     <bibl>CIJ12*</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew<ref type="note" corresp="#Vol-3-G_F-ftn596"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e10777-person"
+                          n="Vol-3-G_F-Greek-Females-Thallusa-3">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Θάλλουσα</persName>
+                     <persName type="lemma" xml:lang="en">Thallusa</persName>
+                     <persName>Θάλλουσαν</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_F-ftn597"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Manumission inscription, Panticapeum,<ref type="note" corresp="#Vol-3-G_F-ftn598"/>Newton</note>
+                     </state>
+                     <bibl>CIJ65*</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn599"/>P:Bosphoran Kingdom</note>
+                     </state>
+                     <floruit>175-210 CE<ref type="note" corresp="#Vol-3-G_F-ftn600"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

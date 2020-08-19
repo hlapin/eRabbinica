@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Dulcitia-Dulcitia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Dulcitia-Vol-3-L_F"
+                type="name"
+                n="Dulcitia-Dulcitia"
+                xml:id="name-Dulcitia-d1e532864">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn397"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e7278-person"
+                          n="Vol-3-L_F-Latin-Females-Dulcitia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Dulcitia</persName>
+                     <persName type="lemma" xml:lang="en">Dulcitia</persName>
+                     <persName>Δουλ[κι]τίαι<ref type="note" corresp="#Vol-3-L_F-ftn398"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e62772-person"
+                                type="relation"
+                                n="daughter-of">Pancharius (2)’s daughter</ref>, virgin, betrothed<ref type="note" corresp="#Vol-3-L_F-ftn399"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ106</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn400"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e7335-person"
+                          n="Vol-3-L_F-Latin-Females-Dulcitia-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Dulcitia</persName>
+                     <persName type="lemma" xml:lang="en">Dulcitia</persName>
+                     <persName>Δουλκιτία</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e14615-person"
+                                type="relation"
+                                n="daughter-of">Melition (1)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ141</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn401"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e7370-person"
+                          n="Vol-3-L_F-Latin-Females-Dulcitia-3">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Dulcitia</persName>
+                     <persName type="lemma" xml:lang="en">Dulcitia</persName>
+                     <persName>Doulcitia<ref type="note" corresp="#Vol-3-L_F-ftn402"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Graffito, Vigna Randanini, Frey</note>
+                     </state>
+                     <bibl>CIJ226</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn403"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

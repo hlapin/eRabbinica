@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Zosimianus-Ζωσιμιανός</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Zosimianus-Vol-3-G_M"
+                type="name"
+                n="Zosimianus-Ζωσιμιανός"
+                xml:id="name-Zosimianus-d1e504399">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2091"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e36758-person"
+                          n="Vol-3-G_M-Greek-Males-Zosimianus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ζωσιμιανός</persName>
+                     <persName type="lemma" xml:lang="en">Zosimianus</persName>
+                     <persName>Ζωσιμιανου</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Catania, Frey</note>
+                     </state>
+                     <bibl>CIJ654</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2092"/>P:Sicily</note>
+                     </state>
+                     <floruit>4th-5thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

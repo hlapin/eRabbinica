@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Najal-نجل</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Najal-Vol-4-A_M"
+                type="name"
+                n="Najal-نجل"
+                xml:id="name-Najal-d1e588563">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn1007"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e12715-person" n="Vol-4-A_M-Arabic-Males-Najal-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">نجل</persName>
+                     <persName type="lemma" xml:lang="en">Najal</persName>
+                     <persName>נגל<ref type="note" corresp="#Vol-4-A_M-ftn1008"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-A_M-d8e328-person" type="relation" n="father-of">Arsh (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Graffito, Madāʾin Ṣāliḥ</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Jaussen and Savignac,643</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn1009"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-4-A_M-ftn1010"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

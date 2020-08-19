@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Psoubios-Psoubios</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Psoubios-Vol-3-E_M"
+                type="name"
+                n="Psoubios-Psoubios"
+                xml:id="name-Psoubios-d1e467888">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn465"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e7636-person"
+                          n="Vol-3-E_M-Egyptian-Males-Psoubios-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Psoubios</persName>
+                     <persName type="lemma" xml:lang="en">Psoubios</persName>
+                     <persName>Ψουβίου</persName>
+                     <state type="desc">
+                        <note>Nicaia (1) <ref corresp="#Vol-3-L_F-d8e32658-person" type="relation" n="father-of">Silvana (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Oxyrhynchus, Grenfell &amp; Hunt</note>
+                     </state>
+                     <bibl>CPJ423</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-E_M-ftn466"/>P:Egypt</note>
+                     </state>
+                     <floruit>85 CE<ref type="note" corresp="#Vol-3-E_M-ftn467"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

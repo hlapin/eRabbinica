@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Mapalica-Mapalica</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Mapalica-Vol-3-L_F"
+                type="name"
+                n="Mapalica-Mapalica"
+                xml:id="name-Mapalica-d1e535798">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn723"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e25346-person"
+                          n="Vol-3-L_F-Latin-Females-Mapalica-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Mapalica</persName>
+                     <persName type="lemma" xml:lang="en">Mapalica</persName>
+                     <persName>Μάπλικα<ref type="note" corresp="#Vol-3-L_F-ftn724"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Villa Torlonia, Paribeni</note>
+                     </state>
+                     <bibl>CIJ47</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn725"/>; second name<ref type="note" corresp="#Vol-3-L_F-ftn726"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

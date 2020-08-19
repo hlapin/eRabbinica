@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Beribbi-בריבי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Beribbi-Vol-2-Vol-1-ADD-P_M"
+                type="name"
+                n="Beribbi-בריבי"
+                xml:id="name-Beribbi-d1e449912">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-P_M-ftn41"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-P_M-d8e602-person"
+                          n="Vol-2-Vol-1-ADD-P_M-Persian-Males-Beribbi-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">בריבי</persName>
+                     <persName type="lemma" xml:lang="en">Beribbi</persName>
+                     <persName>ברבי<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn42"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bMak5b<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn43"/>
+                     </bibl>
+                     <state type="addl-Descr">
+                        <note>Person?<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn44"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn45"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

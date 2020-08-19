@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Mehalalel-מהללאל</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Mehalalel-Vol-1-B_M"
+                type="name"
+                n="Mehalalel-מהללאל"
+                xml:id="name-Mehalalel-d1e126966">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_M-ftn3256"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_M-d2e42287-person" n="Vol-1-B_M-Mehalalel-1">
+                     <persName type="lemma">מהללאל</persName>
+                     <persName type="lemma" xml:lang="en">Mehalalel</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e48421-person" type="relation" n="father-of">Aqub (4)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>mAb3:1 (Kasovsky,Mishnae, 1092)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname?<ref type="note" corresp="#Vol-1-B_M-ftn3257"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-135 CE<ref type="note" corresp="#Vol-1-B_M-ftn3258"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

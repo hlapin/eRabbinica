@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Marsuas-Μαρσύας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Marsuas-Vol-3-G_M"
+                type="name"
+                n="Marsuas-Μαρσύας"
+                xml:id="name-Marsuas-d1e511668">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3135"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e54520-person" n="Vol-3-G_M-Greek-Males-Marsuas-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μαρσύας</persName>
+                     <persName type="lemma" xml:lang="en">Marsuas</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn3136"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>AJ18:204 (Schalit,NB, 83)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3137"/>P:Rome?<ref type="note" corresp="#Vol-3-G_M-ftn3138"/>
+                        </note>
+                     </state>
+                     <floruit>36 CE<ref type="note" corresp="#Vol-3-G_M-ftn3139"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e54566-person" n="Vol-3-G_M-Greek-Males-Marsuas-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μαρσύας</persName>
+                     <persName type="lemma" xml:lang="en">Marsuas</persName>
+                     <persName>Μαρσύᾳ</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Heracleopolis</note>
+                     </state>
+                     <bibl>PC29 (2001) 17</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3140"/>P:Egypt</note>
+                     </state>
+                     <floruit>143 BCE<ref type="note" corresp="#Vol-3-G_M-ftn3141"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

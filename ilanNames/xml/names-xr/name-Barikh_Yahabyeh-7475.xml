@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Barikh Yahabyeh-בריך יהביה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Barikh_Yahabyeh-Vol-4-S-H_M"
+                type="name"
+                n="Barikh Yahabyeh-בריך יהביה"
+                xml:id="name-Barikh_Yahabyeh-d1e635744">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn834"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e12052-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Barikh Yahabyeh-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">בריך יהביה</persName>
+                     <persName type="lemma" xml:lang="en">Barikh Yahabyeh</persName>
+                     <persName>
+                        <ref type="note" corresp="#Vol-4-S-H_M-ftn835"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_F-d8e8907-person" type="relation" n="son-of">Mamay (5)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowls, Nippur, Montgomery</note>
+                     </state>
+                     <bibl>1. Isbell, no. 35; 2.AMBno. 6</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn836"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn837"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_M-d8e12092-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Barikh Yahabyeh-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">בריך יהביה</persName>
+                     <persName type="lemma" xml:lang="en">Barikh Yahabyeh</persName>
+                     <persName>
+                        <ref type="note" corresp="#Vol-4-S-H_M-ftn838"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_F-d8e5314-person" type="relation" n="son-of">Martha (10)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Nippur, Gordon</note>
+                     </state>
+                     <bibl>Isbell, no. 52</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn839"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn840"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

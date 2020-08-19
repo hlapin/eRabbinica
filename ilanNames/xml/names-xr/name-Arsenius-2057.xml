@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Arsenius-Arsenius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Arsenius-Vol-2-L_M"
+                type="name"
+                n="Arsenius-Arsenius"
+                xml:id="name-Arsenius-d1e384503">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn90"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_M-d8e1179-person" n="Vol-2-L_M-Latin-Males-Arsenius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Arsenius</persName>
+                     <persName type="lemma" xml:lang="en">Arsenius</persName>
+                     <persName>̓Αρσένιος<ref type="note" corresp="#Vol-2-L_M-ftn91"/>
+                     </persName>
+                     <persName>/̓Αρσενίου<ref type="note" corresp="#Vol-2-L_M-ftn92"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Flavius (2), <ref corresp="#Vol-2-L_M-d8e10107-person" type="relation" n="son-of">Silvanus (1)’s son</ref>, favorite of the empress Theodora<ref type="note" corresp="#Vol-2-L_M-ftn93"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Beth She’an</note>
+                     </state>
+                     <bibl>1. Procopius,ECASS, no. 133; 2. Cyril of Scythopolis,ECASS, nos. 137, 138; 3. Abel,RB20 (1911) 289</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan, Christian convert<ref type="note" corresp="#Vol-2-L_M-ftn94"/>
+                        </note>
+                     </state>
+                     <floruit>527-65<ref type="note" corresp="#Vol-2-L_M-ftn95"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-L_M-d8e1242-person" n="Vol-2-L_M-Latin-Males-Arsenius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Arsenius</persName>
+                     <persName type="lemma" xml:lang="en">Arsenius</persName>
+                     <persName>̓Αρσενίου</persName>
+                     <state type="desc">
+                        <note>Silvanus (1) and <ref corresp="#Vol-2-L_M-d8e9685-person" type="relation" n="father-of">Sallustius (2)’s father</ref>, <ref corresp="#Vol-2-L_M-d8e1179-person"
+                                type="relation"
+                                n="grandfather-of">Arsenius (1)’s grandfather</ref>? Lawyer of Scythopolis<ref type="note" corresp="#Vol-2-L_M-ftn96"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Beth She’an</note>
+                     </state>
+                     <bibl>Di Segni,XI Congresso, 639</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-L_M-ftn97"/>
+                        </note>
+                     </state>
+                     <floruit>500-516<ref type="note" corresp="#Vol-2-L_M-ftn98"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Perub‘ai-פרובעי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Perubai-Vol-2-S-H_M"
+                type="name"
+                n="Perub‘ai-פרובעי"
+                xml:id="name-Perubai-d1e431075">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn1406"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e22454-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Perub‘ai-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">פרובעי</persName>
+                     <persName type="lemma" xml:lang="en">Perub‘ai</persName>
+                     <persName>فروبعى<ref type="note" corresp="#Vol-2-S-H_M-ftn1407"/>
+                     </persName>
+                     <persName>/مروقعي<ref type="note" corresp="#Vol-2-S-H_M-ftn1408"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-S-H_M-ftn1409"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Abu’l Fath, 141</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-S-H_M-ftn1410"/>
+                        </note>
+                     </state>
+                     <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn1411"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

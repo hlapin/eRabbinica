@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Zohamai-זוהמאי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Zohamai-Vol-1-S-H_M"
+                type="name"
+                n="Zohamai-זוהמאי"
+                xml:id="name-Zohamai-d1e309182">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-H_M-ftn301"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-H_M-d2e4477-person" n="Vol-1-S-H_M-Zohamai-1">
+                     <persName type="lemma">זוהמאי</persName>
+                     <persName type="lemma" xml:lang="en">Zohamai</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>bBer53b (Kosowsky,Babylonico, 426)</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-1-S-H_M-ftn302"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn303"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-S-H_M-d2e4509-person" n="Vol-1-S-H_M-Zohamai-2">
+                     <persName type="lemma">זוהמאי</persName>
+                     <persName type="lemma" xml:lang="en">Zohamai</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">זהמא<ref type="note" corresp="#Vol-1-S-H_M-ftn304"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Mt Scopus, Kloner, 1975</note>
+                     </state>
+                     <bibl>CJO, no. 579</bibl>
+                     <state type="addl-Descr">
+                        <note>Second name<ref type="note" corresp="#Vol-1-S-H_M-ftn305"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn306"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

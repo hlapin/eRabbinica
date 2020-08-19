@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Tata-Tata</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Tata-Vol-3-L_M"
+                type="name"
+                n="Tata-Tata"
+                xml:id="name-Tata-d1e560319">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2329"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e38884-person" n="Vol-3-L_M-Latin-Males-Tata-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Tata</persName>
+                     <persName type="lemma" xml:lang="en">Tata</persName>
+                     <persName>Τατας</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Altar, Aphrodisias</note>
+                     </state>
+                     <bibl>Reynolds &amp; Tannenbaum, 139</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2330"/>P:Asia</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn2331"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Eugenis-Ε̓γένις</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Eugenis-Vol-3-G_M"
+                type="name"
+                n="Eugenis-Ε̓γένις"
+                xml:id="name-Eugenis-d1e499528">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1715"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e29252-person" n="Vol-3-G_M-Greek-Males-Eugenis-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ε̓γένις</persName>
+                     <persName type="lemma" xml:lang="en">Eugenis</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Heraclea, Kalinka</note>
+                     </state>
+                     <bibl>CIJ692a</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1716"/>P:Greece</note>
+                     </state>
+                     <floruit>5th-6thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

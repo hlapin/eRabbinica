@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Dyme-Δύμη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Dyme-Vol-2-G_F"
+                type="name"
+                n="Dyme-Δύμη"
+                xml:id="name-Dyme-d1e349050">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_F-ftn67"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_F-d8e997-person" n="Vol-2-G_F-Greek-Females-Dyme-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Δύμη</persName>
+                     <persName type="lemma" xml:lang="en">Dyme</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Elijah’s Cave</note>
+                     </state>
+                     <bibl>Appendix, no. 35</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn68"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-8thC<ref type="note" corresp="#Vol-2-G_F-ftn69"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

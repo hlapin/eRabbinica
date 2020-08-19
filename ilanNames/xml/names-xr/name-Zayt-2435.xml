@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Zayt-זית</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Zayt-Vol-2-S-H_M"
+                type="name"
+                n="Zayt-זית"
+                xml:id="name-Zayt-d1e416561">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn612"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e10030-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Zayt-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">זית</persName>
+                     <persName type="lemma" xml:lang="en">Zayt</persName>
+                     <persName>–<ref type="note" corresp="#Vol-2-S-H_M-ftn613"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-S-H_M-d8e25564-person" type="relation" n="son-of">Taham (1)’s son</ref>, leader<ref type="note" corresp="#Vol-2-S-H_M-ftn614"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Tulida, 128</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-S-H_M-ftn615"/>
+                        </note>
+                     </state>
+                     <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn616"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-S-H_M-d8e10070-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Zayt-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">זית</persName>
+                     <persName type="lemma" xml:lang="en">Zayt</persName>
+                     <persName>–<ref type="note" corresp="#Vol-2-S-H_M-ftn617"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e33478-person" type="relation" n="son-of">Levi (2)’s son</ref>, priest<ref type="note" corresp="#Vol-2-S-H_M-ftn618"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Tulida, 136</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-S-H_M-ftn619"/>
+                        </note>
+                     </state>
+                     <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn620"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

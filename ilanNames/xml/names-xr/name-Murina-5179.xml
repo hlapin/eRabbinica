@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Murina-Murina</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Murina-Vol-3-L_F"
+                type="name"
+                n="Murina-Murina"
+                xml:id="name-Murina-d1e537096">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn855"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e27722-person" n="Vol-3-L_F-Latin-Females-Murina-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Murina</persName>
+                     <persName type="lemma" xml:lang="en">Murina</persName>
+                     <persName>Μύρινα</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e31409-person" type="relation" n="wife-of">Pedanius (1)’s wife</ref>, elder<ref type="note" corresp="#Vol-3-L_F-ftn856"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Nuceria</note>
+                     </state>
+                     <bibl>Spagnolis,Ercolano, 244</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn857"/>P:Italy</note>
+                     </state>
+                     <floruit>4th-5thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

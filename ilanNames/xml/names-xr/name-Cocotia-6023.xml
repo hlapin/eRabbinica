@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Cocotia-Cocotia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Cocotia-Vol-3-S-G_M"
+                type="name"
+                n="Cocotia-Cocotia"
+                xml:id="name-Cocotia-d1e567939">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-S-G_M-ftn121"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-S-G_M-d8e1940-person"
+                          n="Vol-3-S-G_M-Semitic-Greek-Males-Cocotia-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Cocotia</persName>
+                     <persName type="lemma" xml:lang="en">Cocotia</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Judah (27), <ref corresp="#Vol-3-P_M-d8e19-person" type="relation" n="brother-of">Abandanes (1)’s brother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ206</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-S-G_M-ftn122"/>; second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

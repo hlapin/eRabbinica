@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Entolia-̓Εντολία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Entolia-Vol-2-G_F"
+                type="name"
+                n="Entolia-̓Εντολία"
+                xml:id="name-Entolia-d1e349289">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_F-ftn83"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_F-d8e1231-person" n="Vol-2-G_F-Greek-Females-Entolia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Εντολία</persName>
+                     <persName type="lemma" xml:lang="en">Entolia</persName>
+                     <persName>אנטוליה<ref type="note" corresp="#Vol-2-G_F-ftn84"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Hammat Gader, Sukenik</note>
+                     </state>
+                     <bibl>CIJ858</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-438?<ref type="note" corresp="#Vol-2-G_F-ftn85"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_F-d8e1261-person" n="Vol-2-G_F-Greek-Females-Entolia-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Εντολία</persName>
+                     <persName type="lemma" xml:lang="en">Entolia</persName>
+                     <persName>̓Εντολλίας<ref type="note" corresp="#Vol-2-G_F-ftn86"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Caesarea</note>
+                     </state>
+                     <bibl>Lehmann &amp; Holum,CMER5, no. 296</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn87"/>
+                        </note>
+                     </state>
+                     <floruit>4th-7thC</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

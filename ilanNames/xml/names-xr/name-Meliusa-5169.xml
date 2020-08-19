@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Meliusa-Meliusa</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Meliusa-Vol-3-L_F"
+                type="name"
+                n="Meliusa-Meliusa"
+                xml:id="name-Meliusa-d1e536766">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn834"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e27366-person"
+                          n="Vol-3-L_F-Latin-Females-Meliusa-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Meliusa</persName>
+                     <persName type="lemma" xml:lang="en">Meliusa</persName>
+                     <persName>מיללאשא<ref type="note" corresp="#Vol-3-L_F-ftn835"/>
+                     </persName>
+                     <persName>/ Meliosa<ref type="note" corresp="#Vol-3-L_F-ftn836"/>
+                     </persName>
+                     <persName>/Μ[ελιώσ]α<ref type="note" corresp="#Vol-3-L_F-ftn837"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Judah (38) and <ref corresp="#Vol-3-B_F-d8e2755-person" type="relation" n="daughter-of">Mariam (29)’s daughter</ref>, aged 24?<ref type="note" corresp="#Vol-3-L_F-ftn838"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Tortosa, Renan &amp; Le Blant</note>
+                     </state>
+                     <bibl>CIJ661</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn839"/>P:Spain</note>
+                     </state>
+                     <floruit>5th-6thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

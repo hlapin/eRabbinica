@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Baha‘am-בהעם</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Bahaam-Vol-2-S-H_M"
+                type="name"
+                n="Baha‘am-בהעם"
+                xml:id="name-Bahaam-d1e411860">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn443"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e7286-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Baha‘am-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">בהעם</persName>
+                     <persName type="lemma" xml:lang="en">Baha‘am</persName>
+                     <persName>بهعم<ref type="note" corresp="#Vol-2-S-H_M-ftn444"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e38938-person" type="relation" n="son-of">Nathanel (3)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Abu’l Fath, 170</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-S-H_M-ftn445"/>
+                        </note>
+                     </state>
+                     <floruit>4th-5thC<ref type="note" corresp="#Vol-2-S-H_M-ftn446"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

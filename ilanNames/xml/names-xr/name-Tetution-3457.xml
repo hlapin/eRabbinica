@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Tetution-Tetution</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Tetution-Vol-3-E_M"
+                type="name"
+                n="Tetution-Tetution"
+                xml:id="name-Tetution-d1e469480">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn559"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e9192-person"
+                          n="Vol-3-E_M-Egyptian-Males-Tetution-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Tetution</persName>
+                     <persName type="lemma" xml:lang="en">Tetution</persName>
+                     <persName>Τετυτο<ref type="note" corresp="#Vol-3-E_M-ftn560"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e26782-person" type="relation" n="father-of">Epimachus (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Theadelphia, Westerman &amp; Keyes</note>
+                     </state>
+                     <bibl>CPJ489b</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn561"/>P:Egypt</note>
+                     </state>
+                     <floruit>134/5 CE<ref type="note" corresp="#Vol-3-E_M-ftn562"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-E_M-d8e9227-person"
+                          n="Vol-3-E_M-Egyptian-Males-Tetution-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Tetution</persName>
+                     <persName type="lemma" xml:lang="en">Tetution</persName>
+                     <persName>Τετεύτιον<ref type="note" corresp="#Vol-3-E_M-ftn563"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-E_M-ftn564"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Leontopolis, Edgar</note>
+                     </state>
+                     <bibl>CIJ1527</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn565"/>P:Egypt</note>
+                     </state>
+                     <floruit>58/7 BCE<ref type="note" corresp="#Vol-3-E_M-ftn566"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Zeuxianus-Ζευξιανός</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Zeuxianus-Vol-3-G_M"
+                type="name"
+                n="Zeuxianus-Ζευξιανός"
+                xml:id="name-Zeuxianus-d1e503428">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2003"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e35110-person"
+                          n="Vol-3-G_M-Greek-Males-Zeuxianus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ζευξιανός</persName>
+                     <persName type="lemma" xml:lang="en">Zeuxianus</persName>
+                     <persName>Ζευξιανοῦ</persName>
+                     <state type="desc">
+                        <note>Aelianus (5), Publius (2) Aelius (4) <ref corresp="#Vol-3-G_M-d8e15925-person" type="relation" n="father-of">Glycon (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Wagener,CIJ777</note>
+                     </state>
+                     <bibl>IJO2, 196</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2004"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

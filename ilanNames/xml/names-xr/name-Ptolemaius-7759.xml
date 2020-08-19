@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ptolemaius-Πτολεμαΐος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-Vol-3-Add-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Ptolemaius-Vol-4-Vol-3-Add-G_M"
+                type="name"
+                n="Ptolemaius-Πτολεμαΐος"
+                xml:id="name-Ptolemaius-d1e652674">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-Vol-3-Add-G_M-ftn47"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-Vol-3-Add-G_M-d8e676-person"
+                          n="Vol-4-Vol-3-Add-G_M-Greek-Males-Ptolemaius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πτολεμαΐος</persName>
+                     <persName type="lemma" xml:lang="en">Ptolemaius</persName>
+                     <persName>[Πτολ]εμαίου</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Arsinoe?<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn48"/>
+                        </note>
+                     </state>
+                     <bibl>Salvaterra, “L’amministrazione,” 326</bibl>
+                     <state type="addl-Descr">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn49"/>P:Egypt</note>
+                     </state>
+                     <floruit>92/3 C CE<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn50"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

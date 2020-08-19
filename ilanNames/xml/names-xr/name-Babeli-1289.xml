@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Babeli-בבלי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Babeli-Vol-1-S-H_M"
+                type="name"
+                n="Babeli-בבלי"
+                xml:id="name-Babeli-d1e305197">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-H_M-ftn101"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-H_M-d2e1614-person" n="Vol-1-S-H_M-Babeli-1">
+                     <persName type="lemma">בבלי</persName>
+                     <persName type="lemma" xml:lang="en">Babeli</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Βαβελις<ref type="note" corresp="#Vol-1-S-H_M-ftn102"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-S-H_F-d2e431-person"
+                                type="relation"
+                                n="guardian-of">Babatha (1)’s guardian</ref>, <ref corresp="#Vol-1-B_M-d2e43310-person" type="relation" n="son-of">Menahem (35)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, deed, Babatha archive</note>
+                     </state>
+                     <bibl>PYadin 27</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>132 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn103"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

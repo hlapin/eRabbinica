@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Dinai-דינאי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Dinai-Vol-1-S-H_M"
+                type="name"
+                n="Dinai-דינאי"
+                xml:id="name-Dinai-d1e308564">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-H_M-ftn271"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-H_M-d2e4038-person" n="Vol-1-S-H_M-Dinai-1">
+                     <persName type="lemma">דינאי</persName>
+                     <persName type="lemma" xml:lang="en">Dinai</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Δείναιος<ref type="note" corresp="#Vol-1-S-H_M-ftn272"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e2021-person" type="relation" n="father-of">Eleazar (7)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ2:235;AJ20:121 (Schalit,NB, 37); mSot9:9 (Kasovsky,Mishnae, 503).</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn273"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn274"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-S-H_M-d2e4089-person" n="Vol-1-S-H_M-Dinai-2">
+                     <persName type="lemma">דינאי</persName>
+                     <persName type="lemma" xml:lang="en">Dinai</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>mKel5:10 (Kasovsky,Mishnae, 503)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn275"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn276"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

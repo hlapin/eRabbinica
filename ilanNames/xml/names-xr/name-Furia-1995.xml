@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Furia-Furia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_F-Latin-Female-to-utf-TEI-P5-names.xml/#Furia-Vol-2-L_F"
+                type="name"
+                n="Furia-Furia"
+                xml:id="name-Furia-d1e380090">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_F-ftn88"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_F-d8e1018-person" n="Vol-2-L_F-Latin-Female-Furia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Furia</persName>
+                     <persName type="lemma" xml:lang="en">Furia</persName>
+                     <persName>Φυρία<ref type="note" corresp="#Vol-2-L_F-ftn89"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Beth She‘arim, catacomb 13</note>
+                     </state>
+                     <bibl>BS2:159</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-352<ref type="note" corresp="#Vol-2-L_F-ftn90"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

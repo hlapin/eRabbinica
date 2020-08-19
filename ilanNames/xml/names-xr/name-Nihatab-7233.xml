@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Nihatab-Nihatab</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#Nihatab-Vol-4-I_M"
+                type="name"
+                n="Nihatab-Nihatab"
+                xml:id="name-Nihatab-d1e624781">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn714"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_M-d8e8443-person" n="Vol-4-I_M-Iranian-Males-Nihatab-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Nihatab</persName>
+                     <persName type="lemma" xml:lang="en">Nihatab</persName>
+                     <persName>
+                        <ref type="note" corresp="#Vol-4-I_M-ftn715"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Dura-Europos, Pagliaro</note>
+                     </state>
+                     <bibl>IJO3, Syr117</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn716"/>P:Dura-Europos</note>
+                     </state>
+                     <floruit>253 CE<ref type="note" corresp="#Vol-4-I_M-ftn717"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

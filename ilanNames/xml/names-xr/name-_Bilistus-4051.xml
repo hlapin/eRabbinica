@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Βιλίστος Bilistus-Βιλίστος Bilistus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#_Bilistus-Vol-3-G_M"
+                type="name"
+                n="Βιλίστος Bilistus-Βιλίστος Bilistus"
+                xml:id="name-_Bilistus-d1e492787">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn870"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e14817-person"
+                          n="Vol-3-G_M-Greek-Males-Βιλίστος Bilistus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Βιλίστος Bilistus</persName>
+                     <persName type="lemma" xml:lang="en">Βιλίστος Bilistus</persName>
+                     <persName>Βιλίστου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn871"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Phydna, Cormack</note>
+                     </state>
+                     <bibl>Rajak, “Archisynagogoi,” no. 6</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn872"/>Second nameP:Greece</note>
+                     </state>
+                     <floruit>250 CE<ref type="note" corresp="#Vol-3-G_M-ftn873"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Pacatinius-Pacatinius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Pacatinius-Vol-3-L_M"
+                type="name"
+                n="Pacatinius-Pacatinius"
+                xml:id="name-Pacatinius-d1e555446">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1836"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e30801-person"
+                          n="Vol-3-L_M-Latin-Males-Pacatinius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Pacatinius</persName>
+                     <persName type="lemma" xml:lang="en">Pacatinius</persName>
+                     <persName>Pacatiano<ref type="note" corresp="#Vol-3-L_M-ftn1837"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Triarius (1), <ref corresp="#Vol-3-B_M-d8e33468-person" type="relation" n="son-of">Shabtai (153)’s son</ref>, aged 2<ref type="note" corresp="#Vol-3-L_M-ftn1838"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Lucania</note>
+                     </state>
+                     <bibl>Buonopane,Epigraphica57 (1995) 203</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1839"/>Second nameP:Italy</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

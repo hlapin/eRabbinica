@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <project basedir="." default="dist" name="docxtei">
-  <!-- basedir points to location of build file? -->
+  <!-- with this notation basedir points to location of build file -->
+  <!-- relative links are relative to this directory -->
   
   <!-- have moved the licensing info to the end to make my comments more visible -->
   
@@ -12,7 +13,7 @@
   <property name="docxtoTEI" value="${defaultFrameworks}/tei/xml/tei/stylesheet/profiles/tei/docx/from.xsl"/>
   <property name ="teixslDir" value="${defaultFrameworks}/tei/xml/tei/stylesheet/common"/>
   <import file="${teixslDir}/teianttasks.xml"/>
-  <!-- error here is a bug (in validation?); ant finds the teiantasks.xml file. -->
+  <!-- error here is a bug (in validation); ant finds the teiantasks.xml file. -->
   
   <!-- cleanup flags an error, but when I run the transformation, a cleanup operation  takes place, but if it ain't broke don't fix it -->
   <target name="dist" depends="convert,mediadir.check,embeddingdir.check,chartdir.check,picturecopy,embeddingcopy,chartcopy,cleanup"/>
@@ -39,10 +40,11 @@
     <!-- ${namesDir} refers to the location where I have project files, specified in parameters for transformation. -->
     <!-- IN THIS CASE I could have (perhap should have?) just pointed to  ../oxygen/xsl/Ilan-tei-p5-listNames.xsl-->
     <!--  -->
-    <echo>  applying second xslt trasformation</echo>  
-    <echo>  using ${namesDir}/oxygen/xsl/Ilan-tei-p5-listNames.xsl</echo>
-    <echo>  mode is: ${mode}</echo>
-    <xslt force="yes" style="${namesDir}/oxygen/xsl/Ilan-tei-p5-listNames.xsl" in="${outputFile}.tmp" out="${outputFile}">
+      <echo>  applying second xslt trasformation</echo>  
+      <echo>  using ${namesDir}/oxygen/xsl/Ilan-tei-p5-listNames.xsl</echo>
+      <echo>  mode is: ${mode}</echo>
+    <xslt force="yes" style="${namesDir}/oxygen/xsl/Ilan-tei-p5-listNames.xsl" in="${outputFile}.tmp" out="temp.xml.tmp">
+      <!-- NB: does not generate a saved output file. xsl:result-document in stylesheet creates output-->
       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
       <classpath location="${oxygenlib}/saxon9ee.jar"/>
       <param name="mode"  expression="${mode}">
@@ -50,7 +52,30 @@
         <!-- value is provided by Oxygen's transformation scenario parameters -->
       </param>
     </xslt>
-    <delete file="${outputFile}.tmp"></delete>      
+ 
+    <!-- begin second transformation -->  
+    <!-- I decided not to chain a third transformation (instead postponing until after all files are processed) -->
+    <!-- should in principle be clonable repeatedly -->
+    <!-- ${namesDir} refers to the location where I have project files, specified in parameters for transformation. -->
+    <!-- IN THIS CASE I could have (perhap should have?) just pointed to  ../oxygen/xsl/Ilan-tei-p5-listNames.xsl-->
+    <!--  -->
+    <echo>  applying third xslt trasformation</echo>  
+    <echo>  using ${namesDir}/oxygen/xsl/X-RefNotes.xsl</echo>
+    <echo>  mode is: ${mode}</echo>
+    <xslt force="yes" style="${namesDir}/oxygen/xsl/X-RefNotes.xsl" in="temp.xml.tmp" out="${outputFile}">
+      <!-- NB: does not generate a saved output file. xsl:result-document in stylesheet creates output-->
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      <classpath location="${oxygenlib}/saxon9ee.jar"/>
+      <param name="mode"  expression="${mode}">
+        <!-- param passes it to the xslt style sheet as a parameter. -->
+        <!-- value is provided by Oxygen's transformation scenario parameters -->
+      </param>
+    </xslt>
+    <delete file="${outputFile}.tmp"></delete>
+    <delete file="temp.xml.tmp"></delete>
+ <!--   <delete file="${outputFile}-x.tmp"></delete>
+    <delete file="${outputFile}-x.xml"></delete>-->
+      
   </target>
   <target name="mediadir.check">
     <condition property="mediadir.exists">

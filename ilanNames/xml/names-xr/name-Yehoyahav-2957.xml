@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Yehoyahav-יהויהב</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Yehoyahav-Vol-2-Vol-1-ADD-P_M"
+                type="name"
+                n="Yehoyahav-יהויהב"
+                xml:id="name-Yehoyahav-d1e450159">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-P_M-ftn94"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-P_M-d8e1387-person"
+                          n="Vol-2-Vol-1-ADD-P_M-Persian-Males-Yehoyahav-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">יהויהב</persName>
+                     <persName type="lemma" xml:lang="en">Yehoyahav</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Tel el-Mazar<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn95"/>
+                        </note>
+                     </state>
+                     <bibl>Yassine &amp; Teixidor,BASOR264 (1986) 45</bibl>
+                     <state type="addl-Descr">
+                        <note>Early?<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn96"/>
+                        </note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

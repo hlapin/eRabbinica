@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Itkoumios-Itkoumios</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Itkoumios-Vol-3-E_M"
+                type="name"
+                n="Itkoumios-Itkoumios"
+                xml:id="name-Itkoumios-d1e463422">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn197"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e3200-person"
+                          n="Vol-3-E_M-Egyptian-Males-Itkoumios-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Itkoumios</persName>
+                     <persName type="lemma" xml:lang="en">Itkoumios</persName>
+                     <persName>יתקום<ref type="note" corresp="#Vol-3-E_M-ftn198"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e4410-person" type="relation" n="father-of">Daliah (2)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Edfu, Degen</note>
+                     </state>
+                     <bibl>TADAE4:8:7</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-E_M-ftn199"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-E_M-d8e3234-person"
+                          n="Vol-3-E_M-Egyptian-Males-Itkoumios-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Itkoumios</persName>
+                     <persName type="lemma" xml:lang="en">Itkoumios</persName>
+                     <persName>יתקום<ref type="note" corresp="#Vol-3-E_M-ftn200"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Edfu</note>
+                     </state>
+                     <bibl>TADAE4:8:10</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn201"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-E_M-d8e3268-person"
+                          n="Vol-3-E_M-Egyptian-Males-Itkoumios-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Itkoumios</persName>
+                     <persName type="lemma" xml:lang="en">Itkoumios</persName>
+                     <persName>̓Ιτκούμιος</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Berlin</note>
+                     </state>
+                     <bibl>BGU10, 2009</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn202"/>P:Egypt</note>
+                     </state>
+                     <floruit>2ndC BCE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Yaduʿa-ידוע</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Yadua-Vol-4-B_M"
+                type="name"
+                n="Yaduʿa-ידוע"
+                xml:id="name-Yadua-d1e596495">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-B_M-ftn750"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-B_M-d8e8954-person" n="Vol-4-B_M-Biblical-Males-Yaduʿa-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">ידוע</persName>
+                     <persName type="lemma" xml:lang="en">Yaduʿa</persName>
+                     <persName>The Babylonian<ref type="note" corresp="#Vol-4-B_M-ftn751"/>
+                     </persName>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>mBM7:9 (Kasovsky,Mishnae, 832)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn752"/>P:Babylonia<ref type="note" corresp="#Vol-4-B_M-ftn753"/>
+                        </note>
+                     </state>
+                     <floruit>Post-135 CE<ref type="note" corresp="#Vol-4-B_M-ftn754"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-B_M-d8e8991-person" n="Vol-4-B_M-Biblical-Males-Yaduʿa-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">ידוע</persName>
+                     <persName type="lemma" xml:lang="en">Yaduʿa</persName>
+                     <persName>Εἰδδέου<ref type="note" corresp="#Vol-4-B_M-ftn755"/>
+                     </persName>
+                     <persName>/ידיו<ref type="note" corresp="#Vol-4-B_M-ftn756"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e30538-person" type="relation" n="son-of">Samuel (38)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Dura-Europos, du Mesnil</note>
+                     </state>
+                     <bibl>CIJ828a, 829</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn757"/>P:Dura-Europos</note>
+                     </state>
+                     <floruit>244/5 CE<ref type="note" corresp="#Vol-4-B_M-ftn758"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-B_M-d8e9039-person" n="Vol-4-B_M-Biblical-Males-Yaduʿa-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">ידוע</persName>
+                     <persName type="lemma" xml:lang="en">Yaduʿa</persName>
+                     <persName>יד[וע]<ref type="note" corresp="#Vol-4-B_M-ftn759"/>
+                     </persName>
+                     <persName>/̓Ιαδη<ref type="note" corresp="#Vol-4-B_M-ftn760"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_F-d8e5131-person" type="relation" n="father-of">Martha (5)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Palmyra</note>
+                     </state>
+                     <bibl>CIS2/3, 3954</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-B_M-ftn761"/>P:Palmyra</note>
+                     </state>
+                     <floruit>191 CE<ref type="note" corresp="#Vol-4-B_M-ftn762"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

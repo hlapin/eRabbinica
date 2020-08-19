@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Manavaz-Manavaz</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#Manavaz-Vol-4-I_M"
+                type="name"
+                n="Manavaz-Manavaz"
+                xml:id="name-Manavaz-d1e623681">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn622"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_M-d8e7354-person" n="Vol-4-I_M-Iranian-Males-Manavaz-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Manavaz</persName>
+                     <persName type="lemma" xml:lang="en">Manavaz</persName>
+                     <persName>Μονόβαζος<ref type="note" corresp="#Vol-4-I_M-ftn623"/>
+                     </persName>
+                     <persName>/מונבז<ref type="note" corresp="#Vol-4-I_M-ftn624"/>
+                     </persName>
+                     <persName>/Monabazus<ref type="note" corresp="#Vol-4-I_M-ftn625"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-I_M-ftn626"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>1.BJ2:520;AJ20:32 (Schalit,NB, 87); 2.mYoma3:10 (Kasovsky,Mishnae, 1141); 3. Tacitus, Dio Casius,GLAJJ2: 85, 368</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>Proselyte<ref type="note" corresp="#Vol-4-I_M-ftn627"/>P:Babylonia</note>
+                     </state>
+                     <floruit>45 CE<ref type="note" corresp="#Vol-4-I_M-ftn628"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_M-d8e7420-person" n="Vol-4-I_M-Iranian-Males-Manavaz-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Manavaz</persName>
+                     <persName type="lemma" xml:lang="en">Manavaz</persName>
+                     <persName>Μονόβαζος<ref type="note" corresp="#Vol-4-I_M-ftn629"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>BJ2:520 (Schalit,NB, 87)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-I_M-ftn630"/>P:Babylonia</note>
+                     </state>
+                     <floruit>66 CE<ref type="note" corresp="#Vol-4-I_M-ftn631"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

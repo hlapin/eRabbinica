@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Margarita-Margarita</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Margarita-Vol-3-L_F"
+                type="name"
+                n="Margarita-Margarita"
+                xml:id="name-Margarita-d1e536307">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn775"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e26331-person"
+                          n="Vol-3-L_F-Latin-Females-Margarita-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Margarita</persName>
+                     <persName type="lemma" xml:lang="en">Margarita</persName>
+                     <persName>Μαριαρῖτα/Μγαρτα<ref type="note" corresp="#Vol-3-L_F-ftn776"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_F-ftn777"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Via Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ136</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn778"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e26391-person"
+                          n="Vol-3-L_F-Latin-Females-Margarita-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Margarita</persName>
+                     <persName type="lemma" xml:lang="en">Margarita</persName>
+                     <persName>Marcar<ref type="note" corresp="#Vol-3-L_F-ftn779"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e31977-person"
+                                type="relation"
+                                n="daughter-of">Shabtai (116)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Schneider Graziosi</note>
+                     </state>
+                     <bibl>CIJ373</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn780"/>; female?<ref type="note" corresp="#Vol-3-L_F-ftn781"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e26432-person"
+                          n="Vol-3-L_F-Latin-Females-Margarita-3">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Margarita</persName>
+                     <persName type="lemma" xml:lang="en">Margarita</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e34352-person"
+                                type="relation"
+                                n="daughter-of">Ridanius (1)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Hamam Lif</note>
+                     </state>
+                     <bibl>Le Bohec,Ant. Afr.17 (1981) no. 14</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn782"/>P:North Africa</note>
+                     </state>
+                     <floruit>4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

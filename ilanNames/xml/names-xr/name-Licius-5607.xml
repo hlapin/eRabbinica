@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Licius-Licius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Licius-Vol-3-L_M"
+                type="name"
+                n="Licius-Licius"
+                xml:id="name-Licius-d1e551938">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1367"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e23128-person" n="Vol-3-L_M-Latin-Males-Licius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Licius</persName>
+                     <persName type="lemma" xml:lang="en">Licius</persName>
+                     <persName>Λίκος<ref type="note" corresp="#Vol-3-L_M-ftn1368"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e17801-person" type="relation" n="son-of">Gaius (23)’s son</ref>, aged 4<ref type="note" corresp="#Vol-3-L_M-ftn1369"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira, Gray</note>
+                     </state>
+                     <bibl>CJZC53c</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1370"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>49-82 CE<ref type="note" corresp="#Vol-3-L_M-ftn1371"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

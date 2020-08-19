@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Chrysippus-Χρΰσιππος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Chrysippus-Vol-3-G_M"
+                type="name"
+                n="Chrysippus-Χρΰσιππος"
+                xml:id="name-Chrysippus-d1e528969">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4748"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e81596-person"
+                          n="Vol-3-G_M-Greek-Males-Chrysippus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Χρΰσιππος</persName>
+                     <persName type="lemma" xml:lang="en">Chrysippus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn4749"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Müller</note>
+                     </state>
+                     <bibl>CIJ17*</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4750"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e81648-person"
+                          n="Vol-3-G_M-Greek-Males-Chrysippus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Χρΰσιππος</persName>
+                     <persName type="lemma" xml:lang="en">Chrysippus</persName>
+                     <persName>Χρυσίππου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-E_M-d8e601-person" type="relation" n="father-of">Angion (4)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Hermopolis, Zucker</note>
+                     </state>
+                     <bibl>JIGRE156:65</bibl>
+                     <state type="addl-Descr">
+                        <note>Idumean<ref type="note" corresp="#Vol-3-G_M-ftn4751"/>P:Egypt</note>
+                     </state>
+                     <floruit>78 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4752"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e81680-person"
+                          n="Vol-3-G_M-Greek-Males-Chrysippus-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Χρΰσιππος</persName>
+                     <persName type="lemma" xml:lang="en">Chrysippus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+                     </state>
+                     <bibl>IJO2, 14:B45</bibl>
+                     <state type="addl-Descr">
+                        <note>God-fearer<ref type="note" corresp="#Vol-3-G_M-ftn4753"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

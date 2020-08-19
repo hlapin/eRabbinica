@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Abiṭal-אביטל</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Abial-Vol-4-B_M"
+                type="name"
+                n="Abiṭal-אביטל"
+                xml:id="name-Abial-d1e590184">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-B_M-ftn7"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-B_M-d8e62-person" n="Vol-4-B_M-Biblical-Males-Abiṭal-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">אביטל</persName>
+                     <persName type="lemma" xml:lang="en">Abiṭal</persName>
+                     <persName>אביטול<ref type="note" corresp="#Vol-4-B_M-ftn8"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-B_M-ftn9"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>bMQ18a(Kosowsky,Babylonico, 32)</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn10"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Post-247 CE<ref type="note" corresp="#Vol-4-B_M-ftn11"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

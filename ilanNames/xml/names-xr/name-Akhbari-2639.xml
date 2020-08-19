@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Akhbari-עכברי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Akhbari-Vol-2-S-H_M"
+                type="name"
+                n="Akhbari-עכברי"
+                xml:id="name-Akhbari-d1e430168">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn1339"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e21505-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Akhbari-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">עכברי</persName>
+                     <persName type="lemma" xml:lang="en">Akhbari</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e11933-person" type="relation" n="father-of">Hananiah (20)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>yTer11:5, 48b (Kosovsky,Yerushalmi, 276)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn1340"/>
+                        </note>
+                     </state>
+                     <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1341"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

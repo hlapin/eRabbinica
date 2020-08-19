@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sapho-Σαφώ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Sapho-Vol-2-G_F"
+                type="name"
+                n="Sapho-Σαφώ"
+                xml:id="name-Sapho-d1e353030">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_F-ftn292"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_F-d8e4463-person" n="Vol-2-G_F-Greek-Females-Sapho-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Σαφώ</persName>
+                     <persName type="lemma" xml:lang="en">Sapho</persName>
+                     <persName>Σαφού<ref type="note" corresp="#Vol-2-G_F-ftn293"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e25096-person" type="relation" n="mother-of">Joseph (87)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Beth She‘arim, catacomb 1,CIJ1000</note>
+                     </state>
+                     <bibl>BS2:27</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_F-ftn294"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_F-d8e4495-person" n="Vol-2-G_F-Greek-Females-Sapho-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Σαφώ</persName>
+                     <persName type="lemma" xml:lang="en">Sapho</persName>
+                     <persName>[Σ]αφο[ῦς]<ref type="note" corresp="#Vol-2-G_F-ftn295"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-L_M-d8e5954-person" type="relation" n="mother-of">Justus (18)’s mother</ref>, <ref corresp="#Vol-2-G_M-d8e11654-person" type="relation" n="wife-of">Leontides (1)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Beth She‘arim, catacomb 11</note>
+                     </state>
+                     <bibl>BS2:127</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn296"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_F-ftn297"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

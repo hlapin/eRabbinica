@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ahina-אהינא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Ahina-Vol-4-S-H_M"
+                type="name"
+                n="Ahina-אהינא"
+                xml:id="name-Ahina-d1e633544">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn596"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e8489-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Ahina-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">אהינא</persName>
+                     <persName type="lemma" xml:lang="en">Ahina</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e2583-person" type="relation" n="father-of">Abba (58)’s father</ref>
+                           <ref type="note" corresp="#Vol-4-S-H_M-ftn597"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bSoṭ39b (Kosowsky,Babylonico, 113)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn598"/>P:Babylonia</note>
+                     </state>
+                     <floruit>4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn599"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_M-d8e8532-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Ahina-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">אהינא</persName>
+                     <persName type="lemma" xml:lang="en">Ahina</persName>
+                     <persName>אהונאי<ref type="note" corresp="#Vol-4-S-H_M-ftn600"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-S-H_M-ftn601"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>SOZ10, 2</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn602"/>P:Babylonia</note>
+                     </state>
+                     <floruit>522 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn603"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

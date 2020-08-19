@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Agathe-̓Αγάθη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Agathe-Vol-1-G_F names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Agathe-Vol-3-G_F"
+                type="name"
+                n="Agathe-̓Αγάθη"
+                xml:id="name-Agathe-d1e187760">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_F-ftn1"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn1"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_F-d2e45-person" n="Vol-1-G_F-Agathe-1">
+                     <persName type="lemma">̓Αγάθη</persName>
+                     <persName type="lemma" xml:lang="en">Agathe</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="he">אגתא<ref type="note" corresp="#Vol-1-G_F-ftn2"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Syrian Orphanage, Euting, 1885</note>
+                     </state>
+                     <bibl>CIJ, no. 1371</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn3"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e18-person" n="Vol-3-G_F-Greek-Females-Agathe-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Αγάθη</persName>
+                     <persName type="lemma" xml:lang="en">Agathe</persName>
+                     <persName>̓Αγαθῆς</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Argos, Vollgraff</note>
+                     </state>
+                     <bibl>CIJ100*</bibl>
+                     <state type="addl-Descr">
+                        <note>Christian?<ref type="note" corresp="#Vol-3-G_F-ftn2"/>P:Greece</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-G_F-ftn3"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

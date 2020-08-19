@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Abndad-Abndad</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#Abndad-Vol-4-I_M"
+                type="name"
+                n="Abndad-Abndad"
+                xml:id="name-Abndad-d1e616558">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn10"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_M-d8e121-person" n="Vol-4-I_M-Iranian-Males-Abndad-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Abndad</persName>
+                     <persName type="lemma" xml:lang="en">Abndad</persName>
+                     <persName>
+                        <ref type="note" corresp="#Vol-4-I_M-ftn11"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_F-d8e2803-person" type="relation" n="son-of">Batgada (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Moussyaieff collection</note>
+                     </state>
+                     <bibl>Levene,JSS52 (2007) 60</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn12"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn13"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

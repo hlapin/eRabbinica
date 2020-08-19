@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Tetoeus-Tetoeus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_F-Egyptian-Females-to-utf-TEI-P5-names.xml/#Tetoeus-Vol-3-E_F"
+                type="name"
+                n="Tetoeus-Tetoeus"
+                xml:id="name-Tetoeus-d1e459688">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_F-ftn101"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_F-d8e1514-person"
+                          n="Vol-3-E_F-Egyptian-Females-Tetoeus-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Tetoeus</persName>
+                     <persName type="lemma" xml:lang="en">Tetoeus</persName>
+                     <persName>Τετώυτι<ref type="note" corresp="#Vol-3-E_F-ftn102"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-E_F-ftn103"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Heracleopolis</note>
+                     </state>
+                     <bibl>PC29 (2001) 10</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_F-ftn104"/>P:Egypt</note>
+                     </state>
+                     <floruit>138/7 BCE<ref type="note" corresp="#Vol-3-E_F-ftn105"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

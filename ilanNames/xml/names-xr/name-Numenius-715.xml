@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Numenius-Νουμήνιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Numenius-Vol-1-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Numenius-Vol-3-G_M"
+                type="name"
+                n="Numenius-Νουμήνιος"
+                xml:id="name-Numenius-d1e237939">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn1002"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3493"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e13972-person" n="Vol-1-G_M-Numenius-1">
+                     <persName type="lemma">Νουμήνιος</persName>
+                     <persName type="lemma" xml:lang="en">Numenius</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>1 Macc 12:16 (H &amp; R Suppl. 121)AJ13:169 (Schalit,NB, 91)<ref type="note" corresp="#Vol-1-G_M-ftn1003"/>.</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>150 BCE<ref type="note" corresp="#Vol-1-G_M-ftn1004"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e60664-person" n="Vol-3-G_M-Greek-Males-Numenius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Νουμήνιος</persName>
+                     <persName type="lemma" xml:lang="en">Numenius</persName>
+                     <persName>[Ν]ουμηνίου<ref type="note" corresp="#Vol-3-G_M-ftn3494"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-E_M-d8e6812-person" type="relation" n="son-of">Petos (2)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Schwartz</note>
+                     </state>
+                     <bibl>CPJ515</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3495"/>P:Egypt</note>
+                     </state>
+                     <floruit>2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

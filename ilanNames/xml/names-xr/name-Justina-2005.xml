@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Justina-Justina</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_F-Latin-Female-to-utf-TEI-P5-names.xml/#Justina-Vol-2-L_F names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Justina-Vol-3-L_F"
+                type="name"
+                n="Justina-Justina"
+                xml:id="name-Justina-d1e380753">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_F-ftn116"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn648"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_F-d8e1374-person" n="Vol-2-L_F-Latin-Female-Justina-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Justina</persName>
+                     <persName type="lemma" xml:lang="en">Justina</persName>
+                     <persName>̓Ιουστίνας<ref type="note" corresp="#Vol-2-L_F-ftn117"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Caesarea</note>
+                     </state>
+                     <bibl>Lehmann &amp; Holum,CMER5, no. 246</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-L_F-ftn118"/>
+                        </note>
+                     </state>
+                     <floruit>
+                        <ref type="note" corresp="#Vol-2-L_F-ftn119"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e24183-person"
+                          n="Vol-3-L_F-Latin-Females-Justina-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Justina</persName>
+                     <persName type="lemma" xml:lang="en">Justina</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Amulet, Poitiers, Longuemar</note>
+                     </state>
+                     <bibl>PC22/1 (1994) no. 8</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn649"/>P:Gaul</note>
+                     </state>
+                     <floruit>4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

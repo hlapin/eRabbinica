@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Romulus-Romulus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Romulus-Vol-3-L_M"
+                type="name"
+                n="Romulus-Romulus"
+                xml:id="name-Romulus-d1e557711">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2065"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e34601-person" n="Vol-3-L_M-Latin-Males-Romulus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Romulus</persName>
+                     <persName type="lemma" xml:lang="en">Romulus</persName>
+                     <persName>Ρώμωλος<ref type="note" corresp="#Vol-3-L_M-ftn2066"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn2067"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Venosa, Angelis &amp; Smith</note>
+                     </state>
+                     <bibl>CIJ592</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2068"/>P:Italy</note>
+                     </state>
+                     <floruit>5th-6thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Rhome-̔Ρώμη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Rhome-Vol-3-G_F names/Vol-4-Vol-3-Add-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Rhome-Vol-4-Vol-3-Add-G_F"
+                type="name"
+                n="Rhome-̔Ρώμη"
+                xml:id="name-Rhome-d1e483249">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn988"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-Vol-3-Add-G_F-ftn13"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e17361-person" n="Vol-3-G_F-Greek-Females-Rhome-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̔Ρώμη</persName>
+                     <persName type="lemma" xml:lang="en">Rhome</persName>
+                     <persName>̔Ρώμης</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_F-ftn989"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Heracleopolis</note>
+                     </state>
+                     <bibl>PC29 (2001) 9</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn990"/>P:Egypt</note>
+                     </state>
+                     <floruit>133/2 BCE<ref type="note" corresp="#Vol-3-G_F-ftn991"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-Vol-3-Add-G_F-d8e224-person"
+                          n="Vol-4-Vol-3-Add-G_F-Greek-Females-Rhome-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̔Ρώμη</persName>
+                     <persName type="lemma" xml:lang="en">Rhome</persName>
+                     <persName>Ρωμας<ref type="note" corresp="#Vol-4-Vol-3-Add-G_F-ftn14"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Procla (1) and <ref corresp="#" type="relation" n="daughter-of">Romanus (1)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Andriake</note>
+                     </state>
+                     <bibl>Çevik &amp; Eshel,Qadmoniot43 (2010) 42</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-Vol-3-Add-G_F-ftn15"/>P:Asia</note>
+                     </state>
+                     <floruit>4th-5thC CE<ref type="note" corresp="#Vol-4-Vol-3-Add-G_F-ftn16"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

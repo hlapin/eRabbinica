@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Yehoyarib-יהויריב</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Yehoyarib-Vol-1-B_M"
+                type="name"
+                n="Yehoyarib-יהויריב"
+                xml:id="name-Yehoyarib-d1e78513">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_M-ftn1578"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_M-d2e21666-person" n="Vol-1-B_M-Yehoyarib-1">
+                     <persName type="lemma">יהויריב</persName>
+                     <persName type="lemma" xml:lang="en">Yehoyarib</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">̓Ιωαρείβ<ref type="note" corresp="#Vol-1-B_M-ftn1579"/>
+                     </persName>
+                     <persName xml:lang="gr">̓Ιωάριβος<ref type="note" corresp="#Vol-1-B_M-ftn1580"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>1 Macc 2:1 (H &amp; R Suppl. 91); AJ 12:265 (Schalit, NB, 66); mBQ10:2 (Kasovsky,Mishnae, 835).</bibl>
+                     <state type="addl-Descr">
+                        <note>Family<ref type="note" corresp="#Vol-1-B_M-ftn1581"/>
+                        </note>
+                     </state>
+                     <floruit>2nd-1stC BCE<ref type="note" corresp="#Vol-1-B_M-ftn1582"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

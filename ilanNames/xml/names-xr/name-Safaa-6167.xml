@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Safaa-צפעא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Safaa-Vol-3-S-H_M"
+                type="name"
+                n="Safaa-צפעא"
+                xml:id="name-Safaa-d1e573440">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-S-H_M-ftn355"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-S-H_M-d8e5674-person"
+                          n="Vol-3-S-H_M-Semitic-Hebrew-Males-Safaa-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">צפעא</persName>
+                     <persName type="lemma" xml:lang="en">Safaa</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-S-H_M-d8e675-person" type="relation" n="father-of">Abitai (7)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Edfu,</note>
+                     </state>
+                     <bibl>TADAE4:8:10</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-S-H_M-ftn356"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

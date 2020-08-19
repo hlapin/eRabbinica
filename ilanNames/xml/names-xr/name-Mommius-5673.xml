@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Mommius-Mommius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Mommius-Vol-3-L_M"
+                type="name"
+                n="Mommius-Mommius"
+                xml:id="name-Mommius-d1e554384">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1753"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e29543-person" n="Vol-3-L_M-Latin-Males-Mommius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Mommius</persName>
+                     <persName type="lemma" xml:lang="en">Mommius</persName>
+                     <persName>Μόμμων<ref type="note" corresp="#Vol-3-L_M-ftn1754"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Hananiah (14) and <ref corresp="#Vol-3-G_F-d8e15761-person" type="relation" n="son-of">Nisa (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Galatia, Pococke</note>
+                     </state>
+                     <bibl>CIJ797</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1755"/>
+                        </note>
+                     </state>
+                     <floruit>Asia</floruit>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn1756"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e29581-person" n="Vol-3-L_M-Latin-Males-Mommius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Mommius</persName>
+                     <persName type="lemma" xml:lang="en">Mommius</persName>
+                     <persName>Μομμίου</persName>
+                     <state type="desc">
+                        <note>Artimas (2), <ref corresp="#Vol-3-G_F-d8e2946-person Vol-3-G_M-d8e12686-person"
+                                type="relation"
+                                n="father-of">Artimas (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Sidibunda, Bean</note>
+                     </state>
+                     <bibl>IJO2, 215</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1757"/>P:Asia</note>
+                     </state>
+                     <floruit>2nd-3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

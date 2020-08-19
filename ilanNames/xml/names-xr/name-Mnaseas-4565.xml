@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Mnaseas-Μνασέας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Mnaseas-Vol-3-G_M"
+                type="name"
+                n="Mnaseas-Μνασέας"
+                xml:id="name-Mnaseas-d1e513508">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3281"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e57093-person" n="Vol-3-G_M-Greek-Males-Mnaseas-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μνασέας</persName>
+                     <persName type="lemma" xml:lang="en">Mnaseas</persName>
+                     <persName>Μνιασέας<ref type="note" corresp="#Vol-3-G_M-ftn3282"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn3283"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Lupi</note>
+                     </state>
+                     <bibl>CIJ508</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3284"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

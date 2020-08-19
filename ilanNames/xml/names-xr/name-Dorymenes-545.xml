@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Dorymenes-Δορυμένης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Dorymenes-Vol-1-G_M"
+                type="name"
+                n="Dorymenes-Δορυμένης"
+                xml:id="name-Dorymenes-d1e212346">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn370"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e5273-person" n="Vol-1-G_M-Dorymenes-1">
+                     <persName type="lemma">Δορυμένης</persName>
+                     <persName type="lemma" xml:lang="en">Dorymenes</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">דרמנס<ref type="note" corresp="#Vol-1-G_M-ftn371"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Mishmar</note>
+                     </state>
+                     <bibl>Bar-Adon,Cave of Treasure205</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-135 CE<ref type="note" corresp="#Vol-1-G_M-ftn372"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-G_M-d2e5296-person" n="Vol-1-G_M-Dorymenes-2">
+                     <persName type="lemma">Δορυμένης</persName>
+                     <persName type="lemma" xml:lang="en">Dorymenes</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">דרמנס<ref type="note" corresp="#Vol-1-G_M-ftn373"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e35397-person" type="relation" n="father-of">Joseph (173)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, deed, Babatha archive</note>
+                     </state>
+                     <bibl>PYadin 7</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>120 CE<ref type="note" corresp="#Vol-1-G_M-ftn374"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

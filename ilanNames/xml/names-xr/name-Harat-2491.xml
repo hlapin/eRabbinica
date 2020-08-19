@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ḥarat-חראט</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Harat-Vol-2-S-H_M"
+                type="name"
+                n="Ḥarat-חראט"
+                xml:id="name-Harat-d1e421908">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn935"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e14966-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ḥarat-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">חראט</persName>
+                     <persName type="lemma" xml:lang="en">Ḥarat</persName>
+                     <persName>ﺍﺒﻥ ﺣﺭﺍﻂ<ref type="note" corresp="#Vol-2-S-H_M-ftn936"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_F-d8e1359-person" type="relation" n="husband-of">Mariam (1)’s husband</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Abu’l Fath, 177</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-S-H_M-ftn937"/>
+                        </note>
+                     </state>
+                     <floruit>4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn938"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

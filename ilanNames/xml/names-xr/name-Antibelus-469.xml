@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Antibelus-̓Αντίβηλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Antibelus-Vol-1-G_M"
+                type="name"
+                n="Antibelus-̓Αντίβηλος"
+                xml:id="name-Antibelus-d1e202492">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn144"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e2095-person" n="Vol-1-G_M-Antibelus-1">
+                     <persName type="lemma">̓Αντίβηλος</persName>
+                     <persName type="lemma" xml:lang="en">Antibelus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">אנטבילא<ref type="note" corresp="#Vol-1-G_M-ftn145"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>yPeah8:8, 21a (Kosovsky,Yerushalmi, 135)</bibl>
+                     <state type="addl-Descr">
+                        <note>Family<ref type="note" corresp="#Vol-1-G_M-ftn146"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn147"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

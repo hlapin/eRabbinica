@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Harobrouos-Harobrouos</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Harobrouos-Vol-3-E_M"
+                type="name"
+                n="Harobrouos-Harobrouos"
+                xml:id="name-Harobrouos-d1e462542">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn146"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e2392-person"
+                          n="Vol-3-E_M-Egyptian-Males-Harobrouos-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Harobrouos</persName>
+                     <persName type="lemma" xml:lang="en">Harobrouos</persName>
+                     <persName>̔Αροβρωοῦς</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Vienna</note>
+                     </state>
+                     <bibl>P. Harrauer 33:63</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn147"/>P:Egypt</note>
+                     </state>
+                     <floruit>1stC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

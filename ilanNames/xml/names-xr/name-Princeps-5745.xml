@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Princeps-Princeps</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Princeps-Vol-3-L_M"
+                type="name"
+                n="Princeps-Princeps"
+                xml:id="name-Princeps-d1e556597">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1925"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e32322-person" n="Vol-3-L_M-Latin-Males-Princeps-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Princeps</persName>
+                     <persName type="lemma" xml:lang="en">Princeps</persName>
+                     <persName>–<ref type="note" corresp="#Vol-3-L_M-ftn1926"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn1927"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Venosa, Frenkel,CIJ619e</note>
+                     </state>
+                     <bibl>JIWE1, 219</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1928"/>P:Italy</note>
+                     </state>
+                     <floruit>5th-6thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

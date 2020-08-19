@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Yakhin-יכין</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Yakhin-Vol-1-B_M"
+                type="name"
+                n="Yakhin-יכין"
+                xml:id="name-Yakhin-d1e107235">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_M-ftn2909"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_M-d2e37636-person" n="Vol-1-B_M-Yakhin-1">
+                     <persName type="lemma">יכין</persName>
+                     <persName type="lemma" xml:lang="en">Yakhin</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">יכים<ref type="note" corresp="#Vol-1-B_M-ftn2910"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e42988-person"
+                                type="relation"
+                                n="priestly-of">Menahem (19)’s priestly</ref> course</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Bagatti</note>
+                     </state>
+                     <bibl>DF90, no. 22</bibl>
+                     <state type="addl-Descr">
+                        <note>Family<ref type="note" corresp="#Vol-1-B_M-ftn2911"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn2912"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

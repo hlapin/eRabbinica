@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Masrūq-מסרוק</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Masrq-Vol-4-S-H_M"
+                type="name"
+                n="Masrūq-מסרוק"
+                xml:id="name-Masrq-d1e645456">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn1776"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e25750-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Masrūq-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">מסרוק</persName>
+                     <persName type="lemma" xml:lang="en">Masrūq</persName>
+                     <persName>ܡܣܪܘܩ<ref type="note" corresp="#Vol-4-S-H_M-ftn1777"/>
+                     </persName>
+                     <persName>/مسروق<ref type="note" corresp="#Vol-4-S-H_M-ftn1778"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Joseph (36) Dhū Nuwās (1), Tibān (1) <ref corresp="#Vol-4-A_M-d8e687-person" type="relation" n="son-of">Asʿad (1)’s son</ref>?<ref type="note" corresp="#Vol-4-S-H_M-ftn1779"/>
+                           <ref type="note" corresp="#Vol-4-S-H_M-ftn1780"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>1. Moberg,Himyarites, 9a; 2.POv/2, 331</bibl>
+                     <state type="addl-Descr">
+                        <note>Proselyte<ref type="note" corresp="#Vol-4-S-H_M-ftn1781"/>; second nameP:Arab. Pen.<ref type="note" corresp="#Vol-4-S-H_M-ftn1782"/>
+                        </note>
+                     </state>
+                     <floruit>525 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1783"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

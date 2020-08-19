@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Eunous-Εὔνους</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Eunous-Vol-3-G_M"
+                type="name"
+                n="Eunous-Εὔνους"
+                xml:id="name-Eunous-d1e500679">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1784"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e30720-person" n="Vol-3-G_M-Greek-Males-Eunous-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Εὔνους</persName>
+                     <persName type="lemma" xml:lang="en">Eunous</persName>
+                     <persName>Εὔνο<ref type="note" corresp="#Vol-3-G_M-ftn1785"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Edfu, Manteuffel</note>
+                     </state>
+                     <bibl>CPJ167</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1786"/>P:Egypt</note>
+                     </state>
+                     <floruit>73 CE<ref type="note" corresp="#Vol-3-G_M-ftn1787"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e30755-person" n="Vol-3-G_M-Greek-Males-Eunous-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Εὔνους</persName>
+                     <persName type="lemma" xml:lang="en">Eunous</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="son-of">Joseph (17)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Edfu, Manteuffel</note>
+                     </state>
+                     <bibl>CPJ219</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1788"/>P:Egypt</note>
+                     </state>
+                     <floruit>109 CE<ref type="note" corresp="#Vol-3-G_M-ftn1789"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

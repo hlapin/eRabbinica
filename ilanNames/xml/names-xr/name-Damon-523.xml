@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Damon-Δάμων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Damon-Vol-1-G_M names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Damon-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Damon-Vol-3-G_M"
+                type="name"
+                n="Damon-Δάμων"
+                xml:id="name-Damon-d1e208933">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn329"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn292"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn978"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e4674-person" n="Vol-1-G_M-Damon-1">
+                     <persName type="lemma">Δάμων</persName>
+                     <persName type="lemma" xml:lang="en">Damon</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Δάμωνος<ref type="note" corresp="#Vol-1-G_M-ftn330"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-G_F-d2e3418-person" type="relation" n="son-of">Sabatis (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Kidron, Sukenik, 1942</note>
+                     </state>
+                     <bibl>CJO, no. 98</bibl>
+                     <state type="addl-Descr">
+                        <note>Cyrene<ref type="note" corresp="#Vol-1-G_M-ftn331"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn332"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_M-d8e4233-person" n="Vol-2-G_M-Greek-Males-Damon-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Δάμων</persName>
+                     <persName type="lemma" xml:lang="en">Damon</persName>
+                     <persName>Λαμων<ref type="note" corresp="#Vol-2-G_M-ftn293"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Oil lamp, Lahav<ref type="note" corresp="#Vol-2-G_M-ftn294"/>
+                        </note>
+                     </state>
+                     <bibl>Gofna &amp; Sussman,Atiqot7 (1974-HS) 74</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn295"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-G_M-ftn296"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e16764-person" n="Vol-3-G_M-Greek-Males-Damon-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Δάμων</persName>
+                     <persName type="lemma" xml:lang="en">Damon</persName>
+                     <persName>Δάμωνος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_F-d8e6245-person" type="relation" n="son-of">Shabtit (54)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Kidron Valley (Jerusalem), Sukenik</note>
+                     </state>
+                     <bibl>CJO98</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn979"/>P:Cyrenaica<ref type="note" corresp="#Vol-3-G_M-ftn980"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-3-G_M-ftn981"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

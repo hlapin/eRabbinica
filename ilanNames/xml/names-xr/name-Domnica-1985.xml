@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Domnica-Domnica</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_F-Latin-Female-to-utf-TEI-P5-names.xml/#Domnica-Vol-2-L_F"
+                type="name"
+                n="Domnica-Domnica"
+                xml:id="name-Domnica-d1e378814">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_F-ftn70"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_F-d8e792-person" n="Vol-2-L_F-Latin-Female-Domnica-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Domnica</persName>
+                     <persName type="lemma" xml:lang="en">Domnica</persName>
+                     <persName>Δομνικά<ref type="note" corresp="#Vol-2-L_F-ftn71"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-L_F-ftn72"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Beth She‘arim, catacomb 20</note>
+                     </state>
+                     <bibl>BS2:198</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-352<ref type="note" corresp="#Vol-2-L_F-ftn73"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

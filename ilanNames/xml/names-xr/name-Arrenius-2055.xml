@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Arrenius-Arrenius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Arrenius-Vol-2-L_M"
+                type="name"
+                n="Arrenius-Arrenius"
+                xml:id="name-Arrenius-d1e384452">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn86"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_M-d8e1129-person" n="Vol-2-L_M-Latin-Males-Arrenius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Arrenius</persName>
+                     <persName type="lemma" xml:lang="en">Arrenius</persName>
+                     <persName>̓Αρρενίου<ref type="note" corresp="#Vol-2-L_M-ftn87"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e7511-person" type="relation" n="father-of">Zenon (2)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1a, no. 159</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn88"/>
+                        </note>
+                     </state>
+                     <floruit>439<ref type="note" corresp="#Vol-2-L_M-ftn89"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

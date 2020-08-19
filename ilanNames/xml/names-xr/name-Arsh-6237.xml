@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Arsh-ارش</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Arsh-Vol-4-A_M"
+                type="name"
+                n="Arsh-ارش"
+                xml:id="name-Arsh-d1e575688">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn29"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e328-person" n="Vol-4-A_M-Arabic-Males-Arsh-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">ارش</persName>
+                     <persName type="lemma" xml:lang="en">Arsh</persName>
+                     <persName>ארש<ref type="note" corresp="#Vol-4-A_M-ftn30"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-A_M-d8e12715-person" type="relation" n="son-of">Najal (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Graffito, Madāʾin Ṣāliḥ</note>
+                     </state>
+                     <bibl>Jaussen and Savignac, 643</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn31"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-4-A_M-ftn32"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

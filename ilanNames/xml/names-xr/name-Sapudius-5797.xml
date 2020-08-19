@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sapudius-Sapudius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Sapudius-Vol-3-L_M"
+                type="name"
+                n="Sapudius-Sapudius"
+                xml:id="name-Sapudius-d1e558290">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2166"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e36411-person" n="Vol-3-L_M-Latin-Males-Sapudius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Sapudius</persName>
+                     <persName type="lemma" xml:lang="en">Sapudius</persName>
+                     <persName>Sapaudi<ref type="note" corresp="#Vol-3-L_M-ftn2167"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e63830-person" type="relation" n="father-of">Paregorius (2)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Narbona</note>
+                     </state>
+                     <bibl>Renan &amp; Le Blant,CIJ670</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2168"/>P:Gaul</note>
+                     </state>
+                     <floruit>688/9 CE<ref type="note" corresp="#Vol-3-L_M-ftn2169"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e36446-person" n="Vol-3-L_M-Latin-Males-Sapudius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Sapudius</persName>
+                     <persName type="lemma" xml:lang="en">Sapudius</persName>
+                     <persName>Sapaudum<ref type="note" corresp="#Vol-3-L_M-ftn2170"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Vitalianus (1) and <ref corresp="#Vol-3-L_F-d8e26715-person" type="relation" n="son-of">Martina (3)’s son</ref>, aged 7<ref type="note" corresp="#Vol-3-L_M-ftn2171"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Auch, Le Blant</note>
+                     </state>
+                     <bibl>CIJ94*</bibl>
+                     <state type="addl-Descr">
+                        <note>Christian?<ref type="note" corresp="#Vol-3-L_M-ftn2172"/>P:Gaul</note>
+                     </state>
+                     <floruit>4th-5thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

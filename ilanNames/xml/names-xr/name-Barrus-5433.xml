@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Barrus-Barrus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Barrus-Vol-3-L_M"
+                type="name"
+                n="Barrus-Barrus"
+                xml:id="name-Barrus-d1e545899">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn532"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e9311-person" n="Vol-3-L_M-Latin-Males-Barrus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Barrus</persName>
+                     <persName type="lemma" xml:lang="en">Barrus</persName>
+                     <persName>Baras<ref type="note" corresp="#Vol-3-L_M-ftn533"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Garrucci</note>
+                     </state>
+                     <bibl>CIJ528</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn534"/>P:Rome</note>
+                     </state>
+                     <floruit>387 CE<ref type="note" corresp="#Vol-3-L_M-ftn535"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

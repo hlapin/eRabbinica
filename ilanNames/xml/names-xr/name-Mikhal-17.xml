@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Mikhal-מיכל</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_F-Biblical-Females-to-utf-TEI-P5-names.xml/#Mikhal-Vol-1-B_F"
+                type="name"
+                n="Mikhal-מיכל"
+                xml:id="name-Mikhal-d1e3509">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_F-ftn58"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_F-d2e955-person" n="Vol-1-B_F-Mikhal-1">
+                     <persName type="lemma">מיכל</persName>
+                     <persName type="lemma" xml:lang="en">Mikhal</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e41219-person"
+                                type="relation"
+                                n="daughter-of">Kushi (1)’s daughter</ref>
+                           <ref type="note" corresp="#Vol-1-B_F-ftn59"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Mekh dRI, 68 (Kosovsky,Mechilta, 28*)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-1-B_F-ftn60"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

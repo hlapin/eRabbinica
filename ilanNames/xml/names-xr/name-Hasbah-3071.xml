@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Haṣbaḥ-هصبح</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-4-ADD-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Hasbah-Vol-2-Vol-4-ADD-A_M"
+                type="name"
+                n="Haṣbaḥ-هصبح"
+                xml:id="name-Hasbah-d1e453390">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-4-ADD-A_M-ftn112"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-4-ADD-A_M-d8e1478-person"
+                          n="Vol-2-Vol-4-ADD-A_M-Arabic-Males-Haṣbaḥ-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">هصبح</persName>
+                     <persName type="lemma" xml:lang="en">Haṣbaḥ</persName>
+                     <persName>הצבח<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn113"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Īlīyafa‘ (1) <ref corresp="#" type="relation" n="father-of">Arshal (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Deed of sale inscription, Ḥaṣi, Yemen</note>
+                     </state>
+                     <bibl>Robin, “Ḥimyar et Israel,” no. 4</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn114"/>P:Arabia</note>
+                     </state>
+                     <floruit>4th-6thC CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn115"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Alfius-Alfius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Alfius-Vol-3-L_M"
+                type="name"
+                n="Alfius-Alfius"
+                xml:id="name-Alfius-d1e544030">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn73"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e1224-person" n="Vol-3-L_M-Latin-Males-Alfius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Alfius</persName>
+                     <persName type="lemma" xml:lang="en">Alfius</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn74"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Capua, Migliori</note>
+                     </state>
+                     <bibl>CIJ553</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn75"/>; second nameP:Italy</note>
+                     </state>
+                     <floruit>2nd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

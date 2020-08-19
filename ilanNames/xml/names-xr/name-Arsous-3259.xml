@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Arsous-Arsous</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Arsous-Vol-3-E_M"
+                type="name"
+                n="Arsous-Arsous"
+                xml:id="name-Arsous-d1e461238">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn64"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e986-person" n="Vol-3-E_M-Egyptian-Males-Arsous-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Arsous</persName>
+                     <persName type="lemma" xml:lang="en">Arsous</persName>
+                     <persName>̓Αρσοῦς</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e74312-person" type="relation" n="son-of">Sostratus (3)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Edfu, Manteuffel</note>
+                     </state>
+                     <bibl>CPJ225</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-E_M-ftn65"/>P:Egypt</note>
+                     </state>
+                     <floruit>115 CE<ref type="note" corresp="#Vol-3-E_M-ftn66"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

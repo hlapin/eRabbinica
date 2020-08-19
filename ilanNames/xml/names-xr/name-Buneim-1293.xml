@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Buneim-בוניים</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Buneim-Vol-1-S-H_M"
+                type="name"
+                n="Buneim-בוניים"
+                xml:id="name-Buneim-d1e305503">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-H_M-ftn107"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-H_M-d2e1714-person" n="Vol-1-S-H_M-Buneim-1">
+                     <persName type="lemma">בוניים</persName>
+                     <persName type="lemma" xml:lang="en">Buneim</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-S-H_M-d2e1739-person" type="relation" n="son-of">Buneim (2)’s son</ref>
+                           <ref type="note" corresp="#Vol-1-S-H_M-ftn108"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>bGit59a (Kosowsky,Babylonico, 317)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn109"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-S-H_M-d2e1739-person" n="Vol-1-S-H_M-Buneim-2">
+                     <persName type="lemma">בוניים</persName>
+                     <persName type="lemma" xml:lang="en">Buneim</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">נוניים<ref type="note" corresp="#Vol-1-S-H_M-ftn110"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-S-H_M-d2e1714-person" type="relation" n="father-of">Buneim (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>bGit59a (Kosowsky,Babylonico, 317)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn111"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Oclatius-Oclatius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Oclatius-Vol-3-L_M"
+                type="name"
+                n="Oclatius-Oclatius"
+                xml:id="name-Oclatius-d1e555152">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1813"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e30447-person" n="Vol-3-L_M-Latin-Males-Oclatius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Oclatius</persName>
+                     <persName type="lemma" xml:lang="en">Oclatius</persName>
+                     <persName>Οκλατίου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_F-d8e9429-person" type="relation" n="father-of">Gaudentia (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Paribeni</note>
+                     </state>
+                     <bibl>CIJ314</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1814"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sakhari-סכרי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Sakhari-Vol-2-S-H_M"
+                type="name"
+                n="Sakhari-סכרי"
+                xml:id="name-Sakhari-d1e428707">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn1265"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e20303-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Sakhari-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">סכרי</persName>
+                     <persName type="lemma" xml:lang="en">Sakhari</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e4564-person" type="relation" n="father-of">Eleazar (60)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Vito, “Reḥob,” 93<ref type="note" corresp="#Vol-2-S-H_M-ftn1266"/>
+                        </note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn1267"/>
+                        </note>
+                     </state>
+                     <floruit>4th-7th</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

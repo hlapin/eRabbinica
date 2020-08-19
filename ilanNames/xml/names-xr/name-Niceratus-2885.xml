@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Niceratus-Νικήρατος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Niceratus-Vol-2-Vol-1-ADD-G_M"
+                type="name"
+                n="Niceratus-Νικήρατος"
+                xml:id="name-Niceratus-d1e444865">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-G_M-ftn238"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-G_M-d8e3514-person"
+                          n="Vol-2-Vol-1-ADD-G_M-Greek-Males-Niceratus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Νικήρατος</persName>
+                     <persName type="lemma" xml:lang="en">Niceratus</persName>
+                     <persName>ניקרתס<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn239"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e42706-person" type="relation" n="son-of">Shabtai (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Khirbet el-Kom<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn240"/>
+                        </note>
+                     </state>
+                     <bibl>Geraty,BASOR220 (1975) 55</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn241"/>
+                        </note>
+                     </state>
+                     <floruit>277 BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn242"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

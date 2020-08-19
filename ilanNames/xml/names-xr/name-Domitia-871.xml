@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Domitia-Domitia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Domitia-Vol-1-L_F names/Vol-2-L_F-Latin-Female-to-utf-TEI-P5-names.xml/#Domitia-Vol-2-L_F names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Domitia-Vol-3-L_F"
+                type="name"
+                n="Domitia-Domitia"
+                xml:id="name-Domitia-d1e249376">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-L_F-ftn25"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_F-ftn54"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn365"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-L_F-d2e332-person" n="Vol-1-L_F-Domitia-1">
+                     <persName type="lemma">Domitia</persName>
+                     <persName type="lemma" xml:lang="en">Domitia</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="he">דמיטיה<ref type="note" corresp="#Vol-1-L_F-ftn26"/>
+                     </persName>
+                     <persName xml:lang="he">ירמטיה<ref type="note" corresp="#Vol-1-L_F-ftn27"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>mArak5:1 Cambridge Ms (Kasovsky,Mishnae, 888)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-L_F-ftn28"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-L_F-d8e594-person" n="Vol-2-L_F-Latin-Female-Domitia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Domitia</persName>
+                     <persName type="lemma" xml:lang="en">Domitia</persName>
+                     <persName>דמטיא<ref type="note" corresp="#Vol-2-L_F-ftn55"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-L_M-d8e2201-person" type="relation" n="mother-of">Cassianus (2)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Amulet, private collection</note>
+                     </state>
+                     <bibl>MSFno. 31</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>
+                        <ref type="note" corresp="#Vol-2-L_F-ftn56"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e6777-person" n="Vol-3-L_F-Latin-Females-Domitia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Domitia</persName>
+                     <persName type="lemma" xml:lang="en">Domitia</persName>
+                     <persName>[Δ]ομιτί[α]<ref type="note" corresp="#Vol-3-L_F-ftn366"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_F-ftn367"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Frey</note>
+                     </state>
+                     <bibl>CIJ105</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn368"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e6836-person" n="Vol-3-L_F-Latin-Females-Domitia-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Domitia</persName>
+                     <persName type="lemma" xml:lang="en">Domitia</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Felicita (1), Lucius (4) Domitius (2) Abba (4) and Appidia (1) <ref corresp="#Vol-3-B_F-d8e1544-person" type="relation" n="daughter-of">Leah (1)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ212</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn369"/>; second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e6871-person" n="Vol-3-L_F-Latin-Females-Domitia-3">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Domitia</persName>
+                     <persName type="lemma" xml:lang="en">Domitia</persName>
+                     <persName>Domitiae</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_F-ftn370"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Schneider Graziosi</note>
+                     </state>
+                     <bibl>CIJ26*</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn371"/>; second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

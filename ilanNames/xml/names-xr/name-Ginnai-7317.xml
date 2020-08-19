@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ginnai-Ginnai</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Ginnai-Vol-4-S-G_M"
+                type="name"
+                n="Ginnai-Ginnai"
+                xml:id="name-Ginnai-d1e628532">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-G_M-ftn1"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-G_M-d8e16-person"
+                          n="Vol-4-S-G_M-Semitic-Greek-Males-Ginnai-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ginnai</persName>
+                     <persName type="lemma" xml:lang="en">Ginnai</persName>
+                     <persName>Ginn[aei]<ref type="note" corresp="#Vol-4-S-G_M-ftn2"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Military roster papyrus, Dura-Europos</note>
+                     </state>
+                     <bibl>Welles et al.Dura-Europos(1959) 100, xxvii, 101, i</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-G_M-ftn3"/>Second NameP:Dura-Europos</note>
+                     </state>
+                     <floruit>Pre-256 CE<ref type="note" corresp="#Vol-4-S-G_M-ftn4"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

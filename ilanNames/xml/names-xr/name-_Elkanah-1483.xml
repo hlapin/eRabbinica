@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- אלקנה Elkanah-</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#_Elkanah-Vol-2-B_M"
+                type="name"
+                n="אלקנה Elkanah-"
+                xml:id="name-_Elkanah-d1e319761">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-B_M-ftn326"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-B_M-d8e4637-person"
+                          n="Vol-2-B_M-Biblical-Males-אלקנה Elkanah-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma"/>
+                     <persName type="lemma" xml:lang="en">אלקנה Elkanah</persName>
+                     <persName>̓Ελκανά<ref type="note" corresp="#Vol-2-B_M-ftn327"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Jaffa, Jaussen</note>
+                     </state>
+                     <bibl>CIJ913</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>3rdC</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

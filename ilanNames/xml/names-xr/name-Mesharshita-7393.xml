@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Mesharshita-משרשיתא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_F-Semitic-Hebrew-Females-to-utf-TEI-P5-names.xml/#Mesharshita-Vol-4-S-H_F"
+                type="name"
+                n="Mesharshita-משרשיתא"
+                xml:id="name-Mesharshita-d1e632216">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_F-ftn413"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_F-ftn414"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_F-d8e5591-person"
+                          n="Vol-4-S-H_F-Semitic-Hebrew-Females-Mesharshita-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">משרשיתא</persName>
+                     <persName type="lemma" xml:lang="en">Mesharshita</persName>
+                     <persName>משרשתנא<ref type="note" corresp="#Vol-4-S-H_F-ftn415"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e11776-person"
+                                type="relation"
+                                n="mother-of">Barbeʾammeh (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl</note>
+                     </state>
+                     <bibl>CAMIBBM024A</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_F-ftn416"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_F-ftn417"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_F-d8e5628-person"
+                          n="Vol-4-S-H_F-Semitic-Hebrew-Females-Mesharshita-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">משרשיתא</persName>
+                     <persName type="lemma" xml:lang="en">Mesharshita</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_M-d8e4565-person" type="relation" n="mother-of">Hōrmīzd (4)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl</note>
+                     </state>
+                     <bibl>CAMIBBM029A</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_F-ftn418"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_F-ftn419"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_F-d8e5662-person"
+                          n="Vol-4-S-H_F-Semitic-Hebrew-Females-Mesharshita-3">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">משרשיתא</persName>
+                     <persName type="lemma" xml:lang="en">Mesharshita</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e2149-person" type="relation" n="mother-of">Aḥi (33)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, London</note>
+                     </state>
+                     <bibl>Geller,OLP17 (1986) 114</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_F-ftn420"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_F-ftn421"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

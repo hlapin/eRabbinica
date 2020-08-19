@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Nicandrus-Νίκανδρος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Nicandrus-Vol-3-G_M"
+                type="name"
+                n="Nicandrus-Νίκανδρος"
+                xml:id="name-Nicandrus-d1e514887">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3364"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e58552-person"
+                          n="Vol-3-G_M-Greek-Males-Nicandrus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Νίκανδρος</persName>
+                     <persName type="lemma" xml:lang="en">Nicandrus</persName>
+                     <persName>נקדרוס<ref type="note" corresp="#Vol-3-G_M-ftn3365"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn3366"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Della Vida</note>
+                     </state>
+                     <bibl>TADAE3:3:29</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3367"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e58589-person"
+                          n="Vol-3-G_M-Greek-Males-Nicandrus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Νίκανδρος</persName>
+                     <persName type="lemma" xml:lang="en">Nicandrus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Seleucus (3) and <ref corresp="#Vol-3-G_F-d8e18153-person" type="relation" n="son-of">Sophronia (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Dante Vaglieri</note>
+                     </state>
+                     <bibl>CIJ511</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3368"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-5thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e58627-person"
+                          n="Vol-3-G_M-Greek-Males-Nicandrus-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Νίκανδρος</persName>
+                     <persName type="lemma" xml:lang="en">Nicandrus</persName>
+                     <persName>Νείκα[νδρ]ος<ref type="note" corresp="#Vol-3-G_M-ftn3369"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e58355-person" type="relation" n="son-of">Nicagoras (1)’s son</ref>, <ref corresp="#Vol-3-B_F-d8e8415-person" type="relation" n="father-of">Sarah (29)’s father</ref>, aged 40<ref type="note" corresp="#Vol-3-G_M-ftn3370"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Ptolemais</note>
+                     </state>
+                     <bibl>Reynolds,CJZC4a</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3371"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

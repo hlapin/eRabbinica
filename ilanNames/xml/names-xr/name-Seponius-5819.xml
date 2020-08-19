@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Seponius-Seponius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Seponius-Vol-3-L_M"
+                type="name"
+                n="Seponius-Seponius"
+                xml:id="name-Seponius-d1e559349">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2239"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e37508-person" n="Vol-3-L_M-Latin-Males-Seponius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Seponius</persName>
+                     <persName type="lemma" xml:lang="en">Seponius</persName>
+                     <persName>[Σ]έππονος<ref type="note" corresp="#Vol-3-L_M-ftn2240"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn2241"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Tomis,<ref type="note" corresp="#Vol-3-L_M-ftn2242"/>Ferrua</note>
+                     </state>
+                     <bibl>CIJ681b</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2243"/>P:Moesia / Egypt</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn2244"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

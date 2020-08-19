@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Megea-Μέγηα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Megea-Vol-2-G_F"
+                type="name"
+                n="Megea-Μέγηα"
+                xml:id="name-Megea-d1e352098">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_F-ftn249"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_F-d8e3738-person" n="Vol-2-G_F-Greek-Females-Megea-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Μέγηα</persName>
+                     <persName type="lemma" xml:lang="en">Megea</persName>
+                     <persName>מגה<ref type="note" corresp="#Vol-2-G_F-ftn250"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e18858-person" type="relation" n="wife-of">Joshua (25)’s wife</ref>, mistress<ref type="note" corresp="#Vol-2-G_F-ftn251"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Beth She‘arim, catacomb 20</note>
+                     </state>
+                     <bibl>BS3:24</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_F-ftn252"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_F-d8e3772-person" n="Vol-2-G_F-Greek-Females-Megea-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Μέγηα</persName>
+                     <persName type="lemma" xml:lang="en">Megea</persName>
+                     <persName>מגאוטיס<ref type="note" corresp="#Vol-2-G_F-ftn253"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e3905-person" type="relation" n="mother-of">Georgius (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Amulet, Irbid</note>
+                     </state>
+                     <bibl>MSFno. 29</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-G_F-ftn254"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

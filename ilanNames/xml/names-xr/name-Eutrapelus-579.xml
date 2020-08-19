@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Eutrapelus-Ε̓τραπέλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Eutrapelus-Vol-1-G_M"
+                type="name"
+                n="Eutrapelus-Ε̓τραπέλος"
+                xml:id="name-Eutrapelus-d1e217410">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn539"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e7715-person" n="Vol-1-G_M-Eutrapelus-1">
+                     <persName type="lemma">Ε̓τραπέλος</persName>
+                     <persName type="lemma" xml:lang="en">Eutrapelus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Ε̓τραπέλου<ref type="note" corresp="#Vol-1-G_M-ftn540"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Clermont-Gannau, 1883</note>
+                     </state>
+                     <bibl>CIJ, no. 1383</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn541"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-G_M-d2e7742-person" n="Vol-1-G_M-Eutrapelus-2">
+                     <persName type="lemma">Ε̓τραπέλος</persName>
+                     <persName type="lemma" xml:lang="en">Eutrapelus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">אוטרפלוס<ref type="note" corresp="#Vol-1-G_M-ftn542"/>
+                     </persName>
+                     <persName xml:lang="gr">Ε̓τραπέλ[ο]υ<ref type="note" corresp="#Vol-1-G_M-ftn543"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, deed, Muraba‘at</note>
+                     </state>
+                     <bibl>Mur 29</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>133 CE<ref type="note" corresp="#Vol-1-G_M-ftn544"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

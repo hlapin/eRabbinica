@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ruhm-رهم</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Ruhm-Vol-4-A_M"
+                type="name"
+                n="Ruhm-رهم"
+                xml:id="name-Ruhm-d1e581010">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn455"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e5577-person" n="Vol-4-A_M-Arabic-Males-Ruhm-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">رهم</persName>
+                     <persName type="lemma" xml:lang="en">Ruhm</persName>
+                     <persName>Abū Ruhm<ref type="note" corresp="#Vol-4-A_M-ftn456"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Ibn al-Kalbī (Caskel),ǧamharat an-nasab, I, no. 15 II</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-A_M-ftn457"/>Second nameP:Arab. Pen.</note>
+                     </state>
+                     <floruit>Pre-Islamic<ref type="note" corresp="#Vol-4-A_M-ftn458"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

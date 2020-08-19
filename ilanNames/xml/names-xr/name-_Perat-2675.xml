@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- פרת Perat-</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#_Perat-Vol-2-S-H_M"
+                type="name"
+                n="פרת Perat-"
+                xml:id="name-_Perat-d1e431360">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn1424"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e22704-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-פרת Perat-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma"/>
+                     <persName type="lemma" xml:lang="en">פרת Perat</persName>
+                     <persName>–<ref type="note" corresp="#Vol-2-S-H_M-ftn1425"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-S-H_M-d8e5703-person" type="relation" n="father-of">Or (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Tulida, 130</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-S-H_M-ftn1426"/>
+                        </note>
+                     </state>
+                     <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1427"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

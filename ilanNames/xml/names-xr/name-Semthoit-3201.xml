@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Semthoit-Semthoit</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_F-Egyptian-Females-to-utf-TEI-P5-names.xml/#Semthoit-Vol-3-E_F"
+                type="name"
+                n="Semthoit-Semthoit"
+                xml:id="name-Semthoit-d1e459108">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_F-ftn61"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_F-d8e917-person"
+                          n="Vol-3-E_F-Egyptian-Females-Semthoit-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Semthoit</persName>
+                     <persName type="lemma" xml:lang="en">Semthoit</persName>
+                     <persName>Σεμθοίτ</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e60664-person" type="relation" n="mother-of">Numenius (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Schwartz</note>
+                     </state>
+                     <bibl>CPJ515</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-E_F-ftn62"/>P:Egypt</note>
+                     </state>
+                     <floruit>2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

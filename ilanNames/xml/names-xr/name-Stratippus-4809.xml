@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Stratippus-Στράτιππος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Stratippus-Vol-3-G_M"
+                type="name"
+                n="Stratippus-Στράτιππος"
+                xml:id="name-Stratippus-d1e523100">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4148"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e71716-person"
+                          n="Vol-3-G_M-Greek-Males-Stratippus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Στράτιππος</persName>
+                     <persName type="lemma" xml:lang="en">Stratippus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e71749-person" type="relation" n="son-of">Stratippus (2)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Samaria, Wilcken</note>
+                     </state>
+                     <bibl>CPJ28</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4149"/>P:Egypt</note>
+                     </state>
+                     <floruit>155-144 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4150"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e71749-person"
+                          n="Vol-3-G_M-Greek-Males-Stratippus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Στράτιππος</persName>
+                     <persName type="lemma" xml:lang="en">Stratippus</persName>
+                     <persName>Στρατίππου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e71716-person" type="relation" n="father-of">Stratippus (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Samaria, Wilcken</note>
+                     </state>
+                     <bibl>CPJ28</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4151"/>P:Egypt</note>
+                     </state>
+                     <floruit>155-144 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4152"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

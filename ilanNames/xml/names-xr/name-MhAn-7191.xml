@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- MāhAnōš-MāhAnōš</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#MhAn-Vol-4-I_M"
+                type="name"
+                n="MāhAnōš-MāhAnōš"
+                xml:id="name-MhAn-d1e623328">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn592"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_M-d8e7001-person" n="Vol-4-I_M-Iranian-Males-MāhAnōš-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">MāhAnōš</persName>
+                     <persName type="lemma" xml:lang="en">MāhAnōš</persName>
+                     <persName>מהאנוש<ref type="note" corresp="#Vol-4-I_M-ftn593"/>
+                     </persName>
+                     <persName>/מתאניש<ref type="note" corresp="#Vol-4-I_M-ftn594"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="son-of">Āzarmī-Dūχt (1)’s son</ref>, <ref corresp="#Vol-4-B_F-d8e205-person" type="relation" n="husband-of">Eve (1)’s husband</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowls</note>
+                     </state>
+                     <bibl>1. Geller,Bible World, 49; 2. Gordon,Orientalia53 (1984) 221</bibl>
+                     <state type="addl-Descr">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-I_M-ftn595"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn596"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

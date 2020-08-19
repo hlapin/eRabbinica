@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ellymas-̓Ελλύμας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Ellymas-Vol-3-G_M"
+                type="name"
+                n="Ellymas-̓Ελλύμας"
+                xml:id="name-Ellymas-d1e496967">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1512"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e25554-person" n="Vol-3-G_M-Greek-Males-Ellymas-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Ελλύμας</persName>
+                     <persName type="lemma" xml:lang="en">Ellymas</persName>
+                     <persName>̓Ελύμας<ref type="note" corresp="#Vol-3-G_M-ftn1513"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="son-of">Joshua (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Acts 13:6 (VKGNT 378)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1514"/>P:Cyprus</note>
+                     </state>
+                     <floruit>47-9 CE<ref type="note" corresp="#Vol-3-G_M-ftn1515"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e25593-person" n="Vol-3-G_M-Greek-Males-Ellymas-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Ελλύμας</persName>
+                     <persName type="lemma" xml:lang="en">Ellymas</persName>
+                     <persName>Alumas<ref type="note" corresp="#Vol-3-G_M-ftn1516"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ260</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1517"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

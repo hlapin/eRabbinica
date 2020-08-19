@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Anastasia-̓Αναστασία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Anastasia-Vol-3-G_F"
+                type="name"
+                n="Anastasia-̓Αναστασία"
+                xml:id="name-Anastasia-d1e471452">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn98"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e1700-person"
+                          n="Vol-3-G_F-Greek-Females-Anastasia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Αναστασία</persName>
+                     <persName type="lemma" xml:lang="en">Anastasia</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Paribeni</note>
+                     </state>
+                     <bibl>CIJ298</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn99"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e1735-person"
+                          n="Vol-3-G_F-Greek-Females-Anastasia-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Αναστασία</persName>
+                     <persName type="lemma" xml:lang="en">Anastasia</persName>
+                     <persName>Anestase<ref type="note" corresp="#Vol-3-G_F-ftn100"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Maffei,CIJ481</note>
+                     </state>
+                     <bibl>JIWE2, 199</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn101"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e1784-person"
+                          n="Vol-3-G_F-Greek-Females-Anastasia-3">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Αναστασία</persName>
+                     <persName type="lemma" xml:lang="en">Anastasia</persName>
+                     <persName>–DsEsther (4)’s mother</persName>
+                     <state type="provenance">
+                        <note>Epitaph on glass, Schwabe &amp; Reifenberg</note>
+                     </state>
+                     <bibl>CIJ732</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn102"/>P:Rome</note>
+                     </state>
+                     <floruit>4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

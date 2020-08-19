@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sharaḥbi’il-شرحبال</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-4-ADD-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Sharahbiil-Vol-2-Vol-4-ADD-A_M"
+                type="name"
+                n="Sharaḥbi’il-شرحبال"
+                xml:id="name-Sharahbiil-d1e452692">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-4-ADD-A_M-ftn55"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-4-ADD-A_M-d8e727-person"
+                          n="Vol-2-Vol-4-ADD-A_M-Arabic-Males-Sharaḥbi’il-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">شرحبال</persName>
+                     <persName type="lemma" xml:lang="en">Sharaḥbi’il</persName>
+                     <persName>שרחבאל<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn56"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn57"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedication inscription, Rayda Yemen</note>
+                     </state>
+                     <bibl>Ryckmans,Museon68 (1955) 309</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn58"/>P:Arabia</note>
+                     </state>
+                     <floruit>450-63 CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn59"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-4-ADD-A_M-d8e773-person"
+                          n="Vol-2-Vol-4-ADD-A_M-Arabic-Males-Sharaḥbi’il-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">شرحبال</persName>
+                     <persName type="lemma" xml:lang="en">Sharaḥbi’il</persName>
+                     <persName>–<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn60"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Robin, “Ḥimyar et Israel,” p. 898</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn61"/>P:Arabia</note>
+                     </state>
+                     <floruit>465-85 CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn62"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

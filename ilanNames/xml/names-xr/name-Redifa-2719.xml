@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Redifa-רדיפא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Redifa-Vol-2-S-H_M"
+                type="name"
+                n="Redifa-רדיפא"
+                xml:id="name-Redifa-d1e432853">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn1512"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e23991-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Redifa-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">רדיפא</persName>
+                     <persName type="lemma" xml:lang="en">Redifa</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>yPea4:6, 18b (Kosovsky,Yerushalmi, 637)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn1513"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-S-H_M-d8e24022-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Redifa-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">רדיפא</persName>
+                     <persName type="lemma" xml:lang="en">Redifa</persName>
+                     <persName>רדיפה<ref type="note" corresp="#Vol-2-S-H_M-ftn1514"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e30204-person" type="relation" n="father-of">Isaac (15)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>yShevi9:4, 39a (Kosovsky,Yerushalmi, 446)</bibl>
+                     <state type="addl-Descr">
+                        <note>Babylonian?<ref type="note" corresp="#Vol-2-S-H_M-ftn1515"/>
+                        </note>
+                     </state>
+                     <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1516"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Neilos-Neilos</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Neilos-Vol-3-E_M"
+                type="name"
+                n="Neilos-Neilos"
+                xml:id="name-Neilos-d1e464129">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn234"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e3923-person" n="Vol-3-E_M-Egyptian-Males-Neilos-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Neilos</persName>
+                     <persName type="lemma" xml:lang="en">Neilos</persName>
+                     <persName>Νείλου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-E_M-ftn235"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Magdola</note>
+                     </state>
+                     <bibl>P. Enteuxis 64</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn236"/>P:Egypt</note>
+                     </state>
+                     <floruit>281-246 BCE<ref type="note" corresp="#Vol-3-E_M-ftn237"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

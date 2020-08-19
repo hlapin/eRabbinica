@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aq‘aq-עקאק</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Aqaq-Vol-2-Vol-1-ADD-P_M"
+                type="name"
+                n="Aq‘aq-עקאק"
+                xml:id="name-Aqaq-d1e450542">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-P_M-ftn142"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-P_M-d8e2117-person"
+                          n="Vol-2-Vol-1-ADD-P_M-Persian-Males-Aq‘aq-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">עקאק</persName>
+                     <persName type="lemma" xml:lang="en">Aq‘aq</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Mt. Gerizim</note>
+                     </state>
+                     <bibl>Gerizim36</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn143"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-110 BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn144"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

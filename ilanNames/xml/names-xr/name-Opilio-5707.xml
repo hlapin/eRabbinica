@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Opilio-Opilio</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Opilio-Vol-3-L_M"
+                type="name"
+                n="Opilio-Opilio"
+                xml:id="name-Opilio-d1e555348">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1826"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e30632-person" n="Vol-3-L_M-Latin-Males-Opilio-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Opilio</persName>
+                     <persName type="lemma" xml:lang="en">Opilio</persName>
+                     <persName>Opillonis<ref type="note" corresp="#Vol-3-L_M-ftn1827"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Asella (2) and <ref corresp="#Vol-3-B_F-d8e7923-person" type="relation" n="father-of">Sarah (17)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Venosa, Angelis &amp; Smith,CIJ608</note>
+                     </state>
+                     <bibl>JIWE1, 89</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1828"/>P:Italy</note>
+                     </state>
+                     <floruit>5th-6thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

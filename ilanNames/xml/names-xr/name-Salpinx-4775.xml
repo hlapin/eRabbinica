@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Salpinx-Σάλπιγξ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Salpinx-Vol-3-G_M"
+                type="name"
+                n="Salpinx-Σάλπιγξ"
+                xml:id="name-Salpinx-d1e521978">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4050"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e70065-person" n="Vol-3-G_M-Greek-Males-Salpinx-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Σάλπιγξ</persName>
+                     <persName type="lemma" xml:lang="en">Salpinx</persName>
+                     <persName>Salpingius</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Gregorius, I, 42,CCSL140, 49</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4051"/>P:Sicily</note>
+                     </state>
+                     <floruit>591 CE<ref type="note" corresp="#Vol-3-G_M-ftn4052"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e70097-person" n="Vol-3-G_M-Greek-Males-Salpinx-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Σάλπιγξ</persName>
+                     <persName type="lemma" xml:lang="en">Salpinx</persName>
+                     <persName>Σαλπίνγιους<ref type="note" corresp="#Vol-3-G_M-ftn4053"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn4054"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ162</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4055"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

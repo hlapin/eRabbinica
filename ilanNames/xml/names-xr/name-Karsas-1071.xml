@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Karsas-Karsas</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Karsas-Vol-1-P_M"
+                type="name"
+                n="Karsas-Karsas"
+                xml:id="name-Karsas-d1e282623">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-P_M-ftn125"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-P_M-d2e1783-person" n="Vol-1-P_M-Karsas-1">
+                     <persName type="lemma">Karsas</persName>
+                     <persName type="lemma" xml:lang="en">Karsas</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">קרסא<ref type="note" corresp="#Vol-1-P_M-ftn126"/>
+                     </persName>
+                     <persName xml:lang="gr">Κασσα<ref type="note" corresp="#Vol-1-P_M-ftn127"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Qat‘a</note>
+                     </state>
+                     <bibl>Avigad,EI8 (1967) 126</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-P_M-ftn128"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

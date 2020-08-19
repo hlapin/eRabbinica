@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sisenna-Sisenna</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Sisenna-Vol-1-L_M names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Sisenna-Vol-2-L_M"
+                type="name"
+                n="Sisenna-Sisenna"
+                xml:id="name-Sisenna-d1e278191">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-L_M-ftn339"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn802"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-L_M-d2e5031-person" n="Vol-1-L_M-Sisenna-1">
+                     <persName type="lemma">Sisenna</persName>
+                     <persName type="lemma" xml:lang="en">Sisenna</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Σισέννας<ref type="note" corresp="#Vol-1-L_M-ftn340"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e28877-person" type="relation" n="father-of">Jonathan (16)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Vita190 (Schalit,NB, 114)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>67 CE<ref type="note" corresp="#Vol-1-L_M-ftn341"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-L_M-d8e10560-person" n="Vol-2-L_M-Latin-Males-Sisenna-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Sisenna</persName>
+                     <persName type="lemma" xml:lang="en">Sisenna</persName>
+                     <persName>סיסינה<ref type="note" corresp="#Vol-2-L_M-ftn803"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Temple Mount, Jerusalem, Mayer</note>
+                     </state>
+                     <bibl>CIJ1398</bibl>
+                     <state type="addl-Descr">
+                        <note>Late?<ref type="note" corresp="#Vol-2-L_M-ftn804"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-650?<ref type="note" corresp="#Vol-2-L_M-ftn805"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-L_M-d8e10591-person" n="Vol-2-L_M-Latin-Males-Sisenna-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Sisenna</persName>
+                     <persName type="lemma" xml:lang="en">Sisenna</persName>
+                     <persName>Σησηνίου<ref type="note" corresp="#Vol-2-L_M-ftn806"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Cattulus (1), <ref corresp="#Vol-2-G_M-d8e11949-person" type="relation" n="father-of">Leontius (6)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Caesarea</note>
+                     </state>
+                     <bibl>Lehmann &amp; Holum,CMER5, no. 168</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-2-L_M-ftn807"/>
+                        </note>
+                     </state>
+                     <floruit>4th-6thC</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

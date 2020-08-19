@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Anthony-Anthony</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Anthony-Vol-1-L_M"
+                type="name"
+                n="Anthony-Anthony"
+                xml:id="name-Anthony-d1e253966">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-L_M-ftn49"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-L_M-d2e788-person" n="Vol-1-L_M-Anthony-1">
+                     <persName type="lemma">Anthony</persName>
+                     <persName type="lemma" xml:lang="en">Anthony</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">̓Αντώνιος<ref type="note" corresp="#Vol-1-L_M-ftn50"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Acta Pilati A:2 (Tischendorf,EA226)</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-1-L_M-ftn51"/>
+                        </note>
+                     </state>
+                     <floruit>30 CE<ref type="note" corresp="#Vol-1-L_M-ftn52"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-L_M-d2e824-person" n="Vol-1-L_M-Anthony-2">
+                     <persName type="lemma">Anthony</persName>
+                     <persName type="lemma" xml:lang="en">Anthony</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">̓Αντώνιος<ref type="note" corresp="#Vol-1-L_M-ftn53"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Clementine Homilies 2:22 (PG2, 96)</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-1-L_M-ftn54"/>
+                        </note>
+                     </state>
+                     <floruit>1stC CE<ref type="note" corresp="#Vol-1-L_M-ftn55"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

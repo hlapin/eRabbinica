@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Asʿad-اسعد</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Asad-Vol-4-A_M"
+                type="name"
+                n="Asʿad-اسعد"
+                xml:id="name-Asad-d1e576073">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn58"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e687-person" n="Vol-4-A_M-Arabic-Males-Asʿad-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">اسعد</persName>
+                     <persName type="lemma" xml:lang="en">Asʿad</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Tibān (1), Karib (1), Dhū <ref corresp="#Vol-4-A_M-d8e4614-person" type="relation" n="father-of">Nuwās (1)’s father</ref>?<ref type="note" corresp="#Vol-4-A_M-ftn59"/>
+                           <ref type="note" corresp="#Vol-4-A_M-ftn60"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Ibn Hishām,Leben Muhammed’s, 12</bibl>
+                     <state type="addl-Descr">
+                        <note>Proselyte<ref type="note" corresp="#Vol-4-A_M-ftn61"/>; second nameP:Arab. Pen.</note>
+                     </state>
+                     <floruit>385-420 CE<ref type="note" corresp="#Vol-4-A_M-ftn62"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ingenia-Ingenia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Ingenia-Vol-3-L_F"
+                type="name"
+                n="Ingenia-Ingenia"
+                xml:id="name-Ingenia-d1e534438">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn558"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e22517-person"
+                          n="Vol-3-L_F-Latin-Females-Ingenia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Ingenia</persName>
+                     <persName type="lemma" xml:lang="en">Ingenia</persName>
+                     <persName>Ingenua<ref type="note" corresp="#Vol-3-L_F-ftn559"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Claudia (5) <ref corresp="#Vol-3-L_F-d8e27227-person" type="relation" n="sister-of">Maximilla (1)’s sister</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Alberti-Irsa, Mommsen</note>
+                     </state>
+                     <bibl>CIJ64*</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn560"/>P:Pannonia</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn561"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

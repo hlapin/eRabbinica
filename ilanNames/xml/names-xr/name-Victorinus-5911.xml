@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Victorinus-Victorinus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Victorinus-Vol-3-L_M"
+                type="name"
+                n="Victorinus-Victorinus"
+                xml:id="name-Victorinus-d1e562643">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2528"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e42252-person"
+                          n="Vol-3-L_M-Latin-Males-Victorinus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Victorinus</persName>
+                     <persName type="lemma" xml:lang="en">Victorinus</persName>
+                     <persName>Victorino</persName>
+                     <state type="desc">
+                        <note>Maecius (2) Lucius (7), Lucius (5) <ref corresp="#Vol-3-L_M-d8e25465-person" type="relation" n="son-of">Maecius (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Müller</note>
+                     </state>
+                     <bibl>CIJ470</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2529"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e42289-person"
+                          n="Vol-3-L_M-Latin-Males-Victorinus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Victorinus</persName>
+                     <persName type="lemma" xml:lang="en">Victorinus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Carthage</note>
+                     </state>
+                     <bibl>Le Bohec,Ant. Afr.17 (1981) no. 20</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2530"/>P:North Africa</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn2531"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

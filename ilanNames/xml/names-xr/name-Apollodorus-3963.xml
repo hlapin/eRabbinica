@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Apollodorus-̓Απολλόδωρος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Apollodorus-Vol-3-G_M"
+                type="name"
+                n="Apollodorus-̓Απολλόδωρος"
+                xml:id="name-Apollodorus-d1e489276">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn527"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e9014-person"
+                          n="Vol-3-G_M-Greek-Males-Apollodorus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Απολλόδωρος</persName>
+                     <persName type="lemma" xml:lang="en">Apollodorus</persName>
+                     <persName>Απολλοδώρου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e16688-person" type="relation" n="father-of">Plusia (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Heracleopolis</note>
+                     </state>
+                     <bibl>PC29 (2001) 8</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn528"/>P:Egypt</note>
+                     </state>
+                     <floruit>138-133 BCE<ref type="note" corresp="#Vol-3-G_M-ftn529"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e9049-person"
+                          n="Vol-3-G_M-Greek-Males-Apollodorus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Απολλόδωρος</persName>
+                     <persName type="lemma" xml:lang="en">Apollodorus</persName>
+                     <persName>אפלו[דורוס]<ref type="note" corresp="#Vol-3-G_M-ftn530"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Alexandria, Clermont-Ganneau</note>
+                     </state>
+                     <bibl>CIJ1425</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn531"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e9086-person"
+                          n="Vol-3-G_M-Greek-Males-Apollodorus-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Απολλόδωρος</persName>
+                     <persName type="lemma" xml:lang="en">Apollodorus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e4931-person" type="relation" n="son-of">Zabdiel (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Hermopolis, Jouguet</note>
+                     </state>
+                     <bibl>JIGRE155:124</bibl>
+                     <state type="addl-Descr">
+                        <note>Idumean<ref type="note" corresp="#Vol-3-G_M-ftn532"/>P:Egypt</note>
+                     </state>
+                     <floruit>79 BCE<ref type="note" corresp="#Vol-3-G_M-ftn533"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e9117-person"
+                          n="Vol-3-G_M-Greek-Males-Apollodorus-4">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Απολλόδωρος</persName>
+                     <persName type="lemma" xml:lang="en">Apollodorus</persName>
+                     <persName>̓Απολλοδώρω</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="father-of">Joshua (22)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Oliverio</note>
+                     </state>
+                     <bibl>CJZC52d</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn534"/>P:Cyreniaca</note>
+                     </state>
+                     <floruit>Pre-117 CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

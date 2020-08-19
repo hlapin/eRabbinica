@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Megale-Μεγάλη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Megale-Vol-2-G_F"
+                type="name"
+                n="Megale-Μεγάλη"
+                xml:id="name-Megale-d1e351962">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_F-ftn239"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_F-d8e3596-person" n="Vol-2-G_F-Greek-Females-Megale-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Μεγάλη</persName>
+                     <persName type="lemma" xml:lang="en">Megale</persName>
+                     <persName>מגלי<ref type="note" corresp="#Vol-2-G_F-ftn240"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_F-d8e4081-person" type="relation" n="mother-of">Nonna (2)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Amulet, private collection</note>
+                     </state>
+                     <bibl>MSFno. 25</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-G_F-ftn241"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_F-d8e3624-person" n="Vol-2-G_F-Greek-Females-Megale-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Μεγάλη</persName>
+                     <persName type="lemma" xml:lang="en">Megale</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e6661-person" type="relation" n="mother-of">Eusebius (5)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Amulet, Hebron?<ref type="note" corresp="#Vol-2-G_F-ftn242"/>
+                        </note>
+                     </state>
+                     <bibl>Lifschitz,RB77 (1970) 81</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn243"/>Name?<ref type="note" corresp="#Vol-2-G_F-ftn244"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-G_F-ftn245"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_F-d8e3676-person" n="Vol-2-G_F-Greek-Females-Megale-3">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Μεγάλη</persName>
+                     <persName type="lemma" xml:lang="en">Megale</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e7319-person" type="relation" n="wife-of">Zeuxius (1)’s wife</ref>, <ref corresp="#Vol-2-L_M-d8e6886-person" type="relation" n="mother-of">Lucius (3)’s mother</ref>?<ref type="note" corresp="#Vol-2-G_F-ftn246"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Elijah’s Cave</note>
+                     </state>
+                     <bibl>Appendix, no. 44</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn247"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-8thC<ref type="note" corresp="#Vol-2-G_F-ftn248"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

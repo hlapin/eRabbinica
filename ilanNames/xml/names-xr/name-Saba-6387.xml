@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sabaʿ-سبع</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Saba-Vol-4-A_M"
+                type="name"
+                n="Sabaʿ-سبع"
+                xml:id="name-Saba-d1e581960">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn523"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e6433-person" n="Vol-4-A_M-Arabic-Males-Sabaʿ-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">سبع</persName>
+                     <persName type="lemma" xml:lang="en">Sabaʿ</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e16457-person" type="relation" n="son-of">Malkiah (7)’s son</ref>, <ref corresp="#Vol-4-A_M-d8e8492-person" type="relation" n="father-of">ʿAbdullah (6)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Musʿab,nasab, 92</bibl>
+                     <state type="addl-Descr">
+                        <note>Proselyte?<ref type="note" corresp="#Vol-4-A_M-ftn524"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>5thC CE<ref type="note" corresp="#Vol-4-A_M-ftn525"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

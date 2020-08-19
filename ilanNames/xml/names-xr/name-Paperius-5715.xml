@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Paperius-Paperius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Paperius-Vol-3-L_M"
+                type="name"
+                n="Paperius-Paperius"
+                xml:id="name-Paperius-d1e555546">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1843"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e30897-person" n="Vol-3-L_M-Latin-Males-Paperius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Paperius</persName>
+                     <persName type="lemma" xml:lang="en">Paperius</persName>
+                     <persName>Papario<ref type="note" corresp="#Vol-3-L_M-ftn1844"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Petrus (2), <ref corresp="#Vol-3-G_M-d8e61305-person" type="relation" n="son-of">Olympius (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Mosaic Epitaph, Aquileia, Brusin</note>
+                     </state>
+                     <bibl>CIJ643a</bibl>
+                     <state type="addl-Descr">
+                        <note>Christian convert<ref type="note" corresp="#Vol-3-L_M-ftn1845"/>P:Italy</note>
+                     </state>
+                     <floruit>5thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

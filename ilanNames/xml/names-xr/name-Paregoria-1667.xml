@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Paregoria-Παρηγορία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Paregoria-Vol-2-G_F"
+                type="name"
+                n="Paregoria-Παρηγορία"
+                xml:id="name-Paregoria-d1e352891">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_F-ftn285"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_F-d8e4320-person"
+                          n="Vol-2-G_F-Greek-Females-Paregoria-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Παρηγορία</persName>
+                     <persName type="lemma" xml:lang="en">Paregoria</persName>
+                     <persName>פריגרי<ref type="note" corresp="#Vol-2-G_F-ftn286"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e17353-person"
+                                type="relation"
+                                n="daughter-of">Judah (101)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Sepphoris</note>
+                     </state>
+                     <bibl>Weiss,Sepphoris Synagogue, no. 3</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>5th-7thC<ref type="note" corresp="#Vol-2-G_F-ftn287"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

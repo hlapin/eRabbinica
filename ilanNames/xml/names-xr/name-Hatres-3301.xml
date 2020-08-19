@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Hatres-Hatres</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Hatres-Vol-3-E_M"
+                type="name"
+                n="Hatres-Hatres"
+                xml:id="name-Hatres-d1e462866">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn166"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e2716-person" n="Vol-3-E_M-Egyptian-Males-Hatres-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Hatres</persName>
+                     <persName type="lemma" xml:lang="en">Hatres</persName>
+                     <persName>̔Ατρῆς</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e29784-person" type="relation" n="son-of">Shabtai (56)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Fayum, Krebs</note>
+                     </state>
+                     <bibl>CPJ491</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn167"/>P:Egypt</note>
+                     </state>
+                     <floruit>157 CE<ref type="note" corresp="#Vol-3-E_M-ftn168"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

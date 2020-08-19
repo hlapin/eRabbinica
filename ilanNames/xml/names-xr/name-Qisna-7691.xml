@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Qisna-קיסנא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Qisna-Vol-4-S-H_M"
+                type="name"
+                n="Qisna-קיסנא"
+                xml:id="name-Qisna-d1e649696">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn2231"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e32110-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Qisna-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">קיסנא</persName>
+                     <persName type="lemma" xml:lang="en">Qisna</persName>
+                     <persName>קטינא<ref type="note" corresp="#Vol-4-S-H_M-ftn2232"/>
+                     </persName>
+                     <persName>/קסנא<ref type="note" corresp="#Vol-4-S-H_M-ftn2233"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e8748-person" type="relation" n="father-of">Ṭobiah (9)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bQid39b (Kosowsky,Babylonico, 1236)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2234"/>P:Babylonia</note>
+                     </state>
+                     <floruit>3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2235"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

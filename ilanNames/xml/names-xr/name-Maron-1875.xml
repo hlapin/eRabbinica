@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Maron-Μάρων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Maron-Vol-2-G_M"
+                type="name"
+                n="Maron-Μάρων"
+                xml:id="name-Maron-d1e367527">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn855"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e12879-person" n="Vol-2-G_M-Greek-Males-Maron-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μάρων</persName>
+                     <persName type="lemma" xml:lang="en">Maron</persName>
+                     <persName>Μάρωνος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-S-H_M-d8e14038-person"
+                                type="relation"
+                                n="father-of">Ḥalafta (7)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1b, no. 14</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn856"/>
+                        </note>
+                     </state>
+                     <floruit>398<ref type="note" corresp="#Vol-2-G_M-ftn857"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_M-d8e12908-person" n="Vol-2-G_M-Greek-Males-Maron-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μάρων</persName>
+                     <persName type="lemma" xml:lang="en">Maron</persName>
+                     <persName>Μαρουνιου<ref type="note" corresp="#Vol-2-G_M-ftn858"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Jaffa</note>
+                     </state>
+                     <bibl>Levy,ESI12 (1993) 47</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-2-G_M-ftn859"/>
+                        </note>
+                     </state>
+                     <floruit>3rdC</floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_M-d8e12950-person" n="Vol-2-G_M-Greek-Males-Maron-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μάρων</persName>
+                     <persName type="lemma" xml:lang="en">Maron</persName>
+                     <persName>Μαρόνη<ref type="note" corresp="#Vol-2-G_M-ftn860"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Ayelet Ha-Shahar<ref type="note" corresp="#Vol-2-G_M-ftn861"/>
+                        </note>
+                     </state>
+                     <bibl>Damati,Atiqot35 (1998) 153</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn862"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-G_M-ftn863"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

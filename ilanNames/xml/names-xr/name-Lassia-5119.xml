@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Lassia-Lassia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Lassia-Vol-3-L_F"
+                type="name"
+                n="Lassia-Lassia"
+                xml:id="name-Lassia-d1e534765">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn654"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e24323-person" n="Vol-3-L_F-Latin-Females-Lassia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Lassia</persName>
+                     <persName type="lemma" xml:lang="en">Lassia</persName>
+                     <persName>Lasif<ref type="note" corresp="#Vol-3-L_F-ftn655"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Eirene (7), Samuel (18) <ref corresp="#Vol-3-L_M-d8e5575-person" type="relation" n="wife-of">Aurelius (20)’s wife</ref>, aged 22<ref type="note" corresp="#Vol-3-L_F-ftn656"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Catania, Libertini,CIJ650</note>
+                     </state>
+                     <bibl>JIWE1, 145</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn657"/>P:Sicily</note>
+                     </state>
+                     <floruit>383 CE<ref type="note" corresp="#Vol-3-L_F-ftn658"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

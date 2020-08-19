@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Kabnōē-Kabnōē</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_F-Iranian-Females-to-utf-TEI-P5-names.xml/#Kabn-Vol-4-I_F"
+                type="name"
+                n="Kabnōē-Kabnōē"
+                xml:id="name-Kabn-d1e607427">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_F-ftn498"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_F-d8e6088-person"
+                          n="Vol-4-I_F-Iranian-Females-Kabnōē-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Kabnōē</persName>
+                     <persName type="lemma" xml:lang="en">Kabnōē</persName>
+                     <persName>כפנאי<ref type="note" corresp="#Vol-4-I_F-ftn499"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="mother-of">Nēwān-Dūχt (2)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowls, Nippur, Montgomery-Gordon</note>
+                     </state>
+                     <bibl>1. Isbell, no. 14; 2. no. 16, 17</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn500"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn501"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_F-d8e6126-person"
+                          n="Vol-4-I_F-Iranian-Females-Kabnōē-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Kabnōē</persName>
+                     <persName type="lemma" xml:lang="en">Kabnōē</persName>
+                     <persName>ק[בנ]י<ref type="note" corresp="#Vol-4-I_F-ftn502"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_F-d8e6304-person" type="relation" n="mother-of">Kayumta (3)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Hebrew University</note>
+                     </state>
+                     <bibl>AMBno. 4</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn503"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn504"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ʿAza-עזא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Aza-Vol-4-S-H_M"
+                type="name"
+                n="ʿAza-עזא"
+                xml:id="name-Aza-d1e648539">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn2119"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e30572-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-ʿAza-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">עזא</persName>
+                     <persName type="lemma" xml:lang="en">ʿAza</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e7868-person" type="relation" n="father-of">Ada (26)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bQid81b (Kosowsky,Babylonico, 1151)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2120"/>P:Babylonia</note>
+                     </state>
+                     <floruit>4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2121"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_M-d8e30612-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-ʿAza-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">עזא</persName>
+                     <persName type="lemma" xml:lang="en">ʿAza</persName>
+                     <persName>עזה<ref type="note" corresp="#Vol-4-S-H_M-ftn2122"/>
+                     </persName>
+                     <persName>/עות<ref type="note" corresp="#Vol-4-S-H_M-ftn2123"/>
+                     </persName>
+                     <persName>/אזלת<ref type="note" corresp="#Vol-4-S-H_M-ftn2124"/>
+                     </persName>
+                     <persName>/אילת<ref type="note" corresp="#Vol-4-S-H_M-ftn2125"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e17383-person" type="relation" n="son-of">Manaseh (11)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bSan19a (Kosowsky,Babylonico, 1025)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2126"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2127"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_M-d8e30662-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-ʿAza-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">עזא</persName>
+                     <persName type="lemma" xml:lang="en">ʿAza</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e3246-person" type="relation" n="father-of">Abba (73)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bTem21a (Kosowsky,Babylonico, 1151)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2128"/>P:Babylonia</note>
+                     </state>
+                     <floruit>3rd-4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2129"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

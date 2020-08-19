@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Quinta-Quinta</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Quinta-Vol-3-L_F"
+                type="name"
+                n="Quinta-Quinta"
+                xml:id="name-Quinta-d1e539434">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn1019"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e30453-person" n="Vol-3-L_F-Latin-Females-Quinta-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Quinta</persName>
+                     <persName type="lemma" xml:lang="en">Quinta</persName>
+                     <persName>Κοϊντα<ref type="note" corresp="#Vol-3-L_F-ftn1020"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Cleupis (1), <ref corresp="#" type="relation" n="wife-of">Judah (42)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Larissa, Oehler</note>
+                     </state>
+                     <bibl>CIJ698</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn1021"/>; second nameP:Greece</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn1022"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

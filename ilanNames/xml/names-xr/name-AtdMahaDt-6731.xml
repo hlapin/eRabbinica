@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- AštādMahaDūχt-AštādMahaDūχt</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_F-Iranian-Females-to-utf-TEI-P5-names.xml/#AtdMahaDt-Vol-4-I_F"
+                type="name"
+                n="AštādMahaDūχt-AštādMahaDūχt"
+                xml:id="name-AtdMahaDt-d1e602923">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_F-ftn75"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_F-d8e879-person"
+                          n="Vol-4-I_F-Iranian-Females-AštādMahaDūχt-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">AštādMahaDūχt</persName>
+                     <persName type="lemma" xml:lang="en">AštādMahaDūχt</persName>
+                     <persName>אשתר מהדיוך<ref type="note" corresp="#Vol-4-I_F-ftn76"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Jeruzalmi</note>
+                     </state>
+                     <bibl>Isbell, no. 66</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn77"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn78"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

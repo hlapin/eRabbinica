@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Cratisthenes-Κρατισθένης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Cratisthenes-Vol-3-G_M"
+                type="name"
+                n="Cratisthenes-Κρατισθένης"
+                xml:id="name-Cratisthenes-d1e509595">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2952"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e51202-person"
+                          n="Vol-3-G_M-Greek-Males-Cratisthenes-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Κρατισθένης</persName>
+                     <persName type="lemma" xml:lang="en">Cratisthenes</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e12927-person" type="relation" n="son-of">Archias (1)’s son</ref>, priest<ref type="note" corresp="#Vol-3-G_M-ftn2953"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Donors inscription, Berenice, Caputo</note>
+                     </state>
+                     <bibl>CJZC72</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2954"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>55/6 CE<ref type="note" corresp="#Vol-3-G_M-ftn2955"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

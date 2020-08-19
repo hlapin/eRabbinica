@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Curtius-Curtius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Curtius-Vol-3-L_M"
+                type="name"
+                n="Curtius-Curtius"
+                xml:id="name-Curtius-d1e549082">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn805"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e13517-person" n="Vol-3-L_M-Latin-Males-Curtius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Curtius</persName>
+                     <persName type="lemma" xml:lang="en">Curtius</persName>
+                     <persName>Κόρτιος<ref type="note" corresp="#Vol-3-L_M-ftn806"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Aurelius (73) Alexander (53), <ref corresp="#Vol-3-L_M-d8e24953-person" type="relation" n="son-of">Lucius (20)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Miranda</note>
+                     </state>
+                     <bibl>IJO2, 207</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn807"/>; second nameP:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

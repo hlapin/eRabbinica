@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Beroqa-ברוקא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Beroqa-Vol-1-S-H_M names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Beroqa-Vol-4-S-H_M"
+                type="name"
+                n="Beroqa-ברוקא"
+                xml:id="name-Beroqa-d1e305937">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-H_M-ftn138"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn826"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-H_M-d2e2194-person" n="Vol-1-S-H_M-Beroqa-1">
+                     <persName type="lemma">ברוקא</persName>
+                     <persName type="lemma" xml:lang="en">Beroqa</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>mAb4:4 (Kasovsky,Mishnae, 412)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn139"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-135 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn140"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-S-H_M-d2e2225-person" n="Vol-1-S-H_M-Beroqa-2">
+                     <persName type="lemma">ברוקא</persName>
+                     <persName type="lemma" xml:lang="en">Beroqa</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">ברקי<ref type="note" corresp="#Vol-1-S-H_M-ftn141"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e16915-person" type="relation" n="father-of">Yehu (2)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Masada</note>
+                     </state>
+                     <bibl>Mas no. 398</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn142"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-73 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn143"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_M-d8e11949-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Beroqa-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">ברוקא</persName>
+                     <persName type="lemma" xml:lang="en">Beroqa</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-S-H_M-ftn827"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bTaʿan22a (Kosowsky,Babylonico, 326)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn828"/>P:Babylonia<ref type="note" corresp="#Vol-4-S-H_M-ftn829"/>
+                        </note>
+                     </state>
+                     <floruit>Post-200 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn830"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

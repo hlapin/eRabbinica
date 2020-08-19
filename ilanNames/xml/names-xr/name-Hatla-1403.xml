@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Hatla-חטלא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Hatla-Vol-1-S-H_M"
+                type="name"
+                n="Hatla-חטלא"
+                xml:id="name-Hatla-d1e312646">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-H_M-ftn438"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-H_M-d2e6385-person" n="Vol-1-S-H_M-Hatla-1">
+                     <persName type="lemma">חטלא</persName>
+                     <persName type="lemma" xml:lang="en">Hatla</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, list, Jericho</note>
+                     </state>
+                     <bibl>Jer 1</bibl>
+                     <state type="addl-Descr">
+                        <note>Second name<ref type="note" corresp="#Vol-1-S-H_M-ftn439"/>
+                        </note>
+                     </state>
+                     <floruit>Post-323 BCE<ref type="note" corresp="#Vol-1-S-H_M-ftn440"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-S-H_M-d2e6413-person" n="Vol-1-S-H_M-Hatla-2">
+                     <persName type="lemma">חטלא</persName>
+                     <persName type="lemma" xml:lang="en">Hatla</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-1-S-H_M-ftn441"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Jar, Qumran</note>
+                     </state>
+                     <bibl>Vaux,RB61 (1954) 208</bibl>
+                     <state type="addl-Descr">
+                        <note>Second name<ref type="note" corresp="#Vol-1-S-H_M-ftn442"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn443"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

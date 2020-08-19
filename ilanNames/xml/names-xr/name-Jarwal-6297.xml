@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Jarwal-جرول</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Jarwal-Vol-4-A_M"
+                type="name"
+                n="Jarwal-جرول"
+                xml:id="name-Jarwal-d1e577818">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn199"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e2511-person" n="Vol-4-A_M-Arabic-Males-Jarwal-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">جرول</persName>
+                     <persName type="lemma" xml:lang="en">Jarwal</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e16579-person" type="relation" n="son-of">Malkiah (10)’s son</ref>, <ref corresp="#Vol-4-I_F-d8e4483-person" type="relation" n="father-of">Hindōē (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Ibn al-Kalbī,jamharat al-nasab,626</bibl>
+                     <state type="addl-Descr">
+                        <note>Proselyte?<ref type="note" corresp="#Vol-4-A_M-ftn200"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>6thC CE<ref type="note" corresp="#Vol-4-A_M-ftn201"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Burfa-בורפא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Burfa-Vol-4-S-H_M"
+                type="name"
+                n="Burfa-בורפא"
+                xml:id="name-Burfa-d1e635104">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn782"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e11306-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Burfa-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">בורפא</persName>
+                     <persName type="lemma" xml:lang="en">Burfa</persName>
+                     <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn783"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e32928-person" type="relation" n="father-of">Simon (48)’s father</ref>, <ref corresp="#Vol-4-S-H_M-d8e29958-person" type="relation" n="son-of">ʿAgilo (2)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaphs, Palmyra</note>
+                     </state>
+                     <bibl>1. Cantineau,RB39 (1930) 537; 2. Dupont-Sommer,Syria23 (1942-3) 80</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn784"/>P:Palmyra</note>
+                     </state>
+                     <floruit>118 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn785"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_M-d8e11344-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Burfa-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">בורפא</persName>
+                     <persName type="lemma" xml:lang="en">Burfa</persName>
+                     <persName>ברפא<ref type="note" corresp="#Vol-4-S-H_M-ftn786"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e25107-person" type="relation" n="son-of">Maṭan (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Palmyra</note>
+                     </state>
+                     <bibl>Cantineau,RB39 (1930) 537</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn787"/>P:Palmyra</note>
+                     </state>
+                     <floruit>118 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn788"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

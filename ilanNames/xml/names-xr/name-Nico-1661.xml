@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Nico-Νικώ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Nico-Vol-2-G_F names/Vol-2-Vol-1-ADD-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Nico-Vol-2-Vol-1-ADD-G_F"
+                type="name"
+                n="Nico-Νικώ"
+                xml:id="name-Nico-d1e352379">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_F-ftn266"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-G_F-ftn70"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_F-d8e4003-person" n="Vol-2-G_F-Greek-Females-Nico-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Νικώ</persName>
+                     <persName type="lemma" xml:lang="en">Nico</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-L_M-d8e9274-person" type="relation" n="mother-of">Rufus (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Gophna, Schwabe</note>
+                     </state>
+                     <bibl>van Henten,Bulletin of Judaeo–Greek Studies32 (2003) 41</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn267"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-G_F-ftn268"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-G_F-d8e1131-person"
+                          n="Vol-2-Vol-1-ADD-G_F-Greek-Females-Nico-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Νικώ</persName>
+                     <persName type="lemma" xml:lang="en">Nico</persName>
+                     <persName>[Νι]κώ<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn71"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Ophel</note>
+                     </state>
+                     <bibl>Schwabe,ZDPV55 (1932) 238</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn72"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn73"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

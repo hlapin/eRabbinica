@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Melissus-Μέλισσος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Melissus-Vol-3-G_M"
+                type="name"
+                n="Melissus-Μέλισσος"
+                xml:id="name-Melissus-d1e512094">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3165"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e54947-person" n="Vol-3-G_M-Greek-Males-Melissus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μέλισσος</persName>
+                     <persName type="lemma" xml:lang="en">Melissus</persName>
+                     <persName>Melissus</persName>
+                     <state type="desc">
+                        <note>Gaius (37) Vetulenus (1), Marcia (10) Curtia (1) <ref corresp="#Vol-3-G_F-d8e8901-person" type="relation" n="husband-of">Euodia (4)’s husband</ref>, Gaius (38) Vetulenus (2) <ref corresp="#Vol-3-G_M-d8e30964-person" type="relation" n="father-of">Euodus (5)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Capri</note>
+                     </state>
+                     <bibl>Miranda,Capri, 350</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3166"/>P:Italy</note>
+                     </state>
+                     <floruit>1st-2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

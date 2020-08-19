@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ʿAlam-علم</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Alam-Vol-4-A_M"
+                type="name"
+                n="ʿAlam-علم"
+                xml:id="name-Alam-d1e584862">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn749"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e9254-person" n="Vol-4-A_M-Arabic-Males-ʿAlam-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">علم</persName>
+                     <persName type="lemma" xml:lang="en">ʿAlam</persName>
+                     <persName>אלעלם<ref type="note" corresp="#Vol-4-A_M-ftn750"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e30891-person" type="relation" n="father-of">Samuel (47)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Graffito, Madāʾin ṢāliḥMédāin Ṣāleḥ</note>
+                     </state>
+                     <bibl>Jaussen and Savignac, 642</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn751"/>; name?<ref type="note" corresp="#Vol-4-A_M-ftn752"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-4-A_M-ftn753"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

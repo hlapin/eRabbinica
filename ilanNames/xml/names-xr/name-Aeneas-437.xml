@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aeneas-Αἰνείας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Aeneas-Vol-1-G_M"
+                type="name"
+                n="Aeneas-Αἰνείας"
+                xml:id="name-Aeneas-d1e195362">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn12"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e214-person" n="Vol-1-G_M-Aeneas-1">
+                     <persName type="lemma">Αἰνείας</persName>
+                     <persName type="lemma" xml:lang="en">Aeneas</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ5:326 (Schalit,NB, 6)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>70 CE<ref type="note" corresp="#Vol-1-G_M-ftn13"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-G_M-d2e236-person" n="Vol-1-G_M-Aeneas-2">
+                     <persName type="lemma">Αἰνείας</persName>
+                     <persName type="lemma" xml:lang="en">Aeneas</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>Ambassador, <ref corresp="#Vol-1-G_M-d2e2694-person" type="relation" n="son-of">Antipatrus (9)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>AJ14:248 (Schalit,NB, 6)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>105 BCE<ref type="note" corresp="#Vol-1-G_M-ftn14"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-G_M-d2e258-person" n="Vol-1-G_M-Aeneas-3">
+                     <persName type="lemma">Αἰνείας</persName>
+                     <persName type="lemma" xml:lang="en">Aeneas</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Αἰνέας<ref type="note" corresp="#Vol-1-G_M-ftn15"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Acts 9:33 (VKGNT 19)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>30s CE<ref type="note" corresp="#Vol-1-G_M-ftn16"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-G_M-d2e291-person" n="Vol-1-G_M-Aeneas-4">
+                     <persName type="lemma">Αἰνείας</persName>
+                     <persName type="lemma" xml:lang="en">Aeneas</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Clementine Homilies 2:1 (PG2, 77)</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-1-G_M-ftn17"/>
+                        </note>
+                     </state>
+                     <floruit>30s-40s CE<ref type="note" corresp="#Vol-1-G_M-ftn18"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

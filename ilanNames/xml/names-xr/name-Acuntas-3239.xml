@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Acuntas-Acuntas</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Acuntas-Vol-3-E_M"
+                type="name"
+                n="Acuntas-Acuntas"
+                xml:id="name-Acuntas-d1e460507">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn18"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e274-person" n="Vol-3-E_M-Egyptian-Males-Acuntas-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Acuntas</persName>
+                     <persName type="lemma" xml:lang="en">Acuntas</persName>
+                     <persName>̓Ακυντᾶς</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-E_M-ftn19"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostraca, Edfu, Manteuffel</note>
+                     </state>
+                     <bibl>CPJ171, 180</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-E_M-ftn20"/>P:Egypt</note>
+                     </state>
+                     <floruit>75-80 CE<ref type="note" corresp="#Vol-3-E_M-ftn21"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-E_M-d8e312-person" n="Vol-3-E_M-Egyptian-Males-Acuntas-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Acuntas</persName>
+                     <persName type="lemma" xml:lang="en">Acuntas</persName>
+                     <persName>̓Ακυντᾶς</persName>
+                     <floruit>Acuntas (3)’s son</floruit>
+                     <state type="provenance">
+                        <note>Ostracon, Edfu, Manteuffel</note>
+                     </state>
+                     <bibl>CPJ245</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn22"/>P:Egypt</note>
+                     </state>
+                     <floruit>72 CE<ref type="note" corresp="#Vol-3-E_M-ftn23"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-E_M-d8e350-person" n="Vol-3-E_M-Egyptian-Males-Acuntas-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Acuntas</persName>
+                     <persName type="lemma" xml:lang="en">Acuntas</persName>
+                     <persName>̓Ακυντ<ref type="note" corresp="#Vol-3-E_M-ftn24"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-E_M-d8e312-person" type="relation" n="father-of">Acuntas (2)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Edfu, Manteuffel</note>
+                     </state>
+                     <bibl>CPJ245</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn25"/>P:Egypt</note>
+                     </state>
+                     <floruit>72 CE<ref type="note" corresp="#Vol-3-E_M-ftn26"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

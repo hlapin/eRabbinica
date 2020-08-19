@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Longinus-Longinus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Longinus-Vol-3-L_M names/Vol-4-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Longinus-Vol-4-L_M"
+                type="name"
+                n="Longinus-Longinus"
+                xml:id="name-Longinus-d1e552184">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1401"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-L_M-ftn86"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e23570-person" n="Vol-3-L_M-Latin-Males-Longinus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Longinus</persName>
+                     <persName type="lemma" xml:lang="en">Longinus</persName>
+                     <persName>Λονγ[ίνου]<ref type="note" corresp="#Vol-3-L_M-ftn1402"/>
+                     </persName>
+                     <persName>/Λονγίνι<ref type="note" corresp="#Vol-3-L_M-ftn1403"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_F-d8e25291-person" type="relation" n="father-of">Mannina (1)’s father</ref>, <ref corresp="#Vol-3-L_M-d8e15024-person" type="relation" n="son-of">Faustinus (3)’s son</ref>, life officer, father<ref type="note" corresp="#Vol-3-L_M-ftn1404"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaphs, Venosa Angelis &amp; Smith</note>
+                     </state>
+                     <bibl>CIJ589, 590<ref type="note" corresp="#Vol-3-L_M-ftn1405"/>
+                     </bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1406"/>P:Italy</note>
+                     </state>
+                     <floruit>5th-6thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e23646-person" n="Vol-3-L_M-Latin-Males-Longinus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Longinus</persName>
+                     <persName type="lemma" xml:lang="en">Longinus</persName>
+                     <persName>Λονγι<ref type="note" corresp="#Vol-3-L_M-ftn1407"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e35842-person" type="relation" n="father-of">Zenon (12)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+                     </state>
+                     <bibl>IJO2, 14:B36</bibl>
+                     <state type="addl-Descr">
+                        <note>God-fearer<ref type="note" corresp="#Vol-3-L_M-ftn1408"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-4-L_M-d8e941-person" n="Vol-4-L_M-Latin-Males-Longinus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Longinus</persName>
+                     <persName type="lemma" xml:lang="en">Longinus</persName>
+                     <persName>Longinoz<ref type="note" corresp="#Vol-4-L_M-ftn87"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-L_M-ftn88"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Conversion of Kartli106</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-L_M-ftn89"/>; fictitious<ref type="note" corresp="#Vol-4-L_M-ftn90"/>P:Georgia</note>
+                     </state>
+                     <floruit>30 CE<ref type="note" corresp="#Vol-4-L_M-ftn91"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ptolemais-Πτολεμαΐς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Ptolemais-Vol-3-G_F"
+                type="name"
+                n="Ptolemais-Πτολεμαΐς"
+                xml:id="name-Ptolemais-d1e483014">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn972"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e17100-person"
+                          n="Vol-3-G_F-Greek-Females-Ptolemais-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Πτολεμαΐς</persName>
+                     <persName type="lemma" xml:lang="en">Ptolemais</persName>
+                     <persName>Πτολεμαίας<ref type="note" corresp="#Vol-3-G_F-ftn973"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Heracleopolis,</note>
+                     </state>
+                     <bibl>PC29 (2001) 10</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn974"/>P:Egypt</note>
+                     </state>
+                     <floruit>138/7 BCE<ref type="note" corresp="#Vol-3-G_F-ftn975"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e17138-person"
+                          n="Vol-3-G_F-Greek-Females-Ptolemais-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Πτολεμαΐς</persName>
+                     <persName type="lemma" xml:lang="en">Ptolemais</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_F-ftn976"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Ptolemais, Pacho</note>
+                     </state>
+                     <bibl>CJZC32d</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn977"/>Second nameP:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

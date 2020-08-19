@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Vita-Vita</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Vita-Vol-3-L_M"
+                type="name"
+                n="Vita-Vita"
+                xml:id="name-Vita-d1e562959">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2547"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e42572-person" n="Vol-3-L_M-Latin-Males-Vita-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Vita</persName>
+                     <persName type="lemma" xml:lang="en">Vita</persName>
+                     <persName>ביטה<ref type="note" corresp="#Vol-3-L_M-ftn2548"/>
+                     </persName>
+                     <persName>/ ביטו<ref type="note" corresp="#Vol-3-L_M-ftn2549"/>
+                     </persName>
+                     <persName>/ Biti<ref type="note" corresp="#Vol-3-L_M-ftn2550"/>
+                     </persName>
+                     <persName>/Β[ί]του<ref type="note" corresp="#Vol-3-L_M-ftn2551"/>
+                     </persName>
+                     <persName>/ Viti<ref type="note" corresp="#Vol-3-L_M-ftn2552"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e15024-person" type="relation" n="son-of">Faustinus (3)’s son</ref>, Pretiosa (1), Faustinus (4), Sarah (16) and <ref corresp="#Vol-3-L_M-d8e9888-person" type="relation" n="father-of">Bonus (1)’s father</ref>, gerusarch and leader<ref type="note" corresp="#Vol-3-L_M-ftn2553"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaphs, Venosa, Angelis &amp; Smith</note>
+                     </state>
+                     <bibl>1.CIJ569, 570, 593, 607, 611, 613; 2.JIWE1, 82a</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2554"/>P:Italy</note>
+                     </state>
+                     <floruit>5th-6thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e42676-person" n="Vol-3-L_M-Latin-Males-Vita-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Vita</persName>
+                     <persName type="lemma" xml:lang="en">Vita</persName>
+                     <persName>Viti<ref type="note" corresp="#Vol-3-L_M-ftn2555"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e7145-person"
+                                type="relation"
+                                n="great-grandfather-of">Andronicus (7)’s great-grandfather</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Venosa, Angelis &amp; Smith,CIJ607</note>
+                     </state>
+                     <bibl>JIWE1, 85</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2556"/>P:Italy</note>
+                     </state>
+                     <floruit>5th-6thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e42721-person" n="Vol-3-L_M-Latin-Males-Vita-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Vita</persName>
+                     <persName type="lemma" xml:lang="en">Vita</persName>
+                     <persName>̓́Ὂ̓ίτου<ref type="note" corresp="#Vol-3-L_M-ftn2557"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e1633-person" type="relation" n="father-of">Eliab (1)’s father</ref>, of Alexandria<ref type="note" corresp="#Vol-3-L_M-ftn2558"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Tiberias (Israel), Schwabe</note>
+                     </state>
+                     <bibl>JIGRE151</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2559"/>P:Egypt</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn2560"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

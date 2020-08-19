@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Shashʿā-ششعا</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Shash-Vol-4-A_M"
+                type="name"
+                n="Shashʿā-ششعا"
+                xml:id="name-Shash-d1e582910">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn592"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e7322-person" n="Vol-4-A_M-Arabic-Males-Shashʿā-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">ششعا</persName>
+                     <persName type="lemma" xml:lang="en">Shashʿā</persName>
+                     <persName>ששעה</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e6702-person" type="relation" n="son-of">Ḥananel (2)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>yMeg1:9, 71c (Kosovsky,Yerushalmi, 264)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn593"/>P:Babylonia<ref type="note" corresp="#Vol-4-A_M-ftn594"/>
+                        </note>
+                     </state>
+                     <floruit>3rdC CE<ref type="note" corresp="#Vol-4-A_M-ftn595"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-A_M-d8e7363-person" n="Vol-4-A_M-Arabic-Males-Shashʿā-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">ششعا</persName>
+                     <persName type="lemma" xml:lang="en">Shashʿā</persName>
+                     <persName>Σάσσου<ref type="note" corresp="#Vol-4-A_M-ftn596"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e14859-person" type="relation" n="father-of">Isaac (34)’s father</ref>, of Arabia<ref type="note" corresp="#Vol-4-A_M-ftn597"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, catacomb 1,CIJ1098</note>
+                     </state>
+                     <bibl>Beth Sheʿarim2:79</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn598"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>Pre-352 CE<ref type="note" corresp="#Vol-4-A_M-ftn599"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

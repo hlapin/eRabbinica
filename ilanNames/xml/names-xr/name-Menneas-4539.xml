@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Menneas-Μεννέας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Menneas-Vol-3-G_M"
+                type="name"
+                n="Menneas-Μεννέας"
+                xml:id="name-Menneas-d1e512513">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3221"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e56042-person" n="Vol-3-G_M-Greek-Males-Menneas-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μεννέας</persName>
+                     <persName type="lemma" xml:lang="en">Menneas</persName>
+                     <persName>מנאס<ref type="note" corresp="#Vol-3-G_M-ftn3222"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Edfu, Weill</note>
+                     </state>
+                     <bibl>TADAE4:8:12</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3223"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e56076-person" n="Vol-3-G_M-Greek-Males-Menneas-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μεννέας</persName>
+                     <persName type="lemma" xml:lang="en">Menneas</persName>
+                     <persName>Μεννέου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_F-d8e7382-person" type="relation" n="father-of">Sarah (3)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Fayum, Wilcken</note>
+                     </state>
+                     <bibl>CPJ41</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3224"/>P:Egypt</note>
+                     </state>
+                     <floruit>2ndC BCE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

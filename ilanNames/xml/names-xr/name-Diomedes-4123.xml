@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Diomedes-Διομήδης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Diomedes-Vol-3-G_M"
+                type="name"
+                n="Diomedes-Διομήδης"
+                xml:id="name-Diomedes-d1e495466">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1152"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e19573-person" n="Vol-3-G_M-Greek-Males-Diomedes-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Διομήδης</persName>
+                     <persName type="lemma" xml:lang="en">Diomedes</persName>
+                     <persName>Διομήδους</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e2180-person" type="relation" n="father-of">Arescusa (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Pherae (near Larissa), Béquignon</note>
+                     </state>
+                     <bibl>CIJ708d</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1153"/>P:Greek</note>
+                     </state>
+                     <floruit>1st-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

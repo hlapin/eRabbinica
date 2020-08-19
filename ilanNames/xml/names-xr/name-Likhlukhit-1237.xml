@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Likhlukhit-לכלוכית</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-H_F-Semitic-Hebrew-Females-to-utf-TEI-P5-names.xml/#Likhlukhit-Vol-1-S-H_F"
+                type="name"
+                n="Likhlukhit-לכלוכית"
+                xml:id="name-Likhlukhit-d1e290958">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-H_F-ftn85"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-H_F-d2e1132-person" n="Vol-1-S-H_F-Likhlukhit-1">
+                     <persName type="lemma">לכלוכית</persName>
+                     <persName type="lemma" xml:lang="en">Likhlukhit</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>bNed66b (Kosowsky,Babylonico, -)</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-1-S-H_F-ftn86"/>
+                        </note>
+                     </state>
+                     <floruit>Post-135 CE<ref type="note" corresp="#Vol-1-S-H_F-ftn87"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

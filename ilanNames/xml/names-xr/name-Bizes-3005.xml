@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Bizes-Bizes</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Bizes-Vol-2-Vol-1-ADD-S-G_M"
+                type="name"
+                n="Bizes-Bizes"
+                xml:id="name-Bizes-d1e451497">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-S-G_M-ftn14"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-S-G_M-d8e229-person"
+                          n="Vol-2-Vol-1-ADD-S-G_M-Semitic-Greek-Males-Bizes-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Bizes</persName>
+                     <persName type="lemma" xml:lang="en">Bizes</persName>
+                     <persName>Βίζης</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_M-ftn15"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Bratke,Religionsgespräch, 35</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_M-ftn16"/>
+                        </note>
+                     </state>
+                     <floruit>1stC CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_M-ftn17"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

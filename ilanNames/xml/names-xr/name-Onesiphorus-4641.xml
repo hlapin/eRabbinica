@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Onesiphorus-̓Ονησιφόρος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Onesiphorus-Vol-3-G_M"
+                type="name"
+                n="Onesiphorus-̓Ονησιφόρος"
+                xml:id="name-Onesiphorus-d1e517055">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3568"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e61940-person"
+                          n="Vol-3-G_M-Greek-Males-Onesiphorus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Ονησιφόρος</persName>
+                     <persName type="lemma" xml:lang="en">Onesiphorus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn3569"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Epiphanius Monachus,PG120, 217</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3570"/>P:Asia</note>
+                     </state>
+                     <floruit>1stC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e61981-person"
+                          n="Vol-3-G_M-Greek-Males-Onesiphorus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Ονησιφόρος</persName>
+                     <persName type="lemma" xml:lang="en">Onesiphorus</persName>
+                     <persName>̓Ονησιφόρο[ς]<ref type="note" corresp="#Vol-3-G_M-ftn3571"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn3572"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Sardis, Kroll</note>
+                     </state>
+                     <bibl>IJO2, 92</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3573"/>P:Asia</note>
+                     </state>
+                     <floruit>4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

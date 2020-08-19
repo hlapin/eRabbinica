@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Eglon-עגלון</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Eglon-Vol-2-Vol-1-ADD-B_M"
+                type="name"
+                n="Eglon-עגלון"
+                xml:id="name-Eglon-d1e437677">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-B_M-ftn607"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-B_M-d8e8657-person"
+                          n="Vol-2-Vol-1-ADD-B_M-Biblical-Males-Eglon-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">עגלון</persName>
+                     <persName type="lemma" xml:lang="en">Eglon</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e22511-person" type="relation" n="father-of">Joseph (15)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Jerusalem</note>
+                     </state>
+                     <bibl>CIIP1/1, 541</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname?<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn608"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn609"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

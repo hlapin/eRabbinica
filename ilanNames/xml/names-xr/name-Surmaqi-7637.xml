@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Surmaqi-סורמקי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Surmaqi-Vol-4-S-H_M"
+                type="name"
+                n="Surmaqi-סורמקי"
+                xml:id="name-Surmaqi-d1e646874">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn1983"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e28668-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Surmaqi-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">סורמקי</persName>
+                     <persName type="lemma" xml:lang="en">Surmaqi</persName>
+                     <persName>סורמיקי<ref type="note" corresp="#Vol-4-S-H_M-ftn1984"/>
+                     </persName>
+                     <persName>/סירמקי<ref type="note" corresp="#Vol-4-S-H_M-ftn1985"/>
+                     </persName>
+                     <persName>/סומקי<ref type="note" corresp="#Vol-4-S-H_M-ftn1986"/>
+                     </persName>
+                     <persName>/סורמסי<ref type="note" corresp="#Vol-4-S-H_M-ftn1987"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e18697-person"
+                                type="relation"
+                                n="father-of">Ḥabiba (3)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bYom10a (Kosowsky,Babylonico, –)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1988"/>; nickname?<ref type="note" corresp="#Vol-4-S-H_M-ftn1989"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Post-200 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1990"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Valens-Valens</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Valens-Vol-3-L_M"
+                type="name"
+                n="Valens-Valens"
+                xml:id="name-Valens-d1e561515">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2429"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e40570-person" n="Vol-3-L_M-Latin-Males-Valens-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Valens</persName>
+                     <persName type="lemma" xml:lang="en">Valens</persName>
+                     <persName>Va[l]enti<ref type="note" corresp="#Vol-3-L_M-ftn2430"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn2431"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Via Salaria, Bernays</note>
+                     </state>
+                     <bibl>CIJ5</bibl>
+                     <state type="addl-Descr">
+                        <note>God-fearer<ref type="note" corresp="#Vol-3-L_M-ftn2432"/>; second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e40616-person" n="Vol-3-L_M-Latin-Males-Valens-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Valens</persName>
+                     <persName type="lemma" xml:lang="en">Valens</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Germanus (2), Baracha (2) <ref corresp="#Vol-3-L_F-d8e3502-person" type="relation" n="husband-of">Aurelia (42)’s husband</ref>, soldier of the Emesan cohort<ref type="note" corresp="#Vol-3-L_M-ftn2433"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Intercisa, Mahler</note>
+                     </state>
+                     <bibl>Scheiber 5</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2434"/>Second nameP:Pannonia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e40649-person" n="Vol-3-L_M-Latin-Males-Valens-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Valens</persName>
+                     <persName type="lemma" xml:lang="en">Valens</persName>
+                     <persName>[Ο]̓άλεντα<ref type="note" corresp="#Vol-3-L_M-ftn2435"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn2436"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Heraclea, Kalinken</note>
+                     </state>
+                     <bibl>Rajak, “Archisynagogoi,” no. 1</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2437"/>P:Greece</note>
+                     </state>
+                     <floruit>1stC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

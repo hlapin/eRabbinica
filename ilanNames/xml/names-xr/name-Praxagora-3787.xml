@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Praxagora-Πραξαγόρα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Praxagora-Vol-3-G_F"
+                type="name"
+                n="Praxagora-Πραξαγόρα"
+                xml:id="name-Praxagora-d1e482829">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn961"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e16921-person"
+                          n="Vol-3-G_F-Greek-Females-Praxagora-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Πραξαγόρα</persName>
+                     <persName type="lemma" xml:lang="en">Praxagora</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="daughter-of">Yohanan (32)’s daughter</ref>, aged 13<ref type="note" corresp="#Vol-3-G_F-ftn962"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Ptolemais</note>
+                     </state>
+                     <bibl>Reynolds,CJZC5</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn963"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

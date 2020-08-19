@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Velorius-Velorius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Velorius-Vol-3-L_M"
+                type="name"
+                n="Velorius-Velorius"
+                xml:id="name-Velorius-d1e561846">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2480"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e41432-person" n="Vol-3-L_M-Latin-Males-Velorius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Velorius</persName>
+                     <persName type="lemma" xml:lang="en">Velorius</persName>
+                     <persName>Βελάρο<ref type="note" corresp="#Vol-3-L_M-ftn2481"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Edfu, Manteuffel</note>
+                     </state>
+                     <bibl>CPJ206</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2482"/>Second nameP:Egypt</note>
+                     </state>
+                     <floruit>106 CE<ref type="note" corresp="#Vol-3-L_M-ftn2483"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

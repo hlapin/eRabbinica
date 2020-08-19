@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Cornelius-Cornelius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Cornelius-Vol-1-L_M names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Cornelius-Vol-3-L_M"
+                type="name"
+                n="Cornelius-Cornelius"
+                xml:id="name-Cornelius-d1e260531">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-L_M-ftn104"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn756"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-L_M-d2e1590-person" n="Vol-1-L_M-Cornelius-1">
+                     <persName type="lemma">Cornelius</persName>
+                     <persName type="lemma" xml:lang="en">Cornelius</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Κορνήλιος<ref type="note" corresp="#Vol-1-L_M-ftn105"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-G_M-d2e4424-person" type="relation" n="son-of">Geron (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>AJ20:14 (Schalit,NB, 76)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>45 CE<ref type="note" corresp="#Vol-1-L_M-ftn106"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e12822-person"
+                          n="Vol-3-L_M-Latin-Males-Cornelius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Cornelius</persName>
+                     <persName type="lemma" xml:lang="en">Cornelius</persName>
+                     <persName>Κορνηλίου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e50177-person" type="relation" n="father-of">Carnedas (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Donation inscription, Berenice, Caputo</note>
+                     </state>
+                     <bibl>CJZC72</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn757"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>55/6 CE<ref type="note" corresp="#Vol-3-L_M-ftn758"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

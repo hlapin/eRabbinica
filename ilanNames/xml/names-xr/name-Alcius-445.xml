@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Alcius-̓Αλκίος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Alcius-Vol-1-G_M"
+                type="name"
+                n="Alcius-̓Αλκίος"
+                xml:id="name-Alcius-d1e200563">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn99"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e1362-person" n="Vol-1-G_M-Alcius-1">
+                     <persName type="lemma">̓Αλκίος</persName>
+                     <persName type="lemma" xml:lang="en">Alcius</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">̓Αλκίου<ref type="note" corresp="#Vol-1-G_M-ftn100"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e55562-person" type="relation" n="son-of">Simon (90)’s son</ref>
+                           <ref type="note" corresp="#Vol-1-G_M-ftn101"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Lydda, Clermont-Ganneau, 1883</note>
+                     </state>
+                     <bibl>CIJ, no. 1173</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn102"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-G_M-d2e1403-person" n="Vol-1-G_M-Alcius-2">
+                     <persName type="lemma">̓Αλκίος</persName>
+                     <persName type="lemma" xml:lang="en">Alcius</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">̓Αλκίου<ref type="note" corresp="#Vol-1-G_M-ftn103"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-1-G_M-ftn104"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Gezer limits inscription Clermont-Ganneau, 1873</note>
+                     </state>
+                     <bibl>CIJ, no. 1183</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>2ndC BCE<ref type="note" corresp="#Vol-1-G_M-ftn105"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

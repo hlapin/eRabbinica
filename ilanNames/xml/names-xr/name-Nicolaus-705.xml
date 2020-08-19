@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Nicolaus-Νικόλαυς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Nicolaus-Vol-1-G_M"
+                type="name"
+                n="Nicolaus-Νικόλαυς"
+                xml:id="name-Nicolaus-d1e237438">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn972"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e13627-person" n="Vol-1-G_M-Nicolaus-1">
+                     <persName type="lemma">Νικόλαυς</persName>
+                     <persName type="lemma" xml:lang="en">Nicolaus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Acts 6:5 (VKGNT 809)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>30s CE<ref type="note" corresp="#Vol-1-G_M-ftn973"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-G_M-d2e13644-person" n="Vol-1-G_M-Nicolaus-2">
+                     <persName type="lemma">Νικόλαυς</persName>
+                     <persName type="lemma" xml:lang="en">Nicolaus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Νικολάου<ref type="note" corresp="#Vol-1-G_M-ftn974"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-P_M-d2e1569-person" type="relation" n="father-of">Hyrcanus (10)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Mt Olives, Dalman, 1903</note>
+                     </state>
+                     <bibl>CIJ, no. 1279</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn975"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-G_M-d2e13667-person" n="Vol-1-G_M-Nicolaus-3">
+                     <persName type="lemma">Νικόλαυς</persName>
+                     <persName type="lemma" xml:lang="en">Nicolaus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">נקלה<ref type="note" corresp="#Vol-1-G_M-ftn976"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e29825-person" type="relation" n="son-of">Jonathan (53)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, deed, Muraba‘at</note>
+                     </state>
+                     <bibl>Mur 24D</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>133 CE<ref type="note" corresp="#Vol-1-G_M-ftn977"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

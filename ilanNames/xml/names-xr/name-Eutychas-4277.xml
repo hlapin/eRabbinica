@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Eutychas-Ε̓τυχᾶς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Eutychas-Vol-3-G_M"
+                type="name"
+                n="Eutychas-Ε̓τυχᾶς"
+                xml:id="name-Eutychas-d1e501786">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1893"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e32972-person" n="Vol-3-G_M-Greek-Males-Eutychas-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ε̓τυχᾶς</persName>
+                     <persName type="lemma" xml:lang="en">Eutychas</persName>
+                     <persName>אותכס<ref type="note" corresp="#Vol-3-G_M-ftn1894"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e43173-person" type="relation" n="son-of">Theodorus (9)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Edfu, Weill</note>
+                     </state>
+                     <bibl>TADAE4:8:12</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1895"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e33006-person" n="Vol-3-G_M-Greek-Males-Eutychas-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ε̓τυχᾶς</persName>
+                     <persName type="lemma" xml:lang="en">Eutychas</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Frey</note>
+                     </state>
+                     <bibl>CIJ6*</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1896"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

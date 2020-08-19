@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Tasi-Tasi</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_F-Iranian-Females-to-utf-TEI-P5-names.xml/#Tasi-Vol-4-I_F"
+                type="name"
+                n="Tasi-Tasi"
+                xml:id="name-Tasi-d1e615681">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_F-ftn1129"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_F-d8e13777-person" n="Vol-4-I_F-Iranian-Females-Tasi-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Tasi</persName>
+                     <persName type="lemma" xml:lang="en">Tasi</persName>
+                     <persName>
+                        <ref type="note" corresp="#Vol-4-I_F-ftn1130"/>
+                     </persName>
+                     <persName>Ds:Χalbaχioi (1)’s mother</persName>
+                     <state type="provenance">
+                        <note>Incantation bowl</note>
+                     </state>
+                     <bibl>Gorea,Semitica51 (2003) 86</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn1131"/>Person?<ref type="note" corresp="#Vol-4-I_F-ftn1132"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn1133"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

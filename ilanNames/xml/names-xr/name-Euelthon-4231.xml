@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Euelthon-Ε̓έλθων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Euelthon-Vol-3-G_M"
+                type="name"
+                n="Euelthon-Ε̓έλθων"
+                xml:id="name-Euelthon-d1e499718">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1729"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e29555-person" n="Vol-3-G_M-Greek-Males-Euelthon-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ε̓έλθων</persName>
+                     <persName type="lemma" xml:lang="en">Euelthon</persName>
+                     <persName>Ε̓έλθοντος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e40163-person" type="relation" n="father-of">Theogenes (6)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Heracleides</note>
+                     </state>
+                     <bibl>P. Michigan Koenen 781</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1730"/>P:Egypt</note>
+                     </state>
+                     <floruit>186/5 BCE<ref type="note" corresp="#Vol-3-G_M-ftn1731"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

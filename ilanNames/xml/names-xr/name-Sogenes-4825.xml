@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sogenes-Σωγένης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Sogenes-Vol-3-G_M"
+                type="name"
+                n="Sogenes-Σωγένης"
+                xml:id="name-Sogenes-d1e523806">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4237"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e73286-person" n="Vol-3-G_M-Greek-Males-Sogenes-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Σωγένης</persName>
+                     <persName type="lemma" xml:lang="en">Sogenes</persName>
+                     <persName>Σωγένους<ref type="note" corresp="#Vol-3-G_M-ftn4238"/>
+                     </persName>
+                     <persName>/Σωγένευς<ref type="note" corresp="#Vol-3-G_M-ftn4239"/>
+                     </persName>
+                     <persName>/Σωγένης<ref type="note" corresp="#Vol-3-G_M-ftn4240"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e23996-person" type="relation" n="son-of">Dositheus (65)’s son</ref>, Theodotus (49), Calliclea (1) and <ref corresp="#Vol-3-G_F-d8e200-person" type="relation" n="father-of">Hagemona (3)’s father</ref>, aged 64<ref type="note" corresp="#Vol-3-G_M-ftn4241"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaphs, Teucheira, Oliverio</note>
+                     </state>
+                     <bibl>CJZC50a,b,f,g,j</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4242"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-65 CE<ref type="note" corresp="#Vol-3-G_M-ftn4243"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e73340-person" n="Vol-3-G_M-Greek-Males-Sogenes-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Σωγένης</persName>
+                     <persName type="lemma" xml:lang="en">Sogenes</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="son-of">Joseph (106)’s son</ref>,<ref type="note" corresp="#Vol-3-G_M-ftn4244"/>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn4245"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira, Gray</note>
+                     </state>
+                     <bibl>CJZC50i</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4246"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-76 CE<ref type="note" corresp="#Vol-3-G_M-ftn4247"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Epagathus-̓Επαγαθός</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Epagathus-Vol-3-G_M"
+                type="name"
+                n="Epagathus-̓Επαγαθός"
+                xml:id="name-Epagathus-d1e497357">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1555"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e26326-person"
+                          n="Vol-3-G_M-Greek-Males-Epagathus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Επαγαθός</persName>
+                     <persName type="lemma" xml:lang="en">Epagathus</persName>
+                     <persName>̓Επαγάθο<ref type="note" corresp="#Vol-3-G_M-ftn1556"/>
+                     </persName>
+                     <persName>/̓Επάγαθον<ref type="note" corresp="#Vol-3-G_M-ftn1557"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Ptolemais Hermeiou, Bilabel</note>
+                     </state>
+                     <bibl>CPJ424</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1558"/>P:Egypt</note>
+                     </state>
+                     <floruit>87 CE<ref type="note" corresp="#Vol-3-G_M-ftn1559"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e26375-person"
+                          n="Vol-3-G_M-Greek-Males-Epagathus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Επαγαθός</persName>
+                     <persName type="lemma" xml:lang="en">Epagathus</persName>
+                     <persName>̓Επαγαθοῦ</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-S-H_F-d8e1433-person"
+                                type="relation"
+                                n="husband-of">Martha (7)’s husband</ref>, gerusarch<ref type="note" corresp="#Vol-3-G_M-ftn1560"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Silvagni</note>
+                     </state>
+                     <bibl>CIJ733b</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1561"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e26419-person"
+                          n="Vol-3-G_M-Greek-Males-Epagathus-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Επαγαθός</persName>
+                     <persName type="lemma" xml:lang="en">Epagathus</persName>
+                     <persName>Epagat<ref type="note" corresp="#Vol-3-G_M-ftn1562"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Valerius (5), Valeria (3) <ref corresp="#Vol-3-B_F-d8e3174-person" type="relation" n="brother-of">Mariam (38)’s brother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Ravena, Spreti</note>
+                     </state>
+                     <bibl>CIJ58*</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1563"/>P:Italy</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-G_M-ftn1564"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

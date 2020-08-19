@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Guraq-גורק</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Guraq-Vol-4-S-H_M"
+                type="name"
+                n="Guraq-גורק"
+                xml:id="name-Guraq-d1e636279">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn916"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e13125-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Guraq-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">גורק</persName>
+                     <persName type="lemma" xml:lang="en">Guraq</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Mtskheta</note>
+                     </state>
+                     <bibl>Shaked,JSAI32 (2006) 505</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn917"/>; second nameP:Georgia</note>
+                     </state>
+                     <floruit>2ndC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn918"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

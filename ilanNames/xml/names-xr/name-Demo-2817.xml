@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Demo-Δημώ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Demo-Vol-2-Vol-1-ADD-G_F names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Demo-Vol-3-G_F"
+                type="name"
+                n="Demo-Δημώ"
+                xml:id="name-Demo-d1e438559">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-G_F-ftn22"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn302"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-G_F-d8e380-person"
+                          n="Vol-2-Vol-1-ADD-G_F-Greek-Females-Demo-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Δημώ</persName>
+                     <persName type="lemma" xml:lang="en">Demo</persName>
+                     <persName>Beloved of Meleager<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn23"/>
+                     </persName>
+                     <state type="provenance">
+                        <note>Meleager,GLAJJ1, 42</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn24"/>
+                        </note>
+                     </state>
+                     <floruit>2nd-1stC BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn25"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e5417-person" n="Vol-3-G_F-Greek-Females-Demo-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Δημώ</persName>
+                     <persName type="lemma" xml:lang="en">Demo</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e39809-person"
+                                type="relation"
+                                n="daughter-of">Titianus (1)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Larissa, Oehler</note>
+                     </state>
+                     <bibl>CIJ700</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn303"/>P:Greece</note>
+                     </state>
+                     <floruit>1st-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e5457-person" n="Vol-3-G_F-Greek-Females-Demo-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Δημώ</persName>
+                     <persName type="lemma" xml:lang="en">Demo</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Visinia (1), Publius (2) Rutilus (1) <ref corresp="#" type="relation" n="wife-of">Joseph (84)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teos, Pottier &amp; Hauvette-Besnault</note>
+                     </state>
+                     <bibl>CIJ744</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn304"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

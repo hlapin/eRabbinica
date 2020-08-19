@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Seos-Seos</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Seos-Vol-3-E_M"
+                type="name"
+                n="Seos-Seos"
+                xml:id="name-Seos-d1e469148">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn538"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e8872-person" n="Vol-3-E_M-Egyptian-Males-Seos-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Seos</persName>
+                     <persName type="lemma" xml:lang="en">Seos</persName>
+                     <persName>Σεῶτος</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Crocodilopolis, Guéraud</note>
+                     </state>
+                     <bibl>CPJ38</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-E_M-ftn539"/>P:Egypt</note>
+                     </state>
+                     <floruit>218 BCE<ref type="note" corresp="#Vol-3-E_M-ftn540"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

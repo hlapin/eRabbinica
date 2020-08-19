@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Dulciorella-Dulciorella</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Dulciorella-Vol-3-L_F"
+                type="name"
+                n="Dulciorella-Dulciorella"
+                xml:id="name-Dulciorella-d1e532811">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn392"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e7229-person"
+                          n="Vol-3-L_F-Latin-Females-Dulciorella-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Dulciorella</persName>
+                     <persName type="lemma" xml:lang="en">Dulciorella</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e63830-person"
+                                type="relation"
+                                n="daughter-of">Paregorius (2)’s daughter</ref>, aged 9<ref type="note" corresp="#Vol-3-L_F-ftn393"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Narbona, Renan &amp; Le Blant</note>
+                     </state>
+                     <bibl>CIJ670</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn394"/>; late<ref type="note" corresp="#Vol-3-L_F-ftn395"/>P:Gaul</note>
+                     </state>
+                     <floruit>688/9 CE<ref type="note" corresp="#Vol-3-L_F-ftn396"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

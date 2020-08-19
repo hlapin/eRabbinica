@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Bizna-ביזנא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Bizna-Vol-4-S-H_M"
+                type="name"
+                n="Bizna-ביזנא"
+                xml:id="name-Bizna-d1e635254">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn794"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e11461-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Bizna-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">ביזנא</persName>
+                     <persName type="lemma" xml:lang="en">Bizna</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e21662-person"
+                                type="relation"
+                                n="father-of">Ḥana (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bBer7a (Kosowsky,Babylonico, 320)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn795"/>P:Babylonia</note>
+                     </state>
+                     <floruit>3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn796"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_M-d8e11501-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Bizna-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">ביזנא</persName>
+                     <persName type="lemma" xml:lang="en">Bizna</persName>
+                     <persName>ביסא<ref type="note" corresp="#Vol-4-S-H_M-ftn797"/>
+                     </persName>
+                     <persName>/ביבא<ref type="note" corresp="#Vol-4-S-H_M-ftn798"/>
+                     </persName>
+                     <persName>/ביסנא<ref type="note" corresp="#Vol-4-S-H_M-ftn799"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e26195-person"
+                                type="relation"
+                                n="father-of">Mari (2)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bBeṣ28b (Kosowsky,Babylonico, 320)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn800"/>P:Babylonia</note>
+                     </state>
+                     <floruit>4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn801"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_M-d8e11553-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Bizna-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">ביזנא</persName>
+                     <persName type="lemma" xml:lang="en">Bizna</persName>
+                     <persName>ביסנא<ref type="note" corresp="#Vol-4-S-H_M-ftn802"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e29742-person" type="relation" n="father-of">Samuel (17)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bKet100a (Kosowsky,Babylonico, 1631)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn803"/>P:Babylonia</note>
+                     </state>
+                     <floruit>4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn804"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

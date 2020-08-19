@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aspinj-Aspinj</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#Aspinj-Vol-4-I_M"
+                type="name"
+                n="Aspinj-Aspinj"
+                xml:id="name-Aspinj-d1e617858">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn120"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_M-d8e1378-person" n="Vol-4-I_M-Iranian-Males-Aspinj-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Aspinj</persName>
+                     <persName type="lemma" xml:lang="en">Aspinj</persName>
+                     <persName>אושפזתי<ref type="note" corresp="#Vol-4-I_M-ftn121"/>
+                     </persName>
+                     <persName>/איש פרתי<ref type="note" corresp="#Vol-4-I_M-ftn122"/>
+                     </persName>
+                     <persName>/אישפותי<ref type="note" corresp="#Vol-4-I_M-ftn123"/>
+                     </persName>
+                     <persName>/אושפרתי<ref type="note" corresp="#Vol-4-I_M-ftn124"/>
+                     </persName>
+                     <persName>/אשפרתי<ref type="note" corresp="#Vol-4-I_M-ftn125"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e18875-person" type="relation" n="father-of">Naḥmani (5)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bTaʿan24b (Kosowsky,Babylonico, 128)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-I_M-ftn126"/>; nickname?<ref type="note" corresp="#Vol-4-I_M-ftn127"/>P:Babylonia</note>
+                     </state>
+                     <floruit>4thC CE<ref type="note" corresp="#Vol-4-I_M-ftn128"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_M-d8e1445-person" n="Vol-4-I_M-Iranian-Males-Aspinj-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Aspinj</persName>
+                     <persName type="lemma" xml:lang="en">Aspinj</persName>
+                     <persName>אישפיזא<ref type="note" corresp="#Vol-4-I_M-ftn129"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_F-d8e445-person" type="relation" n="son-of">Arḥa (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Nippur, Montgomery</note>
+                     </state>
+                     <bibl>Isbell, no. 38</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn130"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn131"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

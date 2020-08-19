@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ʿArgan-ערגן</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Argan-Vol-4-S-H_M"
+                type="name"
+                n="ʿArgan-ערגן"
+                xml:id="name-Argan-d1e649239">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn2173"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e31366-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-ʿArgan-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">ערגן</persName>
+                     <persName type="lemma" xml:lang="en">ʿArgan</persName>
+                     <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2174"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Simon (20), <ref corresp="#Vol-4-S-H_M-d8e22954-person"
+                                type="relation"
+                                n="father-of">Yadiʿabel (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Palmyra, Schröder</note>
+                     </state>
+                     <bibl>CIS2/3, 4364</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn2175"/>Second nameP:Palmyra</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2176"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

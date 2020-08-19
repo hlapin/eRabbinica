@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Taoutis-Taoutis</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_F-Egyptian-Females-to-utf-TEI-P5-names.xml/#Taoutis-Vol-3-E_F"
+                type="name"
+                n="Taoutis-Taoutis"
+                xml:id="name-Taoutis-d1e459298">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_F-ftn72"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_F-d8e1109-person"
+                          n="Vol-3-E_F-Egyptian-Females-Taoutis-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Taoutis</persName>
+                     <persName type="lemma" xml:lang="en">Taoutis</persName>
+                     <persName>Ταού[τι]ν<ref type="note" corresp="#Vol-3-E_F-ftn73"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-E_F-ftn74"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Gizeh?<ref type="note" corresp="#Vol-3-E_F-ftn75"/>de Ricci</note>
+                     </state>
+                     <bibl>CIJ1478</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_F-ftn76"/>P:Egypt</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-E_F-ftn77"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-E_F-d8e1161-person"
+                          n="Vol-3-E_F-Egyptian-Females-Taoutis-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Taoutis</persName>
+                     <persName type="lemma" xml:lang="en">Taoutis</persName>
+                     <persName>Ταούτιν</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-E_F-ftn78"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Leontopolis, Edgar</note>
+                     </state>
+                     <bibl>CIJ1520</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_F-ftn79"/>P:Egypt</note>
+                     </state>
+                     <floruit>2ndC BCE-2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

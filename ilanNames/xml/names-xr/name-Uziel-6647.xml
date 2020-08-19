@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ʿUziel-עזיאל</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Uziel-Vol-4-B_M"
+                type="name"
+                n="ʿUziel-עזיאל"
+                xml:id="name-Uziel-d1e598740">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-B_M-ftn1639"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-B_M-d8e20147-person"
+                          n="Vol-4-B_M-Biblical-Males-ʿUziel-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">עזיאל</persName>
+                     <persName type="lemma" xml:lang="en">ʿUziel</persName>
+                     <persName>
+                        <ref type="note" corresp="#Vol-4-B_M-ftn1640"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e30263-person" type="relation" n="son-of">Samuel (31)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ibn Hishām,Leben Muhammed’s, 352</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn1641"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>Pre-632 CE<ref type="note" corresp="#Vol-4-B_M-ftn1642"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

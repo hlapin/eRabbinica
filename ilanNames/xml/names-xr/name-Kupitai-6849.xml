@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Kupitai-Kupitai</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_F-Iranian-Females-to-utf-TEI-P5-names.xml/#Kupitai-Vol-4-I_F"
+                type="name"
+                n="Kupitai-Kupitai"
+                xml:id="name-Kupitai-d1e608606">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_F-ftn587"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_F-d8e7181-person"
+                          n="Vol-4-I_F-Iranian-Females-Kupitai-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Kupitai</persName>
+                     <persName type="lemma" xml:lang="en">Kupitai</persName>
+                     <persName>כופיתאי<ref type="note" corresp="#Vol-4-I_F-ftn588"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_M-d8e9751-person" type="relation" n="mother-of">Pāpak (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowls, Nippur, Montgomery</note>
+                     </state>
+                     <bibl>1. Isbell, no. 2; 2. no. 5</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn589"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn590"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_F-d8e7216-person"
+                          n="Vol-4-I_F-Iranian-Females-Kupitai-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Kupitai</persName>
+                     <persName type="lemma" xml:lang="en">Kupitai</persName>
+                     <persName>כופיתי<ref type="note" corresp="#Vol-4-I_F-ftn591"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_F-d8e13073-person"
+                                type="relation"
+                                n="daughter-of">Šērkōē (2)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowls, Nippur, Montgomery</note>
+                     </state>
+                     <bibl>1. Isbell, no. 23; 2. no. 24</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-I_F-ftn592"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn593"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ΛούλαβοςLulab-ΛούλαβοςLulab</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Lulab-Vol-2-S-G_M"
+                type="name"
+                n="ΛούλαβοςLulab-ΛούλαβοςLulab"
+                xml:id="name-Lulab-d1e397835">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-G_M-ftn103"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-G_M-d8e1654-person"
+                          n="Vol-2-S-G_M-Semitic-Greek-Males-ΛούλαβοςLulab-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">ΛούλαβοςLulab</persName>
+                     <persName type="lemma" xml:lang="en">ΛούλαβοςLulab</persName>
+                     <persName>Λουλάβου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e24663-person" type="relation" n="father-of">Joseph (75)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Jaffa, Jaussen</note>
+                     </state>
+                     <bibl>CIJ932</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-2-S-G_M-ftn104"/>
+                        </note>
+                     </state>
+                     <floruit>3rdC</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

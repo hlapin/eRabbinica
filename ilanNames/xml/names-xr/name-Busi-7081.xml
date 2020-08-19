@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Busi-Busi</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#Busi-Vol-4-I_M"
+                type="name"
+                n="Busi-Busi"
+                xml:id="name-Busi-d1e619124">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn228"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_M-d8e2650-person" n="Vol-4-I_M-Iranian-Males-Busi-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Busi</persName>
+                     <persName type="lemma" xml:lang="en">Busi</persName>
+                     <persName>
+                        <ref type="note" corresp="#Vol-4-I_M-ftn229"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="son-of">Gardushta (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl</note>
+                     </state>
+                     <bibl>CAMIBBM002A</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn230"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn231"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_M-d8e2686-person" n="Vol-4-I_M-Iranian-Males-Busi-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Busi</persName>
+                     <persName type="lemma" xml:lang="en">Busi</persName>
+                     <persName>בוסאי<ref type="note" corresp="#Vol-4-I_M-ftn232"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_F-d8e2807-person" type="relation" n="son-of">Daδī (22)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl</note>
+                     </state>
+                     <bibl>Lacau,RA3 (1896) 50</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn233"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn234"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

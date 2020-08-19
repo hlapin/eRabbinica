@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Pyrrias-Πύρριας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Pyrrias-Vol-3-G_M"
+                type="name"
+                n="Pyrrias-Πύρριας"
+                xml:id="name-Pyrrias-d1e521395">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4013"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e69506-person" n="Vol-3-G_M-Greek-Males-Pyrrias-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πύρριας</persName>
+                     <persName type="lemma" xml:lang="en">Pyrrias</persName>
+                     <persName>Πυρριου<ref type="note" corresp="#Vol-3-G_M-ftn4014"/>
+                     </persName>
+                     <persName>/Πυρρι<ref type="note" corresp="#Vol-3-G_M-ftn4015"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn4016"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyri, Fayum</note>
+                     </state>
+                     <bibl>P. Petrie 2.28, 3.66</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4017"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rd-1stC BCE<ref type="note" corresp="#Vol-3-G_M-ftn4018"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e69558-person" n="Vol-3-G_M-Greek-Males-Pyrrias-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πύρριας</persName>
+                     <persName type="lemma" xml:lang="en">Pyrrias</persName>
+                     <persName>Πυρρίω</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e38336-person" type="relation" n="son-of">Simon (61)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Vienna</note>
+                     </state>
+                     <bibl>P. Harrauer 33:97</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4019"/>P:Egypt</note>
+                     </state>
+                     <floruit>1stC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e69588-person" n="Vol-3-G_M-Greek-Males-Pyrrias-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πύρριας</persName>
+                     <persName type="lemma" xml:lang="en">Pyrrias</persName>
+                     <persName>Πυρρίου</persName>
+                     <floruit>Dositheus (45)’s father</floruit>
+                     <state type="provenance">
+                        <note>Ostracon, Thebes</note>
+                     </state>
+                     <bibl>O. Heid. 18</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4020"/>P:Egypt</note>
+                     </state>
+                     <floruit>151/0 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4021"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e69618-person" n="Vol-3-G_M-Greek-Males-Pyrrias-4">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πύρριας</persName>
+                     <persName type="lemma" xml:lang="en">Pyrrias</persName>
+                     <persName>Πυρείων<ref type="note" corresp="#Vol-3-G_M-ftn4022"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn4023"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Leontopolis, Lefèbvre</note>
+                     </state>
+                     <bibl>CIJ1525</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4024"/>P:Egypt</note>
+                     </state>
+                     <floruit>25 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4025"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

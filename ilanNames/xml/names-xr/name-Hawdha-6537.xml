@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Hawdha-هوذة</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Hawdha-Vol-4-A_M"
+                type="name"
+                n="Hawdha-هوذة"
+                xml:id="name-Hawdha-d1e588973">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn1040"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e13094-person" n="Vol-4-A_M-Arabic-Males-Hawdha-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">هوذة</persName>
+                     <persName type="lemma" xml:lang="en">Hawdha</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-A_M-d8e10870-person" type="relation" n="son-of">Qays (5)’s son</ref>, of the Banū Qurayẓa<ref type="note" corresp="#Vol-4-A_M-ftn1041"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Ibn Hishām,Leben Muhammed’s, 391</bibl>
+                     <state type="addl-Descr">
+                        <note>Muslim convert<ref type="note" corresp="#Vol-4-A_M-ftn1042"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>Pre-632 CE<ref type="note" corresp="#Vol-4-A_M-ftn1043"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

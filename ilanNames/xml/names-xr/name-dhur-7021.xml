@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ādhur-Ādhur</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#dhur-Vol-4-I_M"
+                type="name"
+                n="Ādhur-Ādhur"
+                xml:id="name-dhur-d1e616704">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn21"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_M-d8e251-person" n="Vol-4-I_M-Iranian-Males-Ādhur-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ādhur</persName>
+                     <persName type="lemma" xml:lang="en">Ādhur</persName>
+                     <persName>אדון<ref type="note" corresp="#Vol-4-I_M-ftn22"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_F-d8e357-person" type="relation" n="son-of">Aḥat (9)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Nippur, Gordon</note>
+                     </state>
+                     <bibl>Isbell, no. 54</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn23"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn24"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_M-d8e292-person" n="Vol-4-I_M-Iranian-Males-Ādhur-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ādhur</persName>
+                     <persName type="lemma" xml:lang="en">Ādhur</persName>
+                     <persName>אדור<ref type="note" corresp="#Vol-4-I_M-ftn25"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_F-d8e1851-person" type="relation" n="son-of">Imma (19)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Tehran</note>
+                     </state>
+                     <bibl>CAMIBBM068A</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn26"/>P:Persia<ref type="note" corresp="#Vol-4-I_M-ftn27"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn28"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

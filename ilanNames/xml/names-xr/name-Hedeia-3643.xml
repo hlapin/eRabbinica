@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Hedeia-̔Ηδεῖα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Hedeia-Vol-3-G_F"
+                type="name"
+                n="Hedeia-̔Ηδεῖα"
+                xml:id="name-Hedeia-d1e477886">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn561"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e10218-person" n="Vol-3-G_F-Greek-Females-Hedeia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̔Ηδεῖα</persName>
+                     <persName type="lemma" xml:lang="en">Hedeia</persName>
+                     <persName>[̔Η]δεία<ref type="note" corresp="#Vol-3-G_F-ftn562"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Manumisssion inscription, Panticapeum,<ref type="note" corresp="#Vol-3-G_F-ftn563"/>Škorpil</note>
+                     </state>
+                     <bibl>IJO1, BS8</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn564"/>P:Bosphoran Kingdom</note>
+                     </state>
+                     <floruit>58 CE<ref type="note" corresp="#Vol-3-G_F-ftn565"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

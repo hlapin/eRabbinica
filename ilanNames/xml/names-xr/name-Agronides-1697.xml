@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Agronides-̓Αγρωνίδης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Agronides-Vol-2-G_M"
+                type="name"
+                n="Agronides-̓Αγρωνίδης"
+                xml:id="name-Agronides-d1e353844">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn12"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e177-person" n="Vol-2-G_M-Greek-Males-Agronides-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αγρωνίδης</persName>
+                     <persName type="lemma" xml:lang="en">Agronides</persName>
+                     <persName>̓Αγρονίτης<ref type="note" corresp="#Vol-2-G_M-ftn13"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Beth She‘arim,catacomb 4,CIJ1118</note>
+                     </state>
+                     <bibl>BS2:95</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_M-ftn14"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

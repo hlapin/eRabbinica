@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Tertulla-Tertulla</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Tertulla-Vol-3-L_F"
+                type="name"
+                n="Tertulla-Tertulla"
+                xml:id="name-Tertulla-d1e541697">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn1203"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e33601-person"
+                          n="Vol-3-L_F-Latin-Females-Tertulla-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Tertulla</persName>
+                     <persName type="lemma" xml:lang="en">Tertulla</persName>
+                     <persName>[Τ]ερτύλλ<ref type="note" corresp="#Vol-3-L_F-ftn1204"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Nicomedia</note>
+                     </state>
+                     <bibl>Tituli Asia Minoris4/1, 364</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn1205"/>P:Asia</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn1206"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

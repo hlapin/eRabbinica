@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Rishah-רשא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Rishah-Vol-2-S-H_M"
+                type="name"
+                n="Rishah-רשא"
+                xml:id="name-Rishah-d1e432992">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn1521"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e24148-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Rishah-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">רשא</persName>
+                     <persName type="lemma" xml:lang="en">Rishah</persName>
+                     <persName>ראשא<ref type="note" corresp="#Vol-2-S-H_M-ftn1522"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-S-H_M-ftn1523"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Lam Rab3:6 (Hyman,Toldoth, 742)</bibl>
+                     <state type="addl-Descr">
+                        <note>Second name</note>
+                     </state>
+                     <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1524"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-S-H_M-d8e24189-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Rishah-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">רשא</persName>
+                     <persName type="lemma" xml:lang="en">Rishah</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_F-d8e2300-person" type="relation" n="father-of">Salome (4)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaphs, Beth She‘arim</note>
+                     </state>
+                     <bibl>1.CIJ1144; 2. 1145</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-352<ref type="note" corresp="#Vol-2-S-H_M-ftn1525"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

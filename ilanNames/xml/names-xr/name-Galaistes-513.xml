@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Galaistes-Γαλαίστης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Galaistes-Vol-1-G_M"
+                type="name"
+                n="Galaistes-Γαλαίστης"
+                xml:id="name-Galaistes-d1e208521">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn307"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e4328-person" n="Vol-1-G_M-Galaistes-1">
+                     <persName type="lemma">Γαλαίστης</persName>
+                     <persName type="lemma" xml:lang="en">Galaistes</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-G_M-d2e351-person" type="relation" n="friend-of">Alexander (1)’s friend</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>AJ13:424 (Schalit,NB, 31)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-1-G_M-ftn308"/>
+                        </note>
+                     </state>
+                     <floruit>67BCE<ref type="note" corresp="#Vol-1-G_M-ftn309"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-G_M-d2e4358-person" n="Vol-1-G_M-Galaistes-2">
+                     <persName type="lemma">Γαλαίστης</persName>
+                     <persName type="lemma" xml:lang="en">Galaistes</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Γαλασά<ref type="note" corresp="#Vol-1-G_M-ftn310"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e16886-person" type="relation" n="father-of">Yehu (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Parchment, Muraba‘at</note>
+                     </state>
+                     <bibl>Mur 93</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname?<ref type="note" corresp="#Vol-1-G_M-ftn311"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-135 CE<ref type="note" corresp="#Vol-1-G_M-ftn312"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Roia-Roia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Roia-Vol-3-L_F"
+                type="name"
+                n="Roia-Roia"
+                xml:id="name-Roia-d1e539855">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn1047"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e30871-person" n="Vol-3-L_F-Latin-Females-Roia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Roia</persName>
+                     <persName type="lemma" xml:lang="en">Roia</persName>
+                     <persName>̔Ρουᾶς<ref type="note" corresp="#Vol-3-L_F-ftn1048"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Cyra (1), <ref corresp="#Vol-3-G_M-d8e25936-person"
+                                type="relation"
+                                n="daughter-of">Entolius (1)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Alexandria, Botti</note>
+                     </state>
+                     <bibl>CIJ1438</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn1049"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rd-4thC CE<ref type="note" corresp="#Vol-3-L_F-ftn1050"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

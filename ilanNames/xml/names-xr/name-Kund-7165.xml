@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Kundâĵ-Kundâĵ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#Kund-Vol-4-I_M"
+                type="name"
+                n="Kundâĵ-Kundâĵ"
+                xml:id="name-Kund-d1e622304">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn511"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_M-d8e6025-person" n="Vol-4-I_M-Iranian-Males-Kundâĵ-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Kundâĵ</persName>
+                     <persName type="lemma" xml:lang="en">Kundâĵ</persName>
+                     <persName>ܟܘܢܕܫ<ref type="note" corresp="#Vol-4-I_M-ftn512"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-I_M-ftn513"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Nau,ROC9 (1914) 434</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-I_M-ftn514"/>P: Babylonia</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-4-I_M-ftn515"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

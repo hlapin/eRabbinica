@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Capitonius-Capitonius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Capitonius-Vol-3-L_M"
+                type="name"
+                n="Capitonius-Capitonius"
+                xml:id="name-Capitonius-d1e547392">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn637"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e10885-person"
+                          n="Vol-3-L_M-Latin-Males-Capitonius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Capitonius</persName>
+                     <persName type="lemma" xml:lang="en">Capitonius</persName>
+                     <persName>Καπίτωνος<ref type="note" corresp="#Vol-3-L_M-ftn638"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Ptolemais, Pacho</note>
+                     </state>
+                     <bibl>CJZC31a</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn639"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>1stC BCE-1stC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

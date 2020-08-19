@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Mnason-Μνάσων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Mnason-Vol-3-G_M"
+                type="name"
+                n="Mnason-Μνάσων"
+                xml:id="name-Mnason-d1e513604">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3287"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e57201-person" n="Vol-3-G_M-Greek-Males-Mnason-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μνάσων</persName>
+                     <persName type="lemma" xml:lang="en">Mnason</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Acts 21:15 (VKGNT 798)</bibl>
+                     <state type="addl-Descr">
+                        <note>Christian convert<ref type="note" corresp="#Vol-3-G_M-ftn3288"/>P:Cyprus</note>
+                     </state>
+                     <floruit>53-8 CE<ref type="note" corresp="#Vol-3-G_M-ftn3289"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e57233-person" n="Vol-3-G_M-Greek-Males-Mnason-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μνάσων</persName>
+                     <persName type="lemma" xml:lang="en">Mnason</persName>
+                     <persName>Μνάσωνος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e47127-person" type="relation" n="father-of">Jason (8)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Samaria, Wilcken</note>
+                     </state>
+                     <bibl>CPJ28</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3290"/>P:Egypt</note>
+                     </state>
+                     <floruit>155-144 BCE<ref type="note" corresp="#Vol-3-G_M-ftn3291"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e57267-person" n="Vol-3-G_M-Greek-Males-Mnason-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μνάσων</persName>
+                     <persName type="lemma" xml:lang="en">Mnason</persName>
+                     <persName>Μνα<ref type="note" corresp="#Vol-3-G_M-ftn3292"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e43556-person" type="relation" n="father-of">Theodorus (20)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Edfu, Manteuffel</note>
+                     </state>
+                     <bibl>CPJ224</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3293"/>P:Egypt</note>
+                     </state>
+                     <floruit>114/5 CE<ref type="note" corresp="#Vol-3-G_M-ftn3294"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

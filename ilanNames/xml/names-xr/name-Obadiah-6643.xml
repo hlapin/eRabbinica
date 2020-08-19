@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ʿObadiah-עבדיה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Obadiah-Vol-4-B_M"
+                type="name"
+                n="ʿObadiah-עבדיה"
+                xml:id="name-Obadiah-d1e598650">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-B_M-ftn1631"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-B_M-d8e20062-person"
+                          n="Vol-4-B_M-Biblical-Males-ʿObadiah-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">עבדיה</persName>
+                     <persName type="lemma" xml:lang="en">ʿObadiah</persName>
+                     <persName>Isaiah (1)’s son, exilarch<ref type="note" corresp="#Vol-4-B_M-ftn1632"/>
+                     </persName>
+                     <state type="provenance">
+                        <note>SOZ8, 7</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn1633"/>P:Babylonia</note>
+                     </state>
+                     <floruit>1stC BCE<ref type="note" corresp="#Vol-4-B_M-ftn1634"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

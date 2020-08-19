@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Zāδān-Zāδān</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#Zn-Vol-4-I_M"
+                type="name"
+                n="Zāδān-Zāδān"
+                xml:id="name-Zn-d1e627643">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn967"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_M-d8e11486-person" n="Vol-4-I_M-Iranian-Males-Zāδān-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Zāδān</persName>
+                     <persName type="lemma" xml:lang="en">Zāδān</persName>
+                     <persName>זידין<ref type="note" corresp="#Vol-4-I_M-ftn968"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Sāpōr (1), <ref corresp="#" type="relation" n="son-of">Elishebʿa (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowls</note>
+                     </state>
+                     <bibl>1. Isbell, no. 50; 2. no. 51</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-I_M-ftn969"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn970"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_M-d8e11521-person" n="Vol-4-I_M-Iranian-Males-Zāδān-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Zāδān</persName>
+                     <persName type="lemma" xml:lang="en">Zāδān</persName>
+                     <persName>זדנוי<ref type="note" corresp="#Vol-4-I_M-ftn971"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Halin (1), <ref corresp="#Vol-4-I_F-d8e6088-person" type="relation" n="son-of">Kabnōē (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowls, Nippur, Montgomery-Gordon</note>
+                     </state>
+                     <bibl>1. Isbell, no. 14; 2. no. 16</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn972"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn973"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

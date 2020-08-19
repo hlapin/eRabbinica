@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Asidares-Asidares</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Asidares-Vol-3-S-G_M"
+                type="name"
+                n="Asidares-Asidares"
+                xml:id="name-Asidares-d1e567124">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-S-G_M-ftn62"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-S-G_M-d8e1097-person"
+                          n="Vol-3-S-G_M-Semitic-Greek-Males-Asidares-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Asidares</persName>
+                     <persName type="lemma" xml:lang="en">Asidares</persName>
+                     <persName>̓Ασιδάρης</persName>
+                     <state type="desc">
+                        <note>Vibius (2) <ref corresp="#Vol-3-L_M-d8e3128-person"
+                                type="relation"
+                                n="son-in-law-of">Antonius (7)’s son-in-law</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Olynthus</note>
+                     </state>
+                     <bibl>Rajak, “Archisynagogoi,” no. 4</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-S-G_M-ftn63"/>P:Greece</note>
+                     </state>
+                     <floruit>1st-2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

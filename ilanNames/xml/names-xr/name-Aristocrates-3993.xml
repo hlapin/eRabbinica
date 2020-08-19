@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aristocrates-̓Αριστοκράτης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Aristocrates-Vol-3-G_M"
+                type="name"
+                n="Aristocrates-̓Αριστοκράτης"
+                xml:id="name-Aristocrates-d1e490465">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn673"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e11432-person"
+                          n="Vol-3-G_M-Greek-Males-Aristocrates-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αριστοκράτης</persName>
+                     <persName type="lemma" xml:lang="en">Aristocrates</persName>
+                     <persName>̓Αριστοκράτους<ref type="note" corresp="#Vol-3-G_M-ftn674"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-S-G_M-d8e874-person" type="relation" n="son-of">Arimmas (3)’s son</ref>, Dosas (9), Tobiah (9) and <ref corresp="#Vol-3-G_M-d8e11470-person" type="relation" n="father-of">Aristocrates (2)’s father</ref>, aged 63<ref type="note" corresp="#Vol-3-G_M-ftn675"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaphs, Teucheira, Gray</note>
+                     </state>
+                     <bibl>CJZC54a,c,d</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn676"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e11470-person"
+                          n="Vol-3-G_M-Greek-Males-Aristocrates-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αριστοκράτης</persName>
+                     <persName type="lemma" xml:lang="en">Aristocrates</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e11432-person" type="relation" n="son-of">Aristocrates (1)’s son</ref>, aged 4<ref type="note" corresp="#Vol-3-G_M-ftn677"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira, Gray</note>
+                     </state>
+                     <bibl>CJZC54d</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn678"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e11505-person"
+                          n="Vol-3-G_M-Greek-Males-Aristocrates-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αριστοκράτης</persName>
+                     <persName type="lemma" xml:lang="en">Aristocrates</persName>
+                     <persName>̓Αριστοκράτους</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-S-G_M-d8e874-person" type="relation" n="father-of">Arimmas (3)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teicheira, Gray</note>
+                     </state>
+                     <bibl>CJZC54e</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn679"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e11534-person"
+                          n="Vol-3-G_M-Greek-Males-Aristocrates-4">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αριστοκράτης</persName>
+                     <persName type="lemma" xml:lang="en">Aristocrates</persName>
+                     <persName>̓Αριστοκ[ρ]άτους<ref type="note" corresp="#Vol-3-G_M-ftn680"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-E_F-d8e1652-person" type="relation" n="father-of">Thalous (3)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira, Oliverio</note>
+                     </state>
+                     <bibl>CJZC63e</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn681"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

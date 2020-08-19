@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Šērkōē-Šērkōē</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_F-Iranian-Females-to-utf-TEI-P5-names.xml/#rk-Vol-4-I_F"
+                type="name"
+                n="Šērkōē-Šērkōē"
+                xml:id="name-rk-d1e614865">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_F-ftn1066"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_F-d8e13038-person"
+                          n="Vol-4-I_F-Iranian-Females-Šērkōē-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Šērkōē</persName>
+                     <persName type="lemma" xml:lang="en">Šērkōē</persName>
+                     <persName>שרקוי<ref type="note" corresp="#Vol-4-I_F-ftn1067"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Halin (1), Kabnōē (1) and <ref corresp="#Vol-4-B_M-d8e411-person" type="relation" n="mother-of">Abraham (7)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowls, Nippur, Montgomery-Gordon</note>
+                     </state>
+                     <bibl>1. Isbell, no. 14; 2. no. 16</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-I_F-ftn1068"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn1069"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_F-d8e13073-person"
+                          n="Vol-4-I_F-Iranian-Females-Šērkōē-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Šērkōē</persName>
+                     <persName type="lemma" xml:lang="en">Šērkōē</persName>
+                     <persName>שרקוי<ref type="note" corresp="#Vol-4-I_F-ftn1070"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_F-d8e2067-person" type="relation" n="daughter-of">Daδī (2)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowls, Nippur, Montgomery</note>
+                     </state>
+                     <bibl>1. Isbell, no. 23; 2. no. 24<ref type="note" corresp="#Vol-4-I_F-ftn1071"/>
+                     </bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn1072"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn1073"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

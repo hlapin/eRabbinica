@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Nabaius-Nabaius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Nabaius-Vol-3-S-G_M"
+                type="name"
+                n="Nabaius-Nabaius"
+                xml:id="name-Nabaius-d1e569061">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-S-G_M-ftn185"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-S-G_M-d8e3068-person"
+                          n="Vol-3-S-G_M-Semitic-Greek-Males-Nabaius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Nabaius</persName>
+                     <persName type="lemma" xml:lang="en">Nabaius</persName>
+                     <persName>Βαρναβας<ref type="note" corresp="#Vol-3-S-G_M-ftn186"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="father-of">Joseph (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Acts 4:36 (VKGNT 154)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-S-G_M-ftn187"/>P:Cyprus</note>
+                     </state>
+                     <floruit>30s CE<ref type="note" corresp="#Vol-3-S-G_M-ftn188"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-S-G_M-d8e3107-person"
+                          n="Vol-3-S-G_M-Semitic-Greek-Males-Nabaius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Nabaius</persName>
+                     <persName type="lemma" xml:lang="en">Nabaius</persName>
+                     <persName>Βαρνάβαιος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e62484-person" type="relation" n="father-of">Pamphilus (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Edfu, Manteuffel</note>
+                     </state>
+                     <bibl>CPJ331</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-S-G_M-ftn189"/>P:Egypt</note>
+                     </state>
+                     <floruit>105 CE<ref type="note" corresp="#Vol-3-S-G_M-ftn190"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-S-G_M-d8e3139-person"
+                          n="Vol-3-S-G_M-Semitic-Greek-Males-Nabaius-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Nabaius</persName>
+                     <persName type="lemma" xml:lang="en">Nabaius</persName>
+                     <persName>Ναβαιου</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Marmarica, Norsa &amp; Vitelli</note>
+                     </state>
+                     <bibl>CJZC77.6</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-S-G_M-ftn191"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>175-81 CE<ref type="note" corresp="#Vol-3-S-G_M-ftn192"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

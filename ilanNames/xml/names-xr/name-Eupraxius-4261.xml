@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Eupraxius-Ε̓πράξιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Eupraxius-Vol-3-G_M"
+                type="name"
+                n="Eupraxius-Ε̓πράξιος"
+                xml:id="name-Eupraxius-d1e501006">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1818"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e31276-person"
+                          n="Vol-3-G_M-Greek-Males-Eupraxius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ε̓πράξιος</persName>
+                     <persName type="lemma" xml:lang="en">Eupraxius</persName>
+                     <persName>Eufraxius<ref type="note" corresp="#Vol-3-G_M-ftn1819"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn1820"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Casiodorus,ECASS, no. 120</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan?<ref type="note" corresp="#Vol-3-G_M-ftn1821"/>P:Rome</note>
+                     </state>
+                     <floruit>507-11 CE<ref type="note" corresp="#Vol-3-G_M-ftn1822"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

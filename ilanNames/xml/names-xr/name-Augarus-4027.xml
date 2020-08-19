@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Augarus-Αὔγαρος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Augarus-Vol-3-G_M"
+                type="name"
+                n="Augarus-Αὔγαρος"
+                xml:id="name-Augarus-d1e491855">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn790"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e13477-person" n="Vol-3-G_M-Greek-Males-Augarus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Αὔγαρος</persName>
+                     <persName type="lemma" xml:lang="en">Augarus</persName>
+                     <persName>Α̓γάρῳ</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="brother-of">Isaac (14)’s brother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Kase</note>
+                     </state>
+                     <bibl>CPJ469</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn791"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

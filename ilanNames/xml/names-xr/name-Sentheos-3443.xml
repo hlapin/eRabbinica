@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sentheos-Sentheos</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Sentheos-Vol-3-E_M"
+                type="name"
+                n="Sentheos-Sentheos"
+                xml:id="name-Sentheos-d1e469102">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn535"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e8828-person"
+                          n="Vol-3-E_M-Egyptian-Males-Sentheos-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Sentheos</persName>
+                     <persName type="lemma" xml:lang="en">Sentheos</persName>
+                     <persName>Σενθέως</persName>
+                     <floruit>Tamar (1)’s father</floruit>
+                     <state type="provenance">
+                        <note>Papyrus, Crocodilopolis</note>
+                     </state>
+                     <bibl>P. Bodl. 8</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn536"/>P:Egypt</note>
+                     </state>
+                     <floruit>121 BCE<ref type="note" corresp="#Vol-3-E_M-ftn537"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

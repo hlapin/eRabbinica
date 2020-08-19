@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Menophilus-Μηνόφιλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Menophilus-Vol-3-G_M"
+                type="name"
+                n="Menophilus-Μηνόφιλος"
+                xml:id="name-Menophilus-d1e513010">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3250"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e56564-person"
+                          n="Vol-3-G_M-Greek-Males-Menophilus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μηνόφιλος</persName>
+                     <persName type="lemma" xml:lang="en">Menophilus</persName>
+                     <persName>Menophili</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn3251"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Martial,GLAJJ1, 243</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3252"/>P:Rome</note>
+                     </state>
+                     <floruit>Pre-104 CE<ref type="note" corresp="#Vol-3-G_M-ftn3253"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e56607-person"
+                          n="Vol-3-G_M-Greek-Males-Menophilus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μηνόφιλος</persName>
+                     <persName type="lemma" xml:lang="en">Menophilus</persName>
+                     <persName>Μηνοφίλου</persName>
+                     <state type="desc">
+                        <note>Cattia (1) <ref corresp="#Vol-3-G_F-d8e1492-person" type="relation" n="father-of">Ammias (1)’s father</ref>, father of synagogue of the Calcaresians<ref type="note" corresp="#Vol-3-G_M-ftn3254"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde?<ref type="note" corresp="#Vol-3-G_M-ftn3255"/>, Le Blant</note>
+                     </state>
+                     <bibl>CIJ537</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3256"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e56662-person"
+                          n="Vol-3-G_M-Greek-Males-Menophilus-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μηνόφιλος</persName>
+                     <persName type="lemma" xml:lang="en">Menophilus</persName>
+                     <persName>Μηνοφᾶς<ref type="note" corresp="#Vol-3-G_M-ftn3257"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Yalnizsaray,</note>
+                     </state>
+                     <bibl>MAMA9, 430</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3258"/>P:Asia</note>
+                     </state>
+                     <floruit>2ndC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e56703-person"
+                          n="Vol-3-G_M-Greek-Males-Menophilus-4">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μηνόφιλος</persName>
+                     <persName type="lemma" xml:lang="en">Menophilus</persName>
+                     <persName>Μενοφείλου<ref type="note" corresp="#Vol-3-G_M-ftn3259"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e16629-person"
+                                type="relation"
+                                n="relative-of">Piste (1)’s relative</ref>?<ref type="note" corresp="#Vol-3-G_M-ftn3260"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Laodicea</note>
+                     </state>
+                     <bibl>Ceylan &amp; Corsten,EpA25 (1995) 89</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3261"/>P:Asia</note>
+                     </state>
+                     <floruit>2nd-3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

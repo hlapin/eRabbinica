@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Menaia-Μηναῖα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Menaia-Vol-2-G_F"
+                type="name"
+                n="Menaia-Μηναῖα"
+                xml:id="name-Menaia-d1e352189">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_F-ftn255"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_F-d8e3818-person" n="Vol-2-G_F-Greek-Females-Menaia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Μηναῖα</persName>
+                     <persName type="lemma" xml:lang="en">Menaia</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e19229-person" type="relation" n="wife-of">Joshua (35)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus lid, private collection</note>
+                     </state>
+                     <bibl>Cotton, personal communication</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-2-G_F-ftn256"/>
+                        </note>
+                     </state>
+                     <floruit>
+                        <ref type="note" corresp="#Vol-2-G_F-ftn257"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Āzādyār-Āzādyār</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_F-Iranian-Females-to-utf-TEI-P5-names.xml/#zdyr-Vol-4-I_F"
+                type="name"
+                n="Āzādyār-Āzādyār"
+                xml:id="name-zdyr-d1e603257">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_F-ftn100"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_F-d8e1182-person"
+                          n="Vol-4-I_F-Iranian-Females-Āzādyār-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Āzādyār</persName>
+                     <persName type="lemma" xml:lang="en">Āzādyār</persName>
+                     <persName>אזאדיאר<ref type="note" corresp="#Vol-4-I_F-ftn101"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_F-d8e11525-person Vol-4-I_M-d8e9796-person"
+                                type="relation"
+                                n="daughter-of">Pērōzag (1)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Moussyaieff collection</note>
+                     </state>
+                     <bibl>Levene,CMB, M107</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn102"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn103"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Corcaina-Κορκαίνα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Corcaina-Vol-3-G_F"
+                type="name"
+                n="Corcaina-Κορκαίνα"
+                xml:id="name-Corcaina-d1e480169">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn768"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e13552-person"
+                          n="Vol-3-G_F-Greek-Females-Corcaina-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Κορκαίνα</persName>
+                     <persName type="lemma" xml:lang="en">Corcaina</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Aurelia (46) Artemia (2), Marcus (40) Aurelius (87) <ref corresp="#Vol-3-G_M-d8e57321-person" type="relation" n="wife-of">Moles (1)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Termessos</note>
+                     </state>
+                     <bibl>Tituli Asia Minoris3, 612</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn769"/>Second nameP:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

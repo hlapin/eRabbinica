@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Esouris-Esouris</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Esouris-Vol-3-E_M"
+                type="name"
+                n="Esouris-Esouris"
+                xml:id="name-Esouris-d1e462316">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn131"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e2162-person"
+                          n="Vol-3-E_M-Egyptian-Males-Esouris-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Esouris</persName>
+                     <persName type="lemma" xml:lang="en">Esouris</persName>
+                     <persName>̓Εσοῦρις<ref type="note" corresp="#Vol-3-E_M-ftn132"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e31754-person" type="relation" n="son-of">Shabtai (110)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Philadelphia</note>
+                     </state>
+                     <bibl>Montevecchi,Aegyptus63 (1983) 75</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn133"/>P:Egypt</note>
+                     </state>
+                     <floruit>34 CE<ref type="note" corresp="#Vol-3-E_M-ftn134"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-E_M-d8e2204-person"
+                          n="Vol-3-E_M-Egyptian-Males-Esouris-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Esouris</persName>
+                     <persName type="lemma" xml:lang="en">Esouris</persName>
+                     <persName>̓Εσούριος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-E_M-ftn135"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Fayum</note>
+                     </state>
+                     <bibl>Schibli,ZPE50 (1983) 94</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn136"/>P:Egypt</note>
+                     </state>
+                     <floruit>42 CE<ref type="note" corresp="#Vol-3-E_M-ftn137"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

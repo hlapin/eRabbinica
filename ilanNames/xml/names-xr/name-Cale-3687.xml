@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Cale-Καλή</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Cale-Vol-3-G_F"
+                type="name"
+                n="Cale-Καλή"
+                xml:id="name-Cale-d1e479715">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn724"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e12927-person" n="Vol-3-G_F-Greek-Females-Cale-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Καλή</persName>
+                     <persName type="lemma" xml:lang="en">Cale</persName>
+                     <persName>Καλήν</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_F-ftn725"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Manumission inscription, Anapa,<ref type="note" corresp="#Vol-3-G_F-ftn726"/>Boltunova</note>
+                     </state>
+                     <bibl>IJO1, p. 318</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn727"/>P:Bosphoran Kingdom</note>
+                     </state>
+                     <floruit>1st-2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

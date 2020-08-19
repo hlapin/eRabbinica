@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Billienus-Billienus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Billienus-Vol-3-L_M"
+                type="name"
+                n="Billienus-Billienus"
+                xml:id="name-Billienus-d1e546303">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn557"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e9690-person" n="Vol-3-L_M-Latin-Males-Billienus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Billienus</persName>
+                     <persName type="lemma" xml:lang="en">Billienus</persName>
+                     <persName>Βι[λλι]ήνας<ref type="note" corresp="#Vol-3-L_M-ftn558"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira</note>
+                     </state>
+                     <bibl>Reynolds,CJZC12d</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn559"/>Second nameP:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e9733-person" n="Vol-3-L_M-Latin-Males-Billienus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Billienus</persName>
+                     <persName type="lemma" xml:lang="en">Billienus</persName>
+                     <persName>Βιλλιῆνος<ref type="note" corresp="#Vol-3-L_M-ftn560"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn561"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira</note>
+                     </state>
+                     <bibl>Reynolds,CJZC13c</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn562"/>; second nameP:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

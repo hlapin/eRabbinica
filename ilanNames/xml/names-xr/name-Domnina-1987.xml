@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Domnina-Domnina</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_F-Latin-Female-to-utf-TEI-P5-names.xml/#Domnina-Vol-2-L_F names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Domnina-Vol-3-L_F"
+                type="name"
+                n="Domnina-Domnina"
+                xml:id="name-Domnina-d1e378865">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_F-ftn74"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn384"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_F-d8e835-person" n="Vol-2-L_F-Latin-Female-Domnina-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Domnina</persName>
+                     <persName type="lemma" xml:lang="en">Domnina</persName>
+                     <persName>Δομ[νῖν]α<ref type="note" corresp="#Vol-2-L_F-ftn75"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Apamea/Syria, Mayence,CIJ808</note>
+                     </state>
+                     <bibl>IJO3, Syr63</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>391<ref type="note" corresp="#Vol-2-L_F-ftn76"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e7085-person" n="Vol-3-L_F-Latin-Females-Domnina-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Domnina</persName>
+                     <persName type="lemma" xml:lang="en">Domnina</persName>
+                     <persName>[Δ]ομνῖνα<ref type="note" corresp="#Vol-3-L_F-ftn385"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Caelia (1), <ref corresp="#Vol-3-L_M-d8e19712-person" type="relation" n="wife-of">Julianus (2)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Villa Torlonia, Leon</note>
+                     </state>
+                     <bibl>CIJ35a</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn386"/>; second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

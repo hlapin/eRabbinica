@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Onga-̓́Ογγα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Onga-Vol-2-G_M"
+                type="name"
+                n="Onga-̓́Ογγα"
+                xml:id="name-Onga-d1e368747">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn918"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e13866-person" n="Vol-2-G_M-Greek-Males-Onga-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓́Ογγα</persName>
+                     <persName type="lemma" xml:lang="en">Onga</persName>
+                     <persName>̓́Ογα<ref type="note" corresp="#Vol-2-G_M-ftn919"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Isaac (53), <ref corresp="#Vol-2-B_M-d8e6238-person" type="relation" n="son-of">Benjamin (17)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Beth She‘arim, catacomb 1,CIJ1099</note>
+                     </state>
+                     <bibl>BS2:80</bibl>
+                     <state type="addl-Descr">
+                        <note>Second name</note>
+                     </state>
+                     <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_M-ftn920"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

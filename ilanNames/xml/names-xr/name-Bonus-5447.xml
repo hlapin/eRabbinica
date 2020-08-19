@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Bonus-Bonus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Bonus-Vol-3-L_M names/Vol-4-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Bonus-Vol-4-L_M"
+                type="name"
+                n="Bonus-Bonus"
+                xml:id="name-Bonus-d1e546490">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn569"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-L_M-ftn50"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e9888-person" n="Vol-3-L_M-Latin-Males-Bonus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Bonus</persName>
+                     <persName type="lemma" xml:lang="en">Bonus</persName>
+                     <persName>Boni<ref type="note" corresp="#Vol-3-L_M-ftn570"/>
+                     </persName>
+                     <persName>/ Bon[e]ni<ref type="note" corresp="#Vol-3-L_M-ftn571"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e42572-person" type="relation" n="son-of">Vita (1)’s son</ref>, Andronicus (7), Rosa (1) and <ref corresp="#" type="relation" n="father-of">Joseph (75)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaphs, Venosa, Angelis &amp; Smith</note>
+                     </state>
+                     <bibl>CIJ607, 616</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn572"/>P:Italy</note>
+                     </state>
+                     <floruit>5th-6thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e9935-person" n="Vol-3-L_M-Latin-Males-Bonus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Bonus</persName>
+                     <persName type="lemma" xml:lang="en">Bonus</persName>
+                     <persName>–<ref type="note" corresp="#Vol-3-L_M-ftn573"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Sant’ Antioco, Sanfilippo,CIJ660</note>
+                     </state>
+                     <bibl>JIWE1, 172</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn574"/>P:Sardinia</note>
+                     </state>
+                     <floruit>4th-5thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e9980-person" n="Vol-3-L_M-Latin-Males-Bonus-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Bonus</persName>
+                     <persName type="lemma" xml:lang="en">Bonus</persName>
+                     <persName>Boni</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_F-d8e1716-person" type="relation" n="husband-of">Augusta (2)’s husband</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Venosa, Colafemmina</note>
+                     </state>
+                     <bibl>JIWE1, 107</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn575"/>P:Italy</note>
+                     </state>
+                     <floruit>521 CE<ref type="note" corresp="#Vol-3-L_M-ftn576"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-L_M-d8e519-person" n="Vol-4-L_M-Latin-Males-Bonus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Bonus</persName>
+                     <persName type="lemma" xml:lang="en">Bonus</persName>
+                     <persName>Βοννέους<ref type="note" corresp="#Vol-4-L_M-ftn51"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e26002-person" type="relation" n="son-of">Moqimo (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Burial cave contract, Palmyra, Cantineau</note>
+                     </state>
+                     <bibl>IJO3, Syr50</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-L_M-ftn52"/>P:Palmyra</note>
+                     </state>
+                     <floruit>3rd C CE<ref type="note" corresp="#Vol-4-L_M-ftn53"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

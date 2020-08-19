@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Agenor-̓Αγήνωρ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Agenor-Vol-3-G_M"
+                type="name"
+                n="Agenor-̓Αγήνωρ"
+                xml:id="name-Agenor-d1e486552">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn56"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e931-person" n="Vol-3-G_M-Greek-Males-Agenor-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αγήνωρ</persName>
+                     <persName type="lemma" xml:lang="en">Agenor</persName>
+                     <persName>̓Αγήνω<ref type="note" corresp="#Vol-3-G_M-ftn57"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e23422-person" type="relation" n="son-of">Dositheus (49)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Vienna,</note>
+                     </state>
+                     <bibl>P. Harrauer 33:19</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn58"/>P:Egypt</note>
+                     </state>
+                     <floruit>1stC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e964-person" n="Vol-3-G_M-Greek-Males-Agenor-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αγήνωρ</persName>
+                     <persName type="lemma" xml:lang="en">Agenor</persName>
+                     <persName>̓Αγήνορο<ref type="note" corresp="#Vol-3-G_M-ftn59"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e23458-person" type="relation" n="father-of">Dositheus (50)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Vienna,</note>
+                     </state>
+                     <bibl>P. Harrauer 33:20</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn60"/>P:Egypt</note>
+                     </state>
+                     <floruit>1stC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

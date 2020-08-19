@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Arsia-Arsia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Arsia-Vol-3-L_F"
+                type="name"
+                n="Arsia-Arsia"
+                xml:id="name-Arsia-d1e530115">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn68"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e1266-person" n="Vol-3-L_F-Latin-Females-Arsia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Arsia</persName>
+                     <persName type="lemma" xml:lang="en">Arsia</persName>
+                     <persName>Arsa[e]<ref type="note" corresp="#Vol-3-L_F-ftn69"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="sister-of">Joseph (92)’s sister</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Peratovci, Sergejevski</note>
+                     </state>
+                     <bibl>IJO1, Dal1</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn70"/>P:Dalmatia</note>
+                     </state>
+                     <floruit>2nd-3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

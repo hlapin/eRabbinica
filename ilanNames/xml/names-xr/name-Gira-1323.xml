@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Gira-גירא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Gira-Vol-1-S-H_M names/Vol-2-Vol-1-ADD-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Gira-Vol-2-Vol-1-ADD-P_M"
+                type="name"
+                n="Gira-גירא"
+                xml:id="name-Gira-d1e307515">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-H_M-ftn211"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-P_M-ftn46"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-H_M-d2e3167-person" n="Vol-1-S-H_M-Gira-1">
+                     <persName type="lemma">גירא</persName>
+                     <persName type="lemma" xml:lang="en">Gira</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Γιώρας<ref type="note" corresp="#Vol-1-S-H_M-ftn212"/>
+                     </persName>
+                     <persName xml:lang="checkme">Bargioram<ref type="note" corresp="#Vol-1-S-H_M-ftn213"/>
+                     </persName>
+                     <persName xml:lang="gr">Βαργιορᾶς<ref type="note" corresp="#Vol-1-S-H_M-ftn214"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e53443-person" type="relation" n="father-of">Simon (13)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ2:521 (Schalit,NB, 35); Tacitus,GLAJJ2, 23; Dio Casius,GLAJJ2, 373.</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn215"/>
+                        </note>
+                     </state>
+                     <floruit>66-70 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn216"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-S-H_M-d2e3231-person" n="Vol-1-S-H_M-Gira-2">
+                     <persName type="lemma">גירא</persName>
+                     <persName type="lemma" xml:lang="en">Gira</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">גרים<ref type="note" corresp="#Vol-1-S-H_M-ftn217"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e19027-person" type="relation" n="father-of">Judah (71)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>bMQ9a (Kosowsky,Babylonico, 343)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn218"/>
+                        </note>
+                     </state>
+                     <floruit>Post-135 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn219"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-S-H_M-d2e3263-person" n="Vol-1-S-H_M-Gira-3">
+                     <persName type="lemma">גירא</persName>
+                     <persName type="lemma" xml:lang="en">Gira</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Γίωρας<ref type="note" corresp="#Vol-1-S-H_M-ftn220"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Muraba‘at</note>
+                     </state>
+                     <bibl>Mur 120</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-75 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn221"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-S-H_M-d2e3289-person" n="Vol-1-S-H_M-Gira-4">
+                     <persName type="lemma">גירא</persName>
+                     <persName type="lemma" xml:lang="en">Gira</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Masada</note>
+                     </state>
+                     <bibl>Mas no. 420</bibl>
+                     <state type="addl-Descr">
+                        <note>Second name<ref type="note" corresp="#Vol-1-S-H_M-ftn222"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-73 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn223"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-P_M-d8e666-person"
+                          n="Vol-2-Vol-1-ADD-P_M-Persian-Males-Gira-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">גירא</persName>
+                     <persName type="lemma" xml:lang="en">Gira</persName>
+                     <persName>גיו[רא]<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn47"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn48"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Graffito, Temple Mount</note>
+                     </state>
+                     <bibl>CIIP1.1, no. 6</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn49"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

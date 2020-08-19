@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Monimus-Μόνιμος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Monimus-Vol-1-G_M names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Monimus-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Monimus-Vol-3-G_M"
+                type="name"
+                n="Monimus-Μόνιμος"
+                xml:id="name-Monimus-d1e236096">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn925"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn888"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3297"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e12990-person" n="Vol-1-G_M-Monimus-1">
+                     <persName type="lemma">Μόνιμος</persName>
+                     <persName type="lemma" xml:lang="en">Monimus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Μονιμου<ref type="note" corresp="#Vol-1-G_M-ftn926"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-G_M-d2e163-person" type="relation" n="father-of">Aianus (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Weight-stone, Migdal</note>
+                     </state>
+                     <bibl>Qedar,INJ9 (1986-7) 31</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>98 CE<ref type="note" corresp="#Vol-1-G_M-ftn927"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_M-d8e13407-person" n="Vol-2-G_M-Greek-Males-Monimus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μόνιμος</persName>
+                     <persName type="lemma" xml:lang="en">Monimus</persName>
+                     <persName>Μονίμου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e17458-person" type="relation" n="father-of">Judah (104)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Sepphoris</note>
+                     </state>
+                     <bibl>Weiss,Sepphoris Synagogue, no. 6Gr</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>5th-7thC<ref type="note" corresp="#Vol-2-G_M-ftn889"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e57374-person" n="Vol-3-G_M-Greek-Males-Monimus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μόνιμος</persName>
+                     <persName type="lemma" xml:lang="en">Monimus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn3298"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Schneider Graziosi</note>
+                     </state>
+                     <bibl>CIJ379</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3299"/>; second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

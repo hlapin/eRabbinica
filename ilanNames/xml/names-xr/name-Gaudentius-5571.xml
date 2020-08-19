@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Gaudentius-Gaudentius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Gaudentius-Vol-3-L_M"
+                type="name"
+                n="Gaudentius-Gaudentius"
+                xml:id="name-Gaudentius-d1e550677">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1101"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e18454-person"
+                          n="Vol-3-L_M-Latin-Males-Gaudentius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Gaudentius</persName>
+                     <persName type="lemma" xml:lang="en">Gaudentius</persName>
+                     <persName>[Γα]υδέντις<ref type="note" corresp="#Vol-3-L_M-ftn1102"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn1103"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Müller</note>
+                     </state>
+                     <bibl>CIJ316</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1104"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e18512-person"
+                          n="Vol-3-L_M-Latin-Males-Gaudentius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Gaudentius</persName>
+                     <persName type="lemma" xml:lang="en">Gaudentius</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Leon</note>
+                     </state>
+                     <bibl>CIJ86*</bibl>
+                     <state type="addl-Descr">
+                        <note>Christian?<ref type="note" corresp="#Vol-3-L_M-ftn1105"/>P:Rome</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn1106"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

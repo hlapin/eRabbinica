@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Shutlaḥ-שותלח</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Shutlah-Vol-2-S-H_M"
+                type="name"
+                n="Shutlaḥ-שותלח"
+                xml:id="name-Shutlah-d1e433249">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn1540"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e24407-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Shutlaḥ-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">שותלח</persName>
+                     <persName type="lemma" xml:lang="en">Shutlaḥ</persName>
+                     <persName>–<ref type="note" corresp="#Vol-2-S-H_M-ftn1541"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e22011-person" type="relation" n="father-of">Joseph (2)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Tulida, 132</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-S-H_M-ftn1542"/>; nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn1543"/>
+                        </note>
+                     </state>
+                     <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn1544"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

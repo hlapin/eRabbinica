@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ḥulwān-حلوان</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#ulwn-Vol-4-A_M"
+                type="name"
+                n="Ḥulwān-حلوان"
+                xml:id="name-ulwn-d1e578969">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn288"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e3628-person" n="Vol-4-A_M-Arabic-Males-Ḥulwān-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">حلوان</persName>
+                     <persName type="lemma" xml:lang="en">Ḥulwān</persName>
+                     <persName>חלוון<ref type="note" corresp="#Vol-4-A_M-ftn289"/>
+                     </persName>
+                     <persName>/חייון<ref type="note" corresp="#Vol-4-A_M-ftn290"/>
+                     </persName>
+                     <persName>/חזאן<ref type="note" corresp="#Vol-4-A_M-ftn291"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e15190-person"
+                                type="relation"
+                                n="father-of">Huna (13)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bShab139b (Kosowsky,Babylonico, 392)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn292"/>P:Babylonia<ref type="note" corresp="#Vol-4-A_M-ftn293"/>
+                        </note>
+                     </state>
+                     <floruit>4th-5thC CE<ref type="note" corresp="#Vol-4-A_M-ftn294"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

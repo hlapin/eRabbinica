@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Soteles-Σωτέλης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Soteles-Vol-3-G_M"
+                type="name"
+                n="Soteles-Σωτέλης"
+                xml:id="name-Soteles-d1e524253">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4328"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e74602-person" n="Vol-3-G_M-Greek-Males-Soteles-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Σωτέλης</persName>
+                     <persName type="lemma" xml:lang="en">Soteles</persName>
+                     <persName>Σωτέλους</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="son-of">Joseph (23)’s son</ref>, <ref corresp="#" type="relation" n="father-of">Joseph (24)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Fayum, Viereck</note>
+                     </state>
+                     <bibl>CPJ427</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4329"/>P:Egypt</note>
+                     </state>
+                     <floruit>101 CE<ref type="note" corresp="#Vol-3-G_M-ftn4330"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

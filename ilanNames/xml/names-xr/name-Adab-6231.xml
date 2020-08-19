@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aḥdab-احدب</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Adab-Vol-4-A_M"
+                type="name"
+                n="Aḥdab-احدب"
+                xml:id="name-Adab-d1e575439">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn7"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e66-person" n="Vol-4-A_M-Arabic-Males-Aḥdab-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">احدب</persName>
+                     <persName type="lemma" xml:lang="en">Aḥdab</persName>
+                     <persName>
+                        <ref type="note" corresp="#Vol-4-A_M-ftn8"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e17914-person" type="relation" n="son-of">Mataniah (5)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bShab60b (Kosowsky,Babylonico, 148)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn9"/>P:Babylonia</note>
+                     </state>
+                     <floruit>4thC CE<ref type="note" corresp="#Vol-4-A_M-ftn10"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-A_M-d8e106-person" n="Vol-4-A_M-Arabic-Males-Aḥdab-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">احدب</persName>
+                     <persName type="lemma" xml:lang="en">Aḥdab</persName>
+                     <persName>
+                        <ref type="note" corresp="#Vol-4-A_M-ftn11"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e9951-person" type="relation" n="son-of">Ami (8)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bShab83b (Kosowsky,Babylonico, 148)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn12"/>P:Babylonia</note>
+                     </state>
+                     <floruit>3rd-4thC CE<ref type="note" corresp="#Vol-4-A_M-ftn13"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-A_M-d8e150-person" n="Vol-4-A_M-Arabic-Males-Aḥdab-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">احدب</persName>
+                     <persName type="lemma" xml:lang="en">Aḥdab</persName>
+                     <persName>
+                        <ref type="note" corresp="#Vol-4-A_M-ftn14"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_F-d8e847-person" type="relation" n="son-of">Aḥatabu (2)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Berlin</note>
+                     </state>
+                     <bibl>Wohlstein,ZA8 (1893) 328</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-A_M-ftn15"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-A_M-ftn16"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

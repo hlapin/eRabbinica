@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Phaeris-Phaeris</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Phaeris-Vol-3-E_M"
+                type="name"
+                n="Phaeris-Phaeris"
+                xml:id="name-Phaeris-d1e467272">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn425"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e7014-person"
+                          n="Vol-3-E_M-Egyptian-Males-Phaeris-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Phaeris</persName>
+                     <persName type="lemma" xml:lang="en">Phaeris</persName>
+                     <persName>Φαήρμ<ref type="note" corresp="#Vol-3-E_M-ftn426"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-E_M-d8e5792-person" type="relation" n="father-of">Pecmais (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Karanis, Westerman &amp; Kraemer</note>
+                     </state>
+                     <bibl>CPJ488</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn427"/>P:Egypt</note>
+                     </state>
+                     <floruit>126 CE<ref type="note" corresp="#Vol-3-E_M-ftn428"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

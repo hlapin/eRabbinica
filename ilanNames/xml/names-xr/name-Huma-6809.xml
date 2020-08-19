@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Huma-Huma</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_F-Iranian-Females-to-utf-TEI-P5-names.xml/#Huma-Vol-4-I_F"
+                type="name"
+                n="Huma-Huma"
+                xml:id="name-Huma-d1e606227">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_F-ftn407"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_F-d8e4994-person" n="Vol-4-I_F-Iranian-Females-Huma-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Huma</persName>
+                     <persName type="lemma" xml:lang="en">Huma</persName>
+                     <persName>חומה<ref type="note" corresp="#Vol-4-I_F-ftn408"/>
+                     </persName>
+                     <persName>/חומא<ref type="note" corresp="#Vol-4-I_F-ftn409"/>
+                     </persName>
+                     <persName>/חימה<ref type="note" corresp="#Vol-4-I_F-ftn410"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e4806-person" type="relation" n="wife-of">Abbayye (1)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bYev64b (Kosowsky,Babylonico, 455)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-I_F-ftn411"/>P:Babylonia</note>
+                     </state>
+                     <floruit>4thC CE<ref type="note" corresp="#Vol-4-I_F-ftn412"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Rizām-رزام</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Rizm-Vol-4-A_M"
+                type="name"
+                n="Rizām-رزام"
+                xml:id="name-Rizm-d1e580739">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn438"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e5324-person" n="Vol-4-A_M-Arabic-Males-Rizām-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">رزام</persName>
+                     <persName type="lemma" xml:lang="en">Rizām</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-A_M-d8e13501-person" type="relation" n="father-of">Yāsir (3)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>1. Ibn Hishām,Leben Muhammed’s, 980; 2. Ṭabarī, ix, 1959</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn439"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>6thC CE<ref type="note" corresp="#Vol-4-A_M-ftn440"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

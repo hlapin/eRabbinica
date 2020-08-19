@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Baṭi-בטי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Bai-Vol-4-S-H_M"
+                type="name"
+                n="Baṭi-בטי"
+                xml:id="name-Bai-d1e635198">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn789"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e11396-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Baṭi-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">בטי</persName>
+                     <persName type="lemma" xml:lang="en">Baṭi</persName>
+                     <persName>בטו<ref type="note" corresp="#Vol-4-S-H_M-ftn790"/>
+                     </persName>
+                     <persName>/באטי<ref type="note" corresp="#Vol-4-S-H_M-ftn791"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e8787-person" type="relation" n="son-of">Ṭobiah (10)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bQid70b (Kosowsky,Babylonico, 315-6)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn792"/>P:Babylonia</note>
+                     </state>
+                     <floruit>3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn793"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

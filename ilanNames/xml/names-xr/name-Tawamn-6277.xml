@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Tawʾamān-توأمان</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Tawamn-Vol-4-A_M"
+                type="name"
+                n="Tawʾamān-توأمان"
+                xml:id="name-Tawamn-d1e577022">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn142"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e1728-person" n="Vol-4-A_M-Arabic-Males-Tawʾamān-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">توأمان</persName>
+                     <persName type="lemma" xml:lang="en">Tawʾamān</persName>
+                     <persName>التوأمان<ref type="note" corresp="#Vol-4-A_M-ftn143"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-A_M-d8e7419-person" type="relation" n="father-of">Ṣurayḥ (1)’s father</ref>, <ref corresp="#Vol-4-A_M-d8e6386-person" type="relation" n="son-of">Sibṭ (1)’s son</ref>, priest<ref type="note" corresp="#Vol-4-A_M-ftn144"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Ibn Hishām,Leben Muhammed’s, 13</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn145"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>Pre-Islamic<ref type="note" corresp="#Vol-4-A_M-ftn146"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

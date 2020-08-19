@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Hermes-̔Ερμῆς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Hermes-Vol-3-G_M"
+                type="name"
+                n="Hermes-̔Ερμῆς"
+                xml:id="name-Hermes-d1e498395">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1627"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e27530-person" n="Vol-3-G_M-Greek-Males-Hermes-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̔Ερμῆς</persName>
+                     <persName type="lemma" xml:lang="en">Hermes</persName>
+                     <persName>̔Ερμη͂</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_F-d8e5738-person" type="relation" n="husband-of">Shabtit (42)’s husband</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Elyros</note>
+                     </state>
+                     <bibl>CIJ731b</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1628"/>P:Crete</note>
+                     </state>
+                     <floruit>1st-3rdC CE<ref type="note" corresp="#Vol-3-G_M-ftn1629"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e27576-person" n="Vol-3-G_M-Greek-Males-Hermes-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̔Ερμῆς</persName>
+                     <persName type="lemma" xml:lang="en">Hermes</persName>
+                     <persName>̔Ερμή</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e8256-person" type="relation" n="father-of">Antipatrus (9)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+                     </state>
+                     <bibl>IJO2, 14:A24</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1630"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e27608-person" n="Vol-3-G_M-Greek-Males-Hermes-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̔Ερμῆς</persName>
+                     <persName type="lemma" xml:lang="en">Hermes</persName>
+                     <persName>̔Ερμη͂</persName>
+                     <state type="desc">
+                        <note>Aurelius (59) <ref corresp="#Vol-3-L_M-d8e35269-person" type="relation" n="brother-of">Rufus (9)’s brother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Acmonia, Ramsay</note>
+                     </state>
+                     <bibl>IJO2, 177</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1631"/>P:Asia</note>
+                     </state>
+                     <floruit>2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Macaria-Μακαρία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Macaria-Vol-3-G_F"
+                type="name"
+                n="Macaria-Μακαρία"
+                xml:id="name-Macaria-d1e480871">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn828"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e14568-person"
+                          n="Vol-3-G_F-Greek-Females-Macaria-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Μακαρία</persName>
+                     <persName type="lemma" xml:lang="en">Macaria</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e5756-person" type="relation" n="mother-of">Aurelius (24)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Blaundos, Ramsay</note>
+                     </state>
+                     <bibl>CIJ760</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn829"/>P:Asia</note>
+                     </state>
+                     <floruit>248/9 CE<ref type="note" corresp="#Vol-3-G_F-ftn830"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

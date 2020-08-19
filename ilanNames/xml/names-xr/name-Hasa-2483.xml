@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ḥasa-חסא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Hasa-Vol-2-S-H_M"
+                type="name"
+                n="Ḥasa-חסא"
+                xml:id="name-Hasa-d1e421670">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn919"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e14715-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ḥasa-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">חסא</persName>
+                     <persName type="lemma" xml:lang="en">Ḥasa</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-S-H_M-ftn920"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>yNed6:8, 40a<ref type="note" corresp="#Vol-2-S-H_M-ftn921"/>(Kosovsky,Yerushalmi, –<ref type="note" corresp="#Vol-2-S-H_M-ftn922"/>)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-400<ref type="note" corresp="#Vol-2-S-H_M-ftn923"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

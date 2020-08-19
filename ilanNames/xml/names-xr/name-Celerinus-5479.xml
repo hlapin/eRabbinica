@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Celerinus-Celerinus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Celerinus-Vol-3-L_M"
+                type="name"
+                n="Celerinus-Celerinus"
+                xml:id="name-Celerinus-d1e547722">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn667"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e11371-person"
+                          n="Vol-3-L_M-Latin-Males-Celerinus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Celerinus</persName>
+                     <persName type="lemma" xml:lang="en">Celerinus</persName>
+                     <persName>Celerinum</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_F-d8e31084-person" type="relation" n="husband-of">Rufilla (1)’s husband</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ262</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn668"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e11405-person"
+                          n="Vol-3-L_M-Latin-Males-Celerinus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Celerinus</persName>
+                     <persName type="lemma" xml:lang="en">Celerinus</persName>
+                     <persName>Celeriani<ref type="note" corresp="#Vol-3-L_M-ftn669"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Nonna (1) <ref corresp="#Vol-3-S-G_F-d8e500-person" type="relation" n="father-of">Sarcogna (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Milan, Forcella</note>
+                     </state>
+                     <bibl>CIJ645</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn670"/>P:Italy</note>
+                     </state>
+                     <floruit>5th-7thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

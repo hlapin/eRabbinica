@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Μασειμαίος Masimaius-Μασειμαίος Masimaius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#_Masimaius-Vol-2-S-G_M"
+                type="name"
+                n="Μασειμαίος Masimaius-Μασειμαίος Masimaius"
+                xml:id="name-_Masimaius-d1e397928">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-G_M-ftn108"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-G_M-d8e1749-person"
+                          n="Vol-2-S-G_M-Semitic-Greek-Males-Μασειμαίος Masimaius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μασειμαίος Masimaius</persName>
+                     <persName type="lemma" xml:lang="en">Μασειμαίος Masimaius</persName>
+                     <persName>Μασειμαίου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e17272-person" type="relation" n="father-of">Judah (99)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Tabghah,<ref type="note" corresp="#Vol-2-S-G_M-ftn109"/>Schneider</note>
+                     </state>
+                     <bibl>Klein,Yeshuv, 39</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname?<ref type="note" corresp="#Vol-2-S-G_M-ftn110"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-S-G_M-ftn111"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

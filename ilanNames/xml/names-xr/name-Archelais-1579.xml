@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Archelais-̓Αρχελαΐς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Archelais-Vol-2-G_F"
+                type="name"
+                n="Archelais-̓Αρχελαΐς"
+                xml:id="name-Archelais-d1e348389">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_F-ftn42"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_F-d8e609-person"
+                          n="Vol-2-G_F-Greek-Females-Archelais-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Αρχελαΐς</persName>
+                     <persName type="lemma" xml:lang="en">Archelais</persName>
+                     <persName>̓Αρχελαεῖδος<ref type="note" corresp="#Vol-2-G_F-ftn43"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e48581-person"
+                                type="relation"
+                                n="daughter-of">Simon (71)’s daughter</ref>, <ref corresp="#Vol-2-L_M-d8e6185-person" type="relation" n="wife-of">Justus (24)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Ischar<ref type="note" corresp="#Vol-2-G_F-ftn44"/>
+                        </note>
+                     </state>
+                     <bibl>Magen,Flavia Neapolis, 283</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-G_F-ftn45"/>
+                        </note>
+                     </state>
+                     <floruit>2nd-3rdC</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

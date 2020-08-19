@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Menestratus-Μενέστρατος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Menestratus-Vol-3-G_M"
+                type="name"
+                n="Menestratus-Μενέστρατος"
+                xml:id="name-Menestratus-d1e512411">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3210"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e55841-person"
+                          n="Vol-3-G_M-Greek-Males-Menestratus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μενέστρατος</persName>
+                     <persName type="lemma" xml:lang="en">Menestratus</persName>
+                     <persName>Μενεστράτου<ref type="note" corresp="#Vol-3-G_M-ftn3211"/>
+                     </persName>
+                     <persName>/Μενεστράτωι<ref type="note" corresp="#Vol-3-G_M-ftn3212"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="son-of">Jonathan (10)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyri, Theogenis, Kramer</note>
+                     </state>
+                     <bibl>CPR18:9, 11</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3213"/>P:Egypt</note>
+                     </state>
+                     <floruit>232 BCE<ref type="note" corresp="#Vol-3-G_M-ftn3214"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

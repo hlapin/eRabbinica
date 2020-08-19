@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ambrosius-̓Αμβρόσιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Ambrosius-Vol-1-G_M"
+                type="name"
+                n="Ambrosius-̓Αμβρόσιος"
+                xml:id="name-Ambrosius-d1e200787">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn109"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e1488-person" n="Vol-1-G_M-Ambrosius-1">
+                     <persName type="lemma">̓Αμβρόσιος</persName>
+                     <persName type="lemma" xml:lang="en">Ambrosius</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Αμ[β]ροσιο[υ]<ref type="note" corresp="#Vol-1-G_M-ftn110"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, North Jerusalem</note>
+                     </state>
+                     <bibl>Macalister,PEFQS36 (1904) 257</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn111"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

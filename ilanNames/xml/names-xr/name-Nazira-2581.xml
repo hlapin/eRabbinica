@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Nazira-נזירא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Nazira-Vol-2-S-H_M"
+                type="name"
+                n="Nazira-נזירא"
+                xml:id="name-Nazira-d1e427587">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn1197"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e19194-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Nazira-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">נזירא</persName>
+                     <persName type="lemma" xml:lang="en">Nazira</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e33686-person" type="relation" n="father-of">Levi (8)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>yBer2:1, 4b (Kosovsky,Yerushalmi, 485)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-400<ref type="note" corresp="#Vol-2-S-H_M-ftn1198"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-S-H_M-d8e19222-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Nazira-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">נזירא</persName>
+                     <persName type="lemma" xml:lang="en">Nazira</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e46710-person" type="relation" n="father-of">Simon (17)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>yShab2:3, 5a (Kosovsky,Yerushalmi, 545)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn1199"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

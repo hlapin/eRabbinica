@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Khthousion-כתושיון</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Khthousion-Vol-1-S-H_M"
+                type="name"
+                n="Khthousion-כתושיון"
+                xml:id="name-Khthousion-d1e315841">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-H_M-ftn554"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-H_M-d2e8264-person" n="Vol-1-S-H_M-Khthousion-1">
+                     <persName type="lemma">כתושיון</persName>
+                     <persName type="lemma" xml:lang="en">Khthousion</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">כתושין<ref type="note" corresp="#Vol-1-S-H_M-ftn555"/>
+                     </persName>
+                     <persName xml:lang="he">כתושן<ref type="note" corresp="#Vol-1-S-H_M-ftn556"/>
+                     </persName>
+                     <persName xml:lang="gr">Χθουσίωνος<ref type="note" corresp="#Vol-1-S-H_M-ftn557"/>
+                     </persName>
+                     <persName xml:lang="gr">Χαθουσίωνος<ref type="note" corresp="#Vol-1-S-H_M-ftn558"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Judah (141), <ref corresp="#Vol-1-S-H_F-d2e431-person" type="relation" n="second-of">Babatha (1)’s second</ref> husband</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyri, Babatha archive</note>
+                     </state>
+                     <bibl>PYadin 6, 11, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 34</bibl>
+                     <state type="addl-Descr">
+                        <note>Second name<ref type="note" corresp="#Vol-1-S-H_M-ftn559"/>
+                        </note>
+                     </state>
+                     <floruit>119-128 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn560"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

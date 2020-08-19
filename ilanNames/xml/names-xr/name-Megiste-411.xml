@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Megiste-Μέγιστη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Megiste-Vol-1-G_F"
+                type="name"
+                n="Megiste-Μέγιστη"
+                xml:id="name-Megiste-d1e194531">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_F-ftn220"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_F-d2e3181-person" n="Vol-1-G_F-Megiste-1">
+                     <persName type="lemma">Μέγιστη</persName>
+                     <persName type="lemma" xml:lang="en">Megiste</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="gr">Μέγιστης<ref type="note" corresp="#Vol-1-G_F-ftn221"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-1-G_F-ftn222"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Akeldama, Avni-Greenhut</note>
+                     </state>
+                     <bibl>Ilan,IAAR1 (1996) no. 8</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn223"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

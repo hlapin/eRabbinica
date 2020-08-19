@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Septimia-Septimia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Septimia-Vol-3-L_F"
+                type="name"
+                n="Septimia-Septimia"
+                xml:id="name-Septimia-d1e540756">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn1130"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e32279-person"
+                          n="Vol-3-L_F-Latin-Females-Septimia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Septimia</persName>
+                     <persName type="lemma" xml:lang="en">Septimia</persName>
+                     <persName>Septimae<ref type="note" corresp="#Vol-3-L_F-ftn1131"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Aelia (2), Aelia (1) <ref corresp="#Vol-3-G_F-d8e828-person" type="relation" n="mother-of">Alexandria (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ208</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn1132"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e32316-person"
+                          n="Vol-3-L_F-Latin-Females-Septimia-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Septimia</persName>
+                     <persName type="lemma" xml:lang="en">Septimia</persName>
+                     <persName>Septimae<ref type="note" corresp="#Vol-3-L_F-ftn1133"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_F-ftn1134"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Soklos, Diehl</note>
+                     </state>
+                     <bibl>CIJ678</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn1135"/>; second nameP:Pannonia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Carra-Carra</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Carra-Vol-3-L_F"
+                type="name"
+                n="Carra-Carra"
+                xml:id="name-Carra-d1e531449">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn257"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e4932-person" n="Vol-3-L_F-Latin-Females-Carra-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Carra</persName>
+                     <persName type="lemma" xml:lang="en">Carra</persName>
+                     <persName>Κάρα<ref type="note" corresp="#Vol-3-L_F-ftn258"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-S-H_M-d8e1981-person"
+                                type="relation"
+                                n="daughter-of">Gadia (3)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Lanciani,CIJ535</note>
+                     </state>
+                     <bibl>JIWE2, 579</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn259"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e4985-person" n="Vol-3-L_F-Latin-Females-Carra-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Carra</persName>
+                     <persName type="lemma" xml:lang="en">Carra</persName>
+                     <persName>Cara<ref type="note" corresp="#Vol-3-L_F-ftn260"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Numidia</note>
+                     </state>
+                     <bibl>Le Bohec,Ant. Afr.17 (1981) no. 70</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn261"/>P:North Africa</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn262"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

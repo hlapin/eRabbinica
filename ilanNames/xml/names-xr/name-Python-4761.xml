@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Python-Πύθων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Python-Vol-3-G_M"
+                type="name"
+                n="Python-Πύθων"
+                xml:id="name-Python-d1e521304">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4007"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e69421-person" n="Vol-3-G_M-Greek-Males-Python-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πύθων</persName>
+                     <persName type="lemma" xml:lang="en">Python</persName>
+                     <persName>Πυθίω<ref type="note" corresp="#Vol-3-G_M-ftn4008"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e1962-person" type="relation" n="son-of">Aeneias (3)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Vienna</note>
+                     </state>
+                     <bibl>P. Harrauer 33:41</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4009"/>P:Egypt</note>
+                     </state>
+                     <floruit>1stC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e69454-person" n="Vol-3-G_M-Greek-Males-Python-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πύθων</persName>
+                     <persName type="lemma" xml:lang="en">Python</persName>
+                     <persName>Πύθωνος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e24055-person" type="relation" n="son-of">Lucilius (1)’s son</ref>, overseer, of Thessalonica<ref type="note" corresp="#Vol-3-G_M-ftn4010"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Archisynagogus inscription, Thessalonica, Dumont</note>
+                     </state>
+                     <bibl>Rajak, “Archisynagogoi,” no. 2</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4011"/>P:Greece</note>
+                     </state>
+                     <floruit>155 CE<ref type="note" corresp="#Vol-3-G_M-ftn4012"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

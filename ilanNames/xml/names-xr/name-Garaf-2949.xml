@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Garaf-גרף</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Garaf-Vol-2-Vol-1-ADD-P_M"
+                type="name"
+                n="Garaf-גרף"
+                xml:id="name-Garaf-d1e449966">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-P_M-ftn52"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-P_M-d8e786-person"
+                          n="Vol-2-Vol-1-ADD-P_M-Persian-Males-Garaf-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">גרף</persName>
+                     <persName type="lemma" xml:lang="en">Garaf</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Qumran, KhQ 2416</note>
+                     </state>
+                     <bibl>Lemaire, “Inscriptions,” 363-4</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn53"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

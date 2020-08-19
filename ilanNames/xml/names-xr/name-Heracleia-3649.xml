@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Heracleia-̔Ηράκλεια</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Heracleia-Vol-3-G_F"
+                type="name"
+                n="Heracleia-̔Ηράκλεια"
+                xml:id="name-Heracleia-d1e478043">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn574"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e10391-person"
+                          n="Vol-3-G_F-Greek-Females-Heracleia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̔Ηράκλεια</persName>
+                     <persName type="lemma" xml:lang="en">Heracleia</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e19040-person"
+                                type="relation"
+                                n="daughter-of">Diodotus (1)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Crocodilopolis, Mahaffy &amp; Smyly</note>
+                     </state>
+                     <bibl>CPJ19</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn575"/>P:Egypt</note>
+                     </state>
+                     <floruit>226 BCE<ref type="note" corresp="#Vol-3-G_F-ftn576"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e10425-person"
+                          n="Vol-3-G_F-Greek-Females-Heracleia-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̔Ηράκλεια</persName>
+                     <persName type="lemma" xml:lang="en">Heracleia</persName>
+                     <persName>̔Ηρακλείας</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-S-H_M-d8e3259-person"
+                                type="relation"
+                                n="daughter-of">Honi (7)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Oxyrhynchus, Powell</note>
+                     </state>
+                     <bibl>CPJ451</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn577"/>P:Egypt</note>
+                     </state>
+                     <floruit>126 CE<ref type="note" corresp="#Vol-3-G_F-ftn578"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e10457-person"
+                          n="Vol-3-G_F-Greek-Females-Heracleia-3">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̔Ηράκλεια</persName>
+                     <persName type="lemma" xml:lang="en">Heracleia</persName>
+                     <persName>̔Ηράκλεαν<ref type="note" corresp="#Vol-3-G_F-ftn579"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_F-ftn580"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Delos, Blouet</note>
+                     </state>
+                     <bibl>CIJ725</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn581"/>P:Greece</note>
+                     </state>
+                     <floruit>2nd-1stC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e10507-person"
+                          n="Vol-3-G_F-Greek-Females-Heracleia-4">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̔Ηράκλεια</persName>
+                     <persName type="lemma" xml:lang="en">Heracleia</persName>
+                     <persName>̔Ηρακλείῃ</persName>
+                     <state type="desc">
+                        <note>Titius (5) Flavius (12) <ref corresp="#Vol-3-G_M-d8e47934-person" type="relation" n="wife-of">Jason (30)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Capadocia</note>
+                     </state>
+                     <bibl>Grégoire,BCH33 (1909) 59</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn582"/>P:Asia</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-G_F-ftn583"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

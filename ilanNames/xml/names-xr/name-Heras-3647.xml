@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Heras-̔Ηράς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Heras-Vol-3-G_F"
+                type="name"
+                n="Heras-̔Ηράς"
+                xml:id="name-Heras-d1e477991">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn570"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e10340-person" n="Vol-3-G_F-Greek-Females-Heras-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̔Ηράς</persName>
+                     <persName type="lemma" xml:lang="en">Heras</persName>
+                     <persName>̔Ηραίδος<ref type="note" corresp="#Vol-3-G_F-ftn571"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e29352-person" type="relation" n="mother-of">Shabtai (44)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Arsinoe, Wessely</note>
+                     </state>
+                     <bibl>CPJ421</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn572"/>P:Egypt</note>
+                     </state>
+                     <floruit>73 CE<ref type="note" corresp="#Vol-3-G_F-ftn573"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

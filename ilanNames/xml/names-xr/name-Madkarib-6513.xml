@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Maʿdīkarib-معديكرب</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Madkarib-Vol-4-A_M"
+                type="name"
+                n="Maʿdīkarib-معديكرب"
+                xml:id="name-Madkarib-d1e588228">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn983"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e12412-person"
+                          n="Vol-4-A_M-Arabic-Males-Maʿdīkarib-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">معديكرب</persName>
+                     <persName type="lemma" xml:lang="en">Maʿdīkarib</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-A_M-d8e12359-person" type="relation" n="son-of">Muʿāwiya (1)’s son</ref>, <ref corresp="#Vol-4-A_M-d8e10973-person" type="relation" n="father-of">Qays (8)’s father</ref>, <ref corresp="#Vol-4-A_M-d8e814-person"
+                                type="relation"
+                                n="grandfather-of">Ashʿāth (1)’s grandfather</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Ibn al-Kalbī,nasab maʿadd, 1:139</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-A_M-ftn984"/>P:Arab. Pen.<ref type="note" corresp="#Vol-4-A_M-ftn985"/>
+                        </note>
+                     </state>
+                     <floruit>6thC CE<ref type="note" corresp="#Vol-4-A_M-ftn986"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

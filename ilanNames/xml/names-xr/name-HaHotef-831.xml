@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- HaHotef-החוטף</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-Ha_Names-to-utf-TEI-P5-names.xml/#HaHotef-Vol-1-Ha_Names"
+                type="name"
+                n="HaHotef-החוטף"
+                xml:id="name-HaHotef-d1e247566">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-Ha_Names-ftn10"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-Ha_Names-d2e196-person" n="Vol-1-Ha_Names-HaHotef-1">
+                     <persName type="lemma">החוטף</persName>
+                     <persName type="lemma" xml:lang="en">HaHotef</persName>
+                     <sex cert="high">Names</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-1-Ha_Names-ftn11"/>
+                           <ref corresp="#Vol-1-B_M-d2e31673-person" type="relation" n="father-of">Joseph (38)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>mKil3:7 (Kasovsky,Mishnae, 676)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-1-Ha_Names-ftn12"/>
+                        </note>
+                     </state>
+                     <floruit>Post-135 CE<ref type="note" corresp="#Vol-1-Ha_Names-ftn13"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

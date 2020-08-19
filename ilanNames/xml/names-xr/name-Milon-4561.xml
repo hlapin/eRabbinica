@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Milon-Μίλων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Milon-Vol-3-G_M"
+                type="name"
+                n="Milon-Μίλων"
+                xml:id="name-Milon-d1e513375">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3274"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e56966-person" n="Vol-3-G_M-Greek-Males-Milon-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μίλων</persName>
+                     <persName type="lemma" xml:lang="en">Milon</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e36842-person" type="relation" n="son-of">Zosimus (2)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Fayum, Preaux</note>
+                     </state>
+                     <bibl>CPJ22</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3275"/>P:Egypt</note>
+                     </state>
+                     <floruit>201 BCE<ref type="note" corresp="#Vol-3-G_M-ftn3276"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e57000-person" n="Vol-3-G_M-Greek-Males-Milon-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μίλων</persName>
+                     <persName type="lemma" xml:lang="en">Milon</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+                     </state>
+                     <bibl>IJO2, 14:B16</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3277"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

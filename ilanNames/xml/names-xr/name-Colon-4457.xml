@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Colon-Κόλων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Colon-Vol-3-G_M"
+                type="name"
+                n="Colon-Κόλων"
+                xml:id="name-Colon-d1e509231">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2919"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e50723-person" n="Vol-3-G_M-Greek-Males-Colon-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Κόλων</persName>
+                     <persName type="lemma" xml:lang="en">Colon</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn2920"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Oxyrhynchus, Roth</note>
+                     </state>
+                     <bibl>CPJ157</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2921"/>P:Egypt</note>
+                     </state>
+                     <floruit>Pre-117 CE<ref type="note" corresp="#Vol-3-G_M-ftn2922"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Margalus-Μαργαλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Margalus-Vol-1-S-G_M"
+                type="name"
+                n="Margalus-Μαργαλος"
+                xml:id="name-Margalus-d1e286002">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-G_M-ftn135"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-G_M-d2e2346-person" n="Vol-1-S-G_M-Margalus-1">
+                     <persName type="lemma">Μαργαλος</persName>
+                     <persName type="lemma" xml:lang="en">Margalus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Μαργαλωθος<ref type="note" corresp="#Vol-1-S-G_M-ftn136"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ1:648;AJ17:149 (Schalit,NB, 82)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-1-S-G_M-ftn137"/>
+                        </note>
+                     </state>
+                     <floruit>4 BCE<ref type="note" corresp="#Vol-1-S-G_M-ftn138"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

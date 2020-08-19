@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Natrun-נתרון</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_F-Semitic-Hebrew-Females-to-utf-TEI-P5-names.xml/#Natrun-Vol-2-S-H_F"
+                type="name"
+                n="Natrun-נתרון"
+                xml:id="name-Natrun-d1e400702">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_F-ftn93"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_F-d8e1386-person"
+                          n="Vol-2-S-H_F-Semitic-Hebrew-Females-Natrun-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">נתרון</persName>
+                     <persName type="lemma" xml:lang="en">Natrun</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_F-d8e3000-person" type="relation" n="daughter-of">Sarah (14)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Amulet, Nirim<ref type="note" corresp="#Vol-2-S-H_F-ftn94"/>
+                        </note>
+                     </state>
+                     <bibl>AMBno. 11</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>5thC</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Eiras-Εἴρας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Eiras-Vol-1-G_F"
+                type="name"
+                n="Eiras-Εἴρας"
+                xml:id="name-Eiras-d1e190507">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_F-ftn102"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_F-d2e1440-person" n="Vol-1-G_F-Eiras-1">
+                     <persName type="lemma">Εἴρας</persName>
+                     <persName type="lemma" xml:lang="en">Eiras</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="gr">Ερας<ref type="note" corresp="#Vol-1-G_F-ftn103"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Antiquities Department</note>
+                     </state>
+                     <bibl>DJO, pl. 8, no. 468</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn104"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-G_F-d2e1480-person" n="Vol-1-G_F-Eiras-2">
+                     <persName type="lemma">Εἴρας</persName>
+                     <persName type="lemma" xml:lang="en">Eiras</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="gr">Εἴρατος<ref type="note" corresp="#Vol-1-G_F-ftn105"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-G_M-d2e15929-person"
+                                type="relation"
+                                n="daughter-of">Seleucus (1)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Akeldama, Avni-Greenhut</note>
+                     </state>
+                     <bibl>Ilan,IAAR1 (1996) no. 3</bibl>
+                     <state type="addl-Descr">
+                        <note>Syria<ref type="note" corresp="#Vol-1-G_F-ftn106"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn107"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

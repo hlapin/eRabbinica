@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ŠōšēnDūχt-ŠōšēnDūχt</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_F-Iranian-Females-to-utf-TEI-P5-names.xml/#nDt-Vol-4-I_F"
+                type="name"
+                n="ŠōšēnDūχt-ŠōšēnDūχt"
+                xml:id="name-nDt-d1e615527">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_F-ftn1116"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_F-d8e13637-person"
+                          n="Vol-4-I_F-Iranian-Females-ŠōšēnDūχt-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">ŠōšēnDūχt</persName>
+                     <persName type="lemma" xml:lang="en">ŠōšēnDūχt</persName>
+                     <persName>–<ref type="note" corresp="#Vol-4-I_F-ftn1117"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Exilarch’s daughter, king Yazdgerd I’s wife, <ref corresp="#Vol-4-I_M-d8e2000-person" type="relation" n="mother-of">Bahrām (2)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Markwart,Ērānshahr, 19</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-I_F-ftn1118"/>P:Persia</note>
+                     </state>
+                     <floruit>399-420 CE<ref type="note" corresp="#Vol-4-I_F-ftn1119"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

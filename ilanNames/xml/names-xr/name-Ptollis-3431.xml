@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ptollis-Ptollis</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Ptollis-Vol-3-E_M"
+                type="name"
+                n="Ptollis-Ptollis"
+                xml:id="name-Ptollis-d1e468404">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn495"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e8126-person"
+                          n="Vol-3-E_M-Egyptian-Males-Ptollis-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ptollis</persName>
+                     <persName type="lemma" xml:lang="en">Ptollis</persName>
+                     <persName>Πτόλλις<ref type="note" corresp="#Vol-3-E_M-ftn496"/>
+                     </persName>
+                     <persName>/Πτόλλιδος<ref type="note" corresp="#Vol-3-E_M-ftn497"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e41326-person" type="relation" n="son-of">Theodotus (16)’s son</ref>, <ref corresp="#Vol-3-L_M-d8e30156-person" type="relation" n="father-of">Niger (3)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostraca, Edfu, Manteuffel</note>
+                     </state>
+                     <bibl>CPJ186, 254, 257, 259</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-E_M-ftn498"/>P:Egypt</note>
+                     </state>
+                     <floruit>74-89 CE<ref type="note" corresp="#Vol-3-E_M-ftn499"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-E_M-d8e8173-person"
+                          n="Vol-3-E_M-Egyptian-Males-Ptollis-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ptollis</persName>
+                     <persName type="lemma" xml:lang="en">Ptollis</persName>
+                     <persName>Πτώλλιδος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e29423-person" type="relation" n="son-of">Shabtai (46)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyri, Philadelphia, Westerman &amp; Kraemer</note>
+                     </state>
+                     <bibl>CPJ481a,b</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn500"/>P:Egypt</note>
+                     </state>
+                     <floruit>35 CE<ref type="note" corresp="#Vol-3-E_M-ftn501"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

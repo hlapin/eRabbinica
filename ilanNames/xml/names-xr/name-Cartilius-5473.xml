@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Cartilius-Cartilius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Cartilius-Vol-3-L_M"
+                type="name"
+                n="Cartilius-Cartilius"
+                xml:id="name-Cartilius-d1e547498">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn646"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e10999-person"
+                          n="Vol-3-L_M-Latin-Males-Cartilius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Cartilius</persName>
+                     <persName type="lemma" xml:lang="en">Cartilius</persName>
+                     <persName>Καρτιλίου</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Ptolemais, Pacho</note>
+                     </state>
+                     <bibl>CJZC31a</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn647"/>Second nameP:Cyrenaica</note>
+                     </state>
+                     <floruit>1stC BCE-1stC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e11035-person"
+                          n="Vol-3-L_M-Latin-Males-Cartilius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Cartilius</persName>
+                     <persName type="lemma" xml:lang="en">Cartilius</persName>
+                     <persName>Καρτιλίου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_F-d8e8281-person" type="relation" n="father-of">Sarah (26)’s father</ref>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn648"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Ptolemais, Pacho</note>
+                     </state>
+                     <bibl>CJZC31d</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn649"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>1stC BCE-1stC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

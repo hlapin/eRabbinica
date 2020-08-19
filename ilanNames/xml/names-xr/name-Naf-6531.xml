@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Nafī-نفي</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Naf-Vol-4-A_M"
+                type="name"
+                n="Nafī-نفي"
+                xml:id="name-Naf-d1e588816">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn1027"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e12945-person" n="Vol-4-A_M-Arabic-Males-Nafī-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">نفي</persName>
+                     <persName type="lemma" xml:lang="en">Nafī</persName>
+                     <persName>אלנפיו<ref type="note" corresp="#Vol-4-A_M-ftn1028"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e19982-person" type="relation" n="son-of">ʿAbdi (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Graffito, Madāʾin Ṣāliḥ</note>
+                     </state>
+                     <bibl>Jaussen and Savignac, 644</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn1029"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-4-A_M-ftn1030"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

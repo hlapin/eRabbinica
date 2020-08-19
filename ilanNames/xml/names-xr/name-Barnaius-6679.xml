@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Barnaius-Βαρναῖος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Barnaius-Vol-4-G_M"
+                type="name"
+                n="Barnaius-Βαρναῖος"
+                xml:id="name-Barnaius-d1e601339">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-G_M-ftn10"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-G_M-d8e119-person" n="Vol-4-G_M-Greek-Males-Barnaius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Βαρναῖος</persName>
+                     <persName type="lemma" xml:lang="en">Barnaius</persName>
+                     <persName>Βαρνάης<ref type="note" corresp="#Vol-4-G_M-ftn11"/>
+                     </persName>
+                     <persName>/Βαρναβας<ref type="note" corresp="#Vol-4-G_M-ftn12"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-G_M-ftn13"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Bratke,Religionsgespräch, 38</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-G_M-ftn14"/>; fictitious<ref type="note" corresp="#Vol-4-G_M-ftn15"/>P:Persia</note>
+                     </state>
+                     <floruit>4th-7thC CE<ref type="note" corresp="#Vol-4-G_M-ftn16"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-G_M-d8e178-person" n="Vol-4-G_M-Greek-Males-Barnaius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Βαρναῖος</persName>
+                     <persName type="lemma" xml:lang="en">Barnaius</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-G_M-d8e660-person" type="relation" n="son-of">Hermaius (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Stamp seal on jar, synagogue Dura-Europos, Welles</note>
+                     </state>
+                     <bibl>IJO3, Syr129</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-G_M-ftn17"/>P:Dura-Europos</note>
+                     </state>
+                     <floruit>118-9 CE<ref type="note" corresp="#Vol-4-G_M-ftn18"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

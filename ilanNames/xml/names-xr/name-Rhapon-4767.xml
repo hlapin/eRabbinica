@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Rhapon-̔Ράπων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Rhapon-Vol-3-G_M"
+                type="name"
+                n="Rhapon-̔Ράπων"
+                xml:id="name-Rhapon-d1e521706">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4034"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e69797-person" n="Vol-3-G_M-Greek-Males-Rhapon-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̔Ράπων</persName>
+                     <persName type="lemma" xml:lang="en">Rhapon</persName>
+                     <persName>̔Ράπωνος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e76831-person" type="relation" n="father-of">Tyrronius (2)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Acmonia</note>
+                     </state>
+                     <bibl>Ramsay,Cities and Bishoprics2, no. 530</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4035"/>P:Asia</note>
+                     </state>
+                     <floruit>70-80 CE<ref type="note" corresp="#Vol-3-G_M-ftn4036"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

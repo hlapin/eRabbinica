@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aulus-Aulus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Aulus-Vol-3-L_M"
+                type="name"
+                n="Aulus-Aulus"
+                xml:id="name-Aulus-d1e545678">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn286"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e4678-person" n="Vol-3-L_M-Latin-Males-Aulus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Aulus</persName>
+                     <persName type="lemma" xml:lang="en">Aulus</persName>
+                     <persName>Αὐ̃λος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn287"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Vigna Randanini, Frey</note>
+                     </state>
+                     <bibl>CIJ5*</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn288"/>; second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e4731-person" n="Vol-3-L_M-Latin-Males-Aulus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Aulus</persName>
+                     <persName type="lemma" xml:lang="en">Aulus</persName>
+                     <persName>Αὔλου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e1204-person" type="relation" n="son-of">Absalom (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Apollonia, Van Buren</note>
+                     </state>
+                     <bibl>CJZC3</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn289"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e4766-person" n="Vol-3-L_M-Latin-Males-Aulus-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Aulus</persName>
+                     <persName type="lemma" xml:lang="en">Aulus</persName>
+                     <persName>Αὔλου</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Ptolemais, Pacho</note>
+                     </state>
+                     <bibl>CJZC31a</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn290"/>Second nameP:Cyrenaica</note>
+                     </state>
+                     <floruit>1stC BCE-1stC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

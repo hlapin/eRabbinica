@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Birros-Birros</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Birros-Vol-2-Vol-1-ADD-S-G_M"
+                type="name"
+                n="Birros-Birros"
+                xml:id="name-Birros-d1e451443">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-S-G_M-ftn9"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-S-G_M-d8e160-person"
+                          n="Vol-2-Vol-1-ADD-S-G_M-Semitic-Greek-Males-Birros-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Birros</persName>
+                     <persName type="lemma" xml:lang="en">Birros</persName>
+                     <persName>ⲛⲃⲓⲣⲣⲟⲥ<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_M-ftn10"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_M-ftn11"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Robinson,CAG, 36</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_M-ftn12"/>
+                        </note>
+                     </state>
+                     <floruit>1stC CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_M-ftn13"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

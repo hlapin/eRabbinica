@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Patron-Πάτρων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Patron-Vol-3-G_M"
+                type="name"
+                n="Patron-Πάτρων"
+                xml:id="name-Patron-d1e518691">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3704"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e64271-person" n="Vol-3-G_M-Greek-Males-Patron-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πάτρων</persName>
+                     <persName type="lemma" xml:lang="en">Patron</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e21513-person" type="relation" n="son-of">Dorotheus (7)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Hermopolis, Jouguet</note>
+                     </state>
+                     <bibl>JIGRE155:198</bibl>
+                     <state type="addl-Descr">
+                        <note>Idumean<ref type="note" corresp="#Vol-3-G_M-ftn3705"/>P:Egypt</note>
+                     </state>
+                     <floruit>79 BCE<ref type="note" corresp="#Vol-3-G_M-ftn3706"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

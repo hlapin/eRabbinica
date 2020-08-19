@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Atalanta-Atalanta</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Atalanta-Vol-3-L_F"
+                type="name"
+                n="Atalanta-Atalanta"
+                xml:id="name-Atalanta-d1e530308">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn81"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e1472-person"
+                          n="Vol-3-L_F-Latin-Females-Atalanta-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Atalanta</persName>
+                     <persName type="lemma" xml:lang="en">Atalanta</persName>
+                     <persName>̓Αταλάντῃ<ref type="note" corresp="#Vol-3-L_F-ftn82"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Aelia (5), Aelius (3) <ref corresp="#Vol-3-G_M-d8e62859-person" type="relation" n="wife-of">Pancharius (4)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Apamea, Legrand &amp; Chamonard</note>
+                     </state>
+                     <bibl>CIJ773</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn83"/>P:Asia</note>
+                     </state>
+                     <floruit>253/4 CE<ref type="note" corresp="#Vol-3-L_F-ftn84"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

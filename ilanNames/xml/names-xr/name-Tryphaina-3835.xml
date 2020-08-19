@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Tryphaina-Τρύφαινα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Tryphaina-Vol-3-G_F"
+                type="name"
+                n="Tryphaina-Τρύφαινα"
+                xml:id="name-Tryphaina-d1e484446">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn1057"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e18580-person"
+                          n="Vol-3-G_F-Greek-Females-Tryphaina-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Τρύφαινα</persName>
+                     <persName type="lemma" xml:lang="en">Tryphaina</persName>
+                     <persName>Τρύφαι[να]<ref type="note" corresp="#Vol-3-G_F-ftn1058"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-E_F-d8e238-person" type="relation" n="daughter-of">Dosarion (3)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Arsinoe, Wessely</note>
+                     </state>
+                     <bibl>CPJ421</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn1059"/>P:Egypt</note>
+                     </state>
+                     <floruit>73 CE<ref type="note" corresp="#Vol-3-G_F-ftn1060"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e18619-person"
+                          n="Vol-3-G_F-Greek-Females-Tryphaina-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Τρύφαινα</persName>
+                     <persName type="lemma" xml:lang="en">Tryphaina</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e58027-person"
+                                type="relation"
+                                n="daughter-of">Nearchus (1)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Hermopolis, Wilcken</note>
+                     </state>
+                     <bibl>CPJ453</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn1061"/>P:Egypt</note>
+                     </state>
+                     <floruit>132 CE<ref type="note" corresp="#Vol-3-G_F-ftn1062"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e18653-person"
+                          n="Vol-3-G_F-Greek-Females-Tryphaina-3">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Τρύφαινα</persName>
+                     <persName type="lemma" xml:lang="en">Tryphaina</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e6171-person" type="relation" n="mother-of">Eiras (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Leontopolis, Naville</note>
+                     </state>
+                     <bibl>CIJ1463</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn1063"/>P:Egypt</note>
+                     </state>
+                     <floruit>1stC BCE-1stC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e18687-person"
+                          n="Vol-3-G_F-Greek-Females-Tryphaina-4">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Τρύφαινα</persName>
+                     <persName type="lemma" xml:lang="en">Tryphaina</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="daughter-of">Yohanan (30)’s daughter</ref>, aged 10<ref type="note" corresp="#Vol-3-G_F-ftn1064"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira, Gray</note>
+                     </state>
+                     <bibl>CJZC55b</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn1065"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

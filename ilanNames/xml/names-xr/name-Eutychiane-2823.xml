@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Eutychiane-Ε̓τυχιανή</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Eutychiane-Vol-2-Vol-1-ADD-G_F names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Eutychiane-Vol-3-G_F"
+                type="name"
+                n="Eutychiane-Ε̓τυχιανή"
+                xml:id="name-Eutychiane-d1e438826">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-G_F-ftn45"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn526"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-G_F-d8e735-person"
+                          n="Vol-2-Vol-1-ADD-G_F-Greek-Females-Eutychiane-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Ε̓τυχιανή</persName>
+                     <persName type="lemma" xml:lang="en">Eutychiane</persName>
+                     <persName>Ε̓τοχνία<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn46"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e11294-person"
+                                type="relation"
+                                n="daughter-of">Cyrus (1)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Isawiya, Re’em &amp; Abu Raya</note>
+                     </state>
+                     <bibl>CIIP1.1, no. 59</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn47"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e9586-person"
+                          n="Vol-3-G_F-Greek-Females-Eutychiane-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Ε̓τυχιανή</persName>
+                     <persName type="lemma" xml:lang="en">Eutychiane</persName>
+                     <persName>Ε̓τυχια[ν]ῇ<ref type="note" corresp="#Vol-3-G_F-ftn527"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Aurelius (88) <ref corresp="#Vol-3-Add-G_M-d8e82-person Vol-3-G_M-d8e26623-person"
+                                type="relation"
+                                n="mother-in-law-of">Epictetus (1)’s mother-in-law</ref>
+                           <ref type="note" corresp="#Vol-3-G_F-ftn528"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Stela</note>
+                     </state>
+                     <bibl>Tituli Asiae Minoris5, 608</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn529"/>P:Asia</note>
+                     </state>
+                     <floruit>269-324 CE<ref type="note" corresp="#Vol-3-G_F-ftn530"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

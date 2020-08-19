@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Batay-בתי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_F-Semitic-Hebrew-Females-to-utf-TEI-P5-names.xml/#Batay-Vol-4-S-H_F"
+                type="name"
+                n="Batay-בתי"
+                xml:id="name-Batay-d1e630122">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_F-ftn221"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_F-ftn222"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_F-d8e2908-person"
+                          n="Vol-4-S-H_F-Semitic-Hebrew-Females-Batay-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">בתי</persName>
+                     <persName type="lemma" xml:lang="en">Batay</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_M-d8e10149-person" type="relation" n="wife-of">Šabbōī (1)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Jeruzalmi</note>
+                     </state>
+                     <bibl>Isbell, no. 63</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_F-ftn223"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_F-ftn224"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_F-d8e2940-person"
+                          n="Vol-4-S-H_F-Semitic-Hebrew-Females-Batay-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">בתי</persName>
+                     <persName type="lemma" xml:lang="en">Batay</persName>
+                     <persName>באתאי<ref type="note" corresp="#Vol-4-S-H_F-ftn225"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_M-d8e7792-person" type="relation" n="mother-of">Marūī (2)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Israel Museum</note>
+                     </state>
+                     <bibl>AMBno. 7</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_F-ftn226"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_F-ftn227"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

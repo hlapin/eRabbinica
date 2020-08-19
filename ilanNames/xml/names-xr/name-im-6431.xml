@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ʿĀṣim-عاصم</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#im-Vol-4-A_M"
+                type="name"
+                n="ʿĀṣim-عاصم"
+                xml:id="name-im-d1e583738">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn660"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e8152-person" n="Vol-4-A_M-Arabic-Males-ʿĀṣim-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">عاصم</persName>
+                     <persName type="lemma" xml:lang="en">ʿĀṣim</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_F-d8e4483-person" type="relation" n="son-of">Hindōē (1)’s son</ref>, <ref corresp="#Vol-4-I_F-d8e4550-person" type="relation" n="brother-of">Hindōē (2)’s brother</ref>, companion of the Prophet, governor of Medina under Muʿāwiya<ref type="note" corresp="#Vol-4-A_M-ftn661"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Ibn Ḥabīb,munammaq, 507, n. 6</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-A_M-ftn662"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>Pre-632 CE<ref type="note" corresp="#Vol-4-A_M-ftn663"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

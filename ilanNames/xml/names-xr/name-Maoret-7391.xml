@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Maʿoret-מעורת</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_F-Semitic-Hebrew-Females-to-utf-TEI-P5-names.xml/#Maoret-Vol-4-S-H_F"
+                type="name"
+                n="Maʿoret-מעורת"
+                xml:id="name-Maoret-d1e632156">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_F-ftn360"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_F-d8e4890-person"
+                          n="Vol-4-S-H_F-Semitic-Hebrew-Females-Maʿoret-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">מעורת</persName>
+                     <persName type="lemma" xml:lang="en">Maʿoret</persName>
+                     <persName>מעגרת<ref type="note" corresp="#Vol-4-S-H_F-ftn361"/>
+                     </persName>
+                     <persName>/מעודת<ref type="note" corresp="#Vol-4-S-H_F-ftn362"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-S-H_F-ftn363"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bGit70a (Kosowsky,Babylonico, 1025)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_F-ftn364"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Post-200 CE<ref type="note" corresp="#Vol-4-S-H_F-ftn365"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

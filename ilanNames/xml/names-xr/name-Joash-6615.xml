@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Joash-יואש</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Joash-Vol-4-B_M"
+                type="name"
+                n="Joash-יואש"
+                xml:id="name-Joash-d1e596639">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-B_M-ftn864"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-B_M-d8e10382-person" n="Vol-4-B_M-Biblical-Males-Joash-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">יואש</persName>
+                     <persName type="lemma" xml:lang="en">Joash</persName>
+                     <persName>
+                        <ref type="note" corresp="#Vol-4-B_M-ftn865"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e9966-person" type="relation" n="son-of">Judah (23)’s son</ref>, the judge<ref type="note" corresp="#Vol-4-B_M-ftn866"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Seal</note>
+                     </state>
+                     <bibl>Shaked, “Jewish Sasanian Sigillography,” no. 14</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn867"/>; authentic?<ref type="note" corresp="#Vol-4-B_M-ftn868"/>P:Babylonia?<ref type="note" corresp="#Vol-4-B_M-ftn869"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-4-B_M-ftn870"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Bathullus-Βάθυλλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Bathullus-Vol-1-G_M"
+                type="name"
+                n="Bathullus-Βάθυλλος"
+                xml:id="name-Bathullus-d1e207704">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn279"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e3982-person" n="Vol-1-G_M-Bathullus-1">
+                     <persName type="lemma">Βάθυλλος</persName>
+                     <persName type="lemma" xml:lang="en">Bathullus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-G_M-d2e2455-person" type="relation" n="freedman-of">Antipatrus (3)’s freedman</ref>
+                           <ref type="note" corresp="#Vol-1-G_M-ftn280"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ1:601;AJ17:79 (Schalit,NB, 23)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-1-G_M-ftn281"/>
+                        </note>
+                     </state>
+                     <floruit>4 BCE<ref type="note" corresp="#Vol-1-G_M-ftn282"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

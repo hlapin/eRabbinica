@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Tabictor-Tabictor</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_F-Egyptian-Females-to-utf-TEI-P5-names.xml/#Tabictor-Vol-3-E_F"
+                type="name"
+                n="Tabictor-Tabictor"
+                xml:id="name-Tabictor-d1e459202">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_F-ftn66"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_F-d8e1016-person"
+                          n="Vol-3-E_F-Egyptian-Females-Tabictor-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Tabictor</persName>
+                     <persName type="lemma" xml:lang="en">Tabictor</persName>
+                     <persName>Ταβίκτωρ</persName>
+                     <state type="desc">
+                        <note>Mattathias (1) <ref corresp="#Vol-3-L_M-d8e5236-person" type="relation" n="mother-of">Aurelius (11)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Hermopolis</note>
+                     </state>
+                     <bibl>P. Sta. Xyla 5</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_F-ftn67"/>P:Egypt</note>
+                     </state>
+                     <floruit>539 CE<ref type="note" corresp="#Vol-3-E_F-ftn68"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

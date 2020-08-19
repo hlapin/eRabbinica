@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Araberezišnu-Araberezišnu</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#Araberezinu-Vol-4-I_M"
+                type="name"
+                n="Araberezišnu-Araberezišnu"
+                xml:id="name-Araberezinu-d1e617519">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn93"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_M-d8e1052-person"
+                          n="Vol-4-I_M-Iranian-Males-Araberezišnu-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Araberezišnu</persName>
+                     <persName type="lemma" xml:lang="en">Araberezišnu</persName>
+                     <persName>ערבדזיוא<ref type="note" corresp="#Vol-4-I_M-ftn94"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_F-d8e12080-person" type="relation" n="son-of">Rawi (2)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Cannes</note>
+                     </state>
+                     <bibl>HyvernatZKF2 (1885) 116</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn95"/>Fictitious<ref type="note" corresp="#Vol-4-I_M-ftn96"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn97"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

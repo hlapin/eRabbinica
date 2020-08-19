@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Senior-Senior</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Senior-Vol-3-L_M"
+                type="name"
+                n="Senior-Senior"
+                xml:id="name-Senior-d1e559299">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2235"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e37455-person" n="Vol-3-L_M-Latin-Males-Senior-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Senior</persName>
+                     <persName type="lemma" xml:lang="en">Senior</persName>
+                     <persName>Seniori</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="father-of">Jacob (52)’s father</ref>, rabbi<ref type="note" corresp="#Vol-3-L_M-ftn2236"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Merida, Hübner</note>
+                     </state>
+                     <bibl>CIJ665a</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2237"/>; late<ref type="note" corresp="#Vol-3-L_M-ftn2238"/>P:Spain</note>
+                     </state>
+                     <floruit>8th-9thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

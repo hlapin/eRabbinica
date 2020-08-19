@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Vitalius-Vitalius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Vitalius-Vol-3-L_M"
+                type="name"
+                n="Vitalius-Vitalius"
+                xml:id="name-Vitalius-d1e563165">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2564"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e42831-person" n="Vol-3-L_M-Latin-Males-Vitalius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Vitalius</persName>
+                     <persName type="lemma" xml:lang="en">Vitalius</persName>
+                     <persName>Βιταλίων<ref type="note" corresp="#Vol-3-L_M-ftn2565"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e22106-person" type="relation" n="son-of">Justus (6)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Villa Torlonia, Paribeni</note>
+                     </state>
+                     <bibl>CIJ13</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2566"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e42872-person" n="Vol-3-L_M-Latin-Males-Vitalius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Vitalius</persName>
+                     <persName type="lemma" xml:lang="en">Vitalius</persName>
+                     <persName>Βιταλιώ<ref type="note" corresp="#Vol-3-L_M-ftn2567"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn2568"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ99</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2569"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

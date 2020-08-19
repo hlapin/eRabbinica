@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Nadab-נדב</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Nadab-Vol-1-B_M names/Vol-2-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Nadab-Vol-2-B_M"
+                type="name"
+                n="Nadab-נדב"
+                xml:id="name-Nadab-d1e138422">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_M-ftn3565"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-B_M-ftn2424"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_M-d2e46220-person" n="Vol-1-B_M-Nadab-1">
+                     <persName type="lemma">נדב</persName>
+                     <persName type="lemma" xml:lang="en">Nadab</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_F-d2e701-person" type="relation" n="father-of">Judith (3)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Mt Scopus, Kloner, 1975</note>
+                     </state>
+                     <bibl>CJO, no. 572</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname?<ref type="note" corresp="#Vol-1-B_M-ftn3566"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn3567"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-B_M-d8e36957-person" n="Vol-2-B_M-Biblical-Males-Nadab-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">נדב</persName>
+                     <persName type="lemma" xml:lang="en">Nadab</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e44452-person" type="relation" n="father-of">Samuel (28)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bArakh16b<ref type="note" corresp="#Vol-2-B_M-ftn2425"/>(Kosowsky,Babylonico, 1635)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>3rdC<ref type="note" corresp="#Vol-2-B_M-ftn2426"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

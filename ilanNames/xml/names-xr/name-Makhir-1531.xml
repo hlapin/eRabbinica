@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Makhir-מכיר</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Makhir-Vol-2-B_M"
+                type="name"
+                n="Makhir-מכיר"
+                xml:id="name-Makhir-d1e335526">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-B_M-ftn2273"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-B_M-d8e34889-person"
+                          n="Vol-2-B_M-Biblical-Males-Makhir-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">מכיר</persName>
+                     <persName type="lemma" xml:lang="en">Makhir</persName>
+                     <persName>–<ref type="note" corresp="#Vol-2-B_M-ftn2274"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e33196-person" type="relation" n="father-of">Israel (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Tulida, 131</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-B_M-ftn2275"/>
+                        </note>
+                     </state>
+                     <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-B_M-ftn2276"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-B_M-d8e34926-person"
+                          n="Vol-2-B_M-Biblical-Males-Makhir-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">מכיר</persName>
+                     <persName type="lemma" xml:lang="en">Makhir</persName>
+                     <persName>–<ref type="note" corresp="#Vol-2-B_M-ftn2277"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-S-H_M-d8e22765-person"
+                                type="relation"
+                                n="father-of">Ṣavo (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Tulida, 135</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-B_M-ftn2278"/>
+                        </note>
+                     </state>
+                     <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-B_M-ftn2279"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

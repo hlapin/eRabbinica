@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Castor-Κάστωρ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Castor-Vol-1-G_M names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Castor-Vol-2-G_M"
+                type="name"
+                n="Castor-Κάστωρ"
+                xml:id="name-Castor-d1e231873">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn790"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn721"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e11121-person" n="Vol-1-G_M-Castor-1">
+                     <persName type="lemma">Κάστωρ</persName>
+                     <persName type="lemma" xml:lang="en">Castor</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ5:317 (Schalit,NB, 72)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>70 CE<ref type="note" corresp="#Vol-1-G_M-ftn791"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_M-d8e10835-person" n="Vol-2-G_M-Greek-Males-Castor-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Κάστωρ</persName>
+                     <persName type="lemma" xml:lang="en">Castor</persName>
+                     <persName>ⲅⲁcⲧⲱⲣ<ref type="note" corresp="#Vol-2-G_M-ftn722"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-G_M-ftn723"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Pseudo-Cyril of Jerusalem,Theotokos, 2a (627)</bibl>
+                     <state type="addl-Descr">
+                        <note>Christian convert</note>
+                     </state>
+                     <floruit>335-80<ref type="note" corresp="#Vol-2-G_M-ftn724"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

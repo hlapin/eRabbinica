@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Eunomius-Ε̓νόμιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Eunomius-Vol-3-G_M"
+                type="name"
+                n="Eunomius-Ε̓νόμιος"
+                xml:id="name-Eunomius-d1e500628">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1780"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e30658-person" n="Vol-3-G_M-Greek-Males-Eunomius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ε̓νόμιος</persName>
+                     <persName type="lemma" xml:lang="en">Eunomius</persName>
+                     <persName>Ε̓νομίο<ref type="note" corresp="#Vol-3-G_M-ftn1781"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn1782"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Graffito, Syros, Stephanos</note>
+                     </state>
+                     <bibl>IJO1, Ach72</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1783"/>P:Greece</note>
+                     </state>
+                     <floruit>4th-5thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

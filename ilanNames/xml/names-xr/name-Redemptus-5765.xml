@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Redemptus-Redemptus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Redemptus-Vol-3-L_M"
+                type="name"
+                n="Redemptus-Redemptus"
+                xml:id="name-Redemptus-d1e557470">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2039"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e34162-person"
+                          n="Vol-3-L_M-Latin-Males-Redemptus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Redemptus</persName>
+                     <persName type="lemma" xml:lang="en">Redemptus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_F-d8e24020-person" type="relation" n="son-of">Justa (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Gregorius, IV, 31,CCSL140, 251</bibl>
+                     <state type="addl-Descr">
+                        <note>Christian convert<ref type="note" corresp="#Vol-3-L_M-ftn2040"/>P:Italy</note>
+                     </state>
+                     <floruit>594 CE<ref type="note" corresp="#Vol-3-L_M-ftn2041"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

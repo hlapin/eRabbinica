@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Bouleutinus-Βουλευτῖνος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Bouleutinus-Vol-2-G_M"
+                type="name"
+                n="Bouleutinus-Βουλευτῖνος"
+                xml:id="name-Bouleutinus-d1e356764">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn239"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e3543-person"
+                          n="Vol-2-G_M-Greek-Males-Bouleutinus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Βουλευτῖνος</persName>
+                     <persName type="lemma" xml:lang="en">Bouleutinus</persName>
+                     <persName>בילוטו<ref type="note" corresp="#Vol-2-G_M-ftn240"/>
+                     </persName>
+                     <persName>/בילוטי<ref type="note" corresp="#Vol-2-G_M-ftn241"/>
+                     </persName>
+                     <persName>/בי לוי<ref type="note" corresp="#Vol-2-G_M-ftn242"/>
+                     </persName>
+                     <persName>/בילומי<ref type="note" corresp="#Vol-2-G_M-ftn243"/>
+                     </persName>
+                     <persName>/בילוסי<ref type="note" corresp="#Vol-2-G_M-ftn244"/>
+                     </persName>
+                     <persName>/בילטי<ref type="note" corresp="#Vol-2-G_M-ftn245"/>
+                     </persName>
+                     <persName>/בלווטי<ref type="note" corresp="#Vol-2-G_M-ftn246"/>
+                     </persName>
+                     <persName>/בלוטי<ref type="note" corresp="#Vol-2-G_M-ftn247"/>
+                     </persName>
+                     <persName>/כי לווטי<ref type="note" corresp="#Vol-2-G_M-ftn248"/>
+                     </persName>
+                     <persName>/כילוטי<ref type="note" corresp="#Vol-2-G_M-ftn249"/>
+                     </persName>
+                     <persName>/פלטי<ref type="note" corresp="#Vol-2-G_M-ftn250"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e10352-person" type="relation" n="father-of">Hezekiah (6)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bArakh28b<ref type="note" corresp="#Vol-2-G_M-ftn251"/>(Kosowsky,Babylonico, 321)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>3rdC<ref type="note" corresp="#Vol-2-G_M-ftn252"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

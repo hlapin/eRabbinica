@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aristomenes-̓Αριστομένης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Aristomenes-Vol-3-G_M"
+                type="name"
+                n="Aristomenes-̓Αριστομένης"
+                xml:id="name-Aristomenes-d1e490685">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn686"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e11646-person"
+                          n="Vol-3-G_M-Greek-Males-Aristomenes-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αριστομένης</persName>
+                     <persName type="lemma" xml:lang="en">Aristomenes</persName>
+                     <persName>’arstmns<ref type="note" corresp="#Vol-3-G_M-ftn687"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="son-of">Joseph (40)’s son</ref>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn688"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostraca, Thebes, Viereck</note>
+                     </state>
+                     <bibl>1.CPJ49; 2.BGU6, 1454; 3. Bogaert,ZPE75 (1988) 123</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn689"/>P:Egypt</note>
+                     </state>
+                     <floruit>161 BCE<ref type="note" corresp="#Vol-3-G_M-ftn690"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e11699-person"
+                          n="Vol-3-G_M-Greek-Males-Aristomenes-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αριστομένης</persName>
+                     <persName type="lemma" xml:lang="en">Aristomenes</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e28854-person" type="relation" n="son-of">Shabtai (31)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Edfu, Viereck</note>
+                     </state>
+                     <bibl>CPJ265</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn691"/>P:Egypt</note>
+                     </state>
+                     <floruit>77 CE<ref type="note" corresp="#Vol-3-G_M-ftn692"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e11731-person"
+                          n="Vol-3-G_M-Greek-Males-Aristomenes-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αριστομένης</persName>
+                     <persName type="lemma" xml:lang="en">Aristomenes</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e42720-person" type="relation" n="son-of">Theodotus (54)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph</note>
+                     </state>
+                     <bibl>Donadoni,Egyptian Religion, 357</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn693"/>P:Egypt</note>
+                     </state>
+                     <floruit>32 CE<ref type="note" corresp="#Vol-3-G_M-ftn694"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

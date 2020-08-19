@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Qipuq-קיפוק</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Qipuq-Vol-4-S-H_M"
+                type="name"
+                n="Qipuq-קיפוק"
+                xml:id="name-Qipuq-d1e649753">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn2236"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e32177-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Qipuq-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">קיפוק</persName>
+                     <persName type="lemma" xml:lang="en">Qipuq</persName>
+                     <persName>
+                        <ref type="note" corresp="#Vol-4-S-H_M-ftn2237"/>
+                     </persName>
+                     <persName>/קיפוד<ref type="note" corresp="#Vol-4-S-H_M-ftn2238"/>
+                     </persName>
+                     <persName>/קפיו<ref type="note" corresp="#Vol-4-S-H_M-ftn2239"/>
+                     </persName>
+                     <persName>/קפוך<ref type="note" corresp="#Vol-4-S-H_M-ftn2240"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-S-H_M-ftn2241"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bMQ25b (Kosowsky,Babylonico, 1236)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2242"/>; nickname?<ref type="note" corresp="#Vol-4-S-H_M-ftn2243"/>P:Babylonia</note>
+                     </state>
+                     <floruit>5thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2244"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

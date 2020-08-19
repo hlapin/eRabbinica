@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sibylle-Σίβυλλα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Sibylle-Vol-2-G_F"
+                type="name"
+                n="Sibylle-Σίβυλλα"
+                xml:id="name-Sibylle-d1e353121">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_F-ftn298"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_F-d8e4570-person" n="Vol-2-G_F-Greek-Females-Sibylle-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Σίβυλλα</persName>
+                     <persName type="lemma" xml:lang="en">Sibylle</persName>
+                     <persName>Σιβύλης<ref type="note" corresp="#Vol-2-G_F-ftn299"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e2894-person" type="relation" n="daughter-of">Asclepiades (1)’s daughter</ref>, aged 9<ref type="note" corresp="#Vol-2-G_F-ftn300"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1a, no. 5</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn301"/>
+                        </note>
+                     </state>
+                     <floruit>334?<ref type="note" corresp="#Vol-2-G_F-ftn302"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

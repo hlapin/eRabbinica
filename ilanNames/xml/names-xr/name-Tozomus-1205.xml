@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Tozomus-Τωζομος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Tozomus-Vol-1-S-G_M"
+                type="name"
+                n="Tozomus-Τωζομος"
+                xml:id="name-Tozomus-d1e286449">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-G_M-ftn164"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-G_M-d2e2858-person" n="Vol-1-S-G_M-Tozomus-1">
+                     <persName type="lemma">Τωζομος</persName>
+                     <persName type="lemma" xml:lang="en">Tozomus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Τωζομου<ref type="note" corresp="#Vol-1-S-G_M-ftn165"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e20430-person" type="relation" n="father-of">Judah (126)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Weight-stone, Jaffa</note>
+                     </state>
+                     <bibl>Kaplan,EI15 (1981) 414</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-1-S-G_M-ftn166"/>
+                        </note>
+                     </state>
+                     <floruit>102 CE<ref type="note" corresp="#Vol-1-S-G_M-ftn167"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

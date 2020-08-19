@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ĪfrāHōrmīz-ĪfrāHōrmīz</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_F-Iranian-Females-to-utf-TEI-P5-names.xml/#frHrmz-Vol-4-I_F"
+                type="name"
+                n="ĪfrāHōrmīz-ĪfrāHōrmīz"
+                xml:id="name-frHrmz-d1e606288">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_F-ftn413"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_F-d8e5067-person"
+                          n="Vol-4-I_F-Iranian-Females-ĪfrāHōrmīz-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">ĪfrāHōrmīz</persName>
+                     <persName type="lemma" xml:lang="en">ĪfrāHōrmīz</persName>
+                     <persName>איפרא הורמיז<ref type="note" corresp="#Vol-4-I_F-ftn414"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bTaʿan24b (Kosowsky,Babylonico, 164)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn415"/>P:Babylonia</note>
+                     </state>
+                     <floruit>309-379 CE<ref type="note" corresp="#Vol-4-I_F-ftn416"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_F-d8e5110-person"
+                          n="Vol-4-I_F-Iranian-Females-ĪfrāHōrmīz-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">ĪfrāHōrmīz</persName>
+                     <persName type="lemma" xml:lang="en">ĪfrāHōrmīz</persName>
+                     <persName>איפראהורמיז<ref type="note" corresp="#Vol-4-I_F-ftn417"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="mother-of">Gušnasp-Dūχt (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Bible Lands Museum, Jerusalem</note>
+                     </state>
+                     <bibl>MSFno. 15</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn418"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn419"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_F-d8e5150-person"
+                          n="Vol-4-I_F-Iranian-Females-ĪfrāHōrmīz-3">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">ĪfrāHōrmīz</persName>
+                     <persName type="lemma" xml:lang="en">ĪfrāHōrmīz</persName>
+                     <persName>איפראהורמיז<ref type="note" corresp="#Vol-4-I_F-ftn420"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_M-d8e4876-person" type="relation" n="mother-of">Ishia (2)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, London</note>
+                     </state>
+                     <bibl>Levene,CMB, M163</bibl>
+                     <state type="addl-Descr">
+                        <note>Christian?<ref type="note" corresp="#Vol-4-I_F-ftn421"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn422"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

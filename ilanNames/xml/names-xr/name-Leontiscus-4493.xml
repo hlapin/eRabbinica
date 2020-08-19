@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Leontiscus-Λεοντίσκος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Leontiscus-Vol-3-G_M"
+                type="name"
+                n="Leontiscus-Λεοντίσκος"
+                xml:id="name-Leontiscus-d1e510458">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3032"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e52723-person"
+                          n="Vol-3-G_M-Greek-Males-Leontiscus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Λεοντίσκος</persName>
+                     <persName type="lemma" xml:lang="en">Leontiscus</persName>
+                     <persName>Λεοντίσκου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_F-d8e2937-person" type="relation" n="husband-of">Mariam (32)’s husband</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Larissa, Oehler</note>
+                     </state>
+                     <bibl>CIJ701</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3033"/>P:Greece</note>
+                     </state>
+                     <floruit>1st-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

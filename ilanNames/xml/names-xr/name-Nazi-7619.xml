@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Nazi-נאזי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Nazi-Vol-4-S-H_M"
+                type="name"
+                n="Nazi-נאזי"
+                xml:id="name-Nazi-d1e646228">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn1928"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e27954-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Nazi-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">נאזי</persName>
+                     <persName type="lemma" xml:lang="en">Nazi</persName>
+                     <persName>נאוי<ref type="note" corresp="#Vol-4-S-H_M-ftn1929"/>
+                     </persName>
+                     <persName>/נזאי<ref type="note" corresp="#Vol-4-S-H_M-ftn1930"/>
+                     </persName>
+                     <persName>/אביי<ref type="note" corresp="#Vol-4-S-H_M-ftn1931"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e5114-person" type="relation" n="father-of">Abimi (3)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bBQ115a (Kosowsky,Babylonico, 92)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1932"/>P:Babylonia</note>
+                     </state>
+                     <floruit>4th-5thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1933"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

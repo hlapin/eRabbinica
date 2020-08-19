@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Tatianus-Tatianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Tatianus-Vol-3-L_M"
+                type="name"
+                n="Tatianus-Tatianus"
+                xml:id="name-Tatianus-d1e560367">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2332"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e38935-person" n="Vol-3-L_M-Latin-Males-Tatianus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Tatianus</persName>
+                     <persName type="lemma" xml:lang="en">Tatianus</persName>
+                     <persName>Τατιανός</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e62089-person" type="relation" n="son-of">Oxycholius (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+                     </state>
+                     <bibl>IJO2, 14:B46</bibl>
+                     <state type="addl-Descr">
+                        <note>God-fearer<ref type="note" corresp="#Vol-3-L_M-ftn2333"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e38967-person" n="Vol-3-L_M-Latin-Males-Tatianus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Tatianus</persName>
+                     <persName type="lemma" xml:lang="en">Tatianus</persName>
+                     <persName>Τατιανοῦ</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e58971-person" type="relation" n="son-of">Nicanor (8)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Miranda</note>
+                     </state>
+                     <bibl>IJO2, 192</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2334"/>P:Asia</note>
+                     </state>
+                     <floruit>2nd-3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e39005-person" n="Vol-3-L_M-Latin-Males-Tatianus-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Tatianus</persName>
+                     <persName type="lemma" xml:lang="en">Tatianus</persName>
+                     <persName>Τατιανοῦ</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e38967-person" type="relation" n="son-of">Tatianus (2)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Miranda</note>
+                     </state>
+                     <bibl>IJO2, 192</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2335"/>P:Asia</note>
+                     </state>
+                     <floruit>2nd-3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e39043-person" n="Vol-3-L_M-Latin-Males-Tatianus-4">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Tatianus</persName>
+                     <persName type="lemma" xml:lang="en">Tatianus</persName>
+                     <persName>Τατιανου</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Miranda</note>
+                     </state>
+                     <bibl>IJO2, 193</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2336"/>; second nameP:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ̓Ιξίων Ixion-̓Ιξίων Ixion</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#_Ixion-Vol-2-Vol-1-ADD-G_M"
+                type="name"
+                n="̓Ιξίων Ixion-̓Ιξίων Ixion"
+                xml:id="name-_Ixion-d1e444768">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-G_M-ftn196"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-G_M-d8e2890-person"
+                          n="Vol-2-Vol-1-ADD-G_M-Greek-Males-̓Ιξίων Ixion-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Ιξίων Ixion</persName>
+                     <persName type="lemma" xml:lang="en">̓Ιξίων Ixion</persName>
+                     <persName>̓Ιεξέον<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn197"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e10677-person" type="relation" n="brother-of">Helkiah (1)’s brother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>c</note>
+                     </state>
+                     <bibl>Epiphanius,PG41, 261</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>96-117 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn198"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Meius-Meius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Meius-Vol-3-L_M"
+                type="name"
+                n="Meius-Meius"
+                xml:id="name-Meius-d1e554053">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1733"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e29228-person" n="Vol-3-L_M-Latin-Males-Meius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Meius</persName>
+                     <persName type="lemma" xml:lang="en">Meius</persName>
+                     <persName>Μειοῦς<ref type="note" corresp="#Vol-3-L_M-ftn1734"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e41326-person" type="relation" n="son-of">Theodotus (16)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostraca, Edfu, Manteuffel</note>
+                     </state>
+                     <bibl>CPJ208, 228</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1735"/>P:Egypt</note>
+                     </state>
+                     <floruit>107-16 CE<ref type="note" corresp="#Vol-3-L_M-ftn1736"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

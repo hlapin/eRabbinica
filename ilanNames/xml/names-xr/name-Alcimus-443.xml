@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Alcimus-̓́Αλκιμος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Alcimus-Vol-1-G_M names/Vol-4-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Alcimus-Vol-4-G_M"
+                type="name"
+                n="Alcimus-̓́Αλκιμος"
+                xml:id="name-Alcimus-d1e200462">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn94"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-G_M-ftn6"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e1302-person" n="Vol-1-G_M-Alcimus-1">
+                     <persName type="lemma">̓́Αλκιμος</persName>
+                     <persName type="lemma" xml:lang="en">Alcimus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-1-G_M-ftn95"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>1 Macc 7:5; 2 Macc 14:3 (H &amp; R Suppl. 12)AJ12:385 (Schalit,NB, 9)<ref type="note" corresp="#Vol-1-G_M-ftn96"/>.</bibl>
+                     <state type="addl-Descr">
+                        <note>Second name<ref type="note" corresp="#Vol-1-G_M-ftn97"/>
+                        </note>
+                     </state>
+                     <floruit>161 BCE<ref type="note" corresp="#Vol-1-G_M-ftn98"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-G_M-d8e71-person" n="Vol-4-G_M-Greek-Males-Alcimus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓́Αλκιμος</persName>
+                     <persName type="lemma" xml:lang="en">Alcimus</persName>
+                     <persName>אלקמא<ref type="note" corresp="#Vol-4-G_M-ftn7"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e32366-person" type="relation" n="son-of">Simon (31)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Palmyra, Mordtmann</note>
+                     </state>
+                     <bibl>CIS2/3, 4515</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-G_M-ftn8"/>P:Palmyra</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-4-G_M-ftn9"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ̓Αμβωμαρῆ Abomari-̓Αμβωμαρῆ Abomari</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-G_F-Semitic-Greek-Females-to-utf-TEI-P5-names.xml/#_Abomari-Vol-2-S-G_F"
+                type="name"
+                n="̓Αμβωμαρῆ Abomari-̓Αμβωμαρῆ Abomari"
+                xml:id="name-_Abomari-d1e395891">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-G_F-ftn12"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-G_F-d8e173-person"
+                          n="Vol-2-S-G_F-Semitic-Greek-Females-̓Αμβωμαρῆ Abomari-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Αμβωμαρῆ Abomari</persName>
+                     <persName type="lemma" xml:lang="en">̓Αμβωμαρῆ Abomari</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e6110-person" type="relation" n="mother-of">Benjamin (13)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Jaffa, Vincent</note>
+                     </state>
+                     <bibl>CIJ908</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>3rdC</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

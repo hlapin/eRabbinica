@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Zetes-Ζήτης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Zetes-Vol-3-G_M"
+                type="name"
+                n="Zetes-Ζήτης"
+                xml:id="name-Zetes-d1e503745">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2052"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e36057-person" n="Vol-3-G_M-Greek-Males-Zetes-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ζήτης</persName>
+                     <persName type="lemma" xml:lang="en">Zetes</persName>
+                     <persName>Ζέτου<ref type="note" corresp="#Vol-3-G_M-ftn2053"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn2054"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Lombardi</note>
+                     </state>
+                     <bibl>JIWE2, 572</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2055"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e36116-person" n="Vol-3-G_M-Greek-Males-Zetes-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ζήτης</persName>
+                     <persName type="lemma" xml:lang="en">Zetes</persName>
+                     <persName>Ζητᾶτος<ref type="note" corresp="#Vol-3-G_M-ftn2056"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e33503-person" type="relation" n="father-of">Shabtai (154)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Sedment el-Gebel</note>
+                     </state>
+                     <bibl>Abd el-Fatah &amp; Wagner,CRIPÉL19 (1998) no. 1</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2057"/>P:Egypt</note>
+                     </state>
+                     <floruit>1stC BCE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

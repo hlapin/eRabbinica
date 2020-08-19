@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Florianus-Florianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Florianus-Vol-2-Vol-1-ADD-L_M"
+                type="name"
+                n="Florianus-Florianus"
+                xml:id="name-Florianus-d1e449124">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-L_M-ftn50"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-L_M-d8e587-person"
+                          n="Vol-2-Vol-1-ADD-L_M-Latin-Males-Florianus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Florianus</persName>
+                     <persName type="lemma" xml:lang="en">Florianus</persName>
+                     <persName>Φλωριανός<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn51"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn52"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph?<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn53"/>Tomb of the Prophets, Clermon-Gannau</note>
+                     </state>
+                     <bibl>CIIP1/2, 941</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn54"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE?<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn55"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

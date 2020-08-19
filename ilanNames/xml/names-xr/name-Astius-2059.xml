@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Astius-Astius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Astius-Vol-2-L_M"
+                type="name"
+                n="Astius-Astius"
+                xml:id="name-Astius-d1e384605">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn99"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_M-d8e1296-person" n="Vol-2-L_M-Latin-Males-Astius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Astius</persName>
+                     <persName type="lemma" xml:lang="en">Astius</persName>
+                     <persName>אסטיון<ref type="note" corresp="#Vol-2-L_M-ftn100"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-S-H_M-d8e8524-person" type="relation" n="father-of">Gurion (4)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bBM86b<ref type="note" corresp="#Vol-2-L_M-ftn101"/>(Kosowsky,Babylonico, 330<ref type="note" corresp="#Vol-2-L_M-ftn102"/>)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>3rdC<ref type="note" corresp="#Vol-2-L_M-ftn103"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

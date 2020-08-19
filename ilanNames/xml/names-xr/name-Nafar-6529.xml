@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Nafar-نفر</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Nafar-Vol-4-A_M"
+                type="name"
+                n="Nafar-نفر"
+                xml:id="name-Nafar-d1e588765">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn1023"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e12897-person" n="Vol-4-A_M-Arabic-Males-Nafar-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">نفر</persName>
+                     <persName type="lemma" xml:lang="en">Nafar</persName>
+                     <persName>נפרי<ref type="note" corresp="#Vol-4-A_M-ftn1024"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e33036-person" type="relation" n="father-of">Simon (51)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedication inscription</note>
+                     </state>
+                     <bibl>Starcky,Semitica3 (1950) 47</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-A_M-ftn1025"/>P:Palmyra</note>
+                     </state>
+                     <floruit>2ndC CE<ref type="note" corresp="#Vol-4-A_M-ftn1026"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ishia-Ishia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#Ishia-Vol-4-I_M"
+                type="name"
+                n="Ishia-Ishia"
+                xml:id="name-Ishia-d1e621108">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn415"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_M-d8e4841-person" n="Vol-4-I_M-Iranian-Males-Ishia-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ishia</persName>
+                     <persName type="lemma" xml:lang="en">Ishia</persName>
+                     <persName>אישא<ref type="note" corresp="#Vol-4-I_M-ftn416"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e32724-person" type="relation" n="father-of">Simon (42)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Palmyra</note>
+                     </state>
+                     <bibl>Michałowski,Palmyre3/2, p. 111</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn417"/>P:Palmyra</note>
+                     </state>
+                     <floruit>62 CE<ref type="note" corresp="#Vol-4-I_M-ftn418"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_M-d8e4876-person" n="Vol-4-I_M-Iranian-Males-Ishia-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ishia</persName>
+                     <persName type="lemma" xml:lang="en">Ishia</persName>
+                     <persName>אישה<ref type="note" corresp="#Vol-4-I_M-ftn419"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="son-of">Īfrā-Hōrmīz (3)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, London</note>
+                     </state>
+                     <bibl>Levene,CMB, M163</bibl>
+                     <state type="addl-Descr">
+                        <note>Christian?<ref type="note" corresp="#Vol-4-I_M-ftn420"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn421"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

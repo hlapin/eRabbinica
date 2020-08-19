@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aloph-Aloph</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Aloph-Vol-3-S-G_M"
+                type="name"
+                n="Aloph-Aloph"
+                xml:id="name-Aloph-d1e566436">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-S-G_M-ftn19"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-S-G_M-d8e384-person"
+                          n="Vol-3-S-G_M-Semitic-Greek-Males-Aloph-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Aloph</persName>
+                     <persName type="lemma" xml:lang="en">Aloph</persName>
+                     <persName>̓Αλωφ</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e30499-person" type="relation" n="father-of">Shabtai (76)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Fayum, Petropulos</note>
+                     </state>
+                     <bibl>CPJ498k</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-S-G_M-ftn20"/>P:Egypt</note>
+                     </state>
+                     <floruit>1st-3rdC CE<ref type="note" corresp="#Vol-3-S-G_M-ftn21"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Marūī-Marūī</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#Mar-Vol-4-I_M"
+                type="name"
+                n="Marūī-Marūī"
+                xml:id="name-Mar-d1e624068">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn653"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_M-d8e7753-person" n="Vol-4-I_M-Iranian-Males-Marūī-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Marūī</persName>
+                     <persName type="lemma" xml:lang="en">Marūī</persName>
+                     <persName>מארם<ref type="note" corresp="#Vol-4-I_M-ftn654"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-I_M-ftn655"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Himyar</note>
+                     </state>
+                     <bibl>CIS4/2, 543</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn656"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-4-I_M-ftn657"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_M-d8e7792-person" n="Vol-4-I_M-Iranian-Males-Marūī-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Marūī</persName>
+                     <persName type="lemma" xml:lang="en">Marūī</persName>
+                     <persName>מארוי<ref type="note" corresp="#Vol-4-I_M-ftn658"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_F-d8e2940-person" type="relation" n="son-of">Batay (2)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Israel Museum</note>
+                     </state>
+                     <bibl>AMBno. 7</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn659"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn660"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

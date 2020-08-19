@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Elyashib-אלישיב</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Elyashib-Vol-1-B_M names/Vol-2-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Elyashib-Vol-2-B_M names/Vol-4-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Elyashib-Vol-4-B_M"
+                type="name"
+                n="Elyashib-אלישיב"
+                xml:id="name-Elyashib-d1e24439">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_M-ftn93"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-B_M-ftn169"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-B_M-ftn206"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_M-d2e1262-person" n="Vol-1-B_M-Elyashib-1">
+                     <persName type="lemma">אלישיב</persName>
+                     <persName type="lemma" xml:lang="en">Elyashib</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, marriage contract, Muraba‘at</note>
+                     </state>
+                     <bibl>Mur 20</bibl>
+                     <state type="addl-Descr">
+                        <note>Family<ref type="note" corresp="#Vol-1-B_M-ftn94"/>
+                        </note>
+                     </state>
+                     <floruit>117 CE<ref type="note" corresp="#Vol-1-B_M-ftn95"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-B_M-d8e2360-person"
+                          n="Vol-2-B_M-Biblical-Males-Elyashib-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">אלישיב</persName>
+                     <persName type="lemma" xml:lang="en">Elyashib</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e30067-person" type="relation" n="father-of">Isaac (11)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>yBer7:1, 11a (Kosovsky,Yerushalmi, 110)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>4thC<ref type="note" corresp="#Vol-2-B_M-ftn170"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-B_M-d8e2391-person"
+                          n="Vol-2-B_M-Biblical-Males-Elyashib-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">אלישיב</persName>
+                     <persName type="lemma" xml:lang="en">Elyashib</persName>
+                     <persName>אלישע<ref type="note" corresp="#Vol-2-B_M-ftn171"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-S-H_M-d8e1679-person" type="relation" n="father-of">Abba (48)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Gen Rab80:7 (Hyman,Toldoth, 42)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>3rdC<ref type="note" corresp="#Vol-2-B_M-ftn172"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-B_M-d8e2417-person"
+                          n="Vol-4-B_M-Biblical-Males-Elyashib-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">אלישיב</persName>
+                     <persName type="lemma" xml:lang="en">Elyashib</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-B_M-ftn207"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>bGit14a (Kosowsky,Babylonico, 205)</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn208"/>; family<ref type="note" corresp="#Vol-4-B_M-ftn209"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-427 CE<ref type="note" corresp="#Vol-4-B_M-ftn210"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

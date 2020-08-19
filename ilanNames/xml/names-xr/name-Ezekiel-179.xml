@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ezekiel-יחזקאל</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Ezekiel-Vol-1-B_M names/Vol-4-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Ezekiel-Vol-4-B_M"
+                type="name"
+                n="Ezekiel-יחזקאל"
+                xml:id="name-Ezekiel-d1e107063">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_M-ftn2900"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-B_M-ftn1056"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_M-d2e37486-person" n="Vol-1-B_M-Ezekiel-1">
+                     <persName type="lemma">יחזקאל</persName>
+                     <persName type="lemma" xml:lang="en">Ezekiel</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">̓Εζεκῆλος<ref type="note" corresp="#Vol-1-B_M-ftn2901"/>
+                     </persName>
+                     <persName xml:lang="he">חזקיאיל<ref type="note" corresp="#Vol-1-B_M-ftn2902"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Arist50</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-1-B_M-ftn2903"/>
+                        </note>
+                     </state>
+                     <floruit>3rdC BCE<ref type="note" corresp="#Vol-1-B_M-ftn2904"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-B_M-d2e37553-person" n="Vol-1-B_M-Ezekiel-2">
+                     <persName type="lemma">יחזקאל</persName>
+                     <persName type="lemma" xml:lang="en">Ezekiel</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">יחזק<ref type="note" corresp="#Vol-1-B_M-ftn2905"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Priest, <ref corresp="#Vol-1-B_F-d2e2058-person" type="relation" n="father-of">Mariam (31)’s father</ref>, <ref corresp="#Vol-1-G_M-d2e11070-person" type="relation" n="son-of">Kallon (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Qatamon, Grimme, 1912</note>
+                     </state>
+                     <bibl>CIJ, no. 1352</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn2906"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-B_M-d2e37581-person" n="Vol-1-B_M-Ezekiel-3">
+                     <persName type="lemma">יחזקאל</persName>
+                     <persName type="lemma" xml:lang="en">Ezekiel</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">חזקיל<ref type="note" corresp="#Vol-1-B_M-ftn2907"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e26486-person" type="relation" n="father-of">Yohanan (60)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Gibat Hamibtar, Naveh, 1968</note>
+                     </state>
+                     <bibl>CJO, no. 218</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn2908"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-B_M-d8e12742-person"
+                          n="Vol-4-B_M-Biblical-Males-Ezekiel-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">יחזקאל</persName>
+                     <persName type="lemma" xml:lang="en">Ezekiel</persName>
+                     <persName>Judah (3)’s father</persName>
+                     <state type="provenance">
+                        <note>bQid70a (Kosowsky,Babylonico, 879)</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn1057"/>P:Babylonia</note>
+                     </state>
+                     <floruit>3rdC CE<ref type="note" corresp="#Vol-4-B_M-ftn1058"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

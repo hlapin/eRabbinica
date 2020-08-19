@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Junia-Junia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Junia-Vol-3-L_F"
+                type="name"
+                n="Junia-Junia"
+                xml:id="name-Junia-d1e534489">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn630"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e23892-person" n="Vol-3-L_F-Latin-Females-Junia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Junia</persName>
+                     <persName type="lemma" xml:lang="en">Junia</persName>
+                     <persName>̓Ιουνία</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e31159-person"
+                                type="relation"
+                                n="relative-of">Paulus (1)’s relative</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Romans 16:7 (VKGNT 569)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn631"/>P:Rome</note>
+                     </state>
+                     <floruit>34-63 CE<ref type="note" corresp="#Vol-3-L_F-ftn632"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e23925-person" n="Vol-3-L_F-Latin-Females-Junia-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Junia</persName>
+                     <persName type="lemma" xml:lang="en">Junia</persName>
+                     <persName>Iun[i]e<ref type="note" corresp="#Vol-3-L_F-ftn633"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ9*</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn634"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e23965-person" n="Vol-3-L_F-Latin-Females-Junia-3">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Junia</persName>
+                     <persName type="lemma" xml:lang="en">Junia</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_F-ftn635"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaphs, Vigna Codini, Diehl</note>
+                     </state>
+                     <bibl>CIJ68*, 69*<ref type="note" corresp="#Vol-3-L_F-ftn636"/>
+                     </bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn637"/>Second nameP:Rome</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn638"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

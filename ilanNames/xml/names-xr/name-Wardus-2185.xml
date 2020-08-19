@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Wardus-Wardus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-P_F-Persian-Fales-to-utf-TEI-P5-names.xml/#Wardus-Vol-2-P_F"
+                type="name"
+                n="Wardus-Wardus"
+                xml:id="name-Wardus-d1e395478">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-P_F-ftn1"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-P_F-d8e16-person" n="Vol-2-P_F-Persian-Fales-Wardus-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Wardus</persName>
+                     <persName type="lemma" xml:lang="en">Wardus</persName>
+                     <persName>Ο̓αρδοῦς<ref type="note" corresp="#Vol-2-P_F-ftn2"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e3060-person" type="relation" n="daughter-of">Auxibius (1)’s daughter</ref>, <ref corresp="#Vol-2-G_F-d8e4861-person" type="relation" n="sister-of">Troila (1)’s sister</ref>, aged 30<ref type="note" corresp="#Vol-2-P_F-ftn3"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1a, no. 9</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-P_F-ftn4"/>
+                        </note>
+                     </state>
+                     <floruit>347<ref type="note" corresp="#Vol-2-P_F-ftn5"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

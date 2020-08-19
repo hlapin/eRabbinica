@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sapphias-Σαπφίας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Sapphias-Vol-1-G_M"
+                type="name"
+                n="Sapphias-Σαπφίας"
+                xml:id="name-Sapphias-d1e241619">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn1133"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e15790-person" n="Vol-1-G_M-Sapphias-1">
+                     <persName type="lemma">Σαπφίας</persName>
+                     <persName type="lemma" xml:lang="en">Sapphias</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Σαφφούς<ref type="note" corresp="#Vol-1-G_M-ftn1134"/>
+                     </persName>
+                     <persName xml:lang="gr">Σαπφούς<ref type="note" corresp="#Vol-1-G_M-ftn1135"/>
+                     </persName>
+                     <persName xml:lang="gr">̓Αφφοῦς</persName>
+                     <persName xml:lang="gr">̓Απφοῦς<ref type="note" corresp="#Vol-1-G_M-ftn1136"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>1 Macc 2:5 (H &amp; R Suppl, 139)AJ12:266 (Schalit,NB, 21).</bibl>
+                     <state type="addl-Descr">
+                        <note>Second name<ref type="note" corresp="#Vol-1-G_M-ftn1137"/>
+                        </note>
+                     </state>
+                     <floruit>167-142 CE<ref type="note" corresp="#Vol-1-G_M-ftn1138"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-G_M-d2e15848-person" n="Vol-1-G_M-Sapphias-2">
+                     <persName type="lemma">Σαπφίας</persName>
+                     <persName type="lemma" xml:lang="en">Sapphias</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e21974-person" type="relation" n="father-of">Joshua (4)’s father</ref>
+                           <ref type="note" corresp="#Vol-1-G_M-ftn1139"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ2:566 (Schalit,NB, 107)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>66 CE<ref type="note" corresp="#Vol-1-G_M-ftn1140"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-G_M-d2e15879-person" n="Vol-1-G_M-Sapphias-3">
+                     <persName type="lemma">Σαπφίας</persName>
+                     <persName type="lemma" xml:lang="en">Sapphias</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Σαπφία<ref type="note" corresp="#Vol-1-G_M-ftn1141"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e22030-person" type="relation" n="father-of">Joshua (5)’s father</ref>
+                           <ref type="note" corresp="#Vol-1-G_M-ftn1142"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ2:599;Vita66 (Schalit,NB, -)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>67 CE<ref type="note" corresp="#Vol-1-G_M-ftn1143"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

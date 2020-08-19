@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ʿAifa-עיפא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Aifa-Vol-4-S-H_M"
+                type="name"
+                n="ʿAifa-עיפא"
+                xml:id="name-Aifa-d1e649016">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn2153"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e31078-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-ʿAifa-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">עיפא</persName>
+                     <persName type="lemma" xml:lang="en">ʿAifa</persName>
+                     <persName>עיפה<ref type="note" corresp="#Vol-4-S-H_M-ftn2154"/>
+                     </persName>
+                     <persName>/איפה<ref type="note" corresp="#Vol-4-S-H_M-ftn2155"/>
+                     </persName>
+                     <persName>/עינא<ref type="note" corresp="#Vol-4-S-H_M-ftn2156"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e32548-person" type="relation" n="son-of">Reḥaba (1)’s son</ref>, <ref corresp="#Vol-4-S-H_M-d8e5200-person"
+                                type="relation"
+                                n="brother-of">Abimi (5)’s brother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bShev28b (Kosowsky,Babylonico, 1154)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2157"/>P:Babylonia</note>
+                     </state>
+                     <floruit>3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2158"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

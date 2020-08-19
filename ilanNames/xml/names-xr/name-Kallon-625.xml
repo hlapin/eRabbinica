@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Kallon-Κάλλων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Kallon-Vol-1-G_M"
+                type="name"
+                n="Kallon-Κάλλων"
+                xml:id="name-Kallon-d1e231822">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn786"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e11070-person" n="Vol-1-G_M-Kallon-1">
+                     <persName type="lemma">Κάλλων</persName>
+                     <persName type="lemma" xml:lang="en">Kallon</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">קלון<ref type="note" corresp="#Vol-1-G_M-ftn787"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Qatamon, Grimme, 1912</note>
+                     </state>
+                     <bibl>CIJ, nos. 1350-5<ref type="note" corresp="#Vol-1-G_M-ftn788"/>
+                     </bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn789"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

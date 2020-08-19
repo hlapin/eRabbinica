@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Tatu-תתו</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Tatu-Vol-3-S-H_M"
+                type="name"
+                n="Tatu-תתו"
+                xml:id="name-Tatu-d1e574357">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-S-H_M-ftn417"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-S-H_M-d8e6714-person"
+                          n="Vol-3-S-H_M-Semitic-Hebrew-Males-Tatu-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">תתו</persName>
+                     <persName type="lemma" xml:lang="en">Tatu</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e5868-person" type="relation" n="father-of">Haggai (3)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Luxor, Cowley</note>
+                     </state>
+                     <bibl>TADAE3:3:28</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-S-H_M-ftn418"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-S-H_M-d8e6745-person"
+                          n="Vol-3-S-H_M-Semitic-Hebrew-Males-Tatu-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">תתו</persName>
+                     <persName type="lemma" xml:lang="en">Tatu</persName>
+                     <persName>Θῆτος<ref type="note" corresp="#Vol-3-S-H_M-ftn419"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-S-H_M-ftn420"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Leontopolis, Edgar</note>
+                     </state>
+                     <bibl>CIJ1517</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-S-H_M-ftn421"/>P:Egypt</note>
+                     </state>
+                     <floruit>2ndC BCE-2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

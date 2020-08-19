@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Emerina-Emerina</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-S-G_F-Semitic-Greek-Females-to-utf-TEI-P5-names.xml/#Emerina-Vol-2-Vol-1-ADD-S-G_F"
+                type="name"
+                n="Emerina-Emerina"
+                xml:id="name-Emerina-d1e451111">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-S-G_F-ftn5"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-S-G_F-d8e58-person"
+                          n="Vol-2-Vol-1-ADD-S-G_F-Semitic-Greek-Females-Emerina-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Emerina</persName>
+                     <persName type="lemma" xml:lang="en">Emerina</persName>
+                     <persName>Emerina/Emeria<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_F-ftn6"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_F-ftn7"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Pseudo-Matthew 42, ms tradition (Tischendorf,Evang. Apocry111)</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_F-ftn8"/>
+                        </note>
+                     </state>
+                     <floruit>1stC BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_F-ftn9"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

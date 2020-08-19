@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Orion-̓Ωρίων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Orion-Vol-2-G_M"
+                type="name"
+                n="Orion-̓Ωρίων"
+                xml:id="name-Orion-d1e375537">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn1202"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e18393-person" n="Vol-2-G_M-Greek-Males-Orion-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Ωρίων</persName>
+                     <persName type="lemma" xml:lang="en">Orion</persName>
+                     <persName>אוריון<ref type="note" corresp="#Vol-2-G_M-ftn1203"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e30346-person" type="relation" n="father-of">Isaac (19)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>yShab10:6, 12d (Kosovsky,Yerushalmi, 64)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname?<ref type="note" corresp="#Vol-2-G_M-ftn1204"/>
+                        </note>
+                     </state>
+                     <floruit>3rdC<ref type="note" corresp="#Vol-2-G_M-ftn1205"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_M-d8e18430-person" n="Vol-2-G_M-Greek-Males-Orion-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Ωρίων</persName>
+                     <persName type="lemma" xml:lang="en">Orion</persName>
+                     <persName>̓Ωρίωνος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e7433-person" type="relation" n="father-of">Zenobius (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1a, no. 274</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn1206"/>
+                        </note>
+                     </state>
+                     <floruit>4th-6thC<ref type="note" corresp="#Vol-2-G_M-ftn1207"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_M-d8e18465-person" n="Vol-2-G_M-Greek-Males-Orion-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Ωρίων</persName>
+                     <persName type="lemma" xml:lang="en">Orion</persName>
+                     <persName>̓Ωρίονος<ref type="note" corresp="#Vol-2-G_M-ftn1208"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e39201-person" type="relation" n="father-of">Oved (2)’s father</ref>, <ref corresp="#Vol-2-L_M-d8e3604-person" type="relation" n="son-of">Gaius (3)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1b, no. 22</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn1209"/>
+                        </note>
+                     </state>
+                     <floruit>423<ref type="note" corresp="#Vol-2-G_M-ftn1210"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

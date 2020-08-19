@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Luda-לודא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Luda-Vol-1-S-H_M names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Luda-Vol-2-S-H_M"
+                type="name"
+                n="Luda-לודא"
+                xml:id="name-Luda-d1e315908">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-H_M-ftn561"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn1031"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-H_M-d2e8333-person" n="Vol-1-S-H_M-Luda-1">
+                     <persName type="lemma">לודא</persName>
+                     <persName type="lemma" xml:lang="en">Luda</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>bShab96b (Kosowsky,Babylonico, 973)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn562"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-S-H_M-d8e16538-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Luda-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">לודא</persName>
+                     <persName type="lemma" xml:lang="en">Luda</persName>
+                     <persName>לודה<ref type="note" corresp="#Vol-2-S-H_M-ftn1032"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-S-H_M-ftn1033"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>yTaan3:10, 67a (Kosovsky,Yerushalmi, 483)</bibl>
+                     <state type="addl-Descr">
+                        <note>–D: Pre-400<ref type="note" corresp="#Vol-2-S-H_M-ftn1034"/>
+                        </note>
+                     </state>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

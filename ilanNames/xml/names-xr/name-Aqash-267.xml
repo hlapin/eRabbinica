@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aqash-עקש</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Aqash-Vol-1-B_M"
+                type="name"
+                n="Aqash-עקש"
+                xml:id="name-Aqash-d1e148549">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_M-ftn3733"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_M-d2e48627-person" n="Vol-1-B_M-Aqash-1">
+                     <persName type="lemma">עקש</persName>
+                     <persName type="lemma" xml:lang="en">Aqash</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">עקשיה<ref type="note" corresp="#Vol-1-B_M-ftn3734"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e14397-person" type="relation" n="father-of">Hananiah (25)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>mAb6:10 (Kasovsky,Mishnae, 1403)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-1-B_M-ftn3735"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-B_M-d2e48652-person" n="Vol-1-B_M-Aqash-2">
+                     <persName type="lemma">עקש</persName>
+                     <persName type="lemma" xml:lang="en">Aqash</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">עקשיה<ref type="note" corresp="#Vol-1-B_M-ftn3736"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e54910-person" type="relation" n="father-of">Simon (65)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>mQin3:6 (Kasovsky,Mishnae, 1403)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-1-B_M-ftn3737"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-B_M-d2e48677-person" n="Vol-1-B_M-Aqash-3">
+                     <persName type="lemma">עקש</persName>
+                     <persName type="lemma" xml:lang="en">Aqash</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e11447-person" type="relation" n="son-of">Hezekiah (8)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>SifraShemini par. 7:4 (Kosovsky,Sifra, 35*)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn3738"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

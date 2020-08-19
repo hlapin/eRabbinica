@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Cassianus-Cassianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Cassianus-Vol-2-L_M"
+                type="name"
+                n="Cassianus-Cassianus"
+                xml:id="name-Cassianus-d1e385186">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn164"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_M-d8e2153-person" n="Vol-2-L_M-Latin-Males-Cassianus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Cassianus</persName>
+                     <persName type="lemma" xml:lang="en">Cassianus</persName>
+                     <persName>Κασσ[ια]νῷ<ref type="note" corresp="#Vol-2-L_M-ftn165"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Apollonia<ref type="note" corresp="#Vol-2-L_M-ftn166"/>
+                        </note>
+                     </state>
+                     <bibl>Roll and Tal,SCI28 (2009) 143</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan?<ref type="note" corresp="#Vol-2-L_M-ftn167"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-529<ref type="note" corresp="#Vol-2-L_M-ftn168"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-L_M-d8e2201-person" n="Vol-2-L_M-Latin-Males-Cassianus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Cassianus</persName>
+                     <persName type="lemma" xml:lang="en">Cassianus</persName>
+                     <persName>קאסיאנוס<ref type="note" corresp="#Vol-2-L_M-ftn169"/>
+                     </persName>
+                     <persName>/קסהיאנוס<ref type="note" corresp="#Vol-2-L_M-ftn170"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-L_F-d8e594-person" type="relation" n="son-of">Domitia (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Amulet, private collection</note>
+                     </state>
+                     <bibl>MSFno. 31</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-L_M-ftn171"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

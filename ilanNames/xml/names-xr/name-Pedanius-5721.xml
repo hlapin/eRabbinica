@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Pedanius-Pedanius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Pedanius-Vol-3-L_M"
+                type="name"
+                n="Pedanius-Pedanius"
+                xml:id="name-Pedanius-d1e555693">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1872"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e31409-person" n="Vol-3-L_M-Latin-Males-Pedanius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Pedanius</persName>
+                     <persName type="lemma" xml:lang="en">Pedanius</persName>
+                     <persName>Πεδωνείους<ref type="note" corresp="#Vol-3-L_M-ftn1873"/>
+                     </persName>
+                     <persName>/Πεδωνίου<ref type="note" corresp="#Vol-3-L_M-ftn1874"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_F-d8e27722-person" type="relation" n="husband-of">Murina (1)’s husband</ref>, scribe<ref type="note" corresp="#Vol-3-L_M-ftn1875"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Nuceria</note>
+                     </state>
+                     <bibl>Spagnolis,Ercolano, 244</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1876"/>P:Italy</note>
+                     </state>
+                     <floruit>4th-5thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ĀzarmīDūχt-ĀzarmīDūχt</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_F-Iranian-Females-to-utf-TEI-P5-names.xml/#zarmDt-Vol-4-I_F"
+                type="name"
+                n="ĀzarmīDūχt-ĀzarmīDūχt"
+                xml:id="name-zarmDt-d1e603308">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_F-ftn104"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_F-d8e1233-person"
+                          n="Vol-4-I_F-Iranian-Females-ĀzarmīDūχt-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">ĀzarmīDūχt</persName>
+                     <persName type="lemma" xml:lang="en">ĀzarmīDūχt</persName>
+                     <persName>אזרמידוך<ref type="note" corresp="#Vol-4-I_F-ftn105"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="mother-of">Mithr-Anōš (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowls</note>
+                     </state>
+                     <bibl>1. Geller,Bible World, 49; 2. Gordon,Orientalia53 (1984) 221</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-I_F-ftn106"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn107"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Hieronymus-̔Ιερώνυμος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Hieronymus-Vol-2-G_M"
+                type="name"
+                n="Hieronymus-̔Ιερώνυμος"
+                xml:id="name-Hieronymus-d1e363577">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn687"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e10250-person"
+                          n="Vol-2-G_M-Greek-Males-Hieronymus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̔Ιερώνυμος</persName>
+                     <persName type="lemma" xml:lang="en">Hieronymus</persName>
+                     <persName>̔Ιερών[υμος]<ref type="note" corresp="#Vol-2-G_M-ftn688"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-G_M-ftn689"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Beth She‘arim,catacomb 16</note>
+                     </state>
+                     <bibl>BS2:180</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_M-ftn690"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

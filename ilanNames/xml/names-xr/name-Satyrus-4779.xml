@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Satyrus-Σάτυρος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Satyrus-Vol-3-G_M"
+                type="name"
+                n="Satyrus-Σάτυρος"
+                xml:id="name-Satyrus-d1e522204">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4065"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e70296-person" n="Vol-3-G_M-Greek-Males-Satyrus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Σάτυρος</persName>
+                     <persName type="lemma" xml:lang="en">Satyrus</persName>
+                     <persName>Σατύρω</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn4066"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph?<ref type="note" corresp="#Vol-3-G_M-ftn4067"/>Gortyn, Gerola</note>
+                     </state>
+                     <bibl>IJO1, App20</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4068"/>P:Crete</note>
+                     </state>
+                     <floruit>5thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

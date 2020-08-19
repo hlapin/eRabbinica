@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Iybbu-איבו</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Iybbu-Vol-4-S-H_M"
+                type="name"
+                n="Iybbu-איבו"
+                xml:id="name-Iybbu-d1e634128">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn641"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e9134-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Iybbu-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">איבו</persName>
+                     <persName type="lemma" xml:lang="en">Iybbu</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e3123-person" type="relation" n="father-of">Abba (70)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bPes113a (Kosowsky,Babylonico, 153)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn642"/>P:Babylonia</note>
+                     </state>
+                     <floruit>2nd-3rdCE<ref type="note" corresp="#Vol-4-S-H_M-ftn643"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_M-d8e9178-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Iybbu-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">איבו</persName>
+                     <persName type="lemma" xml:lang="en">Iybbu</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e3123-person"
+                                type="relation"
+                                n="grandson-of">Abba (70)’s grandson</ref>
+                           <ref type="note" corresp="#Vol-4-S-H_M-ftn644"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bSuk44b (Kosowsky,Babylonico, 153)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn645"/>P:Babylonia</note>
+                     </state>
+                     <floruit>3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn646"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_M-d8e9221-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Iybbu-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">איבו</persName>
+                     <persName type="lemma" xml:lang="en">Iybbu</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bBM93b (Kosowsky,Babylonico, 153)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn647"/>P:Babylonia</note>
+                     </state>
+                     <floruit>4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn648"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Lucius-Lucius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Lucius-Vol-1-L_M names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Lucius-Vol-2-L_M names/Vol-2-Vol-1-ADD-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Lucius-Vol-2-Vol-1-ADD-L_M names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Lucius-Vol-3-L_M"
+                type="name"
+                n="Lucius-Lucius"
+                xml:id="name-Lucius-d1e270225">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-L_M-ftn224"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn517"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-L_M-ftn102"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1442"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-L_M-d2e3313-person" n="Vol-1-L_M-Lucius-1">
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Λούκιος<ref type="note" corresp="#Vol-1-L_M-ftn225"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-1-L_M-ftn226"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Acts 13:1 (VKGNT 750)</bibl>
+                     <state type="addl-Descr">
+                        <note>Cyrene/Antioch<ref type="note" corresp="#Vol-1-L_M-ftn227"/>
+                        </note>
+                     </state>
+                     <floruit>30s CE<ref type="note" corresp="#Vol-1-L_M-ftn228"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-L_M-d2e3357-person" n="Vol-1-L_M-Lucius-2">
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">Leucius<ref type="note" corresp="#Vol-1-L_M-ftn229"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e54216-person" type="relation" n="son-of">Simon (39)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Dec. Christi 11 (Tischendorf,EA, 65)</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-1-L_M-ftn230"/>
+                        </note>
+                     </state>
+                     <floruit>Post-30 CE<ref type="note" corresp="#Vol-1-L_M-ftn231"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-L_M-d2e3402-person" n="Vol-1-L_M-Lucius-3">
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Λυκιας<ref type="note" corresp="#Vol-1-L_M-ftn232"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Masada</note>
+                     </state>
+                     <bibl>Mas no. 779</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-73 CE<ref type="note" corresp="#Vol-1-L_M-ftn233"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-L_M-d8e6816-person" n="Vol-2-L_M-Latin-Males-Lucius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>Λούκιος<ref type="note" corresp="#Vol-2-L_M-ftn518"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="son-of">Satyrus (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Elijah’s Cave</note>
+                     </state>
+                     <bibl>Appendix, no. 12</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn519"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-8thC<ref type="note" corresp="#Vol-2-L_M-ftn520"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-L_M-d8e6849-person" n="Vol-2-L_M-Latin-Males-Lucius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>Λούκιο[ς]<ref type="note" corresp="#Vol-2-L_M-ftn521"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Elijah’s Cave</note>
+                     </state>
+                     <bibl>Appendix, no. 29</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn522"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-8thC<ref type="note" corresp="#Vol-2-L_M-ftn523"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-L_M-d8e6886-person" n="Vol-2-L_M-Latin-Males-Lucius-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>Λούκιο[υ]<ref type="note" corresp="#Vol-2-L_M-ftn524"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e7319-person" type="relation" n="son-of">Zeuxius (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Elijah’s Cave</note>
+                     </state>
+                     <bibl>Appendix, no. 44</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn525"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-8thC<ref type="note" corresp="#Vol-2-L_M-ftn526"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-L_M-d8e1219-person"
+                          n="Vol-2-Vol-1-ADD-L_M-Latin-Males-Lucius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>Λουκίος<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn103"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn104"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>POiv/5, 534</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn105"/>
+                        </note>
+                     </state>
+                     <floruit>30 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn106"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-L_M-d8e1255-person"
+                          n="Vol-2-Vol-1-ADD-L_M-Latin-Males-Lucius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>לקיס<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn107"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Mt. Gerizim</note>
+                     </state>
+                     <bibl>Gerizim156</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn108"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-110 BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn109"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24208-person" n="Vol-3-L_M-Latin-Males-Lucius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>Λούκιος<ref type="note" corresp="#Vol-3-L_M-ftn1443"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn1444"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Acts 13:1 (VKGNT 750)</bibl>
+                     <state type="addl-Descr">
+                        <note>Christian convert<ref type="note" corresp="#Vol-3-L_M-ftn1445"/>P:Cyrenaica<ref type="note" corresp="#Vol-3-L_M-ftn1446"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-34 CE<ref type="note" corresp="#Vol-3-L_M-ftn1447"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24256-person" n="Vol-3-L_M-Latin-Males-Lucius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>Λούκιος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e31159-person"
+                                type="relation"
+                                n="relative-of">Paulus (1)’s relative</ref>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn1448"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Romans 16:21 (VKGNT 750)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1449"/>P:Rome</note>
+                     </state>
+                     <floruit>34-63 CE<ref type="note" corresp="#Vol-3-L_M-ftn1450"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24292-person" n="Vol-3-L_M-Latin-Males-Lucius-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>Λούκιος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_F-d8e5440-person" type="relation" n="father-of">Shabtit (35)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vinga Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ155</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1451"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24327-person" n="Vol-3-L_M-Latin-Males-Lucius-4">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>L<ref type="note" corresp="#Vol-3-L_M-ftn1452"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Domitius (2) Abba (4), Appidia (1) <ref corresp="#Vol-3-B_F-d8e1544-person" type="relation" n="husband-of">Leah (1)’s husband</ref>, Domitia (2) <ref corresp="#Vol-3-L_F-d8e8029-person" type="relation" n="father-of">Felicita (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ212</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1453"/>; second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24365-person" n="Vol-3-L_M-Latin-Males-Lucius-5">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>L<ref type="note" corresp="#Vol-3-L_M-ftn1454"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Maecius (1), Lucius (6) Constantius (3) and Maecia (1) <ref corresp="#Vol-3-L_F-d8e24877-person" type="relation" n="son-of">Lucia (1)’s son</ref>, Lucius (7) Maecius (2) Victorinus (1) and Lucia (2) Maecia (2) <ref corresp="#Vol-3-B_F-d8e5698-person" type="relation" n="father-of">Shabtit (41)’s father</ref>, Julia (12) <ref corresp="#Vol-3-G_F-d8e943-person" type="relation" n="husband-of">Alexandria (4)’s husband</ref>, archon and centurion<ref type="note" corresp="#Vol-3-L_M-ftn1455"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Müller</note>
+                     </state>
+                     <bibl>CIJ470</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1456"/>Second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24412-person" n="Vol-3-L_M-Latin-Males-Lucius-6">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>L<ref type="note" corresp="#Vol-3-L_M-ftn1457"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Constantius (3), Lucius (5) <ref corresp="#Vol-3-L_M-d8e25465-person" type="relation" n="father-of">Maecius (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Müller</note>
+                     </state>
+                     <bibl>CIJ470</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1458"/>Second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24450-person" n="Vol-3-L_M-Latin-Males-Lucius-7">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>L<ref type="note" corresp="#Vol-3-L_M-ftn1459"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Maecius (2) Victorinus (1), Lucius (5) <ref corresp="#Vol-3-L_M-d8e25465-person" type="relation" n="son-of">Maecius (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Müller</note>
+                     </state>
+                     <bibl>CIJ470</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1460"/>Second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24488-person" n="Vol-3-L_M-Latin-Males-Lucius-8">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>L<ref type="note" corresp="#Vol-3-L_M-ftn1461"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn1462"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Aquileia, Pais</note>
+                     </state>
+                     <bibl>CIJ643</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1463"/>; second nameP:Italy</note>
+                     </state>
+                     <floruit>1stC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24526-person" n="Vol-3-L_M-Latin-Males-Lucius-9">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>Λούκιος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e24564-person" type="relation" n="son-of">Lucius (10)’s son</ref>, archisynagogos<ref type="note" corresp="#Vol-3-L_M-ftn1464"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Renovation inscription, Acmonia, Ramsay</note>
+                     </state>
+                     <bibl>CIJ766</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1465"/>P:Asia</note>
+                     </state>
+                     <floruit>54-68 CE<ref type="note" corresp="#Vol-3-L_M-ftn1466"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24564-person" n="Vol-3-L_M-Latin-Males-Lucius-10">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>Λουκίου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e24526-person" type="relation" n="father-of">Lucius (9)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Renovation inscription, Acmonia, Ramsay</note>
+                     </state>
+                     <bibl>CIJ766</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1467"/>P:Asia</note>
+                     </state>
+                     <floruit>54-68 CE<ref type="note" corresp="#Vol-3-L_M-ftn1468"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24596-person" n="Vol-3-L_M-Latin-Males-Lucius-11">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>L<ref type="note" corresp="#Vol-3-L_M-ftn1469"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Schneider Graziosi</note>
+                     </state>
+                     <bibl>CIJ26*</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1470"/>; second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24635-person" n="Vol-3-L_M-Latin-Males-Lucius-12">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>L<ref type="note" corresp="#Vol-3-L_M-ftn1471"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn1472"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Schneider Graziosi</note>
+                     </state>
+                     <bibl>CIJ37*</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1473"/>; second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24679-person" n="Vol-3-L_M-Latin-Males-Lucius-13">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>L<ref type="note" corresp="#Vol-3-L_M-ftn1474"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Vinnius (2), Lucius (12) <ref corresp="#Vol-3-L_M-d8e42483-person" type="relation" n="father-of">Vinnius (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Schneider Graziosi</note>
+                     </state>
+                     <bibl>CIJ37*</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1475"/>; second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24717-person" n="Vol-3-L_M-Latin-Males-Lucius-14">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>Λ<ref type="note" corresp="#Vol-3-L_M-ftn1476"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Porto, Kaibel</note>
+                     </state>
+                     <bibl>CIJ49*</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1477"/>Second nameP:Italy</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn1478"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24759-person" n="Vol-3-L_M-Latin-Males-Lucius-15">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>L<ref type="note" corresp="#Vol-3-L_M-ftn1479"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn1480"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Cerveteri</note>
+                     </state>
+                     <bibl>CIJ74*</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1481"/>Second nameP:Rome</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn1482"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24797-person" n="Vol-3-L_M-Latin-Males-Lucius-16">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Aringhius</note>
+                     </state>
+                     <bibl>CIJ84*</bibl>
+                     <state type="addl-Descr">
+                        <note>Christian?<ref type="note" corresp="#Vol-3-L_M-ftn1483"/>P:Rome</note>
+                     </state>
+                     <floruit>400 CE<ref type="note" corresp="#Vol-3-L_M-ftn1484"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24828-person" n="Vol-3-L_M-Latin-Males-Lucius-17">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>L<ref type="note" corresp="#Vol-3-L_M-ftn1485"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Valerius (6) Maximus (6), Aurelia (27) <ref corresp="#Vol-3-B_F-d8e3211-person" type="relation" n="son-of">Mariam (39)’s son</ref>, Flavia (12) <ref corresp="#Vol-3-L_F-d8e25689-person" type="relation" n="husband-of">Marcellinia (1)’s husband</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Capena, Solin</note>
+                     </state>
+                     <bibl>JIWE1, 204</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1486"/>Second nameP:Italy</note>
+                     </state>
+                     <floruit>2nd-3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24869-person" n="Vol-3-L_M-Latin-Males-Lucius-18">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>Λούκιος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn1487"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Smyrna, Leemans</note>
+                     </state>
+                     <bibl>IJO2, 44</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1488"/>Second nameP:Asia</note>
+                     </state>
+                     <floruit>1stC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24911-person" n="Vol-3-L_M-Latin-Males-Lucius-19">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>Λ<ref type="note" corresp="#Vol-3-L_M-ftn1489"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Miranda</note>
+                     </state>
+                     <bibl>IJO2, 193</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1490"/>; second nameP:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24953-person" n="Vol-3-L_M-Latin-Males-Lucius-20">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>Λουκίου</persName>
+                     <state type="desc">
+                        <note>Aurelius (73) Curtius (1) <ref corresp="#Vol-3-G_M-d8e4410-person" type="relation" n="father-of">Alexander (53)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Miranda</note>
+                     </state>
+                     <bibl>IJO2, 207</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1491"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24994-person" n="Vol-3-L_M-Latin-Males-Lucius-21">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>Λούκιος</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Phrygia, Corsten</note>
+                     </state>
+                     <bibl>IJO2, 213</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1492"/>; second nameP:Asia</note>
+                     </state>
+                     <floruit>2nd-3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e25033-person" n="Vol-3-L_M-Latin-Males-Lucius-22">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>Λουκίω</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e21365-person" type="relation" n="father-of">Julius (25)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira, Oliverio</note>
+                     </state>
+                     <bibl>CJZC51a</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1493"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e25063-person" n="Vol-3-L_M-Latin-Males-Lucius-23">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>Luci[us]<ref type="note" corresp="#Vol-3-L_M-ftn1494"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Carthage</note>
+                     </state>
+                     <bibl>Le Bohec,Ant. Afr.17 (1981) no. 36</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1495"/>P:North Africa</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn1496"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e25098-person" n="Vol-3-L_M-Latin-Males-Lucius-24">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>[L]ucios<ref type="note" corresp="#Vol-3-L_M-ftn1497"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Carthage</note>
+                     </state>
+                     <bibl>Le Bohec,Ant. Afr.17 (1981) no. 37</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1498"/>P:North Africa</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn1499"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e25133-person" n="Vol-3-L_M-Latin-Males-Lucius-25">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucius</persName>
+                     <persName type="lemma" xml:lang="en">Lucius</persName>
+                     <persName>L<ref type="note" corresp="#Vol-3-L_M-ftn1500"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Carthage</note>
+                     </state>
+                     <bibl>Le Bohec,Ant. Afr.17 (1981) no. 39</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1501"/>P:North Africa</note>
+                     </state>
+                     <floruit>2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

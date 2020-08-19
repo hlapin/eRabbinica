@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Satius-Satius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Satius-Vol-4-L_M"
+                type="name"
+                n="Satius-Satius"
+                xml:id="name-Satius-d1e628272">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-L_M-ftn109"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-L_M-d8e1157-person" n="Vol-4-L_M-Latin-Males-Satius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Satius</persName>
+                     <persName type="lemma" xml:lang="en">Satius</persName>
+                     <persName>סטוס<ref type="note" corresp="#Vol-4-L_M-ftn110"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-G_M-d8e1693-person" type="relation" n="son-of">Numenis (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Susa</note>
+                     </state>
+                     <bibl>Isbell,BASOR223 (1976) 16</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-L_M-ftn111"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-L_M-ftn112"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

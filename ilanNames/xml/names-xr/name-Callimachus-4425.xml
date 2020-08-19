@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Callimachus-Καλλίμαχος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Callimachus-Vol-3-G_M"
+                type="name"
+                n="Callimachus-Καλλίμαχος"
+                xml:id="name-Callimachus-d1e508278">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2852"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e49639-person"
+                          n="Vol-3-G_M-Greek-Males-Callimachus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Καλλίμαχος</persName>
+                     <persName type="lemma" xml:lang="en">Callimachus</persName>
+                     <persName>Χαλιμάχῳ<ref type="note" corresp="#Vol-3-G_M-ftn2853"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e1188-person" type="relation" n="husband-of">Ammia (3)’s husband</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Acmonia, Ramsay</note>
+                     </state>
+                     <bibl>CIJ763</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2854"/>P:Asia</note>
+                     </state>
+                     <floruit>2ndC CE<ref type="note" corresp="#Vol-3-G_M-ftn2855"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

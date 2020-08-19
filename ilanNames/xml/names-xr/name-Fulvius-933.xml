@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Fulvius-Fulvius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Fulvius-Vol-1-L_M names/Vol-4-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Fulvius-Vol-4-L_M"
+                type="name"
+                n="Fulvius-Fulvius"
+                xml:id="name-Fulvius-d1e261496">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-L_M-ftn132"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-L_M-ftn54"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-L_M-d2e2000-person" n="Vol-1-L_M-Fulvius-1">
+                     <persName type="lemma">Fulvius</persName>
+                     <persName type="lemma" xml:lang="en">Fulvius</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Φούλειος<ref type="note" corresp="#Vol-1-L_M-ftn133"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Shu‘afat, Abel, 1913</note>
+                     </state>
+                     <bibl>CIJ, no. 1227</bibl>
+                     <state type="addl-Descr">
+                        <note>Palmyra,<ref type="note" corresp="#Vol-1-L_M-ftn134"/>second name<ref type="note" corresp="#Vol-1-L_M-ftn135"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-L_M-ftn136"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-L_M-d8e567-person" n="Vol-4-L_M-Latin-Males-Fulvius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Fulvius</persName>
+                     <persName type="lemma" xml:lang="en">Fulvius</persName>
+                     <persName>Φούλειος<ref type="note" corresp="#Vol-4-L_M-ftn55"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Jerusalem, Abel</note>
+                     </state>
+                     <bibl>CIJ1227</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-L_M-ftn56"/>; second nameP:Palmyra<ref type="note" corresp="#Vol-4-L_M-ftn57"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-4-L_M-ftn58"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

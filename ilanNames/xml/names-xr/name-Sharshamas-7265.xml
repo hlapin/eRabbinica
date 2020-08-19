@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sharshamas-Sharshamas</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#Sharshamas-Vol-4-I_M"
+                type="name"
+                n="Sharshamas-Sharshamas"
+                xml:id="name-Sharshamas-d1e626790">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn880"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_M-d8e10484-person"
+                          n="Vol-4-I_M-Iranian-Males-Sharshamas-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Sharshamas</persName>
+                     <persName type="lemma" xml:lang="en">Sharshamas</persName>
+                     <persName>שרשום<ref type="note" corresp="#Vol-4-I_M-ftn881"/>
+                     </persName>
+                     <persName>/שרשו<ref type="note" corresp="#Vol-4-I_M-ftn882"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e2809-person" type="relation" n="father-of">Abba (63)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bBB32b (Kosowsky,Babylonico, 1416)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-I_M-ftn883"/>; nickname<ref type="note" corresp="#Vol-4-I_M-ftn884"/>P:Babylonia</note>
+                     </state>
+                     <floruit>4thC CE<ref type="note" corresp="#Vol-4-I_M-ftn885"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

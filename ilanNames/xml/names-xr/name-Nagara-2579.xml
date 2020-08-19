@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Nagara-נגרא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Nagara-Vol-2-S-H_M"
+                type="name"
+                n="Nagara-נגרא"
+                xml:id="name-Nagara-d1e427490">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn1182"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e18948-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Nagara-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">נגרא</persName>
+                     <persName type="lemma" xml:lang="en">Nagara</persName>
+                     <persName>נגרי<ref type="note" corresp="#Vol-2-S-H_M-ftn1183"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-S-H_M-d8e5918-person" type="relation" n="father-of">Ayybu (2)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>yPea7:5, 20b (Kosovsky,Yerushalmi, 34)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname?<ref type="note" corresp="#Vol-2-S-H_M-ftn1184"/>
+                        </note>
+                     </state>
+                     <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1185"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-S-H_M-d8e18985-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Nagara-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">נגרא</persName>
+                     <persName type="lemma" xml:lang="en">Nagara</persName>
+                     <persName>נגדא<ref type="note" corresp="#Vol-2-S-H_M-ftn1186"/>
+                     </persName>
+                     <persName>/נגרה<ref type="note" corresp="#Vol-2-S-H_M-ftn1187"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Lev Rab25:6 (Hyman,Toldoth, 918)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-400<ref type="note" corresp="#Vol-2-S-H_M-ftn1188"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

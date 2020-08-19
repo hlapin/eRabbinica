@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ipsa-Ipsa</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-S-G_F-Semitic-Greek-Females-to-utf-TEI-P5-names.xml/#Ipsa-Vol-2-Vol-1-ADD-S-G_F"
+                type="name"
+                n="Ipsa-Ipsa"
+                xml:id="name-Ipsa-d1e451216">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-S-G_F-ftn14"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-S-G_F-d8e175-person"
+                          n="Vol-2-Vol-1-ADD-S-G_F-Semitic-Greek-Females-Ipsa-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Ipsa</persName>
+                     <persName type="lemma" xml:lang="en">Ipsa</persName>
+                     <persName>̓Ιψας</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="daughter-of">Ipsa (2)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Amulet, Beirut, Lenormant</note>
+                     </state>
+                     <bibl>PC22/1 (1994) no. 51</bibl>
+                     <state type="addl-Descr">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_F-ftn15"/>, Name?<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_F-ftn16"/>
+                        </note>
+                     </state>
+                     <floruit>1stC BCE-1stC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-S-G_F-d8e217-person"
+                          n="Vol-2-Vol-1-ADD-S-G_F-Semitic-Greek-Females-Ipsa-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Ipsa</persName>
+                     <persName type="lemma" xml:lang="en">Ipsa</persName>
+                     <persName>̓Ιψα</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="mother-of">Ipsa (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Amulet, Beirut, Lenormant</note>
+                     </state>
+                     <bibl>PC22/1 (1994) no. 51</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_F-ftn17"/>, name?<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_F-ftn18"/>
+                        </note>
+                     </state>
+                     <floruit>1stC BCE-1stC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

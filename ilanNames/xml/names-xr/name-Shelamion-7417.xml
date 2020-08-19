@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Shelamṣion-שלמציון</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_F-Semitic-Hebrew-Females-to-utf-TEI-P5-names.xml/#Shelamion-Vol-4-S-H_F"
+                type="name"
+                n="Shelamṣion-שלמציון"
+                xml:id="name-Shelamion-d1e632998">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_F-ftn490"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_F-d8e6605-person"
+                          n="Vol-4-S-H_F-Semitic-Hebrew-Females-Shelamṣion-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">שלמציון</persName>
+                     <persName type="lemma" xml:lang="en">Shelamṣion</persName>
+                     <persName>–<ref type="note" corresp="#Vol-4-S-H_F-ftn491"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Jerusalem, Abel</note>
+                     </state>
+                     <bibl>CIJ1223</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_F-ftn492"/>P:Palmyra<ref type="note" corresp="#Vol-4-S-H_F-ftn493"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-4-S-H_F-ftn494"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

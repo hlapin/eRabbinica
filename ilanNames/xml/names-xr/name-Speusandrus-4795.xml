@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Speusandrus-Σπεύσανδρος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Speusandrus-Vol-3-G_M"
+                type="name"
+                n="Speusandrus-Σπεύσανδρος"
+                xml:id="name-Speusandrus-d1e522755">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4114"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e71149-person"
+                          n="Vol-3-G_M-Greek-Males-Speusandrus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Σπεύσανδρος</persName>
+                     <persName type="lemma" xml:lang="en">Speusandrus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Popellia (1) and <ref corresp="#Vol-3-B_M-d8e39023-person" type="relation" n="father-of">Simon (78)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaphs, Cyrene, Smith &amp; Porcher</note>
+                     </state>
+                     <bibl>CJZC13a,b</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4115"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

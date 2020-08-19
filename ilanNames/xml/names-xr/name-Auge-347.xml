@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Auge-Α̓γῆ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Auge-Vol-1-G_F names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Auge-Vol-3-G_F"
+                type="name"
+                n="Auge-Α̓γῆ"
+                xml:id="name-Auge-d1e189025">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_F-ftn41"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn197"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_F-d2e589-person" n="Vol-1-G_F-Auge-1">
+                     <persName type="lemma">Α̓γῆ</persName>
+                     <persName type="lemma" xml:lang="en">Auge</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="gr">Α̓γῆς<ref type="note" corresp="#Vol-1-G_F-ftn42"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Akeldama, Avni-Greenhut</note>
+                     </state>
+                     <bibl>Ilan,IAAR1 (1996) no. 11</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn43"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e3595-person" n="Vol-3-G_F-Greek-Females-Auge-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Α̓γῆ</persName>
+                     <persName type="lemma" xml:lang="en">Auge</persName>
+                     <persName>Auge</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_F-ftn198"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Schneider Graziosi</note>
+                     </state>
+                     <bibl>CIJ26*</bibl>
+                     <state type="addl-Descr">
+                        <note>-<ref type="note" corresp="#Vol-3-G_F-ftn199"/>
+                        </note>
+                     </state>
+                     <floruit>Rome</floruit>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

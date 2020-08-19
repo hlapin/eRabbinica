@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Metrotimus-Μετρότιμος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Metrotimus-Vol-3-G_M"
+                type="name"
+                n="Metrotimus-Μετρότιμος"
+                xml:id="name-Metrotimus-d1e512643">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3227"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e56175-person"
+                          n="Vol-3-G_M-Greek-Males-Metrotimus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μετρότιμος</persName>
+                     <persName type="lemma" xml:lang="en">Metrotimus</persName>
+                     <persName>Μετρότειμος<ref type="note" corresp="#Vol-3-G_M-ftn3228"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn3229"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Manumission inscription, Phanagoria,<ref type="note" corresp="#Vol-3-G_M-ftn3230"/>Dan’shin</note>
+                     </state>
+                     <bibl>IJO1, BS18</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3231"/>P:Bosphoran Kingdom</note>
+                     </state>
+                     <floruit>45-52 CE<ref type="note" corresp="#Vol-3-G_M-ftn3232"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e56226-person"
+                          n="Vol-3-G_M-Greek-Males-Metrotimus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μετρότιμος</persName>
+                     <persName type="lemma" xml:lang="en">Metrotimus</persName>
+                     <persName>Μητρότει[μος]<ref type="note" corresp="#Vol-3-G_M-ftn3233"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Thanksgiving inscription, Anapa,<ref type="note" corresp="#Vol-3-G_M-ftn3234"/>Boltunova</note>
+                     </state>
+                     <bibl>IJO1, BS27</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3235"/>P:Bosphoran Kingdom</note>
+                     </state>
+                     <floruit>45-63 CE<ref type="note" corresp="#Vol-3-G_M-ftn3236"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

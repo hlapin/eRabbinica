@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Pheidon-Φείδων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Pheidon-Vol-4-G_M"
+                type="name"
+                n="Pheidon-Φείδων"
+                xml:id="name-Pheidon-d1e601959">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-G_M-ftn146"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-G_M-d8e1922-person" n="Vol-4-G_M-Greek-Males-Pheidon-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Φείδων</persName>
+                     <persName type="lemma" xml:lang="en">Pheidon</persName>
+                     <persName>Φείδωνος</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Jerusalem, Abel</note>
+                     </state>
+                     <bibl>CIJ1238</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-G_M-ftn147"/>P:Palmyra<ref type="note" corresp="#Vol-4-G_M-ftn148"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-4-G_M-ftn149"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

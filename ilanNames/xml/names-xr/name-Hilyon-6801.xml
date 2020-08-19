@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Hilyon-Hilyon</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_F-Iranian-Females-to-utf-TEI-P5-names.xml/#Hilyon-Vol-4-I_F"
+                type="name"
+                n="Hilyon-Hilyon"
+                xml:id="name-Hilyon-d1e605586">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_F-ftn359"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_F-d8e4397-person"
+                          n="Vol-4-I_F-Iranian-Females-Hilyon-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Hilyon</persName>
+                     <persName type="lemma" xml:lang="en">Hilyon</persName>
+                     <persName>חיליון<ref type="note" corresp="#Vol-4-I_F-ftn360"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_F-d8e5540-person" type="relation" n="daughter-of">Ispandarmēdh (9)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Schøyen collection</note>
+                     </state>
+                     <bibl>Shaked, “Aramaic Spells,” App. III</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn361"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn362"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_F-d8e4432-person"
+                          n="Vol-4-I_F-Iranian-Females-Hilyon-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Hilyon</persName>
+                     <persName type="lemma" xml:lang="en">Hilyon</persName>
+                     <persName>היליון<ref type="note" corresp="#Vol-4-I_F-ftn363"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e28437-person" type="relation" n="mother-of">Sheba (5)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Iraq</note>
+                     </state>
+                     <bibl>Gordon,Orientalia10 (1941) 351</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn364"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn365"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

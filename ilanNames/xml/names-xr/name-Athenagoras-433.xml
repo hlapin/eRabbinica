@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Athenagoras-̓Αθηναγόρας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Athenagoras-Vol-1-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Athenagoras-Vol-3-G_M"
+                type="name"
+                n="Athenagoras-̓Αθηναγόρας"
+                xml:id="name-Athenagoras-d1e195136">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn5"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn82"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e105-person" n="Vol-1-G_M-Athenagoras-1">
+                     <persName type="lemma">̓Αθηναγόρας</persName>
+                     <persName type="lemma" xml:lang="en">Athenagoras</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">אנגרש</persName>
+                     <persName xml:lang="gr">̓Αθηνα[γόρου]<ref type="note" corresp="#Vol-1-G_M-ftn6"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-L_F-d2e111-person" type="relation" n="father-of">Appia (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Kidron, Sukenik, 1937</note>
+                     </state>
+                     <bibl>CJO, nos. 84, 86<ref type="note" corresp="#Vol-1-G_M-ftn7"/>
+                     </bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn8"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e1327-person"
+                          n="Vol-3-G_M-Greek-Males-Athenagoras-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αθηναγόρας</persName>
+                     <persName type="lemma" xml:lang="en">Athenagoras</persName>
+                     <persName>̓Αθηναγ<ref type="note" corresp="#Vol-3-G_M-ftn83"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e31392-person" type="relation" n="father-of">Euretus (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+                     </state>
+                     <bibl>IJO2, 14:B56</bibl>
+                     <state type="addl-Descr">
+                        <note>God-fearer<ref type="note" corresp="#Vol-3-G_M-ftn84"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e1362-person"
+                          n="Vol-3-G_M-Greek-Males-Athenagoras-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αθηναγόρας</persName>
+                     <persName type="lemma" xml:lang="en">Athenagoras</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn85"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+                     </state>
+                     <bibl>IJO2, 14:B60</bibl>
+                     <state type="addl-Descr">
+                        <note>God-fearer<ref type="note" corresp="#Vol-3-G_M-ftn86"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aḥitai-אחיתאי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Aitai-Vol-4-S-H_M"
+                type="name"
+                n="Aḥitai-אחיתאי"
+                xml:id="name-Aitai-d1e634002">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn628"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e8982-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Aḥitai-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">אחיתאי</persName>
+                     <persName type="lemma" xml:lang="en">Aḥitai</persName>
+                     <persName>חתאי<ref type="note" corresp="#Vol-4-S-H_M-ftn629"/>
+                     </persName>
+                     <persName>/איהי<ref type="note" corresp="#Vol-4-S-H_M-ftn630"/>
+                     </persName>
+                     <persName>/אהינאי<ref type="note" corresp="#Vol-4-S-H_M-ftn631"/>
+                     </persName>
+                     <persName>/חיתאי<ref type="note" corresp="#Vol-4-S-H_M-ftn632"/>
+                     </persName>
+                     <persName>/איתאי<ref type="note" corresp="#Vol-4-S-H_M-ftn633"/>
+                     </persName>
+                     <persName>/אחותאי<ref type="note" corresp="#Vol-4-S-H_M-ftn634"/>
+                     </persName>
+                     <persName>/אחתאי<ref type="note" corresp="#Vol-4-S-H_M-ftn635"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e29640-person" type="relation" n="father-of">Samuel (14)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bGit39b (Kosowsky,Babylonico, 148)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn636"/>P:Babylonia</note>
+                     </state>
+                     <floruit>3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn637"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_M-d8e9080-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Aḥitai-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">אחיתאי</persName>
+                     <persName type="lemma" xml:lang="en">Aḥitai</persName>
+                     <persName>אחתו<ref type="note" corresp="#Vol-4-S-H_M-ftn638"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_F-d8e3138-person" type="relation" n="son-of">Batshitti (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl</note>
+                     </state>
+                     <bibl>CAMIBBM020A</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn639"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn640"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

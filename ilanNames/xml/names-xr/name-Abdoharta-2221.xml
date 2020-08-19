@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ̓ΑβδοάρθαςAbdoḥarta-̓ΑβδοάρθαςAbdoḥarta</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Abdoharta-Vol-2-S-G_M"
+                type="name"
+                n="̓ΑβδοάρθαςAbdoḥarta-̓ΑβδοάρθαςAbdoḥarta"
+                xml:id="name-Abdoharta-d1e396579">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-G_M-ftn20"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-G_M-d8e243-person"
+                          n="Vol-2-S-G_M-Semitic-Greek-Males-̓ΑβδοάρθαςAbdoḥarta-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓ΑβδοάρθαςAbdoḥarta</persName>
+                     <persName type="lemma" xml:lang="en">̓ΑβδοάρθαςAbdoḥarta</persName>
+                     <persName>̓Αβδοάρθα</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-S-G_M-d8e155-person" type="relation" n="father-of">Abdalgo (3)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1a, no. 75</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-S-G_M-ftn21"/>
+                        </note>
+                     </state>
+                     <floruit>395<ref type="note" corresp="#Vol-2-S-G_M-ftn22"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

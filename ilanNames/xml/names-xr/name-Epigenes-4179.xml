@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Epigenes-̓Επιγένης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Epigenes-Vol-3-G_M"
+                type="name"
+                n="Epigenes-̓Επιγένης"
+                xml:id="name-Epigenes-d1e497496">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1565"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e26466-person" n="Vol-3-G_M-Greek-Males-Epigenes-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Επιγένης</persName>
+                     <persName type="lemma" xml:lang="en">Epigenes</persName>
+                     <persName>̓Επιγένιους<ref type="note" corresp="#Vol-3-G_M-ftn1566"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Schneider Graziosi</note>
+                     </state>
+                     <bibl>CIJ323</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1567"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e26515-person" n="Vol-3-G_M-Greek-Males-Epigenes-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Επιγένης</persName>
+                     <persName type="lemma" xml:lang="en">Epigenes</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn1568"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Sedment el-Gebel</note>
+                     </state>
+                     <bibl>Abd el-Fatah &amp; Wagner,CRIPÉL19 (1998) no. 2</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1569"/>P:Egypt</note>
+                     </state>
+                     <floruit>1stC BCE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

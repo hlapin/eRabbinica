@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Demetria-Δημητρία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Demetria-Vol-3-G_F"
+                type="name"
+                n="Demetria-Δημητρία"
+                xml:id="name-Demetria-d1e474294">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn295"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e5333-person"
+                          n="Vol-3-G_F-Greek-Females-Demetria-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Δημητρία</persName>
+                     <persName type="lemma" xml:lang="en">Demetria</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e65530-person"
+                                type="relation"
+                                n="daughter-of">Polyarchus (2)’s daughter</ref>, aged 73<ref type="note" corresp="#Vol-3-G_F-ftn296"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira, Reynolds</note>
+                     </state>
+                     <bibl>CJZC58c</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn297"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>20s CE<ref type="note" corresp="#Vol-3-G_F-ftn298"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e5370-person"
+                          n="Vol-3-G_F-Greek-Females-Demetria-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Δημητρία</persName>
+                     <persName type="lemma" xml:lang="en">Demetria</persName>
+                     <persName>דמיטרין<ref type="note" corresp="#Vol-3-G_F-ftn299"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_F-d8e7208-person" type="relation" n="mother-of">Salome (17)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Amulet, Ağabeyli</note>
+                     </state>
+                     <bibl>AMBno. 7</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn300"/>P:Asia</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-G_F-ftn301"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

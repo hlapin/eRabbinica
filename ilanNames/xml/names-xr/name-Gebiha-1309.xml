@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Gebiha-גביהא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Gebiha-Vol-1-S-H_M names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Gebiha-Vol-4-S-H_M"
+                type="name"
+                n="Gebiha-גביהא"
+                xml:id="name-Gebiha-d1e306221">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-H_M-ftn151"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn858"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-H_M-d2e2374-person" n="Vol-1-S-H_M-Gebiha-1">
+                     <persName type="lemma">גביהא</persName>
+                     <persName type="lemma" xml:lang="en">Gebiha</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">גביע<ref type="note" corresp="#Vol-1-S-H_M-ftn152"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="son-of">Pesisa (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>bSan91a (Kosowsky,Babylonico, 328)</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-1-S-H_M-ftn153"/>
+                        </note>
+                     </state>
+                     <floruit>332-323 BCE<ref type="note" corresp="#Vol-1-S-H_M-ftn154"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_M-d8e12384-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Gebiha-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">גביהא</persName>
+                     <persName type="lemma" xml:lang="en">Gebiha</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-S-H_M-ftn859"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bGit7a (Kosowsky,Babylonico, 328)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn860"/>P:Babylonia</note>
+                     </state>
+                     <floruit>5thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn861"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_M-d8e12430-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Gebiha-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">גביהא</persName>
+                     <persName type="lemma" xml:lang="en">Gebiha</persName>
+                     <persName>גביהה<ref type="note" corresp="#Vol-4-S-H_M-ftn862"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-S-H_M-ftn863"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bBQ82a (Kosowsky,Babylonico, 328)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn864"/>P:Babylonia</note>
+                     </state>
+                     <floruit>d. 433 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn865"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

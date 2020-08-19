@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Lapithanus-Λαπιθανός</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Lapithanus-Vol-3-G_M"
+                type="name"
+                n="Lapithanus-Λαπιθανός"
+                xml:id="name-Lapithanus-d1e510154">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2994"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e51891-person"
+                          n="Vol-3-G_M-Greek-Males-Lapithanus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Λαπιθανός</persName>
+                     <persName type="lemma" xml:lang="en">Lapithanus</persName>
+                     <persName>לפתינא<ref type="note" corresp="#Vol-3-G_M-ftn2995"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-S-H_M-d8e551-person" type="relation" n="son-of">Abitai (3)’s son</ref>, <ref corresp="#Vol-3-S-H_M-d8e582-person" type="relation" n="brother-of">Abitai (4)’s brother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Edfu</note>
+                     </state>
+                     <bibl>TADAE4:7:57</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2996"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

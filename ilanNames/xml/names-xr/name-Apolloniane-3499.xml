@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Apolloniane-̓Απολλωνιανῆ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Apolloniane-Vol-3-G_F"
+                type="name"
+                n="Apolloniane-̓Απολλωνιανῆ"
+                xml:id="name-Apolloniane-d1e471762">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn121"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e2121-person"
+                          n="Vol-3-G_F-Greek-Females-Apolloniane-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Απολλωνιανῆ</persName>
+                     <persName type="lemma" xml:lang="en">Apolloniane</persName>
+                     <persName>[̓Απολλω]νιανῆς<ref type="note" corresp="#Vol-3-G_F-ftn122"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Julia (22), Julius (22) <ref corresp="#Vol-3-G_M-d8e9786-person" type="relation" n="wife-of">Apollonius (15)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Miranda</note>
+                     </state>
+                     <bibl>IJO2, 195</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn123"/>P:Asia</note>
+                     </state>
+                     <floruit>2nd-3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

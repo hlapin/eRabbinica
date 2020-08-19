@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Omer-אומר</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_F-Semitic-Hebrew-Females-to-utf-TEI-P5-names.xml/#Omer-Vol-2-S-H_F"
+                type="name"
+                n="Omer-אומר"
+                xml:id="name-Omer-d1e398853">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_F-ftn9"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_F-d8e133-person"
+                          n="Vol-2-S-H_F-Semitic-Hebrew-Females-Omer-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">אומר</persName>
+                     <persName type="lemma" xml:lang="en">Omer</persName>
+                     <persName>אומ[ר]<ref type="note" corresp="#Vol-2-S-H_F-ftn10"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e19167-person" type="relation" n="wife-of">Joshua (33)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>Stern,Tarbiz68 (1999) no. 13</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>375<ref type="note" corresp="#Vol-2-S-H_F-ftn11"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

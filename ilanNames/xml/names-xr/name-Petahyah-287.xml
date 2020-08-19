@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Petahyah-פתחיה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Petahyah-Vol-1-B_M names/Vol-2-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Petahyah-Vol-2-B_M"
+                type="name"
+                n="Petahyah-פתחיה"
+                xml:id="name-Petahyah-d1e151788">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_M-ftn3817"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-B_M-ftn2774"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_M-d2e49716-person" n="Vol-1-B_M-Petahyah-1">
+                     <persName type="lemma">פתחיה</persName>
+                     <persName type="lemma" xml:lang="en">Petahyah</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-1-B_M-ftn3818"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>mSheq5:1 (Kasovsky,Mishnae, 1513)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn3819"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-B_M-d2e49741-person" n="Vol-1-B_M-Petahyah-2">
+                     <persName type="lemma">פתחיה</persName>
+                     <persName type="lemma" xml:lang="en">Petahyah</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">פתחי<ref type="note" corresp="#Vol-1-B_M-ftn3820"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-S-H_F-d2e1647-person" type="relation" n="father-of">Martha (8)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Mt of Offence, Clermont-Ganneau, 1874</note>
+                     </state>
+                     <bibl>CIJ, no. 1311</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-73 CE<ref type="note" corresp="#Vol-1-B_M-ftn3821"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-B_M-d8e41823-person"
+                          n="Vol-2-B_M-Biblical-Males-Petahyah-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">פתחיה</persName>
+                     <persName type="lemma" xml:lang="en">Petahyah</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-L_M-d8e974-person" type="relation" n="father-of">Annianus (12)’s father</ref>, rabbi<ref type="note" corresp="#Vol-2-B_M-ftn2775"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Sepphoris, Druks</note>
+                     </state>
+                     <bibl>Naveh,Atiqot49 (2005) 114*</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>3rd-4thC</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

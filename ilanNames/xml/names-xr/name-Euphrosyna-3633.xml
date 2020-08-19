@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Euphrosyna-Ε̓φροσύνα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Euphrosyna-Vol-3-G_F"
+                type="name"
+                n="Euphrosyna-Ε̓φροσύνα"
+                xml:id="name-Euphrosyna-d1e477568">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn531"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e9662-person"
+                          n="Vol-3-G_F-Greek-Females-Euphrosyna-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Ε̓φροσύνα</persName>
+                     <persName type="lemma" xml:lang="en">Euphrosyna</persName>
+                     <persName>Ε̓φρούνα<ref type="note" corresp="#Vol-3-G_F-ftn532"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Rhodes, Robert</note>
+                     </state>
+                     <bibl>CIJ731e</bibl>
+                     <state type="addl-Descr">
+                        <note>God-fearer?<ref type="note" corresp="#Vol-3-G_F-ftn533"/>P:Greece</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-G_F-ftn534"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e9707-person"
+                          n="Vol-3-G_F-Greek-Females-Euphrosyna-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Ε̓φροσύνα</persName>
+                     <persName type="lemma" xml:lang="en">Euphrosyna</persName>
+                     <persName>Ε̓φρο[σύ]να<ref type="note" corresp="#Vol-3-G_F-ftn535"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-S-H_M-d8e6109-person"
+                                type="relation"
+                                n="daughter-of">Silas (6)’s daughter</ref>, aged 17<ref type="note" corresp="#Vol-3-G_F-ftn536"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira</note>
+                     </state>
+                     <bibl>Reynolds,CJZC21</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn537"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>79/80 CE<ref type="note" corresp="#Vol-3-G_F-ftn538"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

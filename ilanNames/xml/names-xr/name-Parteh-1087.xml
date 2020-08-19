@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Parteh-Parteh</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Parteh-Vol-1-P_M"
+                type="name"
+                n="Parteh-Parteh"
+                xml:id="name-Parteh-d1e283129">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-P_M-ftn165"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-P_M-d2e2250-person" n="Vol-1-P_M-Parteh-1">
+                     <persName type="lemma">Parteh</persName>
+                     <persName type="lemma" xml:lang="en">Parteh</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">פרטא<ref type="note" corresp="#Vol-1-P_M-ftn166"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e3106-person" type="relation" n="father-of">Eleazar (37)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>mGit3:4 (Kasovsky,Mishnae, 1497)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-1-P_M-ftn167"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-1-P_M-ftn168"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-P_M-d2e2288-person" n="Vol-1-P_M-Parteh-2">
+                     <persName type="lemma">Parteh</persName>
+                     <persName type="lemma" xml:lang="en">Parteh</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">פרטא<ref type="note" corresp="#Vol-1-P_M-ftn169"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e3971-person" type="relation" n="father-of">Eleazar (67)’s father</ref>, grandson of previous<ref type="note" corresp="#Vol-1-P_M-ftn170"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>yMeg4:4, 35b (Kosovsky,Yerushalmi, 130)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname?<ref type="note" corresp="#Vol-1-P_M-ftn171"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-1-P_M-ftn172"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

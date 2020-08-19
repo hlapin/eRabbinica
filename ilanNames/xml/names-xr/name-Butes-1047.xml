@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Butes-Butes</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Butes-Vol-1-P_M names/Vol-2-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Butes-Vol-2-P_M"
+                type="name"
+                n="Butes-Butes"
+                xml:id="name-Butes-d1e281226">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-P_M-ftn37"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-P_M-ftn11"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-P_M-d2e566-person" n="Vol-1-P_M-Butes-1">
+                     <persName type="lemma">Butes</persName>
+                     <persName type="lemma" xml:lang="en">Butes</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">בוטא<ref type="note" corresp="#Vol-1-P_M-ftn38"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e6918-person" type="relation" n="father-of">Babi (4)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>mKer6:3 (Kasovsky,Mishnae, 348)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname?<ref type="note" corresp="#Vol-1-P_M-ftn39"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-P_M-ftn40"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-P_M-d2e615-person" n="Vol-1-P_M-Butes-2">
+                     <persName type="lemma">Butes</persName>
+                     <persName type="lemma" xml:lang="en">Butes</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">בוטון<ref type="note" corresp="#Vol-1-P_M-ftn41"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Isawiyya, Sukenik, 1930</note>
+                     </state>
+                     <bibl>CIJ, no. 1246</bibl>
+                     <state type="addl-Descr">
+                        <note>Second name<ref type="note" corresp="#Vol-1-P_M-ftn42"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-P_M-ftn43"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-P_M-d2e650-person" n="Vol-1-P_M-Butes-3">
+                     <persName type="lemma">Butes</persName>
+                     <persName type="lemma" xml:lang="en">Butes</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">בוטא<ref type="note" corresp="#Vol-1-P_M-ftn44"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, German Archaeological Institute</note>
+                     </state>
+                     <bibl>Fritz &amp; Deines,IEJ49 (1999) no. 4</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-P_M-ftn45"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-P_M-d8e115-person" n="Vol-2-P_M-Persian-Males-Butes-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Butes</persName>
+                     <persName type="lemma" xml:lang="en">Butes</persName>
+                     <persName>בוטה<ref type="note" corresp="#Vol-2-P_M-ftn12"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-S-H_M-d8e27174-person"
+                                type="relation"
+                                n="father-of">Tanḥum (33)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Kefsr Canna,<ref type="note" corresp="#Vol-2-P_M-ftn13"/>Clermont-Ganneau</note>
+                     </state>
+                     <bibl>CIJ987</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>3rd–4thC</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

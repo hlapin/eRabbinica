@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Caelius-Caelius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Caelius-Vol-3-L_M"
+                type="name"
+                n="Caelius-Caelius"
+                xml:id="name-Caelius-d1e547001">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn602"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e10389-person" n="Vol-3-L_M-Latin-Males-Caelius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Caelius</persName>
+                     <persName type="lemma" xml:lang="en">Caelius</persName>
+                     <persName>Καίλιος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn603"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Schneider Graziosi</note>
+                     </state>
+                     <bibl>CIJ364</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn604"/>; second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e10431-person" n="Vol-3-L_M-Latin-Males-Caelius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Caelius</persName>
+                     <persName type="lemma" xml:lang="en">Caelius</persName>
+                     <persName>Καίλις<ref type="note" corresp="#Vol-3-L_M-ftn605"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn606"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Paribeni</note>
+                     </state>
+                     <bibl>CIJ365</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn607"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e10475-person" n="Vol-3-L_M-Latin-Males-Caelius-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Caelius</persName>
+                     <persName type="lemma" xml:lang="en">Caelius</persName>
+                     <persName>Καίλις<ref type="note" corresp="#Vol-3-L_M-ftn608"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn609"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Venice square, Gatti</note>
+                     </state>
+                     <bibl>CIJ505</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn610"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

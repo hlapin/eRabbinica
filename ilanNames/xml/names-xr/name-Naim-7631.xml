@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Naʿim-נעים</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Naim-Vol-4-S-H_M"
+                type="name"
+                n="Naʿim-נעים"
+                xml:id="name-Naim-d1e646723">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn1967"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e28468-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Naʿim-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">נעים</persName>
+                     <persName type="lemma" xml:lang="en">Naʿim</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e14941-person" type="relation" n="son-of">Isaac (36)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Graffito, Madāʾin Ṣāliḥ</note>
+                     </state>
+                     <bibl>Jaussen &amp; Savignac, 641</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1968"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1969"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

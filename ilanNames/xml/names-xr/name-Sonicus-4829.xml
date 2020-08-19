@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sonicus-Σώνικος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Sonicus-Vol-3-G_M"
+                type="name"
+                n="Sonicus-Σώνικος"
+                xml:id="name-Sonicus-d1e523963">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4260"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e73603-person" n="Vol-3-G_M-Greek-Males-Sonicus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Σώνικος</persName>
+                     <persName type="lemma" xml:lang="en">Sonicus</persName>
+                     <persName>Σωνίκου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e42649-person" type="relation" n="son-of">Theodotus (52)’s son</ref>, archon<ref type="note" corresp="#Vol-3-G_M-ftn4261"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Politeuma inscription, Berenice, Roux</note>
+                     </state>
+                     <bibl>CJZC71</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4262"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>24/5 CE<ref type="note" corresp="#Vol-3-G_M-ftn4263"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

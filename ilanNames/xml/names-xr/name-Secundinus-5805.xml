@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Secundinus-Secundinus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Secundinus-Vol-3-L_M"
+                type="name"
+                n="Secundinus-Secundinus"
+                xml:id="name-Secundinus-d1e558709">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2197"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e36839-person"
+                          n="Vol-3-L_M-Latin-Males-Secundinus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Secundinus</persName>
+                     <persName type="lemma" xml:lang="en">Secundinus</persName>
+                     <persName>סהקונדינו<ref type="note" corresp="#Vol-3-L_M-ftn2198"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn2199"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Venosa, Angelis &amp; Smith</note>
+                     </state>
+                     <bibl>CIJ595</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2200"/>P:Italy</note>
+                     </state>
+                     <floruit>5th-6thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e36879-person"
+                          n="Vol-3-L_M-Latin-Males-Secundinus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Secundinus</persName>
+                     <persName type="lemma" xml:lang="en">Secundinus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Ostia, Floriani</note>
+                     </state>
+                     <bibl>JIWE1, 14</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2201"/>; second nameP:Italy</note>
+                     </state>
+                     <floruit>1st-2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

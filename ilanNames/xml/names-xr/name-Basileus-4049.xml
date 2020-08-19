@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Basileus-Βασιλεύς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Basileus-Vol-3-G_M"
+                type="name"
+                n="Basileus-Βασιλεύς"
+                xml:id="name-Basileus-d1e492693">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn857"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e14630-person" n="Vol-3-G_M-Greek-Males-Basileus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Βασιλεύς</persName>
+                     <persName type="lemma" xml:lang="en">Basileus</persName>
+                     <persName>Basilius<ref type="note" corresp="#Vol-3-G_M-ftn858"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn859"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Gregorius, IX, 105,CCSL140, 657</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn860"/>P:Italy</note>
+                     </state>
+                     <floruit>599 CE<ref type="note" corresp="#Vol-3-G_M-ftn861"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e14668-person" n="Vol-3-G_M-Greek-Males-Basileus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Βασιλεύς</persName>
+                     <persName type="lemma" xml:lang="en">Basileus</persName>
+                     <persName>Βασειλευς<ref type="note" corresp="#Vol-3-G_M-ftn862"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Sempronius (1), Aurelia (6) <ref corresp="#Vol-3-L_F-d8e5430-person" type="relation" n="husband-of">Celerina (1)’s husband</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ215</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn863"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

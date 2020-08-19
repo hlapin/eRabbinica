@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Caepius-Caepius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-Vol-3-Add-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Caepius-Vol-4-Vol-3-Add-L_M"
+                type="name"
+                n="Caepius-Caepius"
+                xml:id="name-Caepius-d1e652725">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-Vol-3-Add-L_M-ftn6"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-Vol-3-Add-L_M-d8e74-person"
+                          n="Vol-4-Vol-3-Add-L_M-Latin-Males-Caepius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Caepius</persName>
+                     <persName type="lemma" xml:lang="en">Caepius</persName>
+                     <persName>ⲅⲁⲓⲡⲓⲟⲥ<ref type="note" corresp="#Vol-4-Vol-3-Add-L_M-ftn7"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Martyrdom of Mercurius 12b-13a</bibl>
+                     <state type="addl-Descr">
+                        <note>Christian convert<ref type="note" corresp="#Vol-4-Vol-3-Add-L_M-ftn8"/>P:Egypt<ref type="note" corresp="#Vol-4-Vol-3-Add-L_M-ftn9"/>
+                        </note>
+                     </state>
+                     <floruit>Post-214 CE<ref type="note" corresp="#Vol-4-Vol-3-Add-L_M-ftn10"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

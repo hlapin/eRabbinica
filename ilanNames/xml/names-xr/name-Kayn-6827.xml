@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Kayēn-Kayēn</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_F-Iranian-Females-to-utf-TEI-P5-names.xml/#Kayn-Vol-4-I_F"
+                type="name"
+                n="Kayēn-Kayēn"
+                xml:id="name-Kayn-d1e607521">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_F-ftn505"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_F-d8e6173-person" n="Vol-4-I_F-Iranian-Females-Kayēn-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Kayēn</persName>
+                     <persName type="lemma" xml:lang="en">Kayēn</persName>
+                     <persName>קיני<ref type="note" corresp="#Vol-4-I_F-ftn506"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Maḥlafta (12), <ref corresp="#Vol-4-B_M-d8e2075-person" type="relation" n="mother-of">Aḥi (31)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Moussyaieff collection</note>
+                     </state>
+                     <bibl>Levene,CMB, M123</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn507"/>Second name<ref type="note" corresp="#Vol-4-I_F-ftn508"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn509"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

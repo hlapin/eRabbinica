@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Marcelina-Marcelina</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_F-Latin-Female-to-utf-TEI-P5-names.xml/#Marcelina-Vol-2-L_F"
+                type="name"
+                n="Marcelina-Marcelina"
+                xml:id="name-Marcelina-d1e381231">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_F-ftn131"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_F-d8e1542-person"
+                          n="Vol-2-L_F-Latin-Female-Marcelina-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Marcelina</persName>
+                     <persName type="lemma" xml:lang="en">Marcelina</persName>
+                     <persName>Μαρκελλίνας<ref type="note" corresp="#Vol-2-L_F-ftn132"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Felfela (1), <ref corresp="#Vol-2-B_M-d8e6898-person" type="relation" n="mother-of">Barachiah (8)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Amulet, Samaria</note>
+                     </state>
+                     <bibl>Piccirillo,Historiam pictura, 468</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan?<ref type="note" corresp="#Vol-2-L_F-ftn133"/>
+                        </note>
+                     </state>
+                     <floruit>572<ref type="note" corresp="#Vol-2-L_F-ftn134"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-L_F-d8e1575-person"
+                          n="Vol-2-L_F-Latin-Female-Marcelina-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Marcelina</persName>
+                     <persName type="lemma" xml:lang="en">Marcelina</persName>
+                     <persName>Μαρκελλίνᾳ<ref type="note" corresp="#Vol-2-L_F-ftn135"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Apollonia</note>
+                     </state>
+                     <bibl>Germer-Durand,RB1 (1892) 247</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan?<ref type="note" corresp="#Vol-2-L_F-ftn136"/>
+                        </note>
+                     </state>
+                     <floruit>
+                        <ref type="note" corresp="#Vol-2-L_F-ftn137"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

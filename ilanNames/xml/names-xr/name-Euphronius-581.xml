@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Euphronius-Ε̓φρόνιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Euphronius-Vol-1-G_M"
+                type="name"
+                n="Euphronius-Ε̓φρόνιος"
+                xml:id="name-Euphronius-d1e217503">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn545"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e7800-person" n="Vol-1-G_M-Euphronius-1">
+                     <persName type="lemma">Ε̓φρόνιος</persName>
+                     <persName type="lemma" xml:lang="en">Euphronius</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">[א]פרניש<ref type="note" corresp="#Vol-1-G_M-ftn546"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e5290-person" type="relation" n="son-of">Eleazar (119)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, letter, Muraba‘at</note>
+                     </state>
+                     <bibl>Mur 46</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-135 CE<ref type="note" corresp="#Vol-1-G_M-ftn547"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

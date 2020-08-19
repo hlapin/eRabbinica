@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Diogenes-Διογένης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Diogenes-Vol-1-G_M names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Diogenes-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Diogenes-Vol-3-G_M"
+                type="name"
+                n="Diogenes-Διογένης"
+                xml:id="name-Diogenes-d1e210337">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn341"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn306"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1103"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e4829-person" n="Vol-1-G_M-Diogenes-1">
+                     <persName type="lemma">Διογένης</persName>
+                     <persName type="lemma" xml:lang="en">Diogenes</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-G_M-d2e351-person" type="relation" n="advisor-of">Alexander (1)’s advisor</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ1:113;AJ14:410 (Schalit,NB, 38)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-1-G_M-ftn342"/>
+                        </note>
+                     </state>
+                     <floruit>70 BCE<ref type="note" corresp="#Vol-1-G_M-ftn343"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-G_M-d2e4859-person" n="Vol-1-G_M-Diogenes-2">
+                     <persName type="lemma">Διογένης</persName>
+                     <persName type="lemma" xml:lang="en">Diogenes</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-1-G_M-ftn344"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Bagatti</note>
+                     </state>
+                     <bibl>DF89, no. 21</bibl>
+                     <state type="addl-Descr">
+                        <note>Proselyte<ref type="note" corresp="#Vol-1-G_M-ftn345"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn346"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_M-d8e4422-person" n="Vol-2-G_M-Greek-Males-Diogenes-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Διογένης</persName>
+                     <persName type="lemma" xml:lang="en">Diogenes</persName>
+                     <persName>Διογένου<ref type="note" corresp="#Vol-2-G_M-ftn307"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_F-d8e2471-person" type="relation" n="father-of">Theophila (1)’s father</ref>, of Akko<ref type="note" corresp="#Vol-2-G_M-ftn308"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Athens</note>
+                     </state>
+                     <bibl>Urdahl,Symbolae Osloenses43 (1968) 48</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn309"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-G_M-ftn310"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e18703-person" n="Vol-3-G_M-Greek-Males-Diogenes-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Διογένης</persName>
+                     <persName type="lemma" xml:lang="en">Diogenes</persName>
+                     <persName>Diogenes</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn1104"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Seutonius,GLAJJ2, 305</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1105"/>P:Greece</note>
+                     </state>
+                     <floruit>6-2 BCE<ref type="note" corresp="#Vol-3-G_M-ftn1106"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e18738-person" n="Vol-3-G_M-Greek-Males-Diogenes-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Διογένης</persName>
+                     <persName type="lemma" xml:lang="en">Diogenes</persName>
+                     <persName>Διογένου<ref type="note" corresp="#Vol-3-G_M-ftn1107"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Anastasius (5) and <ref corresp="#" type="relation" n="father-of">Jacob (55)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Corycus, Keil &amp; Wilhelm</note>
+                     </state>
+                     <bibl>CIJ787</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1108"/>P:Asia</note>
+                     </state>
+                     <floruit>5th-6thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e18779-person" n="Vol-3-G_M-Greek-Males-Diogenes-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Διογένης</persName>
+                     <persName type="lemma" xml:lang="en">Diogenes</persName>
+                     <persName>Διογένους</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Olba, Hicks</note>
+                     </state>
+                     <bibl>CIJ795</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1109"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e18814-person" n="Vol-3-G_M-Greek-Males-Diogenes-4">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Διογένης</persName>
+                     <persName type="lemma" xml:lang="en">Diogenes</persName>
+                     <persName>Διογέν<ref type="note" corresp="#Vol-3-G_M-ftn1110"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e31823-person" type="relation" n="father-of">Eusabbathius (6)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+                     </state>
+                     <bibl>IJO2, 14:B18</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1111"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e18849-person" n="Vol-3-G_M-Greek-Males-Diogenes-5">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Διογένης</persName>
+                     <persName type="lemma" xml:lang="en">Diogenes</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn1112"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+                     </state>
+                     <bibl>IJO2, 14:35</bibl>
+                     <state type="addl-Descr">
+                        <note>God-fearer<ref type="note" corresp="#Vol-3-G_M-ftn1113"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e18890-person" n="Vol-3-G_M-Greek-Males-Diogenes-6">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Διογένης</persName>
+                     <persName type="lemma" xml:lang="en">Diogenes</persName>
+                     <persName>Διογένου<ref type="note" corresp="#Vol-3-G_M-ftn1114"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Miranda</note>
+                     </state>
+                     <bibl>IJO2, 193</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1115"/>P:Asia</note>
+                     </state>
+                     <floruit>2nd-3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e18934-person" n="Vol-3-G_M-Greek-Males-Diogenes-7">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Διογένης</persName>
+                     <persName type="lemma" xml:lang="en">Diogenes</persName>
+                     <persName>Διογένους</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e66194-person" type="relation" n="son-of">Polychares (2)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Augustus statue base, Cos</note>
+                     </state>
+                     <bibl>Maiuri,NSE, no. 466</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1116"/>P:Greece</note>
+                     </state>
+                     <floruit>31 BCE-14 CE<ref type="note" corresp="#Vol-3-G_M-ftn1117"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Palatinus-Palatinus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Palatinus-Vol-3-L_M"
+                type="name"
+                n="Palatinus-Palatinus"
+                xml:id="name-Palatinus-d1e555498">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1840"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e30851-person"
+                          n="Vol-3-L_M-Latin-Males-Palatinus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Palatinus</persName>
+                     <persName type="lemma" xml:lang="en">Palatinus</persName>
+                     <persName>Παλατῖν<ref type="note" corresp="#Vol-3-L_M-ftn1841"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Theodotus (42), <ref corresp="#Vol-3-G_M-d8e48121-person" type="relation" n="father-of">Hilarianus (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+                     </state>
+                     <bibl>IJO2, 14:A11</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1842"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

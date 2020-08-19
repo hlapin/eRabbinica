@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Maena-Maena</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Maena-Vol-3-L_F"
+                type="name"
+                n="Maena-Maena"
+                xml:id="name-Maena-d1e535698">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn716"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e25240-person" n="Vol-3-L_F-Latin-Females-Maena-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Maena</persName>
+                     <persName type="lemma" xml:lang="en">Maena</persName>
+                     <persName>Maianiae<ref type="note" corresp="#Vol-3-L_F-ftn717"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vog</note>
+                     </state>
+                     <bibl>CIJ524</bibl>
+                     <state type="addl-Descr">
+                        <note>God-fearer?<ref type="note" corresp="#Vol-3-L_F-ftn718"/>Second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

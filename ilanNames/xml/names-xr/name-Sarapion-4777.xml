@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sarapion-Σαραπίων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Sarapion-Vol-3-G_M"
+                type="name"
+                n="Sarapion-Σαραπίων"
+                xml:id="name-Sarapion-d1e522070">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4056"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e70160-person" n="Vol-3-G_M-Greek-Males-Sarapion-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Σαραπίων</persName>
+                     <persName type="lemma" xml:lang="en">Sarapion</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_F-d8e4606-person" type="relation" n="son-of">Shabtit (12)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyri, Theadelphia, Westerman &amp; Keyes, Kortenbeutel</note>
+                     </state>
+                     <bibl>CPJ489a,b,c</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4057"/>P:Egypt</note>
+                     </state>
+                     <floruit>128-35 CE<ref type="note" corresp="#Vol-3-G_M-ftn4058"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e70191-person" n="Vol-3-G_M-Greek-Males-Sarapion-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Σαραπίων</persName>
+                     <persName type="lemma" xml:lang="en">Sarapion</persName>
+                     <persName>Σαραπίωνα</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e47703-person" type="relation" n="son-of">Jason (24)’s son</ref>, of Cnosus<ref type="note" corresp="#Vol-3-G_M-ftn4059"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Delos, Bruneau</note>
+                     </state>
+                     <bibl>IJO1, Ach67</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-3-G_M-ftn4060"/>P:Greece</note>
+                     </state>
+                     <floruit>2nd-1stC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e70235-person" n="Vol-3-G_M-Greek-Males-Sarapion-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Σαραπίων</persName>
+                     <persName type="lemma" xml:lang="en">Sarapion</persName>
+                     <persName>Σαρα[πί]ωνος<ref type="note" corresp="#Vol-3-G_M-ftn4061"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e6792-person" type="relation" n="son-of">Andromachus (2)’s son</ref>, archon<ref type="note" corresp="#Vol-3-G_M-ftn4062"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Politeuma inscription, Berenice, Roux</note>
+                     </state>
+                     <bibl>CJZC70</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4063"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>9-6 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4064"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

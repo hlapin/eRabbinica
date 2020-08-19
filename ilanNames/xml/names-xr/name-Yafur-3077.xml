@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ya‘fur-يعفر</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-4-ADD-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Yafur-Vol-2-Vol-4-ADD-A_M"
+                type="name"
+                n="Ya‘fur-يعفر"
+                xml:id="name-Yafur-d1e453633">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-4-ADD-A_M-ftn131"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-4-ADD-A_M-d8e1761-person"
+                          n="Vol-2-Vol-4-ADD-A_M-Arabic-Males-Ya‘fur-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">يعفر</persName>
+                     <persName type="lemma" xml:lang="en">Ya‘fur</persName>
+                     <persName>יעפר<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn132"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn133"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedication inscription, Rayda Yemen</note>
+                     </state>
+                     <bibl>Ryckmans,Museon68 (1955) 309</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn134"/>Second nameP:Arabia</note>
+                     </state>
+                     <floruit>450-63 CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn135"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

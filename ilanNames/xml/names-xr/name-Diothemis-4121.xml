@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Diothemis-Διόθεμις</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Diothemis-Vol-3-G_M"
+                type="name"
+                n="Diothemis-Διόθεμις"
+                xml:id="name-Diothemis-d1e495421">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1138"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e19304-person"
+                          n="Vol-3-G_M-Greek-Males-Diothemis-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Διόθεμις</persName>
+                     <persName type="lemma" xml:lang="en">Diothemis</persName>
+                     <persName>Διό[θ]εμ[ις]</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Sedment el-Gebel</note>
+                     </state>
+                     <bibl>Abd el-Ftah &amp; Wagner,CRIPÉL19 (1998) no. 19</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1139"/>P:Egypt</note>
+                     </state>
+                     <floruit>1stC BCE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

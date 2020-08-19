@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ̓Οβόττος Oboto-̓Οβόττος Oboto</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#_Oboto-Vol-2-S-G_M"
+                type="name"
+                n="̓Οβόττος Oboto-̓Οβόττος Oboto"
+                xml:id="name-_Oboto-d1e398027">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-G_M-ftn115"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-G_M-d8e1847-person"
+                          n="Vol-2-S-G_M-Semitic-Greek-Males-̓Οβόττος Oboto-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Οβόττος Oboto</persName>
+                     <persName type="lemma" xml:lang="en">̓Οβόττος Oboto</persName>
+                     <persName>̓Οβόττου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_F-d8e2213-person" type="relation" n="father-of">Theia (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1a, no. 178</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-S-G_M-ftn116"/>
+                        </note>
+                     </state>
+                     <floruit>445<ref type="note" corresp="#Vol-2-S-G_M-ftn117"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

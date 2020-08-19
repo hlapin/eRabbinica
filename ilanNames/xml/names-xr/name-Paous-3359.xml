@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Paous-Paous</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Paous-Vol-3-E_M"
+                type="name"
+                n="Paous-Paous"
+                xml:id="name-Paous-d1e464985">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn289"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e4810-person" n="Vol-3-E_M-Egyptian-Males-Paous-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Paous</persName>
+                     <persName type="lemma" xml:lang="en">Paous</persName>
+                     <persName>Παοῦτι<ref type="note" corresp="#Vol-3-E_M-ftn290"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e28286-person" type="relation" n="son-of">Shabtai (17)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Fayum, Schubart</note>
+                     </state>
+                     <bibl>CPJ46</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn291"/>P:Egypt</note>
+                     </state>
+                     <floruit>2nd-1stC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-E_M-d8e4848-person" n="Vol-3-E_M-Egyptian-Males-Paous-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Paous</persName>
+                     <persName type="lemma" xml:lang="en">Paous</persName>
+                     <persName>Παοῦτος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e46623-person" type="relation" n="father-of">Theon (4)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Demerdesh, Edgar</note>
+                     </state>
+                     <bibl>CIJ1489</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn292"/>P:Egypt</note>
+                     </state>
+                     <floruit>49 BCE?<ref type="note" corresp="#Vol-3-E_M-ftn293"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-E_M-d8e4883-person" n="Vol-3-E_M-Egyptian-Males-Paous-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Paous</persName>
+                     <persName type="lemma" xml:lang="en">Paous</persName>
+                     <persName>Παουτίωνα<ref type="note" corresp="#Vol-3-E_M-ftn294"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-E_M-ftn295"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Leontopolis, Du Mesnil</note>
+                     </state>
+                     <bibl>CIJ1528</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn296"/>P:Egypt</note>
+                     </state>
+                     <floruit>22 BCE<ref type="note" corresp="#Vol-3-E_M-ftn297"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

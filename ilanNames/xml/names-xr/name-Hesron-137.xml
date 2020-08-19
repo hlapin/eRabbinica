@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Hesron-חצרון</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Hesron-Vol-1-B_M"
+                type="name"
+                n="Hesron-חצרון"
+                xml:id="name-Hesron-d1e61725">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_M-ftn1147"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_M-d2e15837-person" n="Vol-1-B_M-Hesron-1">
+                     <persName type="lemma">חצרון</persName>
+                     <persName type="lemma" xml:lang="en">Hesron</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">̓Εσρῶν<ref type="note" corresp="#Vol-1-B_M-ftn1148"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e53649-person" type="relation" n="father-of">Simon (19)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ5:6 (Schalit,NB, 46)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>69 CE<ref type="note" corresp="#Vol-1-B_M-ftn1149"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-B_M-d2e15866-person" n="Vol-1-B_M-Hesron-2">
+                     <persName type="lemma">חצרון</persName>
+                     <persName type="lemma" xml:lang="en">Hesron</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">̓Εζρῶνο[ς]<ref type="note" corresp="#Vol-1-B_M-ftn1150"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e23767-person" type="relation" n="father-of">Joshua (67)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Parchment, Muraba‘at</note>
+                     </state>
+                     <bibl>Mur 89</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-135 CE<ref type="note" corresp="#Vol-1-B_M-ftn1151"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

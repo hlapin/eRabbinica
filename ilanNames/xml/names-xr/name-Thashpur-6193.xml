@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Thashpur-תשפור</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Thashpur-Vol-3-S-H_M"
+                type="name"
+                n="Thashpur-תשפור"
+                xml:id="name-Thashpur-d1e574312">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-S-H_M-ftn415"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-S-H_M-d8e6667-person"
+                          n="Vol-3-S-H_M-Semitic-Hebrew-Males-Thashpur-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">תשפור</persName>
+                     <persName type="lemma" xml:lang="en">Thashpur</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Edfu, Sachau</note>
+                     </state>
+                     <bibl>TADAE4:8:4</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-S-H_M-ftn416"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

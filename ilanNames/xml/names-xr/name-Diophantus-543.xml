@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Diophantus-Διόφαντος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Diophantus-Vol-1-G_M names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Diophantus-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Diophantus-Vol-3-G_M"
+                type="name"
+                n="Diophantus-Διόφαντος"
+                xml:id="name-Diophantus-d1e212127">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn366"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn322"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1214"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e5221-person" n="Vol-1-G_M-Diophantus-1">
+                     <persName type="lemma">Διόφαντος</persName>
+                     <persName type="lemma" xml:lang="en">Diophantus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-G_M-d2e8218-person" type="relation" n="scribe-of">Herod (1)’s scribe</ref>
+                           <ref type="note" corresp="#Vol-1-G_M-ftn367"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ1:529;AJ16:319 (Schalit,NB, 38)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-1-G_M-ftn368"/>
+                        </note>
+                     </state>
+                     <floruit>7 BCE<ref type="note" corresp="#Vol-1-G_M-ftn369"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_M-d8e4623-person"
+                          n="Vol-2-G_M-Greek-Males-Diophantus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Διόφαντος</persName>
+                     <persName type="lemma" xml:lang="en">Diophantus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Elijah’s Cave</note>
+                     </state>
+                     <bibl>Appendix, no. 43</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn323"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-8thC<ref type="note" corresp="#Vol-2-G_M-ftn324"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e20654-person"
+                          n="Vol-3-G_M-Greek-Males-Diophantus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Διόφαντος</persName>
+                     <persName type="lemma" xml:lang="en">Diophantus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e40879-person" type="relation" n="son-of">Theodotus (4)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Fayum, Preaux</note>
+                     </state>
+                     <bibl>CPJ22</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1215"/>P:Egypt</note>
+                     </state>
+                     <floruit>201 BCE<ref type="note" corresp="#Vol-3-G_M-ftn1216"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e20689-person"
+                          n="Vol-3-G_M-Greek-Males-Diophantus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Διόφαντος</persName>
+                     <persName type="lemma" xml:lang="en">Diophantus</persName>
+                     <persName>Διόφατος<ref type="note" corresp="#Vol-3-G_M-ftn1217"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn1218"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Villa Torlonia, Paribeni</note>
+                     </state>
+                     <bibl>CIJ18</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1219"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e20736-person"
+                          n="Vol-3-G_M-Greek-Males-Diophantus-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Διόφαντος</persName>
+                     <persName type="lemma" xml:lang="en">Diophantus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e16122-person" type="relation" n="son-of">Glycon (6)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Phrygia</note>
+                     </state>
+                     <bibl>Ramsay,Cities and Bishoprics2, no. 315</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1220"/>P:Asia</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-G_M-ftn1221"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

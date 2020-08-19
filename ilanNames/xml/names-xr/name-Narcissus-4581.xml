@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Narcissus-Νάρκισσος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Narcissus-Vol-3-G_M"
+                type="name"
+                n="Narcissus-Νάρκισσος"
+                xml:id="name-Narcissus-d1e514264">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3329"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e57936-person"
+                          n="Vol-3-G_M-Greek-Males-Narcissus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Νάρκισσος</persName>
+                     <persName type="lemma" xml:lang="en">Narcissus</persName>
+                     <persName>Ναρκίσσου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_F-d8e2975-person" type="relation" n="husband-of">Mariam (33)’s husband</ref>, Narcissus (2) and <ref corresp="#Vol-3-G_F-d8e16246-person" type="relation" n="father-of">Onesis (2)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Judeich</note>
+                     </state>
+                     <bibl>CIJ779</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3330"/>P:Asia</note>
+                     </state>
+                     <floruit>2nd-3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e57971-person"
+                          n="Vol-3-G_M-Greek-Males-Narcissus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Νάρκισσος</persName>
+                     <persName type="lemma" xml:lang="en">Narcissus</persName>
+                     <persName>[Ναρ]κίσσος<ref type="note" corresp="#Vol-3-G_M-ftn3331"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Narcissus (1) and <ref corresp="#Vol-3-B_F-d8e2975-person" type="relation" n="son-of">Mariam (33)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Judeich</note>
+                     </state>
+                     <bibl>CIJ779</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3332"/>P:Asia</note>
+                     </state>
+                     <floruit>2nd-3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

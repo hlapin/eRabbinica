@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Laelius-Laelius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Laelius-Vol-3-L_M"
+                type="name"
+                n="Laelius-Laelius"
+                xml:id="name-Laelius-d1e551742">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1351"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e22889-person" n="Vol-3-L_M-Latin-Males-Laelius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Laelius</persName>
+                     <persName type="lemma" xml:lang="en">Laelius</persName>
+                     <persName>Λαιλίου</persName>
+                     <state type="desc">
+                        <note>Marcus (33) Onasion (1), <ref corresp="#Vol-3-G_M-d8e9863-person" type="relation" n="son-of">Apollonius (17)’s son</ref>, archon<ref type="note" corresp="#Vol-3-L_M-ftn1352"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Politeuma inscription, Berenice, Roux</note>
+                     </state>
+                     <bibl>CJZC71</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1353"/>; second nameP:Cyrenaica</note>
+                     </state>
+                     <floruit>24/5 CE<ref type="note" corresp="#Vol-3-L_M-ftn1354"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

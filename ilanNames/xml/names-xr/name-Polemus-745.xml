@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Polemus-Πόλεμος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Polemus-Vol-1-G_M names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Polemus-Vol-2-G_M"
+                type="name"
+                n="Polemus-Πόλεμος"
+                xml:id="name-Polemus-d1e240639">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn1086"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn1021"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e15128-person" n="Vol-1-G_M-Polemus-1">
+                     <persName type="lemma">Πόλεμος</persName>
+                     <persName type="lemma" xml:lang="en">Polemus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">פלימו<ref type="note" corresp="#Vol-1-G_M-ftn1087"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>bTaan25a (Kosowsky,Babylonico, 1194)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Post-135 CE<ref type="note" corresp="#Vol-1-G_M-ftn1088"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_M-d8e15569-person" n="Vol-2-G_M-Greek-Males-Polemus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πόλεμος</persName>
+                     <persName type="lemma" xml:lang="en">Polemus</persName>
+                     <persName>Πόλεμο[ς]<ref type="note" corresp="#Vol-2-G_M-ftn1022"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Elijah’s Cave</note>
+                     </state>
+                     <bibl>Appendix, no. 3</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-2-G_M-ftn1023"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-8thC<ref type="note" corresp="#Vol-2-G_M-ftn1024"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

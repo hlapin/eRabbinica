@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Eutychus-Εὔτυχος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Eutychus-Vol-3-G_M"
+                type="name"
+                n="Eutychus-Εὔτυχος"
+                xml:id="name-Eutychus-d1e502084">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1925"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e33675-person" n="Vol-3-G_M-Greek-Males-Eutychus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Εὔτυχος</persName>
+                     <persName type="lemma" xml:lang="en">Eutychus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Acts 20:9 (VKGNT 469)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1926"/>P:Asia</note>
+                     </state>
+                     <floruit>53-8 CE<ref type="note" corresp="#Vol-3-G_M-ftn1927"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e33705-person" n="Vol-3-G_M-Greek-Males-Eutychus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Εὔτυχος</persName>
+                     <persName type="lemma" xml:lang="en">Eutychus</persName>
+                     <persName>Eutychus</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Schneider Graziosi</note>
+                     </state>
+                     <bibl>CIJ28*</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1928"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e33739-person" n="Vol-3-G_M-Greek-Males-Eutychus-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Εὔτυχος</persName>
+                     <persName type="lemma" xml:lang="en">Eutychus</persName>
+                     <persName>Ε̓τύχου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e1188-person" type="relation" n="father-of">Ammia (3)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Acmonia, Ramsay</note>
+                     </state>
+                     <bibl>CIJ763</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1929"/>P:Asia</note>
+                     </state>
+                     <floruit>2ndC CE<ref type="note" corresp="#Vol-3-G_M-ftn1930"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e33781-person" n="Vol-3-G_M-Greek-Males-Eutychus-4">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Εὔτυχος</persName>
+                     <persName type="lemma" xml:lang="en">Eutychus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Cos, Paton &amp; Hicks</note>
+                     </state>
+                     <bibl>IJO2, 7</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1931"/>P:Greece</note>
+                     </state>
+                     <floruit>1st-2ndC CE<ref type="note" corresp="#Vol-3-G_M-ftn1932"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Salvia-Salvia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_F-Latin-Female-to-utf-TEI-P5-names.xml/#Salvia-Vol-2-L_F names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Salvia-Vol-3-L_F"
+                type="name"
+                n="Salvia-Salvia"
+                xml:id="name-Salvia-d1e383400">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_F-ftn207"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn1104"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_F-d8e2507-person" n="Vol-2-L_F-Latin-Female-Salvia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Salvia</persName>
+                     <persName type="lemma" xml:lang="en">Salvia</persName>
+                     <persName>Aquila<ref type="note" corresp="#Vol-2-L_F-ftn208"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Codex Justinianus1:9:1, Linder,JRIL, no. 3</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-L_F-ftn209"/>Second name,</note>
+                     </state>
+                     <floruit>213<ref type="note" corresp="#Vol-2-L_F-ftn210"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e31904-person" n="Vol-3-L_F-Latin-Females-Salvia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Salvia</persName>
+                     <persName type="lemma" xml:lang="en">Salvia</persName>
+                     <persName>Σαλβία<ref type="note" corresp="#Vol-3-L_F-ftn1105"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_F-ftn1106"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Ptolemais, Pacho</note>
+                     </state>
+                     <bibl>CJZC33c</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn1107"/>Second nameP:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

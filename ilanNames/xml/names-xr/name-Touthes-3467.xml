@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Touthes-Touthes</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Touthes-Vol-3-E_M"
+                type="name"
+                n="Touthes-Touthes"
+                xml:id="name-Touthes-d1e470182">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn603"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e9856-person"
+                          n="Vol-3-E_M-Egyptian-Males-Touthes-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Touthes</persName>
+                     <persName type="lemma" xml:lang="en">Touthes</persName>
+                     <persName>Τοθῆς<ref type="note" corresp="#Vol-3-E_M-ftn604"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-E_M-d8e3160-person" type="relation" n="son-of">Inaroous (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Hermopolis Magna, Meyer</note>
+                     </state>
+                     <bibl>CPJ485</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn605"/>P:Egypt</note>
+                     </state>
+                     <floruit>90 CE<ref type="note" corresp="#Vol-3-E_M-ftn606"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-E_M-d8e9894-person"
+                          n="Vol-3-E_M-Egyptian-Males-Touthes-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Touthes</persName>
+                     <persName type="lemma" xml:lang="en">Touthes</persName>
+                     <persName>Τουθοῦν<ref type="note" corresp="#Vol-3-E_M-ftn607"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_F-d8e7562-person" type="relation" n="son-of">Sarah (8)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus (amulet), Berlin</note>
+                     </state>
+                     <bibl>Brashear,ZPE17 (1975) 28</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn608"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Mandronus-Μανδρῶνος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Mandronus-Vol-1-G_M"
+                type="name"
+                n="Mandronus-Μανδρῶνος"
+                xml:id="name-Mandronus-d1e234261">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn884"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e12395-person" n="Vol-1-G_M-Mandronus-1">
+                     <persName type="lemma">Μανδρῶνος</persName>
+                     <persName type="lemma" xml:lang="en">Mandronus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Μαδδαρωνα<ref type="note" corresp="#Vol-1-G_M-ftn885"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e23965-person" type="relation" n="father-of">Joshua (75)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyri, Babatha archive</note>
+                     </state>
+                     <bibl>PYadin 11, 19</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>124-6 CE<ref type="note" corresp="#Vol-1-G_M-ftn886"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

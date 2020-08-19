@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Eugenia-Ε̓γενία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Eugenia-Vol-2-Vol-1-ADD-G_F names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Eugenia-Vol-3-G_F"
+                type="name"
+                n="Eugenia-Ε̓γενία"
+                xml:id="name-Eugenia-d1e438736">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-G_F-ftn42"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn462"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-G_F-d8e677-person"
+                          n="Vol-2-Vol-1-ADD-G_F-Greek-Females-Eugenia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Ε̓γενία</persName>
+                     <persName type="lemma" xml:lang="en">Eugenia</persName>
+                     <persName>Ε̓γηνία<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn43"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e11294-person"
+                                type="relation"
+                                n="daughter-of">Cyrus (1)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Isawiya,</note>
+                     </state>
+                     <bibl>CIIP1.1, no. 59 Re’em &amp; Abu Raya</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn44"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e8298-person" n="Vol-3-G_F-Greek-Females-Eugenia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Ε̓γενία</persName>
+                     <persName type="lemma" xml:lang="en">Eugenia</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_F-ftn463"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Schneider Graziosi</note>
+                     </state>
+                     <bibl>CIJ326</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn464"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

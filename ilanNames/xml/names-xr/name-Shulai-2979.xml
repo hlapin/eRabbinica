@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Shulai-שולי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Shulai-Vol-2-Vol-1-ADD-P_M"
+                type="name"
+                n="Shulai-שולי"
+                xml:id="name-Shulai-d1e450687">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-P_M-ftn154"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-P_M-d8e2324-person"
+                          n="Vol-2-Vol-1-ADD-P_M-Persian-Males-Shulai-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">שולי</persName>
+                     <persName type="lemma" xml:lang="en">Shulai</persName>
+                     <persName>שולאי<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn155"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e46446-person" type="relation" n="father-of">Simon (9)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Hinnom Valley, Kloner</note>
+                     </state>
+                     <bibl>CIIP1/1, 314</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn156"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

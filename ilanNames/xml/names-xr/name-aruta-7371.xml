@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ḥaruta-חרותא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_F-Semitic-Hebrew-Females-to-utf-TEI-P5-names.xml/#aruta-Vol-4-S-H_F"
+                type="name"
+                n="Ḥaruta-חרותא"
+                xml:id="name-aruta-d1e631038">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_F-ftn287"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_F-d8e3824-person"
+                          n="Vol-4-S-H_F-Semitic-Hebrew-Females-Ḥaruta-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">חרותא</persName>
+                     <persName type="lemma" xml:lang="en">Ḥaruta</persName>
+                     <persName>חריתא<ref type="note" corresp="#Vol-4-S-H_F-ftn288"/>
+                     </persName>
+                     <persName>/חירתא<ref type="note" corresp="#Vol-4-S-H_F-ftn289"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e19402-person" type="relation" n="wife-of">Ḥiyya (4)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bQid81b (Kosowsky,Babylonico, 554)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_F-ftn290"/>; nickname<ref type="note" corresp="#Vol-4-S-H_F-ftn291"/>P:Babylonia</note>
+                     </state>
+                     <floruit>3rdC CE<ref type="note" corresp="#Vol-4-S-H_F-ftn292"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

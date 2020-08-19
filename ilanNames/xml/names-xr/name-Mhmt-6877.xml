@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Māhmāt-Māhmāt</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_F-Iranian-Females-to-utf-TEI-P5-names.xml/#Mhmt-Vol-4-I_F"
+                type="name"
+                n="Māhmāt-Māhmāt"
+                xml:id="name-Mhmt-d1e610149">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_F-ftn704"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_F-d8e8643-person"
+                          n="Vol-4-I_F-Iranian-Females-Māhmāt-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Māhmāt</persName>
+                     <persName type="lemma" xml:lang="en">Māhmāt</persName>
+                     <persName>מהמד<ref type="note" corresp="#Vol-4-I_F-ftn705"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Kūšyāg (1) and <ref corresp="#Vol-4-I_M-d8e4796-person" type="relation" n="mother-of">Inqado (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Nippur, Obermann</note>
+                     </state>
+                     <bibl>Isbell, no. 61</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn706"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn707"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

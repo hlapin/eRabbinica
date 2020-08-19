@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Thrason-Θράσων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Thrason-Vol-3-G_M"
+                type="name"
+                n="Thrason-Θράσων"
+                xml:id="name-Thrason-d1e507211">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2690"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e46791-person" n="Vol-3-G_M-Greek-Males-Thrason-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Θράσων</persName>
+                     <persName type="lemma" xml:lang="en">Thrason</persName>
+                     <persName>Θράσωνος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-S-H_M-d8e4576-person" type="relation" n="father-of">Malka (7)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Hermopolis, Jouguet</note>
+                     </state>
+                     <bibl>JIGRE155:241</bibl>
+                     <state type="addl-Descr">
+                        <note>Idumean<ref type="note" corresp="#Vol-3-G_M-ftn2691"/>P:Egypt</note>
+                     </state>
+                     <floruit>79 BCE<ref type="note" corresp="#Vol-3-G_M-ftn2692"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

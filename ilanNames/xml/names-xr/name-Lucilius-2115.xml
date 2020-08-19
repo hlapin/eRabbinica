@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Lucilius-Lucilius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Lucilius-Vol-2-L_M names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Lucilius-Vol-3-L_M"
+                type="name"
+                n="Lucilius-Lucilius"
+                xml:id="name-Lucilius-d1e389705">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn513"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1431"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_M-d8e6769-person" n="Vol-2-L_M-Latin-Males-Lucilius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucilius</persName>
+                     <persName type="lemma" xml:lang="en">Lucilius</persName>
+                     <persName>Λουκίλλις<ref type="note" corresp="#Vol-2-L_M-ftn514"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Elijah’s Cave</note>
+                     </state>
+                     <bibl>Appendix, no. 20</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn515"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-8thC<ref type="note" corresp="#Vol-2-L_M-ftn516"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e24055-person" n="Vol-3-L_M-Latin-Males-Lucilius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Lucilius</persName>
+                     <persName type="lemma" xml:lang="en">Lucilius</persName>
+                     <persName>Λουκειλίας<ref type="note" corresp="#Vol-3-L_M-ftn1432"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn1433"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Thessalonica, Dumont</note>
+                     </state>
+                     <bibl>Rajak, “Archisynagogoi,” no. 2</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1434"/>P:Greece</note>
+                     </state>
+                     <floruit>155 CE<ref type="note" corresp="#Vol-3-L_M-ftn1435"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

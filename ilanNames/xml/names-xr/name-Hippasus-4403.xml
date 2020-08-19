@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Hippasus-̔́Ιππασος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Hippasus-Vol-3-G_M"
+                type="name"
+                n="Hippasus-̔́Ιππασος"
+                xml:id="name-Hippasus-d1e507666">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2787"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e48530-person" n="Vol-3-G_M-Greek-Males-Hippasus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̔́Ιππασος</persName>
+                     <persName type="lemma" xml:lang="en">Hippasus</persName>
+                     <persName>[̔Ιπ]πάσιος<ref type="note" corresp="#Vol-3-G_M-ftn2788"/>
+                     </persName>
+                     <persName>/̔Ιππασίου<ref type="note" corresp="#Vol-3-G_M-ftn2789"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscriptions, Sardis, Kroll</note>
+                     </state>
+                     <bibl>IJO2, 94, 119</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2790"/>P:Asia</note>
+                     </state>
+                     <floruit>4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

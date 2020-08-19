@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Demarchia-Δημαρχία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Demarchia-Vol-1-G_F"
+                type="name"
+                n="Demarchia-Δημαρχία"
+                xml:id="name-Demarchia-d1e190099">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_F-ftn83"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_F-d2e1178-person" n="Vol-1-G_F-Demarchia-1">
+                     <persName type="lemma">Δημαρχία</persName>
+                     <persName type="lemma" xml:lang="en">Demarchia</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="gr">Δημαρχ(ιά)ς<ref type="note" corresp="#Vol-1-G_F-ftn84"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Bagatti</note>
+                     </state>
+                     <bibl>DF99, no. 41</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn85"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-G_F-d2e1210-person" n="Vol-1-G_F-Demarchia-2">
+                     <persName type="lemma">Δημαρχία</persName>
+                     <persName type="lemma" xml:lang="en">Demarchia</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="gr">Δημαρχίας<ref type="note" corresp="#Vol-1-G_F-ftn86"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Bagatti</note>
+                     </state>
+                     <bibl>DF100, no. 43</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn87"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

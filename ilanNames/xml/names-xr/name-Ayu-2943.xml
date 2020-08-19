@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ayu-איו</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Ayu-Vol-2-Vol-1-ADD-P_M"
+                type="name"
+                n="Ayu-איו"
+                xml:id="name-Ayu-d1e449820">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-P_M-ftn30"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-P_M-d8e446-person"
+                          n="Vol-2-Vol-1-ADD-P_M-Persian-Males-Ayu-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">איו</persName>
+                     <persName type="lemma" xml:lang="en">Ayu</persName>
+                     <persName>–</persName>
+                     <bibl>bEruv36b<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn31"/>(Kosowsky,Babylonico, 156)</bibl>
+                     <state type="addl-Descr">
+                        <note>Family?<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn32"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn33"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

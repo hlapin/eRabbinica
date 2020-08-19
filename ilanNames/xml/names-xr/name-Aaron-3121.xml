@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aaron-אהרון</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Aaron-Vol-3-B_M"
+                type="name"
+                n="Aaron-אהרון"
+                xml:id="name-Aaron-d1e455433">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-B_M-ftn95"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-B_M-d8e1346-person" n="Vol-3-B_M-Biblical-Males-Aaron-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">אהרון</persName>
+                     <persName type="lemma" xml:lang="en">Aaron</persName>
+                     <persName>̓Αάρων<ref type="note" corresp="#Vol-3-B_M-ftn96"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Fayum, Clauson</note>
+                     </state>
+                     <bibl>CPJ429</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-B_M-ftn97"/>P:Egypt</note>
+                     </state>
+                     <floruit>114 CE<ref type="note" corresp="#Vol-3-B_M-ftn98"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-B_M-d8e1387-person" n="Vol-3-B_M-Biblical-Males-Aaron-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">אהרון</persName>
+                     <persName type="lemma" xml:lang="en">Aaron</persName>
+                     <persName>̓́Αρων<ref type="note" corresp="#Vol-3-B_M-ftn99"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Trikomia</note>
+                     </state>
+                     <bibl>CPR13, 12:6</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-B_M-ftn100"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

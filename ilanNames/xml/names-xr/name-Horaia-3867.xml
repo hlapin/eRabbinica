@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Horaia-̔Ωραία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Horaia-Vol-3-G_F"
+                type="name"
+                n="Horaia-̔Ωραία"
+                xml:id="name-Horaia-d1e485558">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn1137"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e19950-person" n="Vol-3-G_F-Greek-Females-Horaia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̔Ωραία</persName>
+                     <persName type="lemma" xml:lang="en">Horaia</persName>
+                     <persName>̔Ωραιάς</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_F-ftn1138"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Leontopolis, Edgar</note>
+                     </state>
+                     <bibl>CIJ1509</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn1139"/>P:Egypt</note>
+                     </state>
+                     <floruit>21 BCE<ref type="note" corresp="#Vol-3-G_F-ftn1140"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e19994-person" n="Vol-3-G_F-Greek-Females-Horaia-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̔Ωραία</persName>
+                     <persName type="lemma" xml:lang="en">Horaia</persName>
+                     <persName>̔Ωρήα<ref type="note" corresp="#Vol-3-G_F-ftn1141"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Kidron Valley (Jerusalem), Sukenik</note>
+                     </state>
+                     <bibl>CJO102</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn1142"/>P:Cyrenaica<ref type="note" corresp="#Vol-3-G_F-ftn1143"/>
+                        </note>
+                     </state>
+                     <floruit>Pre -70 CE<ref type="note" corresp="#Vol-3-G_F-ftn1144"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

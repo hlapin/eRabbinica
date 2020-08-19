@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Abigael-אביגיל</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_F-Biblical-Females-to-utf-TEI-P5-names.xml/#Abigael-Vol-1-B_F"
+                type="name"
+                n="Abigael-אביגיל"
+                xml:id="name-Abigael-d1e30">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_F-ftn1"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_F-d2e37-person" n="Vol-1-B_F-Abigael-1">
+                     <persName type="lemma">אביגיל</persName>
+                     <persName type="lemma" xml:lang="en">Abigael</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="checkme">Abigea<ref type="note" corresp="#Vol-1-B_F-ftn2"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Pseud-Matt 8 (Tischendorf,EA, 70)</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-1-B_F-ftn3"/>
+                        </note>
+                     </state>
+                     <floruit>1 CE<ref type="note" corresp="#Vol-1-B_F-ftn4"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

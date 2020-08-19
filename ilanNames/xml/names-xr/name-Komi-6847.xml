@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Komiš-Komiš</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_F-Iranian-Females-to-utf-TEI-P5-names.xml/#Komi-Vol-4-I_F"
+                type="name"
+                n="Komiš-Komiš"
+                xml:id="name-Komi-d1e608555">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_F-ftn583"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_F-d8e7129-person" n="Vol-4-I_F-Iranian-Females-Komiš-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Komiš</persName>
+                     <persName type="lemma" xml:lang="en">Komiš</persName>
+                     <persName>כומיש<ref type="note" corresp="#Vol-4-I_F-ftn584"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_F-d8e4387-person"
+                                type="relation"
+                                n="daughter-of">Maḥlafta (1)’s daughter</ref>, Artaχšaθrā (1), Abba (83), Yazēdād (2) <ref corresp="#" type="relation" n="mother-of">andΧunuk (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Nippur, Montgomery</note>
+                     </state>
+                     <bibl>Isbell, no. 13</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn585"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn586"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

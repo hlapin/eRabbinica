@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Tyche-Τύχη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Tyche-Vol-3-G_F"
+                type="name"
+                n="Tyche-Τύχη"
+                xml:id="name-Tyche-d1e484662">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn1071"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e18840-person" n="Vol-3-G_F-Greek-Females-Tyche-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Τύχη</persName>
+                     <persName type="lemma" xml:lang="en">Tyche</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e1154-person" type="relation" n="mother-of">Ammia (2)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Acmonia, Ramsay</note>
+                     </state>
+                     <bibl>CIJ762</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn1072"/>P:Asia</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-G_F-ftn1073"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e18874-person" n="Vol-3-G_F-Greek-Females-Tyche-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Τύχη</persName>
+                     <persName type="lemma" xml:lang="en">Tyche</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Apollonius (19) <ref corresp="#Vol-3-B_M-d8e8618-person" type="relation" n="wife-of">Tobiah (10)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Dareioukome</note>
+                     </state>
+                     <bibl>Malay,Greek &amp; Latin Inscriptions, no. 536</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn1074"/>P:Asia</note>
+                     </state>
+                     <floruit>2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

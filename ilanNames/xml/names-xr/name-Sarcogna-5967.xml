@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sarcogna-Sarcogna</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-S-G_F-Semitic-Greek-Females-to-utf-TEI-P5-names.xml/#Sarcogna-Vol-3-S-G_F"
+                type="name"
+                n="Sarcogna-Sarcogna"
+                xml:id="name-Sarcogna-d1e566028">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-S-G_F-ftn28"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-S-G_F-d8e500-person"
+                          n="Vol-3-S-G_F-Semitic-Greek-Females-Sarcogna-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Sarcogna</persName>
+                     <persName type="lemma" xml:lang="en">Sarcogna</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Nonna (1), <ref corresp="#Vol-3-L_M-d8e11405-person"
+                                type="relation"
+                                n="daughter-of">Celerinus (2)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Milan, Forcella</note>
+                     </state>
+                     <bibl>CIJ645</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-S-G_F-ftn29"/>Second nameP:Italy</note>
+                     </state>
+                     <floruit>5th-7thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

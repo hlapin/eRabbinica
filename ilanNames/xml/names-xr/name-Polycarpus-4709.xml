@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Polycarpus-Πολύκαρπος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Polycarpus-Vol-3-G_M"
+                type="name"
+                n="Polycarpus-Πολύκαρπος"
+                xml:id="name-Polycarpus-d1e519758">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3789"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e65730-person"
+                          n="Vol-3-G_M-Greek-Males-Polycarpus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πολύκαρπος</persName>
+                     <persName type="lemma" xml:lang="en">Polycarpus</persName>
+                     <persName>Πολύκαρπο[ς]<ref type="note" corresp="#Vol-3-G_M-ftn3790"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Aurelia (3) <ref corresp="#Vol-3-B_F-d8e2243-person" type="relation" n="father-of">Mariam (16)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ96</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3791"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

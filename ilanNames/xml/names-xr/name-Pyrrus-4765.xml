@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Pyrrus-Πύρρος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Pyrrus-Vol-3-G_M"
+                type="name"
+                n="Pyrrus-Πύρρος"
+                xml:id="name-Pyrrus-d1e521575">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4026"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e69683-person" n="Vol-3-G_M-Greek-Males-Pyrrus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πύρρος</persName>
+                     <persName type="lemma" xml:lang="en">Pyrrus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e73654-person" type="relation" n="father-of">Sopatrus (1)’s father</ref>, of Beroea<ref type="note" corresp="#Vol-3-G_M-ftn4027"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Acts 20:4 (VKGNT 1189)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4028"/>P:Asia</note>
+                     </state>
+                     <floruit>53-8 CE<ref type="note" corresp="#Vol-3-G_M-ftn4029"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e69718-person" n="Vol-3-G_M-Greek-Males-Pyrrus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πύρρος</persName>
+                     <persName type="lemma" xml:lang="en">Pyrrus</persName>
+                     <persName>פרס<ref type="note" corresp="#Vol-3-G_M-ftn4030"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Luxor, Cowley</note>
+                     </state>
+                     <bibl>TADAE3:3:28</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4031"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e69752-person" n="Vol-3-G_M-Greek-Males-Pyrrus-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πύρρος</persName>
+                     <persName type="lemma" xml:lang="en">Pyrrus</persName>
+                     <persName>Πύρρου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e22671-person" type="relation" n="father-of">Dositheus (27)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Thebes, Wilcken</note>
+                     </state>
+                     <bibl>CPJ84</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4032"/>P:Egypt</note>
+                     </state>
+                     <floruit>157 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4033"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Zamari-זמרי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Zamari-Vol-1-B_M names/Vol-2-Vol-1-ADD-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Zamari-Vol-2-Vol-1-ADD-B_M names/Vol-4-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Zamari-Vol-4-B_M"
+                type="name"
+                n="Zamari-זמרי"
+                xml:id="name-Zamari-d1e48167">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_M-ftn760"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-B_M-ftn172"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-B_M-ftn458"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_M-d2e10623-person" n="Vol-1-B_M-Zamari-1">
+                     <persName type="lemma">זמרי</persName>
+                     <persName type="lemma" xml:lang="en">Zamari</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Ζάμαρις<ref type="note" corresp="#Vol-1-B_M-ftn761"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>AJ17:29 (Schalit,NB, 49)</bibl>
+                     <state type="addl-Descr">
+                        <note>Babylonia<ref type="note" corresp="#Vol-1-B_M-ftn762"/>
+                        </note>
+                     </state>
+                     <floruit>1stC BCE<ref type="note" corresp="#Vol-1-B_M-ftn763"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-B_M-d2e10678-person" n="Vol-1-B_M-Zamari-2">
+                     <persName type="lemma">זמרי</persName>
+                     <persName type="lemma" xml:lang="en">Zamari</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">זמרא<ref type="note" corresp="#Vol-1-B_M-ftn764"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e32952-person" type="relation" n="father-of">Joseph (77)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>yPeah1:1, 15d(Kosovsky,Yerushalmi, 211)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname?<ref type="note" corresp="#Vol-1-B_M-ftn765"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-1-B_M-ftn766"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-B_M-d8e2300-person"
+                          n="Vol-2-Vol-1-ADD-B_M-Biblical-Males-Zamari-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">זמרי</persName>
+                     <persName type="lemma" xml:lang="en">Zamari</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Qumran, KhQ 2417</note>
+                     </state>
+                     <bibl>Lemaire, “Inscriptions,” 364</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn173"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-B_M-d8e5368-person" n="Vol-4-B_M-Biblical-Males-Zamari-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">זמרי</persName>
+                     <persName type="lemma" xml:lang="en">Zamari</persName>
+                     <persName>Ζάμαρις<ref type="note" corresp="#Vol-4-B_M-ftn459"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>AJ17:29 (Schalit,NB, 49)</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-B_M-ftn460"/>P:Babylonia</note>
+                     </state>
+                     <floruit>1stC BCE<ref type="note" corresp="#Vol-4-B_M-ftn461"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

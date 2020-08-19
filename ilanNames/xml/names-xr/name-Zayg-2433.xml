@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Zayg-זייג</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Zayg-Vol-2-S-H_M"
+                type="name"
+                n="Zayg-זייג"
+                xml:id="name-Zayg-d1e416513">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn597"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e9859-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Zayg-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">זייג</persName>
+                     <persName type="lemma" xml:lang="en">Zayg</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Mari (7) and <ref corresp="#Vol-2-S-H_F-d8e1700-person" type="relation" n="son-of">Shilat (2)’s son</ref>, head of the community<ref type="note" corresp="#Vol-2-S-H_M-ftn598"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription Jeselsohn Collection</note>
+                     </state>
+                     <bibl>Yardeni &amp; Price,SCI24 (2005) 125</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-S-H_M-ftn599"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

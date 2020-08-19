@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Reburria-Reburria</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Reburria-Vol-3-L_F"
+                type="name"
+                n="Reburria-Reburria"
+                xml:id="name-Reburria-d1e539671">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn1036"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e30691-person"
+                          n="Vol-3-L_F-Latin-Females-Reburria-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Reburria</persName>
+                     <persName type="lemma" xml:lang="en">Reburria</persName>
+                     <persName>Reburriio<ref type="note" corresp="#Vol-3-L_F-ftn1037"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_F-ftn1038"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Lucanie, Diehl</note>
+                     </state>
+                     <bibl>CIJ56*</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn1039"/>Second nameP:Italy</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn1040"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

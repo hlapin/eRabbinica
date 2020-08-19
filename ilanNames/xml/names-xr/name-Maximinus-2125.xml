@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Maximinus-Maximinus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Maximinus-Vol-2-L_M names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Maximinus-Vol-3-L_M"
+                type="name"
+                n="Maximinus-Maximinus"
+                xml:id="name-Maximinus-d1e390380">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn616"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1710"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_M-d8e8097-person" n="Vol-2-L_M-Latin-Males-Maximinus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Maximinus</persName>
+                     <persName type="lemma" xml:lang="en">Maximinus</persName>
+                     <persName>מכסימיון<ref type="note" corresp="#Vol-2-L_M-ftn617"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Amulet, private collection</note>
+                     </state>
+                     <bibl>MSFno. 20</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-L_M-ftn618"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e28714-person"
+                          n="Vol-3-L_M-Latin-Males-Maximinus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Maximinus</persName>
+                     <persName type="lemma" xml:lang="en">Maximinus</persName>
+                     <persName>Μαξιμίνου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e54290-person" type="relation" n="son-of">Macarius (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Heidelberg</note>
+                     </state>
+                     <bibl>P. Heid IV, 333</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-3-L_M-ftn1711"/>P:Egypt</note>
+                     </state>
+                     <floruit>5thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e28747-person"
+                          n="Vol-3-L_M-Latin-Males-Maximinus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Maximinus</persName>
+                     <persName type="lemma" xml:lang="en">Maximinus</persName>
+                     <persName>Maximini</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="father-of">Joseph (79)’s father</ref>, of Pannonia<ref type="note" corresp="#Vol-3-L_M-ftn1712"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Sophia,<ref type="note" corresp="#Vol-3-L_M-ftn1713"/>Kazarow</note>
+                     </state>
+                     <bibl>CIJ681</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1714"/>P:Lower Moesia</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

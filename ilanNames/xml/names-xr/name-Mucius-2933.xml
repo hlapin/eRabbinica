@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Mucius-Mucius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Mucius-Vol-2-Vol-1-ADD-L_M"
+                type="name"
+                n="Mucius-Mucius"
+                xml:id="name-Mucius-d1e449232">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-L_M-ftn128"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-L_M-d8e1521-person"
+                          n="Vol-2-Vol-1-ADD-L_M-Latin-Males-Mucius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Mucius</persName>
+                     <persName type="lemma" xml:lang="en">Mucius</persName>
+                     <persName>Μουκίωι</persName>
+                     <state type="desc">
+                        <note>Titus (1) Marcus (2)’s, <ref corresp="#" type="relation" n="son-of">Clemens (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Habonim</note>
+                     </state>
+                     <bibl>CIIP2, 2123</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn129"/>
+                        </note>
+                     </state>
+                     <floruit>52-3 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn130"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

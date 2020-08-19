@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Vitalinia-Vitalinia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Vitalinia-Vol-3-L_F"
+                type="name"
+                n="Vitalinia-Vitalinia"
+                xml:id="name-Vitalinia-d1e542823">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn1285"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e34924-person"
+                          n="Vol-3-L_F-Latin-Females-Vitalinia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Vitalinia</persName>
+                     <persName type="lemma" xml:lang="en">Vitalinia</persName>
+                     <persName>Βιταλινι<ref type="note" corresp="#Vol-3-L_F-ftn1286"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Flavia (6), <ref corresp="#Vol-3-L_M-d8e38615-person" type="relation" n="wife-of">Sossianus (1)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ235</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn1287"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

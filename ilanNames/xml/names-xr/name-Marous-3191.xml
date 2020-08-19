@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Marous-Marous</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_F-Egyptian-Females-to-utf-TEI-P5-names.xml/#Marous-Vol-3-E_F"
+                type="name"
+                n="Marous-Marous"
+                xml:id="name-Marous-d1e458312">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_F-ftn28"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_F-d8e415-person"
+                          n="Vol-3-E_F-Egyptian-Females-Marous-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Marous</persName>
+                     <persName type="lemma" xml:lang="en">Marous</persName>
+                     <persName>Μαροῦς</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-E_M-d8e190-person" type="relation" n="daughter-of">Acies (1)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Edfu, Manteuffel</note>
+                     </state>
+                     <bibl>CPJ171</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-E_F-ftn29"/>P:Egypt</note>
+                     </state>
+                     <floruit>75 CE<ref type="note" corresp="#Vol-3-E_F-ftn30"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-E_F-d8e447-person"
+                          n="Vol-3-E_F-Egyptian-Females-Marous-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Marous</persName>
+                     <persName type="lemma" xml:lang="en">Marous</persName>
+                     <persName>Μαροῦτος</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Fayum, Kenyon &amp; Bell</note>
+                     </state>
+                     <bibl>CPJ430</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_F-ftn31"/>P:Egypt</note>
+                     </state>
+                     <floruit>105 CE<ref type="note" corresp="#Vol-3-E_F-ftn32"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

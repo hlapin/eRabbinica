@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Khālida-خاللدة</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_F-Arabic-Females-to-utf-TEI-P5-names.xml/#Khlida-Vol-4-A_F"
+                type="name"
+                n="Khālida-خاللدة"
+                xml:id="name-Khlida-d1e574544">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_F-ftn8"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_F-d8e111-person" n="Vol-4-A_F-Arabic-Females-Khālida-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">خاللدة</persName>
+                     <persName type="lemma" xml:lang="en">Khālida</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-A_M-d8e2845-person" type="relation" n="daughter-of">Ḥārith (6)’s daughter</ref>
+                        </note>
+                     </state>
+                     <bibl>–</bibl>
+                     <state type="provenance">
+                        <note>Ibn Hishām,Leben Muhammed’s, 353</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_F-ftn9"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>Pre-632 CE<ref type="note" corresp="#Vol-4-A_F-ftn10"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

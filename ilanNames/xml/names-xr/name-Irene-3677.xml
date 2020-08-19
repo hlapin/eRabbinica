@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Irene-̓Ιρήνη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Irene-Vol-3-G_F"
+                type="name"
+                n="Irene-̓Ιρήνη"
+                xml:id="name-Irene-d1e479181">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn692"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e12380-person" n="Vol-3-G_F-Greek-Females-Irene-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Ιρήνη</persName>
+                     <persName type="lemma" xml:lang="en">Irene</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e37959-person" type="relation" n="wife-of">Simon (51)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Trikomia</note>
+                     </state>
+                     <bibl>CPR13, 4:143</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn693"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e12412-person" n="Vol-3-G_F-Greek-Females-Irene-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Ιρήνη</persName>
+                     <persName type="lemma" xml:lang="en">Irene</persName>
+                     <persName>Irene</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_F-ftn694"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Via Nomentana, Marucchi</note>
+                     </state>
+                     <bibl>CIJ72</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn695"/>Second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e12453-person" n="Vol-3-G_F-Greek-Females-Irene-3">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Ιρήνη</persName>
+                     <persName type="lemma" xml:lang="en">Irene</persName>
+                     <persName>Ireneti</persName>
+                     <state type="desc">
+                        <note>Fortunatus (1) and <ref corresp="#Vol-3-L_F-d8e24054-person"
+                                type="relation"
+                                n="daughter-of">Justa (2)’s daughter</ref>, aged 2<ref type="note" corresp="#Vol-3-G_F-ftn696"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ240</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn697"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e12490-person" n="Vol-3-G_F-Greek-Females-Irene-4">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Ιρήνη</persName>
+                     <persName type="lemma" xml:lang="en">Irene</persName>
+                     <persName>̓Ιρήνας<ref type="note" corresp="#Vol-3-G_F-ftn698"/>
+                     </persName>
+                     <persName>/̓Ιρήνα<ref type="note" corresp="#Vol-3-G_F-ftn699"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e25282-person" type="relation" n="mother-of">Macerius (1)’s mother</ref>, <ref corresp="#Vol-3-B_M-d8e39316-person"
+                                type="relation"
+                                n="daughter-of">Simon (86)’s daughter</ref>, aged 30<ref type="note" corresp="#Vol-3-G_F-ftn700"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaphs, Teucheira, Oliverio</note>
+                     </state>
+                     <bibl>CJZC67a,b</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn701"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

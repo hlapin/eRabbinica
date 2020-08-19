@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Achilleus-̓Αχιλλεύς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Achilleus-Vol-3-G_M"
+                type="name"
+                n="Achilleus-̓Αχιλλεύς"
+                xml:id="name-Achilleus-d1e492308">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn822"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e14095-person"
+                          n="Vol-3-G_M-Greek-Males-Achilleus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αχιλλεύς</persName>
+                     <persName type="lemma" xml:lang="en">Achilleus</persName>
+                     <persName>̓Αχιλλέως</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="father-of">Jacob (22)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Oxyrhynchus, Grenfell &amp; Hunt</note>
+                     </state>
+                     <bibl>CPJ475</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn823"/>P:Egypt</note>
+                     </state>
+                     <floruit>295 CE<ref type="note" corresp="#Vol-3-G_M-ftn824"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e14127-person"
+                          n="Vol-3-G_M-Greek-Males-Achilleus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αχιλλεύς</persName>
+                     <persName type="lemma" xml:lang="en">Achilleus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e17639-person" type="relation" n="son-of">Demetrius (7)’s son</ref>, of Purthaius<ref type="note" corresp="#Vol-3-G_M-ftn825"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Renovation inscription, Olbia,<ref type="note" corresp="#Vol-3-G_M-ftn826"/>Osann</note>
+                     </state>
+                     <bibl>CIJ682</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn827"/>P:Scythia</note>
+                     </state>
+                     <floruit>2nd-3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e14181-person"
+                          n="Vol-3-G_M-Greek-Males-Achilleus-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αχιλλεύς</persName>
+                     <persName type="lemma" xml:lang="en">Achilleus</persName>
+                     <persName>̓Αχιλλέ<ref type="note" corresp="#Vol-3-G_M-ftn828"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e26107-person" type="relation" n="father-of">Heortasius (3)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Reynolds &amp; Tannenbaum</note>
+                     </state>
+                     <bibl>IJO2, 14:B31</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn829"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

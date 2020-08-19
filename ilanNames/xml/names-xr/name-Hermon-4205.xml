@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Hermon-̔Ερμών</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Hermon-Vol-3-G_M"
+                type="name"
+                n="Hermon-̔Ερμών"
+                xml:id="name-Hermon-d1e498923">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1669"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e28425-person" n="Vol-3-G_M-Greek-Males-Hermon-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̔Ερμών</persName>
+                     <persName type="lemma" xml:lang="en">Hermon</persName>
+                     <persName>̔̓̀Ερμωνος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e79021-person" type="relation" n="father-of">Philocrates (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira, Gray</note>
+                     </state>
+                     <bibl>CJZC56a</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1670"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>79/80 CE<ref type="note" corresp="#Vol-3-G_M-ftn1671"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e28459-person" n="Vol-3-G_M-Greek-Males-Hermon-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̔Ερμών</persName>
+                     <persName type="lemma" xml:lang="en">Hermon</persName>
+                     <persName>̔́Ερμωνος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn1672"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Thessalonica, Dumont</note>
+                     </state>
+                     <bibl>Rajak, “Archisynagogoi,” no. 2</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1673"/>P:Greece</note>
+                     </state>
+                     <floruit>155 CE<ref type="note" corresp="#Vol-3-G_M-ftn1674"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

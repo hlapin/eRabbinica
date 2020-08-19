@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Thaumastus-Θαυμαστός</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Thaumastus-Vol-1-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Thaumastus-Vol-3-G_M"
+                type="name"
+                n="Thaumastus-Θαυμαστός"
+                xml:id="name-Thaumastus-d1e220527">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn642"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2270"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e9105-person" n="Vol-1-G_M-Thaumastus-1">
+                     <persName type="lemma">Θαυμαστός</persName>
+                     <persName type="lemma" xml:lang="en">Thaumastus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-L_M-d2e141-person" type="relation" n="freedman-of">Agrippa (1)’s freedman</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>AJ18:192 (Schalit,NB, 53)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-1-G_M-ftn643"/>
+                        </note>
+                     </state>
+                     <floruit>34 BCE<ref type="note" corresp="#Vol-1-G_M-ftn644"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e39723-person"
+                          n="Vol-3-G_M-Greek-Males-Thaumastus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Θαυμαστός</persName>
+                     <persName type="lemma" xml:lang="en">Thaumastus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn2271"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>AJ18:192 (Schalit,NB, 53)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2272"/>P:Rome?<ref type="note" corresp="#Vol-3-G_M-ftn2273"/>
+                        </note>
+                     </state>
+                     <floruit>36 CE<ref type="note" corresp="#Vol-3-G_M-ftn2274"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Tiro-Tiro</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Tiro-Vol-1-L_M"
+                type="name"
+                n="Tiro-Tiro"
+                xml:id="name-Tiro-d1e279178">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-L_M-ftn356"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-L_M-d2e5280-person" n="Vol-1-L_M-Tiro-1">
+                     <persName type="lemma">Tiro</persName>
+                     <persName type="lemma" xml:lang="en">Tiro</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Τίρων<ref type="note" corresp="#Vol-1-L_M-ftn357"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-G_M-d2e8218-person" type="relation" n="employee-of">Herod (1)’s employee</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ1:544;AJ16:375 (Schalit,NB, 119)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-1-L_M-ftn358"/>
+                        </note>
+                     </state>
+                     <floruit>7 BCE<ref type="note" corresp="#Vol-1-L_M-ftn359"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

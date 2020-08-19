@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Domninus-Domninus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Domninus-Vol-2-L_M"
+                type="name"
+                n="Domninus-Domninus"
+                xml:id="name-Domninus-d1e385955">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn217"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_M-d8e2839-person" n="Vol-2-L_M-Latin-Males-Domninus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Domninus</persName>
+                     <persName type="lemma" xml:lang="en">Domninus</persName>
+                     <persName>Δομνῖνος<ref type="note" corresp="#Vol-2-L_M-ftn218"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-L_M-ftn219"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Damascius,GLAJJ2, 549</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn220"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-526<ref type="note" corresp="#Vol-2-L_M-ftn221"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-L_M-d8e2888-person" n="Vol-2-L_M-Latin-Males-Domninus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Domninus</persName>
+                     <persName type="lemma" xml:lang="en">Domninus</persName>
+                     <persName>Δομνῖνος<ref type="note" corresp="#Vol-2-L_M-ftn222"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-L_M-ftn223"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Eusebius,PG20, 544</bibl>
+                     <state type="addl-Descr">
+                        <note>Proselyte<ref type="note" corresp="#Vol-2-L_M-ftn224"/>
+                        </note>
+                     </state>
+                     <floruit>202<ref type="note" corresp="#Vol-2-L_M-ftn225"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Seuthes-Σευθῆς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Seuthes-Vol-3-G_M"
+                type="name"
+                n="Seuthes-Σευθῆς"
+                xml:id="name-Seuthes-d1e522434">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4092"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e70770-person" n="Vol-3-G_M-Greek-Males-Seuthes-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Σευθῆς</persName>
+                     <persName type="lemma" xml:lang="en">Seuthes</persName>
+                     <persName>Σεύθου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e22253-person" type="relation" n="son-of">Dositheus (16)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Fayum, Wilcken</note>
+                     </state>
+                     <bibl>CPJ31</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4093"/>P:Egypt</note>
+                     </state>
+                     <floruit>2ndC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e70805-person" n="Vol-3-G_M-Greek-Males-Seuthes-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Σευθῆς</persName>
+                     <persName type="lemma" xml:lang="en">Seuthes</persName>
+                     <persName>Σεύθ[ης]<ref type="note" corresp="#Vol-3-G_M-ftn4094"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e43597-person" type="relation" n="son-of">Theodorus (21)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Arsinoe, Wessely</note>
+                     </state>
+                     <bibl>CPJ421</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4095"/>P:Egypt</note>
+                     </state>
+                     <floruit>73 CE<ref type="note" corresp="#Vol-3-G_M-ftn4096"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e70844-person" n="Vol-3-G_M-Greek-Males-Seuthes-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Σευθῆς</persName>
+                     <persName type="lemma" xml:lang="en">Seuthes</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e21326-person"
+                                type="relation"
+                                n="brother-in-law-of">Dorotheus (2)’s brother-in-law</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Heracleopolis</note>
+                     </state>
+                     <bibl>PC29 (2001) 7</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4097"/>P:Egypt</note>
+                     </state>
+                     <floruit>139/8 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4098"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

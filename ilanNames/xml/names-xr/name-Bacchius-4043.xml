@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Bacchius-Βάκχιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Bacchius-Vol-3-G_M names/Vol-4-Vol-3-Add-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Bacchius-Vol-4-Vol-3-Add-G_M"
+                type="name"
+                n="Bacchius-Βάκχιος"
+                xml:id="name-Bacchius-d1e492492">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn840"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-Vol-3-Add-G_M-ftn9"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e14378-person" n="Vol-3-G_M-Greek-Males-Bacchius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Βάκχιος</persName>
+                     <persName type="lemma" xml:lang="en">Bacchius</persName>
+                     <persName>בכיס<ref type="note" corresp="#Vol-3-G_M-ftn841"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Luxor, Cowley</note>
+                     </state>
+                     <bibl>TADAE3:3:28</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn842"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-4-Vol-3-Add-G_M-d8e150-person"
+                          n="Vol-4-Vol-3-Add-G_M-Greek-Males-Bacchius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Βάκχιος</persName>
+                     <persName type="lemma" xml:lang="en">Bacchius</persName>
+                     <persName>Bacchius</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn10"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Coin, Rome<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn11"/>
+                        </note>
+                     </state>
+                     <bibl>RCC1, no. 431</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn12"/>P:Rome</note>
+                     </state>
+                     <floruit>55 BCE<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn13"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

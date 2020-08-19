@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Pinas-Pinas</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Pinas-Vol-3-E_M"
+                type="name"
+                n="Pinas-Pinas"
+                xml:id="name-Pinas-d1e467553">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn442"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e7302-person" n="Vol-3-E_M-Egyptian-Males-Pinas-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Pinas</persName>
+                     <persName type="lemma" xml:lang="en">Pinas</persName>
+                     <persName>Πίνατος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e28160-person" type="relation" n="father-of">Shabtai (14)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Kenyon</note>
+                     </state>
+                     <bibl>CPJ42</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn443"/>P:Egypt</note>
+                     </state>
+                     <floruit>152-141 BCE<ref type="note" corresp="#Vol-3-E_M-ftn444"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

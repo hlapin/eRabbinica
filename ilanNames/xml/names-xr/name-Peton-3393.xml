@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Peton-Peton</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Peton-Vol-3-E_M"
+                type="name"
+                n="Peton-Peton"
+                xml:id="name-Peton-d1e466925">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn406"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e6676-person" n="Vol-3-E_M-Egyptian-Males-Peton-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Peton</persName>
+                     <persName type="lemma" xml:lang="en">Peton</persName>
+                     <persName>Πέτωνος</persName>
+                     <floruit>Philoxenus (2)’s son</floruit>
+                     <state type="provenance">
+                        <note>Papyrus, Heracleopolis</note>
+                     </state>
+                     <bibl>Armoni,ZPE132 (2000) 237</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-E_M-ftn407"/>P:Egypt</note>
+                     </state>
+                     <floruit>147-136 BCE<ref type="note" corresp="#Vol-3-E_M-ftn408"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

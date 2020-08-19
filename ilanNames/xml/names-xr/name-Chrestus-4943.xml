@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Chrestus-Χρῆστος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Chrestus-Vol-3-G_M"
+                type="name"
+                n="Chrestus-Χρῆστος"
+                xml:id="name-Chrestus-d1e528783">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4735"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e81396-person" n="Vol-3-G_M-Greek-Males-Chrestus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Χρῆστος</persName>
+                     <persName type="lemma" xml:lang="en">Chrestus</persName>
+                     <persName>Chrestus</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn4736"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Seutenius,GLAJJ2, 307</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4737"/>P:Rome</note>
+                     </state>
+                     <floruit>49 CE<ref type="note" corresp="#Vol-3-G_M-ftn4738"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e81443-person" n="Vol-3-G_M-Greek-Males-Chrestus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Χρῆστος</persName>
+                     <persName type="lemma" xml:lang="en">Chrestus</persName>
+                     <persName>Χρηστοῦς<ref type="note" corresp="#Vol-3-G_M-ftn4739"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e12865-person" type="relation" n="son-of">Cosius (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Manumission inscription, Panitcapeum,<ref type="note" corresp="#Vol-3-G_M-ftn4740"/>Newton</note>
+                     </state>
+                     <bibl>CIJ65*</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4741"/>P:Bosphoran Kingdom</note>
+                     </state>
+                     <floruit>175-210 CE<ref type="note" corresp="#Vol-3-G_M-ftn4742"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Marcelinus-Marcelinus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Marcelinus-Vol-2-L_M names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Marcelinus-Vol-3-L_M"
+                type="name"
+                n="Marcelinus-Marcelinus"
+                xml:id="name-Marcelinus-d1e389906">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn535"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1555"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_M-d8e7029-person"
+                          n="Vol-2-L_M-Latin-Males-Marcelinus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Marcelinus</persName>
+                     <persName type="lemma" xml:lang="en">Marcelinus</persName>
+                     <persName>[Μ]αρκελείνῳ<ref type="note" corresp="#Vol-2-L_M-ftn536"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-L_M-ftn537"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Tiberias</note>
+                     </state>
+                     <bibl>Lifschitz,Euphrosyne6 (1974) 26</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn538"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-L_M-ftn539"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e26014-person"
+                          n="Vol-3-L_M-Latin-Males-Marcelinus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Marcelinus</persName>
+                     <persName type="lemma" xml:lang="en">Marcelinus</persName>
+                     <persName>Μαρκελλίνῳ<ref type="note" corresp="#Vol-3-L_M-ftn1556"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e54290-person" type="relation" n="son-of">Macarius (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Heidelberg</note>
+                     </state>
+                     <bibl>P. Heid IV, 333</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-3-L_M-ftn1557"/>P:Egypt</note>
+                     </state>
+                     <floruit>5thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

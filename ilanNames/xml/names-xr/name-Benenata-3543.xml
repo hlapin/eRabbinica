@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Benenata-Βενενάτα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Benenata-Vol-3-G_F"
+                type="name"
+                n="Benenata-Βενενάτα"
+                xml:id="name-Benenata-d1e473507">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn226"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e4107-person"
+                          n="Vol-3-G_F-Greek-Females-Benenata-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Βενενάτα</persName>
+                     <persName type="lemma" xml:lang="en">Benenata</persName>
+                     <persName>Βενενάτα<ref type="note" corresp="#Vol-3-G_F-ftn227"/>
+                     </persName>
+                     <persName>/ בנהנאטא<ref type="note" corresp="#Vol-3-G_F-ftn228"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="mother-of">Yohanan (33)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Bilingual amulet, El-Amarna</note>
+                     </state>
+                     <bibl>Kotansky et al,Muséon105 (1992) 8-9</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn229"/>P:Egypt</note>
+                     </state>
+                     <floruit>5thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

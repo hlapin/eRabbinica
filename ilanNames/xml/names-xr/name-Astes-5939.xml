@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Astes-Astes</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Astes-Vol-3-P_M"
+                type="name"
+                n="Astes-Astes"
+                xml:id="name-Astes-d1e565037">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-P_M-ftn39"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-P_M-d8e519-person" n="Vol-3-P_M-Persian-Males-Astes-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Astes</persName>
+                     <persName type="lemma" xml:lang="en">Astes</persName>
+                     <persName>אסתס<ref type="note" corresp="#Vol-3-P_M-ftn40"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Edfu, Degen</note>
+                     </state>
+                     <bibl>TADAE4:7:56</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-P_M-ftn41"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

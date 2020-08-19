@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Castus-Castus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Castus-Vol-1-L_M names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Castus-Vol-3-L_M"
+                type="name"
+                n="Castus-Castus"
+                xml:id="name-Castus-d1e259574">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-L_M-ftn87"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn660"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-L_M-d2e1368-person" n="Vol-1-L_M-Castus-1">
+                     <persName type="lemma">Castus</persName>
+                     <persName type="lemma" xml:lang="en">Castus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Κάστου<ref type="note" corresp="#Vol-1-L_M-ftn88"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e45274-person" type="relation" n="father-of">Mattathias (28)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Mt Olives, Clermont-Ganneau, 1881</note>
+                     </state>
+                     <bibl>CIJ, no. 1275</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-L_M-ftn89"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e11235-person" n="Vol-3-L_M-Latin-Males-Castus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Castus</persName>
+                     <persName type="lemma" xml:lang="en">Castus</persName>
+                     <persName>Κάστος</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Graffito, Vigna Randanini, Frey</note>
+                     </state>
+                     <bibl>CIJ128</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn661"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e11270-person" n="Vol-3-L_M-Latin-Males-Castus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Castus</persName>
+                     <persName type="lemma" xml:lang="en">Castus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e8527-person" type="relation" n="son-of">Eulogia (1)’s son</ref>, <ref corresp="#Vol-3-L_M-d8e35813-person" type="relation" n="father-of">Sabinus (2)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ230</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn662"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

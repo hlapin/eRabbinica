@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ḥartat-חרתת</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Hartat-Vol-2-S-H_M"
+                type="name"
+                n="Ḥartat-חרתת"
+                xml:id="name-Hartat-d1e422013">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn944"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e15087-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ḥartat-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">חרתת</persName>
+                     <persName type="lemma" xml:lang="en">Ḥartat</persName>
+                     <persName>חרת<ref type="note" corresp="#Vol-2-S-H_M-ftn945"/>
+                     </persName>
+                     <persName>/̓́Αρθις<ref type="note" corresp="#Vol-2-S-H_M-ftn946"/>
+                     </persName>
+                     <persName>/̓́Αρτις<ref type="note" corresp="#Vol-2-S-H_M-ftn947"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-S-G_M-d8e1007-person" type="relation" n="son-of">Ḥanibal (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaphs, Beth She‘arim, catacomb 8,CIJ1147, 1149, 1150</note>
+                     </state>
+                     <bibl>1.BS2:116; 2. 2:117; 3. 2:118</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-352<ref type="note" corresp="#Vol-2-S-H_M-ftn948"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-S-H_M-d8e15153-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ḥartat-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">חרתת</persName>
+                     <persName type="lemma" xml:lang="en">Ḥartat</persName>
+                     <persName>חרתה<ref type="note" corresp="#Vol-2-S-H_M-ftn949"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-L_F-d8e632-person" type="relation" n="father-of">Domitiana (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>Naveh,Tarbiz64 (1995) no. 6</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>352<ref type="note" corresp="#Vol-2-S-H_M-ftn950"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

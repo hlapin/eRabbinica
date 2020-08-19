@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Κασσίσος Qashisho-Κασσίσος Qashisho</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#_Qashisho-Vol-2-S-G_M"
+                type="name"
+                n="Κασσίσος Qashisho-Κασσίσος Qashisho"
+                xml:id="name-_Qashisho-d1e397637">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-G_M-ftn90"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-G_M-d8e1420-person"
+                          n="Vol-2-S-G_M-Semitic-Greek-Males-Κασσίσος Qashisho-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Κασσίσος Qashisho</persName>
+                     <persName type="lemma" xml:lang="en">Κασσίσος Qashisho</persName>
+                     <persName>Κασσίσου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-S-G_M-ftn91"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph,Zoar</note>
+                     </state>
+                     <bibl>IPT1a, no. 286</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-S-G_M-ftn92"/>
+                        </note>
+                     </state>
+                     <floruit>4th-6thC<ref type="note" corresp="#Vol-2-S-G_M-ftn93"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

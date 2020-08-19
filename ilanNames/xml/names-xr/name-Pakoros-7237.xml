@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Pakoros-Pakoros</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#Pakoros-Vol-4-I_M"
+                type="name"
+                n="Pakoros-Pakoros"
+                xml:id="name-Pakoros-d1e624879">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn722"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_M-d8e8537-person" n="Vol-4-I_M-Iranian-Males-Pakoros-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Pakoros</persName>
+                     <persName type="lemma" xml:lang="en">Pakoros</persName>
+                     <persName>
+                        <ref type="note" corresp="#Vol-4-I_M-ftn723"/>
+                     </persName>
+                     <persName>/קפוד<ref type="note" corresp="#Vol-4-I_M-ftn724"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e27837-person"
+                                type="relation"
+                                n="father-of">Mesharshiya (10)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>ShGa190 E: –<ref type="note" corresp="#Vol-4-I_M-ftn725"/>P:Babylonia</bibl>
+                     <floruit>5thC CE<ref type="note" corresp="#Vol-4-I_M-ftn726"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_M-d8e8579-person" n="Vol-4-I_M-Iranian-Males-Pakoros-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Pakoros</persName>
+                     <persName type="lemma" xml:lang="en">Pakoros</persName>
+                     <persName>
+                        <ref type="note" corresp="#Vol-4-I_M-ftn727"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-I_M-ftn728"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Dura-Europos, Pagliaro</note>
+                     </state>
+                     <bibl>IJO3, Syr114</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn729"/>P:Dura-Europos</note>
+                     </state>
+                     <floruit>253 CE<ref type="note" corresp="#Vol-4-I_M-ftn730"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_M-d8e8618-person" n="Vol-4-I_M-Iranian-Males-Pakoros-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Pakoros</persName>
+                     <persName type="lemma" xml:lang="en">Pakoros</persName>
+                     <persName>
+                        <ref type="note" corresp="#Vol-4-I_M-ftn731"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e12517-person" type="relation" n="father-of">Joseph (40)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription on jar, Merv</note>
+                     </state>
+                     <bibl>Livshits &amp; Usmanova,Irano-Judaica3 (1994) 103</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-I_M-ftn732"/>P:Hyrcania</note>
+                     </state>
+                     <floruit>1st-3rdC CE<ref type="note" corresp="#Vol-4-I_M-ftn733"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

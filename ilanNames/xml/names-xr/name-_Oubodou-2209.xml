@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ᾽Ουβοδοῦς Oubodou-᾽Ουβοδοῦς Oubodou</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-G_F-Semitic-Greek-Females-to-utf-TEI-P5-names.xml/#_Oubodou-Vol-2-S-G_F"
+                type="name"
+                n="᾽Ουβοδοῦς Oubodou-᾽Ουβοδοῦς Oubodou"
+                xml:id="name-_Oubodou-d1e396144">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-G_F-ftn31"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-G_F-d8e431-person"
+                          n="Vol-2-S-G_F-Semitic-Greek-Females-᾽Ουβοδοῦς Oubodou-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">᾽Ουβοδοῦς Oubodou</persName>
+                     <persName type="lemma" xml:lang="en">᾽Ουβοδοῦς Oubodou</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-S-G_M-d8e2402-person"
+                                type="relation"
+                                n="daughter-of">Finatheos (1)’s daughter</ref>, aged 2<ref type="note" corresp="#Vol-2-S-G_F-ftn32"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1a, no. 10</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-S-G_F-ftn33"/>
+                        </note>
+                     </state>
+                     <floruit>349<ref type="note" corresp="#Vol-2-S-G_F-ftn34"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

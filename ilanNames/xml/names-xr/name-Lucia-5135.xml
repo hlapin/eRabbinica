@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Lucia-Lucia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Lucia-Vol-3-L_F"
+                type="name"
+                n="Lucia-Lucia"
+                xml:id="name-Lucia-d1e535337">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn695"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e24877-person" n="Vol-3-L_F-Latin-Females-Lucia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Lucia</persName>
+                     <persName type="lemma" xml:lang="en">Lucia</persName>
+                     <persName>L<ref type="note" corresp="#Vol-3-L_F-ftn696"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Maecia (1), Lucius (5) <ref corresp="#Vol-3-L_M-d8e25465-person" type="relation" n="mother-of">Maecius (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Müller</note>
+                     </state>
+                     <bibl>CIJ470</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn697"/>Second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e24918-person" n="Vol-3-L_F-Latin-Females-Lucia-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Lucia</persName>
+                     <persName type="lemma" xml:lang="en">Lucia</persName>
+                     <persName>L<ref type="note" corresp="#Vol-3-L_F-ftn698"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Maecia (2) Shabtit (41), Lucius (5) <ref corresp="#Vol-3-L_M-d8e25465-person"
+                                type="relation"
+                                n="daughter-of">Maecius (1)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Müller</note>
+                     </state>
+                     <bibl>CIJ470</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn699"/>Second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e24956-person" n="Vol-3-L_F-Latin-Females-Lucia-3">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Lucia</persName>
+                     <persName type="lemma" xml:lang="en">Lucia</persName>
+                     <persName>L<ref type="note" corresp="#Vol-3-L_F-ftn700"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Annia (4), <ref corresp="#" type="relation" n="freedwoman-of">Judah (53)’s freedwoman</ref>
+                           <ref type="note" corresp="#Vol-3-L_F-ftn701"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Brescia, Gruter</note>
+                     </state>
+                     <bibl>CIJ77*</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn702"/>Second nameP:Italy</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn703"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

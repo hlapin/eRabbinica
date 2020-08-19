@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Mandhar-منذر</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Mandhar-Vol-4-A_M"
+                type="name"
+                n="Mandhar-منذر"
+                xml:id="name-Mandhar-d1e588278">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn987"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e12464-person" n="Vol-4-A_M-Arabic-Males-Mandhar-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">منذر</persName>
+                     <persName type="lemma" xml:lang="en">Mandhar</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e30376-person" type="relation" n="son-of">Samuel (34)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>1. Cheiko,Diwan de Samauʾal, 22, 2.kitāb al-aghānī19:98</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn988"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>ca. 575 CE<ref type="note" corresp="#Vol-4-A_M-ftn989"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

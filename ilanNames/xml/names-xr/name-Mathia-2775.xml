@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Mathia-מתיה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-B_F-Biblical-Females-to-utf-TEI-P5-names.xml/#Mathia-Vol-2-Vol-1-ADD-B_F"
+                type="name"
+                n="Mathia-מתיה"
+                xml:id="name-Mathia-d1e436833">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-B_F-ftn26"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-B_F-d8e415-person"
+                          n="Vol-2-Vol-1-ADD-B_F-Biblical-Females-Mathia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">מתיה</persName>
+                     <persName type="lemma" xml:lang="en">Mathia</persName>
+                     <persName>Μαθθαία<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_F-ftn27"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-Vol-1-ADD-B_F-ftn28"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Athens, Urdahl</note>
+                     </state>
+                     <bibl>CIJ715d</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_F-ftn29"/>Male?<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_F-ftn30"/>
+                        </note>
+                     </state>
+                     <floruit>1stC</floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-B_F-d8e473-person"
+                          n="Vol-2-Vol-1-ADD-B_F-Biblical-Females-Mathia-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">מתיה</persName>
+                     <persName type="lemma" xml:lang="en">Mathia</persName>
+                     <persName>Μαθθαία<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_F-ftn31"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="daughter-of">Philon (2)’s daughter</ref>, <ref corresp="#Vol-2-G_M-d8e16893-person" type="relation" n="wife-of">Socrates (1)’s wife</ref>, of Aradus<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_F-ftn32"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Athens, Urdahl</note>
+                     </state>
+                     <bibl>CIJ715f</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_F-ftn33"/>
+                        </note>
+                     </state>
+                     <floruit>1stC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

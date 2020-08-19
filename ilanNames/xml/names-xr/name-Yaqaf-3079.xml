@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Yaqaf-يقف</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-4-ADD-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Yaqaf-Vol-2-Vol-4-ADD-A_M names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Yaqaf-Vol-4-A_M"
+                type="name"
+                n="Yaqaf-يقف"
+                xml:id="name-Yaqaf-d1e453687">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-4-ADD-A_M-ftn136"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn1088"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-4-ADD-A_M-d8e1824-person"
+                          n="Vol-2-Vol-4-ADD-A_M-Arabic-Males-Yaqaf-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">يقف</persName>
+                     <persName type="lemma" xml:lang="en">Yaqaf</persName>
+                     <persName>–<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn137"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Robin, “Ḥimyar et Israel,” p. 898</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn138"/>Second nameP:Arabia</note>
+                     </state>
+                     <floruit>465-85 CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn139"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-A_M-d8e13717-person" n="Vol-4-A_M-Arabic-Males-Yaqaf-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">يقف</persName>
+                     <persName type="lemma" xml:lang="en">Yaqaf</persName>
+                     <persName>יקף<ref type="note" corresp="#Vol-4-A_M-ftn1089"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription,Beit al-Ashwual</note>
+                     </state>
+                     <bibl>Naveh,OSM, no. 105</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn1090"/>; second nameP:Arab. Pen.</note>
+                     </state>
+                     <floruit>4thC CE<ref type="note" corresp="#Vol-4-A_M-ftn1091"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

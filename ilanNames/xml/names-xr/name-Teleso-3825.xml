@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Teleso-Τελεσώ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Teleso-Vol-3-G_F"
+                type="name"
+                n="Teleso-Τελεσώ"
+                xml:id="name-Teleso-d1e484125">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn1038"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e18249-person" n="Vol-3-G_F-Greek-Females-Teleso-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Τελεσώ</persName>
+                     <persName type="lemma" xml:lang="en">Teleso</persName>
+                     <persName>[Τ]ελεσώι<ref type="note" corresp="#Vol-3-G_F-ftn1039"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="daughter-of">Zeuxias (1)’s daughter</ref>, aged 65<ref type="note" corresp="#Vol-3-G_F-ftn1040"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira</note>
+                     </state>
+                     <bibl>Reynolds,CJZC23e</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn1041"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e18292-person" n="Vol-3-G_F-Greek-Females-Teleso-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Τελεσώ</persName>
+                     <persName type="lemma" xml:lang="en">Teleso</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e55026-person"
+                                type="relation"
+                                n="daughter-of">Meliton (2)’s daughter</ref>, aged 32<ref type="note" corresp="#Vol-3-G_F-ftn1042"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira</note>
+                     </state>
+                     <bibl>Reynolds,CJZC23f</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn1043"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

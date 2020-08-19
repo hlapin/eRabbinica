@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Philiscus-Φιλίσκος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Philiscus-Vol-3-G_M"
+                type="name"
+                n="Philiscus-Φιλίσκος"
+                xml:id="name-Philiscus-d1e527238">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4577"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e78765-person"
+                          n="Vol-3-G_M-Greek-Males-Philiscus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Φιλίσκος</persName>
+                     <persName type="lemma" xml:lang="en">Philiscus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-E_M-d8e7792-person" type="relation" n="son-of">Ptollas (2)’s son</ref>, <ref corresp="#Vol-3-G_M-d8e78796-person"
+                                type="relation"
+                                n="grandson-of">Philiscus (2)’s grandson</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Arsinoe, Wessely</note>
+                     </state>
+                     <bibl>CPJ421</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4578"/>P:Egypt</note>
+                     </state>
+                     <floruit>73 CE<ref type="note" corresp="#Vol-3-G_M-ftn4579"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e78796-person"
+                          n="Vol-3-G_M-Greek-Males-Philiscus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Φιλίσκος</persName>
+                     <persName type="lemma" xml:lang="en">Philiscus</persName>
+                     <persName>Φιλίσκου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e78765-person"
+                                type="relation"
+                                n="grandfather-of">Philiscus (1)’s grandfather</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Arsinoe, Wessely</note>
+                     </state>
+                     <bibl>CPJ421</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4580"/>P:Egypt</note>
+                     </state>
+                     <floruit>73 CE<ref type="note" corresp="#Vol-3-G_M-ftn4581"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e78828-person"
+                          n="Vol-3-G_M-Greek-Males-Philiscus-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Φιλίσκος</persName>
+                     <persName type="lemma" xml:lang="en">Philiscus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Kidron (Jerusalem), Sukenik</note>
+                     </state>
+                     <bibl>CJO97</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4582"/>P:Cyrenaica<ref type="note" corresp="#Vol-3-G_M-ftn4583"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-3-G_M-ftn4584"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Opius-Opius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Opius-Vol-2-L_M names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Opius-Vol-3-L_M"
+                type="name"
+                n="Opius-Opius"
+                xml:id="name-Opius-d1e391164">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn634"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn1829"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_M-d8e8341-person" n="Vol-2-L_M-Latin-Males-Opius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Opius</persName>
+                     <persName type="lemma" xml:lang="en">Opius</persName>
+                     <persName>Οἰπίου<ref type="note" corresp="#Vol-2-L_M-ftn635"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Caesarea</note>
+                     </state>
+                     <bibl>Lehmann &amp; Holum,CMER5, no. 295</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn636"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-L_M-ftn637"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e30689-person" n="Vol-3-L_M-Latin-Males-Opius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Opius</persName>
+                     <persName type="lemma" xml:lang="en">Opius</persName>
+                     <persName>Οπ<ref type="note" corresp="#Vol-3-L_M-ftn1830"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Migliore</note>
+                     </state>
+                     <bibl>CIJ382</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1831"/>; second nameP:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

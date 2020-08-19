@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Shaʿdi-שעדי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Shadi-Vol-4-S-H_M"
+                type="name"
+                n="Shaʿdi-שעדי"
+                xml:id="name-Shadi-d1e651265">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn2357"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e33812-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Shaʿdi-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">שעדי</persName>
+                     <persName type="lemma" xml:lang="en">Shaʿdi</persName>
+                     <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2358"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e8019-person" type="relation" n="son-of">Ḥananiah (32)’s son</ref>, <ref corresp="#Vol-4-S-H_F-d8e2756-person" type="relation" n="father-of">Aqmat (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Palmyra</note>
+                     </state>
+                     <bibl>Ingholt,Berytus2 (1935) 81-2</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn2359"/>P:Palmyra</note>
+                     </state>
+                     <floruit>219 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2360"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

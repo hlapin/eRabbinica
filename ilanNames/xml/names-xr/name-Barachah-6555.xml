@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Barachah-ברכה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-B_F-Biblical-Females-to-utf-TEI-P5-names.xml/#Barachah-Vol-4-B_F"
+                type="name"
+                n="Barachah-ברכה"
+                xml:id="name-Barachah-d1e589757">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-B_F-ftn13"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-B_F-d8e157-person"
+                          n="Vol-4-B_F-Biblical-Females-Barachah-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">ברכה</persName>
+                     <persName type="lemma" xml:lang="en">Barachah</persName>
+                     <persName>ברכיתא<ref type="note" corresp="#Vol-4-B_F-ftn14"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e3837-person" type="relation" n="mother-of">Abba (89)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Berlin</note>
+                     </state>
+                     <bibl>Wohlstein,ZA9 (1894) 11</bibl>
+                     <state type="addl-Descr">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-B_F-ftn15"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-B_F-ftn16"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

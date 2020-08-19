@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sabba-סבא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Sabba-Vol-3-S-H_M"
+                type="name"
+                n="Sabba-סבא"
+                xml:id="name-Sabba-d1e573025">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-S-H_M-ftn328"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-S-H_M-d8e5239-person"
+                          n="Vol-3-S-H_M-Semitic-Hebrew-Males-Sabba-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">סבא</persName>
+                     <persName type="lemma" xml:lang="en">Sabba</persName>
+                     <persName>Σαββαίου<ref type="note" corresp="#Vol-3-S-H_M-ftn329"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Marios (2), <ref corresp="#Vol-3-B_F-d8e4370-person" type="relation" n="father-of">Shabtit (6)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Arsinoe, Schürer</note>
+                     </state>
+                     <bibl>CPJ47</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-S-H_M-ftn330"/>P:Egypt</note>
+                     </state>
+                     <floruit>2ndC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-S-H_M-d8e5274-person"
+                          n="Vol-3-S-H_M-Semitic-Hebrew-Males-Sabba-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">סבא</persName>
+                     <persName type="lemma" xml:lang="en">Sabba</persName>
+                     <persName>Sabba<ref type="note" corresp="#Vol-3-S-H_M-ftn331"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Carthage</note>
+                     </state>
+                     <bibl>Le Bohec,Ant. Afr.17 (1981) no. 21</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-S-H_M-ftn332"/>P:North Africa</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-S-H_M-ftn333"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-S-H_M-d8e5309-person"
+                          n="Vol-3-S-H_M-Semitic-Hebrew-Males-Sabba-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">סבא</persName>
+                     <persName type="lemma" xml:lang="en">Sabba</persName>
+                     <persName>Sabb<ref type="note" corresp="#Vol-3-S-H_M-ftn334"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Tunis</note>
+                     </state>
+                     <bibl>Le Bohec,Ant. Afr.17 (1981) no. 64</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-S-H_M-ftn335"/>P:North Africa</note>
+                     </state>
+                     <floruit>2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

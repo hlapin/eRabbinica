@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Moschion-Μοσχίων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Moschion-Vol-3-G_M"
+                type="name"
+                n="Moschion-Μοσχίων"
+                xml:id="name-Moschion-d1e513781">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3300"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e57431-person" n="Vol-3-G_M-Greek-Males-Moschion-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μοσχίων</persName>
+                     <persName type="lemma" xml:lang="en">Moschion</persName>
+                     <persName>Μοσχίωνος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e57520-person" type="relation" n="father-of">Moschus (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Manumission inscription, Oropos, Mitsos</note>
+                     </state>
+                     <bibl>CIJ711b</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3301"/>P:Greece</note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e57472-person" n="Vol-3-G_M-Greek-Males-Moschion-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μοσχίων</persName>
+                     <persName type="lemma" xml:lang="en">Moschion</persName>
+                     <persName>Μοσχίωνος</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Judeich</note>
+                     </state>
+                     <bibl>IJO2, 188</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3302"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

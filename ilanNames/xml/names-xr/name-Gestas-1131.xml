@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Gestas-Γεστας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Gestas-Vol-1-S-G_M"
+                type="name"
+                n="Gestas-Γεστας"
+                xml:id="name-Gestas-d1e284464">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-G_M-ftn33"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-G_M-d2e671-person" n="Vol-1-S-G_M-Gestas-1">
+                     <persName type="lemma">Γεστας</persName>
+                     <persName type="lemma" xml:lang="en">Gestas</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">ﺱﻮﻄﻴﻁ<ref type="note" corresp="#Vol-1-S-G_M-ftn34"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-1-S-G_M-ftn35"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Acta Pilati A: 9 (Tischendorf,EA245); Arabic Infancy Gospel (Sike,Evangelium Infantiae, 67).</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-1-S-G_M-ftn36"/>
+                        </note>
+                     </state>
+                     <floruit>30 CE<ref type="note" corresp="#Vol-1-S-G_M-ftn37"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

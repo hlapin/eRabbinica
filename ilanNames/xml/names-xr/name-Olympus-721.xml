@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Olympus-̓́Ολυμπος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Olympus-Vol-1-G_M names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Olympus-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Olympus-Vol-3-G_M"
+                type="name"
+                n="Olympus-̓́Ολυμπος"
+                xml:id="name-Olympus-d1e238219">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn1019"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn921"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3540"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e14199-person" n="Vol-1-G_M-Olympus-1">
+                     <persName type="lemma">̓́Ολυμπος</persName>
+                     <persName type="lemma" xml:lang="en">Olympus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-G_M-d2e8218-person" type="relation" n="friend-of">Herod (1)’s friend</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ1:535;AJ16:332 (Schalit,NB, 92)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-1-G_M-ftn1020"/>
+                        </note>
+                     </state>
+                     <floruit>7 BCE<ref type="note" corresp="#Vol-1-G_M-ftn1021"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_M-d8e13913-person" n="Vol-2-G_M-Greek-Males-Olympus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓́Ολυμπος</persName>
+                     <persName type="lemma" xml:lang="en">Olympus</persName>
+                     <persName>̓Ολύμπου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e9183-person" type="relation" n="father-of">Theodorus (8)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Caesarea, Avi-Yonah</note>
+                     </state>
+                     <bibl>Lehmann &amp; Holum,CMER5, no. 83</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>4th-5thC</floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_M-d8e13948-person" n="Vol-2-G_M-Greek-Males-Olympus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓́Ολυμπος</persName>
+                     <persName type="lemma" xml:lang="en">Olympus</persName>
+                     <persName>[̓Ολυ]μπίου<ref type="note" corresp="#Vol-2-G_M-ftn922"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Caesarea</note>
+                     </state>
+                     <bibl>Lehmann &amp; Holum,CMER5, no. 304</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn923"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-G_M-ftn924"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e61516-person" n="Vol-3-G_M-Greek-Males-Olympus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓́Ολυμπος</persName>
+                     <persName type="lemma" xml:lang="en">Olympus</persName>
+                     <persName>̓Ολύμπου</persName>
+                     <state type="desc">
+                        <note>Aurelius (42) Valerius (7) <ref corresp="#Vol-3-S-G_M-d8e3756-person" type="relation" n="father-of">Sogus (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Panticapaeum,<ref type="note" corresp="#Vol-3-G_M-ftn3541"/>Latyšev</note>
+                     </state>
+                     <bibl>IJO1, BS4</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3542"/>P:Bosphoran Kingdom</note>
+                     </state>
+                     <floruit>306 CE<ref type="note" corresp="#Vol-3-G_M-ftn3543"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

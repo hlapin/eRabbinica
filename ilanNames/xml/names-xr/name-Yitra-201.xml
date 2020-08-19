@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Yitra-יתרא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Yitra-Vol-1-B_M"
+                type="name"
+                n="Yitra-יתרא"
+                xml:id="name-Yitra-d1e122887">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_M-ftn3170"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_M-d2e41101-person" n="Vol-1-B_M-Yitra-1">
+                     <persName type="lemma">יתרא</persName>
+                     <persName type="lemma" xml:lang="en">Yitra</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Kidron, Sukenik, 1934</note>
+                     </state>
+                     <bibl>CIJ, no. 1301</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn3171"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-B_M-d2e41122-person" n="Vol-1-B_M-Yitra-2">
+                     <persName type="lemma">יתרא</persName>
+                     <persName type="lemma" xml:lang="en">Yitra</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">̓Ιθαρου<ref type="note" corresp="#Vol-1-B_M-ftn3172"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Mt Scopus, Reich-Geva, 1972</note>
+                     </state>
+                     <bibl>CJO, no. 643</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn3173"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-B_M-d2e41148-person" n="Vol-1-B_M-Yitra-3">
+                     <persName type="lemma">יתרא</persName>
+                     <persName type="lemma" xml:lang="en">Yitra</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e34135-person" type="relation" n="father-of">Joseph (120)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Jericho, Hachlili, 1975</note>
+                     </state>
+                     <bibl>CJO, no. 773</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn3174"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-B_M-d2e41167-person" n="Vol-1-B_M-Yitra-4">
+                     <persName type="lemma">יתרא</persName>
+                     <persName type="lemma" xml:lang="en">Yitra</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">̓Ιαθουρεί<ref type="note" corresp="#Vol-1-B_M-ftn3175"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e57780-person" type="relation" n="father-of">Simon (184)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Parchment, Muraba‘at</note>
+                     </state>
+                     <bibl>Mur 94</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-135 CE<ref type="note" corresp="#Vol-1-B_M-ftn3176"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Crispina-Crispina</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Crispina-Vol-1-L_F names/Vol-2-L_F-Latin-Female-to-utf-TEI-P5-names.xml/#Crispina-Vol-2-L_F names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Crispina-Vol-3-L_F"
+                type="name"
+                n="Crispina-Crispina"
+                xml:id="name-Crispina-d1e249225">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-L_F-ftn20"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_F-ftn50"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn349"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-L_F-d2e279-person" n="Vol-1-L_F-Crispina-1">
+                     <persName type="lemma">Crispina</persName>
+                     <persName type="lemma" xml:lang="en">Crispina</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="gr">Κρισπῖνα<ref type="note" corresp="#Vol-1-L_F-ftn21"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-1-L_F-ftn22"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyri, Babatha archive</note>
+                     </state>
+                     <bibl>PYadin 20, 25</bibl>
+                     <state type="addl-Descr">
+                        <note>Second name<ref type="note" corresp="#Vol-1-L_F-ftn23"/>
+                        </note>
+                     </state>
+                     <floruit>130-1 CE<ref type="note" corresp="#Vol-1-L_F-ftn24"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-L_F-d8e550-person" n="Vol-2-L_F-Latin-Female-Crispina-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Crispina</persName>
+                     <persName type="lemma" xml:lang="en">Crispina</persName>
+                     <persName>Κρισπιν<ref type="note" corresp="#Vol-2-L_F-ftn51"/>
+                     </persName>
+                     <persName>/קריספינא<ref type="note" corresp="#Vol-2-L_F-ftn52"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Sepphoris</note>
+                     </state>
+                     <bibl>Naveh,Atiqot49 (2005) 114*</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>
+                        <ref type="note" corresp="#Vol-2-L_F-ftn53"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e6511-person"
+                          n="Vol-3-L_F-Latin-Females-Crispina-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Crispina</persName>
+                     <persName type="lemma" xml:lang="en">Crispina</persName>
+                     <persName>Κρισπῖνα<ref type="note" corresp="#Vol-3-L_F-ftn350"/>
+                     </persName>
+                     <persName>/Κρισεῖνα<ref type="note" corresp="#Vol-3-L_F-ftn351"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="mother-of">Joseph (65)’s mother</ref>, <ref corresp="#Vol-3-G_M-d8e66732-person" type="relation" n="wife-of">Procopius (1)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaphs, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ126, 132<ref type="note" corresp="#Vol-3-L_F-ftn352"/>
+                     </bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn353"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

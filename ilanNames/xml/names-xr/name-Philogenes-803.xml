@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Philogenes-Φιλογένης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Philogenes-Vol-1-G_M"
+                type="name"
+                n="Philogenes-Φιλογένης"
+                xml:id="name-Philogenes-d1e246381">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn1243"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e17327-person" n="Vol-1-G_M-Philogenes-1">
+                     <persName type="lemma">Φιλογένης</persName>
+                     <persName type="lemma" xml:lang="en">Philogenes</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">ФιλοгεNнс<ref type="note" corresp="#Vol-1-G_M-ftn1244"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e54480-person" type="relation" n="father-of">Simon (48)’s father</ref>, healed by Jesus</note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Coptic Bartholomew (Budge,Copt. Apoc.10)</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-1-G_M-ftn1245"/>
+                        </note>
+                     </state>
+                     <floruit>30 CE<ref type="note" corresp="#Vol-1-G_M-ftn1246"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ḥabu-חבו</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Habu-Vol-2-S-H_M"
+                type="name"
+                n="Ḥabu-חבו"
+                xml:id="name-Habu-d1e417594">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn673"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e11000-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ḥabu-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">חבו</persName>
+                     <persName type="lemma" xml:lang="en">Ḥabu</persName>
+                     <persName>הבי שמיא<ref type="note" corresp="#Vol-2-S-H_M-ftn674"/>
+                     </persName>
+                     <persName>/חבי שמיא<ref type="note" corresp="#Vol-2-S-H_M-ftn675"/>
+                     </persName>
+                     <persName>/חביש מי<ref type="note" corresp="#Vol-2-S-H_M-ftn676"/>
+                     </persName>
+                     <persName>/חביש מיא<ref type="note" corresp="#Vol-2-S-H_M-ftn677"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e23848-person" type="relation" n="father-of">Joseph (53)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bYom87a<ref type="note" corresp="#Vol-2-S-H_M-ftn678"/>(Kosowsky,Babylonico, 875)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn679"/>
+                        </note>
+                     </state>
+                     <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn680"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

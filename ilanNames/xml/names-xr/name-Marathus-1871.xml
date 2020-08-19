@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Marathus-Μάραθος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Marathus-Vol-2-G_M"
+                type="name"
+                n="Marathus-Μάραθος"
+                xml:id="name-Marathus-d1e367424">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn837"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e12621-person" n="Vol-2-G_M-Greek-Males-Marathus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μάραθος</persName>
+                     <persName type="lemma" xml:lang="en">Marathus</persName>
+                     <persName>Μαραθαίου<ref type="note" corresp="#Vol-2-G_M-ftn838"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-G_M-ftn839"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Syria</note>
+                     </state>
+                     <bibl>Jalabert &amp; Mouterde,IGLS4, no. 1532</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn840"/>
+                        </note>
+                     </state>
+                     <floruit>377<ref type="note" corresp="#Vol-2-G_M-ftn841"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

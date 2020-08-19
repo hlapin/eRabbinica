@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Baga-Baga</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Baga-Vol-2-P_M"
+                type="name"
+                n="Baga-Baga"
+                xml:id="name-Baga-d1e395641">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-P_M-ftn8"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-P_M-d8e72-person" n="Vol-2-P_M-Persian-Males-Baga-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Baga</persName>
+                     <persName type="lemma" xml:lang="en">Baga</persName>
+                     <persName>Βάγγα</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-S-G_M-d8e76-person" type="relation" n="father-of">Abdalgo (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1a, no. 12</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-P_M-ftn9"/>
+                        </note>
+                     </state>
+                     <floruit>355<ref type="note" corresp="#Vol-2-P_M-ftn10"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

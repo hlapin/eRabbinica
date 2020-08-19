@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Āsūwar-Āsūwar</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#swar-Vol-4-I_M"
+                type="name"
+                n="Āsūwar-Āsūwar"
+                xml:id="name-swar-d1e618026">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn140"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_M-d8e1586-person" n="Vol-4-I_M-Iranian-Males-Āsūwar-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Āsūwar</persName>
+                     <persName type="lemma" xml:lang="en">Āsūwar</persName>
+                     <persName>איסור<ref type="note" corresp="#Vol-4-I_M-ftn141"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e27043-person"
+                                type="relation"
+                                n="father-of">Mari (22)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bBB149a (Kosowsky,Babylonico, 163)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-I_M-ftn142"/>P:Babylonia</note>
+                     </state>
+                     <floruit>4thC CE<ref type="note" corresp="#Vol-4-I_M-ftn143"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_M-d8e1629-person" n="Vol-4-I_M-Iranian-Males-Āsūwar-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Āsūwar</persName>
+                     <persName type="lemma" xml:lang="en">Āsūwar</persName>
+                     <persName>איסור<ref type="note" corresp="#Vol-4-I_M-ftn144"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bʿAZ70a (Kosowsky,Babylonico, 162-3)</bibl>
+                     <state type="addl-Descr">
+                        <note>Proselyte<ref type="note" corresp="#Vol-4-I_M-ftn145"/>P:Babylonia</note>
+                     </state>
+                     <floruit>4thC CE<ref type="note" corresp="#Vol-4-I_M-ftn146"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_M-d8e1669-person" n="Vol-4-I_M-Iranian-Males-Āsūwar-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Āsūwar</persName>
+                     <persName type="lemma" xml:lang="en">Āsūwar</persName>
+                     <persName>איסרא<ref type="note" corresp="#Vol-4-I_M-ftn147"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_F-d8e1665-person" type="relation" n="son-of">Imma (14)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl</note>
+                     </state>
+                     <bibl>CAMIBBM005A</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn148"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn149"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

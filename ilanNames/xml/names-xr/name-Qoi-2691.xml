@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Qoi-קוי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Qoi-Vol-2-S-H_M"
+                type="name"
+                n="Qoi-קוי"
+                xml:id="name-Qoi-d1e431844">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn1459"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e23183-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Qoi-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">קוי</persName>
+                     <persName type="lemma" xml:lang="en">Qoi</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-S-H_M-d8e13664-person"
+                                type="relation"
+                                n="father-of">Ḥalifa (21)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Khirbet Yama<ref type="note" corresp="#Vol-2-S-H_M-ftn1460"/>
+                        </note>
+                     </state>
+                     <bibl>Avigad,BIES31 (1967) 217</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn1461"/>
+                        </note>
+                     </state>
+                     <floruit>
+                        <ref type="note" corresp="#Vol-2-S-H_M-ftn1462"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

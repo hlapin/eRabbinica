@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Maisaizabas-Maisaizabas</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Maisaizabas-Vol-3-S-G_M"
+                type="name"
+                n="Maisaizabas-Maisaizabas"
+                xml:id="name-Maisaizabas-d1e568828">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-S-G_M-ftn171"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-S-G_M-d8e2827-person"
+                          n="Vol-3-S-G_M-Semitic-Greek-Males-Maisaizabas-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Maisaizabas</persName>
+                     <persName type="lemma" xml:lang="en">Maisaizabas</persName>
+                     <persName>Μαισαιζάβας</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e55452-person" type="relation" n="son-of">Menandrus (7)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Hermopolis, Zucker</note>
+                     </state>
+                     <bibl>JIGRE156:81</bibl>
+                     <state type="addl-Descr">
+                        <note>Idumean<ref type="note" corresp="#Vol-3-S-G_M-ftn172"/>P:Egypt</note>
+                     </state>
+                     <floruit>78 BCE<ref type="note" corresp="#Vol-3-S-G_M-ftn173"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Macedon-Μακεδών</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Macedon-Vol-3-G_M"
+                type="name"
+                n="Macedon-Μακεδών"
+                xml:id="name-Macedon-d1e511585">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3132"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e54437-person" n="Vol-3-G_M-Greek-Males-Macedon-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μακεδών</persName>
+                     <persName type="lemma" xml:lang="en">Macedon</persName>
+                     <persName>Μακεδόνος</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Miranda</note>
+                     </state>
+                     <bibl>IJO2, 209</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3133"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e54472-person" n="Vol-3-G_M-Greek-Males-Macedon-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μακεδών</persName>
+                     <persName type="lemma" xml:lang="en">Macedon</persName>
+                     <persName>Μακεδόνις</persName>
+                     <state type="desc">
+                        <note>Aurelius (80), <ref corresp="#Vol-3-S-H_M-d8e4183-person" type="relation" n="son-of">Meir (2)’s son</ref>, <ref corresp="#" type="relation" n="brother-of">Joseph (103)’s brother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Sadahattin Hani, Cronin</note>
+                     </state>
+                     <bibl>IJO2, 228</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3134"/>P:Asia</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

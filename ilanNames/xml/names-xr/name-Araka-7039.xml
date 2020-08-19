@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aršaka-Aršaka</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#Araka-Vol-4-I_M"
+                type="name"
+                n="Aršaka-Aršaka"
+                xml:id="name-Araka-d1e617572">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn98"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_M-d8e1105-person" n="Vol-4-I_M-Iranian-Males-Aršaka-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Aršaka</persName>
+                     <persName type="lemma" xml:lang="en">Aršaka</persName>
+                     <persName>̓Αρσάχου<ref type="note" corresp="#Vol-4-I_M-ftn99"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Dura-Europos, du Mesnil</note>
+                     </state>
+                     <bibl>CIJ830</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-I_M-ftn100"/>P:Dura-Europos</note>
+                     </state>
+                     <floruit>244/5 CE<ref type="note" corresp="#Vol-4-I_M-ftn101"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

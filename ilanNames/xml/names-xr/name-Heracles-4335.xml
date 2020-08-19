@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Heracles-̔Ηρακλῆς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Heracles-Vol-3-G_M"
+                type="name"
+                n="Heracles-̔Ηρακλῆς"
+                xml:id="name-Heracles-d1e505139">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2191"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e38525-person" n="Vol-3-G_M-Greek-Males-Heracles-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̔Ηρακλῆς</persName>
+                     <persName type="lemma" xml:lang="en">Heracles</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-E_M-d8e4938-person" type="relation" n="and-of">Papontos (1)’s and</ref>
+                           <ref corresp="#Vol-3-B_F-d8e4676-person" type="relation" n="son-of">Shabtit (14)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyri, Theadelphia, Westerman &amp; Keyes &amp; Kortenbeutel</note>
+                     </state>
+                     <bibl>CPJ489b,c,d</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2192"/>P:Egypt</note>
+                     </state>
+                     <floruit>134-45 CE<ref type="note" corresp="#Vol-3-G_M-ftn2193"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

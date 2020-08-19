@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Praulus-Πραύλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Praulus-Vol-3-G_M"
+                type="name"
+                n="Praulus-Πραύλος"
+                xml:id="name-Praulus-d1e520558">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3845"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e66638-person" n="Vol-3-G_M-Greek-Males-Praulus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πραύλος</persName>
+                     <persName type="lemma" xml:lang="en">Praulus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Delos, Roussel</note>
+                     </state>
+                     <bibl>IJO1, Ach68</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-3-G_M-ftn3846"/>P:Greece</note>
+                     </state>
+                     <floruit>1st-2ndC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e66675-person" n="Vol-3-G_M-Greek-Males-Praulus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πραύλος</persName>
+                     <persName type="lemma" xml:lang="en">Praulus</persName>
+                     <persName>Πραοίλιος/Πραοιλίου<ref type="note" corresp="#Vol-3-G_M-ftn3847"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="father-of">Judah (64)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+                     </state>
+                     <bibl>IJO2, 14:B10</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3848"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

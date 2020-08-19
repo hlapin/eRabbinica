@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ide-̓́Ιδη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Ide-Vol-1-G_F"
+                type="name"
+                n="Ide-̓́Ιδη"
+                xml:id="name-Ide-d1e192620">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_F-ftn162"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_F-d2e2361-person" n="Vol-1-G_F-Ide-1">
+                     <persName type="lemma">̓́Ιδη</persName>
+                     <persName type="lemma" xml:lang="en">Ide</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="he">אידה<ref type="note" corresp="#Vol-1-G_F-ftn163"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Bagatti</note>
+                     </state>
+                     <bibl>DF97, no. 35</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn164"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-G_F-d2e2386-person" n="Vol-1-G_F-Ide-2">
+                     <persName type="lemma">̓́Ιδη</persName>
+                     <persName type="lemma" xml:lang="en">Ide</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="he">אידס<ref type="note" corresp="#Vol-1-G_F-ftn165"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Kidron, Sukenik, 1945</note>
+                     </state>
+                     <bibl>CJO, no. 110</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn166"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

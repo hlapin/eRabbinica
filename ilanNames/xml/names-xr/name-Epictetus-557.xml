@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Epictetus-̓Επίκτητος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Epictetus-Vol-1-G_M names/Vol-3-Add-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Epictetus-Vol-3-Add-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Epictetus-Vol-3-G_M names/Vol-4-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Epictetus-Vol-4-G_M"
+                type="name"
+                n="Epictetus-̓Επίκτητος"
+                xml:id="name-Epictetus-d1e215749">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn474"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-Add-G_M-ftn5"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1574"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-G_M-ftn47"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e6658-person" n="Vol-1-G_M-Epictetus-1">
+                     <persName type="lemma">̓Επίκτητος</persName>
+                     <persName type="lemma" xml:lang="en">Epictetus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e59721-person" type="relation" n="son-of">Seth (2)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Shu‘afat, Abel, 1913</note>
+                     </state>
+                     <bibl>CIJ, no. 1238</bibl>
+                     <state type="addl-Descr">
+                        <note>Palmyra<ref type="note" corresp="#Vol-1-G_M-ftn475"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn476"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-Add-G_M-d8e82-person"
+                          n="Vol-3-Add-G_M-Greek-Males-Epictetus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Επίκτητος</persName>
+                     <persName type="lemma" xml:lang="en">Epictetus</persName>
+                     <persName>̓Επείκτητος<ref type="note" corresp="#Vol-3-Add-G_M-ftn6"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-Add-G_M-ftn7"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Corfu</note>
+                     </state>
+                     <bibl>Riginos,Archaiologikon Deltion54 (1999-2005) 494</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-Add-G_M-ftn8"/>P:Rome</note>
+                     </state>
+                     <floruit>2nd-4thC CE<ref type="note" corresp="#Vol-3-Add-G_M-ftn9"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e26623-person"
+                          n="Vol-3-G_M-Greek-Males-Epictetus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Επίκτητος</persName>
+                     <persName type="lemma" xml:lang="en">Epictetus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn1575"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Satala</note>
+                     </state>
+                     <bibl>Tituli Asiae Minoris5, 608</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1576"/>P:Asia</note>
+                     </state>
+                     <floruit>269-324 CE<ref type="note" corresp="#Vol-3-G_M-ftn1577"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e26667-person"
+                          n="Vol-3-G_M-Greek-Males-Epictetus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Επίκτητος</persName>
+                     <persName type="lemma" xml:lang="en">Epictetus</persName>
+                     <persName>̓Εβίκτητος<ref type="note" corresp="#Vol-3-G_M-ftn1578"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Acmonia</note>
+                     </state>
+                     <bibl>Drew-Bear,Greek Roman and Byzantine Studies17 (1976) 248</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1579"/>P:Asia</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-G_M-ftn1580"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-G_M-d8e608-person" n="Vol-4-G_M-Greek-Males-Epictetus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Επίκτητος</persName>
+                     <persName type="lemma" xml:lang="en">Epictetus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-G_M-d8e1134-person" type="relation" n="son-of">Comas (1)’s son</ref>, <ref corresp="#Vol-4-B_M-d8e33551-person"
+                                type="relation"
+                                n="grandson-of">Seth (1)’s grandson</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Jerusalem, Abel</note>
+                     </state>
+                     <bibl>CIJ1238</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-G_M-ftn48"/>P:Palmyra<ref type="note" corresp="#Vol-4-G_M-ftn49"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-4-G_M-ftn50"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

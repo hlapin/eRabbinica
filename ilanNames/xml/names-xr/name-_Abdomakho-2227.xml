@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ̓Αβδόμαχος Abdomakho-̓Αβδόμαχος Abdomakho</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#_Abdomakho-Vol-2-S-G_M"
+                type="name"
+                n="̓Αβδόμαχος Abdomakho-̓Αβδόμαχος Abdomakho"
+                xml:id="name-_Abdomakho-d1e396729">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-G_M-ftn31"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-G_M-d8e394-person"
+                          n="Vol-2-S-G_M-Semitic-Greek-Males-̓Αβδόμαχος Abdomakho-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αβδόμαχος Abdomakho</persName>
+                     <persName type="lemma" xml:lang="en">̓Αβδόμαχος Abdomakho</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e2109-person" type="relation" n="father-of">Andromachus (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1a, no. 280</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-2-S-G_M-ftn32"/>
+                        </note>
+                     </state>
+                     <floruit>4th-6thC<ref type="note" corresp="#Vol-2-S-G_M-ftn33"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ocimon-̓Ωκίμων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Ocimon-Vol-1-G_M"
+                type="name"
+                n="Ocimon-̓Ωκίμων"
+                xml:id="name-Ocimon-d1e247278">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn1278"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e17858-person" n="Vol-1-G_M-Ocimon-1">
+                     <persName type="lemma">̓Ωκίμων</persName>
+                     <persName type="lemma" xml:lang="en">Ocimon</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">̓́Οκαιμος<ref type="note" corresp="#Vol-1-G_M-ftn1279"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-1-G_M-ftn1280"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Zenon’s archive, Egypt</note>
+                     </state>
+                     <bibl>CPJno. 4</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-1-G_M-ftn1281"/>
+                        </note>
+                     </state>
+                     <floruit>257 BCE<ref type="note" corresp="#Vol-1-G_M-ftn1282"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

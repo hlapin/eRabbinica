@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Pistus-Πίστος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Pistus-Vol-1-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Pistus-Vol-3-G_M"
+                type="name"
+                n="Pistus-Πίστος"
+                xml:id="name-Pistus-d1e240550">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn1084"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3750"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e15087-person" n="Vol-1-G_M-Pistus-1">
+                     <persName type="lemma">Πίστος</persName>
+                     <persName type="lemma" xml:lang="en">Pistus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Vita34 (Schalit,NB, 97)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>67 CE<ref type="note" corresp="#Vol-1-G_M-ftn1085"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e65084-person" n="Vol-3-G_M-Greek-Males-Pistus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πίστος</persName>
+                     <persName type="lemma" xml:lang="en">Pistus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Hermione, Jameson</note>
+                     </state>
+                     <bibl>IJO1, App19</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3751"/>P:Greece</note>
+                     </state>
+                     <floruit>Post-320 CE<ref type="note" corresp="#Vol-3-G_M-ftn3752"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

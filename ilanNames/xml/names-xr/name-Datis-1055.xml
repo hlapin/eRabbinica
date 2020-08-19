@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Datis-Datis</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Datis-Vol-1-P_M"
+                type="name"
+                n="Datis-Datis"
+                xml:id="name-Datis-d1e281557">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-P_M-ftn58"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-P_M-d2e883-person" n="Vol-1-P_M-Datis-1">
+                     <persName type="lemma">Datis</persName>
+                     <persName type="lemma" xml:lang="en">Datis</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Δαθαῖος<ref type="note" corresp="#Vol-1-P_M-ftn59"/>
+                     </persName>
+                     <persName xml:lang="he">דתי<ref type="note" corresp="#Vol-1-P_M-ftn60"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Arist50</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-1-P_M-ftn61"/>
+                        </note>
+                     </state>
+                     <floruit>3rdC BCE<ref type="note" corresp="#Vol-1-P_M-ftn62"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-P_M-d2e940-person" n="Vol-1-P_M-Datis-2">
+                     <persName type="lemma">Datis</persName>
+                     <persName type="lemma" xml:lang="en">Datis</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Δαθαής<ref type="note" corresp="#Vol-1-P_M-ftn63"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>-</note>
+                     </state>
+                     <bibl>Acta Pilati A: 1 (Tischendorf,EA214)</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-1-P_M-ftn64"/>
+                        </note>
+                     </state>
+                     <floruit>30 CE<ref type="note" corresp="#Vol-1-P_M-ftn65"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

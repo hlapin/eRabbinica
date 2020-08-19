@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Clemens-Clemens</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Clemens-Vol-2-Vol-1-ADD-L_M names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Clemens-Vol-3-L_M"
+                type="name"
+                n="Clemens-Clemens"
+                xml:id="name-Clemens-d1e448779">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-L_M-ftn32"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn719"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-L_M-d8e375-person"
+                          n="Vol-2-Vol-1-ADD-L_M-Latin-Males-Clemens-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Clemens</persName>
+                     <persName type="lemma" xml:lang="en">Clemens</persName>
+                     <persName>Κλ]ήμεντι<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn33"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Titus (1) Mucius (1) <ref corresp="#Vol-2-L_M-d8e7237-person" type="relation" n="father-of">Marcus (2)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Habonim</note>
+                     </state>
+                     <bibl>CIIP2, 2123</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn34"/>
+                        </note>
+                     </state>
+                     <floruit>52-3 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn35"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e12226-person" n="Vol-3-L_M-Latin-Males-Clemens-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Clemens</persName>
+                     <persName type="lemma" xml:lang="en">Clemens</persName>
+                     <persName>Κλήμενς<ref type="note" corresp="#Vol-3-L_M-ftn720"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Flavius (1), <ref corresp="#Vol-3-L_F-d8e6967-person" type="relation" n="husband-of">Domitilla (1)’s husband</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>1. Cassius Dio,GLAJJ2, 435; 2. Eusebius,PG20, 252</bibl>
+                     <state type="addl-Descr">
+                        <note>Proselyte?<ref type="note" corresp="#Vol-3-L_M-ftn721"/>P:Rome</note>
+                     </state>
+                     <floruit>95 CE<ref type="note" corresp="#Vol-3-L_M-ftn722"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e12274-person" n="Vol-3-L_M-Latin-Males-Clemens-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Clemens</persName>
+                     <persName type="lemma" xml:lang="en">Clemens</persName>
+                     <persName>Clemeti<ref type="note" corresp="#Vol-3-L_M-ftn723"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Claudia (6) <ref corresp="#Vol-3-B_F-d8e6052-person" type="relation" n="husband-of">Shabtit (49)’s husband</ref>, Emperor Claudius’ Freedman<ref type="note" corresp="#Vol-3-L_M-ftn724"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Dessau</note>
+                     </state>
+                     <bibl>CIJ71*</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn725"/>P:Rome</note>
+                     </state>
+                     <floruit>1stC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

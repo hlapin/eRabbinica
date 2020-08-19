@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Palation-Παλατίων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Palation-Vol-3-G_M"
+                type="name"
+                n="Palation-Παλατίων"
+                xml:id="name-Palation-d1e517416">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3589"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e62332-person" n="Vol-3-G_M-Greek-Males-Palation-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Παλατίων</persName>
+                     <persName type="lemma" xml:lang="en">Palation</persName>
+                     <persName>פלטיון<ref type="note" corresp="#Vol-3-G_M-ftn3590"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn3591"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>S of S Rab8:5 (Hyman,Toldoth, 1001)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3592"/>P:Rome</note>
+                     </state>
+                     <floruit>Pre-650 CE<ref type="note" corresp="#Vol-3-G_M-ftn3593"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e62372-person" n="Vol-3-G_M-Greek-Males-Palation-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Παλατίων</persName>
+                     <persName type="lemma" xml:lang="en">Palation</persName>
+                     <persName>pltn<ref type="note" corresp="#Vol-3-G_M-ftn3594"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-S-G_M-d8e1618-person" type="relation" n="son-of">Beto (2)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Berlin</note>
+                     </state>
+                     <bibl>BGU6, 1454</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew<ref type="note" corresp="#Vol-3-G_M-ftn3595"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rd-1stC BCE<ref type="note" corresp="#Vol-3-G_M-ftn3596"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

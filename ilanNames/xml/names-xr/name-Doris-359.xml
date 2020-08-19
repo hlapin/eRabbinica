@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Doris-Δωρίς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Doris-Vol-1-G_F names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Doris-Vol-3-G_F"
+                type="name"
+                n="Doris-Δωρίς"
+                xml:id="name-Doris-d1e190274">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_F-ftn92"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn329"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_F-d2e1302-person" n="Vol-1-G_F-Doris-1">
+                     <persName type="lemma">Δωρίς</persName>
+                     <persName type="lemma" xml:lang="en">Doris</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-G_M-d2e8218-person" type="relation" n="first-of">Herod (1)’s first</ref> wife</note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ1:241;AJ14:300 (Schalit,NB, 40)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>37-4 BCE<ref type="note" corresp="#Vol-1-G_F-ftn93"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e5935-person" n="Vol-3-G_F-Greek-Females-Doris-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Δωρίς</persName>
+                     <persName type="lemma" xml:lang="en">Doris</persName>
+                     <persName>Δωρείς<ref type="note" corresp="#Vol-3-G_F-ftn330"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Lanciani</note>
+                     </state>
+                     <bibl>CIJ536</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn331"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

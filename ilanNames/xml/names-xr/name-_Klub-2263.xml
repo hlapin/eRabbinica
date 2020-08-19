@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Κλουβᾶς Klub-Κλουβᾶς Klub</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#_Klub-Vol-2-S-G_M"
+                type="name"
+                n="Κλουβᾶς Klub-Κλουβᾶς Klub"
+                xml:id="name-_Klub-d1e397688">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-G_M-ftn94"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-G_M-d8e1485-person"
+                          n="Vol-2-S-G_M-Semitic-Greek-Males-Κλουβᾶς Klub-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Κλουβᾶς Klub</persName>
+                     <persName type="lemma" xml:lang="en">Κλουβᾶς Klub</persName>
+                     <persName>Κλουβ<ref type="note" corresp="#Vol-2-S-G_M-ftn95"/>
+                     </persName>
+                     <persName>/Κλουβᾶς<ref type="note" corresp="#Vol-2-S-G_M-ftn96"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue mosaic, Beit She’an, Zori</note>
+                     </state>
+                     <bibl>Roth-Gerson,GISEI, nos. 6, 7</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname?<ref type="note" corresp="#Vol-2-S-G_M-ftn97"/>Second name</note>
+                     </state>
+                     <floruit>6thC</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

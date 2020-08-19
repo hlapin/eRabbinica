@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Tibethis-Tibethis</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Tibethis-Vol-1-P_M"
+                type="name"
+                n="Tibethis-Tibethis"
+                xml:id="name-Tibethis-d1e283277">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-P_M-ftn182"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-P_M-d2e2498-person" n="Vol-1-P_M-Tibethis-1">
+                     <persName type="lemma">Tibethis</persName>
+                     <persName type="lemma" xml:lang="en">Tibethis</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Θεβυθεῖ<ref type="note" corresp="#Vol-1-P_M-ftn183"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ6:387 (Schalit,NB, 54)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-1-P_M-ftn184"/>
+                        </note>
+                     </state>
+                     <floruit>70 CE<ref type="note" corresp="#Vol-1-P_M-ftn185"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-P_M-d2e2534-person" n="Vol-1-P_M-Tibethis-2">
+                     <persName type="lemma">Tibethis</persName>
+                     <persName type="lemma" xml:lang="en">Tibethis</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Θέβουθις<ref type="note" corresp="#Vol-1-P_M-ftn186"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Eus.EH, 4:22</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-117 CE<ref type="note" corresp="#Vol-1-P_M-ftn187"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

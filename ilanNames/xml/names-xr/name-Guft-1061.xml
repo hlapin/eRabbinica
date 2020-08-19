@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Guftī-Guftī</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Guft-Vol-1-P_M"
+                type="name"
+                n="Guftī-Guftī"
+                xml:id="name-Guft-d1e281759">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-P_M-ftn74"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-P_M-d2e1086-person" n="Vol-1-P_M-Guftī-1">
+                     <persName type="lemma">Guftī</persName>
+                     <persName type="lemma" xml:lang="en">Guftī</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Γυφθέος<ref type="note" corresp="#Vol-1-P_M-ftn75"/>
+                     </persName>
+                     <persName xml:lang="gr">Τεφθέος<ref type="note" corresp="#Vol-1-P_M-ftn76"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ5:474 (Schalit,NB, 36)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>70 CE<ref type="note" corresp="#Vol-1-P_M-ftn77"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Muʿāwiya-معاوية</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Muwiya-Vol-4-A_M"
+                type="name"
+                n="Muʿāwiya-معاوية"
+                xml:id="name-Muwiya-d1e588178">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn979"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e12359-person"
+                          n="Vol-4-A_M-Arabic-Males-Muʿāwiya-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">معاوية</persName>
+                     <persName type="lemma" xml:lang="en">Muʿāwiya</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-A_M-d8e2300-person" type="relation" n="son-of">Jabal (4)’s son</ref>, <ref corresp="#" type="relation" n="father-of">Maʿādīkarib (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Ibn al-Kalbī,nasab maʿadd, 1:139</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-A_M-ftn980"/>P:Arab. Pen.<ref type="note" corresp="#Vol-4-A_M-ftn981"/>
+                        </note>
+                     </state>
+                     <floruit>6thC CE<ref type="note" corresp="#Vol-4-A_M-ftn982"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

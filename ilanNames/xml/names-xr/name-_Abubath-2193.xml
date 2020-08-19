@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- ̓Αβουβάθη Abubath-̓Αβουβάθη Abubath</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-G_F-Semitic-Greek-Females-to-utf-TEI-P5-names.xml/#_Abubath-Vol-2-S-G_F"
+                type="name"
+                n="̓Αβουβάθη Abubath-̓Αβουβάθη Abubath"
+                xml:id="name-_Abubath-d1e395740">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-G_F-ftn1"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-G_F-d8e16-person"
+                          n="Vol-2-S-G_F-Semitic-Greek-Females-̓Αβουβάθη Abubath-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Αβουβάθη Abubath</persName>
+                     <persName type="lemma" xml:lang="en">̓Αβουβάθη Abubath</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e518-person" type="relation" n="daughter-of">Ainius (2)’s daughter</ref>, aged 70<ref type="note" corresp="#Vol-2-S-G_F-ftn2"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1a, no. 17</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-S-G_F-ftn3"/>
+                        </note>
+                     </state>
+                     <floruit>358<ref type="note" corresp="#Vol-2-S-G_F-ftn4"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

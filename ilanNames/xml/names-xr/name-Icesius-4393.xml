@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Icesius-̓Ικέσιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Icesius-Vol-3-G_M"
+                type="name"
+                n="Icesius-̓Ικέσιος"
+                xml:id="name-Icesius-d1e507350">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2760"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e48032-person" n="Vol-3-G_M-Greek-Males-Icesius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Ικέσιος</persName>
+                     <persName type="lemma" xml:lang="en">Icesius</persName>
+                     <persName>̓Ικεσίου</persName>
+                     <state type="desc">
+                        <note>Judah (74), <ref corresp="#Vol-3-G_M-d8e46658-person" type="relation" n="son-of">Theon (5)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Miranda</note>
+                     </state>
+                     <bibl>IJO2, 189</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2761"/>; second name<ref type="note" corresp="#Vol-3-G_M-ftn2762"/>P:Asia</note>
+                     </state>
+                     <floruit>2nd-3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e48074-person" n="Vol-3-G_M-Greek-Males-Icesius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Ικέσιος</persName>
+                     <persName type="lemma" xml:lang="en">Icesius</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Judah (74) <ref corresp="#Vol-3-G_M-d8e48032-person" type="relation" n="son-of">Icesius (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Miranda</note>
+                     </state>
+                     <bibl>IJO2, 189</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2763"/>P:Asia</note>
+                     </state>
+                     <floruit>2nd-3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

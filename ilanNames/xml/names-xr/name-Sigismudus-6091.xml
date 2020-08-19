@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sigismudus-Sigismudus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Sigismudus-Vol-3-S-G_M"
+                type="name"
+                n="Sigismudus-Sigismudus"
+                xml:id="name-Sigismudus-d1e569724">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-S-G_M-ftn227"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-S-G_M-d8e3702-person"
+                          n="Vol-3-S-G_M-Semitic-Greek-Males-Sigismudus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Sigismudus</persName>
+                     <persName type="lemma" xml:lang="en">Sigismudus</persName>
+                     <persName>Sigismudu[s]<ref type="note" corresp="#Vol-3-S-G_M-ftn228"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Via Portuensis, Paribeni</note>
+                     </state>
+                     <bibl>CIJ499</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-S-G_M-ftn229"/>P:Rome</note>
+                     </state>
+                     <floruit>4th-6thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

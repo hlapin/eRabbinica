@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Dinah-דינה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-B_F-Biblical-Females-to-utf-TEI-P5-names.xml/#Dinah-Vol-2-B_F"
+                type="name"
+                n="Dinah-דינה"
+                xml:id="name-Dinah-d1e316137">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-B_F-ftn36"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-B_F-d8e591-person" n="Vol-2-B_F-Biblical-Females-Dinah-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">דינה</persName>
+                     <persName type="lemma" xml:lang="en">Dinah</persName>
+                     <persName>Δινά<ref type="note" corresp="#Vol-2-B_F-ftn37"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Tabgha<ref type="note" corresp="#Vol-2-B_F-ftn38"/>, Schneider</note>
+                     </state>
+                     <bibl>Klein,Yeshuv, 39</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>
+                        <ref type="note" corresp="#Vol-2-B_F-ftn39"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

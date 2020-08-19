@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Nisus-Νῖσος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Nisus-Vol-1-G_M names/Vol-4-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Nisus-Vol-4-G_M"
+                type="name"
+                n="Nisus-Νῖσος"
+                xml:id="name-Nisus-d1e237659">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn985"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-G_M-ftn124"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e13792-person" n="Vol-1-G_M-Nisus-1">
+                     <persName type="lemma">Νῖσος</persName>
+                     <persName type="lemma" xml:lang="en">Nisus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Νῖσον<ref type="note" corresp="#Vol-1-G_M-ftn986"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Shu‘afat, Abel, 1913</note>
+                     </state>
+                     <bibl>CIJ, no. 1235</bibl>
+                     <state type="addl-Descr">
+                        <note>Palmyra<ref type="note" corresp="#Vol-1-G_M-ftn987"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn988"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-G_M-d2e13819-person" n="Vol-1-G_M-Nisus-2">
+                     <persName type="lemma">Νῖσος</persName>
+                     <persName type="lemma" xml:lang="en">Nisus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">נסן<ref type="note" corresp="#Vol-1-G_M-ftn989"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Jar, Masada</note>
+                     </state>
+                     <bibl>Mas no. 479</bibl>
+                     <state type="addl-Descr">
+                        <note>Second name<ref type="note" corresp="#Vol-1-G_M-ftn990"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-73 CE<ref type="note" corresp="#Vol-1-G_M-ftn991"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-G_M-d8e1639-person" n="Vol-4-G_M-Greek-Males-Nisus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Νῖσος</persName>
+                     <persName type="lemma" xml:lang="en">Nisus</persName>
+                     <persName>Νῖσον</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Jerusalem, Abel</note>
+                     </state>
+                     <bibl>CIJ1235</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-G_M-ftn125"/>P:Palmyra<ref type="note" corresp="#Vol-4-G_M-ftn126"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-4-G_M-ftn127"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

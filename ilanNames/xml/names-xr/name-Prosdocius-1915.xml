@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Prosdocius-Προσδόκιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Prosdocius-Vol-2-G_M"
+                type="name"
+                n="Prosdocius-Προσδόκιος"
+                xml:id="name-Prosdocius-d1e370655">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn1044"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e15972-person"
+                          n="Vol-2-G_M-Greek-Males-Prosdocius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Προσδόκιος</persName>
+                     <persName type="lemma" xml:lang="en">Prosdocius</persName>
+                     <persName>פרוזדק<ref type="note" corresp="#Vol-2-G_M-ftn1045"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Midrash Tehilim91:1 (Hyman,Toldoth, 946)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>3rdC<ref type="note" corresp="#Vol-2-G_M-ftn1046"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_M-d8e16006-person"
+                          n="Vol-2-G_M-Greek-Males-Prosdocius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Προσδόκιος</persName>
+                     <persName type="lemma" xml:lang="en">Prosdocius</persName>
+                     <persName>Προσδοκίς<ref type="note" corresp="#Vol-2-G_M-ftn1047"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Beth She‘arim,catacomb 13</note>
+                     </state>
+                     <bibl>BS2:166</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_M-ftn1048"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

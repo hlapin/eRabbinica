@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Amarantus-̓Αμάραντος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Amarantus-Vol-1-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Amarantus-Vol-3-G_M"
+                type="name"
+                n="Amarantus-̓Αμάραντος"
+                xml:id="name-Amarantus-d1e200657">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn106"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn310"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e1449-person" n="Vol-1-G_M-Amarantus-1">
+                     <persName type="lemma">̓Αμάραντος</persName>
+                     <persName type="lemma" xml:lang="en">Amarantus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Αμαραντου<ref type="note" corresp="#Vol-1-G_M-ftn107"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Masada</note>
+                     </state>
+                     <bibl>Mas no. 778</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-73 CE<ref type="note" corresp="#Vol-1-G_M-ftn108"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e5283-person" n="Vol-3-G_M-Greek-Males-Amarantus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αμάραντος</persName>
+                     <persName type="lemma" xml:lang="en">Amarantus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn311"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Synesius,GLAJJ3, 569</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn312"/>P:Egypt</note>
+                     </state>
+                     <floruit>4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e5330-person" n="Vol-3-G_M-Greek-Males-Amarantus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αμάραντος</persName>
+                     <persName type="lemma" xml:lang="en">Amarantus</persName>
+                     <persName>̓Ημαράντω<ref type="note" corresp="#Vol-3-G_M-ftn313"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Schneider Graziosi</note>
+                     </state>
+                     <bibl>CIJ339</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn314"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

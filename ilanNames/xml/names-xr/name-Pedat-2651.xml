@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Pedat-פדת</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Pedat-Vol-2-S-H_M"
+                type="name"
+                n="Pedat-פדת"
+                xml:id="name-Pedat-d1e430554">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn1368"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e21893-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Pedat-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">פדת</persName>
+                     <persName type="lemma" xml:lang="en">Pedat</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e2734-person" type="relation" n="son-of">Eleazar (8)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>yMeg4:10, 75c<ref type="note" corresp="#Vol-2-S-H_M-ftn1369"/>(Kosovsky,Yerushalmi, 585-6)</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn1370"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-S-H_M-d8e21931-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Pedat-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">פדת</persName>
+                     <persName type="lemma" xml:lang="en">Pedat</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e3360-person" type="relation" n="father-of">Eleazar (25)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bTaan25a<ref type="note" corresp="#Vol-2-S-H_M-ftn1371"/>(Kosowsky,Babylonico, 215-35)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1372"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

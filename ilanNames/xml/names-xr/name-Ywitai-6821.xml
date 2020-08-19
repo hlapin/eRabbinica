@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Yāwitai-Yāwitai</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_F-Iranian-Females-to-utf-TEI-P5-names.xml/#Ywitai-Vol-4-I_F"
+                type="name"
+                n="Yāwitai-Yāwitai"
+                xml:id="name-Ywitai-d1e607239">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_F-ftn484"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_F-d8e5916-person"
+                          n="Vol-4-I_F-Iranian-Females-Yāwitai-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Yāwitai</persName>
+                     <persName type="lemma" xml:lang="en">Yāwitai</persName>
+                     <persName>יויתאי<ref type="note" corresp="#Vol-4-I_F-ftn485"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_F-d8e3974-person"
+                                type="relation"
+                                n="daughter-of">Ḥatai (3)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Jerusalem</note>
+                     </state>
+                     <bibl>AMBno. 13</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn486"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn487"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_F-d8e5953-person"
+                          n="Vol-4-I_F-Iranian-Females-Yāwitai-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Yāwitai</persName>
+                     <persName type="lemma" xml:lang="en">Yāwitai</persName>
+                     <persName>יותא<ref type="note" corresp="#Vol-4-I_F-ftn488"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-A_F-d8e794-person" type="relation" n="mother-of">Qlima (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl</note>
+                     </state>
+                     <bibl>CAMIBBM025A</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn489"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn490"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

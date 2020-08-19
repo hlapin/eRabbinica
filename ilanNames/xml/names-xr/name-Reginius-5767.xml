@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Reginius-Reginius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Reginius-Vol-3-L_M"
+                type="name"
+                n="Reginius-Reginius"
+                xml:id="name-Reginius-d1e557518">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2042"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e34205-person" n="Vol-3-L_M-Latin-Males-Reginius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Reginius</persName>
+                     <persName type="lemma" xml:lang="en">Reginius</persName>
+                     <persName>Ρεγεινους<ref type="note" corresp="#Vol-3-L_M-ftn2043"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Agreius (1) <ref corresp="#Vol-3-G_M-d8e28782-person"
+                                type="relation"
+                                n="colleague-of">Euangelius (1)’s colleague</ref>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn2044"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ207</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2045"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

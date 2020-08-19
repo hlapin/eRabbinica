@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Seius-Seius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Seius-Vol-3-L_M"
+                type="name"
+                n="Seius-Seius"
+                xml:id="name-Seius-d1e559104">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2221"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e37227-person" n="Vol-3-L_M-Latin-Males-Seius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Seius</persName>
+                     <persName type="lemma" xml:lang="en">Seius</persName>
+                     <persName>Σήιε<ref type="note" corresp="#Vol-3-L_M-ftn2222"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Termini Imerese, Kaibel</note>
+                     </state>
+                     <bibl>JIWE1, 161</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-3-L_M-ftn2223"/>; second nameP:Sicily</note>
+                     </state>
+                     <floruit>1stC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e37269-person" n="Vol-3-L_M-Latin-Males-Seius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Seius</persName>
+                     <persName type="lemma" xml:lang="en">Seius</persName>
+                     <persName>Ση[ι]<ref type="note" corresp="#Vol-3-L_M-ftn2224"/>
+                     </persName>
+                     <persName>/ Sies<ref type="note" corresp="#Vol-3-L_M-ftn2225"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-S-G_F-d8e382-person"
+                                type="relation"
+                                n="father-in-law-of">Rabla (1)’s father-in-law</ref>, archisynagogus, of Cyzicus<ref type="note" corresp="#Vol-3-L_M-ftn2226"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Taragona,JIWE1, 186</note>
+                     </state>
+                     <bibl>Curbera,Philologus147 (2003) 358<ref type="note" corresp="#Vol-3-L_M-ftn2227"/>
+                     </bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2228"/>P:Spain</note>
+                     </state>
+                     <floruit>Post-320 CE<ref type="note" corresp="#Vol-3-L_M-ftn2229"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

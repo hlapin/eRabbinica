@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Yanūf-ينف</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-4-ADD-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Yanf-Vol-2-Vol-4-ADD-A_M"
+                type="name"
+                n="Yanūf-ينف"
+                xml:id="name-Yanf-d1e453923">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-4-ADD-A_M-ftn151"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-4-ADD-A_M-d8e2024-person"
+                          n="Vol-2-Vol-4-ADD-A_M-Arabic-Males-Yanūf-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">ينف</persName>
+                     <persName type="lemma" xml:lang="en">Yanūf</persName>
+                     <persName>–<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn152"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Laḥaya‘t (1), Sharaḥbi’il (2) <ref corresp="#" type="relation" n="son-of">Yaqaf (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Robin, “Ḥimyar et Israel,” p. 898</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn153"/>P:Arabia</note>
+                     </state>
+                     <floruit>465-85 CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn154"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

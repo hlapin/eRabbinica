@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Yāmin-يامن</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Ymin-Vol-4-A_M"
+                type="name"
+                n="Yāmin-يامن"
+                xml:id="name-Ymin-d1e589518">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn1077"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e13589-person" n="Vol-4-A_M-Arabic-Males-Yāmin-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">يامن</persName>
+                     <persName type="lemma" xml:lang="en">Yāmin</persName>
+                     <persName>يامين<ref type="note" corresp="#Vol-4-A_M-ftn1078"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-A_M-d8e10109-person" type="relation" n="son-of">ʿUmayr (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Ibn Hishām,Leben Muhammed’s, 654</bibl>
+                     <state type="addl-Descr">
+                        <note>Muslim convert<ref type="note" corresp="#Vol-4-A_M-ftn1079"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>Pre-632 CE<ref type="note" corresp="#Vol-4-A_M-ftn1080"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-A_M-d8e13625-person" n="Vol-4-A_M-Arabic-Males-Yāmin-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">يامن</persName>
+                     <persName type="lemma" xml:lang="en">Yāmin</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Hirr (1) and <ref corresp="#Vol-4-A_M-d8e12514-person" type="relation" n="father-of">Mawraq (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Ibn Ḥabīb,muḥabbar, 185</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-A_M-ftn1081"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>Pre-Islamic<ref type="note" corresp="#Vol-4-A_M-ftn1082"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-A_M-d8e13659-person" n="Vol-4-A_M-Arabic-Males-Yāmin-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">يامن</persName>
+                     <persName type="lemma" xml:lang="en">Yāmin</persName>
+                     <persName>اليمان<ref type="note" corresp="#Vol-4-A_M-ftn1083"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-A_M-d8e3133-person" type="relation" n="ancestor-of">Ḥudhayfa (1)’s ancestor</ref>
+                           <ref type="note" corresp="#Vol-4-A_M-ftn1084"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Masʿūdī,tanbīh, 282</bibl>
+                     <state type="addl-Descr">
+                        <note>Proselyte?<ref type="note" corresp="#Vol-4-A_M-ftn1085"/>Nickname?<ref type="note" corresp="#Vol-4-A_M-ftn1086"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>6thC CE<ref type="note" corresp="#Vol-4-A_M-ftn1087"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

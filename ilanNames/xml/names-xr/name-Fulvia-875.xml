@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Fulvia-Fulvia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Fulvia-Vol-1-L_F names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Fulvia-Vol-3-L_F names/Vol-4-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Fulvia-Vol-4-L_F"
+                type="name"
+                n="Fulvia-Fulvia"
+                xml:id="name-Fulvia-d1e249644">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-L_F-ftn33"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn507"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-L_F-ftn15"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-L_F-d2e448-person" n="Vol-1-L_F-Fulvia-1">
+                     <persName type="lemma">Fulvia</persName>
+                     <persName type="lemma" xml:lang="en">Fulvia</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="gr">Φούλεια</persName>
+                     <persName xml:lang="gr">Φολεια<ref type="note" corresp="#Vol-1-L_F-ftn34"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Shu‘afat, Abel, 1913</note>
+                     </state>
+                     <bibl>CIJ, no. 1227</bibl>
+                     <state type="addl-Descr">
+                        <note>Palmyra<ref type="note" corresp="#Vol-1-L_F-ftn35"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-L_F-ftn36"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e9214-person" n="Vol-3-L_F-Latin-Females-Fulvia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Fulvia</persName>
+                     <persName type="lemma" xml:lang="en">Fulvia</persName>
+                     <persName>Φουλβία<ref type="note" corresp="#Vol-3-L_F-ftn508"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>AJ18:82 (Schalit,NB, 124)</bibl>
+                     <state type="addl-Descr">
+                        <note>Proselyte<ref type="note" corresp="#Vol-3-L_F-ftn509"/>P:Rome</note>
+                     </state>
+                     <floruit>19 CE<ref type="note" corresp="#Vol-3-L_F-ftn510"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-L_F-d8e181-person" n="Vol-4-L_F-Latin-Females-Fulvia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Fulvia</persName>
+                     <persName type="lemma" xml:lang="en">Fulvia</persName>
+                     <persName>Φούλειᾳ/Φολεια<ref type="note" corresp="#Vol-4-L_F-ftn16"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Jerusalem, Abel</note>
+                     </state>
+                     <bibl>CIJ1227</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-L_F-ftn17"/>P:Palmyra<ref type="note" corresp="#Vol-4-L_F-ftn18"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-4-L_F-ftn19"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

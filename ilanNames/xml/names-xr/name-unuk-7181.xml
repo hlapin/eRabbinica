@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Χunuk-Χunuk</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-I_M-Iranian-Males-to-utf-TEI-P5-names.xml/#unuk-Vol-4-I_M"
+                type="name"
+                n="Χunuk-Χunuk"
+                xml:id="name-unuk-d1e622895">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-I_M-ftn559"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-I_M-d8e6580-person" n="Vol-4-I_M-Iranian-Males-Χunuk-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Χunuk</persName>
+                     <persName type="lemma" xml:lang="en">Χunuk</persName>
+                     <persName>הוניק<ref type="note" corresp="#Vol-4-I_M-ftn560"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_F-d8e7129-person" type="relation" n="son-of">Komiš (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowl, Nippur, Montgomery</note>
+                     </state>
+                     <bibl>Isbell, no. 13</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn561"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn562"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-I_M-d8e6618-person" n="Vol-4-I_M-Iranian-Males-Χunuk-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Χunuk</persName>
+                     <persName type="lemma" xml:lang="en">Χunuk</persName>
+                     <persName>חוניק<ref type="note" corresp="#Vol-4-I_M-ftn563"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-I_F-d8e13073-person" type="relation" n="son-of">Šērkōē (2)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Incantation bowls, Nippur, Montgomery</note>
+                     </state>
+                     <bibl>1. Isbell, no. 23; 2. no. 24</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-I_M-ftn564"/>P:Babylonia</note>
+                     </state>
+                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn565"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

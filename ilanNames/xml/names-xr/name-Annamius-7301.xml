@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Annamius-Annamius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Annamius-Vol-4-L_M"
+                type="name"
+                n="Annamius-Annamius"
+                xml:id="name-Annamius-d1e628059">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-L_M-ftn17"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-L_M-d8e162-person" n="Vol-4-L_M-Latin-Males-Annamius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Annamius</persName>
+                     <persName type="lemma" xml:lang="en">Annamius</persName>
+                     <persName>̓́Αναμος<ref type="note" corresp="#Vol-4-L_M-ftn18"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-L_M-ftn19"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Tomb of the Prophet</note>
+                     </state>
+                     <bibl>Clermont-Ganneau,Researches1, 364</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-L_M-ftn20"/>P:Palmyra</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-4-L_M-ftn21"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Verecundus-Verecundus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Verecundus-Vol-3-L_M"
+                type="name"
+                n="Verecundus-Verecundus"
+                xml:id="name-Verecundus-d1e561945">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2487"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e41532-person"
+                          n="Vol-3-L_M-Latin-Males-Verecundus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Verecundus</persName>
+                     <persName type="lemma" xml:lang="en">Verecundus</persName>
+                     <persName>Βεργ[ούνδος]<ref type="note" corresp="#Vol-3-L_M-ftn2488"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e5120-person" type="relation" n="son-of">Decania (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Villa Torlonia, Paribeni</note>
+                     </state>
+                     <bibl>CIJ11</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2489"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e41578-person"
+                          n="Vol-3-L_M-Latin-Males-Verecundus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Verecundus</persName>
+                     <persName type="lemma" xml:lang="en">Verecundus</persName>
+                     <persName>Βερεγόνδος<ref type="note" corresp="#Vol-3-L_M-ftn2490"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn2491"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ97</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2492"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

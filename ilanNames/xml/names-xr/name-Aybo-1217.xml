@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aybo-אייבו</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-H_F-Semitic-Hebrew-Females-to-utf-TEI-P5-names.xml/#Aybo-Vol-1-S-H_F"
+                type="name"
+                n="Aybo-אייבו"
+                xml:id="name-Aybo-d1e286907">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-H_F-ftn1"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-H_F-d2e49-person" n="Vol-1-S-H_F-Aybo-1">
+                     <persName type="lemma">אייבו</persName>
+                     <persName type="lemma" xml:lang="en">Aybo</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="he">איכו<ref type="note" corresp="#Vol-1-S-H_F-ftn2"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e14148-person"
+                                type="relation"
+                                n="neighbor-of">Hananiah (16)’s neighbor</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>bTaan22a (Kosowsky,Babylonico, 157)</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-1-S-H_F-ftn3"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-135 CE<ref type="note" corresp="#Vol-1-S-H_F-ftn4"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-S-H_F-d2e93-person" n="Vol-1-S-H_F-Aybo-2">
+                     <persName type="lemma">אייבו</persName>
+                     <persName type="lemma" xml:lang="en">Aybo</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-S-H_M-d2e6469-person" type="relation" n="sister-of">Hiyya (1)’s sister</ref>
+                           <ref type="note" corresp="#Vol-1-S-H_F-ftn5"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>bSan5a (Kosowsky,Babylonico, 153)</bibl>
+                     <state type="addl-Descr">
+                        <note>Babylonia<ref type="note" corresp="#Vol-1-S-H_F-ftn6"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-1-S-H_F-ftn7"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Theotinas-Θεοτίνας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Theotinas-Vol-2-G_M"
+                type="name"
+                n="Theotinas-Θεοτίνας"
+                xml:id="name-Theotinas-d1e363368">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn658"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e9847-person" n="Vol-2-G_M-Greek-Males-Theotinas-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Θεοτίνας</persName>
+                     <persName type="lemma" xml:lang="en">Theotinas</persName>
+                     <persName>תאוטני<ref type="note" corresp="#Vol-2-G_M-ftn659"/>
+                     </persName>
+                     <persName>/תוטני<ref type="note" corresp="#Vol-2-G_M-ftn660"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-G_M-ftn661"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bShab71a<ref type="note" corresp="#Vol-2-G_M-ftn662"/>(Kosowsky,Babylonico, 1769)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname?<ref type="note" corresp="#Vol-2-G_M-ftn663"/>
+                        </note>
+                     </state>
+                     <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-G_M-ftn664"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

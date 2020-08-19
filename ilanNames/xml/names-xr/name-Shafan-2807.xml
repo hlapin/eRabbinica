@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Shafan-שפן</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Shafan-Vol-2-Vol-1-ADD-B_M"
+                type="name"
+                n="Shafan-שפן"
+                xml:id="name-Shafan-d1e437822">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-B_M-ftn785"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-B_M-d8e11073-person"
+                          n="Vol-2-Vol-1-ADD-B_M-Biblical-Males-Shafan-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">שפן</persName>
+                     <persName type="lemma" xml:lang="en">Shafan</persName>
+                     <persName>–<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn786"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Graffiti in cave, ‘Iyye Nehash</note>
+                     </state>
+                     <bibl>Zissu et al.,Judea and Samaria Studies17 (2008) 86-8</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-135 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn787"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

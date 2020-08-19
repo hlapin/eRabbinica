@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Helenus-̔́Ελενος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Helenus-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Helenus-Vol-3-G_M"
+                type="name"
+                n="Helenus-̔́Ελενος"
+                xml:id="name-Helenus-d1e357726">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn393"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1498"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e5572-person" n="Vol-2-G_M-Greek-Males-Helenus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̔́Ελενος</persName>
+                     <persName type="lemma" xml:lang="en">Helenus</persName>
+                     <persName>̔Ελένου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e1161-person" type="relation" n="father-of">Alexander (10)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Caesarea</note>
+                     </state>
+                     <bibl>Lehmann &amp; Holum,CMER5, no. 152</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn394"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-G_M-ftn395"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e25348-person" n="Vol-3-G_M-Greek-Males-Helenus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̔́Ελενος</persName>
+                     <persName type="lemma" xml:lang="en">Helenus</persName>
+                     <persName>̔́Ελλην<ref type="note" corresp="#Vol-3-G_M-ftn1499"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e22639-person" type="relation" n="son-of">Dositheus (26)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostraca, Thebes, Tait</note>
+                     </state>
+                     <bibl>CPJ82, 83</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1500"/>P:Egypt</note>
+                     </state>
+                     <floruit>157 BCE<ref type="note" corresp="#Vol-3-G_M-ftn1501"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e25383-person" n="Vol-3-G_M-Greek-Males-Helenus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̔́Ελενος</persName>
+                     <persName type="lemma" xml:lang="en">Helenus</persName>
+                     <persName>̔́Ελένου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e76219-person" type="relation" n="son-of">Tryphon (5)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Alexandria, Schubart</note>
+                     </state>
+                     <bibl>CPJ151</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1502"/>P:Egypt</note>
+                     </state>
+                     <floruit>5/4 BCE<ref type="note" corresp="#Vol-3-G_M-ftn1503"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

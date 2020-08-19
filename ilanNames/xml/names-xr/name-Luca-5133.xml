@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Luca-Luca</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Luca-Vol-3-L_F"
+                type="name"
+                n="Luca-Luca"
+                xml:id="name-Luca-d1e535203">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn686"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e24754-person" n="Vol-3-L_F-Latin-Females-Luca-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Luca</persName>
+                     <persName type="lemma" xml:lang="en">Luca</persName>
+                     <persName>Λύκα<ref type="note" corresp="#Vol-3-L_F-ftn687"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e17709-person"
+                                type="relation"
+                                n="daughter-of">Gaius (20)’s daughter</ref>, aged 58<ref type="note" corresp="#Vol-3-L_F-ftn688"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Cyrene, De Bourville</note>
+                     </state>
+                     <bibl>CJZC12</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn689"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e24795-person" n="Vol-3-L_F-Latin-Females-Luca-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Luca</persName>
+                     <persName type="lemma" xml:lang="en">Luca</persName>
+                     <persName>Λύκα<ref type="note" corresp="#Vol-3-L_F-ftn690"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e80151-person"
+                                type="relation"
+                                n="daughter-of">Philon (16)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Ptolemais, Pacho</note>
+                     </state>
+                     <bibl>CJZC33a</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn691"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e24827-person" n="Vol-3-L_F-Latin-Females-Luca-3">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Luca</persName>
+                     <persName type="lemma" xml:lang="en">Luca</persName>
+                     <persName>Λύκα<ref type="note" corresp="#Vol-3-L_F-ftn692"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e44846-person"
+                                type="relation"
+                                n="daughter-of">Theodorus (56)’s daughter</ref>, aged 5<ref type="note" corresp="#Vol-3-L_F-ftn693"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Ptolemais</note>
+                     </state>
+                     <bibl>Reynolds,CJZC6</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn694"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

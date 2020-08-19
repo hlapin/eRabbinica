@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Callisthenes-Καλλισθένης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Callisthenes-Vol-3-G_M"
+                type="name"
+                n="Callisthenes-Καλλισθένης"
+                xml:id="name-Callisthenes-d1e508466">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2864"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e49842-person"
+                          n="Vol-3-G_M-Greek-Males-Callisthenes-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Καλλισθένης</persName>
+                     <persName type="lemma" xml:lang="en">Callisthenes</persName>
+                     <persName>Καλλισθένους</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira, Applebaum</note>
+                     </state>
+                     <bibl>CJZC69</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2865"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e49871-person"
+                          n="Vol-3-G_M-Greek-Males-Callisthenes-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Καλλισθένης</persName>
+                     <persName type="lemma" xml:lang="en">Callisthenes</persName>
+                     <persName>Καλλισθένους</persName>
+                     <state type="desc">
+                        <note>Arimanthus (1) and <ref corresp="#Vol-3-P_M-d8e462-person" type="relation" n="father-of">Artaios (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaphs, Teucheira, Oliverio</note>
+                     </state>
+                     <bibl>Reynolds,CJZC11a,b</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2866"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

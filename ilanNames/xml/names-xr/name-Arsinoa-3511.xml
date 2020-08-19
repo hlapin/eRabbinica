@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Arsinoa-̓Αρσινόα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Arsinoa-Vol-3-G_F"
+                type="name"
+                n="Arsinoa-̓Αρσινόα"
+                xml:id="name-Arsinoa-d1e472053">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn146"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e2575-person" n="Vol-3-G_F-Greek-Females-Arsinoa-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Αρσινόα</persName>
+                     <persName type="lemma" xml:lang="en">Arsinoa</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Aline (1) and <ref corresp="#Vol-3-G_M-d8e40540-person"
+                                type="relation"
+                                n="daughter-of">Theodosius (7)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Leontopolis, Norsa</note>
+                     </state>
+                     <bibl>CIJ1530</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn147"/>P:Egypt</note>
+                     </state>
+                     <floruit>2nd-1stC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e2613-person" n="Vol-3-G_F-Greek-Females-Arsinoa-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Αρσινόα</persName>
+                     <persName type="lemma" xml:lang="en">Arsinoa</persName>
+                     <persName>̓Αρ[σ]ινόα<ref type="note" corresp="#Vol-3-G_F-ftn148"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e64315-person"
+                                type="relation"
+                                n="daughter-of">Pausanias (1)’s daughter</ref>, aged 40<ref type="note" corresp="#Vol-3-G_F-ftn149"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira, Reynolds</note>
+                     </state>
+                     <bibl>CJZC59b</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn150"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e2660-person" n="Vol-3-G_F-Greek-Females-Arsinoa-3">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Αρσινόα</persName>
+                     <persName type="lemma" xml:lang="en">Arsinoa</persName>
+                     <persName>[̓Α]ρσινόα<ref type="note" corresp="#Vol-3-G_F-ftn151"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e27752-person"
+                                type="relation"
+                                n="daughter-of">Marcus (32)’s daughter</ref>, aged 20<ref type="note" corresp="#Vol-3-G_F-ftn152"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira, Oliverio</note>
+                     </state>
+                     <bibl>CJZC67f</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn153"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

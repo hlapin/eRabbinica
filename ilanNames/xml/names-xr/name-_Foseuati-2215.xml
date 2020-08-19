@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Φοσευάθη Foseuati-Φοσευάθη Foseuati</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-G_F-Semitic-Greek-Females-to-utf-TEI-P5-names.xml/#_Foseuati-Vol-2-S-G_F"
+                type="name"
+                n="Φοσευάθη Foseuati-Φοσευάθη Foseuati"
+                xml:id="name-_Foseuati-d1e396293">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-G_F-ftn42"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-G_F-d8e574-person"
+                          n="Vol-2-S-G_F-Semitic-Greek-Females-Φοσευάθη Foseuati-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Φοσευάθη Foseuati</persName>
+                     <persName type="lemma" xml:lang="en">Φοσευάθη Foseuati</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e15270-person"
+                                type="relation"
+                                n="daughter-of">Parthenius (1)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1a, no. 301</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-S-G_F-ftn43"/>
+                        </note>
+                     </state>
+                     <floruit>4th-6thC<ref type="note" corresp="#Vol-2-S-G_F-ftn44"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

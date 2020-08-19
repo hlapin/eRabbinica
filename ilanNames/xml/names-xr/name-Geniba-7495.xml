@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Geniba-גניבא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Geniba-Vol-4-S-H_M"
+                type="name"
+                n="Geniba-גניבא"
+                xml:id="name-Geniba-d1e636421">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn941"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e13529-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Geniba-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">גניבא</persName>
+                     <persName type="lemma" xml:lang="en">Geniba</persName>
+                     <persName>גניבה<ref type="note" corresp="#Vol-4-S-H_M-ftn942"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>1.yBer3:5, 6d (Kosovsky,Yerushalmi, 177); 2.bBer25a (Kosowsky,Babylonico, 342-3)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn943"/>P:Babylonia</note>
+                     </state>
+                     <floruit>3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn944"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-S-H_M-d8e13580-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Geniba-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">גניבא</persName>
+                     <persName type="lemma" xml:lang="en">Geniba</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e4602-person" type="relation" n="father-of">Abbuha (4)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bBB139a (Kosowsky,Babylonico, 343)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn945"/>P:Babylonia</note>
+                     </state>
+                     <floruit>4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn946"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

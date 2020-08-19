@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aianus-Αἰανός</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Aianus-Vol-1-G_M names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Aianus-Vol-2-G_M"
+                type="name"
+                n="Aianus-Αἰανός"
+                xml:id="name-Aianus-d1e195272">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn9"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn16"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e163-person" n="Vol-1-G_M-Aianus-1">
+                     <persName type="lemma">Αἰανός</persName>
+                     <persName type="lemma" xml:lang="en">Aianus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Αιανιμμος<ref type="note" corresp="#Vol-1-G_M-ftn10"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-G_M-d2e12990-person" type="relation" n="son-of">Monimus (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Weight-stone, Migdal</note>
+                     </state>
+                     <bibl>Qedar,INJ9 (1986-7) 31</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>98 CE<ref type="note" corresp="#Vol-1-G_M-ftn11"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_M-d8e287-person" n="Vol-2-G_M-Greek-Males-Aianus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Αἰανός</persName>
+                     <persName type="lemma" xml:lang="en">Aianus</persName>
+                     <persName>Αιανου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e48995-person" type="relation" n="father-of">Simon (84)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Lead weight, Sepphoris</note>
+                     </state>
+                     <bibl>Meshorer,BA49 (1986) 17</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn17"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-G_M-ftn18"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

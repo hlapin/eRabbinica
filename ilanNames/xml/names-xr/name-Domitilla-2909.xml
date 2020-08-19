@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Domitilla-Domitilla</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Domitilla-Vol-2-Vol-1-ADD-L_F names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Domitilla-Vol-3-L_F"
+                type="name"
+                n="Domitilla-Domitilla"
+                xml:id="name-Domitilla-d1e447382">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-L_F-ftn1"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn376"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-L_F-d8e12-person"
+                          n="Vol-2-Vol-1-ADD-L_F-Latin-Females-Domitilla-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Domitilla</persName>
+                     <persName type="lemma" xml:lang="en">Domitilla</persName>
+                     <persName>Δομετιλα<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_F-ftn2"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <bibl>Meyers et al.,BASOR233 (1979) 56</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_F-ftn3"/>
+                        </note>
+                     </state>
+                     <floruit>1stC BCE-1stC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e6967-person"
+                          n="Vol-3-L_F-Latin-Females-Domitilla-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Domitilla</persName>
+                     <persName type="lemma" xml:lang="en">Domitilla</persName>
+                     <persName>Δομιτίλλα<ref type="note" corresp="#Vol-3-L_F-ftn377"/>
+                     </persName>
+                     <persName>/Δομετίλλα<ref type="note" corresp="#Vol-3-L_F-ftn378"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Flavia (1), Flavius (1) <ref corresp="#Vol-3-L_M-d8e12226-person" type="relation" n="wife-of">Clemens (1)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>1. Cassius Dio,GLAJJ2, 435; 2. Eusebius,PG20, 252</bibl>
+                     <state type="addl-Descr">
+                        <note>Proselyte<ref type="note" corresp="#Vol-3-L_F-ftn379"/>P:Rome</note>
+                     </state>
+                     <floruit>95 CE<ref type="note" corresp="#Vol-3-L_F-ftn380"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

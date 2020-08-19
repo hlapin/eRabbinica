@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Maccabaius-Μακκαβαιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Maccabaius-Vol-1-S-G_M"
+                type="name"
+                n="Maccabaius-Μακκαβαιος"
+                xml:id="name-Maccabaius-d1e285813">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-G_M-ftn123"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-G_M-d2e2172-person" n="Vol-1-S-G_M-Maccabaius-1">
+                     <persName type="lemma">Μακκαβαιος</persName>
+                     <persName type="lemma" xml:lang="en">Maccabaius</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>1 Macc 2:4; 2 Macc 2:19 (H &amp; R Suppl, 105); AJ12:266 (Schalit,NB, 81).</bibl>
+                     <state type="addl-Descr">
+                        <note>Second name<ref type="note" corresp="#Vol-1-S-G_M-ftn124"/>
+                        </note>
+                     </state>
+                     <floruit>167-161 CE<ref type="note" corresp="#Vol-1-S-G_M-ftn125"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

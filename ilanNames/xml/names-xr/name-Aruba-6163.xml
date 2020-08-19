@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aruba-ערובא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Aruba-Vol-3-S-H_M"
+                type="name"
+                n="Aruba-ערובא"
+                xml:id="name-Aruba-d1e573332">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-S-H_M-ftn344"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-S-H_M-d8e5555-person"
+                          n="Vol-3-S-H_M-Semitic-Hebrew-Males-Aruba-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">ערובא</persName>
+                     <persName type="lemma" xml:lang="en">Aruba</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e26943-person" type="relation" n="father-of">Phineas (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bGit56b (Kosowsky, Babylonico, 1189)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-S-H_M-ftn345"/>; nickname<ref type="note" corresp="#Vol-3-S-H_M-ftn346"/>P:Rome</note>
+                     </state>
+                     <floruit>Pre-87 CE<ref type="note" corresp="#Vol-3-S-H_M-ftn347"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

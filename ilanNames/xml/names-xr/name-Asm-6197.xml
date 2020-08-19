@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Asmāʾ-اسماء</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_F-Arabic-Females-to-utf-TEI-P5-names.xml/#Asm-Vol-4-A_F"
+                type="name"
+                n="Asmāʾ-اسماء"
+                xml:id="name-Asm-d1e574445">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_F-ftn1"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_F-d8e16-person" n="Vol-4-A_F-Arabic-Females-Asmāʾ-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">اسماء</persName>
+                     <persName type="lemma" xml:lang="en">Asmāʾ</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-A_M-d8e8492-person" type="relation" n="daughter-of">ʿAbdullah (6)’s daughter</ref>, <ref corresp="#Vol-4-A_M-d8e10903-person" type="relation" n="mother-of">Qays (6)’s mother</ref>, slave<ref type="note" corresp="#Vol-4-A_F-ftn2"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Musʿab,nasab, 92</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_F-ftn3"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>6thC CE<ref type="note" corresp="#Vol-4-A_F-ftn4"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

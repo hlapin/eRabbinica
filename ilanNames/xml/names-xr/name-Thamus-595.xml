@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Thamus-Θαμοῦς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Thamus-Vol-1-G_M"
+                type="name"
+                n="Thamus-Θαμοῦς"
+                xml:id="name-Thamus-d1e220479">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn639"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e9069-person" n="Vol-1-G_M-Thamus-1">
+                     <persName type="lemma">Θαμοῦς</persName>
+                     <persName type="lemma" xml:lang="en">Thamus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Θαμοῦ<ref type="note" corresp="#Vol-1-G_M-ftn640"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="father-of">Thamar (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, deed, Babatha archive</note>
+                     </state>
+                     <bibl>PYadin 16</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>127 CE<ref type="note" corresp="#Vol-1-G_M-ftn641"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

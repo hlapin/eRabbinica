@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Dativus-Dativus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Dativus-Vol-3-L_M"
+                type="name"
+                n="Dativus-Dativus"
+                xml:id="name-Dativus-d1e549182">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn812"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e13635-person" n="Vol-3-L_M-Latin-Males-Dativus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Dativus</persName>
+                     <persName type="lemma" xml:lang="en">Dativus</persName>
+                     <persName>Δατίβου<ref type="note" corresp="#Vol-3-L_M-ftn813"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Flavia (10) <ref corresp="#Vol-3-L_F-d8e846-person" type="relation" n="husband-of">Antonina (2)’s husband</ref>, of the Augustinians<ref type="note" corresp="#Vol-3-L_M-ftn814"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Migliore</note>
+                     </state>
+                     <bibl>CIJ416</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn815"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Peleia-Πέλεια</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Peleia-Vol-3-G_F"
+                type="name"
+                n="Peleia-Πέλεια"
+                xml:id="name-Peleia-d1e482446">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn936"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e16471-person" n="Vol-3-G_F-Greek-Females-Peleia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Πέλεια</persName>
+                     <persName type="lemma" xml:lang="en">Peleia</persName>
+                     <persName>Πέληα<ref type="note" corresp="#Vol-3-G_F-ftn937"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e51284-person"
+                                type="relation"
+                                n="daughter-of">Criton (2)’s daughter</ref>, aged 20<ref type="note" corresp="#Vol-3-G_F-ftn938"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira, Oliverio</note>
+                     </state>
+                     <bibl>CJZC61b</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn939"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e16515-person" n="Vol-3-G_F-Greek-Females-Peleia-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Πέλεια</persName>
+                     <persName type="lemma" xml:lang="en">Peleia</persName>
+                     <persName>[Π]έλεια<ref type="note" corresp="#Vol-3-G_F-ftn940"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_F-ftn941"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira,</note>
+                     </state>
+                     <bibl>Reynolds,CJZC22f</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn942"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117 CE?</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

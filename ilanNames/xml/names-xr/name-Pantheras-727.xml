@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Pantheras-Πανθήρας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Pantheras-Vol-1-G_M names/Vol-2-Vol-1-ADD-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Pantheras-Vol-2-Vol-1-ADD-G_M"
+                type="name"
+                n="Pantheras-Πανθήρας"
+                xml:id="name-Pantheras-d1e238489">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn1028"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-G_M-ftn254"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e14349-person" n="Vol-1-G_M-Pantheras-1">
+                     <persName type="lemma">Πανθήρας</persName>
+                     <persName type="lemma" xml:lang="en">Pantheras</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">פנטרא</persName>
+                     <persName xml:lang="he">פנטירי<ref type="note" corresp="#Vol-1-G_M-ftn1029"/>
+                     </persName>
+                     <persName xml:lang="gr">Πανθήρα<ref type="note" corresp="#Vol-1-G_M-ftn1030"/>
+                     </persName>
+                     <persName xml:lang="gr">Πάνθηρ<ref type="note" corresp="#Vol-1-G_M-ftn1031"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-1-G_M-ftn1032"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>tHul 2:22 (Kasowski, Thosephthae, 544)Origen,Contra Celsum1:32.</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname?<ref type="note" corresp="#Vol-1-G_M-ftn1033"/>
+                        </note>
+                     </state>
+                     <floruit>1stC BCE<ref type="note" corresp="#Vol-1-G_M-ftn1034"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-G_M-d2e14411-person" n="Vol-1-G_M-Pantheras-2">
+                     <persName type="lemma">Πανθήρας</persName>
+                     <persName type="lemma" xml:lang="en">Pantheras</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Πενθεροῦ<ref type="note" corresp="#Vol-1-G_M-ftn1035"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-L_M-d2e1891-person" type="relation" n="son-of">Drusus (2)’s son</ref>, <ref corresp="#Vol-1-B_M-d2e33249-person" type="relation" n="father-of">Joseph (87)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Nablus Rd, Clermont-Ganneau, 1891</note>
+                     </state>
+                     <bibl>CIJ, no. 1211</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn1036"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-G_M-d8e3731-person"
+                          n="Vol-2-Vol-1-ADD-G_M-Greek-Males-Pantheras-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πανθήρας</persName>
+                     <persName type="lemma" xml:lang="en">Pantheras</persName>
+                     <persName>Πάνθηρ<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn255"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn256"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Doctrina Jacobi 1:42</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn257"/>
+                        </note>
+                     </state>
+                     <floruit>1stC BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn258"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

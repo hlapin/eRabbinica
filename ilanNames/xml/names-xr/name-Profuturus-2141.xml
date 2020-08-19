@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Profuturus-Profuturus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Profuturus-Vol-2-L_M"
+                type="name"
+                n="Profuturus-Profuturus"
+                xml:id="name-Profuturus-d1e391668">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn680"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_M-d8e8916-person"
+                          n="Vol-2-L_M-Latin-Males-Profuturus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Profuturus</persName>
+                     <persName type="lemma" xml:lang="en">Profuturus</persName>
+                     <persName>Προφοτοῦρος<ref type="note" corresp="#Vol-2-L_M-ftn681"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-L_M-ftn682"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Hammat Tiberias, Dothan</note>
+                     </state>
+                     <bibl>Roth-Gerson,GISEI, no. 17</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>4thC</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

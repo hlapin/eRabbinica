@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Heortylis-̔Εορτυλίς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Heortylis-Vol-3-G_M"
+                type="name"
+                n="Heortylis-̔Εορτυλίς"
+                xml:id="name-Heortylis-d1e497308">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1552"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e26275-person"
+                          n="Vol-3-G_M-Greek-Males-Heortylis-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̔Εορτυλίς</persName>
+                     <persName type="lemma" xml:lang="en">Heortylis</persName>
+                     <persName>Εἱωρτύλις<ref type="note" corresp="#Vol-3-G_M-ftn1553"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Graffito, Syros, Stephanos</note>
+                     </state>
+                     <bibl>IJO1, Ach73</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1554"/>P:Greece</note>
+                     </state>
+                     <floruit>4th-5thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

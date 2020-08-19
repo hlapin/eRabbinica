@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Syrion-Συρίων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Syrion-Vol-3-G_M"
+                type="name"
+                n="Syrion-Συρίων"
+                xml:id="name-Syrion-d1e523669">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4229"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e73151-person" n="Vol-3-G_M-Greek-Males-Syrion-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Συρίων</persName>
+                     <persName type="lemma" xml:lang="en">Syrion</persName>
+                     <persName>Συρίωνος</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Samaria, Wilcken</note>
+                     </state>
+                     <bibl>CPJ28</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4230"/>P:Egypt</note>
+                     </state>
+                     <floruit>155-144 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4231"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e73185-person" n="Vol-3-G_M-Greek-Males-Syrion-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Συρίων</persName>
+                     <persName type="lemma" xml:lang="en">Syrion</persName>
+                     <persName>Συρίωνος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e30709-person" type="relation" n="father-of">Shabtai (81)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Karanis, Rees &amp; Bell &amp; Barns</note>
+                     </state>
+                     <bibl>CPJ518d</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4232"/>P:Egypt</note>
+                     </state>
+                     <floruit>324 CE<ref type="note" corresp="#Vol-3-G_M-ftn4233"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

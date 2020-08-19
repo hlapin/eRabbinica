@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Menandrus-Μένανδρος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Menandrus-Vol-1-G_M names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Menandrus-Vol-2-G_M names/Vol-2-Vol-1-ADD-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Menandrus-Vol-2-Vol-1-ADD-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Menandrus-Vol-3-G_M"
+                type="name"
+                n="Menandrus-Μένανδρος"
+                xml:id="name-Menandrus-d1e234906">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn902"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn877"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-G_M-ftn225"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3179"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e12645-person" n="Vol-1-G_M-Menandrus-1">
+                     <persName type="lemma">Μένανδρος</persName>
+                     <persName type="lemma" xml:lang="en">Menandrus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e54333-person" type="relation" n="heir-of">Simon (43)’s heir</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Eus.EH, 3:26</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-1-G_M-ftn903"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-117 CE<ref type="note" corresp="#Vol-1-G_M-ftn904"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_M-d8e13252-person"
+                          n="Vol-2-G_M-Greek-Males-Menandrus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μένανδρος</persName>
+                     <persName type="lemma" xml:lang="en">Menandrus</persName>
+                     <persName>Menandri<ref type="note" corresp="#Vol-2-G_M-ftn878"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-L_M-d8e5258-person" type="relation" n="father-of">Justinus (5)’s father</ref>, of Neapolis<ref type="note" corresp="#Vol-2-G_M-ftn879"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Spain, Hübner</note>
+                     </state>
+                     <bibl>JIWE1, 222</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan?<ref type="note" corresp="#Vol-2-G_M-ftn880"/>
+                        </note>
+                     </state>
+                     <floruit>2ndC</floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-G_M-d8e3366-person"
+                          n="Vol-2-Vol-1-ADD-G_M-Greek-Males-Menandrus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μένανδρος</persName>
+                     <persName type="lemma" xml:lang="en">Menandrus</persName>
+                     <persName>Menandri<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn226"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-L_M-d8e5101-person" type="relation" n="father-of">Justinus (1)’s father</ref>, of Neapolis<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn227"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Merida,<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn228"/>Rabello</note>
+                     </state>
+                     <bibl>JIWE1, 221</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn229"/>
+                        </note>
+                     </state>
+                     <floruit>2ndC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-G_M-d8e3412-person"
+                          n="Vol-2-Vol-1-ADD-G_M-Greek-Males-Menandrus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μένανδρος</persName>
+                     <persName type="lemma" xml:lang="en">Menandrus</persName>
+                     <persName>Menander<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn230"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-L_M-d8e5101-person" type="relation" n="son-of">Justinus (1)’s son</ref>, of Neapolis<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn231"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Merida,<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn232"/>Rabello</note>
+                     </state>
+                     <bibl>JIWE1, 221</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn233"/>
+                        </note>
+                     </state>
+                     <floruit>2ndC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e55217-person"
+                          n="Vol-3-G_M-Greek-Males-Menandrus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μένανδρος</persName>
+                     <persName type="lemma" xml:lang="en">Menandrus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e22052-person" type="relation" n="teacher-of">Justus (5)’s teacher</ref>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn3180"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Via Salaria, Migliore</note>
+                     </state>
+                     <bibl>CIJ3</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3181"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e55270-person"
+                          n="Vol-3-G_M-Greek-Males-Menandrus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μένανδρος</persName>
+                     <persName type="lemma" xml:lang="en">Menandrus</persName>
+                     <persName>Μενάνδρου</persName>
+                     <state type="desc">
+                        <note>Callis (1) and <ref corresp="#Vol-3-G_M-d8e55305-person" type="relation" n="father-of">Menandrus (3)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaphs, Larissa</note>
+                     </state>
+                     <bibl>CIJ703, 705</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3182"/>P:Greece</note>
+                     </state>
+                     <floruit>1st-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e55305-person"
+                          n="Vol-3-G_M-Greek-Males-Menandrus-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μένανδρος</persName>
+                     <persName type="lemma" xml:lang="en">Menandrus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e55270-person" type="relation" n="son-of">Menandrus (2)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Larissa</note>
+                     </state>
+                     <bibl>CIJ705</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3183"/>P:Greece</note>
+                     </state>
+                     <floruit>1st-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e55339-person"
+                          n="Vol-3-G_M-Greek-Males-Menandrus-4">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μένανδρος</persName>
+                     <persName type="lemma" xml:lang="en">Menandrus</persName>
+                     <persName>Μεν/ Menan<ref type="note" corresp="#Vol-3-G_M-ftn3184"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-S-G_F-d8e215-person" type="relation" n="father-of">Getiore (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Sardis, Buckler &amp; Robinson</note>
+                     </state>
+                     <bibl>CIJ750</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3185"/>P:Asia</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e55381-person"
+                          n="Vol-3-G_M-Greek-Males-Menandrus-5">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μένανδρος</persName>
+                     <persName type="lemma" xml:lang="en">Menandrus</persName>
+                     <persName>Μενάνδρου</persName>
+                     <state type="desc">
+                        <note>Aurelius (30) <ref corresp="#Vol-3-G_M-d8e31616-person" type="relation" n="father-of">Eusabbathius (2)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Corycos, Duchesne</note>
+                     </state>
+                     <bibl>CIJ788</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3186"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e55413-person"
+                          n="Vol-3-G_M-Greek-Males-Menandrus-6">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μένανδρος</persName>
+                     <persName type="lemma" xml:lang="en">Menandrus</persName>
+                     <persName>Μενάνδρου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e12865-person" type="relation" n="father-of">Cosius (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Manumission inscription, Panticapaeum,<ref type="note" corresp="#Vol-3-G_M-ftn3187"/>Newton</note>
+                     </state>
+                     <bibl>CIJ65*</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3188"/>P:Bosphoran Kingdom</note>
+                     </state>
+                     <floruit>175-210 CE<ref type="note" corresp="#Vol-3-G_M-ftn3189"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e55452-person"
+                          n="Vol-3-G_M-Greek-Males-Menandrus-7">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μένανδρος</persName>
+                     <persName type="lemma" xml:lang="en">Menandrus</persName>
+                     <persName>Μενάνδρου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-S-G_M-d8e2827-person" type="relation" n="father-of">Maisaizabas (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Hermopolis, Zucker</note>
+                     </state>
+                     <bibl>JIGRE156:81</bibl>
+                     <state type="addl-Descr">
+                        <note>Idumean<ref type="note" corresp="#Vol-3-G_M-ftn3190"/>P:Egypt</note>
+                     </state>
+                     <floruit>78 BCE<ref type="note" corresp="#Vol-3-G_M-ftn3191"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e55484-person"
+                          n="Vol-3-G_M-Greek-Males-Menandrus-8">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μένανδρος</persName>
+                     <persName type="lemma" xml:lang="en">Menandrus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Larissa, Giannopoulos</note>
+                     </state>
+                     <bibl>IJO1, Ach11</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3192"/>P:Greece</note>
+                     </state>
+                     <floruit>1st-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e55518-person"
+                          n="Vol-3-G_M-Greek-Males-Menandrus-9">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μένανδρος</persName>
+                     <persName type="lemma" xml:lang="en">Menandrus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e9159-person" type="relation" n="son-of">Apollonides (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Nysa, Robert</note>
+                     </state>
+                     <bibl>IJO2, 26</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3193"/>P:Asia</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e55555-person"
+                          n="Vol-3-G_M-Greek-Males-Menandrus-10">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μένανδρος</persName>
+                     <persName type="lemma" xml:lang="en">Menandrus</persName>
+                     <persName>Μενάνδρου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_F-d8e1075-person" type="relation" n="father-of">Appia (4)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Kotiaeion, Waddington</note>
+                     </state>
+                     <bibl>IJO2, 211</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3194"/>P:Asia</note>
+                     </state>
+                     <floruit>1st-2ndC CE<ref type="note" corresp="#Vol-3-G_M-ftn3195"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e55593-person"
+                          n="Vol-3-G_M-Greek-Males-Menandrus-11">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Μένανδρος</persName>
+                     <persName type="lemma" xml:lang="en">Menandrus</persName>
+                     <persName>Μενάνδρου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e33316-person" type="relation" n="son-of">Shabtai (149)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Korasion</note>
+                     </state>
+                     <bibl>MAMA3, 166</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3196"/>P:Asia</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-G_M-ftn3197"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

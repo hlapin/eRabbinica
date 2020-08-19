@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Semne-Σέμνη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Semne-Vol-3-G_F"
+                type="name"
+                n="Semne-Σέμνη"
+                xml:id="name-Semne-d1e483433">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn997"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e17490-person" n="Vol-3-G_F-Greek-Females-Semne-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Σέμνη</persName>
+                     <persName type="lemma" xml:lang="en">Semne</persName>
+                     <persName>Semne</persName>
+                     <state type="desc">
+                        <note>Aurelia (23) <ref corresp="#Vol-3-G_F-d8e13148-person" type="relation" n="mother-of">Calliste (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Lyon, Oehler</note>
+                     </state>
+                     <bibl>CIJ62*</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn998"/>P:Gaul</note>
+                     </state>
+                     <floruit>2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

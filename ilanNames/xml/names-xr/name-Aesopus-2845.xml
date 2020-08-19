@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aesopus-Αἴσωπος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Aesopus-Vol-2-Vol-1-ADD-G_M"
+                type="name"
+                n="Aesopus-Αἴσωπος"
+                xml:id="name-Aesopus-d1e439521">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-G_M-ftn9"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-G_M-d8e118-person"
+                          n="Vol-2-Vol-1-ADD-G_M-Greek-Males-Aesopus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Αἴσωπος</persName>
+                     <persName type="lemma" xml:lang="en">Aesopus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn10"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>AJ15:47 (Schalit,NB, 6)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn11"/>
+                        </note>
+                     </state>
+                     <floruit>36 BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn12"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

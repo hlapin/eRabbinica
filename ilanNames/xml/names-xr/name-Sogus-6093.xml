@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sogus-Sogus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Sogus-Vol-3-S-G_M"
+                type="name"
+                n="Sogus-Sogus"
+                xml:id="name-Sogus-d1e569772">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-S-G_M-ftn230"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-S-G_M-d8e3756-person"
+                          n="Vol-3-S-G_M-Semitic-Greek-Males-Sogus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Sogus</persName>
+                     <persName type="lemma" xml:lang="en">Sogus</persName>
+                     <persName>Σογους</persName>
+                     <state type="desc">
+                        <note>Aurelius (42) Valerius (7), <ref corresp="#Vol-3-G_M-d8e61305-person" type="relation" n="son-of">Olympius (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Panticapeum,<ref type="note" corresp="#Vol-3-S-G_M-ftn231"/>Latyšev</note>
+                     </state>
+                     <bibl>IJO1,BS4</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-S-G_M-ftn232"/>P:Bosphoran Kingdom</note>
+                     </state>
+                     <floruit>306 CE<ref type="note" corresp="#Vol-3-S-G_M-ftn233"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-S-G_M-d8e3803-person"
+                          n="Vol-3-S-G_M-Semitic-Greek-Males-Sogus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Sogus</persName>
+                     <persName type="lemma" xml:lang="en">Sogus</persName>
+                     <persName>Σογος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e81773-person" type="relation" n="son-of">Psycharion (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Manumission inscription, Phanagoria,<ref type="note" corresp="#Vol-3-S-G_M-ftn234"/>Dan’shin</note>
+                     </state>
+                     <bibl>IJO1, BS18</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-S-G_M-ftn235"/>P:Bosphoran Kingdom</note>
+                     </state>
+                     <floruit>45-52 CE<ref type="note" corresp="#Vol-3-S-G_M-ftn236"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Theochrestus-Θεόχρηστος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Theochrestus-Vol-3-G_M"
+                type="name"
+                n="Theochrestus-Θεόχρηστος"
+                xml:id="name-Theochrestus-d1e506744">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2670"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e46403-person"
+                          n="Vol-3-G_M-Greek-Males-Theochrestus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Θεόχρηστος</persName>
+                     <persName type="lemma" xml:lang="en">Theochrestus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e34107-person" type="relation" n="son-of">Solomon (2)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Thebes, Wilcken</note>
+                     </state>
+                     <bibl>CPJ85</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2671"/>P:Egypt</note>
+                     </state>
+                     <floruit>156 BCE<ref type="note" corresp="#Vol-3-G_M-ftn2672"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e46434-person"
+                          n="Vol-3-G_M-Greek-Males-Theochrestus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Θεόχρηστος</persName>
+                     <persName type="lemma" xml:lang="en">Theochrestus</persName>
+                     <persName>Θευχρ[ήστου]<ref type="note" corresp="#Vol-3-G_M-ftn2673"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e13606-person" type="relation" n="father-of">Crateia (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira</note>
+                     </state>
+                     <bibl>Reynolds,CJZC22g</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2674"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117CE?</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

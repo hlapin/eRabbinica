@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aetius-̓Αέτιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Aetius-Vol-2-G_M names/Vol-2-Vol-1-ADD-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Aetius-Vol-2-Vol-1-ADD-G_M"
+                type="name"
+                n="Aetius-̓Αέτιος"
+                xml:id="name-Aetius-d1e353892">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn15"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-G_M-ftn5"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e241-person" n="Vol-2-G_M-Greek-Males-Aetius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αέτιος</persName>
+                     <persName type="lemma" xml:lang="en">Aetius</persName>
+                     <persName>̓Αετίου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e3759-person" type="relation" n="father-of">Gelasius (2)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Sepphoris, Ewing</note>
+                     </state>
+                     <bibl>CIJ991</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>4th-5thC</floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-G_M-d8e74-person"
+                          n="Vol-2-Vol-1-ADD-G_M-Greek-Males-Aetius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αέτιος</persName>
+                     <persName type="lemma" xml:lang="en">Aetius</persName>
+                     <persName>Twenty-second to Herod<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn6"/>
+                     </persName>
+                     <state type="provenance">
+                        <note>POiv/5, 534</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn7"/>
+                        </note>
+                     </state>
+                     <floruit>30 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn8"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

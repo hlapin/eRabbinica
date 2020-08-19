@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Neon-Neon</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Neon-Vol-3-E_M"
+                type="name"
+                n="Neon-Neon"
+                xml:id="name-Neon-d1e464180">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn238"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e3973-person" n="Vol-3-E_M-Egyptian-Males-Neon-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Neon</persName>
+                     <persName type="lemma" xml:lang="en">Neon</persName>
+                     <persName>Νέωνος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e78918-person" type="relation" n="father-of">Philistion (2)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Theogenis, Kramer</note>
+                     </state>
+                     <bibl>CPR18:9</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-E_M-ftn239"/>P:Egypt</note>
+                     </state>
+                     <floruit>232 BCE<ref type="note" corresp="#Vol-3-E_M-ftn240"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

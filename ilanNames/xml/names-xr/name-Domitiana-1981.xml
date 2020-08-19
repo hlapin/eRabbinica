@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Domitiana-Domitiana</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_F-Latin-Female-to-utf-TEI-P5-names.xml/#Domitiana-Vol-2-L_F names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Domitiana-Vol-3-L_F"
+                type="name"
+                n="Domitiana-Domitiana"
+                xml:id="name-Domitiana-d1e378542">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_F-ftn57"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn372"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_F-d8e632-person" n="Vol-2-L_F-Latin-Female-Domitiana-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Domitiana</persName>
+                     <persName type="lemma" xml:lang="en">Domitiana</persName>
+                     <persName>דמטינה<ref type="note" corresp="#Vol-2-L_F-ftn58"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-S-H_M-d8e15153-person"
+                                type="relation"
+                                n="daughter-of">Ḥartat (2)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>Naveh,Tarbiz64 (1995) no. 6</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>352<ref type="note" corresp="#Vol-2-L_F-ftn59"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e6920-person"
+                          n="Vol-3-L_F-Latin-Females-Domitiana-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Domitiana</persName>
+                     <persName type="lemma" xml:lang="en">Domitiana</persName>
+                     <persName>Δομιτιανήν<ref type="note" corresp="#Vol-3-L_F-ftn373"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_F-d8e4728-person" type="relation" n="daughter-of">Candida (1)’s daughter</ref>, <ref corresp="#" type="relation" n="wife-of">Orbanus (3)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Amulet, Hadrumetum</note>
+                     </state>
+                     <bibl>Audollent,DT, no. 271</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn374"/>P:North Africa</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn375"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

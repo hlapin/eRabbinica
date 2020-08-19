@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Eudoxius-Ε̓δόξιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Eudoxius-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Eudoxius-Vol-3-G_M"
+                type="name"
+                n="Eudoxius-Ε̓δόξιος"
+                xml:id="name-Eudoxius-d1e359101">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn431"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1726"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e6221-person" n="Vol-2-G_M-Greek-Males-Eudoxius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ε̓δόξιος</persName>
+                     <persName type="lemma" xml:lang="en">Eudoxius</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription?<ref type="note" corresp="#Vol-2-G_M-ftn432"/>Syria,du Mesnil</note>
+                     </state>
+                     <bibl>IJO3, App16</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn433"/>
+                        </note>
+                     </state>
+                     <floruit>5thC</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e29497-person" n="Vol-3-G_M-Greek-Males-Eudoxius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ε̓δόξιος</persName>
+                     <persName type="lemma" xml:lang="en">Eudoxius</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn1727"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ109</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1728"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

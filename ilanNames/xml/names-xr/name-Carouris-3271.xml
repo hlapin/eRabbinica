@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Carouris-Carouris</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-E_M-Egyptian-Males-to-utf-TEI-P5-names.xml/#Carouris-Vol-3-E_M"
+                type="name"
+                n="Carouris-Carouris"
+                xml:id="name-Carouris-d1e461530">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-E_M-ftn83"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-E_M-d8e1335-person"
+                          n="Vol-3-E_M-Egyptian-Males-Carouris-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Carouris</persName>
+                     <persName type="lemma" xml:lang="en">Carouris</persName>
+                     <persName>Καροῦρις</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e11838-person" type="relation" n="father-of">Abdi (4)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Thebes, Sayce</note>
+                     </state>
+                     <bibl>CPJ65</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn84"/>P:Egypt</note>
+                     </state>
+                     <floruit>151 BCE<ref type="note" corresp="#Vol-3-E_M-ftn85"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

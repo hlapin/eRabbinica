@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Micha-מיכה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Micha-Vol-1-B_M"
+                type="name"
+                n="Micha-מיכה"
+                xml:id="name-Micha-d1e127015">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_M-ftn3259"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_M-d2e42334-person" n="Vol-1-B_M-Micha-1">
+                     <persName type="lemma">מיכה</persName>
+                     <persName type="lemma" xml:lang="en">Micha</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Μιχαίας<ref type="note" corresp="#Vol-1-B_M-ftn3260"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Clementine Homilies 2:1 (PG2, 77)</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-1-B_M-ftn3261"/>
+                        </note>
+                     </state>
+                     <floruit>30s-40s CE<ref type="note" corresp="#Vol-1-B_M-ftn3262"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

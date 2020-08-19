@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Suriel-צוריאל</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-4-ADD-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Suriel-Vol-2-Vol-4-ADD-B_M"
+                type="name"
+                n="Suriel-צוריאל"
+                xml:id="name-Suriel-d1e454026">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-4-ADD-B_M-ftn42"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-4-ADD-B_M-d8e599-person"
+                          n="Vol-2-Vol-4-ADD-B_M-Biblical-Males-Suriel-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">צוריאל</persName>
+                     <persName type="lemma" xml:lang="en">Suriel</persName>
+                     <persName>–<ref type="note" corresp="#Vol-2-Vol-4-ADD-B_M-ftn43"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-Vol-4-ADD-B_M-ftn44"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Deed of sale inscription, Ḥaṣi, Yemen</note>
+                     </state>
+                     <bibl>Robin, “Ḥimyar et Israel,” no. 4</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-2-Vol-4-ADD-B_M-ftn45"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>4th-6thC CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-B_M-ftn46"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

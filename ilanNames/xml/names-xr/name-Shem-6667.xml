@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Shem-שם</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Shem-Vol-4-B_M"
+                type="name"
+                n="Shem-שם"
+                xml:id="name-Shem-d1e600692">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-B_M-ftn1877"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-B_M-d8e29046-person" n="Vol-4-B_M-Biblical-Males-Shem-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">שם</persName>
+                     <persName type="lemma" xml:lang="en">Shem</persName>
+                     <persName>سام<ref type="note" corresp="#Vol-4-B_M-ftn1878"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Malkiah (4) <ref corresp="#" type="relation" n="father-of">ʿAbdullāh (5)’s father</ref>, of the Kinda<ref type="note" corresp="#Vol-4-B_M-ftn1879"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Ibn Saʿd,ṭabaqātI, 79-80</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn1880"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>6thC CE<ref type="note" corresp="#Vol-4-B_M-ftn1881"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-B_M-d8e29093-person" n="Vol-4-B_M-Biblical-Males-Shem-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">שם</persName>
+                     <persName type="lemma" xml:lang="en">Shem</persName>
+                     <persName>Honi (1)’s son</persName>
+                     <state type="provenance">
+                        <note>Seal</note>
+                     </state>
+                     <bibl>Shaked, “Jewish Sasanian Sigillography,” no. 13</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn1882"/>; authentic?<ref type="note" corresp="#Vol-4-B_M-ftn1883"/>P:Babylonia?<ref type="note" corresp="#Vol-4-B_M-ftn1884"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-4-B_M-ftn1885"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

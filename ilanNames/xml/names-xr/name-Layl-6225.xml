@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Laylā-ليلى</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_F-Arabic-Females-to-utf-TEI-P5-names.xml/#Layl-Vol-4-A_F"
+                type="name"
+                n="Laylā-ليلى"
+                xml:id="name-Layl-d1e575283">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_F-ftn65"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_F-d8e845-person" n="Vol-4-A_F-Arabic-Females-Laylā-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">ليلى</persName>
+                     <persName type="lemma" xml:lang="en">Laylā</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Ḥusayl (1) and <ref corresp="#Vol-4-A_F-d8e213-person" type="relation" n="daughter-of">Ribāb (2)’s daughter</ref>, Saʿd (5), Mudlij (1) and Safwān (1), <ref corresp="#Vol-4-A_M-d8e3133-person" type="relation" n="sister-of">Ḥudhayfa (1)’s sister</ref>, <ref corresp="#Vol-4-A_M-d8e1881-person" type="relation" n="wife-of">Thābit (1)’s wife</ref>, <ref corresp="#Vol-4-A_M-d8e9946-person" type="relation" n="mother-of">ʿUmar (17)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Ibn Saʿd,ṭabaqāt, VIII, 320</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-A_F-ftn66"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>Pre-632 CE<ref type="note" corresp="#Vol-4-A_F-ftn67"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

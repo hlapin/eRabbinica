@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Onesime-̓Ονησίμη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-Vol-1-ADD-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Onesime-Vol-2-Vol-1-ADD-G_F names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Onesime-Vol-3-G_F"
+                type="name"
+                n="Onesime-̓Ονησίμη"
+                xml:id="name-Onesime-d1e439237">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-G_F-ftn74"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn920"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-Vol-1-ADD-G_F-d8e1210-person"
+                          n="Vol-2-Vol-1-ADD-G_F-Greek-Females-Onesime-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Ονησίμη</persName>
+                     <persName type="lemma" xml:lang="en">Onesime</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn75"/>Tomb of the Prophets, Clermon-Gannau</note>
+                     </state>
+                     <bibl>CIIP1/2, 939</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn76"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn77"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e16154-person"
+                          n="Vol-3-G_F-Greek-Females-Onesime-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Ονησίμη</persName>
+                     <persName type="lemma" xml:lang="en">Onesime</persName>
+                     <persName>̓Ονεσίμην<ref type="note" corresp="#Vol-3-G_F-ftn921"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Aurelia (16), Titedius (1) <ref corresp="#Vol-3-G_M-d8e5561-person" type="relation" n="wife-of">Amerimnus (1)’s wife</ref>, <ref corresp="#Vol-3-G_M-d8e29609-person"
+                                type="relation"
+                                n="daughter-of">Euelpistus (1)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Acmonia, Ramsay</note>
+                     </state>
+                     <bibl>CIJ768</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn922"/>
+                        </note>
+                     </state>
+                     <floruit>Asia</floruit>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

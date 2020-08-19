@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Calypso-Καλυψώ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Calypso-Vol-3-G_F"
+                type="name"
+                n="Calypso-Καλυψώ"
+                xml:id="name-Calypso-d1e480019">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn747"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e13258-person"
+                          n="Vol-3-G_F-Greek-Females-Calypso-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Καλυψώ</persName>
+                     <persName type="lemma" xml:lang="en">Calypso</persName>
+                     <persName>Kalypso<ref type="note" corresp="#Vol-3-G_F-ftn748"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_F-ftn749"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Kaibel</note>
+                     </state>
+                     <bibl>JIGRE141</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn750"/>Second nameP:Rome / Egypt<ref type="note" corresp="#Vol-3-G_F-ftn751"/>
+                        </note>
+                     </state>
+                     <floruit>2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

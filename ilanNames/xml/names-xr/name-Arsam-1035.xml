@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Arsam-Arsam</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Arsam-Vol-1-P_M"
+                type="name"
+                n="Arsam-Arsam"
+                xml:id="name-Arsam-d1e280738">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-P_M-ftn4"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-P_M-d2e90-person" n="Vol-1-P_M-Arsam-1">
+                     <persName type="lemma">Arsam</persName>
+                     <persName type="lemma" xml:lang="en">Arsam</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">̓́Αρσαμος<ref type="note" corresp="#Vol-1-P_M-ftn5"/>
+                     </persName>
+                     <persName xml:lang="he">ארסם<ref type="note" corresp="#Vol-1-P_M-ftn6"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Arist49</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-1-P_M-ftn7"/>
+                        </note>
+                     </state>
+                     <floruit>3rdC BCE<ref type="note" corresp="#Vol-1-P_M-ftn8"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-P_M-d2e152-person" n="Vol-1-P_M-Arsam-2">
+                     <persName type="lemma">Arsam</persName>
+                     <persName type="lemma" xml:lang="en">Arsam</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">̓́Αρσαμος<ref type="note" corresp="#Vol-1-P_M-ftn9"/>
+                     </persName>
+                     <persName xml:lang="he">ארסם<ref type="note" corresp="#Vol-1-P_M-ftn10"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Arist50</bibl>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-1-P_M-ftn11"/>
+                        </note>
+                     </state>
+                     <floruit>3rdC BCE<ref type="note" corresp="#Vol-1-P_M-ftn12"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

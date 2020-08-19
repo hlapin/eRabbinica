@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Hippomachus-̔Ιππόμαχος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Hippomachus-Vol-3-G_M"
+                type="name"
+                n="Hippomachus-̔Ιππόμαχος"
+                xml:id="name-Hippomachus-d1e507768">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2794"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e48653-person"
+                          n="Vol-3-G_M-Greek-Males-Hippomachus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̔Ιππόμαχος</persName>
+                     <persName type="lemma" xml:lang="en">Hippomachus</persName>
+                     <persName>[̔Ι]ππομάχου<ref type="note" corresp="#Vol-3-G_M-ftn2795"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e47372-person" type="relation" n="father-of">Jason (15)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Marmarica, Norsa &amp; Vitelli</note>
+                     </state>
+                     <bibl>CJZC77.3</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2796"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>175-81 CE<ref type="note" corresp="#Vol-3-G_M-ftn2797"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

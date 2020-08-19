@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Rāzī-Rāzī</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Rz-Vol-1-P_M"
+                type="name"
+                n="Rāzī-Rāzī"
+                xml:id="name-Rz-d1e283226">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-P_M-ftn178"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-P_M-d2e2421-person" n="Vol-1-P_M-Rāzī-1">
+                     <persName type="lemma">Rāzī</persName>
+                     <persName type="lemma" xml:lang="en">Rāzī</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">̔Ραζείς<ref type="note" corresp="#Vol-1-P_M-ftn179"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>2 Macc 14:37 (H &amp; R Suppl. 127)<ref type="note" corresp="#Vol-1-P_M-ftn180"/>
+                     </bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>162 BCE<ref type="note" corresp="#Vol-1-P_M-ftn181"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

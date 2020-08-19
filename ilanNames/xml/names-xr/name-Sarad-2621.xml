@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sarad-סרד</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Sarad-Vol-2-S-H_M"
+                type="name"
+                n="Sarad-סרד"
+                xml:id="name-Sarad-d1e429328">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn1291"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e20679-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Sarad-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">סרד</persName>
+                     <persName type="lemma" xml:lang="en">Sarad</persName>
+                     <persName>–<ref type="note" corresp="#Vol-2-S-H_M-ftn1292"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e40021-person" type="relation" n="father-of">Amram (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Tulida, 90</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-S-H_M-ftn1293"/>
+                        </note>
+                     </state>
+                     <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn1294"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-S-H_M-d8e20724-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Sarad-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">סרד</persName>
+                     <persName type="lemma" xml:lang="en">Sarad</persName>
+                     <persName>Σαρίδας<ref type="note" corresp="#Vol-2-S-H_M-ftn1295"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e15408-person" type="relation" n="son-of">Peitholaus (1)’s son</ref>, Archisynagogus<ref type="note" corresp="#Vol-2-S-H_M-ftn1296"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1a, no. 7</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-2-S-H_M-ftn1297"/>
+                        </note>
+                     </state>
+                     <floruit>345<ref type="note" corresp="#Vol-2-S-H_M-ftn1298"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

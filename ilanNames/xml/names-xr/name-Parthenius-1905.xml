@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Parthenius-Παρθένιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Parthenius-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Parthenius-Vol-3-G_M"
+                type="name"
+                n="Parthenius-Παρθένιος"
+                xml:id="name-Parthenius-d1e369884">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn1000"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3690"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e15270-person"
+                          n="Vol-2-G_M-Greek-Males-Parthenius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Παρθένιος</persName>
+                     <persName type="lemma" xml:lang="en">Parthenius</persName>
+                     <persName>Παρθένης<ref type="note" corresp="#Vol-2-G_M-ftn1001"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Beth She‘arim,catacomb 21</note>
+                     </state>
+                     <bibl>BS2:201</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_M-ftn1002"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_M-d8e15305-person"
+                          n="Vol-2-G_M-Greek-Males-Parthenius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Παρθένιος</persName>
+                     <persName type="lemma" xml:lang="en">Parthenius</persName>
+                     <persName>Παρθενίου</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-S-G_F-d8e574-person" type="relation" n="father-of">Foseuati (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Zoar</note>
+                     </state>
+                     <bibl>IPT1a, no. 301</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn1003"/>
+                        </note>
+                     </state>
+                     <floruit>4th-6thC<ref type="note" corresp="#Vol-2-G_M-ftn1004"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e63991-person"
+                          n="Vol-3-G_M-Greek-Males-Parthenius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Παρθένιος</persName>
+                     <persName type="lemma" xml:lang="en">Parthenius</persName>
+                     <persName>Παρθενίῳ</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="husband-of">Pollita (1)’s husband</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Frey</note>
+                     </state>
+                     <bibl>CIJ6*</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3691"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e64041-person"
+                          n="Vol-3-G_M-Greek-Males-Parthenius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Παρθένιος</persName>
+                     <persName type="lemma" xml:lang="en">Parthenius</persName>
+                     <persName>Παρθενίῳ</persName>
+                     <state type="desc">
+                        <note>Rufus (9) <ref corresp="#Vol-3-L_M-d8e7331-person" type="relation" n="nephew-of">Aurelius (59)’s nephew</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Acmonia, Ramsay</note>
+                     </state>
+                     <bibl>IJO2, 177</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3692"/>P:Asia</note>
+                     </state>
+                     <floruit>2ndC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

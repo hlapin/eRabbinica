@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Yoahaz-יואחז</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Yoahaz-Vol-1-B_M"
+                type="name"
+                n="Yoahaz-יואחז"
+                xml:id="name-Yoahaz-d1e83020">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_M-ftn1825"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_M-d2e24697-person" n="Vol-1-B_M-Yoahaz-1">
+                     <persName type="lemma">יואחז</persName>
+                     <persName type="lemma" xml:lang="en">Yoahaz</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">יאחז<ref type="note" corresp="#Vol-1-B_M-ftn1826"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostraca, Masada</note>
+                     </state>
+                     <bibl>Mas nos. 421, 422<ref type="note" corresp="#Vol-1-B_M-ftn1827"/>
+                     </bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-73 CE<ref type="note" corresp="#Vol-1-B_M-ftn1828"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-B_M-d2e24721-person" n="Vol-1-B_M-Yoahaz-2">
+                     <persName type="lemma">יואחז</persName>
+                     <persName type="lemma" xml:lang="en">Yoahaz</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">יהוחזי<ref type="note" corresp="#Vol-1-B_M-ftn1829"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, list, Jericho</note>
+                     </state>
+                     <bibl>Jer 1</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Post-323 BCE<ref type="note" corresp="#Vol-1-B_M-ftn1830"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Zoila-Ζωΐλα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Zoila-Vol-2-G_F names/Vol-2-Vol-1-ADD-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Zoila-Vol-2-Vol-1-ADD-G_F"
+                type="name"
+                n="Zoila-Ζωΐλα"
+                xml:id="name-Zoila-d1e350331">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_F-ftn120"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-G_F-ftn48"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_F-d8e1906-person" n="Vol-2-G_F-Greek-Females-Zoila-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Ζωΐλα</persName>
+                     <persName type="lemma" xml:lang="en">Zoila</persName>
+                     <persName>Ζοείλα<ref type="note" corresp="#Vol-2-G_F-ftn121"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Beth She‘arim, catacomb 8,CIJ1157</note>
+                     </state>
+                     <bibl>BS2:123</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_F-ftn122"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-G_F-d8e784-person"
+                          n="Vol-2-Vol-1-ADD-G_F-Greek-Females-Zoila-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Ζωΐλα</persName>
+                     <persName type="lemma" xml:lang="en">Zoila</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, IAA</note>
+                     </state>
+                     <bibl>CIIP1/1, 603</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn49"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-G_F-d8e809-person"
+                          n="Vol-2-Vol-1-ADD-G_F-Greek-Females-Zoila-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Ζωΐλα</persName>
+                     <persName type="lemma" xml:lang="en">Zoila</persName>
+                     <persName>Ζοΐλα<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn50"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn51"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Apollonia, Vincent</note>
+                     </state>
+                     <bibl>CIJ891</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn52"/>
+                        </note>
+                     </state>
+                     <floruit>179 CE?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn53"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

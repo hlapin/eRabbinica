@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Licinia-Licinia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Licinia-Vol-3-L_F"
+                type="name"
+                n="Licinia-Licinia"
+                xml:id="name-Licinia-d1e534870">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn663"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e24430-person"
+                          n="Vol-3-L_F-Latin-Females-Licinia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Licinia</persName>
+                     <persName type="lemma" xml:lang="en">Licinia</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Licinius (1) <ref corresp="#Vol-3-L_M-d8e9639-person" type="relation" n="mother-of">Bendemialinus (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Via Ostiensis, Marucchi</note>
+                     </state>
+                     <bibl>CIJ23*</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn664"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e24470-person"
+                          n="Vol-3-L_F-Latin-Females-Licinia-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Licinia</persName>
+                     <persName type="lemma" xml:lang="en">Licinia</persName>
+                     <persName>Licenia<ref type="note" corresp="#Vol-3-L_F-ftn665"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Carrthage</note>
+                     </state>
+                     <bibl>Le Bohec,Ant. Afr.17 (1981) no. 36</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn666"/>P:North Africa</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn667"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

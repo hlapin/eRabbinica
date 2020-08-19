@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Africanus-Africanus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Africanus-Vol-1-L_M names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Africanus-Vol-2-L_M names/Vol-2-Vol-1-ADD-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Africanus-Vol-2-Vol-1-ADD-L_M names/Vol-4-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Africanus-Vol-4-L_M"
+                type="name"
+                n="Africanus-Africanus"
+                xml:id="name-Africanus-d1e251722">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-L_M-ftn1"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn9"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-L_M-ftn1"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-L_M-ftn6"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-L_M-d2e44-person" n="Vol-1-L_M-Africanus-1">
+                     <persName type="lemma">Africanus</persName>
+                     <persName type="lemma" xml:lang="en">Africanus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">̓Αφρεικανός<ref type="note" corresp="#Vol-1-L_M-ftn2"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_F-d2e4221-person" type="relation" n="father-of">Salome (9)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary lid, Shu‘afat, Abel, 1913</note>
+                     </state>
+                     <bibl>CIJ, no. 1226 (1215)<ref type="note" corresp="#Vol-1-L_M-ftn3"/>
+                     </bibl>
+                     <state type="addl-Descr">
+                        <note>Palmyra<ref type="note" corresp="#Vol-1-L_M-ftn4"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-L_M-ftn5"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-L_M-d2e93-person" n="Vol-1-L_M-Africanus-2">
+                     <persName type="lemma">Africanus</persName>
+                     <persName type="lemma" xml:lang="en">Africanus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">̓Αφρεικανός<ref type="note" corresp="#Vol-1-L_M-ftn6"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Shu‘afat, Abel, 1913</note>
+                     </state>
+                     <bibl>CIJ, no. 1227</bibl>
+                     <state type="addl-Descr">
+                        <note>Palmyra<ref type="note" corresp="#Vol-1-L_M-ftn7"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-L_M-ftn8"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-L_M-d8e120-person" n="Vol-2-L_M-Latin-Males-Africanus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Africanus</persName>
+                     <persName type="lemma" xml:lang="en">Africanus</persName>
+                     <persName>̓Αφρικανός<ref type="note" corresp="#Vol-2-L_M-ftn10"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Cestes291</bibl>
+                     <state type="addl-Descr">
+                        <note>Christian convert?<ref type="note" corresp="#Vol-2-L_M-ftn11"/>
+                        </note>
+                     </state>
+                     <floruit>185-240<ref type="note" corresp="#Vol-2-L_M-ftn12"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-L_M-d8e12-person"
+                          n="Vol-2-Vol-1-ADD-L_M-Latin-Males-Africanus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Africanus</persName>
+                     <persName type="lemma" xml:lang="en">Africanus</persName>
+                     <persName>̓Αφρικανός<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn2"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn3"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>POiv/5, 534</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>Fictitious<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn4"/>
+                        </note>
+                     </state>
+                     <floruit>30 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn5"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-L_M-d8e67-person" n="Vol-4-L_M-Latin-Males-Africanus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Africanus</persName>
+                     <persName type="lemma" xml:lang="en">Africanus</persName>
+                     <persName>̓Αφρεικανός<ref type="note" corresp="#Vol-4-L_M-ftn7"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_F-d8e922-person" type="relation" n="father-of">Salome (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary cover, Jerusalem, Abel</note>
+                     </state>
+                     <bibl>CIJ1226 (1215)<ref type="note" corresp="#Vol-4-L_M-ftn8"/>
+                     </bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-L_M-ftn9"/>P:Palmyra<ref type="note" corresp="#Vol-4-L_M-ftn10"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-4-L_M-ftn11"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-L_M-d8e111-person" n="Vol-4-L_M-Latin-Males-Africanus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Africanus</persName>
+                     <persName type="lemma" xml:lang="en">Africanus</persName>
+                     <persName>̓Αφρεικανός<ref type="note" corresp="#Vol-4-L_M-ftn12"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-L_M-ftn13"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Jerusalem, Abel</note>
+                     </state>
+                     <bibl>CIJ1227</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-L_M-ftn14"/>P:Palmyra<ref type="note" corresp="#Vol-4-L_M-ftn15"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-4-L_M-ftn16"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

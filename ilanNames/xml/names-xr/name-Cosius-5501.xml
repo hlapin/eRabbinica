@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Cosius-Cosius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Cosius-Vol-3-L_M"
+                type="name"
+                n="Cosius-Cosius"
+                xml:id="name-Cosius-d1e548550">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn759"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e12865-person" n="Vol-3-L_M-Latin-Males-Cosius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Cosius</persName>
+                     <persName type="lemma" xml:lang="en">Cosius</persName>
+                     <persName>Κοσσοῦ<ref type="note" corresp="#Vol-3-L_M-ftn760"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e81443-person" type="relation" n="father-of">Chrestus (2)’s father</ref>, <ref corresp="#Vol-3-G_M-d8e55413-person" type="relation" n="son-of">Menandrus (6)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Manumission inscription, Panticapeum,<ref type="note" corresp="#Vol-3-L_M-ftn761"/>Newton</note>
+                     </state>
+                     <bibl>CIJ65*</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn762"/>P:Bosphoran Kingdom</note>
+                     </state>
+                     <floruit>175-210 CE<ref type="note" corresp="#Vol-3-L_M-ftn763"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

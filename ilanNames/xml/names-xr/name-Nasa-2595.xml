@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Nasa-נסא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Nasa-Vol-2-S-H_M"
+                type="name"
+                n="Nasa-נסא"
+                xml:id="name-Nasa-d1e427960">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn1219"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e19602-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Nasa-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">נסא</persName>
+                     <persName type="lemma" xml:lang="en">Nasa</persName>
+                     <persName>ניסא<ref type="note" corresp="#Vol-2-S-H_M-ftn1220"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>yBer3:1, 6a (Kosovsky,Yerushalmi, 553)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn1221"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-S-H_M-d8e19639-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Nasa-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">נסא</persName>
+                     <persName type="lemma" xml:lang="en">Nasa</persName>
+                     <persName>אסי<ref type="note" corresp="#Vol-2-S-H_M-ftn1222"/>
+                     </persName>
+                     <persName>/ניסי<ref type="note" corresp="#Vol-2-S-H_M-ftn1223"/>
+                     </persName>
+                     <persName>/נסה<ref type="note" corresp="#Vol-2-S-H_M-ftn1224"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-2-S-H_M-ftn1225"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Lev Rab16:1 (Hyman,Toldoth, 948)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-400<ref type="note" corresp="#Vol-2-S-H_M-ftn1226"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Agra-אגרה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Agra-Vol-1-S-H_M"
+                type="name"
+                n="Agra-אגרה"
+                xml:id="name-Agra-d1e303889">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-H_M-ftn46"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-H_M-d2e751-person" n="Vol-1-S-H_M-Agra-1">
+                     <persName type="lemma">אגרה</persName>
+                     <persName type="lemma" xml:lang="en">Agra</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">גמדא<ref type="note" corresp="#Vol-1-S-H_M-ftn47"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-1-S-H_M-ftn48"/>
+                           <ref corresp="#Vol-1-B_M-d2e18176-person" type="relation" n="father-of">Judah (41)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>tKil1:12 (Kasowski, Thosephthae, 29)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-135 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn49"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-S-H_M-d2e792-person" n="Vol-1-S-H_M-Agra-2">
+                     <persName type="lemma">אגרה</persName>
+                     <persName type="lemma" xml:lang="en">Agra</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-S-H_M-d2e6915-person" type="relation" n="father-of">Halfai (3)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>tBQ9:31 (Kasowski, Thosephthae, 220)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Post-135 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn50"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-S-H_M-d2e817-person" n="Vol-1-S-H_M-Agra-3">
+                     <persName type="lemma">אגרה</persName>
+                     <persName type="lemma" xml:lang="en">Agra</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>Joseph (105), Tobiah (7), <ref corresp="#Vol-1-B_F-d2e2208-person" type="relation" n="father-of">Mariam (36)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Bagatti</note>
+                     </state>
+                     <bibl>DF96, nos. 32, 33, 34<ref type="note" corresp="#Vol-1-S-H_M-ftn51"/>
+                     </bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn52"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

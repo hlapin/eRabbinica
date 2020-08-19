@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Theophila-Θεοφίλα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Theophila-Vol-1-G_F names/Vol-2-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Theophila-Vol-2-G_F names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Theophila-Vol-3-G_F"
+                type="name"
+                n="Theophila-Θεοφίλα"
+                xml:id="name-Theophila-d1e192356">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_F-ftn156"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_F-ftn157"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn659"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_F-d2e2254-person" n="Vol-1-G_F-Theophila-1">
+                     <persName type="lemma">Θεοφίλα</persName>
+                     <persName type="lemma" xml:lang="en">Theophila</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="he">תפלה<ref type="note" corresp="#Vol-1-G_F-ftn157"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Isawiyya, Sukenik, 1930</note>
+                     </state>
+                     <bibl>CIJ, no. 1241</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn158"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_F-d8e2471-person"
+                          n="Vol-2-G_F-Greek-Females-Theophila-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Θεοφίλα</persName>
+                     <persName type="lemma" xml:lang="en">Theophila</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_M-d8e4422-person" type="relation" n="daughter-of">Diogenes (1)’s daughter</ref>, of Akko<ref type="note" corresp="#Vol-2-G_F-ftn158"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Athens</note>
+                     </state>
+                     <bibl>Urdahl,Symbolae Osloenses43 (1968) 48</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn159"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-G_F-ftn160"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e11825-person"
+                          n="Vol-3-G_F-Greek-Females-Theophila-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Θεοφίλα</persName>
+                     <persName type="lemma" xml:lang="en">Theophila</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e70475-person" type="relation" n="wife-of">Seleucus (4)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Larissa</note>
+                     </state>
+                     <bibl>CIJ704</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn660"/>P:Greece</note>
+                     </state>
+                     <floruit>1st-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e11859-person"
+                          n="Vol-3-G_F-Greek-Females-Theophila-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Θεοφίλα</persName>
+                     <persName type="lemma" xml:lang="en">Theophila</persName>
+                     <persName>Τευφίλα<ref type="note" corresp="#Vol-3-G_F-ftn661"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-E_M-d8e1862-person" type="relation" n="wife-of">Dosas (6)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Leontopolis, Edgar</note>
+                     </state>
+                     <bibl>CIJ1502</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn662"/>P:Egypt</note>
+                     </state>
+                     <floruit>1stC BCE-1stC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e11903-person"
+                          n="Vol-3-G_F-Greek-Females-Theophila-3">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Θεοφίλα</persName>
+                     <persName type="lemma" xml:lang="en">Theophila</persName>
+                     <persName>Τευφία<ref type="note" corresp="#Vol-3-G_F-ftn663"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_F-ftn664"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Leontopolis, Edgar</note>
+                     </state>
+                     <bibl>CIJ1506</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn665"/>P:Egypt</note>
+                     </state>
+                     <floruit>1stC BCE-1stC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

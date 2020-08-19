@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Eulalius-Ε̓λάλιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Eulalius-Vol-4-G_M"
+                type="name"
+                n="Eulalius-Ε̓λάλιος"
+                xml:id="name-Eulalius-d1e601589">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-G_M-ftn54"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-G_M-d8e710-person" n="Vol-4-G_M-Greek-Males-Eulalius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ε̓λάλιος</persName>
+                     <persName type="lemma" xml:lang="en">Eulalius</persName>
+                     <persName>Ε̓λάλι<ref type="note" corresp="#Vol-4-G_M-ftn55"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Stamp seal on jar, Dura-Europos, du Mesnil</note>
+                     </state>
+                     <bibl>CIJ844</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-G_M-ftn56"/>P:Dura-Europos</note>
+                     </state>
+                     <floruit>Pre-256 CE<ref type="note" corresp="#Vol-4-G_M-ftn57"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Abna-אבנא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_F-Semitic-Hebrew-Females-to-utf-TEI-P5-names.xml/#Abna-Vol-4-S-H_F"
+                type="name"
+                n="Abna-אבנא"
+                xml:id="name-Abna-d1e628638">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_F-ftn1"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_F-d8e18-person"
+                          n="Vol-4-S-H_F-Semitic-Hebrew-Females-Abna-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">אבנא</persName>
+                     <persName type="lemma" xml:lang="en">Abna</persName>
+                     <persName>–<ref type="note" corresp="#Vol-4-S-H_F-ftn2"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e32098-person"
+                                type="relation"
+                                n="daughter-of">Simon (23)’s daughter</ref>
+                           <ref type="note" corresp="#Vol-4-S-H_F-ftn3"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Palmyra, Lidzbarski</note>
+                     </state>
+                     <bibl>CIS2/3 4306</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_F-ftn4"/>P:Palmyra</note>
+                     </state>
+                     <floruit>218 CE<ref type="note" corresp="#Vol-4-S-H_F-ftn5"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

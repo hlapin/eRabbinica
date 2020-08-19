@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Maḥsiah-מחסיה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Masiah-Vol-4-B_M"
+                type="name"
+                n="Maḥsiah-מחסיה"
+                xml:id="name-Masiah-d1e597173">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-B_M-ftn1306"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-B_M-d8e15982-person"
+                          n="Vol-4-B_M-Biblical-Males-Maḥsiah-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">מחסיה</persName>
+                     <persName type="lemma" xml:lang="en">Maḥsiah</persName>
+                     <persName>Abba (5)’s father</persName>
+                     <state type="provenance">
+                        <note>yBer6:6, 10d (Kosovsky,Yerushalmi, 22)</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn1307"/>P:Babylonia<ref type="note" corresp="#Vol-4-B_M-ftn1308"/>
+                        </note>
+                     </state>
+                     <floruit>2nd-3rdC CE<ref type="note" corresp="#Vol-4-B_M-ftn1309"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-B_M-d8e16025-person"
+                          n="Vol-4-B_M-Biblical-Males-Maḥsiah-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">מחסיה</persName>
+                     <persName type="lemma" xml:lang="en">Maḥsiah</persName>
+                     <persName>
+                        <ref type="note" corresp="#Vol-4-B_M-ftn1310"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e972-person" type="relation" n="father-of">Abba (21)’s father</ref>
+                           <ref type="note" corresp="#Vol-4-B_M-ftn1311"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>bShab10b (Kosowsky,Babylonico, –)</note>
+                     </state>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn1312"/>P:Babylonia</note>
+                     </state>
+                     <floruit>3rdC CE<ref type="note" corresp="#Vol-4-B_M-ftn1313"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

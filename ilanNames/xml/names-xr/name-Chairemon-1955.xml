@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Chairemon-Χαιρήμων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Chairemon-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Chairemon-Vol-3-G_M"
+                type="name"
+                n="Chairemon-Χαιρήμων"
+                xml:id="name-Chairemon-d1e375293">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn1185"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4708"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e18159-person"
+                          n="Vol-2-G_M-Greek-Males-Chairemon-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Χαιρήμων</persName>
+                     <persName type="lemma" xml:lang="en">Chairemon</persName>
+                     <persName>Χαιρήμο<ref type="note" corresp="#Vol-2-G_M-ftn1186"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_F-d8e2580-person" type="relation" n="father-of">Sarah (3)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Nablus</note>
+                     </state>
+                     <bibl>CIJ1169</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan?<ref type="note" corresp="#Vol-2-G_M-ftn1187"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-G_M-ftn1188"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e80950-person"
+                          n="Vol-3-G_M-Greek-Males-Chairemon-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Χαιρήμων</persName>
+                     <persName type="lemma" xml:lang="en">Chairemon</persName>
+                     <persName>Χαιρή[μ]ων<ref type="note" corresp="#Vol-3-G_M-ftn4709"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e6024-person" type="relation" n="husband-of">Dosithea (2)’s husband</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Schedia, Botti</note>
+                     </state>
+                     <bibl>JIGRE23</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4710"/>P:Egypt</note>
+                     </state>
+                     <floruit>2nd-1stC BCE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Agathon-̓Αγάθων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Agathon-Vol-3-G_M"
+                type="name"
+                n="Agathon-̓Αγάθων"
+                xml:id="name-Agathon-d1e486290">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn42"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e664-person" n="Vol-3-G_M-Greek-Males-Agathon-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αγάθων</persName>
+                     <persName type="lemma" xml:lang="en">Agathon</persName>
+                     <persName>̓Αγάθωνος</persName>
+                     <state type="desc">
+                        <note>Alexander (17) and <ref corresp="#Vol-3-G_M-d8e58801-person" type="relation" n="father-of">Nicanor (3)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Trikomia</note>
+                     </state>
+                     <bibl>CPR13, 4:156, 159</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn43"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e696-person" n="Vol-3-G_M-Greek-Males-Agathon-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αγάθων</persName>
+                     <persName type="lemma" xml:lang="en">Agathon</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Villa Torlonia, Paribeni</note>
+                     </state>
+                     <bibl>CIJ6</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn44"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e730-person" n="Vol-3-G_M-Greek-Males-Agathon-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αγάθων</persName>
+                     <persName type="lemma" xml:lang="en">Agathon</persName>
+                     <persName>̓Αγάθ[ων]<ref type="note" corresp="#Vol-3-G_M-ftn45"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e2341-person" type="relation" n="husband-of">Ariste (1)’s husband</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Panticapaeum,<ref type="note" corresp="#Vol-3-G_M-ftn46"/>CIJ685</note>
+                     </state>
+                     <bibl>IJO1, BS10</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn47"/>P:Bosphoran Kingdom</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e779-person" n="Vol-3-G_M-Greek-Males-Agathon-4">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αγάθων</persName>
+                     <persName type="lemma" xml:lang="en">Agathon</persName>
+                     <persName>̓Αγ[ά]θων<ref type="note" corresp="#Vol-3-G_M-ftn48"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e53673-person" type="relation" n="son-of">Lysanias (8)’s son</ref>, aged 23<ref type="note" corresp="#Vol-3-G_M-ftn49"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira</note>
+                     </state>
+                     <bibl>Reynolds,CJZC22a</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn50"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-117CE?</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

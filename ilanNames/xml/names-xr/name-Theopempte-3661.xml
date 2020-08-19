@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Theopempte-Θεοπέμπτη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Theopempte-Vol-3-G_F"
+                type="name"
+                n="Theopempte-Θεοπέμπτη"
+                xml:id="name-Theopempte-d1e478624">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn649"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e11660-person"
+                          n="Vol-3-G_F-Greek-Females-Theopempte-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Θεοπέμπτη</persName>
+                     <persName type="lemma" xml:lang="en">Theopempte</persName>
+                     <persName>[Θ]εοπέμπτης<ref type="note" corresp="#Vol-3-G_F-ftn650"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e32289-person" type="relation" n="mother-of">Eusebius (7)’s mother</ref>, archisynagoga<ref type="note" corresp="#Vol-3-G_F-ftn651"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Myndos, Reinach</note>
+                     </state>
+                     <bibl>CIJ756</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn652"/>P:Asia</note>
+                     </state>
+                     <floruit>4th-6thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

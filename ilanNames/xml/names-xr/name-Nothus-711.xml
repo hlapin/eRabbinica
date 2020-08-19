@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Nothus-Νόθος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Nothus-Vol-1-G_M"
+                type="name"
+                n="Nothus-Νόθος"
+                xml:id="name-Nothus-d1e237797">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn992"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e13860-person" n="Vol-1-G_M-Nothus-1">
+                     <persName type="lemma">Νόθος</persName>
+                     <persName type="lemma" xml:lang="en">Nothus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">נותוס<ref type="note" corresp="#Vol-1-G_M-ftn993"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-1-G_M-ftn994"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Scroll, Qumran</note>
+                     </state>
+                     <bibl>4Q477</bibl>
+                     <state type="addl-Descr">
+                        <note>Second name<ref type="note" corresp="#Vol-1-G_M-ftn995"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn996"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-G_M-d2e13887-person" n="Vol-1-G_M-Nothus-2">
+                     <persName type="lemma">Νόθος</persName>
+                     <persName type="lemma" xml:lang="en">Nothus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">נוטוס<ref type="note" corresp="#Vol-1-G_M-ftn997"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e58996-person" type="relation" n="father-of">Simon (241)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Jar, Masada</note>
+                     </state>
+                     <bibl>Mas no. 462</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-73 CE<ref type="note" corresp="#Vol-1-G_M-ftn998"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

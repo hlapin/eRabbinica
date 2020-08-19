@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Hilasius-̔Ιλάσιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Hilasius-Vol-2-G_M"
+                type="name"
+                n="Hilasius-̔Ιλάσιος"
+                xml:id="name-Hilasius-d1e363887">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn695"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e10367-person" n="Vol-2-G_M-Greek-Males-Hilasius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̔Ιλάσιος</persName>
+                     <persName type="lemma" xml:lang="en">Hilasius</persName>
+                     <persName>אילאסאה/איליאסא/אליסה<ref type="note" corresp="#Vol-2-G_M-ftn696"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Lev Rab4:6 (Hyman,Toldoth, 218)</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-400<ref type="note" corresp="#Vol-2-G_M-ftn697"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_M-d8e10404-person" n="Vol-2-G_M-Greek-Males-Hilasius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̔Ιλάσιος</persName>
+                     <persName type="lemma" xml:lang="en">Hilasius</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e31161-person" type="relation" n="son-of">Isaac (41)’s son</ref>, <ref corresp="#Vol-2-G_F-d8e4979-person" type="relation" n="husband-of">Photia (1)’s husband</ref>,<ref type="note" corresp="#Vol-2-G_M-ftn698"/>
+                           <ref type="note" corresp="#Vol-2-G_M-ftn699"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue mosaic, Apamea/Syria, Mayence</note>
+                     </state>
+                     <bibl>CIJ803, 804</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>391<ref type="note" corresp="#Vol-2-G_M-ftn700"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-G_M-d8e10442-person" n="Vol-2-G_M-Greek-Males-Hilasius-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̔Ιλάσιος</persName>
+                     <persName type="lemma" xml:lang="en">Hilasius</persName>
+                     <persName>Εἱλασίου<ref type="note" corresp="#Vol-2-G_M-ftn701"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_F-d8e817-person" type="relation" n="father-of">Hannah (4)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Jaffa, Clermont-Ganneau</note>
+                     </state>
+                     <bibl>CIJ907</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>3rdC</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

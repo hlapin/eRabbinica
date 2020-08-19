@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Cathlas-Καθλας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Cathlas-Vol-1-S-G_M"
+                type="name"
+                n="Cathlas-Καθλας"
+                xml:id="name-Cathlas-d1e285211">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-G_M-ftn83"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-G_M-d2e1507-person" n="Vol-1-S-G_M-Cathlas-1">
+                     <persName type="lemma">Καθλας</persName>
+                     <persName type="lemma" xml:lang="en">Cathlas</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Κλαθα</persName>
+                     <persName xml:lang="gr">Θακηος<ref type="note" corresp="#Vol-1-S-G_M-ftn84"/>
+                     </persName>
+                     <persName xml:lang="gr">Κααθα<ref type="note" corresp="#Vol-1-S-G_M-ftn85"/>
+                     </persName>
+                     <persName xml:lang="gr">Κατθεα<ref type="note" corresp="#Vol-1-S-G_M-ftn86"/>
+                     </persName>
+                     <persName xml:lang="gr">Ακατελα</persName>
+                     <persName xml:lang="gr">Νακατελα<ref type="note" corresp="#Vol-1-S-G_M-ftn87"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e53623-person" type="relation" n="father-of">Simon (18)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ4:235 (Schalit,NB, 69)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-1-S-G_M-ftn88"/>
+                        </note>
+                     </state>
+                     <floruit>68 CE<ref type="note" corresp="#Vol-1-S-G_M-ftn89"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

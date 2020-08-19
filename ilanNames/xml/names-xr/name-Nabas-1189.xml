@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Nabas-Ναβας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-G_M-Semitic-Greek-Males-to-utf-TEI-P5-names.xml/#Nabas-Vol-1-S-G_M"
+                type="name"
+                n="Nabas-Ναβας"
+                xml:id="name-Nabas-d1e286054">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-G_M-ftn139"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-G_M-d2e2411-person" n="Vol-1-S-G_M-Nabas-1">
+                     <persName type="lemma">Ναβας</persName>
+                     <persName type="lemma" xml:lang="en">Nabas</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Βαρναβας<ref type="note" corresp="#Vol-1-S-G_M-ftn140"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e31374-person" type="relation" n="father-of">Joseph (32)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Acts 4:36 (VKGNT 154)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-1-S-G_M-ftn141"/>
+                        </note>
+                     </state>
+                     <floruit>30s CE<ref type="note" corresp="#Vol-1-S-G_M-ftn142"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

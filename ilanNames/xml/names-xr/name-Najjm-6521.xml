@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Najjām-نجام</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-A_M-Arabic-Males-to-utf-TEI-P5-names.xml/#Najjm-Vol-4-A_M"
+                type="name"
+                n="Najjām-نجام"
+                xml:id="name-Najjm-d1e588466">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-A_M-ftn999"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-A_M-d8e12636-person" n="Vol-4-A_M-Arabic-Males-Najjām-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">نجام</persName>
+                     <persName type="lemma" xml:lang="en">Najjām</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-A_M-d8e9388-person" type="relation" n="brother-of">ʿUmar (1)’s brother</ref>, <ref corresp="#Vol-4-A_M-d8e4057-person" type="relation" n="son-of">Khazraj (1)’s son</ref>, priest<ref type="note" corresp="#Vol-4-A_M-ftn1000"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Ibn Hishām,Leben Muhammed’s, 13</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn1001"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>Pre-Islamic<ref type="note" corresp="#Vol-4-A_M-ftn1002"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-4-A_M-d8e12668-person" n="Vol-4-A_M-Arabic-Males-Najjām-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">نجام</persName>
+                     <persName type="lemma" xml:lang="en">Najjām</persName>
+                     <persName>النجام<ref type="note" corresp="#Vol-4-A_M-ftn1003"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-A_M-d8e4266-person" type="relation" n="father-of">Khiyār (1)’s father</ref>, <ref corresp="#Vol-4-S-H_M-d8e34916-person" type="relation" n="son-of">Tanḥum (2)’s son</ref>, priest<ref type="note" corresp="#Vol-4-A_M-ftn1004"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Ibn Hishām,Leben Muhammed’s, 13</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-A_M-ftn1005"/>P:Arab. Pen.</note>
+                     </state>
+                     <floruit>Pre-Islamic<ref type="note" corresp="#Vol-4-A_M-ftn1006"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

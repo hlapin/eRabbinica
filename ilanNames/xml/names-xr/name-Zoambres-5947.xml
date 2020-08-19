@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Zoambres-Zoambres</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Zoambres-Vol-3-P_M"
+                type="name"
+                n="Zoambres-Zoambres"
+                xml:id="name-Zoambres-d1e565540">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-P_M-ftn70"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-P_M-d8e965-person" n="Vol-3-P_M-Persian-Males-Zoambres-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Zoambres</persName>
+                     <persName type="lemma" xml:lang="en">Zoambres</persName>
+                     <persName>Ζαμβρῆς<ref type="note" corresp="#Vol-3-P_M-ftn71"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-P_M-ftn72"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Georgius Cedrenus,PG121, 521</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-P_M-ftn73"/>P:Rome</note>
+                     </state>
+                     <floruit>312-40 CE<ref type="note" corresp="#Vol-3-P_M-ftn74"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

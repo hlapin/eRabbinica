@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List --  Στοιχηευσ-Στοιχεύς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#_-Vol-3-G_M"
+                type="name"
+                n=" Στοιχηευσ-Στοιχεύς"
+                xml:id="name-_-d1e523002">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4141"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e71613-person"
+                          n="Vol-3-G_M-Greek-Males- Στοιχηευσ-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Στοιχεύς</persName>
+                     <persName type="lemma" xml:lang="en"> Στοιχηευσ</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn4142"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>AJ18:204 (Schalit,NB, 116)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4143"/>P:Rome?<ref type="note" corresp="#Vol-3-G_M-ftn4144"/>
+                        </note>
+                     </state>
+                     <floruit>36 CE<ref type="note" corresp="#Vol-3-G_M-ftn4145"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

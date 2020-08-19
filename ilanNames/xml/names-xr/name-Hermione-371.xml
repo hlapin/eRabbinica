@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Hermione-̔Ερμιόνη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Hermione-Vol-1-G_F names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Hermione-Vol-3-G_F"
+                type="name"
+                n="Hermione-̔Ερμιόνη"
+                xml:id="name-Hermione-d1e190988">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_F-ftn120"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn440"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_F-d2e1710-person" n="Vol-1-G_F-Hermione-1">
+                     <persName type="lemma">̔Ερμιόνη</persName>
+                     <persName type="lemma" xml:lang="en">Hermione</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="gr">̔Ερμιόνης<ref type="note" corresp="#Vol-1-G_F-ftn121"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-G_M-d2e6448-person" type="relation" n="daughter-of">Dorotheus (9)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Akeldama, Avni-Greenhut</note>
+                     </state>
+                     <bibl>Ilan,IAAR1 (1996) no. 9</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn122"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e7936-person"
+                          n="Vol-3-G_F-Greek-Females-Hermione-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̔Ερμιόνη</persName>
+                     <persName type="lemma" xml:lang="en">Hermione</persName>
+                     <persName>̔Ερμειόνῃ<ref type="note" corresp="#Vol-3-G_F-ftn441"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Barsheoda (1), <ref corresp="#Vol-3-L_F-d8e28719-person"
+                                type="relation"
+                                n="daughter-of">Pisinna (1)’s daughter</ref>, aged 11 months<ref type="note" corresp="#Vol-3-G_F-ftn442"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ108</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn443"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e7983-person"
+                          n="Vol-3-G_F-Greek-Females-Hermione-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̔Ερμιόνη</persName>
+                     <persName type="lemma" xml:lang="en">Hermione</persName>
+                     <persName>̔Ερμιόνην</persName>
+                     <state type="desc">
+                        <note>Publius (8) Catilius (1) <ref corresp="#Vol-3-G_M-d8e27936-person"
+                                type="relation"
+                                n="daughter-of">Hermias (9)’s daughter</ref>, aged 4<ref type="note" corresp="#Vol-3-G_F-ftn444"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Moretti</note>
+                     </state>
+                     <bibl>JIWE2, 360</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn445"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

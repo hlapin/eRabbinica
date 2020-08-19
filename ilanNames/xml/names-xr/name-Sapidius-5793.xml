@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Sapidius-Sapidius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Sapidius-Vol-3-L_M"
+                type="name"
+                n="Sapidius-Sapidius"
+                xml:id="name-Sapidius-d1e558193">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn2160"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e36320-person" n="Vol-3-L_M-Latin-Males-Sapidius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Sapidius</persName>
+                     <persName type="lemma" xml:lang="en">Sapidius</persName>
+                     <persName>Sapidus<ref type="note" corresp="#Vol-3-L_M-ftn2161"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e40752-person" type="relation" n="son-of">Valentianus (2)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Garrucci</note>
+                     </state>
+                     <bibl>CIJ528</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2162"/>P:Rome</note>
+                     </state>
+                     <floruit>387 CE<ref type="note" corresp="#Vol-3-L_M-ftn2163"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

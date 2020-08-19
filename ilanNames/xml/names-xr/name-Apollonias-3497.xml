@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Apollonias-̓Απολλωνιάς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Apollonias-Vol-3-G_F"
+                type="name"
+                n="Apollonias-̓Απολλωνιάς"
+                xml:id="name-Apollonias-d1e471714">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn118"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e2074-person"
+                          n="Vol-3-G_F-Greek-Females-Apollonias-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">̓Απολλωνιάς</persName>
+                     <persName type="lemma" xml:lang="en">Apollonias</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e28775-person"
+                                type="relation"
+                                n="daughter-of">Shabtai (29)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Alexandria, Schubart</note>
+                     </state>
+                     <bibl>CPJ144</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn119"/>P:Egypt</note>
+                     </state>
+                     <floruit>13 BCE<ref type="note" corresp="#Vol-3-G_F-ftn120"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

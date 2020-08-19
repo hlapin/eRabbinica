@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Decius-Decius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Decius-Vol-3-L_M"
+                type="name"
+                n="Decius-Decius"
+                xml:id="name-Decius-d1e549372">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn825"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e13846-person" n="Vol-3-L_M-Latin-Males-Decius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Decius</persName>
+                     <persName type="lemma" xml:lang="en">Decius</persName>
+                     <persName>Δεκᾶς<ref type="note" corresp="#Vol-3-L_M-ftn826"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Appaeanus (1) <ref corresp="#Vol-3-L_M-d8e41432-person" type="relation" n="slave-of">Velorius (1)’s slave</ref>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn827"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Edfu, Manteuffel</note>
+                     </state>
+                     <bibl>CPJ206</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn828"/>P:Egypt</note>
+                     </state>
+                     <floruit>106 CE<ref type="note" corresp="#Vol-3-L_M-ftn829"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

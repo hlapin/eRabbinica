@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Ion-̓́Ιων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Ion-Vol-3-G_M"
+                type="name"
+                n="Ion-̓́Ιων"
+                xml:id="name-Ion-d1e507949">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2826"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e49209-person" n="Vol-3-G_M-Greek-Males-Ion-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓́Ιων</persName>
+                     <persName type="lemma" xml:lang="en">Ion</persName>
+                     <persName>̓Ιώνι<ref type="note" corresp="#Vol-3-G_M-ftn2827"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e30674-person" type="relation" n="brother-of">Shabtai (80)’s brother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Karanis, Boak &amp; Youtie</note>
+                     </state>
+                     <bibl>CPJ518c</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew<ref type="note" corresp="#Vol-3-G_M-ftn2828"/>P:Egypt</note>
+                     </state>
+                     <floruit>320 CE<ref type="note" corresp="#Vol-3-G_M-ftn2829"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e49256-person" n="Vol-3-G_M-Greek-Males-Ion-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓́Ιων</persName>
+                     <persName type="lemma" xml:lang="en">Ion</persName>
+                     <persName>̓Ιωνος</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e41641-person" type="relation" n="father-of">Theodotus (24)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Heracleopolis</note>
+                     </state>
+                     <bibl>P. Heid. VIII, 417</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2830"/>P:Egypt</note>
+                     </state>
+                     <floruit>190 BCE<ref type="note" corresp="#Vol-3-G_M-ftn2831"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

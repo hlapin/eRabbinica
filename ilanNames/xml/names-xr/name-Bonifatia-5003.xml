@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Bonifatia-Bonifatia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Bonifatia-Vol-3-L_F"
+                type="name"
+                n="Bonifatia-Bonifatia"
+                xml:id="name-Bonifatia-d1e530997">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn227"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e4438-person"
+                          n="Vol-3-L_F-Latin-Females-Bonifatia-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Bonifatia</persName>
+                     <persName type="lemma" xml:lang="en">Bonifatia</persName>
+                     <persName>Βονιφατία</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Syracuse</note>
+                     </state>
+                     <bibl>Orsi,Römische Quartalschrift10 (1896) 19</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn228"/>P:Sicily</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn229"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_F-d8e4471-person"
+                          n="Vol-3-L_F-Latin-Females-Bonifatia-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Bonifatia</persName>
+                     <persName type="lemma" xml:lang="en">Bonifatia</persName>
+                     <persName>Βονιφάτης<ref type="note" corresp="#Vol-3-L_F-ftn230"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Syracuse</note>
+                     </state>
+                     <bibl>Orsi,Römische Quartalschrift10 (1896) 19</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn231"/>P:Sicily</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn232"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

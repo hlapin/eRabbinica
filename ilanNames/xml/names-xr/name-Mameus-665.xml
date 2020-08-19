@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Mameus-Μαμεύς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Mameus-Vol-1-G_M"
+                type="name"
+                n="Mameus-Μαμεύς"
+                xml:id="name-Mameus-d1e234213">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn881"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e12353-person" n="Vol-1-G_M-Mameus-1">
+                     <persName type="lemma">Μαμεύς</persName>
+                     <persName type="lemma" xml:lang="en">Mameus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Μαμεῖς<ref type="note" corresp="#Vol-1-G_M-ftn882"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Tomb inscription, Jatt</note>
+                     </state>
+                     <bibl>Porath,Atiqot37 (1999) 48*-9*</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>1stC CE<ref type="note" corresp="#Vol-1-G_M-ftn883"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

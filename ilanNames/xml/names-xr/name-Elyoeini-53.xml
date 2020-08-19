@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Elyoeini-אליועיני</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Elyoeini-Vol-1-B_M names/Vol-3-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Elyoeini-Vol-3-B_M"
+                type="name"
+                n="Elyoeini-אליועיני"
+                xml:id="name-Elyoeini-d1e24309">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_M-ftn87"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-B_M-ftn138"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_M-d2e1154-person" n="Vol-1-B_M-Elyoeini-1">
+                     <persName type="lemma">אליועיני</persName>
+                     <persName type="lemma" xml:lang="en">Elyoeini</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">̓Ελιωναῖος<ref type="note" corresp="#Vol-1-B_M-ftn88"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>AJ 19:342 (Schalit, NB, 43); mPar3:5 (Kasovsky,Mishnae, 162).</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>44 CE<ref type="note" corresp="#Vol-1-B_M-ftn89"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-B_M-d2e1213-person" n="Vol-1-B_M-Elyoeini-2">
+                     <persName type="lemma">אליועיני</persName>
+                     <persName type="lemma" xml:lang="en">Elyoeini</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">אליעני<ref type="note" corresp="#Vol-1-B_M-ftn90"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-1-B_M-ftn91"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Seal</note>
+                     </state>
+                     <bibl>Avigad,EI16 (1982) 1</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>1stC CE<ref type="note" corresp="#Vol-1-B_M-ftn92"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-B_M-d8e2008-person"
+                          n="Vol-3-B_M-Biblical-Males-Elyoeini-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">אליועיני</persName>
+                     <persName type="lemma" xml:lang="en">Elyoeini</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e26659-person" type="relation" n="father-of">Aqub (5)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Alexandria, Clermont-Ganneau</note>
+                     </state>
+                     <bibl>CIJ1424</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn139"/>P:Egypt</note>
+                     </state>
+                     <floruit>3rdC BCE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

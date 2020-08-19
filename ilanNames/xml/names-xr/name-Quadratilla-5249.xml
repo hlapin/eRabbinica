@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Quadratilla-Quadratilla</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Quadratilla-Vol-3-L_F"
+                type="name"
+                n="Quadratilla-Quadratilla"
+                xml:id="name-Quadratilla-d1e539335">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_F-ftn1012"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_F-d8e30350-person"
+                          n="Vol-3-L_F-Latin-Females-Quadratilla-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Quadratilla</persName>
+                     <persName type="lemma" xml:lang="en">Quadratilla</persName>
+                     <persName>Κοδρατίλλα<ref type="note" corresp="#Vol-3-L_F-ftn1013"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Aurelia (35), Marcus (21) Aurelius (62) <ref corresp="#Vol-3-G_M-d8e11377-person" type="relation" n="wife-of">Aristodemus (2)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Sarcophagus, Hierapolis, Pennacchietti</note>
+                     </state>
+                     <bibl>IJO2, 197</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn1014"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

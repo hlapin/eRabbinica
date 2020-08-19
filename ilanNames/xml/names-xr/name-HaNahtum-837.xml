@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- HaNahtum-הנחתם</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-Ha_Names-to-utf-TEI-P5-names.xml/#HaNahtum-Vol-1-Ha_Names"
+                type="name"
+                n="HaNahtum-הנחתם"
+                xml:id="name-HaNahtum-d1e247713">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-Ha_Names-ftn19"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-Ha_Names-d2e328-person" n="Vol-1-Ha_Names-HaNahtum-1">
+                     <persName type="lemma">הנחתם</persName>
+                     <persName type="lemma" xml:lang="en">HaNahtum</persName>
+                     <sex cert="high">Names</sex>
+                     <persName xml:lang="he">הנהתמ<ref type="note" corresp="#Vol-1-Ha_Names-ftn20"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, “lot,” Masada</note>
+                     </state>
+                     <bibl>Mas no. 429</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname2a</note>
+                     </state>
+                     <floruit>Pre-73 CE<ref type="note" corresp="#Vol-1-Ha_Names-ftn21"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

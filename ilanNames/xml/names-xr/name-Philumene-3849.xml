@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Philumene-Φιλουμένη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_F-Greek-Females-to-utf-TEI-P5-names.xml/#Philumene-Vol-3-G_F"
+                type="name"
+                n="Philumene-Φιλουμένη"
+                xml:id="name-Philumene-d1e484943">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_F-ftn1088"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_F-d8e19143-person"
+                          n="Vol-3-G_F-Greek-Females-Philumene-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Φιλουμένη</persName>
+                     <persName type="lemma" xml:lang="en">Philumene</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e19460-person"
+                                type="relation"
+                                n="daughter-of">Diocles (4)’s daughter</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyri, Theogenis, Kramer</note>
+                     </state>
+                     <bibl>CPR18:9, 11</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn1089"/>P:Egypt</note>
+                     </state>
+                     <floruit>232 BCE<ref type="note" corresp="#Vol-3-G_F-ftn1090"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e19177-person"
+                          n="Vol-3-G_F-Greek-Females-Philumene-2">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Φιλουμένη</persName>
+                     <persName type="lemma" xml:lang="en">Philumene</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e54611-person" type="relation" n="mother-of">Machaon (1)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Leontopolis<ref type="note" corresp="#Vol-3-G_F-ftn1091"/>Botti</note>
+                     </state>
+                     <bibl>CIJ1539</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn1092"/>P:Egypt</note>
+                     </state>
+                     <floruit>8 CE<ref type="note" corresp="#Vol-3-G_F-ftn1093"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_F-d8e19212-person"
+                          n="Vol-3-G_F-Greek-Females-Philumene-3">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">Φιλουμένη</persName>
+                     <persName type="lemma" xml:lang="en">Philumene</persName>
+                     <persName>Φιλομ<ref type="note" corresp="#Vol-3-G_F-ftn1094"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Sardis, Kroll</note>
+                     </state>
+                     <bibl>IJO2, 115</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_F-ftn1095"/>P:Asia</note>
+                     </state>
+                     <floruit>4thC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

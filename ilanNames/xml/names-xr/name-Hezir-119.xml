@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Hezir-חזיר</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Hezir-Vol-1-B_M names/Vol-3-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Hezir-Vol-3-B_M"
+                type="name"
+                n="Hezir-חזיר"
+                xml:id="name-Hezir-d1e48903">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_M-ftn796"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-B_M-ftn431"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_M-d2e11140-person" n="Vol-1-B_M-Hezir-1">
+                     <persName type="lemma">חזיר</persName>
+                     <persName type="lemma" xml:lang="en">Hezir</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-1-B_M-ftn797"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Tomb inscription, Kidron, de Vogüé, 1864</note>
+                     </state>
+                     <bibl>CIJ, no. 1394</bibl>
+                     <state type="addl-Descr">
+                        <note>Family<ref type="note" corresp="#Vol-1-B_M-ftn798"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn799"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-B_M-d8e6267-person" n="Vol-3-B_M-Biblical-Males-Hezir-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">חזיר</persName>
+                     <persName type="lemma" xml:lang="en">Hezir</persName>
+                     <persName>Χάζαρος<ref type="note" corresp="#Vol-3-B_M-ftn432"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Fayum, Mahaffy</note>
+                     </state>
+                     <bibl>CPJ36</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-B_M-ftn433"/>P:Egypt</note>
+                     </state>
+                     <floruit>240 BCE<ref type="note" corresp="#Vol-3-B_M-ftn434"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

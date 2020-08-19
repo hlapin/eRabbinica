@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aristarchus-̓Αρίσταρχος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Aristarchus-Vol-3-G_M"
+                type="name"
+                n="Aristarchus-̓Αρίσταρχος"
+                xml:id="name-Aristarchus-d1e490003">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn613"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e10507-person"
+                          n="Vol-3-G_M-Greek-Males-Aristarchus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αρίσταρχος</persName>
+                     <persName type="lemma" xml:lang="en">Aristarchus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn614"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Acts 20:4 (VKGNT 90)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn615"/>P:Greece</note>
+                     </state>
+                     <floruit>53-8 CE<ref type="note" corresp="#Vol-3-G_M-ftn616"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e10545-person"
+                          n="Vol-3-G_M-Greek-Males-Aristarchus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αρίσταρχος</persName>
+                     <persName type="lemma" xml:lang="en">Aristarchus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Acta Philippi6:9</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn617"/>; fictitious<ref type="note" corresp="#Vol-3-G_M-ftn618"/>P:Greece</note>
+                     </state>
+                     <floruit>1stC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

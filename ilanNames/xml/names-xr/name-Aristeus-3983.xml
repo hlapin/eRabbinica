@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aristeus-̓Αριστέυς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Aristeus-Vol-3-G_M"
+                type="name"
+                n="Aristeus-̓Αριστέυς"
+                xml:id="name-Aristeus-d1e490093">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn629"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e10752-person" n="Vol-3-G_M-Greek-Males-Aristeus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">̓Αριστέυς</persName>
+                     <persName type="lemma" xml:lang="en">Aristeus</persName>
+                     <persName>̓Αριστέα<ref type="note" corresp="#Vol-3-G_M-ftn630"/>
+                     </persName>
+                     <persName>/̓́Αριστις<ref type="note" corresp="#Vol-3-G_M-ftn631"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e7219-person" type="relation" n="son-of">Andronicus (9)’s son</ref>, Eirena (6), Dositheus (68) and <ref corresp="#Vol-3-G_F-d8e14170-person" type="relation" n="father-of">Lais (1)’s father</ref>, aged 79<ref type="note" corresp="#Vol-3-G_M-ftn632"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaphs, Teucheira, Oliverio</note>
+                     </state>
+                     <bibl>CJZC52a,b,c</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn633"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>66/7 CE<ref type="note" corresp="#Vol-3-G_M-ftn634"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Saḥlafa-סחלפה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Salafa-Vol-4-S-H_M"
+                type="name"
+                n="Saḥlafa-סחלפה"
+                xml:id="name-Salafa-d1e647080">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn2001"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e28881-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Saḥlafa-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">סחלפה</persName>
+                     <persName type="lemma" xml:lang="en">Saḥlafa</persName>
+                     <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2002"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Zebedallah (1), <ref corresp="#Vol-4-B_M-d8e32724-person" type="relation" n="son-of">Simon (42)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Palmyra</note>
+                     </state>
+                     <bibl>Michałowski,Palmyre3/2, p. 111</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn2003"/>Second nameP:Palmyra</note>
+                     </state>
+                     <floruit>62 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2004"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Carpus-Κάρπος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Carpus-Vol-3-G_M"
+                type="name"
+                n="Carpus-Κάρπος"
+                xml:id="name-Carpus-d1e508830">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn2886"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e50229-person" n="Vol-3-G_M-Greek-Males-Carpus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Κάρπος</persName>
+                     <persName type="lemma" xml:lang="en">Carpus</persName>
+                     <persName>Κάρπου</persName>
+                     <state type="desc">
+                        <note>Aurelius (97) <ref corresp="#Vol-3-B_M-d8e9996-person" type="relation" n="father-of">Moses (13)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Termesos</note>
+                     </state>
+                     <bibl>Cousin,BCH23 (1899) 189</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2887"/>P:Asia</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-3-G_M-ftn2888"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

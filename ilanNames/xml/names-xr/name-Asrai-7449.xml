@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Asrai-אסרי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Asrai-Vol-4-S-H_M"
+                type="name"
+                n="Asrai-אסרי"
+                xml:id="name-Asrai-d1e634695">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn749"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e10822-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Asrai-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">אסרי</persName>
+                     <persName type="lemma" xml:lang="en">Asrai</persName>
+                     <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn750"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_M-d8e29923-person"
+                                type="relation"
+                                n="father-of">Agilo (1)’s father</ref>, <ref corresp="#Vol-4-B_M-d8e8131-person" type="relation" n="grandson-of">Ḥananiah (35)’s grandson</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedication inscription, Kheurbet Semrine</note>
+                     </state>
+                     <bibl>Schlumberger,Palmerène, 143</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn751"/>Nickname?<ref type="note" corresp="#Vol-4-S-H_M-ftn752"/>P:Palmyra</note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-4-S-H_M-ftn753"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Belʿaqab-בלעקב</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Belaqab-Vol-4-S-H_M"
+                type="name"
+                n="Belʿaqab-בלעקב"
+                xml:id="name-Belaqab-d1e635501">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn813"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e11727-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Belʿaqab-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">בלעקב</persName>
+                     <persName type="lemma" xml:lang="en">Belʿaqab</persName>
+                     <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn814"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e31723-person" type="relation" n="father-of">Simon (12)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Palmyra, Chabot</note>
+                     </state>
+                     <bibl>CIS2/3, 3973</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn815"/>P:Palmyra</note>
+                     </state>
+                     <floruit>132 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn816"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

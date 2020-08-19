@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Eutychianus-Ε̓τυχιανός</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Eutychianus-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Eutychianus-Vol-3-G_M"
+                type="name"
+                n="Eutychianus-Ε̓τυχιανός"
+                xml:id="name-Eutychianus-d1e360166">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-G_M-ftn468"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn1906"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-G_M-d8e6880-person"
+                          n="Vol-2-G_M-Greek-Males-Eutychianus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ε̓τυχιανός</persName>
+                     <persName type="lemma" xml:lang="en">Eutychianus</persName>
+                     <persName>Ε̓τυχιανού</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-L_F-d8e1449-person" type="relation" n="husband-of">Magna (2)’s husband</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Inscription, Elijah’s Cave</note>
+                     </state>
+                     <bibl>Appendix, no. 2</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn469"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-8thC<ref type="note" corresp="#Vol-2-G_M-ftn470"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e33249-person"
+                          n="Vol-3-G_M-Greek-Males-Eutychianus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ε̓τυχιανός</persName>
+                     <persName type="lemma" xml:lang="en">Eutychianus</persName>
+                     <persName>[Ε]̓θυχιάνο<ref type="note" corresp="#Vol-3-G_M-ftn1907"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn1908"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Vigna Randanini, Garrucci</note>
+                     </state>
+                     <bibl>CIJ110</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1909"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e33306-person"
+                          n="Vol-3-G_M-Greek-Males-Eutychianus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ε̓τυχιανός</persName>
+                     <persName type="lemma" xml:lang="en">Eutychianus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-G_M-ftn1910"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+                     </state>
+                     <bibl>IJO2, 14:B58</bibl>
+                     <state type="addl-Descr">
+                        <note>God-fearer<ref type="note" corresp="#Vol-3-G_M-ftn1911"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e33347-person"
+                          n="Vol-3-G_M-Greek-Males-Eutychianus-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ε̓τυχιανός</persName>
+                     <persName type="lemma" xml:lang="en">Eutychianus</persName>
+                     <persName>Ε̓τυχιανῷ</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e9586-person" type="relation" n="son-of">Eutychiane (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Satala</note>
+                     </state>
+                     <bibl>Tituli Asiae Minoris5, 608</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1912"/>P:Asia</note>
+                     </state>
+                     <floruit>269-324 CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

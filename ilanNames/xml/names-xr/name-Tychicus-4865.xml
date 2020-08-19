@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Tychicus-Τυχικός</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Tychicus-Vol-3-G_M"
+                type="name"
+                n="Tychicus-Τυχικός"
+                xml:id="name-Tychicus-d1e525284">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn4474"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e76931-person" n="Vol-3-G_M-Greek-Males-Tychicus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Τυχικός</persName>
+                     <persName type="lemma" xml:lang="en">Tychicus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>Acts 20:4 (VKGNT 1271)</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4475"/>P:Asia</note>
+                     </state>
+                     <floruit>53-8 CE<ref type="note" corresp="#Vol-3-G_M-ftn4476"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e76960-person" n="Vol-3-G_M-Greek-Males-Tychicus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Τυχικός</persName>
+                     <persName type="lemma" xml:lang="en">Tychicus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e33627-person" type="relation" n="father-of">Eutychis (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Monteverde, Schneider Graziosi</note>
+                     </state>
+                     <bibl>CIJ412</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4477"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e76994-person" n="Vol-3-G_M-Greek-Males-Tychicus-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Τυχικός</persName>
+                     <persName type="lemma" xml:lang="en">Tychicus</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e77025-person" type="relation" n="son-of">Tychicus (4)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+                     </state>
+                     <bibl>IJO2, 14:B44</bibl>
+                     <state type="addl-Descr">
+                        <note>God-fearer<ref type="note" corresp="#Vol-3-G_M-ftn4478"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e77025-person" n="Vol-3-G_M-Greek-Males-Tychicus-4">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Τυχικός</persName>
+                     <persName type="lemma" xml:lang="en">Tychicus</persName>
+                     <persName>Τυχί<ref type="note" corresp="#Vol-3-G_M-ftn4479"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Tychicus (3) and <ref corresp="#Vol-3-G_M-d8e16305-person" type="relation" n="father-of">Gregorius (1)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+                     </state>
+                     <bibl>IJO2, 14:B44</bibl>
+                     <state type="addl-Descr">
+                        <note>God-fearer<ref type="note" corresp="#Vol-3-G_M-ftn4480"/>P:Asia</note>
+                     </state>
+                     <floruit>3rdC CE</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

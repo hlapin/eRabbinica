@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Lacon-Λάκων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Lacon-Vol-1-G_M"
+                type="name"
+                n="Lacon-Λάκων"
+                xml:id="name-Lacon-d1e233341">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn855"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e12009-person" n="Vol-1-G_M-Lacon-1">
+                     <persName type="lemma">Λάκων</persName>
+                     <persName type="lemma" xml:lang="en">Lacon</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">לקוניא<ref type="note" corresp="#Vol-1-G_M-ftn856"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>yBer2:3, 4c (Kosovsky,Yerushalmi, -)</bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname?<ref type="note" corresp="#Vol-1-G_M-ftn857"/>
+                        </note>
+                     </state>
+                     <floruit>Post-135 CE<ref type="note" corresp="#Vol-1-G_M-ftn858"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

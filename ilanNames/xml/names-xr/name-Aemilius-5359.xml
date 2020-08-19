@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aemilius-Aemilius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Aemilius-Vol-3-L_M"
+                type="name"
+                n="Aemilius-Aemilius"
+                xml:id="name-Aemilius-d1e543612">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn46"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-L_M-d8e772-person" n="Vol-3-L_M-Latin-Males-Aemilius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Aemilius</persName>
+                     <persName type="lemma" xml:lang="en">Aemilius</persName>
+                     <persName>̓Αμέλιῳ<ref type="note" corresp="#Vol-3-L_M-ftn47"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Aemilius (2) and <ref corresp="#Vol-3-B_F-d8e3294-person" type="relation" n="son-of">Mariam (41)’s son</ref>, aged 2<ref type="note" corresp="#Vol-3-L_M-ftn48"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Via Flaminia, Lupi</note>
+                     </state>
+                     <bibl>CIJ1</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn49"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e822-person" n="Vol-3-L_M-Latin-Males-Aemilius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Aemilius</persName>
+                     <persName type="lemma" xml:lang="en">Aemilius</persName>
+                     <persName>̓Αμέλις<ref type="note" corresp="#Vol-3-L_M-ftn50"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e772-person" type="relation" n="father-of">Aemilius (1)’s father</ref>, archon<ref type="note" corresp="#Vol-3-L_M-ftn51"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Via Flaminia, Lupi</note>
+                     </state>
+                     <bibl>CIJ1</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn52"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e869-person" n="Vol-3-L_M-Latin-Males-Aemilius-3">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Aemilius</persName>
+                     <persName type="lemma" xml:lang="en">Aemilius</persName>
+                     <persName>Aemilio</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn53"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Via Saleria, Bernays</note>
+                     </state>
+                     <bibl>CIJ5</bibl>
+                     <state type="addl-Descr">
+                        <note>God-fearer?<ref type="note" corresp="#Vol-3-L_M-ftn54"/>P:Rome</note>
+                     </state>
+                     <floruit>3rd-4thC CE</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e911-person" n="Vol-3-L_M-Latin-Males-Aemilius-4">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Aemilius</persName>
+                     <persName type="lemma" xml:lang="en">Aemilius</persName>
+                     <persName>Αἰμιλία<ref type="note" corresp="#Vol-3-L_M-ftn55"/>
+                     </persName>
+                     <state type="desc">
+                        <note>Marcus (34) Titius (3), <ref corresp="#Vol-3-L_M-d8e38184-person" type="relation" n="son-of">Sextus (3)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Politeuma inscription, Berenice, Roux</note>
+                     </state>
+                     <bibl>CJZC71</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn56"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>24/5 CE<ref type="note" corresp="#Vol-3-L_M-ftn57"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

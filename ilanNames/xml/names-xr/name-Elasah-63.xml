@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Elasah-אלעשה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Elasah-Vol-1-B_M"
+                type="name"
+                n="Elasah-אלעשה"
+                xml:id="name-Elasah-d1e36795">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_M-ftn474"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_M-d2e6652-person" n="Vol-1-B_M-Elasah-1">
+                     <persName type="lemma">אלעשה</persName>
+                     <persName type="lemma" xml:lang="en">Elasah</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="he">אלעשא<ref type="note" corresp="#Vol-1-B_M-ftn475"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>yMQ3:1, 81c (Kosovsky,Yerushalmi, 134)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-1-B_M-ftn476"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-B_M-d2e6677-person" n="Vol-1-B_M-Elasah-2">
+                     <persName type="lemma">אלעשה</persName>
+                     <persName type="lemma" xml:lang="en">Elasah</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Clermont-Ganneau, 1883</note>
+                     </state>
+                     <bibl>CIJ, no. 1380</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn477"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-B_M-d2e6696-person" n="Vol-1-B_M-Elasah-3">
+                     <persName type="lemma">אלעשה</persName>
+                     <persName type="lemma" xml:lang="en">Elasah</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e34258-person" type="relation" n="father-of">Joseph (125)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Mt Olives</note>
+                     </state>
+                     <bibl>Puech,LA32 (1982) 358</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn478"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

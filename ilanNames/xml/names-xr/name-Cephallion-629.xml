@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Cephallion-Κεφαλίων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Cephallion-Vol-1-G_M"
+                type="name"
+                n="Cephallion-Κεφαλίων"
+                xml:id="name-Cephallion-d1e231964">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn792"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e11158-person" n="Vol-1-G_M-Cephallion-1">
+                     <persName type="lemma">Κεφαλίων</persName>
+                     <persName type="lemma" xml:lang="en">Cephallion</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">Κεφαλλίων<ref type="note" corresp="#Vol-1-G_M-ftn793"/>
+                     </persName>
+                     <persName xml:lang="gr">Φαλλίων<ref type="note" corresp="#Vol-1-G_M-ftn794"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-G_M-d2e2422-person" type="relation" n="brother-of">Antipatrus (2)’s brother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ1:130;AJ14:333 (Schalit,NB, 74)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>63 BCE<ref type="note" corresp="#Vol-1-G_M-ftn795"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

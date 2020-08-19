@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Protion-Πρωτίων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Protion-Vol-3-G_M"
+                type="name"
+                n="Protion-Πρωτίων"
+                xml:id="name-Protion-d1e520879">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-G_M-ftn3877"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-G_M-d8e67201-person" n="Vol-3-G_M-Greek-Males-Protion-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πρωτίων</persName>
+                     <persName type="lemma" xml:lang="en">Protion</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e53768-person" type="relation" n="son-of">Lysias (1)’s son</ref>, aged 4<ref type="note" corresp="#Vol-3-G_M-ftn3878"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira</note>
+                     </state>
+                     <bibl>Reynolds,CJZC15b</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3879"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-35 CE<ref type="note" corresp="#Vol-3-G_M-ftn3880"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-G_M-d8e67241-person" n="Vol-3-G_M-Greek-Males-Protion-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Πρωτίων</persName>
+                     <persName type="lemma" xml:lang="en">Protion</persName>
+                     <persName>Πρωτίω[νος]<ref type="note" corresp="#Vol-3-G_M-ftn3881"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_F-d8e12330-person" type="relation" n="father-of">Hipponica (5)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Teucheira</note>
+                     </state>
+                     <bibl>Reynolds,CJZC15f</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3882"/>P:Cyrenaica</note>
+                     </state>
+                     <floruit>Pre-35 CE<ref type="note" corresp="#Vol-3-G_M-ftn3883"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

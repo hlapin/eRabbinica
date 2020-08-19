@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Qonai-קוני</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Qonai-Vol-2-S-H_M"
+                type="name"
+                n="Qonai-קוני"
+                xml:id="name-Qonai-d1e431895">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-S-H_M-ftn1463"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-S-H_M-d8e23230-person"
+                          n="Vol-2-S-H_M-Semitic-Hebrew-Males-Qonai-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">קוני</persName>
+                     <persName type="lemma" xml:lang="en">Qonai</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e42566-person" type="relation" n="father-of">Saul (12)’s father</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Synagogue inscription, Rehov<ref type="note" corresp="#Vol-2-S-H_M-ftn1464"/>
+                        </note>
+                     </state>
+                     <bibl>Vito, “Reḥob,” 93<ref type="note" corresp="#Vol-2-S-H_M-ftn1465"/>
+                     </bibl>
+                     <state type="addl-Descr">
+                        <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn1466"/>
+                        </note>
+                     </state>
+                     <floruit>4th-7thC</floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

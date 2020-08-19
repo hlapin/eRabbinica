@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Hasmonai-חשמונאי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Hasmonai-Vol-1-S-H_M"
+                type="name"
+                n="Hasmonai-חשמונאי"
+                xml:id="name-Hasmonai-d1e314393">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-S-H_M-ftn519"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-S-H_M-d2e7761-person" n="Vol-1-S-H_M-Hasmonai-1">
+                     <persName type="lemma">חשמונאי</persName>
+                     <persName type="lemma" xml:lang="en">Hasmonai</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="gr">̓Ασαμωναῖος<ref type="note" corresp="#Vol-1-S-H_M-ftn520"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>BJ1:19;AJ11:111;Vita2 (Schalit,NB, 18); yTaan2:13, 66a (Kosovsky,Yerushalmi, 286).</bibl>
+                     <state type="addl-Descr">
+                        <note>Family<ref type="note" corresp="#Vol-1-S-H_M-ftn521"/>
+                        </note>
+                     </state>
+                     <floruit>167-67 BCE<ref type="note" corresp="#Vol-1-S-H_M-ftn522"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

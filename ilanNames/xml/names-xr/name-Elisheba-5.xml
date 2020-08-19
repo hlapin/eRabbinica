@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Elisheba-אלישבע</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-B_F-Biblical-Females-to-utf-TEI-P5-names.xml/#Elisheba-Vol-1-B_F names/Vol-2-B_F-Biblical-Females-to-utf-TEI-P5-names.xml/#Elisheba-Vol-2-B_F names/Vol-2-Vol-1-ADD-B_F-Biblical-Females-to-utf-TEI-P5-names.xml/#Elisheba-Vol-2-Vol-1-ADD-B_F names/Vol-3-B_F-Biblical-Females-to-utf-TEI-P5-names.xml/#Elisheba-Vol-3-B_F"
+                type="name"
+                n="Elisheba-אלישבע"
+                xml:id="name-Elisheba-d1e81">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-B_F-ftn5"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-B_F-ftn1"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-B_F-ftn5"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-B_F-ftn4"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-B_F-d2e88-person" n="Vol-1-B_F-Elisheba-1">
+                     <persName type="lemma">אלישבע</persName>
+                     <persName type="lemma" xml:lang="en">Elisheba</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="gr">̓Ελισάβετ<ref type="note" corresp="#Vol-1-B_F-ftn6"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-B_M-d2e25277-person" type="relation" n="mother-of">Yohanan (15)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Luke 1:5 (VKGNT 377)</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>1 CE<ref type="note" corresp="#Vol-1-B_F-ftn7"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-B_F-d2e123-person" n="Vol-1-B_F-Elisheba-2">
+                     <persName type="lemma">אלישבע</persName>
+                     <persName type="lemma" xml:lang="en">Elisheba</persName>
+                     <sex cert="high">F</sex>
+                     <persName xml:lang="gr">̓Ελισάβη<ref type="note" corresp="#Vol-1-B_F-ftn8"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-1-G_M-d2e16797-person" type="relation" n="wife-of">Tryphon (7)’s wife</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Silwan, Spoer, 1907</note>
+                     </state>
+                     <bibl>CIJ, no. 1338</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-B_F-ftn9"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-B_F-d8e16-person"
+                          n="Vol-2-B_F-Biblical-Females-Elisheba-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">אלישבע</persName>
+                     <persName type="lemma" xml:lang="en">Elisheba</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>Nehemiah (12) and <ref corresp="#Vol-2-B_M-d8e21898-person" type="relation" n="mother-of">Jonathan (31)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Amulet, Nazareth?<ref type="note" corresp="#Vol-2-B_F-ftn2"/>
+                        </note>
+                     </state>
+                     <bibl>Hamilton,JSS41 (1996) 221</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>6thC</floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-B_F-d8e58-person"
+                          n="Vol-2-Vol-1-ADD-B_F-Biblical-Females-Elisheba-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">אלישבע</persName>
+                     <persName type="lemma" xml:lang="en">Elisheba</persName>
+                     <persName>–</persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-B_M-d8e22331-person" type="relation" n="mother-of">Joseph (10)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Ossuary, Price</note>
+                     </state>
+                     <bibl>CIIP1/1, 535</bibl>
+                     <state type="addl-Descr">
+                        <note>–</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_F-ftn6"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-3-B_F-d8e63-person"
+                          n="Vol-3-B_F-Biblical-Females-Elisheba-1">
+                     <sex cert="high">F</sex>
+                     <persName type="lemma">אלישבע</persName>
+                     <persName type="lemma" xml:lang="en">Elisheba</persName>
+                     <persName>̓Ελισαβέτ<ref type="note" corresp="#Vol-3-B_F-ftn5"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="mother-of">Jacob (29)’s mother</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, St Louis</note>
+                     </state>
+                     <bibl>P. Wash. Univ. 26</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-B_F-ftn6"/>P:Egypt</note>
+                     </state>
+                     <floruit>596 CE<ref type="note" corresp="#Vol-3-B_F-ftn7"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

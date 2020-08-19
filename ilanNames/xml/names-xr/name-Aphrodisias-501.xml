@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Aphrodisias-̓Αφροδισιάς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Aphrodisias-Vol-1-G_M"
+                type="name"
+                n="Aphrodisias-̓Αφροδισιάς"
+                xml:id="name-Aphrodisias-d1e207653">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn276"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e3939-person" n="Vol-1-G_M-Aphrodisias-1">
+                     <persName type="lemma">̓Αφροδισιάς</persName>
+                     <persName type="lemma" xml:lang="en">Aphrodisias</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">Aphrodisias</persName>
+                     <persName xml:lang="he">אפרודיסיוס<ref type="note" corresp="#Vol-1-G_M-ftn277"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Ostracon, Jerusalem</note>
+                     </state>
+                     <bibl>DJ202</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn278"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

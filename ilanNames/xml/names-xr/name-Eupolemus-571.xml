@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Eupolemus-Ε̓πόλεμος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Eupolemus-Vol-1-G_M names/Vol-2-Vol-1-ADD-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Eupolemus-Vol-2-Vol-1-ADD-G_M"
+                type="name"
+                n="Eupolemus-Ε̓πόλεμος"
+                xml:id="name-Eupolemus-d1e216725">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-1-G_M-ftn504"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-Vol-1-ADD-G_M-ftn133"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-1-G_M-d2e7139-person" n="Vol-1-G_M-Eupolemus-1">
+                     <persName type="lemma">Ε̓πόλεμος</persName>
+                     <persName type="lemma" xml:lang="en">Eupolemus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>Ambassador, <ref corresp="#Vol-1-B_M-d2e24963-person" type="relation" n="son-of">Yohanan (6)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>1 Macc 8:17; 2 Macc 4:11 (H &amp; R Suppl. 63)AJ12:415 (Schalit,NB, 46)<ref type="note" corresp="#Vol-1-G_M-ftn505"/>.</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>161 BCE<ref type="note" corresp="#Vol-1-G_M-ftn506"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-1-G_M-d2e7168-person" n="Vol-1-G_M-Eupolemus-2">
+                     <persName type="lemma">Ε̓πόλεμος</persName>
+                     <persName type="lemma" xml:lang="en">Eupolemus</persName>
+                     <sex cert="high">M</sex>
+                     <persName xml:lang="checkme">—</persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-1-G_M-ftn507"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>—</note>
+                     </state>
+                     <bibl>Eus.PE9:26:1</bibl>
+                     <state type="addl-Descr">
+                        <note>—</note>
+                     </state>
+                     <floruit>Pre-1stC BCE<ref type="note" corresp="#Vol-1-G_M-ftn508"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-G_M-d8e1904-person"
+                          n="Vol-2-Vol-1-ADD-G_M-Greek-Males-Eupolemus-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ε̓πόλεμος</persName>
+                     <persName type="lemma" xml:lang="en">Eupolemus</persName>
+                     <persName>אפלמ{ק}וס<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn134"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Mt. Gerizim</note>
+                     </state>
+                     <bibl>Gerizim11</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn135"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-110 BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn136"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-Vol-1-ADD-G_M-d8e1941-person"
+                          n="Vol-2-Vol-1-ADD-G_M-Greek-Males-Eupolemus-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Ε̓πόλεμος</persName>
+                     <persName type="lemma" xml:lang="en">Eupolemus</persName>
+                     <persName>[או]פלמס<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn137"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Mt. Gerizim</note>
+                     </state>
+                     <bibl>Gerizim13</bibl>
+                     <state type="addl-Descr">
+                        <note>Samaritan<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn138"/>
+                        </note>
+                     </state>
+                     <floruit>Pre-110 BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn139"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

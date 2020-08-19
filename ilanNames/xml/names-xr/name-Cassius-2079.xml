@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Cassius-Cassius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Cassius-Vol-2-L_M names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Cassius-Vol-3-L_M"
+                type="name"
+                n="Cassius-Cassius"
+                xml:id="name-Cassius-d1e385285">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-2-L_M-ftn172"/>
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-L_M-ftn650"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-2-L_M-d8e2245-person" n="Vol-2-L_M-Latin-Males-Cassius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Cassius</persName>
+                     <persName type="lemma" xml:lang="en">Cassius</persName>
+                     <persName>Κασ[σίου]<ref type="note" corresp="#Vol-2-L_M-ftn173"/>
+                     </persName>
+                     <state type="desc">
+                        <note/>
+                     </state>
+                     <state type="provenance">
+                        <note>Epitaph, Caesarea</note>
+                     </state>
+                     <bibl>Lehmann &amp; Holum,CMER5, no. 257</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn174"/>
+                        </note>
+                     </state>
+                     <floruit>–<ref type="note" corresp="#Vol-2-L_M-ftn175"/>
+                     </floruit>
+                  </person>
+                  <person xml:id="Vol-2-L_M-d8e2282-person" n="Vol-2-L_M-Latin-Males-Cassius-2">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Cassius</persName>
+                     <persName type="lemma" xml:lang="en">Cassius</persName>
+                     <persName>Κασίου<ref type="note" corresp="#Vol-2-L_M-ftn176"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-2-G_F-d8e3908-person" type="relation" n="son-of">Metradotion (1)’s son</ref>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Amulet, Evron<ref type="note" corresp="#Vol-2-L_M-ftn177"/>
+                        </note>
+                     </state>
+                     <bibl>PC22/1 (1994) no. 56</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-2-L_M-ftn178"/>
+                        </note>
+                     </state>
+                     <floruit>3rd-4thC</floruit>
+                  </person>
+                  <person xml:id="Vol-3-L_M-d8e11086-person" n="Vol-3-L_M-Latin-Males-Cassius-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Cassius</persName>
+                     <persName type="lemma" xml:lang="en">Cassius</persName>
+                     <persName>Κασσ[ίο]υ<ref type="note" corresp="#Vol-3-L_M-ftn651"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-L_M-ftn652"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dedicatory inscription, Thessalonica, Dumont</note>
+                     </state>
+                     <bibl>Rajak, “Archisynagogoi,” no. 2</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn653"/>Second nameP:Greece</note>
+                     </state>
+                     <floruit>155 CE<ref type="note" corresp="#Vol-3-L_M-ftn654"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

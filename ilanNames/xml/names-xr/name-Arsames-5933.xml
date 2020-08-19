@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Arsames-Arsames</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-3-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Arsames-Vol-3-P_M"
+                type="name"
+                n="Arsames-Arsames"
+                xml:id="name-Arsames-d1e564625">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-3-P_M-ftn8"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-3-P_M-d8e118-person" n="Vol-3-P_M-Persian-Males-Arsames-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">Arsames</persName>
+                     <persName type="lemma" xml:lang="en">Arsames</persName>
+                     <persName>[̓Α]ρσάμης<ref type="note" corresp="#Vol-3-P_M-ftn9"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-3-P_M-ftn10"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Papyrus, Heracleopolis</note>
+                     </state>
+                     <bibl>PC29 (2001) 11</bibl>
+                     <state type="addl-Descr">
+                        <note>Jew?<ref type="note" corresp="#Vol-3-P_M-ftn11"/>Male<ref type="note" corresp="#Vol-3-P_M-ftn12"/>P:Egypt</note>
+                     </state>
+                     <floruit>133/2 BCE<ref type="note" corresp="#Vol-3-P_M-ftn13"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tal Ilan Lexicon, Master List -- Shapir-שפיר</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="name">
+            <ab corresp="names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Shapir-Vol-4-S-H_M"
+                type="name"
+                n="Shapir-שפיר"
+                xml:id="name-Shapir-d1e651380">
+               <ref xmlns:local="http://local-functions.uri"
+                    type="note"
+                    corresp="#Vol-4-S-H_M-ftn2368"/>
+               <listPerson xmlns:local="http://local-functions.uri">
+                  <person xml:id="Vol-4-S-H_M-d8e33928-person"
+                          n="Vol-4-S-H_M-Semitic-Hebrew-Males-Shapir-1">
+                     <sex cert="high">M</sex>
+                     <persName type="lemma">שפיר</persName>
+                     <persName type="lemma" xml:lang="en">Shapir</persName>
+                     <persName>שאפי<ref type="note" corresp="#Vol-4-S-H_M-ftn2369"/>
+                     </persName>
+                     <persName>/שבו<ref type="note" corresp="#Vol-4-S-H_M-ftn2370"/>
+                     </persName>
+                     <persName>/שאפין<ref type="note" corresp="#Vol-4-S-H_M-ftn2371"/>
+                     </persName>
+                     <state type="desc">
+                        <note>
+                           <ref type="note" corresp="#Vol-4-S-H_M-ftn2372"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>–</note>
+                     </state>
+                     <bibl>bMQ11a (Kosowsky,Babylonico, 1751)</bibl>
+                     <state type="addl-Descr">
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2373"/>; nickname?<ref type="note" corresp="#Vol-4-S-H_M-ftn2374"/>P:Babylonia</note>
+                     </state>
+                     <floruit>3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2375"/>
+                     </floruit>
+                  </person>
+               </listPerson>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>
