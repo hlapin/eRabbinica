@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Petrus-Vol-1-G_M names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Petrus-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Petrus-Vol-3-G_M"
                 type="name"
                 n="Petrus-Πέτρος"
-                xml:id="name-Petrus-d1e240169">
+                xml:id="name-Petrus-d1e247301">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-1-G_M-ftn1071"/>
@@ -41,7 +41,7 @@
                            <ref corresp="#Vol-1-G_F-d2e677-person" type="relation" n="freedman-of">Berenice (1)’s freedman</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>—</note>
                      </state>
                      <bibl>AJ18:156 (Schalit,NB, 98)</bibl>
@@ -60,7 +60,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>—</note>
                      </state>
                      <bibl>Matt 4:18 (VKGNT 1122)</bibl>
@@ -82,7 +82,7 @@
                            <ref corresp="#Vol-1-B_M-d2e33046-person" type="relation" n="father-of">Joseph (80)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>—</note>
                      </state>
                      <bibl>yMQ3:6, 82d (Kosovsky,Yerushalmi, 342)</bibl>
@@ -104,7 +104,7 @@
                            <ref corresp="#Vol-1-B_M-d2e35672-person" type="relation" n="son-of">Joseph (186)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, deed, Heber</note>
                      </state>
                      <bibl>PYadin 46</bibl>
@@ -125,7 +125,7 @@
                            <ref corresp="#Vol-1-G_M-d2e10948-person" type="relation" n="son-of">Istomachus (1)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ostracon, Masada</note>
                      </state>
                      <bibl>Mas no. 413</bibl>
@@ -145,7 +145,7 @@
                            <ref corresp="#Vol-2-L_M-d8e2414-person" type="relation" n="father-of">Claudius (2)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Zoar</note>
                      </state>
                      <bibl>IPT1b, no. 43</bibl>
@@ -164,12 +164,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>Gregorius, IX, 196,CCSL140, 750</bibl>
                      <state type="addl-Descr">
-                        <note>Christian convert<ref type="note" corresp="#Vol-3-G_M-ftn3735"/>P:Italy?<ref type="note" corresp="#Vol-3-G_M-ftn3736"/>
+                        <note>Christian convert<ref type="note" corresp="#Vol-3-G_M-ftn3735"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Italy?<ref type="note" corresp="#Vol-3-G_M-ftn3736"/>
                         </note>
                      </state>
                      <floruit>599 CE<ref type="note" corresp="#Vol-3-G_M-ftn3737"/>
@@ -184,12 +188,16 @@
                         <note>Paperius (1), <ref corresp="#Vol-3-G_M-d8e61305-person" type="relation" n="son-of">Olympius (1)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Mosaic epitaph, Aquileia, Brusin</note>
                      </state>
                      <bibl>CIJ643a</bibl>
                      <state type="addl-Descr">
-                        <note>Christian convert;<ref type="note" corresp="#Vol-3-G_M-ftn3738"/>second name<ref type="note" corresp="#Vol-3-G_M-ftn3739"/>P:Italy</note>
+                        <note>Christian convert;<ref type="note" corresp="#Vol-3-G_M-ftn3738"/>second name<ref type="note" corresp="#Vol-3-G_M-ftn3739"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Italy</note>
                      </state>
                      <floruit>5thC CE</floruit>
                   </person>
@@ -203,12 +211,16 @@
                            <ref type="note" corresp="#Vol-3-G_M-ftn3740"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Via Nomentana, Amaduzzi</note>
                      </state>
                      <bibl>CIJ80*</bibl>
                      <state type="addl-Descr">
-                        <note>Christian?<ref type="note" corresp="#Vol-3-G_M-ftn3741"/>P:Rome</note>
+                        <note>Christian?<ref type="note" corresp="#Vol-3-G_M-ftn3741"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>

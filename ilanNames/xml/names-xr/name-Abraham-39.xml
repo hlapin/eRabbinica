@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Abraham-Vol-1-B_M names/Vol-2-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Abraham-Vol-2-B_M names/Vol-2-Vol-1-ADD-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Abraham-Vol-2-Vol-1-ADD-B_M names/Vol-3-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Abraham-Vol-3-B_M names/Vol-4-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Abraham-Vol-4-B_M names/Vol-4-Vol-3-Add-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Abraham-Vol-4-Vol-3-Add-B_M"
                 type="name"
                 n="Abraham-אברהם"
-                xml:id="name-Abraham-d1e19059">
+                xml:id="name-Abraham-d1e19852">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-1-B_M-ftn9"/>
@@ -50,7 +50,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>—</note>
                      </state>
                      <bibl>Arist48</bibl>
@@ -72,7 +72,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>—</note>
                      </state>
                      <bibl>Arist49</bibl>
@@ -96,7 +96,7 @@
                                 n="relative-of">Joseph (30)’s relative</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>—</note>
                      </state>
                      <bibl>Barhebraeus,Chron. Ec. (Abbeloos, 22)</bibl>
@@ -120,7 +120,7 @@
                                 n="relative-of">Jacob (5)’s relative</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>—</note>
                      </state>
                      <bibl>Barhebraeus,Chron. Ec. (Abbeloos, 22)</bibl>
@@ -142,7 +142,7 @@
                            <ref type="note" corresp="#Vol-2-B_M-ftn21"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>Antiochus Monachus,PG89, 1692</bibl>
@@ -181,7 +181,7 @@
                            <ref type="note" corresp="#Vol-2-B_M-ftn27"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>Tulida, 130</bibl>
@@ -202,7 +202,7 @@
                            <ref corresp="#Vol-2-L_M-d8e6544-person" type="relation" n="son-of">Lollianus (6)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Inscription, Golden Gate, Jerusalem, Macalister</note>
                      </state>
                      <bibl>CIJ1397</bibl>
@@ -224,7 +224,7 @@
                            <ref type="note" corresp="#Vol-2-B_M-ftn33"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Celeia,<ref type="note" corresp="#Vol-2-B_M-ftn34"/>Diehl</note>
                      </state>
                      <bibl>CIJ91*</bibl>
@@ -244,7 +244,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Beth She‘arim, catacomb 1,CIJ1053</note>
                      </state>
                      <bibl>BS2:42</bibl>
@@ -265,7 +265,7 @@
                            <ref corresp="#Vol-2-G_M-d8e12826-person" type="relation" n="son-of">Marmarius (1)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Synagogue inscription, Tiberias</note>
                      </state>
                      <bibl>Roth-Gerson,GISEI, no. 14</bibl>
@@ -283,7 +283,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Hebron?<ref type="note" corresp="#Vol-2-B_M-ftn41"/>
                         </note>
                      </state>
@@ -306,7 +306,7 @@
                            <ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn2"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph?<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn3"/>Tomb of the Prophets, Jerusalem</note>
                      </state>
                      <bibl>CIIP1/2, 953</bibl>
@@ -325,12 +325,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ostracon, Edfu, Sachau</note>
                      </state>
                      <bibl>TADAE4:8:4</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn20"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn20"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>3rdC BCE</floruit>
                   </person>
@@ -343,12 +347,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ostracon, Thebes, Sayce</note>
                      </state>
                      <bibl>CPJ50</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn22"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn22"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>165 BCE<ref type="note" corresp="#Vol-3-B_M-ftn23"/>
                      </floruit>
@@ -364,12 +372,16 @@
                            <ref corresp="#Vol-3-B_M-d8e4479-person" type="relation" n="father-of">Daliah (4)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ostraca, Edfu, Wessely</note>
                      </state>
                      <bibl>1.CPJ284; 2. Nachtergael,MA27 (1994) 45-6</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn25"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn25"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>77-92 CE<ref type="note" corresp="#Vol-3-B_M-ftn26"/>
                      </floruit>
@@ -385,12 +397,16 @@
                            <ref corresp="#" type="relation" n="son-of">Jacob (14)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ostracon, Edfu, Manteuffel</note>
                      </state>
                      <bibl>CPJ365</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn28"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn28"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>111 CE<ref type="note" corresp="#Vol-3-B_M-ftn29"/>
                      </floruit>
@@ -406,12 +422,16 @@
                            <ref corresp="#Vol-3-G_M-d8e40000-person" type="relation" n="son-of">Theogenes (2)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ostracon, Edfu, Wessely</note>
                      </state>
                      <bibl>CPJ374</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn31"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn31"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>1st-2ndC CE</floruit>
                   </person>
@@ -424,12 +444,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Hermopolis Magna, Möller</note>
                      </state>
                      <bibl>CPJ412</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn33"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn33"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>8/9 CE<ref type="note" corresp="#Vol-3-B_M-ftn34"/>
                      </floruit>
@@ -443,12 +467,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Fayum, Krebs</note>
                      </state>
                      <bibl>CPJ428</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn36"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn36"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>101/2 CE<ref type="note" corresp="#Vol-3-B_M-ftn37"/>
                      </floruit>
@@ -464,12 +492,16 @@
                            <ref corresp="#Vol-3-E_M-d8e4163-person" type="relation" n="father-of">Paabos (1)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Fayum, Krebs</note>
                      </state>
                      <bibl>CPJ471</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn39"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn39"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>3rdC CE</floruit>
                   </person>
@@ -484,12 +516,16 @@
                            <ref corresp="#Vol-3-G_M-d8e41478-person" type="relation" n="son-of">Theodotus (20)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Fayum, Wessely</note>
                      </state>
                      <bibl>CPJ512</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn41"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn41"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>6th-7thC CE</floruit>
                   </person>
@@ -505,13 +541,17 @@
                            <ref type="note" corresp="#Vol-3-B_M-ftn43"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ostracon, Heliopolis</note>
                      </state>
                      <bibl>Petrie,Hyksos and Israelite Cities, 26<ref type="note" corresp="#Vol-3-B_M-ftn44"/>
                      </bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn45"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn45"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>2ndC BCE</floruit>
                   </person>
@@ -525,12 +565,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Strasbourg</note>
                      </state>
                      <bibl>P. Stras. 361</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn47"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn47"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>2ndC CE</floruit>
                   </person>
@@ -546,12 +590,16 @@
                            <ref corresp="#Vol-3-G_M-d8e45976-person" type="relation" n="son-of">Theophilus (9)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Arsinoe</note>
                      </state>
                      <bibl>P. Vindob. Tandem 15</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn49"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn49"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>1st-2ndC CE</floruit>
                   </person>
@@ -565,12 +613,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, St Louis</note>
                      </state>
                      <bibl>P. Wash. Univ 26</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-B_M-ftn51"/>P:Egypt</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-B_M-ftn51"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>596 CE<ref type="note" corresp="#Vol-3-B_M-ftn52"/>
                      </floruit>
@@ -586,12 +638,16 @@
                         <note>Aurelius (12), <ref corresp="#Vol-3-B_M-d8e4632-person" type="relation" n="son-of">Daniel (3)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Hermopolis</note>
                      </state>
                      <bibl>P. Sta. Xyla 5</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-B_M-ftn54"/>P:Egypt</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-B_M-ftn54"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>539 CE<ref type="note" corresp="#Vol-3-B_M-ftn55"/>
                      </floruit>
@@ -606,12 +662,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Hermopolis</note>
                      </state>
                      <bibl>P. Sorb. II 69, 111D</bibl>
                      <state type="addl-Descr">
-                        <note>Samaritan<ref type="note" corresp="#Vol-3-B_M-ftn57"/>P:Egypt</note>
+                        <note>Samaritan<ref type="note" corresp="#Vol-3-B_M-ftn57"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>618-34 CE<ref type="note" corresp="#Vol-3-B_M-ftn58"/>
                      </floruit>
@@ -626,12 +686,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Fayum</note>
                      </state>
                      <bibl>Salvaterra, “L’administrazione,” 322</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn60"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn60"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>92/3 CE<ref type="note" corresp="#Vol-3-B_M-ftn61"/>
                      </floruit>
@@ -647,12 +711,16 @@
                            <ref corresp="#" type="relation" n="son-of">Isaac (42)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Fayum</note>
                      </state>
                      <bibl>Steinschneider,MWJ6 (1879) 253</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn62"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn62"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>Pre-8thC CE</floruit>
                   </person>
@@ -668,12 +736,16 @@
                            <ref corresp="#Vol-3-G_F-d8e11136-person" type="relation" n="husband-of">Theodote (5)’s husband</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Thessalonica, Reinach</note>
                      </state>
                      <bibl>CIJ693</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn64"/>P:Greece</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn64"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Greece</note>
                      </state>
                      <floruit>2ndC CE</floruit>
                   </person>
@@ -689,12 +761,16 @@
                            <ref type="note" corresp="#Vol-3-B_M-ftn66"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Margarini</note>
                      </state>
                      <bibl>CIJ733e</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn67"/>P:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn67"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -710,12 +786,16 @@
                            <ref corresp="#Vol-3-B_M-d8e27189-person" type="relation" n="son-of">Reuben (5)’s son</ref>, of Pharbethitis<ref type="note" corresp="#Vol-3-B_M-ftn69"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Kh. Hebra (Israel), Vincent</note>
                      </state>
                      <bibl>CIJ1175</bibl>
                      <state type="addl-Descr">
-                        <note>Samaritan?<ref type="note" corresp="#Vol-3-B_M-ftn70"/>P:Egypt<ref type="note" corresp="#Vol-3-B_M-ftn71"/>
+                        <note>Samaritan?<ref type="note" corresp="#Vol-3-B_M-ftn70"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt<ref type="note" corresp="#Vol-3-B_M-ftn71"/>
                         </note>
                      </state>
                      <floruit>–<ref type="note" corresp="#Vol-3-B_M-ftn72"/>
@@ -733,12 +813,16 @@
                            <ref type="note" corresp="#Vol-3-B_M-ftn74"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Leontopolis, Miller</note>
                      </state>
                      <bibl>CIJ1530a</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-B_M-ftn75"/>P:Egypt</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-B_M-ftn75"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>2ndC BCE-2ndC CE</floruit>
                   </person>
@@ -754,12 +838,16 @@
                            <ref corresp="#Vol-3-S-G_M-d8e430-person" type="relation" n="son-of">Alosmathoutos (1)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Dedicatory inscription, Ptolemais, Lefèbvre</note>
                      </state>
                      <bibl>JIGRE154</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-B_M-ftn77"/>P:Egypt</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-B_M-ftn77"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>138/7 BCE<ref type="note" corresp="#Vol-3-B_M-ftn78"/>
                      </floruit>
@@ -773,12 +861,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Crimea, Chwolson</note>
                      </state>
                      <bibl>IJO1, App4</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn79"/>; late<ref type="note" corresp="#Vol-3-B_M-ftn80"/>P:Bosphoran Kingdom</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn79"/>; late<ref type="note" corresp="#Vol-3-B_M-ftn80"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Bosphoran Kingdom</note>
                      </state>
                      <floruit>–<ref type="note" corresp="#Vol-3-B_M-ftn81"/>
                      </floruit>
@@ -792,12 +884,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Phanagoria,<ref type="note" corresp="#Vol-3-B_M-ftn82"/>Weisenberg</note>
                      </state>
                      <bibl>IJO1, App6</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn83"/>; late<ref type="note" corresp="#Vol-3-B_M-ftn84"/>P:Bosphoran Kingdom</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn83"/>; late<ref type="note" corresp="#Vol-3-B_M-ftn84"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Bosphoran Kingdom</note>
                      </state>
                      <floruit>–<ref type="note" corresp="#Vol-3-B_M-ftn85"/>
                      </floruit>
@@ -813,12 +909,16 @@
                            <ref type="note" corresp="#Vol-4-B_M-ftn19"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bGit50a (Kosowsky,Babylonico, 102)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn20"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn20"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>Post-352 CE<ref type="note" corresp="#Vol-4-B_M-ftn21"/>
                      </floruit>
@@ -834,12 +934,16 @@
                            <ref type="note" corresp="#Vol-4-B_M-ftn23"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>Ibn Manẓūr,mukhtaṣar, IX, 35</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn24"/>P:Arab. Pen.</note>
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn24"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Arab. Pen.</note>
                      </state>
                      <floruit>7thC CE<ref type="note" corresp="#Vol-4-B_M-ftn25"/>
                      </floruit>
@@ -855,12 +959,16 @@
                            <ref type="note" corresp="#Vol-4-B_M-ftn27"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>Leveen,JQR16 (1925-6) 402</bibl>
                      <state type="addl-Descr">
-                        <note>Muslim convert<ref type="note" corresp="#Vol-4-B_M-ftn28"/>; second name<ref type="note" corresp="#Vol-4-B_M-ftn29"/>P:Arab. Pen.</note>
+                        <note>Muslim convert<ref type="note" corresp="#Vol-4-B_M-ftn28"/>; second name<ref type="note" corresp="#Vol-4-B_M-ftn29"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Arab. Pen.</note>
                      </state>
                      <floruit>Pre-632 CE<ref type="note" corresp="#Vol-4-B_M-ftn30"/>
                      </floruit>
@@ -876,12 +984,16 @@
                            <ref type="note" corresp="#Vol-4-B_M-ftn32"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Synagogue inscription, Dura-Europos, du Mesnil</note>
                      </state>
                      <bibl>CIJ828b</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn33"/>P:Dura-Europos</note>
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn33"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dura-Europos</note>
                      </state>
                      <floruit>244/5 CE<ref type="note" corresp="#Vol-4-B_M-ftn34"/>
                      </floruit>
@@ -897,12 +1009,16 @@
                            <ref type="note" corresp="#Vol-4-B_M-ftn36"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Synagogue inscription, Dura-Europos, du Mesnil</note>
                      </state>
                      <bibl>CIJ830</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn37"/>P:Dura-Europos</note>
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn37"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dura-Europos</note>
                      </state>
                      <floruit>244/5 CE?<ref type="note" corresp="#Vol-4-B_M-ftn38"/>
                      </floruit>
@@ -918,12 +1034,16 @@
                            <ref corresp="#Vol-4-B_M-d8e31969-person" type="relation" n="father-of">Simon (19)’s father</ref>, “father”<ref type="note" corresp="#Vol-4-B_M-ftn40"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Palmyra, Sobernheim</note>
                      </state>
                      <bibl>CIS2/3, 4180</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-4-B_M-ftn41"/>P:Palmyra</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-4-B_M-ftn41"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Palmyra</note>
                      </state>
                      <floruit>
                         <ref type="note" corresp="#Vol-4-B_M-ftn42"/>
@@ -939,13 +1059,17 @@
                            <ref corresp="#Vol-4-I_F-d8e13038-person" type="relation" n="son-of">Šērkōē (1)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Incantation bowl, Nippur, Montgomery</note>
                      </state>
                      <bibl>Isbell, nos. 23, 24</bibl>
                      <state type="addl-Descr">
                         <note>
-                           <ref type="note" corresp="#Vol-4-B_M-ftn43"/>P:Babylonia</note>
+                           <ref type="note" corresp="#Vol-4-B_M-ftn43"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-B_M-ftn44"/>
                      </floruit>
@@ -958,12 +1082,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Incantation bowl, private collection</note>
                      </state>
                      <bibl>MSFno. 21</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn45"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn45"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-B_M-ftn46"/>
                      </floruit>
@@ -978,12 +1106,16 @@
                            <ref corresp="#Vol-4-B_F-d8e1364-person" type="relation" n="son-of">Sarah (5)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Amulet, Mtskheta</note>
                      </state>
                      <bibl>Shaked,JSAI32 (2006) 506</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn47"/>P:Georgia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn47"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Georgia</note>
                      </state>
                      <floruit>
                         <ref type="note" corresp="#Vol-4-B_M-ftn48"/>
@@ -999,12 +1131,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Fayum</note>
                      </state>
                      <bibl>CIIIII, 4, P. 267</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-4-B_M-ftn50"/>P:Eygpt/Persia<ref type="note" corresp="#Vol-4-B_M-ftn51"/>
+                        <note>Jew?<ref type="note" corresp="#Vol-4-B_M-ftn50"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Eygpt/Persia<ref type="note" corresp="#Vol-4-B_M-ftn51"/>
                         </note>
                      </state>
                      <floruit>616-29 CE<ref type="note" corresp="#Vol-4-B_M-ftn52"/>
@@ -1020,12 +1156,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Seal</note>
                      </state>
                      <bibl>Friedenberg,Sasanian Jewry, no, 36</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn54"/>; authentic?<ref type="note" corresp="#Vol-4-B_M-ftn55"/>P:Babylonia?<ref type="note" corresp="#Vol-4-B_M-ftn56"/>
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn54"/>; authentic?<ref type="note" corresp="#Vol-4-B_M-ftn55"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia?<ref type="note" corresp="#Vol-4-B_M-ftn56"/>
                         </note>
                      </state>
                      <floruit>–<ref type="note" corresp="#Vol-4-B_M-ftn57"/>
@@ -1040,12 +1180,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>Acta Sanctorum, Oct. 12, p. 765</bibl>
                      <state type="addl-Descr">
-                        <note>Christian convert<ref type="note" corresp="#Vol-4-Vol-3-Add-B_M-ftn2"/>P:Asia<ref type="note" corresp="#Vol-4-Vol-3-Add-B_M-ftn3"/>
+                        <note>Christian convert<ref type="note" corresp="#Vol-4-Vol-3-Add-B_M-ftn2"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Asia<ref type="note" corresp="#Vol-4-Vol-3-Add-B_M-ftn3"/>
                         </note>
                      </state>
                      <floruit>610-641 CE<ref type="note" corresp="#Vol-4-Vol-3-Add-B_M-ftn4"/>
@@ -1058,12 +1202,16 @@
                      <persName type="lemma" xml:lang="en">Abraham</persName>
                      <persName>̓Αβρ[άμ]ῳ</persName>
                      <floruit>Philon (3)’s father</floruit>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Fayum</note>
                      </state>
                      <bibl>SB16652, xvii: 370</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-Vol-3-Add-B_M-ftn5"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-4-Vol-3-Add-B_M-ftn5"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>116/7 CE<ref type="note" corresp="#Vol-4-Vol-3-Add-B_M-ftn6"/>
                      </floruit>

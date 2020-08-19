@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Teima-Vol-1-B_M names/Vol-2-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Teima-Vol-2-B_M names/Vol-3-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Teima-Vol-3-B_M names/Vol-4-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Teima-Vol-4-B_M"
                 type="name"
                 n="Teima-תימא"
-                xml:id="name-Teima-d1e187224">
+                xml:id="name-Teima-d1e191649">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-1-B_M-ftn4602"/>
@@ -43,7 +43,7 @@
                            <ref corresp="#Vol-1-B_M-d2e18094-person" type="relation" n="father-of">Judah (38)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>—</note>
                      </state>
                      <bibl>mAb5:20 (Kasovsky,Mishnae, -)</bibl>
@@ -65,7 +65,7 @@
                            <ref corresp="#Vol-1-S-H_M-d2e5023-person" type="relation" n="son-of">Habub (2)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ossuary, Shu‘afat, Abel, 1913</note>
                      </state>
                      <bibl>CIJ, no. 1222</bibl>
@@ -85,7 +85,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ossuary, Jerusalem</note>
                      </state>
                      <bibl>CJO, no. 254</bibl>
@@ -106,7 +106,7 @@
                            <ref corresp="#Vol-1-B_M-d2e20129-person" type="relation" n="son-of">Judah (115)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ossuary, Pontifical Institute</note>
                      </state>
                      <bibl>DJO, pl. 8, no. 549</bibl>
@@ -126,7 +126,7 @@
                            <ref corresp="#Vol-2-G_M-d8e14430-person" type="relation" n="son-of">Pappus (6)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>ySan4:7, 22b (Kosovsky,Yerushalmi, 590)</bibl>
@@ -148,7 +148,7 @@
                         <note>Julianus (2), <ref corresp="#Vol-2-S-G_M-d8e1997-person" type="relation" n="son-of">Saad (1)’s son</ref>, Syrian of Canotha<ref type="note" corresp="#Vol-2-B_M-ftn3261"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, France, Oehler</note>
                      </state>
                      <bibl>CIJ61*</bibl>
@@ -170,7 +170,7 @@
                            <ref type="note" corresp="#Vol-2-B_M-ftn3266"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaphs, Beth She‘arim, catacomb 1,CIJ1023, 1024, 1025</note>
                      </state>
                      <bibl>BS1:12, 2. 2:11. 3. 2:12</bibl>
@@ -190,7 +190,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Synagogue inscription, Ma‘on,<ref type="note" corresp="#Vol-2-B_M-ftn3270"/>Yeivin</note>
                      </state>
                      <bibl>Naveh,OSM, no. 57</bibl>
@@ -209,12 +209,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ostracon, Edfu, Manteuffel</note>
                      </state>
                      <bibl>CPJ139</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn1822"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn1822"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>1stC BCE</floruit>
                   </person>
@@ -230,12 +234,16 @@
                            <ref corresp="#Vol-4-S-H_M-d8e18980-person" type="relation" n="son-of">Ḥabiba (10)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ossuary, Jerusalem, Abel</note>
                      </state>
                      <bibl>CIJ1222</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn2291"/>P:Palmyra<ref type="note" corresp="#Vol-4-B_M-ftn2292"/>
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn2291"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Palmyra<ref type="note" corresp="#Vol-4-B_M-ftn2292"/>
                         </note>
                      </state>
                      <floruit>Pre-70 C CE<ref type="note" corresp="#Vol-4-B_M-ftn2293"/>
@@ -256,12 +264,16 @@
                            <ref type="note" corresp="#Vol-4-B_M-ftn2295"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Palmyra, Ronzevalle</note>
                      </state>
                      <bibl>CIS2/3, 4268</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-4-B_M-ftn2296"/>P:Palmyra</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-4-B_M-ftn2296"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Palmyra</note>
                      </state>
                      <floruit>
                         <ref type="note" corresp="#Vol-4-B_M-ftn2297"/>
@@ -279,12 +291,16 @@
                            <ref type="note" corresp="#Vol-4-B_M-ftn2299"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Palmyra, Lidzbarski</note>
                      </state>
                      <bibl>CIS2/3, 4277</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-4-B_M-ftn2300"/>P:Palmyra</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-4-B_M-ftn2300"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Palmyra</note>
                      </state>
                      <floruit>
                         <ref type="note" corresp="#Vol-4-B_M-ftn2301"/>

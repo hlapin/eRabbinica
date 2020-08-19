@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Gregorius-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Gregorius-Vol-3-G_M names/Vol-4-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Gregorius-Vol-4-G_M"
                 type="name"
                 n="Gregorius-Γρηγόριος"
-                xml:id="name-Gregorius-d1e357278">
+                xml:id="name-Gregorius-d1e370453">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-2-G_M-ftn275"/>
@@ -42,7 +42,7 @@
                            <ref corresp="#Vol-2-G_M-d8e4031-person" type="relation" n="father-of">Gregorius (2)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>POiv: 3, 311</bibl>
@@ -65,7 +65,7 @@
                            <ref corresp="#Vol-2-G_M-d8e4001-person" type="relation" n="son-of">Gregorius (1)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>POiv: 3, 311</bibl>
@@ -85,7 +85,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Jaffa, Euting</note>
                      </state>
                      <bibl>CIJ927</bibl>
@@ -102,7 +102,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Caesarea</note>
                      </state>
                      <bibl>Lehmann &amp; Holum,CMER5, no. 259</bibl>
@@ -122,7 +122,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Caesarea</note>
                      </state>
                      <bibl>Lehmann &amp; Holum,CMER5, no. 319</bibl>
@@ -145,12 +145,16 @@
                            <ref corresp="#Vol-3-G_M-d8e77025-person" type="relation" n="son-of">Tychicus (4)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
                      </state>
                      <bibl>IJO2, 14:B44</bibl>
                      <state type="addl-Descr">
-                        <note>God-fearer<ref type="note" corresp="#Vol-3-G_M-ftn955"/>P:Asia</note>
+                        <note>God-fearer<ref type="note" corresp="#Vol-3-G_M-ftn955"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Asia</note>
                      </state>
                      <floruit>3rdC CE</floruit>
                   </person>
@@ -165,12 +169,16 @@
                            <ref corresp="#Vol-4-S-H_F-d8e325-person" type="relation" n="son-of">Aḥat (8)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Incantation bowl, Nippur, Gordon</note>
                      </state>
                      <bibl>Isbell, no. 47</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-G_M-ftn37"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-G_M-ftn37"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-G_M-ftn38"/>
                      </floruit>

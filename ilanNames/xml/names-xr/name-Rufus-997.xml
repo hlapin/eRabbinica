@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-1-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Rufus-Vol-1-L_M names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Rufus-Vol-2-L_M names/Vol-2-Vol-1-ADD-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Rufus-Vol-2-Vol-1-ADD-L_M names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Rufus-Vol-3-L_M"
                 type="name"
                 n="Rufus-Rufus"
-                xml:id="name-Rufus-d1e277100">
+                xml:id="name-Rufus-d1e286608">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-1-L_M-ftn321"/>
@@ -44,7 +44,7 @@
                            <ref corresp="#Vol-1-G_M-d2e8218-person" type="relation" n="general-of">Herod (1)’s general</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>—</note>
                      </state>
                      <bibl>BJ2:52;AJ17:266 (Schalit,NB, 102)</bibl>
@@ -66,7 +66,7 @@
                            <ref corresp="#Vol-1-B_M-d2e54216-person" type="relation" n="son-of">Simon (39)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>—</note>
                      </state>
                      <bibl>Mark 15:21 (VKGNT 1194)</bibl>
@@ -85,7 +85,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>—</note>
                      </state>
                      <bibl>Galen, Commentary on Hippocrates’ Epidemics</bibl>
@@ -105,7 +105,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ossuary, Kiryat Shmuel, Aharoni, 1954</note>
                      </state>
                      <bibl>CJO, no. 142</bibl>
@@ -126,7 +126,7 @@
                            <ref corresp="#Vol-2-G_F-d8e4003-person" type="relation" n="son-of">Nico (1)’s son</ref>?<ref type="note" corresp="#Vol-2-L_M-ftn711"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Gophna,<ref type="note" corresp="#Vol-2-L_M-ftn712"/>Schwabe</note>
                      </state>
                      <bibl>van Henten,Bulletin of Judaeo-Greek Studies32 (2003) 41</bibl>
@@ -149,7 +149,7 @@
                            <ref corresp="#" type="relation" n="son-of">Cleopas (1)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Pseudo-Cyril of Jerusalem,The Cross, 20a I (782)</note>
                      </state>
                      <state type="addl-Descr">
@@ -189,7 +189,7 @@
                            <ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn144"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Lead weight, Antwerp</note>
                      </state>
                      <bibl>Kushnir-Stein,ZPE141 (2002) 295</bibl>
@@ -209,12 +209,15 @@
                         <note>Antonius (2), Theodotus (15) Niger (2) and <ref corresp="#Vol-3-G_M-d8e60054-person" type="relation" n="father-of">Nicon (1)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ostraca, Edfu, Manteuffel</note>
                      </state>
                      <bibl>CPJ162, 164, 170, 173, 174, 176, 178, 239, 240, 243, 246, 249, 252, 253, 257, 259, 263, 264, 266, 269, 270, 271, 274, 275, 276</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2087"/>; second nameP:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2087"/>; second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>70-79 CE<ref type="note" corresp="#Vol-3-L_M-ftn2088"/>
                      </floruit>
@@ -228,12 +231,15 @@
                         <note>Achillas (1), Senpetesth (1) and Panibecis (1) <ref corresp="#Vol-3-E_M-d8e8703-person" type="relation" n="father-of">Senpeamus (1)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ostraca, Edfu, Manteuffel</note>
                      </state>
                      <bibl>CPJ375, 376, 377, 378, 379, 380, 381, 382, 384, 385, 386, 387, 388, 389, 390, 391, 392, 394, 395, 398, 399, 400, 401, 402, 403</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2089"/>second nameP:Egypt</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2089"/>second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>151-65<ref type="note" corresp="#Vol-3-L_M-ftn2090"/>
                      </floruit>
@@ -249,12 +255,16 @@
                            <ref type="note" corresp="#Vol-3-L_M-ftn2091"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ostracon, Edfu, Manteuffel</note>
                      </state>
                      <bibl>CPJ378</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2092"/>P:Egypt</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2092"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>162 CE<ref type="note" corresp="#Vol-3-L_M-ftn2093"/>
                      </floruit>
@@ -269,13 +279,17 @@
                            <ref corresp="#Vol-3-L_M-d8e19152-person" type="relation" n="son-of">Honoratus (2)’s son</ref>, <ref corresp="#Vol-3-L_M-d8e19230-person" type="relation" n="father-of">Honoratus (3)’s father</ref>, archon<ref type="note" corresp="#Vol-3-L_M-ftn2094"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaphs, Vigna Randanini, Garrucci</note>
                      </state>
                      <bibl>CIJ145, 146<ref type="note" corresp="#Vol-3-L_M-ftn2095"/>
                      </bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2096"/>P:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2096"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -288,12 +302,15 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Seal, De Rossi</note>
                      </state>
                      <bibl>CIJ525</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2098"/>; second nameP:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2098"/>; second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -306,12 +323,16 @@
                         <note>Aurelius (27), <ref corresp="#Vol-3-L_M-d8e20130-person" type="relation" n="son-of">Julianus (12)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Apamea, Ramasy</note>
                      </state>
                      <bibl>CIJ774</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2099"/>P:Asia</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2099"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Asia</note>
                      </state>
                      <floruit>3rdC CE</floruit>
                   </person>
@@ -324,12 +345,16 @@
                         <note>Aurelius (43) <ref corresp="#Vol-3-L_M-d8e17642-person" type="relation" n="father-of">Gaius (18)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Cos, Paton &amp; Hicks</note>
                      </state>
                      <bibl>IJO2, 8</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2100"/>P:Greece</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2100"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Greece</note>
                      </state>
                      <floruit>3rdC CE</floruit>
                   </person>
@@ -341,12 +366,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
                      </state>
                      <bibl>IJO2, 14:B11</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2101"/>P:Asia</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2101"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Asia</note>
                      </state>
                      <floruit>3rdC CE</floruit>
                   </person>
@@ -358,12 +387,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Acmonia, Ramsay</note>
                      </state>
                      <bibl>IJO2, 177</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2102"/>P:Asia</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2102"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Asia</note>
                      </state>
                      <floruit>2ndC CE</floruit>
                   </person>
@@ -375,12 +408,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Cyrene, Ghislanzoni</note>
                      </state>
                      <bibl>CJZC37</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2103"/>P:Cyrenaica</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2103"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Cyrenaica</note>
                      </state>
                      <floruit>Pre-117 CE?</floruit>
                   </person>
@@ -394,12 +431,16 @@
                            <ref corresp="#Vol-3-L_F-d8e23514-person" type="relation" n="father-of">Julia (24)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Teucheira, Oliverio</note>
                      </state>
                      <bibl>CJZC45a</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2104"/>P:Cyrenaica</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2104"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Cyrenaica</note>
                      </state>
                      <floruit>67/8 CE<ref type="note" corresp="#Vol-3-L_M-ftn2105"/>
                      </floruit>
@@ -412,12 +453,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Teucheira</note>
                      </state>
                      <bibl>Reynolds,CJZC18d</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2106"/>P:Cyrenaica</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2106"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Cyrenaica</note>
                      </state>
                      <floruit>Pre-76 CE<ref type="note" corresp="#Vol-3-L_M-ftn2107"/>
                      </floruit>
@@ -433,12 +478,16 @@
                            <ref corresp="#Vol-3-L_M-d8e33471-person" type="relation" n="father-of">Publius (12)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Teucheira</note>
                      </state>
                      <bibl>Reynolds,CJZC19q</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2109"/>P:Cyrenaica</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2109"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Cyrenaica</note>
                      </state>
                      <floruit>Pre-117 CE</floruit>
                   </person>
@@ -453,12 +502,16 @@
                            <ref corresp="#Vol-3-G_M-d8e10273-person" type="relation" n="owner-of">Aponius (2)’s owner</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Carthage</note>
                      </state>
                      <bibl>Le Bohec,Ant. Afr.17 (1981) no. 27</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2111"/>P:North Africa</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2111"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>North Africa</note>
                      </state>
                      <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn2112"/>
                      </floruit>
@@ -472,12 +525,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Carthage</note>
                      </state>
                      <bibl>Le Bohec,Ant. Afr.17 (1981) no. 29</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2114"/>P:North Africa</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2114"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>North Africa</note>
                      </state>
                      <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn2115"/>
                      </floruit>
@@ -490,12 +547,15 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Carthage</note>
                      </state>
                      <bibl>Le Bohec,Ant. Afr.17 (1981) no. 41</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2116"/>Second nameP:North Africa</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2116"/>Second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>North Africa</note>
                      </state>
                      <floruit>2nd-3rdC CE</floruit>
                   </person>

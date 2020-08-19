@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Severus-Vol-2-L_M names/Vol-2-Vol-1-ADD-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Severus-Vol-2-Vol-1-ADD-L_M names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Severus-Vol-3-L_M names/Vol-4-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Severus-Vol-4-L_M"
                 type="name"
                 n="Severus-Severus"
-                xml:id="name-Severus-d1e393841">
+                xml:id="name-Severus-d1e409300">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-2-L_M-ftn756"/>
@@ -44,7 +44,7 @@
                            <ref corresp="#Vol-2-L_M-d8e9405-person" type="relation" n="son-of">Sabinus (2)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Beth She‘arim, catacomb 19</note>
                      </state>
                      <bibl>BS2:188</bibl>
@@ -63,7 +63,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Synagogue inscription, Hebron, Barag</note>
                      </state>
                      <bibl>Naveh,OSM, no. 72</bibl>
@@ -86,7 +86,7 @@
                            <ref type="note" corresp="#Vol-2-L_M-ftn763"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Synagogue inscription, Hammat Tiberias, Dothan</note>
                      </state>
                      <bibl>Roth-Gerson,GISEI, nos. 16, 18</bibl>
@@ -104,7 +104,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Caesarea</note>
                      </state>
                      <bibl>Lehmann &amp; Holum,CMER5, no. 287</bibl>
@@ -126,7 +126,7 @@
                            <ref corresp="#Vol-2-L_F-d8e1493-person" type="relation" n="father-of">Marcella (1)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Zoar</note>
                      </state>
                      <bibl>IPT1a, no. 228</bibl>
@@ -147,7 +147,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ostracon, Ein Feshkha,<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn154"/>Fesh 207</note>
                      </state>
                      <bibl>Lemaire, “Inscriptions,” 379</bibl>
@@ -168,12 +168,16 @@
                            <ref corresp="#Vol-3-B_F-d8e597-person" type="relation" n="son-of">Hannah (1)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Magic papyrus, London</note>
                      </state>
                      <bibl>Kropp,Koptische Zaubertexte1, 31</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2256"/>P:Egypt</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2256"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn2257"/>
                      </floruit>
@@ -189,12 +193,16 @@
                            <ref corresp="#Vol-3-L_F-d8e32371-person" type="relation" n="son-of">Severa (1)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Vigna Randanini, Garrucci</note>
                      </state>
                      <bibl>CIJ264</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2259"/>P:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2259"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -209,12 +217,16 @@
                            <ref corresp="#Vol-3-B_M-d8e35164-person" type="relation" n="father-of">Samuel (21)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Panticapeum,<ref type="note" corresp="#Vol-3-L_M-ftn2261"/>Marti</note>
                      </state>
                      <bibl>CIJ689a</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2262"/>P:Bosphoran Kingdom</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2262"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Bosphoran Kingdom</note>
                      </state>
                      <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn2263"/>
                      </floruit>
@@ -229,12 +241,16 @@
                         <note>Aurelius (23), Messia (1) Severina (1) <ref corresp="#Vol-3-L_F-d8e24619-person" type="relation" n="husband-of">Longia (1)’s husband</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Moretti</note>
                      </state>
                      <bibl>CIJ733g</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2265"/>P:Rome</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2265"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rdC CE</floruit>
                   </person>
@@ -247,12 +263,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Villa Torlonia, Fasola</note>
                      </state>
                      <bibl>JIWE2, 411</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2267"/>P:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2267"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -265,12 +285,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
                      </state>
                      <bibl>IJO2, 14:B13</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2269"/>P:Asia</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2269"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Asia</note>
                      </state>
                      <floruit>3rdC CE</floruit>
                   </person>
@@ -283,13 +307,17 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Synagogue inscription, Sardis, Cross</note>
                      </state>
                      <bibl>IJO2, 105<ref type="note" corresp="#Vol-3-L_M-ftn2271"/>
                      </bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2272"/>P:Asia</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2272"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Asia</note>
                      </state>
                      <floruit>4thC CE</floruit>
                   </person>
@@ -304,12 +332,16 @@
                            <ref type="note" corresp="#Vol-3-L_M-ftn2274"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Dedicatory inscription, Pydna, Cormack</note>
                      </state>
                      <bibl>Rajak, “Archisynagogoi,” no. 6</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2275"/>P:Greece</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2275"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Greece</note>
                      </state>
                      <floruit>250 CE<ref type="note" corresp="#Vol-3-L_M-ftn2276"/>
                      </floruit>
@@ -329,12 +361,16 @@
                            <ref corresp="#Vol-4-B_M-d8e14584-person" type="relation" n="father-of">Isaac (27)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bZev9a (Kosowsky,Babylonico, 1126)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-L_M-ftn125"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-L_M-ftn125"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>4th-5thC CE<ref type="note" corresp="#Vol-4-L_M-ftn126"/>
                      </floruit>

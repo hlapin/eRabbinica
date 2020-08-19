@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Macarius-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Macarius-Vol-3-G_M"
                 type="name"
                 n="Macarius-Μακάριος"
-                xml:id="name-Macarius-d1e366975">
+                xml:id="name-Macarius-d1e380701">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-2-G_M-ftn817"/>
@@ -38,7 +38,7 @@
                            <ref corresp="#Vol-2-G_M-d8e13083-person" type="relation" n="father-of">Megalus (3)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Khirbet Ḥebra<ref type="note" corresp="#Vol-2-G_M-ftn819"/>
                         </note>
                      </state>
@@ -60,7 +60,7 @@
                            <ref corresp="#Vol-2-L_M-d8e6293-person" type="relation" n="son-of">Justus (27)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Sepphoris</note>
                      </state>
                      <bibl>Porat &amp; Goren,ZPE120 (1998) 64</bibl>
@@ -79,12 +79,16 @@
                         <note>Marcelinus (1), Anatolius (1) and <ref corresp="#Vol-3-L_M-d8e28714-person" type="relation" n="father-of">Maximinus (1)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Heidelberg</note>
                      </state>
                      <bibl>P. Heid IV, 333</bibl>
                      <state type="addl-Descr">
-                        <note>Samaritan<ref type="note" corresp="#Vol-3-G_M-ftn3126"/>P:Egypt</note>
+                        <note>Samaritan<ref type="note" corresp="#Vol-3-G_M-ftn3126"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>5thC CE</floruit>
                   </person>
@@ -97,12 +101,15 @@
                         <note>Nymphagoras (1), Timotheus (6) and <ref corresp="#Vol-3-G_F-d8e10274-person" type="relation" n="father-of">Elis (1)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Manumission inscription, Gorgipia,<ref type="note" corresp="#Vol-3-G_M-ftn3127"/>Stephani</note>
                      </state>
                      <bibl>CIJ78*</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3128"/>Second nameP:The Bosphoran Kingdom</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3128"/>Second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>The Bosphoran Kingdom</note>
                      </state>
                      <floruit>104-10 CE<ref type="note" corresp="#Vol-3-G_M-ftn3129"/>
                      </floruit>

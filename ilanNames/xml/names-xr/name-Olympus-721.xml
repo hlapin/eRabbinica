@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Olympus-Vol-1-G_M names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Olympus-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Olympus-Vol-3-G_M"
                 type="name"
                 n="Olympus-̓́Ολυμπος"
-                xml:id="name-Olympus-d1e238219">
+                xml:id="name-Olympus-d1e245306">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-1-G_M-ftn1019"/>
@@ -40,7 +40,7 @@
                            <ref corresp="#Vol-1-G_M-d2e8218-person" type="relation" n="friend-of">Herod (1)’s friend</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>—</note>
                      </state>
                      <bibl>BJ1:535;AJ16:332 (Schalit,NB, 92)</bibl>
@@ -61,7 +61,7 @@
                            <ref corresp="#Vol-2-G_M-d8e9183-person" type="relation" n="father-of">Theodorus (8)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Synagogue inscription, Caesarea, Avi-Yonah</note>
                      </state>
                      <bibl>Lehmann &amp; Holum,CMER5, no. 83</bibl>
@@ -79,7 +79,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Caesarea</note>
                      </state>
                      <bibl>Lehmann &amp; Holum,CMER5, no. 304</bibl>
@@ -99,12 +99,16 @@
                         <note>Aurelius (42) Valerius (7) <ref corresp="#Vol-3-S-G_M-d8e3756-person" type="relation" n="father-of">Sogus (1)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Dedicatory inscription, Panticapaeum,<ref type="note" corresp="#Vol-3-G_M-ftn3541"/>Latyšev</note>
                      </state>
                      <bibl>IJO1, BS4</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3542"/>P:Bosphoran Kingdom</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3542"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Bosphoran Kingdom</note>
                      </state>
                      <floruit>306 CE<ref type="note" corresp="#Vol-3-G_M-ftn3543"/>
                      </floruit>

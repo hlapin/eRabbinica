@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-2-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Reuben-Vol-2-B_M names/Vol-2-Vol-1-ADD-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Reuben-Vol-2-Vol-1-ADD-B_M names/Vol-3-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Reuben-Vol-3-B_M"
                 type="name"
                 n="Reuben-ראובן"
-                xml:id="name-Reuben-d1e338069">
+                xml:id="name-Reuben-d1e349900">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-2-B_M-ftn2788"/>
@@ -42,7 +42,7 @@
                            <ref corresp="#Vol-2-B_M-d8e5689-person" type="relation" n="son-of">Benjamin (2)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>Esbroeck,AB104 (1986) 156</bibl>
@@ -62,7 +62,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>yKet11:7, 34c (Kosovsky,Yerushalmi, 612)</bibl>
@@ -86,7 +86,7 @@
                                 n="father-of">Tanḥum (31)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Jaffa, Clermont-Ganneau</note>
                      </state>
                      <bibl>CIJ912</bibl>
@@ -107,7 +107,7 @@
                            <ref type="note" corresp="#Vol-2-B_M-ftn2795"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Sepphoris</note>
                      </state>
                      <bibl>Weiss,Sepphoris Synagogue, no. 6</bibl>
@@ -127,7 +127,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Bowl, synagogue, Gaza</note>
                      </state>
                      <bibl>Ovadiah,IEJ19 (1969) 196</bibl>
@@ -148,7 +148,7 @@
                            <ref corresp="#Vol-2-B_M-d8e33236-person" type="relation" n="father-of">Israel (2)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Graffito, Elijah’s Cave</note>
                      </state>
                      <bibl>Appendix, no. 10</bibl>
@@ -169,7 +169,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>Transitus Mariae A. 14 (Tischendorf,Apocal. Apocry118)</bibl>
@@ -192,12 +192,16 @@
                            <ref corresp="#" type="relation" n="son-of">Jacob (1)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>Severus,PL41, 825</bibl>
                      <state type="addl-Descr">
-                        <note>Christian convert<ref type="note" corresp="#Vol-3-B_M-ftn920"/>P:Spain</note>
+                        <note>Christian convert<ref type="note" corresp="#Vol-3-B_M-ftn920"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Spain</note>
                      </state>
                      <floruit>417 CE<ref type="note" corresp="#Vol-3-B_M-ftn921"/>
                      </floruit>
@@ -213,12 +217,16 @@
                            <ref type="note" corresp="#Vol-3-B_M-ftn922"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Florence</note>
                      </state>
                      <bibl>Mishor,Lĕšonénu55 (1991) 287</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn923"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn923"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>6thC CE</floruit>
                   </person>
@@ -234,12 +242,16 @@
                            <ref corresp="#Vol-3-L_M-d8e22628-person" type="relation" n="father-of">Justus (19)’s father</ref>, of Alexandria<ref type="note" corresp="#Vol-3-B_M-ftn925"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Jaffa (Israel), Clermont-Ganneau</note>
                      </state>
                      <bibl>CIJ928</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn926"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn926"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>3rdC CE</floruit>
                   </person>
@@ -255,12 +267,16 @@
                            <ref corresp="#" type="relation" n="son-of">Jacob (59)’s son</ref>, of Pentapolis<ref type="note" corresp="#Vol-3-B_M-ftn928"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Jaffa (Israel), Clermont-Ganneau</note>
                      </state>
                      <bibl>CIJ950</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn929"/>P:Cyrenaica<ref type="note" corresp="#Vol-3-B_M-ftn930"/>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn929"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Cyrenaica<ref type="note" corresp="#Vol-3-B_M-ftn930"/>
                         </note>
                      </state>
                      <floruit>3rdC CE</floruit>
@@ -277,12 +293,16 @@
                            <ref corresp="#Vol-3-B_M-d8e988-person" type="relation" n="father-of">Abraham (20)’s father</ref>, of Pharbeth<ref type="note" corresp="#Vol-3-B_M-ftn932"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Inscription, Kh. Hebra, Vincent</note>
                      </state>
                      <bibl>CIJ1175</bibl>
                      <state type="addl-Descr">
-                        <note>Samaritan?<ref type="note" corresp="#Vol-3-B_M-ftn933"/>P:Egypt<ref type="note" corresp="#Vol-3-B_M-ftn934"/>
+                        <note>Samaritan?<ref type="note" corresp="#Vol-3-B_M-ftn933"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt<ref type="note" corresp="#Vol-3-B_M-ftn934"/>
                         </note>
                      </state>
                      <floruit>–<ref type="note" corresp="#Vol-3-B_M-ftn935"/>
@@ -300,12 +320,16 @@
                            <ref type="note" corresp="#Vol-3-B_M-ftn937"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
                      </state>
                      <bibl>IJO2, 14:B26</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn938"/>P:Asia</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn938"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Asia</note>
                      </state>
                      <floruit>3rdC CE</floruit>
                   </person>
@@ -321,12 +345,16 @@
                            <ref corresp="#Vol-3-G_M-d8e37120-person" type="relation" n="father-of">Zosimus (9)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Tripoli</note>
                      </state>
                      <bibl>Le Bohec,Ant. Afr.17 (1981) no. 5</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn940"/>P:North Africa</note>
+                        <note>–<ref type="note" corresp="#Vol-3-B_M-ftn940"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>North Africa</note>
                      </state>
                      <floruit>4th-5thC CE</floruit>
                   </person>
@@ -344,12 +372,16 @@
                            <ref type="note" corresp="#Vol-3-B_M-ftn943"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaphs, Eumenia</note>
                      </state>
                      <bibl>Robert,Hellenica11-2 (1960) 415, 430</bibl>
                      <state type="addl-Descr">
-                        <note>Christian convert?<ref type="note" corresp="#Vol-3-B_M-ftn944"/>P:Asia</note>
+                        <note>Christian convert?<ref type="note" corresp="#Vol-3-B_M-ftn944"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Asia</note>
                      </state>
                      <floruit>3rdC CE</floruit>
                   </person>

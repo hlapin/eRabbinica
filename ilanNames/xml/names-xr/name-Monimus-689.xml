@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Monimus-Vol-1-G_M names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Monimus-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Monimus-Vol-3-G_M"
                 type="name"
                 n="Monimus-Μόνιμος"
-                xml:id="name-Monimus-d1e236096">
+                xml:id="name-Monimus-d1e243110">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-1-G_M-ftn925"/>
@@ -41,7 +41,7 @@
                            <ref corresp="#Vol-1-G_M-d2e163-person" type="relation" n="father-of">Aianus (1)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Weight-stone, Migdal</note>
                      </state>
                      <bibl>Qedar,INJ9 (1986-7) 31</bibl>
@@ -61,7 +61,7 @@
                            <ref corresp="#Vol-2-B_M-d8e17458-person" type="relation" n="father-of">Judah (104)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Synagogue inscription, Sepphoris</note>
                      </state>
                      <bibl>Weiss,Sepphoris Synagogue, no. 6Gr</bibl>
@@ -81,12 +81,15 @@
                            <ref type="note" corresp="#Vol-3-G_M-ftn3298"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Monteverde, Schneider Graziosi</note>
                      </state>
                      <bibl>CIJ379</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3299"/>; second nameP:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3299"/>; second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>

@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-1-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Julia-Vol-1-L_F names/Vol-2-L_F-Latin-Female-to-utf-TEI-P5-names.xml/#Julia-Vol-2-L_F names/Vol-3-L_F-Latin-Females-to-utf-TEI-P5-names.xml/#Julia-Vol-3-L_F"
                 type="name"
                 n="Julia-Julia"
-                xml:id="name-Julia-d1e249791">
+                xml:id="name-Julia-d1e257357">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-1-L_F-ftn37"/>
@@ -39,7 +39,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ossuary</note>
                      </state>
                      <bibl>CJO, no. 498</bibl>
@@ -60,7 +60,7 @@
                            <ref type="note" corresp="#Vol-1-L_F-ftn41"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ossuary, Franciscan Museum, no. 7602</note>
                      </state>
                      <bibl>Puech,RB90 (1983) 522</bibl>
@@ -83,7 +83,7 @@
                                 n="daughter-of">Judah (117)’s daughter</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ossuary, Franciscan Museum, no. 7604</note>
                      </state>
                      <bibl>Puech,RB90 (1983) 524</bibl>
@@ -104,7 +104,7 @@
                            <ref type="note" corresp="#Vol-1-L_F-ftn46"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyri, Babatha archive</note>
                      </state>
                      <bibl>PYadin 20, 25</bibl>
@@ -123,7 +123,7 @@
                         <note>Procla (1), Julius (8) <ref corresp="#Vol-2-L_M-d8e298-person" type="relation" n="daughter-of">Agrippa (4)’s daughter</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Dedicatory inscription, Caesarea</note>
                      </state>
                      <bibl>Lehmann &amp; Holum,CMER5, no. 32</bibl>
@@ -144,7 +144,7 @@
                            <ref corresp="#Vol-2-G_M-d8e17962-person" type="relation" n="mother-of">Philostratus (1)’s mother</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Beth She‘arim</note>
                      </state>
                      <bibl>Price,Zutot2 (2002) 10</bibl>
@@ -163,12 +163,16 @@
                         <note>Julius (5) <ref corresp="#Vol-3-G_M-d8e8772-person" type="relation" n="sister-of">Apolinarius (1)’s sister</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Karanis, Winter &amp; Youtie</note>
                      </state>
                      <bibl>CPJ486</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn563"/>P:Egypt</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn563"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>107 CE<ref type="note" corresp="#Vol-3-L_F-ftn564"/>
                      </floruit>
@@ -182,12 +186,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Villa Torlonia, Beyer &amp; Lietzmann</note>
                      </state>
                      <bibl>CIJ34</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn566"/>P:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn566"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -199,12 +207,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Villa Torlonia, Paribeni</note>
                      </state>
                      <bibl>CIJ35</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn567"/>P:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn567"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -219,12 +231,15 @@
                            <ref type="note" corresp="#Vol-3-L_F-ftn569"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Via Nomentana, Marucchi</note>
                      </state>
                      <bibl>CIJ72</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn570"/>Second nameP:Rome</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn570"/>Second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -238,12 +253,15 @@
                            <ref type="note" corresp="#Vol-3-L_F-ftn571"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Vigna Randanini, Garrucci</note>
                      </state>
                      <bibl>CIJ123</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn572"/>; second nameP:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn572"/>; second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -258,13 +276,17 @@
                            <ref corresp="#Vol-3-L_M-d8e11187-person" type="relation" n="wife-of">Castricius (2)’s wife</ref>, <ref corresp="#Vol-3-L_M-d8e11149-person" type="relation" n="mother-of">Castricius (1)’s mother</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaphs, Vigna Randanini, Garrucci</note>
                      </state>
                      <bibl>CIJ124, 221<ref type="note" corresp="#Vol-3-L_F-ftn574"/>
                      </bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn575"/>P:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn575"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -277,12 +299,15 @@
                         <note>Aphrodisia (1), Aurelius (17) <ref corresp="#Vol-3-G_M-d8e27827-person" type="relation" n="wife-of">Hermias (6)’s wife</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Vigna Randanini, Garrucci</note>
                      </state>
                      <bibl>CIJ220</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn576"/>; second nameP:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn576"/>; second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -296,12 +321,15 @@
                         <note>Alexandra (1), <ref corresp="#Vol-3-G_M-d8e37665-person" type="relation" n="mother-of">Hemerus (1)’s mother</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Vigna Randanini, Garrucci</note>
                      </state>
                      <bibl>CIJ239</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn578"/>; second nameP:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn578"/>; second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -317,12 +345,16 @@
                                 n="daughter-of">Polia (2)’s daughter</ref>, aged 34<ref type="note" corresp="#Vol-3-L_F-ftn579"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Vigna Randanini, Garrucci</note>
                      </state>
                      <bibl>CIJ241</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn580"/>P:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn580"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -334,12 +366,15 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Monteverde, Schneider Graziosi</note>
                      </state>
                      <bibl>CIJ352</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn581"/>; second nameP:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn581"/>; second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -353,12 +388,16 @@
                         <note>Proculus (2) and <ref corresp="#Vol-3-G_F-d8e8833-person" type="relation" n="daughter-of">Euodia (2)’s daughter</ref>, aged 9<ref type="note" corresp="#Vol-3-L_F-ftn583"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Monteverde, Schneider Graziosi</note>
                      </state>
                      <bibl>CIJ391</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn584"/>P:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn584"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -372,12 +411,15 @@
                         <note>Alexandria (4), Lucius (5) <ref corresp="#Vol-3-L_M-d8e25465-person" type="relation" n="wife-of">Maecius (1)’s wife</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Monteverde, Müller</note>
                      </state>
                      <bibl>CIJ470</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn586"/>Second nameP:Rome</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn586"/>Second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -391,12 +433,15 @@
                         <note>Mariam (28), Julius (12) <ref corresp="#" type="relation" n="wife-of">Judah (36)’s wife</ref>, aged 25<ref type="note" corresp="#Vol-3-L_F-ftn588"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Civitavecchia, Mengarelli</note>
                      </state>
                      <bibl>CIJ636</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn589"/>Second nameP:Italy</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn589"/>Second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Italy</note>
                      </state>
                      <floruit>2nd-4thC CE</floruit>
                   </person>
@@ -410,12 +455,16 @@
                            <ref corresp="#Vol-3-L_M-d8e20862-person" type="relation" n="wife-of">Julius (13)’s wife</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Ephesus, Hicks</note>
                      </state>
                      <bibl>CIJ745</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn590"/>P:Asia</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn590"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Asia</note>
                      </state>
                      <floruit>2ndC CE</floruit>
                   </person>
@@ -427,12 +476,15 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Acmonia, Ramsay</note>
                      </state>
                      <bibl>1.CIJ766; 2. Ramsay,Cities and Bishoprics2, no. 530</bibl>
                      <state type="addl-Descr">
-                        <note>God-fearer<ref type="note" corresp="#Vol-3-L_F-ftn591"/>; second nameP:Asia</note>
+                        <note>God-fearer<ref type="note" corresp="#Vol-3-L_F-ftn591"/>; second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Asia</note>
                      </state>
                      <floruit>54-68 CE<ref type="note" corresp="#Vol-3-L_F-ftn592"/>
                      </floruit>
@@ -446,12 +498,15 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Monteverde, Schneider Graziosi</note>
                      </state>
                      <bibl>CIJ31*</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn594"/>; second nameP:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn594"/>; second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -463,12 +518,15 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Porto, Kaibel</note>
                      </state>
                      <bibl>CIJ49*</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn595"/>Second nameP:Italy</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn595"/>Second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Italy</note>
                      </state>
                      <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn596"/>
                      </floruit>
@@ -481,12 +539,15 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Inscription, Naples, Diehl</note>
                      </state>
                      <bibl>CIJ50*</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn597"/>Second nameP:Italy</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn597"/>Second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Italy</note>
                      </state>
                      <floruit>3rdC CE</floruit>
                   </person>
@@ -499,13 +560,16 @@
                         <note>Flora (1), <ref corresp="#Vol-3-G_M-d8e48766-person" type="relation" n="wife-of">Ireneus (1)’s wife</ref>, aged 42<ref type="note" corresp="#Vol-3-L_F-ftn598"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Villa Torlonia, Paribeni,CIJ69</note>
                      </state>
                      <bibl>JIWE2, 416<ref type="note" corresp="#Vol-3-L_F-ftn599"/>
                      </bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn600"/>; second nameP:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn600"/>; second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -519,12 +583,16 @@
                            <ref type="note" corresp="#Vol-3-L_F-ftn601"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Villa Torlonia, Fasola</note>
                      </state>
                      <bibl>JIWE2, 423</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn602"/>P:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn602"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -538,12 +606,16 @@
                         <note>Aurelia (30), Aurelius (58) <ref corresp="#Vol-3-G_M-d8e51564-person" type="relation" n="wife-of">Cyrion (1)’s wife</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Nicomedia, Robert</note>
                      </state>
                      <bibl>IJO2, 155</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn604"/>P:Asia</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn604"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Asia</note>
                      </state>
                      <floruit>3rdC CE</floruit>
                   </person>
@@ -557,12 +629,15 @@
                         <note>Apolloniane (1), Julius (22) <ref corresp="#Vol-3-G_M-d8e9786-person" type="relation" n="wife-of">Apollonius (15)’s wife</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Sarcophagus, Hierapolis, Miranda</note>
                      </state>
                      <bibl>IJO2, 195</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn606"/>; second nameP:Asia</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn606"/>; second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Asia</note>
                      </state>
                      <floruit>2nd-3rdC CE</floruit>
                   </person>
@@ -578,12 +653,16 @@
                                 n="daughter-of">Zoticus (8)’s daughter</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Sarcophagus, Hierapolis, Miranda</note>
                      </state>
                      <bibl>IJO2, 195</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn607"/>P:Asia</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn607"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Asia</note>
                      </state>
                      <floruit>2nd-3rdC CE</floruit>
                   </person>
@@ -599,12 +678,16 @@
                                 n="daughter-of">Rufus (11)’s daughter</ref>, aged 13<ref type="note" corresp="#Vol-3-L_F-ftn608"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Teucheira, Oliverio</note>
                      </state>
                      <bibl>CJZC45a</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn609"/>P:Cyrenaica</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn609"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Cyrenaica</note>
                      </state>
                      <floruit>67/8 CE<ref type="note" corresp="#Vol-3-L_F-ftn610"/>
                      </floruit>
@@ -621,12 +704,16 @@
                                 n="daughter-of">Nicaius (4)’s daughter</ref>, aged 20<ref type="note" corresp="#Vol-3-L_F-ftn611"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Teucheira, Gray</note>
                      </state>
                      <bibl>CJZC58f</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn612"/>P:Cyrenaica</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn612"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Cyrenaica</note>
                      </state>
                      <floruit>69/70 CE<ref type="note" corresp="#Vol-3-L_F-ftn613"/>
                      </floruit>
@@ -643,12 +730,16 @@
                                 n="daughter-of">Loppius (1)’s daughter</ref>, aged 17<ref type="note" corresp="#Vol-3-L_F-ftn614"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Teicheira</note>
                      </state>
                      <bibl>Reynolds,CJZC24b</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn615"/>P:Cyrenaica</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn615"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Cyrenaica</note>
                      </state>
                      <floruit>Pre-117 CE?</floruit>
                   </person>
@@ -660,12 +751,15 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Carthage</note>
                      </state>
                      <bibl>Le Bohec,Ant. Afr.17 (1981) no. 44</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn616"/>Second nameP:North Africa</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn616"/>Second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>North Africa</note>
                      </state>
                      <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn617"/>
                      </floruit>
@@ -678,12 +772,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Numidia</note>
                      </state>
                      <bibl>Le Bohec,Ant. Afr.17 (1981) no. 71</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn618"/>P:North Africa</note>
+                        <note>–<ref type="note" corresp="#Vol-3-L_F-ftn618"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>North Africa</note>
                      </state>
                      <floruit>2ndC CE</floruit>
                   </person>
@@ -697,12 +795,15 @@
                         <note>Sisia (1), Julius (32) <ref corresp="#Vol-3-L_M-d8e11567-person" type="relation" n="mother-of">Ciceronius (1)’s mother</ref>, <ref corresp="#Vol-3-L_M-d8e10657-person" type="relation" n="wife-of">Calendinus (1)’s wife</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Mauritania</note>
                      </state>
                      <bibl>Le Bohec,Ant. Afr.17 (1981) no. 77</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn620"/>Second nameP:North Africa</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn620"/>Second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>North Africa</note>
                      </state>
                      <floruit>3rdC CE</floruit>
                   </person>

@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Peitholaus-Vol-1-G_M names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Peitholaus-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Peitholaus-Vol-3-G_M"
                 type="name"
                 n="Peitholaus-Πειθόλαος"
-                xml:id="name-Peitholaus-d1e239907">
+                xml:id="name-Peitholaus-d1e247029">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-1-G_M-ftn1067"/>
@@ -41,7 +41,7 @@
                            <ref corresp="#Vol-1-P_M-d2e1274-person" type="relation" n="general-of">Hyrcanus (2)’s general</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Scroll, Qumran<ref type="note" corresp="#Vol-1-G_M-ftn1069"/>
                         </note>
                      </state>
@@ -64,7 +64,7 @@
                            <ref corresp="#" type="relation" n="father-of">Sarida (2)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Zoar</note>
                      </state>
                      <bibl>IPT1a, no. 7</bibl>
@@ -87,7 +87,7 @@
                            <ref corresp="#Vol-2-B_F-d8e949-person" type="relation" n="father-of">Hannah (8)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Zoar</note>
                      </state>
                      <bibl>IPT1b, no. 10</bibl>
@@ -110,7 +110,7 @@
                            <ref corresp="#Vol-2-S-H_F-d8e1173-person" type="relation" n="father-of">Martha (6)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Zoar</note>
                      </state>
                      <bibl>Naveh,Tarbiz69 (2000) no. 21</bibl>
@@ -132,12 +132,16 @@
                            <ref corresp="#" type="relation" n="father-of">Jacob (34)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Vienna</note>
                      </state>
                      <bibl>P. Harrauer 33:93</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3720"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3720"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>1stC CE</floruit>
                   </person>
@@ -153,12 +157,16 @@
                            <ref corresp="#Vol-3-G_M-d8e44052-person" type="relation" n="father-of">Theodorus (34)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Vienna</note>
                      </state>
                      <bibl>P. Harrauer 33:116</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3722"/>P:Egypt</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3722"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>1stC CE</floruit>
                   </person>

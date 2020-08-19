@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Gelasius-Vol-2-G_M names/Vol-2-Vol-1-ADD-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Gelasius-Vol-2-Vol-1-ADD-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Gelasius-Vol-3-G_M"
                 type="name"
                 n="Gelasius-Γελάσιος"
-                xml:id="name-Gelasius-d1e356915">
+                xml:id="name-Gelasius-d1e370085">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-2-G_M-ftn256"/>
@@ -40,7 +40,7 @@
                            <ref corresp="#Vol-2-G_F-d8e1572-person" type="relation" n="husband-of">Eusebis (1)’s husband</ref>, of Caesarea<ref type="note" corresp="#Vol-2-G_M-ftn257"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Paribeni, Rome</note>
                      </state>
                      <bibl>CIJ25</bibl>
@@ -61,7 +61,7 @@
                            <ref corresp="#Vol-2-G_M-d8e241-person" type="relation" n="son-of">Aetius (1)’s son</ref>, lawyer and comes<ref type="note" corresp="#Vol-2-G_M-ftn260"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Synagogue inscription, Sepphoris, Ewing</note>
                      </state>
                      <bibl>CIJ991</bibl>
@@ -80,7 +80,7 @@
                            <ref corresp="#Vol-2-B_M-d8e35152-person" type="relation" n="son-of">Malkiah (6)’s son</ref>, aged 17<ref type="note" corresp="#Vol-2-G_M-ftn261"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>IPT1a, no. 76</note>
                      </state>
                      <state type="addl-Descr">
@@ -100,7 +100,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn93"/>Tomb of the Prophets, Clermon-Gannau</note>
                      </state>
                      <bibl>CIIP1/2, 940</bibl>
@@ -120,7 +120,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn96"/>Tomb of the Prophets, Clermon-Gannau</note>
                      </state>
                      <bibl>CIIP1/2, 946</bibl>
@@ -142,12 +142,16 @@
                            <ref corresp="#Vol-3-G_M-d8e44115-person" type="relation" n="father-of">Theodorus (36)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Villa Torlonia, Paribeni</note>
                      </state>
                      <bibl>CIJ31</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn904"/>P:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn904"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>

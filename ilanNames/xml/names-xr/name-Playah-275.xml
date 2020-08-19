@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-1-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Playah-Vol-1-B_M names/Vol-2-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Playah-Vol-2-B_M names/Vol-2-Vol-1-ADD-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Playah-Vol-2-Vol-1-ADD-B_M names/Vol-4-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Playah-Vol-4-B_M"
                 type="name"
                 n="Playah-פליה"
-                xml:id="name-Playah-d1e149133">
+                xml:id="name-Playah-d1e152243">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-1-B_M-ftn3752"/>
@@ -44,7 +44,7 @@
                            <ref corresp="#Vol-1-B_M-d2e3469-person" type="relation" n="father-of">Eleazar (49)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>—</note>
                      </state>
                      <bibl>mToh7:9 (Kasovsky,Mishnae, 1457)</bibl>
@@ -63,7 +63,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ostracon, Masada</note>
                      </state>
                      <bibl>Mas no. 584</bibl>
@@ -85,7 +85,7 @@
                            <ref corresp="#Vol-2-B_M-d8e14521-person" type="relation" n="father-of">Judah (18)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>yBer9:5, 14b (Kosovsky,Yerushalmi, 322)</bibl>
@@ -105,7 +105,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>Exod Rab24 (Hyman,Toldoth, 1010)</bibl>
@@ -126,7 +126,7 @@
                            <ref corresp="#Vol-2-B_M-d8e22297-person" type="relation" n="son-of">Joseph (9)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ossuary, Binyanei Ha-Uma, Dagan</note>
                      </state>
                      <bibl>CIIP1/1, 407</bibl>
@@ -150,12 +150,16 @@
                            <ref corresp="#Vol-4-B_M-d8e31860-person" type="relation" n="son-of">Simon (16)’s son</ref>, <ref corresp="#Vol-4-B_M-d8e31820-person" type="relation" n="father-of">Simon (15)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Palmyra, Sobernheim</note>
                      </state>
                      <bibl>CIS2/3, 4160</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-4-B_M-ftn1796"/>P:Palmyra</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-4-B_M-ftn1796"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Palmyra</note>
                      </state>
                      <floruit>114/5 CE<ref type="note" corresp="#Vol-4-B_M-ftn1797"/>
                      </floruit>

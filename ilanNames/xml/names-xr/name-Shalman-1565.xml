@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-2-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Shalman-Vol-2-B_M names/Vol-4-B_M-Biblical-Males-to-utf-TEI-P5-names.xml/#Shalman-Vol-4-B_M"
                 type="name"
                 n="Shalman-שלמן"
-                xml:id="name-Shalman-d1e347538">
+                xml:id="name-Shalman-d1e360346">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-2-B_M-ftn2890"/>
@@ -38,7 +38,7 @@
                            <ref corresp="#Vol-2-B_M-d8e33751-person" type="relation" n="son-of">Levi (10)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>yKil1:4, 27a (Kosovsky,Yerushalmi, 647)</bibl>
@@ -60,7 +60,7 @@
                            <ref corresp="#Vol-2-S-H_M-d8e8114-person" type="relation" n="son-of">Gadia (2)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Inscription, Sela<ref type="note" corresp="#Vol-2-B_M-ftn2893"/>
                         </note>
                      </state>
@@ -84,7 +84,7 @@
                            <ref corresp="#Vol-2-B_M-d8e36524-person" type="relation" n="son-of">Moses (8)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Inscription, Temple Mount, Jerusalem</note>
                      </state>
                      <bibl>Sukenik, “Jewish Inscriptions,” 139</bibl>
@@ -106,7 +106,7 @@
                            <ref corresp="#Vol-2-L_M-d8e2382-person" type="relation" n="son-of">Claudius (1)’s son</ref>, aged 40<ref type="note" corresp="#Vol-2-B_M-ftn2900"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Zoar</note>
                      </state>
                      <bibl>IPT1b, no. 18</bibl>
@@ -124,7 +124,11 @@
                      <persName type="lemma" xml:lang="en">Shalman</persName>
                      <persName>bBeṣ5b (Kosowsky,Babylonico, 1556)</persName>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn1867"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-B_M-ftn1867"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>4thC CE<ref type="note" corresp="#Vol-4-B_M-ftn1868"/>
                      </floruit>
@@ -139,13 +143,17 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Synagoge inscription, Dura-Europos, du Mesnil</note>
                      </state>
                      <bibl>CIJ830</bibl>
                      <state type="addl-Descr">
                         <note>
-                           <ref type="note" corresp="#Vol-4-B_M-ftn1870"/>P:Dura-Europos</note>
+                           <ref type="note" corresp="#Vol-4-B_M-ftn1870"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dura-Europos</note>
                      </state>
                      <floruit>240/1 CE<ref type="note" corresp="#Vol-4-B_M-ftn1871"/>
                      </floruit>
@@ -159,7 +167,11 @@
                      <bibl>CIJ830</bibl>
                      <state type="addl-Descr">
                         <note>
-                           <ref type="note" corresp="#Vol-4-B_M-ftn1872"/>P:Dura- Europos</note>
+                           <ref type="note" corresp="#Vol-4-B_M-ftn1872"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dura- Europos</note>
                      </state>
                      <floruit>Pre-244 CE<ref type="note" corresp="#Vol-4-B_M-ftn1873"/>
                      </floruit>
@@ -170,12 +182,16 @@
                      <persName type="lemma">שלמן</persName>
                      <persName type="lemma" xml:lang="en">Shalman</persName>
                      <persName>Simon (51)’s son</persName>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Dedicatory inscription,<ref type="note" corresp="#Vol-4-B_M-ftn1874"/>Palmyra</note>
                      </state>
                      <bibl>Starcky,Semitica3 (1950) 47</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-4-B_M-ftn1875"/>P:Palmyra</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-4-B_M-ftn1875"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Palmyra</note>
                      </state>
                      <floruit>Post-150 CE<ref type="note" corresp="#Vol-4-B_M-ftn1876"/>
                      </floruit>

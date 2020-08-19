@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Cyrillus-Vol-2-G_M names/Vol-2-Vol-1-ADD-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Cyrillus-Vol-2-Vol-1-ADD-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Cyrillus-Vol-3-G_M"
                 type="name"
                 n="Cyrillus-Κύριλλος"
-                xml:id="name-Cyrillus-d1e364842">
+                xml:id="name-Cyrillus-d1e378483">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-2-G_M-ftn737"/>
@@ -40,7 +40,7 @@
                            <ref corresp="#Vol-2-G_M-d8e8252-person" type="relation" n="son-of">Hesychius (2)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Jaffa, Sukenik</note>
                      </state>
                      <bibl>CIJ922</bibl>
@@ -58,7 +58,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Beth She‘arim</note>
                      </state>
                      <bibl>CIJ1148</bibl>
@@ -79,7 +79,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaphs, Beth She‘arim,catacomb 1,CIJ1019, 1021, 1022</note>
                      </state>
                      <bibl>1.BS1:8; 2. 2:9; 3. 2:10</bibl>
@@ -99,7 +99,7 @@
                            <ref corresp="#Vol-2-L_M-d8e473-person" type="relation" n="son-of">Ampilius (1)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Beth She‘arim,catacomb 5,CIJ1130</note>
                      </state>
                      <bibl>BS2:107</bibl>
@@ -120,7 +120,7 @@
                            <ref corresp="#Vol-2-B_M-d8e2147-person" type="relation" n="son-of">Elijah (9)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Inscription, Elijah’s Cave</note>
                      </state>
                      <bibl>Appendix, no. 17</bibl>
@@ -142,7 +142,7 @@
                            <ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn208"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>POiv/5, 534</note>
                      </state>
                      <state type="addl-Descr">
@@ -163,7 +163,7 @@
                            <ref corresp="#Vol-2-L_M-d8e3604-person" type="relation" n="father-of">Gaius (3)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Kafr Nafâkh<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn211"/>
                         </note>
                      </state>
@@ -202,12 +202,16 @@
                            <ref type="note" corresp="#Vol-3-G_M-ftn2971"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Jaffa, Euting</note>
                      </state>
                      <bibl>CIJ934</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2972"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2972"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>3rdC CE</floruit>
                   </person>
@@ -220,12 +224,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
                      </state>
                      <bibl>IJO2, 14:B25</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2974"/>P:Asia</note>
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2974"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Asia</note>
                      </state>
                      <floruit>3rdC CE</floruit>
                   </person>

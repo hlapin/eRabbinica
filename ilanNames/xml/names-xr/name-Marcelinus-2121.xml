@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-2-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Marcelinus-Vol-2-L_M names/Vol-3-L_M-Latin-Males-to-utf-TEI-P5-names.xml/#Marcelinus-Vol-3-L_M"
                 type="name"
                 n="Marcelinus-Marcelinus"
-                xml:id="name-Marcelinus-d1e389906">
+                xml:id="name-Marcelinus-d1e405085">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-2-L_M-ftn535"/>
@@ -39,7 +39,7 @@
                            <ref type="note" corresp="#Vol-2-L_M-ftn537"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Tiberias</note>
                      </state>
                      <bibl>Lifschitz,Euphrosyne6 (1974) 26</bibl>
@@ -62,12 +62,16 @@
                            <ref corresp="#Vol-3-G_M-d8e54290-person" type="relation" n="son-of">Macarius (1)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Heidelberg</note>
                      </state>
                      <bibl>P. Heid IV, 333</bibl>
                      <state type="addl-Descr">
-                        <note>Samaritan<ref type="note" corresp="#Vol-3-L_M-ftn1557"/>P:Egypt</note>
+                        <note>Samaritan<ref type="note" corresp="#Vol-3-L_M-ftn1557"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>5thC CE</floruit>
                   </person>

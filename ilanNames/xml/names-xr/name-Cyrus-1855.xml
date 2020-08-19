@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Cyrus-Vol-2-G_M names/Vol-2-Vol-1-ADD-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Cyrus-Vol-2-Vol-1-ADD-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Cyrus-Vol-3-G_M"
                 type="name"
                 n="Cyrus-Κῦρος"
-                xml:id="name-Cyrus-d1e365253">
+                xml:id="name-Cyrus-d1e378904">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-2-G_M-ftn747"/>
@@ -45,7 +45,7 @@
                            <ref corresp="#Vol-2-S-H_M-d8e775-person" type="relation" n="father-of">Abba (23)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>yKil9:3, 32c (Kosovsky,Yerushalmi, 159)</bibl>
@@ -64,7 +64,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>yOrl2:2, 62a (Kosovsky,Yerushalmi, 602)</bibl>
@@ -85,7 +85,7 @@
                            <ref type="note" corresp="#Vol-2-G_M-ftn755"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>yShab5:4, 7c (Kosovsky,Yerushalmi, 98)</bibl>
@@ -110,7 +110,7 @@
                            <ref type="note" corresp="#Vol-2-G_M-ftn760"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bShab45b<ref type="note" corresp="#Vol-2-G_M-ftn761"/>(Kosowsky,Babylonico, –)</bibl>
@@ -131,7 +131,7 @@
                            <ref type="note" corresp="#Vol-2-G_M-ftn764"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Jaffa, Schwabe</note>
                      </state>
                      <bibl>CIJ945</bibl>
@@ -150,7 +150,7 @@
                            <ref corresp="#Vol-2-B_M-d8e44982-person" type="relation" n="son-of">Samuel (44)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Maioumas (Shuni),<ref type="note" corresp="#Vol-2-G_M-ftn765"/>Burkitt</note>
                      </state>
                      <bibl>CIJ970</bibl>
@@ -169,7 +169,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Beth She‘arim,catacomb 13</note>
                      </state>
                      <bibl>BS2:151</bibl>
@@ -188,7 +188,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Dedicatory inscription, seat, Nablus</note>
                      </state>
                      <bibl>FitzGerald,PEFQS61 (1929) 108</bibl>
@@ -210,7 +210,7 @@
                            <ref type="note" corresp="#Vol-2-G_M-ftn772"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Khirbet Ḥebra<ref type="note" corresp="#Vol-2-G_M-ftn773"/>
                         </note>
                      </state>
@@ -233,7 +233,7 @@
                         <note>Eugenia (1) and <ref corresp="#" type="relation" n="father-of">Eutychiane (1)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Isawiya, Re’em &amp; Abu Raya</note>
                      </state>
                      <bibl>CIIP1.1, no. 59</bibl>
@@ -251,12 +251,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Graffito, Vigna Randanini, Frey</note>
                      </state>
                      <bibl>CIJ133</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2980"/>P:Rome</note>
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2980"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>

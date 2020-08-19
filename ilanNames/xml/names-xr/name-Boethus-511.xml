@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Boethus-Vol-1-G_M names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Boethus-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Boethus-Vol-3-G_M names/Vol-4-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Boethus-Vol-4-G_M"
                 type="name"
                 n="Boethus-Βοηθός"
-                xml:id="name-Boethus-d1e208040">
+                xml:id="name-Boethus-d1e213433">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-1-G_M-ftn294"/>
@@ -43,7 +43,7 @@
                         <note>Simon (24) and <ref corresp="#Vol-1-B_M-d2e2471-person" type="relation" n="father-of">Eleazar (20)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>—</note>
                      </state>
                      <bibl>BJ 5:527; AJ 15:320 (Schalit, NB, 28)tMen13:21 (Kasowski, Thosephthae, 115).</bibl>
@@ -65,7 +65,7 @@
                            <ref corresp="#Vol-1-S-H_F-d2e1485-person" type="relation" n="father-of">Martha (2)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>—</note>
                      </state>
                      <bibl>mYeb6:4 (Kasovsky,Mishnae, 377)</bibl>
@@ -87,7 +87,7 @@
                            <ref corresp="#Vol-1-G_M-d2e7882-person" type="relation" n="son-of">Zenon (2)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>—</note>
                      </state>
                      <bibl>mBM5:3 (Kasovsky,Mishnae, 377)</bibl>
@@ -108,7 +108,7 @@
                            <ref corresp="#Vol-1-G_M-d2e2262-person" type="relation" n="disciple-of">Antigonus (5)’s disciple</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>—</note>
                      </state>
                      <bibl>AdRN2:10</bibl>
@@ -128,7 +128,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>yEruv6:4, 23c (Kosovsky,Yerushalmi, 147)</bibl>
@@ -153,7 +153,7 @@
                            <ref corresp="#Vol-2-B_M-d8e18580-person" type="relation" n="father-of">Joshua (16)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>Gen Rab84:18 (Hyman,Toldoth, 621)</bibl>
@@ -173,7 +173,7 @@
                            <ref corresp="#" type="relation" n="son-of">Aemilius (1)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Synagogue inscription, Sepphoris</note>
                      </state>
                      <bibl>Weiss,Sepphoris Synagogue, no. 11Gr</bibl>
@@ -195,12 +195,15 @@
                            <ref type="note" corresp="#Vol-3-G_M-ftn881"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>1.BJ5:527;AJ15:320 (Schalit,NB, 28); 2.tMen13:21 (Kasowski, Thosephthae, 115)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn882"/>; family nameP:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn882"/>; family name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>Pre-25/23 BCE<ref type="note" corresp="#Vol-3-G_M-ftn883"/>
                      </floruit>
@@ -215,12 +218,16 @@
                         <note>Aurelius (35) <ref corresp="#Vol-3-G_M-d8e61339-person" type="relation" n="son-of">Olympius (2)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Monteverde, Schneider Graziosi</note>
                      </state>
                      <bibl>CIJ24*</bibl>
                      <state type="addl-Descr">
-                        <note>-<ref type="note" corresp="#Vol-3-G_M-ftn885"/>P:Rome</note>
+                        <note>-<ref type="note" corresp="#Vol-3-G_M-ftn885"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Rome</note>
                      </state>
                      <floruit>3rd-4thC CE</floruit>
                   </person>
@@ -233,12 +240,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Graffito, Rabat, Camilleri</note>
                      </state>
                      <bibl>JIWE1, 167</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn887"/>P:Malta</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn887"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Malta</note>
                      </state>
                      <floruit>4th-5thC CE</floruit>
                   </person>
@@ -250,12 +261,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Graffito, synagogue Dura-Europos, du Mesnil</note>
                      </state>
                      <bibl>IJO3, Syr107</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-4-G_M-ftn24"/>P:Dura-Europos</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-4-G_M-ftn24"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Dura-Europos</note>
                      </state>
                      <floruit>244/5 CE<ref type="note" corresp="#Vol-4-G_M-ftn25"/>
                      </floruit>

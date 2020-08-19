@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Cosmus-Vol-1-G_M names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Cosmus-Vol-2-G_M names/Vol-3-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Cosmus-Vol-3-G_M names/Vol-4-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Cosmus-Vol-4-G_M"
                 type="name"
                 n="Cosmus-Κόσμος"
-                xml:id="name-Cosmus-d1e232841">
+                xml:id="name-Cosmus-d1e239679">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-1-G_M-ftn842"/>
@@ -42,7 +42,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Masada</note>
                      </state>
                      <bibl>Mas no. 773</bibl>
@@ -63,7 +63,7 @@
                            <ref corresp="#Vol-2-L_M-d8e8166-person" type="relation" n="son-of">Maximus (2)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Apollonia</note>
                      </state>
                      <bibl>Germer-Durand,RB1 (1892) 247</bibl>
@@ -85,7 +85,7 @@
                            <ref corresp="#Vol-2-B_F-d8e2395-person" type="relation" n="son-of">Salome (7)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Amulet, Museum Hecht</note>
                      </state>
                      <bibl>AMBno. 1</bibl>
@@ -106,12 +106,16 @@
                            <ref type="note" corresp="#Vol-3-G_M-ftn2932"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Inscription, Intercassia, Mommsen</note>
                      </state>
                      <bibl>CIJ677</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2933"/>P:Pannonia</note>
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2933"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Pannonia</note>
                      </state>
                      <floruit>222-35 CE<ref type="note" corresp="#Vol-3-G_M-ftn2934"/>
                      </floruit>
@@ -127,12 +131,16 @@
                            <ref corresp="#" type="relation" n="father-of">Judah (84)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Sarcophagus, Hr. Harat</note>
                      </state>
                      <bibl>Le Bohec,Ant. Afr.17 (1981) no. 12</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2936"/>P:North Africa</note>
+                        <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2936"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>North Africa</note>
                      </state>
                      <floruit>2ndC CE</floruit>
                   </person>
@@ -147,12 +155,15 @@
                            <ref type="note" corresp="#Vol-3-G_M-ftn2938"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Mas Rimbau</note>
                      </state>
                      <bibl>Niquet,SCI23 (2004) 169</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2939"/>Second nameP:Spain</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2939"/>Second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Spain</note>
                      </state>
                      <floruit>Post-320 CE<ref type="note" corresp="#Vol-3-G_M-ftn2940"/>
                      </floruit>
@@ -166,12 +177,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Dedicatory inscription, Qana, Vinogradow</note>
                      </state>
                      <bibl>Bowersock, “New Greek Inscription,” 3</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-4-G_M-ftn84"/>P:Arab. Pen.</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-4-G_M-ftn84"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Arab. Pen.</note>
                      </state>
                      <floruit>–<ref type="note" corresp="#Vol-4-G_M-ftn85"/>
                      </floruit>

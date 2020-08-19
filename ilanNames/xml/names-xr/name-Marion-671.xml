@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-1-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Marion-Vol-1-G_M names/Vol-2-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Marion-Vol-2-G_M names/Vol-4-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Marion-Vol-4-G_M names/Vol-4-Vol-3-Add-G_M-Greek-Males-to-utf-TEI-P5-names.xml/#Marion-Vol-4-Vol-3-Add-G_M"
                 type="name"
                 n="Marion-Μάριον"
-                xml:id="name-Marion-d1e234396">
+                xml:id="name-Marion-d1e241304">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-1-G_M-ftn891"/>
@@ -42,7 +42,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ossuary</note>
                      </state>
                      <bibl>CJO, no. 497</bibl>
@@ -61,7 +61,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Muraba‘at</note>
                      </state>
                      <bibl>Mur 10A</bibl>
@@ -80,7 +80,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Ostracon, Muraba‘at</note>
                      </state>
                      <bibl>Mur 74</bibl>
@@ -105,7 +105,7 @@
                                 n="father-of">Tanḥum (13)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>yMaas1:2, 48d (Kosovsky,Yerushalmi, 514)</bibl>
@@ -128,7 +128,7 @@
                            <ref corresp="#Vol-2-B_M-d8e30315-person" type="relation" n="father-of">Isaac (18)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>yShab2:6, 5b (Kosovsky,Yerushalmi, 445)</bibl>
@@ -147,7 +147,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bEruv19a<ref type="note" corresp="#Vol-2-G_M-ftn850"/>(Kosowsky,Babylonico, 1044)</bibl>
@@ -173,12 +173,16 @@
                            <ref corresp="#Vol-4-S-H_M-d8e6054-person" type="relation" n="son-of">Abbin (16)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bMQ11b (Kosowsky,Babylonico, 1044-5)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-G_M-ftn101"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-G_M-ftn101"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>5thC CE<ref type="note" corresp="#Vol-4-G_M-ftn102"/>
                      </floruit>
@@ -201,12 +205,16 @@
                            <ref type="note" corresp="#Vol-4-G_M-ftn107"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bKet105b (Kosowsky,Babylonico, 1044)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-G_M-ftn108"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-G_M-ftn108"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>4thC CE<ref type="note" corresp="#Vol-4-G_M-ftn109"/>
                      </floruit>
@@ -218,12 +226,16 @@
                      <persName type="lemma" xml:lang="en">Marion</persName>
                      <persName>Μαρίωνι</persName>
                      <floruit>Marion (2)’s father</floruit>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Fayum</note>
                      </state>
                      <bibl>SB16652, xvi: 352, xvii: 371</bibl>
                      <state type="addl-Descr">
-                        <note>Jew<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn39"/>P:Egypt</note>
+                        <note>Jew<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn39"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>116/7 CE<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn40"/>
                      </floruit>
@@ -235,12 +247,16 @@
                      <persName type="lemma" xml:lang="en">Marion</persName>
                      <persName>Μαρίωνς</persName>
                      <floruit>Marion (1)’s son</floruit>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Papyrus, Fayum</note>
                      </state>
                      <bibl>SB16652, xvi: 352, xvii: 371</bibl>
                      <state type="addl-Descr">
-                        <note>Jew<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn41"/>P:Egypt</note>
+                        <note>Jew<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn41"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>116/7 CE<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn42"/>
                      </floruit>

@@ -242,7 +242,7 @@
                                 </sex>
                                 <xsl:variable name="name-groups">
                                     <xsl:for-each-group select="node()"
-                                        group-starting-with="hi[matches(normalize-space(.), '(O:|Ds:|F:|S:|E:|D:)')]">
+                                        group-starting-with="hi[matches(normalize-space(.), '(O:|Ds:|F:|S:|E:|D:|P:)')]">
                                         <!-- keeping empty fields for now. uncommenting below, skips them -->
                                         <!--<xsl:if test="not(normalize-space(string-join(current-group()[not(. is current-group()[1])])) eq '&#x2013;')">-->
                                         <xsl:choose>
@@ -276,7 +276,7 @@
                                                 </state>
                                             </xsl:when>
                                             <xsl:when test="contains(current-group()[1], 'F:')">
-                                                <state type="provenance">
+                                                <state type="findspot">
                                                   <note>
                                                   <xsl:apply-templates
                                                   select="current-group()[not(. is current-group()[1])]"
@@ -306,6 +306,14 @@
                                                   select="current-group()[not(. is current-group()[1])]"
                                                   />
                                                 </floruit>
+                                            </xsl:when>
+                                            <xsl:when test="contains(current-group()[1], 'P:')">
+                                                <state type="provenance">
+                                                    <note>
+                                                        <xsl:apply-templates
+                                                            select="current-group()[not(. is current-group()[1])]"/>
+                                                    </note>
+                                                </state>
                                             </xsl:when>
                                         </xsl:choose>
                                         <!--</xsl:if>-->
@@ -374,7 +382,7 @@
             </xsl:when>
             <xsl:when test="count(preceding-sibling::cell) = 3">
                 <!--F-->
-                <state type="provenance">
+                <state type="findspot">
                     <note>
                         <xsl:apply-templates/>
                     </note>

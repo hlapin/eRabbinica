@@ -19,7 +19,7 @@
             <ab corresp="names/Vol-2-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Mari-Vol-2-S-H_M names/Vol-2-Vol-1-ADD-P_M-Persian-Males-to-utf-TEI-P5-names.xml/#Mari-Vol-2-Vol-1-ADD-P_M names/Vol-3-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Mari-Vol-3-S-H_M names/Vol-4-S-H_M-Semitic-Hebrew-Males-to-utf-TEI-P5-names.xml/#Mari-Vol-4-S-H_M"
                 type="name"
                 n="Mari-מרי"
-                xml:id="name-Mari-d1e425412">
+                xml:id="name-Mari-d1e442005">
                <ref xmlns:local="http://local-functions.uri"
                     type="note"
                     corresp="#Vol-2-S-H_M-ftn1149"/>
@@ -44,7 +44,7 @@
                            <ref corresp="#" type="relation" n="father-of">Tanhum (17)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>yKet8:10, 32b (Kosovsky,Yerushalmi, 514</bibl>
@@ -65,7 +65,7 @@
                            <ref corresp="#Vol-2-S-H_M-d8e1434-person" type="relation" n="father-of">Abba (42)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bMQ28b<ref type="note" corresp="#Vol-2-S-H_M-ftn1151"/>(Kosowsky,Babylonico, 1462-4)</bibl>
@@ -86,7 +86,7 @@
                            <ref corresp="#Vol-2-B_M-d8e28089-person" type="relation" n="son-of">Jacob (36)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>TanB,huqat22 (Hyman,Toldoth, 906)</bibl>
@@ -108,7 +108,7 @@
                            <ref corresp="#Vol-2-G_M-d8e13693-person" type="relation" n="son-of">Nonnus (3)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Synagogue inscription, Ashkelon, Dalman</note>
                      </state>
                      <bibl>CIJ964</bibl>
@@ -130,7 +130,7 @@
                            <ref corresp="#Vol-2-S-G_M-d8e1303-person" type="relation" n="father-of">Yolefo (1)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Zoar</note>
                      </state>
                      <bibl>IPT1a, no. 277</bibl>
@@ -151,7 +151,7 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Synagogue inscription, El-Khirbe<ref type="note" corresp="#Vol-2-S-H_M-ftn1160"/>
                         </note>
                      </state>
@@ -176,7 +176,7 @@
                            <ref type="note" corresp="#Vol-2-S-H_M-ftn1162"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Dedicatory inscription, Jeselsohn private collection</note>
                      </state>
                      <bibl>Yardeni &amp; Price,SCI24 (2005) 125</bibl>
@@ -198,7 +198,7 @@
                      </persName>
                      <floruit>Of the seventy disciples of Jesus<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn111"/>
                      </floruit>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Acts of Mar Mari, 2, 83</note>
                      </state>
                      <state type="addl-Descr">
@@ -220,12 +220,16 @@
                            <ref corresp="#Vol-3-B_M-d8e12606-person" type="relation" n="father-of">Azgad (3)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Edfu, Kornfeld</note>
                      </state>
                      <bibl>TADAE4:21:7</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-S-H_M-ftn303"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-S-H_M-ftn303"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>3rd-2ndC BCE</floruit>
                   </person>
@@ -241,12 +245,15 @@
                            <ref type="note" corresp="#Vol-3-S-H_M-ftn305"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Brusciano, Miranda</note>
                      </state>
                      <bibl>JIWE1, 22</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-S-H_M-ftn306"/>; second nameP:Italy</note>
+                        <note>–<ref type="note" corresp="#Vol-3-S-H_M-ftn306"/>; second name</note>
+                     </state>
+                     <state type="provenance">
+                        <note>Italy</note>
                      </state>
                      <floruit>4th-5thC CE</floruit>
                   </person>
@@ -263,12 +270,16 @@
                            <ref type="note" corresp="#Vol-3-S-H_M-ftn309"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Epitaph, Jaffa (Israel)</note>
                      </state>
                      <bibl>Price,SCI22 (2003) 222</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-3-S-H_M-ftn310"/>P:Egypt</note>
+                        <note>–<ref type="note" corresp="#Vol-3-S-H_M-ftn310"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Egypt</note>
                      </state>
                      <floruit>3rdC CE<ref type="note" corresp="#Vol-3-S-H_M-ftn311"/>
                      </floruit>
@@ -285,12 +296,16 @@
                            <ref corresp="#Vol-4-S-H_M-d8e5348-person" type="relation" n="son-of">Abbin (2)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bBer4b (Kosowsky,Babylonico, 1029-30)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1810"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1810"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1811"/>
                      </floruit>
@@ -308,12 +323,16 @@
                            <ref corresp="#Vol-4-S-H_M-d8e10932-person" type="relation" n="son-of">Ashi (2)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bBer36b (Kosowsky,Babylonico, 1026-8)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1814"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1814"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>d. 468 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1815"/>
                      </floruit>
@@ -333,12 +352,16 @@
                            <ref type="note" corresp="#Vol-4-S-H_M-ftn1817"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bShab63a (Kosowsky,Babylonico, 1028)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1818"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1818"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1819"/>
                      </floruit>
@@ -355,12 +378,16 @@
                            <ref corresp="#Vol-4-S-H_M-d8e789-person" type="relation" n="son-of">Abba (17)’s son</ref>, elder<ref type="note" corresp="#Vol-4-S-H_M-ftn1821"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bShab95a (Kosowsky, Babylonico, 1039)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1822"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1822"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>5thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1823"/>
                      </floruit>
@@ -377,12 +404,16 @@
                            <ref corresp="#Vol-4-I_M-d8e4302-person" type="relation" n="son-of">Hamduri (1)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bShab107b (Kosowsky,Babylonico, 1028)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1825"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1825"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1826"/>
                      </floruit>
@@ -399,12 +430,16 @@
                            <ref corresp="#Vol-4-B_M-d8e11184-person" type="relation" n="son-of">Joseph (5)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bShab116a (Kosowsky,Babylonico, 1028-9)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1828"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1828"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1829"/>
                      </floruit>
@@ -418,12 +453,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bShab152b (Kosowsky, Babylonico, 1041-2)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1830"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1830"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1831"/>
                      </floruit>
@@ -439,12 +478,16 @@
                            <ref corresp="#Vol-4-B_F-d8e795-person" type="relation" n="son-of">Rachel (1)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bShab154a (Kosowsky,Babylonico, 1044)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1832"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1832"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1833"/>
                      </floruit>
@@ -460,12 +503,16 @@
                            <ref corresp="#Vol-4-S-H_M-d8e26539-person" type="relation" n="son-of">Mari (10)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bʿEruv21a (Kosowsky,Babylonico, 1043)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1834"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1834"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>3rd-4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1835"/>
                      </floruit>
@@ -484,12 +531,16 @@
                                 n="father-of">Mari (9)’s father</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bʿEruv21a (Kosowsky,Babylonico, 1043)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1837"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1837"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1838"/>
                      </floruit>
@@ -505,12 +556,16 @@
                            <ref type="note" corresp="#Vol-4-S-H_M-ftn1839"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bʿEruv60a (Kosowsky,Babylonico, 1029)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1840"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1840"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1841"/>
                      </floruit>
@@ -527,12 +582,16 @@
                            <ref corresp="#Vol-4-S-H_M-d8e10728-person" type="relation" n="son-of">Ameimar (1)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bPes74b (Kosowsky,Babylonico, 1026)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1843"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1843"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1844"/>
                      </floruit>
@@ -548,12 +607,16 @@
                            <ref corresp="#" type="relation" n="son-of">Abbuah (2)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bPes83a (Kosowsky,Babylonico, 1042)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1845"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1845"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>Post-200 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1846"/>
                      </floruit>
@@ -570,12 +633,16 @@
                            <ref corresp="#Vol-4-B_M-d8e8300-person" type="relation" n="son-of">Ḥesediah (3)’s son</ref>, minor<ref type="note" corresp="#Vol-4-S-H_M-ftn1848"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bPes107a (Kosowsky,Babylonico, 1036)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1849"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1849"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>5thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1850"/>
                      </floruit>
@@ -592,12 +659,16 @@
                            <ref corresp="#Vol-4-B_M-d8e8300-person" type="relation" n="son-of">Ḥesediah (3)’s son</ref>, elder<ref type="note" corresp="#Vol-4-S-H_M-ftn1852"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bPes107a (Kosowsky,Babylonico, 1039)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1853"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1853"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>5thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1854"/>
                      </floruit>
@@ -613,12 +684,16 @@
                            <ref corresp="#Vol-4-S-H_M-d8e24163-person" type="relation" n="son-of">Kahana (6)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bBeṣ7a (Kosowsky,Babylonico, 1043)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1855"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1855"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1856"/>
                      </floruit>
@@ -634,12 +709,16 @@
                            <ref corresp="#Vol-4-S-H_M-d8e11501-person" type="relation" n="son-of">Bizna (2)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bBeṣ28b (Kosowsky,Babylonico, 1042)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1857"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1857"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1858"/>
                      </floruit>
@@ -656,12 +735,16 @@
                            <ref corresp="#Vol-4-S-H_M-d8e7699-person" type="relation" n="son-of">Ada (22)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bYev106b (Kosowsky,Babylonico, 1026)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1860"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1860"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>4th-5thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1861"/>
                      </floruit>
@@ -677,12 +760,16 @@
                            <ref corresp="#Vol-4-B_M-d8e14383-person" type="relation" n="son-of">Isaac (22)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bKet27b (Kosowsky,Babylonico, 1039)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1862"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1862"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>3rd-4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1863"/>
                      </floruit>
@@ -698,12 +785,16 @@
                            <ref corresp="#Vol-4-B_M-d8e8213-person" type="relation" n="son-of">Ḥesediah (1)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bKet61a (Kosowsky,Babylonico, 1043)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1864"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1864"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>3rd-4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1865"/>
                      </floruit>
@@ -719,12 +810,16 @@
                            <ref corresp="#Vol-4-B_M-d8e27815-person" type="relation" n="son-of">Phineas (4)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bBQ117a (Kosowsky,Babylonico, 1043)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1866"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1866"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1867"/>
                      </floruit>
@@ -740,12 +835,16 @@
                            <ref corresp="#Vol-4-I_M-d8e1586-person" type="relation" n="son-of">Āsūwar (1)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bBB149a (Kosowsky,Babylonico, 163)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1868"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1868"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1869"/>
                      </floruit>
@@ -763,12 +862,16 @@
                            <ref corresp="#Vol-4-S-H_M-d8e20263-person" type="relation" n="son-of">Ḥiyya (23)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bBB165b (Kosowsky,Babylonico, 1028)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1871"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1871"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1872"/>
                      </floruit>
@@ -786,12 +889,16 @@
                            <ref type="note" corresp="#Vol-4-S-H_M-ftn1874"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>bMen43a (Kosowsky,Babylonico, 1026)</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1875"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1875"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1876"/>
                      </floruit>
@@ -807,12 +914,16 @@
                            <ref corresp="#Vol-4-S-H_M-d8e14134-person" type="relation" n="son-of">Dimi (12)’s son</ref>, master, of Peroz-Shapur<ref type="note" corresp="#Vol-4-S-H_M-ftn1877"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>ShGa194</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1878"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1878"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>6th-7thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1879"/>
                      </floruit>
@@ -829,12 +940,16 @@
                            <ref corresp="#Vol-4-S-H_M-d8e16153-person" type="relation" n="son-of">Huna (36)’s son</ref>, of Sura<ref type="note" corresp="#Vol-4-S-H_M-ftn1881"/>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>–</note>
                      </state>
                      <bibl>ShGa194</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1882"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1882"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>591 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1883"/>
                      </floruit>
@@ -851,12 +966,16 @@
                            <ref corresp="#Vol-4-I_F-d8e5628-person" type="relation" n="son-of">Itie (1)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Incantation bowl, JTS, Gordon</note>
                      </state>
                      <bibl>Isbell, no. 7</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn1885"/>P:Babylonia</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn1885"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1886"/>
                      </floruit>
@@ -873,12 +992,16 @@
                            <ref corresp="#Vol-4-I_F-d8e9142-person" type="relation" n="son-of">Mamay (11)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Incantation bowl</note>
                      </state>
                      <bibl>CAMIBBM024A</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1888"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1888"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1889"/>
                      </floruit>
@@ -895,12 +1018,16 @@
                            <ref corresp="#Vol-4-S-H_F-d8e2196-person" type="relation" n="son-of">Imma (28)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Incantation bowl</note>
                      </state>
                      <bibl>Wohlstein,ZA9 (1894) 11</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1891"/>P:Babylonia</note>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1891"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1892"/>
                      </floruit>
@@ -914,12 +1041,16 @@
                      <state type="desc">
                         <note/>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Incantation bowl, Moussyaieff collection</note>
                      </state>
                      <bibl>Levene,CMB, M112</bibl>
                      <state type="addl-Descr">
-                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn1893"/>P:Babylonia</note>
+                        <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn1893"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia</note>
                      </state>
                      <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1894"/>
                      </floruit>
@@ -935,12 +1066,16 @@
                            <ref corresp="#Vol-4-B_M-d8e31096-person" type="relation" n="son-of">Samuel (53)’s son</ref>
                         </note>
                      </state>
-                     <state type="provenance">
+                     <state type="findspot">
                         <note>Seal</note>
                      </state>
                      <bibl>Shaked, “Jewish Sasanian Sigillography,” no. 23</bibl>
                      <state type="addl-Descr">
-                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1895"/>; authentic?<ref type="note" corresp="#Vol-4-S-H_M-ftn1896"/>P:Babylonia?<ref type="note" corresp="#Vol-4-S-H_M-ftn1897"/>
+                        <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1895"/>; authentic?<ref type="note" corresp="#Vol-4-S-H_M-ftn1896"/>
+                        </note>
+                     </state>
+                     <state type="provenance">
+                        <note>Babylonia?<ref type="note" corresp="#Vol-4-S-H_M-ftn1897"/>
                         </note>
                      </state>
                      <floruit>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1898"/>
