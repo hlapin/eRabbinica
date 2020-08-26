@@ -46,7 +46,7 @@
                         <note>Fictitious<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn48"/>
                         </note>
                      </state>
-                     <floruit>30 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn49"/>
+                     <floruit notBefore="0030" notAfter="0030">30 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn49"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e15596-person" n="Vol-3-L_M-Latin-Males-Felix-1">
@@ -68,7 +68,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>4thC CE</floruit>
+                     <floruit notBefore="0300" notAfter="0399">4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e15627-person" n="Vol-3-L_M-Latin-Males-Felix-2">
                      <sex cert="high">M</sex>
@@ -89,7 +89,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>374 CE<ref type="note" corresp="#Vol-3-L_M-ftn933"/>
+                     <floruit notBefore="0374" notAfter="0374">374 CE<ref type="note" corresp="#Vol-3-L_M-ftn933"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e15661-person" n="Vol-3-L_M-Latin-Males-Felix-3">
@@ -113,7 +113,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e15701-person" n="Vol-3-L_M-Latin-Males-Felix-4">
                      <sex cert="high">M</sex>
@@ -134,7 +134,7 @@
                      <state type="provenance">
                         <note>North Africa</note>
                      </state>
-                     <floruit>2ndC CE</floruit>
+                     <floruit notBefore="0100" notAfter="0199">2ndC CE</floruit>
                   </person>
                </listPerson>
             </ab>

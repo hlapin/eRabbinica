@@ -71,7 +71,7 @@
                      <state type="provenance">
                         <note>Cyrenaica</note>
                      </state>
-                     <floruit>1stC BCE-1stC CE</floruit>
+                     <floruit notBefore="-0099" notAfter="0099">1stC BCE-1stC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_F-d8e15066-person" n="Vol-3-G_F-Greek-Females-Myrto-3">
                      <sex cert="high">F</sex>
@@ -121,7 +121,7 @@
                      <state type="provenance">
                         <note>Cyrenaica</note>
                      </state>
-                     <floruit>66/7 CE<ref type="note" corresp="#Vol-3-G_F-ftn863"/>
+                     <floruit notBefore="0066" notAfter="0007">66/7 CE<ref type="note" corresp="#Vol-3-G_F-ftn863"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_F-d8e15138-person" n="Vol-3-G_F-Greek-Females-Myrto-5">
@@ -146,7 +146,7 @@
                      <state type="provenance">
                         <note>Cyrenaica</note>
                      </state>
-                     <floruit>Pre-117 CE</floruit>
+                     <floruit notBefore="0117" notAfter="0117">Pre-117 CE</floruit>
                   </person>
                </listPerson>
             </ab>

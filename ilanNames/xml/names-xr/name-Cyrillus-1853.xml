@@ -149,7 +149,7 @@
                         <note>Fictitious<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn209"/>
                         </note>
                      </state>
-                     <floruit>30 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn210"/>
+                     <floruit notBefore="0030" notAfter="0030">30 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn210"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-2-Vol-1-ADD-G_M-d8e3144-person"
@@ -172,7 +172,7 @@
                         <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn212"/>
                         </note>
                      </state>
-                     <floruit>58 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn213"/>
+                     <floruit notBefore="0058" notAfter="0058">58 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn213"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-2-Vol-1-ADD-G_M-d8e3183-person"
@@ -213,7 +213,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>3rdC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e51516-person" n="Vol-3-G_M-Greek-Males-Cyrillus-2">
                      <sex cert="high">M</sex>
@@ -235,7 +235,7 @@
                      <state type="provenance">
                         <note>Asia</note>
                      </state>
-                     <floruit>3rdC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
                   </person>
                </listPerson>
             </ab>

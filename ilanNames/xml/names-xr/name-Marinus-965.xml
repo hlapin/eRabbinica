@@ -52,7 +52,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-1-L_M-ftn251"/>
+                     <floruit notBefore="0200" notAfter="0200">Pre-200 CE<ref type="note" corresp="#Vol-1-L_M-ftn251"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-2-L_M-d8e7373-person" n="Vol-2-L_M-Latin-Males-Marinus-1">
@@ -438,7 +438,7 @@
                         <note>Fictitious<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn122"/>
                         </note>
                      </state>
-                     <floruit>30 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn123"/>
+                     <floruit notBefore="0030" notAfter="0030">30 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn123"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e28188-person" n="Vol-3-L_M-Latin-Males-Marinus-1">
@@ -463,7 +463,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>113 CE<ref type="note" corresp="#Vol-3-L_M-ftn1682"/>
+                     <floruit notBefore="0113" notAfter="0113">113 CE<ref type="note" corresp="#Vol-3-L_M-ftn1682"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e28226-person" n="Vol-3-L_M-Latin-Males-Marinus-2">
@@ -486,7 +486,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e28264-person" n="Vol-3-L_M-Latin-Males-Marinus-3">
                      <sex cert="high">M</sex>
@@ -531,7 +531,7 @@
                      <state type="provenance">
                         <note>North Africa</note>
                      </state>
-                     <floruit>1stC CE</floruit>
+                     <floruit notBefore="0000" notAfter="0099">1stC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e28339-person" n="Vol-3-L_M-Latin-Males-Marinus-5">
                      <sex cert="high">M</sex>
@@ -561,7 +561,11 @@
                      <persName type="lemma">Marinus</persName>
                      <persName type="lemma" xml:lang="en">Marinus</persName>
                      <persName>Μαρείνῳ</persName>
-                     <floruit>Joseph (2)’s father</floruit>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e11021-person" type="relation" n="father-of">Joseph (2)’s father</ref>
+                        </note>
+                     </state>
                      <state type="findspot">
                         <note>Papyrus, Fayum</note>
                      </state>
@@ -573,7 +577,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>116/7 CE<ref type="note" corresp="#Vol-4-Vol-3-Add-L_M-ftn13"/>
+                     <floruit notBefore="0116" notAfter="0117">116/7 CE<ref type="note" corresp="#Vol-4-Vol-3-Add-L_M-ftn13"/>
                      </floruit>
                   </person>
                </listPerson>

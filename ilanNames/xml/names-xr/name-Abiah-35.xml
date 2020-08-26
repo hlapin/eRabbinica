@@ -53,7 +53,7 @@
                         <note>Family<ref type="note" corresp="#Vol-1-B_M-ftn3"/>
                         </note>
                      </state>
-                     <floruit>1 BCE<ref type="note" corresp="#Vol-1-B_M-ftn4"/>
+                     <floruit notBefore="-0001" notAfter="-0001">1 BCE<ref type="note" corresp="#Vol-1-B_M-ftn4"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-2-B_M-d8e111-person" n="Vol-2-B_M-Biblical-Males-Abiah-1">
@@ -84,7 +84,11 @@
                      <persName type="lemma" xml:lang="en">Abiah</persName>
                      <persName>̓Αβια<ref type="note" corresp="#Vol-3-B_M-ftn6"/>
                      </persName>
-                     <floruit>Joseph (42)’s son</floruit>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="son-of">Joseph (42)’s son</ref>
+                        </note>
+                     </state>
                      <state type="findspot">
                         <note>Ostracon, Thebes</note>
                      </state>
@@ -96,7 +100,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>3rdC BCE<ref type="note" corresp="#Vol-3-B_M-ftn8"/>
+                     <floruit notBefore="-0299" notAfter="-0200">3rdC BCE<ref type="note" corresp="#Vol-3-B_M-ftn8"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-4-B_M-d8e17-person" n="Vol-4-B_M-Biblical-Males-Abiah-1">

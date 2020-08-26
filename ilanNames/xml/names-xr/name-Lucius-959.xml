@@ -74,7 +74,7 @@
                         <note>Fictitious<ref type="note" corresp="#Vol-1-L_M-ftn230"/>
                         </note>
                      </state>
-                     <floruit>Post-30 CE<ref type="note" corresp="#Vol-1-L_M-ftn231"/>
+                     <floruit notBefore="0030" notAfter="0030">Post-30 CE<ref type="note" corresp="#Vol-1-L_M-ftn231"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-L_M-d2e3402-person" n="Vol-1-L_M-Lucius-3">
@@ -93,7 +93,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>Pre-73 CE<ref type="note" corresp="#Vol-1-L_M-ftn233"/>
+                     <floruit notBefore="0073" notAfter="0073">Pre-73 CE<ref type="note" corresp="#Vol-1-L_M-ftn233"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-2-L_M-d8e6816-person" n="Vol-2-L_M-Latin-Males-Lucius-1">
@@ -179,7 +179,7 @@
                         <note>Fictitious<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn105"/>
                         </note>
                      </state>
-                     <floruit>30 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn106"/>
+                     <floruit notBefore="0030" notAfter="0030">30 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn106"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-2-Vol-1-ADD-L_M-d8e1255-person"
@@ -200,7 +200,7 @@
                         <note>Samaritan<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn108"/>
                         </note>
                      </state>
-                     <floruit>Pre-110 BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn109"/>
+                     <floruit notBefore="-0111" notAfter="-0111">Pre-110 BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn109"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e24208-person" n="Vol-3-L_M-Latin-Males-Lucius-1">
@@ -226,7 +226,7 @@
                         <note>Cyrenaica<ref type="note" corresp="#Vol-3-L_M-ftn1446"/>
                         </note>
                      </state>
-                     <floruit>Pre-34 CE<ref type="note" corresp="#Vol-3-L_M-ftn1447"/>
+                     <floruit notBefore="0034" notAfter="0034">Pre-34 CE<ref type="note" corresp="#Vol-3-L_M-ftn1447"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e24256-person" n="Vol-3-L_M-Latin-Males-Lucius-2">
@@ -253,7 +253,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>34-63 CE<ref type="note" corresp="#Vol-3-L_M-ftn1450"/>
+                     <floruit notBefore="0034" notAfter="0063">34-63 CE<ref type="note" corresp="#Vol-3-L_M-ftn1450"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e24292-person" n="Vol-3-L_M-Latin-Males-Lucius-3">
@@ -277,7 +277,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e24327-person" n="Vol-3-L_M-Latin-Males-Lucius-4">
                      <sex cert="high">M</sex>
@@ -299,7 +299,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e24365-person" n="Vol-3-L_M-Latin-Males-Lucius-5">
                      <sex cert="high">M</sex>
@@ -321,7 +321,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e24412-person" n="Vol-3-L_M-Latin-Males-Lucius-6">
                      <sex cert="high">M</sex>
@@ -343,7 +343,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e24450-person" n="Vol-3-L_M-Latin-Males-Lucius-7">
                      <sex cert="high">M</sex>
@@ -365,7 +365,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e24488-person" n="Vol-3-L_M-Latin-Males-Lucius-8">
                      <sex cert="high">M</sex>
@@ -388,7 +388,7 @@
                      <state type="provenance">
                         <note>Italy</note>
                      </state>
-                     <floruit>1stC BCE</floruit>
+                     <floruit notBefore="-0099" notAfter="-0000">1stC BCE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e24526-person" n="Vol-3-L_M-Latin-Males-Lucius-9">
                      <sex cert="high">M</sex>
@@ -411,7 +411,7 @@
                      <state type="provenance">
                         <note>Asia</note>
                      </state>
-                     <floruit>54-68 CE<ref type="note" corresp="#Vol-3-L_M-ftn1466"/>
+                     <floruit notBefore="0054" notAfter="0068">54-68 CE<ref type="note" corresp="#Vol-3-L_M-ftn1466"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e24564-person" n="Vol-3-L_M-Latin-Males-Lucius-10">
@@ -435,7 +435,7 @@
                      <state type="provenance">
                         <note>Asia</note>
                      </state>
-                     <floruit>54-68 CE<ref type="note" corresp="#Vol-3-L_M-ftn1468"/>
+                     <floruit notBefore="0054" notAfter="0068">54-68 CE<ref type="note" corresp="#Vol-3-L_M-ftn1468"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e24596-person" n="Vol-3-L_M-Latin-Males-Lucius-11">
@@ -457,7 +457,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e24635-person" n="Vol-3-L_M-Latin-Males-Lucius-12">
                      <sex cert="high">M</sex>
@@ -480,7 +480,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e24679-person" n="Vol-3-L_M-Latin-Males-Lucius-13">
                      <sex cert="high">M</sex>
@@ -502,7 +502,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e24717-person" n="Vol-3-L_M-Latin-Males-Lucius-14">
                      <sex cert="high">M</sex>
@@ -569,7 +569,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>400 CE<ref type="note" corresp="#Vol-3-L_M-ftn1484"/>
+                     <floruit notBefore="0400" notAfter="0400">400 CE<ref type="note" corresp="#Vol-3-L_M-ftn1484"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e24828-person" n="Vol-3-L_M-Latin-Males-Lucius-17">
@@ -592,7 +592,7 @@
                      <state type="provenance">
                         <note>Italy</note>
                      </state>
-                     <floruit>2nd-3rdC CE</floruit>
+                     <floruit notBefore="0100" notAfter="0299">2nd-3rdC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e24869-person" n="Vol-3-L_M-Latin-Males-Lucius-18">
                      <sex cert="high">M</sex>
@@ -614,7 +614,7 @@
                      <state type="provenance">
                         <note>Asia</note>
                      </state>
-                     <floruit>1stC CE</floruit>
+                     <floruit notBefore="0000" notAfter="0099">1stC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e24911-person" n="Vol-3-L_M-Latin-Males-Lucius-19">
                      <sex cert="high">M</sex>
@@ -635,7 +635,7 @@
                      <state type="provenance">
                         <note>Asia</note>
                      </state>
-                     <floruit>3rdC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e24953-person" n="Vol-3-L_M-Latin-Males-Lucius-20">
                      <sex cert="high">M</sex>
@@ -657,7 +657,7 @@
                      <state type="provenance">
                         <note>Asia</note>
                      </state>
-                     <floruit>3rdC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e24994-person" n="Vol-3-L_M-Latin-Males-Lucius-21">
                      <sex cert="high">M</sex>
@@ -677,7 +677,7 @@
                      <state type="provenance">
                         <note>Asia</note>
                      </state>
-                     <floruit>2nd-3rdC CE</floruit>
+                     <floruit notBefore="0100" notAfter="0299">2nd-3rdC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e25033-person" n="Vol-3-L_M-Latin-Males-Lucius-22">
                      <sex cert="high">M</sex>
@@ -768,7 +768,7 @@
                      <state type="provenance">
                         <note>North Africa</note>
                      </state>
-                     <floruit>2ndC CE</floruit>
+                     <floruit notBefore="0100" notAfter="0199">2ndC CE</floruit>
                   </person>
                </listPerson>
             </ab>

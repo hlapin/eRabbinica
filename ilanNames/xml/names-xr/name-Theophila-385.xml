@@ -46,7 +46,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn158"/>
+                     <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn158"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-2-G_F-d8e2471-person"
@@ -93,7 +93,7 @@
                      <state type="provenance">
                         <note>Greece</note>
                      </state>
-                     <floruit>1st-4thC CE</floruit>
+                     <floruit notBefore="0000" notAfter="0399">1st-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_F-d8e11859-person"
                           n="Vol-3-G_F-Greek-Females-Theophila-2">
@@ -118,7 +118,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>1stC BCE-1stC CE</floruit>
+                     <floruit notBefore="-0099" notAfter="0099">1stC BCE-1stC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_F-d8e11903-person"
                           n="Vol-3-G_F-Greek-Females-Theophila-3">
@@ -143,7 +143,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>1stC BCE-1stC CE</floruit>
+                     <floruit notBefore="-0099" notAfter="0099">1stC BCE-1stC CE</floruit>
                   </person>
                </listPerson>
             </ab>

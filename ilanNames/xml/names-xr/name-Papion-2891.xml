@@ -45,7 +45,7 @@
                      <state type="addl-Descr">
                         <note>–</note>
                      </state>
-                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn261"/>
+                     <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn261"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e63364-person" n="Vol-3-G_M-Greek-Males-Papion-1">
@@ -70,7 +70,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>5 BCE<ref type="note" corresp="#Vol-3-G_M-ftn3654"/>
+                     <floruit notBefore="-0005" notAfter="-0005">5 BCE<ref type="note" corresp="#Vol-3-G_M-ftn3654"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e63408-person" n="Vol-3-G_M-Greek-Males-Papion-2">
@@ -95,7 +95,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>2ndC BCE-2ndC CE</floruit>
+                     <floruit notBefore="-0199" notAfter="0199">2ndC BCE-2ndC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e63458-person" n="Vol-3-G_M-Greek-Males-Papion-3">
                      <sex cert="high">M</sex>
@@ -118,7 +118,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>3rdC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
                   </person>
                </listPerson>
             </ab>

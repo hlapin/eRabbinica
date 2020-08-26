@@ -177,7 +177,7 @@
                            <ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn150"/>
                         </note>
                      </state>
-                     <floruit>192 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn151"/>
+                     <floruit notBefore="0192" notAfter="0192">192 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn151"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e35774-person" n="Vol-3-L_M-Latin-Males-Sabinus-1">
@@ -202,7 +202,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>73 CE<ref type="note" corresp="#Vol-3-L_M-ftn2132"/>
+                     <floruit notBefore="0073" notAfter="0073">73 CE<ref type="note" corresp="#Vol-3-L_M-ftn2132"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e35813-person" n="Vol-3-L_M-Latin-Males-Sabinus-2">
@@ -210,7 +210,11 @@
                      <persName type="lemma">Sabinus</persName>
                      <persName type="lemma" xml:lang="en">Sabinus</persName>
                      <persName>–</persName>
-                     <floruit>Castus (2)’s son, Eulogia (1)’s grandson</floruit>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-L_M-d8e11270-person" type="relation" n="son-of">Castus (2)’s son</ref>, <ref corresp="#Vol-3-G_F-d8e8527-person" type="relation" n="grandson-of">Eulogia (1)’s grandson</ref>
+                        </note>
+                     </state>
                      <state type="findspot">
                         <note>Epitaph, Vigna Randanini, Garrucci</note>
                      </state>
@@ -222,7 +226,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e35847-person" n="Vol-3-L_M-Latin-Males-Sabinus-3">
                      <sex cert="high">M</sex>
@@ -246,7 +250,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e35894-person" n="Vol-3-L_M-Latin-Males-Sabinus-4">
                      <sex cert="high">M</sex>
@@ -269,7 +273,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e35942-person" n="Vol-3-L_M-Latin-Males-Sabinus-5">
                      <sex cert="high">M</sex>
@@ -293,7 +297,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e35989-person" n="Vol-3-L_M-Latin-Males-Sabinus-6">
                      <sex cert="high">M</sex>
@@ -314,7 +318,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e36024-person" n="Vol-3-L_M-Latin-Males-Sabinus-7">
                      <sex cert="high">M</sex>
@@ -337,7 +341,7 @@
                      <state type="provenance">
                         <note>Italy</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                </listPerson>
             </ab>

@@ -29,7 +29,11 @@
                      <persName type="lemma">Peton</persName>
                      <persName type="lemma" xml:lang="en">Peton</persName>
                      <persName>Πέτωνος</persName>
-                     <floruit>Philoxenus (2)’s son</floruit>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e79189-person" type="relation" n="son-of">Philoxenus (2)’s son</ref>
+                        </note>
+                     </state>
                      <state type="findspot">
                         <note>Papyrus, Heracleopolis</note>
                      </state>
@@ -41,7 +45,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>147-136 BCE<ref type="note" corresp="#Vol-3-E_M-ftn408"/>
+                     <floruit notBefore="-0147" notAfter="-0136">147-136 BCE<ref type="note" corresp="#Vol-3-E_M-ftn408"/>
                      </floruit>
                   </person>
                </listPerson>

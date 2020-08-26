@@ -47,7 +47,7 @@
                         <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn102"/>
                         </note>
                      </state>
-                     <floruit>1stC CE</floruit>
+                     <floruit notBefore="0000" notAfter="0099">1stC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e19361-person" n="Vol-3-G_M-Greek-Males-Diocles-1">
                      <sex cert="high">M</sex>
@@ -68,7 +68,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>165 BCE<ref type="note" corresp="#Vol-3-G_M-ftn1142"/>
+                     <floruit notBefore="-0165" notAfter="-0165">165 BCE<ref type="note" corresp="#Vol-3-G_M-ftn1142"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e19393-person" n="Vol-3-G_M-Greek-Males-Diocles-2">
@@ -76,7 +76,11 @@
                      <persName type="lemma">Διοκλῆς</persName>
                      <persName type="lemma" xml:lang="en">Diocles</persName>
                      <persName>Διοκλέους</persName>
-                     <floruit>Theodotus (21)’s father</floruit>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e41516-person" type="relation" n="father-of">Theodotus (21)’s father</ref>
+                        </note>
+                     </state>
                      <state type="findspot">
                         <note>Papyrus, Trikomia</note>
                      </state>
@@ -111,7 +115,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>232 BCE<ref type="note" corresp="#Vol-3-G_M-ftn1145"/>
+                     <floruit notBefore="-0232" notAfter="-0232">232 BCE<ref type="note" corresp="#Vol-3-G_M-ftn1145"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e19460-person" n="Vol-3-G_M-Greek-Males-Diocles-4">
@@ -135,7 +139,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>232 BCE<ref type="note" corresp="#Vol-3-G_M-ftn1148"/>
+                     <floruit notBefore="-0232" notAfter="-0232">232 BCE<ref type="note" corresp="#Vol-3-G_M-ftn1148"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e19501-person" n="Vol-3-G_M-Greek-Males-Diocles-5">
@@ -160,7 +164,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                </listPerson>
             </ab>

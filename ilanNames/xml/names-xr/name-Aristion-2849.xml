@@ -47,7 +47,7 @@
                         <note>Samaritan?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn62"/>
                         </note>
                      </state>
-                     <floruit>1stC BCE</floruit>
+                     <floruit notBefore="-0099" notAfter="-0000">1stC BCE</floruit>
                   </person>
                   <person xml:id="Vol-2-Vol-1-ADD-G_M-d8e886-person"
                           n="Vol-2-Vol-1-ADD-G_M-Greek-Males-Aristion-2">
@@ -67,7 +67,7 @@
                      <state type="addl-Descr">
                         <note>–</note>
                      </state>
-                     <floruit>1stC BCE-1stC CE</floruit>
+                     <floruit notBefore="-0099" notAfter="0099">1stC BCE-1stC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e10979-person" n="Vol-3-G_M-Greek-Males-Aristion-1">
                      <sex cert="high">M</sex>
@@ -91,7 +91,7 @@
                      <state type="provenance">
                         <note>Cyrenaica</note>
                      </state>
-                     <floruit>67/8 CE<ref type="note" corresp="#Vol-3-G_M-ftn649"/>
+                     <floruit notBefore="0067" notAfter="0008">67/8 CE<ref type="note" corresp="#Vol-3-G_M-ftn649"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e11026-person" n="Vol-3-G_M-Greek-Males-Aristion-2">
@@ -115,7 +115,7 @@
                      <state type="provenance">
                         <note>Greece</note>
                      </state>
-                     <floruit>330-30 BCE<ref type="note" corresp="#Vol-3-G_M-ftn651"/>
+                     <floruit notBefore="-0330" notAfter="-0030">330-30 BCE<ref type="note" corresp="#Vol-3-G_M-ftn651"/>
                      </floruit>
                   </person>
                </listPerson>

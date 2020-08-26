@@ -46,7 +46,7 @@
                         <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn326"/>
                         </note>
                      </state>
-                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn327"/>
+                     <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn327"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-S-H_M-d2e4871-person" n="Vol-1-S-H_M-Zaera-2">
@@ -65,7 +65,7 @@
                         <note>Second name<ref type="note" corresp="#Vol-1-S-H_M-ftn328"/>
                         </note>
                      </state>
-                     <floruit>Pre-73 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn329"/>
+                     <floruit notBefore="0073" notAfter="0073">Pre-73 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn329"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-S-H_M-d8e2736-person"
@@ -90,7 +90,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>3rdC BCE</floruit>
+                     <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
                   </person>
                   <person xml:id="Vol-3-S-H_M-d8e2767-person"
                           n="Vol-3-S-H_M-Semitic-Hebrew-Males-Zaera-2">
@@ -99,7 +99,11 @@
                      <persName type="lemma" xml:lang="en">Zaera</persName>
                      <persName>זעירא<ref type="note" corresp="#Vol-3-S-H_M-ftn167"/>
                      </persName>
-                     <floruit>Hashub (1)’s father</floruit>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e8224-person" type="relation" n="father-of">Hashub (1)’s father</ref>
+                        </note>
+                     </state>
                      <state type="findspot">
                         <note>Ostracon, Edfu, Aimé-Giron</note>
                      </state>
@@ -111,7 +115,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>3rdC BCE</floruit>
+                     <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
                   </person>
                   <person xml:id="Vol-3-S-H_M-d8e2801-person"
                           n="Vol-3-S-H_M-Semitic-Hebrew-Males-Zaera-3">
@@ -135,7 +139,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>3rdC BCE</floruit>
+                     <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
                   </person>
                </listPerson>
             </ab>

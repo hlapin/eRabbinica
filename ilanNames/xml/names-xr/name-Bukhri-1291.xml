@@ -43,7 +43,7 @@
                         <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn105"/>
                         </note>
                      </state>
-                     <floruit>Pre-135 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn106"/>
+                     <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn106"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-S-H_M-d8e1497-person"
@@ -69,7 +69,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>99-107 CE<ref type="note" corresp="#Vol-3-S-H_M-ftn98"/>
+                     <floruit notBefore="0099" notAfter="0107">99-107 CE<ref type="note" corresp="#Vol-3-S-H_M-ftn98"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-S-H_M-d8e1536-person"
@@ -95,7 +95,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>94-110 CE<ref type="note" corresp="#Vol-3-S-H_M-ftn101"/>
+                     <floruit notBefore="0094" notAfter="0110">94-110 CE<ref type="note" corresp="#Vol-3-S-H_M-ftn101"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-S-H_M-d8e1578-person"
@@ -120,7 +120,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>1stC CE</floruit>
+                     <floruit notBefore="0000" notAfter="0099">1stC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-S-H_M-d8e1613-person"
                           n="Vol-3-S-H_M-Semitic-Hebrew-Males-Bukhri-4">
@@ -143,7 +143,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>2ndC CE</floruit>
+                     <floruit notBefore="0100" notAfter="0199">2ndC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-S-H_M-d8e1649-person"
                           n="Vol-3-S-H_M-Semitic-Hebrew-Males-Bukhri-5">
@@ -166,7 +166,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>2ndC CE</floruit>
+                     <floruit notBefore="0100" notAfter="0199">2ndC CE</floruit>
                   </person>
                </listPerson>
             </ab>

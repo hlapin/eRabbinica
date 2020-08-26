@@ -45,7 +45,7 @@
                         <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn281"/>
                         </note>
                      </state>
-                     <floruit>Pre-135 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn282"/>
+                     <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn282"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-S-H_M-d8e2402-person"
@@ -72,7 +72,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>91-106 CE<ref type="note" corresp="#Vol-3-S-H_M-ftn146"/>
+                     <floruit notBefore="0091" notAfter="0106">91-106 CE<ref type="note" corresp="#Vol-3-S-H_M-ftn146"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-S-H_M-d8e2443-person"
@@ -98,7 +98,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-S-H_M-d8e2498-person"
                           n="Vol-3-S-H_M-Semitic-Hebrew-Males-Dama-3">
@@ -123,7 +123,7 @@
                      <state type="provenance">
                         <note>Italy</note>
                      </state>
-                     <floruit>1stC BCE</floruit>
+                     <floruit notBefore="-0099" notAfter="-0000">1stC BCE</floruit>
                   </person>
                   <person xml:id="Vol-3-S-H_M-d8e2535-person"
                           n="Vol-3-S-H_M-Semitic-Hebrew-Males-Dama-4">
@@ -146,7 +146,7 @@
                      <state type="provenance">
                         <note>Asia</note>
                      </state>
-                     <floruit>3rdC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
                   </person>
                </listPerson>
             </ab>

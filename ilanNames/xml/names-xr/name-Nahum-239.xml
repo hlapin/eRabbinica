@@ -52,7 +52,7 @@
                         <note>Fictitious<ref type="note" corresp="#Vol-1-B_M-ftn3577"/>
                         </note>
                      </state>
-                     <floruit>30-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn3578"/>
+                     <floruit notBefore="0030" notAfter="0070">30-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn3578"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-B_M-d2e46368-person" n="Vol-1-B_M-Nahum-2">
@@ -72,7 +72,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn3580"/>
+                     <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn3580"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-B_M-d2e46393-person" n="Vol-1-B_M-Nahum-3">
@@ -93,7 +93,7 @@
                         <note>Mede<ref type="note" corresp="#Vol-1-B_M-ftn3582"/>
                         </note>
                      </state>
-                     <floruit>Pre-135 CE<ref type="note" corresp="#Vol-1-B_M-ftn3583"/>
+                     <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-B_M-ftn3583"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-B_M-d2e46425-person" n="Vol-1-B_M-Nahum-4">
@@ -113,7 +113,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-1-B_M-ftn3585"/>
+                     <floruit notBefore="0200" notAfter="0200">Pre-200 CE<ref type="note" corresp="#Vol-1-B_M-ftn3585"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-B_M-d2e46453-person" n="Vol-1-B_M-Nahum-5">
@@ -134,7 +134,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-1-B_M-ftn3587"/>
+                     <floruit notBefore="0200" notAfter="0200">Pre-200 CE<ref type="note" corresp="#Vol-1-B_M-ftn3587"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-B_M-d2e46481-person" n="Vol-1-B_M-Nahum-6">
@@ -152,7 +152,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn3588"/>
+                     <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn3588"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-2-B_M-d8e37007-person" n="Vol-2-B_M-Biblical-Males-Nahum-1">
@@ -514,7 +514,7 @@
                         <note>Fictitious<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn588"/>
                         </note>
                      </state>
-                     <floruit>3rdC BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn589"/>
+                     <floruit notBefore="-0299" notAfter="-0200">3rdC BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn589"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-2-Vol-1-ADD-B_M-d8e8404-person"
@@ -552,7 +552,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>4thC CE</floruit>
+                     <floruit notBefore="0300" notAfter="0399">4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-B_M-d8e10968-person" n="Vol-3-B_M-Biblical-Males-Nahum-2">
                      <sex cert="high">M</sex>
@@ -573,7 +573,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>6th-7thC CE</floruit>
+                     <floruit notBefore="0500" notAfter="0699">6th-7thC CE</floruit>
                   </person>
                </listPerson>
             </ab>

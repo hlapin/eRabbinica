@@ -1,0 +1,13 @@
+[^B]CE$
+
+^(Pre-|Post-)*\s*
+
+(\d+)[\/\-](\d+)
+
+(\d+)s-(\d+)s
+
+(\d+)(nd|st|th|rd)-\s*(\d+)(nd|st|th|rd)\s*(C)*\s*(B*CE)$
+
+^(d\.|Pre-|Post-)*\s*(\d+)(d|st|th|rd)\s*(C)*\s*(B*CE)$
+
+^(d\.|Pre-|Post-)*\s*(\d+)(\s+(B*CE))*$

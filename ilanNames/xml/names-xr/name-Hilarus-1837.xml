@@ -96,7 +96,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e48200-person" n="Vol-3-G_M-Greek-Males-Hilarus-2">
                      <sex cert="high">M</sex>
@@ -119,7 +119,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e48240-person" n="Vol-3-G_M-Greek-Males-Hilarus-3">
                      <sex cert="high">M</sex>
@@ -142,7 +142,7 @@
                      <state type="provenance">
                         <note>Greece,</note>
                      </state>
-                     <floruit>1st-2ndC CE</floruit>
+                     <floruit notBefore="0000" notAfter="0199">1st-2ndC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e48281-person" n="Vol-3-G_M-Greek-Males-Hilarus-4">
                      <sex cert="high">M</sex>
@@ -150,7 +150,11 @@
                      <persName type="lemma" xml:lang="en">Hilarus</persName>
                      <persName>Εἵλαρος<ref type="note" corresp="#Vol-3-G_M-ftn2772"/>
                      </persName>
-                     <floruit>Mattathias (10)’s son</floruit>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e10684-person" type="relation" n="son-of">Mattathias (10)’s son</ref>
+                        </note>
+                     </state>
                      <state type="findspot">
                         <note>Epitaph,Ankara Museum</note>
                      </state>

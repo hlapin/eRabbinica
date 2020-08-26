@@ -46,7 +46,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>1stC CE</floruit>
+                     <floruit notBefore="0000" notAfter="0099">1stC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e4824-person" n="Vol-3-G_M-Greek-Males-Alexas-2">
                      <sex cert="high">M</sex>
@@ -69,7 +69,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e4859-person" n="Vol-3-G_M-Greek-Males-Alexas-3">
                      <sex cert="high">M</sex>
@@ -92,7 +92,7 @@
                      <state type="provenance">
                         <note>Asia</note>
                      </state>
-                     <floruit>3rdC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e4894-person" n="Vol-3-G_M-Greek-Males-Alexas-4">
                      <sex cert="high">M</sex>
@@ -117,7 +117,7 @@
                         <note>Egypt<ref type="note" corresp="#Vol-3-G_M-ftn288"/>
                         </note>
                      </state>
-                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-3-G_M-ftn289"/>
+                     <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-3-G_M-ftn289"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e4945-person" n="Vol-3-G_M-Greek-Males-Alexas-5">
@@ -142,7 +142,7 @@
                      <state type="provenance">
                         <note>Cyrenaica</note>
                      </state>
-                     <floruit>Pre-117 CE</floruit>
+                     <floruit notBefore="0117" notAfter="0117">Pre-117 CE</floruit>
                   </person>
                </listPerson>
             </ab>

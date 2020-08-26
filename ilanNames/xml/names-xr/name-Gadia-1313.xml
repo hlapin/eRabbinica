@@ -56,7 +56,7 @@
                         <note>Second name<ref type="note" corresp="#Vol-1-S-H_M-ftn161"/>
                         </note>
                      </state>
-                     <floruit>167-160 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn162"/>
+                     <floruit notBefore="0167" notAfter="0160">167-160 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn162"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-S-H_M-d2e2544-person" n="Vol-1-S-H_M-Gadia-2">
@@ -77,7 +77,7 @@
                         <note>Second name<ref type="note" corresp="#Vol-1-S-H_M-ftn164"/>
                         </note>
                      </state>
-                     <floruit>26 BCE<ref type="note" corresp="#Vol-1-S-H_M-ftn165"/>
+                     <floruit notBefore="-0026" notAfter="-0026">26 BCE<ref type="note" corresp="#Vol-1-S-H_M-ftn165"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-S-H_M-d2e2574-person" n="Vol-1-S-H_M-Gadia-3">
@@ -96,7 +96,7 @@
                         <note>Family<ref type="note" corresp="#Vol-1-S-H_M-ftn166"/>
                         </note>
                      </state>
-                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn167"/>
+                     <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn167"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-S-H_M-d2e2600-person" n="Vol-1-S-H_M-Gadia-4">
@@ -118,7 +118,7 @@
                         <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn169"/>
                         </note>
                      </state>
-                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn170"/>
+                     <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn170"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-2-S-H_M-d8e8080-person"
@@ -263,7 +263,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>222 BCE<ref type="note" corresp="#Vol-3-S-H_M-ftn119"/>
+                     <floruit notBefore="-0222" notAfter="-0222">222 BCE<ref type="note" corresp="#Vol-3-S-H_M-ftn119"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-S-H_M-d8e1944-person"
@@ -289,7 +289,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>205 CE<ref type="note" corresp="#Vol-3-S-H_M-ftn123"/>
+                     <floruit notBefore="0205" notAfter="0205">205 CE<ref type="note" corresp="#Vol-3-S-H_M-ftn123"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-S-H_M-d8e1981-person"
@@ -317,7 +317,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-S-H_M-d8e2062-person"
                           n="Vol-3-S-H_M-Semitic-Hebrew-Males-Gadia-4">
@@ -340,7 +340,7 @@
                      <state type="provenance">
                         <note>Bosphoran Kingdom</note>
                      </state>
-                     <floruit>59 CE<ref type="note" corresp="#Vol-3-S-H_M-ftn132"/>
+                     <floruit notBefore="0059" notAfter="0059">59 CE<ref type="note" corresp="#Vol-3-S-H_M-ftn132"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-4-S-H_M-d8e12502-person"
@@ -364,7 +364,7 @@
                      <state type="provenance">
                         <note>Babylonia</note>
                      </state>
-                     <floruit>3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn869"/>
+                     <floruit notBefore="0200" notAfter="0299">3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn869"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-4-S-H_M-d8e12545-person"
@@ -390,7 +390,7 @@
                      <state type="provenance">
                         <note>Babylonia</note>
                      </state>
-                     <floruit>3rd-4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn872"/>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn872"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-4-S-H_M-d8e12592-person"
@@ -466,7 +466,7 @@
                      <state type="provenance">
                         <note>Babylonia</note>
                      </state>
-                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn881"/>
+                     <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn881"/>
                      </floruit>
                   </person>
                </listPerson>

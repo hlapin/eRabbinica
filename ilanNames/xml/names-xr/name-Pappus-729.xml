@@ -50,7 +50,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>38 BCE<ref type="note" corresp="#Vol-1-G_M-ftn1038"/>
+                     <floruit notBefore="-0038" notAfter="-0038">38 BCE<ref type="note" corresp="#Vol-1-G_M-ftn1038"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-G_M-d2e14479-person" n="Vol-1-G_M-Pappus-2">
@@ -69,7 +69,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>Pre-135CE<ref type="note" corresp="#Vol-1-G_M-ftn1040"/>
+                     <floruit notBefore="0135" notAfter="0135">Pre-135CE<ref type="note" corresp="#Vol-1-G_M-ftn1040"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-G_M-d2e14521-person" n="Vol-1-G_M-Pappus-3">
@@ -91,7 +91,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>Pre-135 CE<ref type="note" corresp="#Vol-1-G_M-ftn1043"/>
+                     <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-G_M-ftn1043"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-G_M-d2e14558-person" n="Vol-1-G_M-Pappus-4">
@@ -112,7 +112,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>Pre-135 CE<ref type="note" corresp="#Vol-1-G_M-ftn1045"/>
+                     <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-G_M-ftn1045"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-G_M-d2e14583-person" n="Vol-1-G_M-Pappus-5">
@@ -134,7 +134,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-1-G_M-ftn1049"/>
+                     <floruit notBefore="0200" notAfter="0200">Pre-200 CE<ref type="note" corresp="#Vol-1-G_M-ftn1049"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-G_M-d2e14614-person" n="Vol-1-G_M-Pappus-6">
@@ -153,7 +153,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn1051"/>
+                     <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn1051"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-G_M-d2e14640-person" n="Vol-1-G_M-Pappus-7">
@@ -176,7 +176,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn1055"/>
+                     <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn1055"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-G_M-d2e14676-person" n="Vol-1-G_M-Pappus-8">
@@ -197,7 +197,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn1057"/>
+                     <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn1057"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-2-G_M-d8e14207-person" n="Vol-2-G_M-Greek-Males-Pappus-1">
@@ -423,7 +423,7 @@
                      <state type="addl-Descr">
                         <note>–</note>
                      </state>
-                     <floruit>Pre-200 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn267"/>
+                     <floruit notBefore="0200" notAfter="0200">Pre-200 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn267"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e63510-person" n="Vol-3-G_M-Greek-Males-Pappus-1">
@@ -448,7 +448,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>1stC CE</floruit>
+                     <floruit notBefore="0000" notAfter="0099">1stC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e63546-person" n="Vol-3-G_M-Greek-Males-Pappus-2">
                      <sex cert="high">M</sex>
@@ -472,7 +472,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>1stC CE</floruit>
+                     <floruit notBefore="0000" notAfter="0099">1stC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e63579-person" n="Vol-3-G_M-Greek-Males-Pappus-3">
                      <sex cert="high">M</sex>
@@ -494,13 +494,16 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>1st-2ndC CE</floruit>
+                     <floruit notBefore="0000" notAfter="0199">1st-2ndC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e63620-person" n="Vol-3-G_M-Greek-Males-Pappus-4">
                      <sex cert="high">M</sex>
                      <floruit>–</floruit>
-                     <floruit>Papion (3)’s son, aged 3<ref type="note" corresp="#Vol-3-G_M-ftn3668"/>
-                     </floruit>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-G_M-d8e63458-person" type="relation" n="son-of">Papion (3)’s son</ref>, aged 3<ref type="note" corresp="#Vol-3-G_M-ftn3668"/>
+                        </note>
+                     </state>
                      <state type="findspot">
                         <note>Epitaph, Cairo?<ref type="note" corresp="#Vol-3-G_M-ftn3669"/>Wagner</note>
                      </state>
@@ -512,7 +515,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>3rdC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
                   </person>
                </listPerson>
             </ab>

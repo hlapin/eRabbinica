@@ -46,7 +46,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>67 CE<ref type="note" corresp="#Vol-1-L_M-ftn109"/>
+                     <floruit notBefore="0067" notAfter="0067">67 CE<ref type="note" corresp="#Vol-1-L_M-ftn109"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-L_M-d2e1677-person" n="Vol-1-L_M-Crispus-2">
@@ -66,7 +66,7 @@
                         <note>Fictitious<ref type="note" corresp="#Vol-1-L_M-ftn111"/>
                         </note>
                      </state>
-                     <floruit>30 CE<ref type="note" corresp="#Vol-1-L_M-ftn112"/>
+                     <floruit notBefore="0030" notAfter="0030">30 CE<ref type="note" corresp="#Vol-1-L_M-ftn112"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-2-L_M-d8e2589-person" n="Vol-2-L_M-Latin-Males-Crispus-1">
@@ -172,7 +172,7 @@
                      <state type="provenance">
                         <note>Greece</note>
                      </state>
-                     <floruit>50-2 CE<ref type="note" corresp="#Vol-3-L_M-ftn794"/>
+                     <floruit notBefore="0050" notAfter="0002">50-2 CE<ref type="note" corresp="#Vol-3-L_M-ftn794"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e13341-person" n="Vol-3-L_M-Latin-Males-Crispus-2">
@@ -219,7 +219,7 @@
                      <state type="provenance">
                         <note>Cyrenaica</note>
                      </state>
-                     <floruit>Pre-117 CE</floruit>
+                     <floruit notBefore="0117" notAfter="0117">Pre-117 CE</floruit>
                   </person>
                </listPerson>
             </ab>

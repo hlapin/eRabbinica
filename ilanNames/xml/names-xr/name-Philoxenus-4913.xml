@@ -48,7 +48,7 @@
                         <note>Egypt<ref type="note" corresp="#Vol-3-G_M-ftn4606"/>
                         </note>
                      </state>
-                     <floruit>6thC CE<ref type="note" corresp="#Vol-3-G_M-ftn4607"/>
+                     <floruit notBefore="0500" notAfter="0599">6thC CE<ref type="note" corresp="#Vol-3-G_M-ftn4607"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e79189-person"
@@ -57,7 +57,11 @@
                      <persName type="lemma">Φιλόξενος</persName>
                      <persName type="lemma" xml:lang="en">Philoxenus</persName>
                      <persName>Φιλοξένου</persName>
-                     <floruit>Peton (1)’s father</floruit>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-E_M-d8e6676-person" type="relation" n="father-of">Peton (1)’s father</ref>
+                        </note>
+                     </state>
                      <state type="findspot">
                         <note>Papyrus, Heracleopolis</note>
                      </state>
@@ -69,7 +73,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>147-136 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4609"/>
+                     <floruit notBefore="-0147" notAfter="-0136">147-136 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4609"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e79225-person"
@@ -93,7 +97,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e79262-person"
                           n="Vol-3-G_M-Greek-Males-Philoxenus-4">
@@ -117,7 +121,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>78 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4613"/>
+                     <floruit notBefore="-0078" notAfter="-0078">78 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4613"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e79294-person"
@@ -140,7 +144,7 @@
                      <state type="provenance">
                         <note>Cyrenaica</note>
                      </state>
-                     <floruit>62/3 CE<ref type="note" corresp="#Vol-3-G_M-ftn4615"/>
+                     <floruit notBefore="0062" notAfter="0003">62/3 CE<ref type="note" corresp="#Vol-3-G_M-ftn4615"/>
                      </floruit>
                   </person>
                </listPerson>

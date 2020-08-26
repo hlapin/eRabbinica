@@ -49,7 +49,7 @@
                         <note>Jew?<ref type="note" corresp="#Vol-1-G_M-ftn1073"/>
                         </note>
                      </state>
-                     <floruit>30 CE<ref type="note" corresp="#Vol-1-G_M-ftn1074"/>
+                     <floruit notBefore="0030" notAfter="0030">30 CE<ref type="note" corresp="#Vol-1-G_M-ftn1074"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-G_M-d2e14963-person" n="Vol-1-G_M-Petrus-2">
@@ -68,7 +68,7 @@
                         <note>Second name<ref type="note" corresp="#Vol-1-G_M-ftn1075"/>
                         </note>
                      </state>
-                     <floruit>27-60 CE<ref type="note" corresp="#Vol-1-G_M-ftn1076"/>
+                     <floruit notBefore="0027" notAfter="0060">27-60 CE<ref type="note" corresp="#Vol-1-G_M-ftn1076"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-G_M-d2e14987-person" n="Vol-1-G_M-Petrus-3">
@@ -90,7 +90,7 @@
                         <note>Nickname?<ref type="note" corresp="#Vol-1-G_M-ftn1078"/>
                         </note>
                      </state>
-                     <floruit>Post-135 CE<ref type="note" corresp="#Vol-1-G_M-ftn1079"/>
+                     <floruit notBefore="0135" notAfter="0135">Post-135 CE<ref type="note" corresp="#Vol-1-G_M-ftn1079"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-G_M-d2e15026-person" n="Vol-1-G_M-Petrus-4">
@@ -111,7 +111,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>134 CE<ref type="note" corresp="#Vol-1-G_M-ftn1081"/>
+                     <floruit notBefore="0134" notAfter="0134">134 CE<ref type="note" corresp="#Vol-1-G_M-ftn1081"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-G_M-d2e15046-person" n="Vol-1-G_M-Petrus-5">
@@ -132,7 +132,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>Pre-73 CE<ref type="note" corresp="#Vol-1-G_M-ftn1083"/>
+                     <floruit notBefore="0073" notAfter="0073">Pre-73 CE<ref type="note" corresp="#Vol-1-G_M-ftn1083"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-2-G_M-d8e15522-person" n="Vol-2-G_M-Greek-Males-Petrus-1">
@@ -176,7 +176,7 @@
                         <note>Italy?<ref type="note" corresp="#Vol-3-G_M-ftn3736"/>
                         </note>
                      </state>
-                     <floruit>599 CE<ref type="note" corresp="#Vol-3-G_M-ftn3737"/>
+                     <floruit notBefore="0599" notAfter="0599">599 CE<ref type="note" corresp="#Vol-3-G_M-ftn3737"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e64824-person" n="Vol-3-G_M-Greek-Males-Petrus-2">
@@ -199,7 +199,7 @@
                      <state type="provenance">
                         <note>Italy</note>
                      </state>
-                     <floruit>5thC CE</floruit>
+                     <floruit notBefore="0400" notAfter="0499">5thC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e64865-person" n="Vol-3-G_M-Greek-Males-Petrus-3">
                      <sex cert="high">M</sex>
@@ -222,7 +222,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>3rd-4thC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
                   </person>
                </listPerson>
             </ab>

@@ -46,7 +46,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>75 CE<ref type="note" corresp="#Vol-3-E_M-ftn15"/>
+                     <floruit notBefore="0075" notAfter="0075">75 CE<ref type="note" corresp="#Vol-3-E_M-ftn15"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-E_M-d8e225-person" n="Vol-3-E_M-Egyptian-Males-Acies-2">
@@ -54,7 +54,11 @@
                      <persName type="lemma">Acies</persName>
                      <persName type="lemma" xml:lang="en">Acies</persName>
                      <persName>̓Ακιῆτος</persName>
-                     <floruit>Pates (4)’s son</floruit>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-E_M-d8e5571-person" type="relation" n="son-of">Pates (4)’s son</ref>
+                        </note>
+                     </state>
                      <state type="findspot">
                         <note>Ostracon, Edfu, Manteuffel</note>
                      </state>
@@ -66,7 +70,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>93 CE<ref type="note" corresp="#Vol-3-E_M-ftn17"/>
+                     <floruit notBefore="0093" notAfter="0093">93 CE<ref type="note" corresp="#Vol-3-E_M-ftn17"/>
                      </floruit>
                   </person>
                </listPerson>

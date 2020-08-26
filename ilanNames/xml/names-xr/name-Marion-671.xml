@@ -49,7 +49,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn893"/>
+                     <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn893"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-G_M-d2e12528-person" n="Vol-1-G_M-Marion-2">
@@ -68,7 +68,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>Pre-135 CE<ref type="note" corresp="#Vol-1-G_M-ftn895"/>
+                     <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-G_M-ftn895"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-1-G_M-d2e12560-person" n="Vol-1-G_M-Marion-3">
@@ -87,7 +87,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>Pre-135 CE<ref type="note" corresp="#Vol-1-G_M-ftn897"/>
+                     <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-G_M-ftn897"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-2-G_M-d8e12686-person" n="Vol-2-G_M-Greek-Males-Marion-1">
@@ -184,7 +184,7 @@
                      <state type="provenance">
                         <note>Babylonia</note>
                      </state>
-                     <floruit>5thC CE<ref type="note" corresp="#Vol-4-G_M-ftn102"/>
+                     <floruit notBefore="0400" notAfter="0499">5thC CE<ref type="note" corresp="#Vol-4-G_M-ftn102"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-4-G_M-d8e1354-person" n="Vol-4-G_M-Greek-Males-Marion-2">
@@ -216,7 +216,7 @@
                      <state type="provenance">
                         <note>Babylonia</note>
                      </state>
-                     <floruit>4thC CE<ref type="note" corresp="#Vol-4-G_M-ftn109"/>
+                     <floruit notBefore="0300" notAfter="0399">4thC CE<ref type="note" corresp="#Vol-4-G_M-ftn109"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-4-Vol-3-Add-G_M-d8e552-person"
@@ -225,7 +225,11 @@
                      <persName type="lemma">Μάριον</persName>
                      <persName type="lemma" xml:lang="en">Marion</persName>
                      <persName>Μαρίωνι</persName>
-                     <floruit>Marion (2)’s father</floruit>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-G_M-d8e1354-person" type="relation" n="father-of">Marion (2)’s father</ref>
+                        </note>
+                     </state>
                      <state type="findspot">
                         <note>Papyrus, Fayum</note>
                      </state>
@@ -237,7 +241,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>116/7 CE<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn40"/>
+                     <floruit notBefore="0116" notAfter="0117">116/7 CE<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn40"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-4-Vol-3-Add-G_M-d8e584-person"
@@ -246,7 +250,11 @@
                      <persName type="lemma">Μάριον</persName>
                      <persName type="lemma" xml:lang="en">Marion</persName>
                      <persName>Μαρίωνς</persName>
-                     <floruit>Marion (1)’s son</floruit>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-G_M-d8e1288-person" type="relation" n="son-of">Marion (1)’s son</ref>
+                        </note>
+                     </state>
                      <state type="findspot">
                         <note>Papyrus, Fayum</note>
                      </state>
@@ -258,7 +266,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>116/7 CE<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn42"/>
+                     <floruit notBefore="0116" notAfter="0117">116/7 CE<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn42"/>
                      </floruit>
                   </person>
                </listPerson>

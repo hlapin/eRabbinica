@@ -208,7 +208,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>3rdC BCE</floruit>
+                     <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
                   </person>
                   <person xml:id="Vol-3-B_M-d8e33627-person"
                           n="Vol-3-B_M-Biblical-Males-Shalum-2">
@@ -216,7 +216,11 @@
                      <persName type="lemma">שלום</persName>
                      <persName type="lemma" xml:lang="en">Shalum</persName>
                      <persName>–</persName>
-                     <floruit>Shabtai (6)’s son</floruit>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-B_M-d8e27874-person" type="relation" n="son-of">Shabtai (6)’s son</ref>
+                        </note>
+                     </state>
                      <state type="findspot">
                         <note>Ostracon, Edfu, Sachau</note>
                      </state>
@@ -228,7 +232,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>3rdC BCE</floruit>
+                     <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
                   </person>
                   <person xml:id="Vol-3-B_M-d8e33658-person"
                           n="Vol-3-B_M-Biblical-Males-Shalum-3">
@@ -253,7 +257,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>156-153 BCE<ref type="note" corresp="#Vol-3-B_M-ftn1392"/>
+                     <floruit notBefore="-0156" notAfter="-0153">156-153 BCE<ref type="note" corresp="#Vol-3-B_M-ftn1392"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-B_M-d8e33693-person"
@@ -277,7 +281,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>150-139 BCE<ref type="note" corresp="#Vol-3-B_M-ftn1395"/>
+                     <floruit notBefore="-0150" notAfter="-0139">150-139 BCE<ref type="note" corresp="#Vol-3-B_M-ftn1395"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-B_M-d8e33728-person"
@@ -301,7 +305,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>105 CE<ref type="note" corresp="#Vol-3-B_M-ftn1398"/>
+                     <floruit notBefore="0105" notAfter="0105">105 CE<ref type="note" corresp="#Vol-3-B_M-ftn1398"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-B_M-d8e33763-person"
@@ -327,7 +331,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>205 CE<ref type="note" corresp="#Vol-3-B_M-ftn1402"/>
+                     <floruit notBefore="0205" notAfter="0205">205 CE<ref type="note" corresp="#Vol-3-B_M-ftn1402"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-B_M-d8e33800-person"
@@ -354,7 +358,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>3rdC BCE</floruit>
+                     <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
                   </person>
                   <person xml:id="Vol-3-B_M-d8e33835-person"
                           n="Vol-3-B_M-Biblical-Males-Shalum-8">
@@ -379,7 +383,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>3rdC BCE</floruit>
+                     <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
                   </person>
                   <person xml:id="Vol-3-B_M-d8e33873-person"
                           n="Vol-3-B_M-Biblical-Males-Shalum-9">
@@ -404,7 +408,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>3rdC BCE</floruit>
+                     <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
                   </person>
                   <person xml:id="Vol-3-B_M-d8e33908-person"
                           n="Vol-3-B_M-Biblical-Males-Shalum-10">
@@ -429,7 +433,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>30 BCE<ref type="note" corresp="#Vol-3-B_M-ftn1412"/>
+                     <floruit notBefore="-0030" notAfter="-0030">30 BCE<ref type="note" corresp="#Vol-3-B_M-ftn1412"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-B_M-d8e33949-person"
@@ -455,7 +459,7 @@
                      <state type="provenance">
                         <note>Cyprus</note>
                      </state>
-                     <floruit>4thC BCE</floruit>
+                     <floruit notBefore="-0399" notAfter="-0300">4thC BCE</floruit>
                   </person>
                   <person xml:id="Vol-3-B_M-d8e33988-person"
                           n="Vol-3-B_M-Biblical-Males-Shalum-12">
@@ -480,7 +484,7 @@
                      <state type="provenance">
                         <note>Cyprus</note>
                      </state>
-                     <floruit>4thC BCE</floruit>
+                     <floruit notBefore="-0399" notAfter="-0300">4thC BCE</floruit>
                   </person>
                   <person xml:id="Vol-3-B_M-d8e34026-person"
                           n="Vol-3-B_M-Biblical-Males-Shalum-13">
@@ -505,7 +509,7 @@
                      <state type="provenance">
                         <note>Pannonia</note>
                      </state>
-                     <floruit>3rdC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
                   </person>
                   <person xml:id="Vol-4-B_M-d8e28682-person"
                           n="Vol-4-B_M-Biblical-Males-Shalum-1">
@@ -530,7 +534,7 @@
                      <state type="provenance">
                         <note>Arab. Pen.</note>
                      </state>
-                     <floruit>Pre-632 CE<ref type="note" corresp="#Vol-4-B_M-ftn1850"/>
+                     <floruit notBefore="0632" notAfter="0632">Pre-632 CE<ref type="note" corresp="#Vol-4-B_M-ftn1850"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-4-B_M-d8e28723-person"
@@ -557,7 +561,7 @@
                      <state type="provenance">
                         <note>Arab. Pen.</note>
                      </state>
-                     <floruit>6thC CE<ref type="note" corresp="#Vol-4-B_M-ftn1854"/>
+                     <floruit notBefore="0500" notAfter="0599">6thC CE<ref type="note" corresp="#Vol-4-B_M-ftn1854"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-4-B_M-d8e28766-person"
@@ -583,7 +587,7 @@
                      <state type="provenance">
                         <note>Arab. Pen.</note>
                      </state>
-                     <floruit>6thC CE<ref type="note" corresp="#Vol-4-B_M-ftn1857"/>
+                     <floruit notBefore="0500" notAfter="0599">6thC CE<ref type="note" corresp="#Vol-4-B_M-ftn1857"/>
                      </floruit>
                   </person>
                </listPerson>

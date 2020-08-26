@@ -51,7 +51,7 @@
                         <note>Babylonia<ref type="note" corresp="#Vol-1-S-H_F-ftn167"/>
                         </note>
                      </state>
-                     <floruit>Post-135 CE<ref type="note" corresp="#Vol-1-S-H_F-ftn168"/>
+                     <floruit notBefore="0135" notAfter="0135">Post-135 CE<ref type="note" corresp="#Vol-1-S-H_F-ftn168"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-2-S-H_F-d8e1668-person"
@@ -122,7 +122,7 @@
                      <state type="provenance">
                         <note>Babylonia</note>
                      </state>
-                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_F-ftn468"/>
+                     <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_F-ftn468"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-4-S-H_F-d8e6341-person"
@@ -150,7 +150,7 @@
                      <state type="provenance">
                         <note>Babylonia</note>
                      </state>
-                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_F-ftn471"/>
+                     <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_F-ftn471"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-4-S-H_F-d8e6376-person"
@@ -176,7 +176,7 @@
                      <state type="provenance">
                         <note>Babylonia</note>
                      </state>
-                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_F-ftn474"/>
+                     <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_F-ftn474"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-4-S-H_F-d8e6413-person"
@@ -186,7 +186,13 @@
                      <persName type="lemma" xml:lang="en">Shilat</persName>
                      <persName>שילתא<ref type="note" corresp="#Vol-4-S-H_F-ftn475"/>
                      </persName>
-                     <floruit>Martha (16)’s mother-in-law</floruit>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-S-H_F-d8e5539-person"
+                                type="relation"
+                                n="mother-in-law-of">Martha (16)’s mother-in-law</ref>
+                        </note>
+                     </state>
                      <state type="findspot">
                         <note>Inscribed skull, Moussyaieff collection</note>
                      </state>
@@ -198,7 +204,7 @@
                      <state type="provenance">
                         <note>Babylonia</note>
                      </state>
-                     <floruit>Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_F-ftn477"/>
+                     <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_F-ftn477"/>
                      </floruit>
                   </person>
                </listPerson>

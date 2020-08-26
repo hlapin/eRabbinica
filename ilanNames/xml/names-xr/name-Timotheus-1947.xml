@@ -72,7 +72,7 @@
                      <state type="provenance">
                         <note>Asia</note>
                      </state>
-                     <floruit>50-2 CE<ref type="note" corresp="#Vol-3-G_M-ftn4383"/>
+                     <floruit notBefore="0050" notAfter="0002">50-2 CE<ref type="note" corresp="#Vol-3-G_M-ftn4383"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e75476-person"
@@ -97,7 +97,7 @@
                      <state type="provenance">
                         <note>Asia</note>
                      </state>
-                     <floruit>527-565 CE<ref type="note" corresp="#Vol-3-G_M-ftn4386"/>
+                     <floruit notBefore="0527" notAfter="0565">527-565 CE<ref type="note" corresp="#Vol-3-G_M-ftn4386"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e75517-person"
@@ -122,7 +122,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>201 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4388"/>
+                     <floruit notBefore="-0201" notAfter="-0201">201 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4388"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e75552-person"
@@ -147,7 +147,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>134 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4391"/>
+                     <floruit notBefore="-0134" notAfter="-0134">134 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4391"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e75592-person"
@@ -156,7 +156,11 @@
                      <persName type="lemma">Τιμόθεος</persName>
                      <persName type="lemma" xml:lang="en">Timotheus</persName>
                      <persName>Τιμοθέου</persName>
-                     <floruit>Joseph (47)’s father</floruit>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#" type="relation" n="father-of">Joseph (47)’s father</ref>
+                        </note>
+                     </state>
                      <state type="findspot">
                         <note>Papyrus, Oxyrhynchus</note>
                      </state>
@@ -168,7 +172,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>363 CE<ref type="note" corresp="#Vol-3-G_M-ftn4393"/>
+                     <floruit notBefore="0363" notAfter="0363">363 CE<ref type="note" corresp="#Vol-3-G_M-ftn4393"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e75622-person"
@@ -194,7 +198,7 @@
                      <state type="provenance">
                         <note>Bosphoran Kingdom</note>
                      </state>
-                     <floruit>104-10 CE<ref type="note" corresp="#Vol-3-G_M-ftn4397"/>
+                     <floruit notBefore="0104" notAfter="0110">104-10 CE<ref type="note" corresp="#Vol-3-G_M-ftn4397"/>
                      </floruit>
                   </person>
                </listPerson>

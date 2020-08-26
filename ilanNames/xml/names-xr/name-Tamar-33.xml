@@ -48,7 +48,7 @@
                      <state type="addl-Descr">
                         <note>—</note>
                      </state>
-                     <floruit>127 CE<ref type="note" corresp="#Vol-1-B_F-ftn423"/>
+                     <floruit notBefore="0127" notAfter="0127">127 CE<ref type="note" corresp="#Vol-1-B_F-ftn423"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-2-B_F-d8e3130-person"
@@ -77,7 +77,11 @@
                      <persName type="lemma" xml:lang="en">Tamar</persName>
                      <persName>Ταμαρρείους<ref type="note" corresp="#Vol-3-B_F-ftn620"/>
                      </persName>
-                     <floruit>Sentheos (1)’s daughter</floruit>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-3-E_M-d8e8828-person" type="relation" n="daughter-of">Sentheos (1)’s daughter</ref>
+                        </note>
+                     </state>
                      <state type="findspot">
                         <note>Papyrus, Crocodilopolis</note>
                      </state>
@@ -89,7 +93,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>121 BCE<ref type="note" corresp="#Vol-3-B_F-ftn622"/>
+                     <floruit notBefore="-0121" notAfter="-0121">121 BCE<ref type="note" corresp="#Vol-3-B_F-ftn622"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-B_F-d8e8754-person"
@@ -114,7 +118,7 @@
                      <state type="provenance">
                         <note>Asia</note>
                      </state>
-                     <floruit>3rdC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
                   </person>
                </listPerson>
             </ab>

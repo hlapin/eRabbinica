@@ -47,7 +47,7 @@
                      <state type="provenance">
                         <note>Rome</note>
                      </state>
-                     <floruit>1stC BCE</floruit>
+                     <floruit notBefore="-0099" notAfter="-0000">1stC BCE</floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e10284-person"
                           n="Vol-3-L_M-Latin-Males-Caecilius-2">
@@ -72,7 +72,7 @@
                         <note>Sicily<ref type="note" corresp="#Vol-3-L_M-ftn596"/>
                         </note>
                      </state>
-                     <floruit>117-138 CE<ref type="note" corresp="#Vol-3-L_M-ftn597"/>
+                     <floruit notBefore="0117" notAfter="0138">117-138 CE<ref type="note" corresp="#Vol-3-L_M-ftn597"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-L_M-d8e10336-person"
@@ -97,7 +97,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>75-80 CE<ref type="note" corresp="#Vol-3-L_M-ftn601"/>
+                     <floruit notBefore="0075" notAfter="0080">75-80 CE<ref type="note" corresp="#Vol-3-L_M-ftn601"/>
                      </floruit>
                   </person>
                </listPerson>

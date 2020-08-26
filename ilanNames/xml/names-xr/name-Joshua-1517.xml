@@ -811,7 +811,7 @@
                         <note>Authentic?<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn290"/>
                         </note>
                      </state>
-                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn291"/>
+                     <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn291"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-2-Vol-1-ADD-B_M-d8e4155-person"
@@ -831,7 +831,7 @@
                      <state type="addl-Descr">
                         <note>–</note>
                      </state>
-                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn293"/>
+                     <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn293"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-2-Vol-1-ADD-B_M-d8e4189-person"
@@ -853,7 +853,7 @@
                      <state type="addl-Descr">
                         <note>–</note>
                      </state>
-                     <floruit>70-135 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn295"/>
+                     <floruit notBefore="0070" notAfter="0135">70-135 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn295"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-2-Vol-1-ADD-B_M-d8e4225-person"
@@ -876,7 +876,7 @@
                         <note>Samaritan<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn297"/>
                         </note>
                      </state>
-                     <floruit>Pre-110 BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn298"/>
+                     <floruit notBefore="-0111" notAfter="-0111">Pre-110 BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn298"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-4-B_M-d8e10127-person"
@@ -895,7 +895,7 @@
                      <state type="provenance">
                         <note>Babylonia</note>
                      </state>
-                     <floruit>5thC CE<ref type="note" corresp="#Vol-4-B_M-ftn844"/>
+                     <floruit notBefore="0400" notAfter="0499">5thC CE<ref type="note" corresp="#Vol-4-B_M-ftn844"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-4-B_M-d8e10161-person"
@@ -914,7 +914,7 @@
                      <state type="provenance">
                         <note>Babylonia</note>
                      </state>
-                     <floruit>4thC CE<ref type="note" corresp="#Vol-4-B_M-ftn846"/>
+                     <floruit notBefore="0300" notAfter="0399">4thC CE<ref type="note" corresp="#Vol-4-B_M-ftn846"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-4-B_M-d8e10195-person"
@@ -941,7 +941,7 @@
                      <state type="provenance">
                         <note>Palmyra</note>
                      </state>
-                     <floruit>Pre-135 CE<ref type="note" corresp="#Vol-4-B_M-ftn850"/>
+                     <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-4-B_M-ftn850"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-4-B_M-d8e10231-person"
@@ -963,7 +963,7 @@
                         <note>Palmyra<ref type="note" corresp="#Vol-4-B_M-ftn853"/>
                         </note>
                      </state>
-                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-4-B_M-ftn854"/>
+                     <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-4-B_M-ftn854"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-4-B_M-d8e10272-person"
@@ -989,7 +989,7 @@
                      <state type="provenance">
                         <note>Arab. Pen.</note>
                      </state>
-                     <floruit>Pre-352 CE<ref type="note" corresp="#Vol-4-B_M-ftn858"/>
+                     <floruit notBefore="0352" notAfter="0352">Pre-352 CE<ref type="note" corresp="#Vol-4-B_M-ftn858"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-4-B_M-d8e10315-person"
@@ -1017,7 +1017,7 @@
                      <state type="provenance">
                         <note>Arab. Pen.</note>
                      </state>
-                     <floruit>Pre-352 CE<ref type="note" corresp="#Vol-4-B_M-ftn863"/>
+                     <floruit notBefore="0352" notAfter="0352">Pre-352 CE<ref type="note" corresp="#Vol-4-B_M-ftn863"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-4-Vol-3-Add-B_M-d8e177-person"
@@ -1027,7 +1027,11 @@
                      <persName type="lemma" xml:lang="en">Joshua</persName>
                      <persName>Yš<ref type="note" corresp="#Vol-4-Vol-3-Add-B_M-ftn13"/>
                      </persName>
-                     <floruit>Joseph (3)’s son, Joseph (4)’s father</floruit>
+                     <state type="desc">
+                        <note>
+                           <ref corresp="#Vol-4-B_M-d8e11093-person" type="relation" n="son-of">Joseph (3)’s son</ref>, <ref corresp="#Vol-4-B_M-d8e11136-person" type="relation" n="father-of">Joseph (4)’s father</ref>
+                        </note>
+                     </state>
                      <state type="findspot">
                         <note>Ostracon</note>
                      </state>
@@ -1039,7 +1043,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>156 BCE<ref type="note" corresp="#Vol-4-Vol-3-Add-B_M-ftn15"/>
+                     <floruit notBefore="-0156" notAfter="-0156">156 BCE<ref type="note" corresp="#Vol-4-Vol-3-Add-B_M-ftn15"/>
                      </floruit>
                   </person>
                </listPerson>

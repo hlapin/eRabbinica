@@ -46,7 +46,7 @@
                         <note>Cyrene<ref type="note" corresp="#Vol-1-G_M-ftn262"/>
                         </note>
                      </state>
-                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn263"/>
+                     <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn263"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e12470-person" n="Vol-3-G_M-Greek-Males-Artemon-1">
@@ -70,7 +70,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>1stC CE</floruit>
+                     <floruit notBefore="0000" notAfter="0099">1stC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e12502-person" n="Vol-3-G_M-Greek-Males-Artemon-2">
                      <sex cert="high">M</sex>
@@ -93,7 +93,7 @@
                      <state type="provenance">
                         <note>Egypt</note>
                      </state>
-                     <floruit>1stC BCE-1stC CE</floruit>
+                     <floruit notBefore="-0099" notAfter="0099">1stC BCE-1stC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e12558-person" n="Vol-3-G_M-Greek-Males-Artemon-3">
                      <sex cert="high">M</sex>
@@ -116,7 +116,7 @@
                      <state type="provenance">
                         <note>Asia</note>
                      </state>
-                     <floruit>3rdC CE</floruit>
+                     <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e12593-person" n="Vol-3-G_M-Greek-Males-Artemon-4">
                      <sex cert="high">M</sex>
@@ -140,7 +140,7 @@
                         <note>Cyrenaica<ref type="note" corresp="#Vol-3-G_M-ftn742"/>
                         </note>
                      </state>
-                     <floruit>Pre-70 CE<ref type="note" corresp="#Vol-3-G_M-ftn743"/>
+                     <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-3-G_M-ftn743"/>
                      </floruit>
                   </person>
                   <person xml:id="Vol-3-G_M-d8e12634-person" n="Vol-3-G_M-Greek-Males-Artemon-5">
@@ -164,7 +164,7 @@
                      <state type="provenance">
                         <note>Greece</note>
                      </state>
-                     <floruit>75 CE<ref type="note" corresp="#Vol-3-G_M-ftn746"/>
+                     <floruit notBefore="0075" notAfter="0075">75 CE<ref type="note" corresp="#Vol-3-G_M-ftn746"/>
                      </floruit>
                   </person>
                </listPerson>
