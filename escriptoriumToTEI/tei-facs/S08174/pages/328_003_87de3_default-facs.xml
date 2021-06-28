@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174_3_87de3_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541994j/f4/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-06-28T14:47:31.607534+00:00</Created>
+            <LastChange>2021-06-28T14:47:31.607563+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4476" lry="6514">
+         <graphic url="3_87de3_default.jpg"/>
+         <zone xml:id="f_3_87de3_default-eSc_textblock_e41f8dc6"
+               type="region"
+               points="2806,3691 2806,3702 2766,3702 2766,3691"/>
+         <zone xml:id="f_3_87de3_default-eSc_textblock_0e59f934"
+               type="region"
+               points="1531,3488 1531,3499 1506,3499 1506,3488"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="f_3_87de3_default.jpg"/>
+            <cb xml:id="f_3_87de3_default.jpg-x-eq-1670"/>
+            <ab corresp="#f_3_87de3_default-eSc_textblock_e41f8dc6" type="Commentary"/>
+            <cb xml:id="f_3_87de3_default.jpg-x-eq-2945"/>
+            <ab corresp="#f_3_87de3_default-eSc_textblock_0e59f934" type="Main"/>
+            <milestone xml:id="f_3_87de3_default.jpg-Paratext" unit="Paratext"/>
+            <ab corresp="#f_3_87de3_default-eSc_textblock_595afcfa" type="Paratext"/>
+            <milestone xml:id="f_3_87de3_default.jpg-fw" unit="fw"/>
+         </div>
+      </body>
+   </text>
+</TEI>
