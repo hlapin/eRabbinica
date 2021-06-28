@@ -399,7 +399,7 @@
             </xsl:when>
             <xsl:when test="count(preceding-sibling::cell) = 5">
                 <!--E-->
-                <state type="addl-Descr">
+                <state type="addl-Descr" >
                     <note>
                         <!-- could be subspecified further -->
                         <xsl:apply-templates/>
