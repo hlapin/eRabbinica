@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 567_4d71f_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541994j/f568/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:34:25.988053+00:00</Created>
+            <LastChange>2021-08-15T01:34:25.988073+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4434" lry="6478">
+         <graphic url="567_4d71f_default.jpg"/>
+         <zone xml:id="r_567_4d71f_default-eSc_textblock_4c4e8b8b"
+               type="region"
+               points="2443,172 2458,212 2231,212 2245,172">
+            <zone xml:id="l_567_4d71f_default-eSc_line_1ab673f5"
+                  type="line"
+                  points="2138,194 2149,151 2214,151 2241,178 2397,178 2430,151 2451,151 2457,194 2451,259 2138,269"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_567_4d71f_default.jpg"/>
+            <cb xml:id="c_567_4d71f_default.jpg-A"/>
+            <ab corresp="#r_567_4d71f_default-eSc_textblock_4c4e8b8b" type="Paratext">
+               <l corresp="#l_567_4d71f_default-eSc_line_1ab673f5">מסכ' סנהדרי'</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

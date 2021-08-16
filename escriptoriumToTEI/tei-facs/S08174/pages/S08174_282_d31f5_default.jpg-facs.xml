@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 282_d31f5_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541996f/f283/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:39:20.987049+00:00</Created>
+            <LastChange>2021-08-15T01:39:20.987069+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4381" lry="6588">
+         <graphic url="282_d31f5_default.jpg"/>
+         <zone xml:id="r_282_d31f5_default-eSc_textblock_4eccb2cf"
+               type="region"
+               points="2003,219 2120,259 1846,274 1904,219">
+            <zone xml:id="l_282_d31f5_default-eSc_line_f6f4dd0e"
+                  type="line"
+                  points="1780,247 1780,214 2138,230 2143,263 2127,329 1769,318"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_282_d31f5_default.jpg"/>
+            <cb xml:id="c_282_d31f5_default.jpg-A"/>
+            <ab corresp="#r_282_d31f5_default-eSc_textblock_4eccb2cf" type="Paratext">
+               <l corresp="#l_282_d31f5_default-eSc_line_f6f4dd0e">סדר טהרות:</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 28_10cde_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541994j/f29/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:33:55.072743+00:00</Created>
+            <LastChange>2021-08-15T01:33:55.072764+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4377" lry="6457">
+         <graphic url="28_10cde_default.jpg"/>
+         <zone xml:id="r_28_10cde_default-eSc_textblock_c9745af2"
+               type="region"
+               points="1621,1061 1833,1061 1876,1115 1607,1158 1564,1076 1621,1061">
+            <zone xml:id="l_28_10cde_default-eSc_line_a05b3116"
+                  type="line"
+                  points="1566,1086 1566,1065 1771,1065 1873,1076 1878,1097 1862,1173 1566,1162"/>
+         </zone>
+         <zone xml:id="r_28_10cde_default-eSc_textblock_d0d65828"
+               type="region"
+               points="1750,4261 1890,4261 1919,4301 1722,4329 1621,4286 1750,4261">
+            <zone xml:id="l_28_10cde_default-eSc_line_4463474d"
+                  type="line"
+                  points="1593,4288 1593,4256 1884,4261 1938,4283 1932,4347 1878,4374 1765,4374 1712,4347 1658,4369 1593,4358"/>
+         </zone>
+         <zone xml:id="r_28_10cde_default-eSc_textblock_7046dbce"
+               type="region"
+               points="3071,688 3354,688 3383,771 3071,785 3071,688">
+            <zone xml:id="l_28_10cde_default-eSc_line_d9966ac7"
+                  type="line"
+                  points="3047,731 3047,688 3154,688 3381,710 3386,731 3381,801 3354,812 3332,796 3305,817 3127,817 3095,785 3047,785"/>
+         </zone>
+         <zone xml:id="r_28_10cde_default-eSc_textblock_5950b580"
+               type="region"
+               points="3071,3472 3411,3472 3426,3597 3157,3612 3114,3515 3228,3501 3071,3472">
+            <zone xml:id="l_28_10cde_default-eSc_line_472a8811"
+                  type="line"
+                  points="3111,3540 3171,3508 3381,3524 3402,3502 3440,3545 3434,3605 3386,3621 3111,3621"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_28_10cde_default.jpg"/>
+            <cb xml:id="c_28_10cde_default.jpg-A"/>
+            <ab corresp="#r_28_10cde_default-eSc_textblock_7046dbce" type="Main">
+               <l corresp="#l_28_10cde_default-eSc_line_d9966ac7">הפרק</l>
+            </ab>
+            <ab corresp="#r_28_10cde_default-eSc_textblock_5950b580" type="Main">
+               <l corresp="#l_28_10cde_default-eSc_line_472a8811">הפרן</l>
+            </ab>
+            <cb xml:id="c_28_10cde_default.jpg-B"/>
+            <ab corresp="#r_28_10cde_default-eSc_textblock_c9745af2" type="Main">
+               <l corresp="#l_28_10cde_default-eSc_line_a05b3116">וקק</l>
+            </ab>
+            <ab corresp="#r_28_10cde_default-eSc_textblock_d0d65828" type="Main">
+               <l corresp="#l_28_10cde_default-eSc_line_4463474d">הפרק</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

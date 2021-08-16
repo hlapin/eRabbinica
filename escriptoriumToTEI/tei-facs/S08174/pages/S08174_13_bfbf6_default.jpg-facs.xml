@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 13_bfbf6_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541996f/f14/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:39:08.237109+00:00</Created>
+            <LastChange>2021-08-15T01:39:08.237129+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4375" lry="6570">
+         <graphic url="13_bfbf6_default.jpg"/>
+         <zone xml:id="r_13_bfbf6_default-eSc_textblock_f87f5c33"
+               type="region"
+               points="2446,321 2446,346 2187,361 2304,292">
+            <zone xml:id="l_13_bfbf6_default-eSc_line_c85cfd8e"
+                  type="line"
+                  points="2157,328 2157,273 2502,279 2502,328 2496,432 2151,410"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_13_bfbf6_default.jpg"/>
+            <cb xml:id="c_13_bfbf6_default.jpg-A"/>
+            <ab corresp="#r_13_bfbf6_default-eSc_textblock_f87f5c33" type="Paratext">
+               <l corresp="#l_13_bfbf6_default-eSc_line_c85cfd8e">סדר קרשים</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

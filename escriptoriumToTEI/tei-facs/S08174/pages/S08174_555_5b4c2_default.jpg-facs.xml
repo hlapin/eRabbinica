@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 555_5b4c2_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541994j/f556/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:34:25.450696+00:00</Created>
+            <LastChange>2021-08-15T01:34:25.450718+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4398" lry="6478">
+         <graphic url="555_5b4c2_default.jpg"/>
+         <zone xml:id="r_555_5b4c2_default-eSc_textblock_920972ef"
+               type="region"
+               points="2062,180 2062,287 2506,287 2506,180">
+            <zone xml:id="l_555_5b4c2_default-eSc_line_2da9bc3c"
+                  type="line"
+                  points="2096,205 2096,113 2188,140 2350,113 2420,140 2420,426 2361,426 2258,485 2199,464 2096,485"/>
+         </zone>
+         <zone xml:id="r_555_5b4c2_default-eSc_textblock_85f7b9df"
+               type="region"
+               points="1015,4889 1015,5076 1950,5076 1950,4889">
+            <zone xml:id="l_555_5b4c2_default-eSc_line_84d3d8b2"
+                  type="line"
+                  points="1718,4928 1718,4890 1777,4880 1858,4901 1864,4934 1847,5042 1718,4998"/>
+            <zone xml:id="l_555_5b4c2_default-eSc_line_a2cfa586"
+                  type="line"
+                  points="988,4928 988,4896 1329,4901 1339,4934 1334,4993 1291,5009 1053,5009 988,4982"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_555_5b4c2_default.jpg"/>
+            <cb xml:id="c_555_5b4c2_default.jpg-A"/>
+            <ab corresp="#r_555_5b4c2_default-eSc_textblock_920972ef" type="Paratext">
+               <l corresp="#l_555_5b4c2_default-eSc_line_2da9bc3c">הנהרי</l>
+            </ab>
+            <ab corresp="#r_555_5b4c2_default-eSc_textblock_85f7b9df" type="Main">
+               <l corresp="#l_555_5b4c2_default-eSc_line_84d3d8b2">ה'</l>
+               <l corresp="#l_555_5b4c2_default-eSc_line_a2cfa586">המגדף</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

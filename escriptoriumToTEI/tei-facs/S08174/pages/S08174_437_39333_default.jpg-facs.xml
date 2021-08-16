@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 437_39333_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541996f/f438/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:39:28.113327+00:00</Created>
+            <LastChange>2021-08-15T01:39:28.113347+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4423" lry="6594">
+         <graphic url="437_39333_default.jpg"/>
+         <zone xml:id="r_437_39333_default-eSc_textblock_84d6df6d"
+               type="region"
+               points="1330,2649 1379,2703 1652,2769 1784,2798 1788,2872 2268,2901 2268,3132 982,3118 1040,2710 1260,2666">
+            <zone xml:id="l_437_39333_default-eSc_line_80ad0ea1"
+                  type="line"
+                  points="1012,2851 1001,2802 1793,2774 1804,2846 1798,2934 1012,2934"/>
+            <zone xml:id="l_437_39333_default-eSc_line_b2044a15"
+                  type="line"
+                  points="1023,2956 1012,2906 2283,2879 2294,2945 2288,3027 1947,3022 1925,3044 1914,3049 1914,3055 1914,3055 1908,3055 1908,3055 1908,3055 1903,3055 1903,3055 1897,3055 1897,3055 1897,3055 1892,3055 1892,3055 1892,3055 1870,3044 1826,3022 1694,3049 1688,3049 1688,3049 1688,3049 1683,3049 1683,3049 1677,3049 1677,3049 1589,3027 1562,3055 1562,3055 1556,3055 1556,3055 1556,3055 1556,3055 1551,3055 1551,3055 1551,3055 1545,3055 1545,3055 1545,3055 1540,3055 1419,3027 1380,3060 1369,3071 1369,3071 1364,3071 1364,3071 1364,3071 1358,3071 1358,3071 1358,3077 1023,3077"/>
+            <zone xml:id="l_437_39333_default-eSc_line_2e432f1a"
+                  type="line"
+                  points="1364,3055 1342,3016 1391,2983 1397,2983 1397,2983 1397,2983 1402,2983 1402,2983 1402,2983 1408,2983 1738,3011 1760,3011 1760,3011 1793,2983 1793,2978 1793,2978 1798,2978 1798,2978 1798,2978 1804,2978 1804,2978 1804,2978 1809,2978 1809,2978 1815,2978 1815,2978 1815,2978 1820,2978 1864,3005 2261,3005 2272,3044 2266,3165 1364,3181"/>
+         </zone>
+         <zone xml:id="r_437_39333_default-eSc_textblock_5ad6c3ff"
+               type="region"
+               points="3845,2258 3845,2455 3953,2455 3953,2258">
+            <zone xml:id="l_437_39333_default-eSc_line_dee68160"
+                  type="line"
+                  points="3900,2357 3905,2291 3944,2302 3938,2362 3905,2483 3867,2467"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_437_39333_default.jpg"/>
+            <cb xml:id="c_437_39333_default.jpg-A"/>
+            <ab corresp="#r_437_39333_default-eSc_textblock_5ad6c3ff" type="Paratext">
+               <l corresp="#l_437_39333_default-eSc_line_dee68160">י</l>
+            </ab>
+            <cb xml:id="c_437_39333_default.jpg-B"/>
+            <ab corresp="#r_437_39333_default-eSc_textblock_84d6df6d" type="Main">
+               <l corresp="#l_437_39333_default-eSc_line_80ad0ea1">הראשון שבחולין טמא</l>
+               <l corresp="#l_437_39333_default-eSc_line_b2044a15">ומטמא. השיני פסול ולא מטמא. ה</l>
+               <l corresp="#l_437_39333_default-eSc_line_2e432f1a">שלישי נאכל בנזיד הדמע:</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 223_aa938_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541996f/f224/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:39:18.376538+00:00</Created>
+            <LastChange>2021-08-15T01:39:18.376559+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4330" lry="6531">
+         <graphic url="223_aa938_default.jpg"/>
+         <zone xml:id="r_223_aa938_default-eSc_textblock_941d0a19"
+               type="region"
+               points="2184,4089 2014,4089 2028,4020 2145,4005">
+            <zone xml:id="l_223_aa938_default-eSc_line_504f11be"
+                  type="line"
+                  points="2020,4065 2009,4022 2243,4016 2254,4060 2254,4239 2020,4239"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_223_aa938_default.jpg"/>
+            <cb xml:id="c_223_aa938_default.jpg-A"/>
+            <ab corresp="#r_223_aa938_default-eSc_textblock_941d0a19" type="Main">
+               <l corresp="#l_223_aa938_default-eSc_line_504f11be">ודע</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

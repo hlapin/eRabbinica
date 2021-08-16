@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 564_dd4fc_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541994j/f565/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:34:25.864432+00:00</Created>
+            <LastChange>2021-08-15T01:34:25.864452+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4386" lry="6433">
+         <graphic url="564_dd4fc_default.jpg"/>
+         <zone xml:id="r_564_dd4fc_default-eSc_textblock_9122a8d1"
+               type="region"
+               points="1851,91 1851,217 2289,217 2289,91">
+            <zone xml:id="l_564_dd4fc_default-eSc_line_fd5b0da5"
+                  type="line"
+                  points="1871,134 2209,144 2203,203 1871,182"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_564_dd4fc_default.jpg"/>
+            <cb xml:id="c_564_dd4fc_default.jpg-A"/>
+            <ab corresp="#r_564_dd4fc_default-eSc_textblock_9122a8d1" type="Paratext">
+               <l corresp="#l_564_dd4fc_default-eSc_line_fd5b0da5">סדת ושופורת</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

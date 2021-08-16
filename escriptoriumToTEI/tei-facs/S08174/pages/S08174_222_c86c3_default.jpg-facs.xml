@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 222_c86c3_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541996f/f223/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:39:18.339475+00:00</Created>
+            <LastChange>2021-08-15T01:39:18.339496+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4381" lry="6615">
+         <graphic url="222_c86c3_default.jpg"/>
+         <zone xml:id="r_222_c86c3_default-eSc_textblock_385edd2d"
+               type="region"
+               points="2157,279 2172,334 1881,334 1867,264">
+            <zone xml:id="l_222_c86c3_default-eSc_line_b8945325"
+                  type="line"
+                  points="1837,303 1831,242 2151,248 2157,297 2151,424 1831,413"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_222_c86c3_default.jpg"/>
+            <cb xml:id="c_222_c86c3_default.jpg-A"/>
+            <ab corresp="#r_222_c86c3_default-eSc_textblock_385edd2d" type="Paratext">
+               <l corresp="#l_222_c86c3_default-eSc_line_b8945325">סרר טהרות</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

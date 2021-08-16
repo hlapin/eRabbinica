@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 342_18a48_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541994j/f343/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:34:13.757985+00:00</Created>
+            <LastChange>2021-08-15T01:34:13.758006+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4335" lry="6508">
+         <graphic url="342_18a48_default.jpg"/>
+         <zone xml:id="r_342_18a48_default-eSc_textblock_d71d5f9f"
+               type="region"
+               points="1789,157 1789,256 2125,256 2125,157">
+            <zone xml:id="l_342_18a48_default-eSc_line_0a7e61f9"
+                  type="line"
+                  points="1785,206 1785,184 2045,173 2045,439 1779,428"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_342_18a48_default.jpg"/>
+            <cb xml:id="c_342_18a48_default.jpg-A"/>
+            <ab corresp="#r_342_18a48_default-eSc_textblock_d71d5f9f" type="Paratext">
+               <l corresp="#l_342_18a48_default-eSc_line_0a7e61f9">המה</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

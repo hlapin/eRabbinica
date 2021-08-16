@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 26_e7959_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541994j/f27/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:33:54.984667+00:00</Created>
+            <LastChange>2021-08-15T01:33:54.984687+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4377" lry="6430">
+         <graphic url="26_e7959_default.jpg"/>
+         <zone xml:id="r_26_e7959_default-eSc_textblock_d7e19dfd"
+               type="region"
+               points="271,4643 482,4686 496,4768 228,4768 271,4643">
+            <zone xml:id="l_26_e7959_default-eSc_line_210e3e54"
+                  type="line"
+                  points="225,4693 327,4672 514,4693 488,4742 225,4742"/>
+            <zone xml:id="l_26_e7959_default-eSc_line_6590155c"
+                  type="line"
+                  points="214,4758 504,4742 525,4763 455,4795 230,4795 214,4774"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_26_e7959_default.jpg"/>
+            <cb xml:id="c_26_e7959_default.jpg-A"/>
+            <ab corresp="#r_26_e7959_default-eSc_textblock_d7e19dfd" type="Main">
+               <l corresp="#l_26_e7959_default-eSc_line_210e3e54">או שואת ה-</l>
+               <l corresp="#l_26_e7959_default-eSc_line_6590155c">משנה היא</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

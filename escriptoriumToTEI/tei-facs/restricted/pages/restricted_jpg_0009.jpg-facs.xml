@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of restricted jpg_0009.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T02:16:23.494232+00:00</Created>
+            <LastChange>2021-08-15T02:16:23.494257+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="3006" lry="4414">
+         <graphic url="jpg_0009.jpg"/>
+         <zone xml:id="r_jpg_0009-eSc_textblock_3995f2ba"
+               type="region"
+               points="684,3688 645,3754 471,3724 480,3668 618,3648">
+            <zone xml:id="l_jpg_0009-eSc_line_6b90b9ad"
+                  type="line"
+                  points="588,3696 588,3678 607,3685 640,3667 676,3700 665,3748 588,3740"/>
+            <zone xml:id="l_jpg_0009-eSc_line_01d1131f"
+                  type="line"
+                  points="470,3689 481,3659 540,3682 540,3700 518,3751 467,3733"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_jpg_0009.jpg"/>
+            <cb xml:id="c_jpg_0009.jpg-A"/>
+            <ab corresp="#r_jpg_0009-eSc_textblock_3995f2ba" type="Paratext">
+               <l corresp="#l_jpg_0009-eSc_line_6b90b9ad">א</l>
+               <l corresp="#l_jpg_0009-eSc_line_01d1131f">ג</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 341_2ae69_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541994j/f342/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:34:13.697976+00:00</Created>
+            <LastChange>2021-08-15T01:34:13.698007+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4308" lry="6448">
+         <graphic url="341_2ae69_default.jpg"/>
+         <zone xml:id="r_341_2ae69_default-eSc_textblock_799c8b9c"
+               type="region"
+               points="2515,171 2558,211 2247,197 2318,171">
+            <zone xml:id="l_341_2ae69_default-eSc_line_f54ce477"
+                  type="line"
+                  points="2221,193 2221,166 2237,188 2479,171 2543,198 2522,263 2398,241 2334,263 2221,231"/>
+         </zone>
+         <zone xml:id="r_341_2ae69_default-eSc_textblock_4e325123"
+               type="region"
+               points="2257,1013 2007,1042 2021,1003 2161,988">
+            <zone xml:id="l_341_2ae69_default-eSc_line_cf4c3c72"
+                  type="line"
+                  points="1930,1004 1930,977 1973,977 2275,983 2285,1010 2242,1090 2102,1090 2081,1069 2022,1090 1930,1047"/>
+         </zone>
+         <zone xml:id="r_341_2ae69_default-eSc_textblock_dc55c0fb"
+               type="region"
+               points="3748,1275 3777,1329 3594,1357 3551,1314 3666,1275">
+            <zone xml:id="l_341_2ae69_default-eSc_line_f2291f36"
+                  type="line"
+                  points="3479,1305 3479,1273 3775,1278 3780,1305 3775,1397 3614,1397 3560,1354 3479,1354"/>
+         </zone>
+         <zone xml:id="r_341_2ae69_default-eSc_textblock_641b1b29"
+               type="region"
+               points="3806,3897 3820,3951 3777,4008 3566,4008 3494,3926 3580,3897 3494,3893 3508,3840">
+            <zone xml:id="l_341_2ae69_default-eSc_line_757e69fa"
+                  type="line"
+                  points="3506,3933 3641,3890 3764,3895 3813,3927 3791,4024 3506,4003"/>
+         </zone>
+         <zone xml:id="r_341_2ae69_default-eSc_textblock_ff43907e"
+               type="region"
+               points="3806,4255 3806,4295 3734,4352 3566,4323 3566,4255 3652,4241">
+            <zone xml:id="l_341_2ae69_default-eSc_line_28c31563"
+                  type="line"
+                  points="3549,4277 3549,4244 3705,4244 3797,4250 3802,4282 3797,4347 3743,4363 3581,4368 3549,4341"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_341_2ae69_default.jpg"/>
+            <cb xml:id="c_341_2ae69_default.jpg-A"/>
+            <ab corresp="#r_341_2ae69_default-eSc_textblock_dc55c0fb" type="Main">
+               <l corresp="#l_341_2ae69_default-eSc_line_f2291f36">חמין</l>
+            </ab>
+            <ab corresp="#r_341_2ae69_default-eSc_textblock_641b1b29" type="Main">
+               <l corresp="#l_341_2ae69_default-eSc_line_757e69fa">המין</l>
+            </ab>
+            <ab corresp="#r_341_2ae69_default-eSc_textblock_ff43907e" type="Main">
+               <l corresp="#l_341_2ae69_default-eSc_line_28c31563">המין</l>
+            </ab>
+            <cb xml:id="c_341_2ae69_default.jpg-B"/>
+            <ab corresp="#r_341_2ae69_default-eSc_textblock_799c8b9c" type="Paratext">
+               <l corresp="#l_341_2ae69_default-eSc_line_f54ce477">דקרמת סר נש</l>
+            </ab>
+            <ab corresp="#r_341_2ae69_default-eSc_textblock_4e325123" type="Main">
+               <l corresp="#l_341_2ae69_default-eSc_line_cf4c3c72">ואחר</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 673_c47fe_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541994j/f674/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:34:31.677617+00:00</Created>
+            <LastChange>2021-08-15T01:34:31.677642+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4494" lry="6451">
+         <graphic url="673_c47fe_default.jpg"/>
+         <zone xml:id="r_673_c47fe_default-eSc_textblock_48380ddb"
+               type="region"
+               points="3059,2809 3131,2906 2951,2906 2923,2809">
+            <zone xml:id="l_673_c47fe_default-eSc_line_a290d9b9"
+                  type="line"
+                  points="3013,2892 3105,2876 3126,2897 3121,2983 3013,2956"/>
+         </zone>
+         <zone xml:id="r_673_c47fe_default-eSc_textblock_3b432f9c"
+               type="region"
+               points="1988,227 1988,356 2398,356 2398,227">
+            <zone xml:id="l_673_c47fe_default-eSc_line_1d804aa2"
+                  type="line"
+                  points="2034,290 2066,263 2373,274 2346,338 2034,333"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_673_c47fe_default.jpg"/>
+            <cb xml:id="c_673_c47fe_default.jpg-A"/>
+            <ab corresp="#r_673_c47fe_default-eSc_textblock_48380ddb" type="Main">
+               <l corresp="#l_673_c47fe_default-eSc_line_a290d9b9">י"א</l>
+            </ab>
+            <cb xml:id="c_673_c47fe_default.jpg-B"/>
+            <ab corresp="#r_673_c47fe_default-eSc_textblock_3b432f9c" type="Paratext">
+               <l corresp="#l_673_c47fe_default-eSc_line_1d804aa2">מסכת אבות</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

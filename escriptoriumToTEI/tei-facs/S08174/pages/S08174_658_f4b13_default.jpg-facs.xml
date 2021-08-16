@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 658_f4b13_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541994j/f659/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:34:30.973121+00:00</Created>
+            <LastChange>2021-08-15T01:34:30.973143+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4416" lry="6376">
+         <graphic url="658_f4b13_default.jpg"/>
+         <zone xml:id="r_658_f4b13_default-eSc_textblock_8c758a70"
+               type="region"
+               points="2317,226 2332,265 2013,265 2027,198">
+            <zone xml:id="l_658_f4b13_default-eSc_line_26c071ee"
+                  type="line"
+                  points="1992,233 1992,191 2104,223 2300,223 2316,249 2300,313 1992,286"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_658_f4b13_default.jpg"/>
+            <cb xml:id="c_658_f4b13_default.jpg-A"/>
+            <ab corresp="#r_658_f4b13_default-eSc_textblock_8c758a70" type="Paratext">
+               <l corresp="#l_658_f4b13_default-eSc_line_26c071ee">סדר ישועות</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

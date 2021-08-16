@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 648_1e7e0_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541994j/f649/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:34:30.446712+00:00</Created>
+            <LastChange>2021-08-15T01:34:30.446743+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4395" lry="6379">
+         <graphic url="648_1e7e0_default.jpg"/>
+         <zone xml:id="r_648_1e7e0_default-eSc_textblock_5d7ff3d0"
+               type="region"
+               points="1045,4323 1120,4408 1201,4408 1190,4351 1371,4366 1337,4382 1286,4405 1428,4422 1474,4479 1570,4479 1559,4436 1839,4479 1924,4550 1910,4773 1672,4844 1385,4745 708,4702 666,4436 723,4366 949,4323">
+            <zone xml:id="l_648_1e7e0_default-eSc_line_02ec992d"
+                  type="line"
+                  points="1000,4380 1000,4343 1101,4343 1133,4321 1133,4396 1085,4428 1000,4417"/>
+            <zone xml:id="l_648_1e7e0_default-eSc_line_d10aa114"
+                  type="line"
+                  points="675,4454 675,4422 792,4428 861,4401 883,4428 963,4406 989,4433 1058,4438 1340,4417 1378,4444 1425,4438 1431,4475 1399,4534 1181,4513 1138,4534 1032,4513 877,4529 675,4497"/>
+            <zone xml:id="l_648_1e7e0_default-eSc_line_a20b93b1"
+                  type="line"
+                  points="675,4550 702,4507 1096,4534 1165,4513 1234,4534 1468,4534 1511,4513 1590,4539 1867,4518 1920,4539 1926,4566 1920,4608 1878,4635 1825,4635 1798,4608 1713,4630 1686,4614 1665,4635 1612,4608 1585,4635 1511,4635 1457,4603 1356,4630 1271,4603 1229,4630 1117,4630 1074,4603 1042,4624 1016,4598 947,4624 904,4598 840,4624 803,4603 734,4624 675,4592"/>
+            <zone xml:id="l_648_1e7e0_default-eSc_line_dd764737"
+                  type="line"
+                  points="681,4646 702,4619 787,4635 872,4603 1096,4640 1218,4640 1266,4608 1303,4635 1394,4640 1473,4608 1511,4646 1574,4646 1606,4614 1654,4640 1686,4614 1803,4614 1835,4646 1910,4640 1920,4661 1915,4747 1878,4752 1096,4768 681,4747"/>
+            <zone xml:id="l_648_1e7e0_default-eSc_line_6feeaa97"
+                  type="line"
+                  points="1495,4773 1500,4752 1649,4747 1920,4768 1915,4832 1862,4858 1649,4858 1601,4832 1495,4853"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_648_1e7e0_default.jpg"/>
+            <cb xml:id="c_648_1e7e0_default.jpg-A"/>
+            <ab corresp="#r_648_1e7e0_default-eSc_textblock_5d7ff3d0" type="Main">
+               <l corresp="#l_648_1e7e0_default-eSc_line_02ec992d">וט</l>
+               <l corresp="#l_648_1e7e0_default-eSc_line_d10aa114">דשבג אומ' על שלשה</l>
+               <l corresp="#l_648_1e7e0_default-eSc_line_a20b93b1">דברים העולם עומד על הדין ועל האמת</l>
+               <l corresp="#l_648_1e7e0_default-eSc_line_dd764737">ועל השלום שנ' אמת ומשפט שלו שפטו</l>
+               <l corresp="#l_648_1e7e0_default-eSc_line_6feeaa97">בשעריכס:</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

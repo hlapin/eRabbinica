@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 562_e5ce5_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541994j/f563/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:34:25.788370+00:00</Created>
+            <LastChange>2021-08-15T01:34:25.788393+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4380" lry="6430">
+         <graphic url="562_e5ce5_default.jpg"/>
+         <zone xml:id="r_562_e5ce5_default-eSc_textblock_d6da3bc3"
+               type="region"
+               points="1830,72 1830,272 2161,272 2161,72">
+            <zone xml:id="l_562_e5ce5_default-eSc_line_0b6e0bd4"
+                  type="line"
+                  points="1854,171 1854,128 1929,117 2053,112 2074,133 2171,139 2176,246 1859,254"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_562_e5ce5_default.jpg"/>
+            <cb xml:id="c_562_e5ce5_default.jpg-A"/>
+            <ab corresp="#r_562_e5ce5_default-eSc_textblock_d6da3bc3" type="Paratext">
+               <l corresp="#l_562_e5ce5_default-eSc_line_0b6e0bd4">סדר ישוניות</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S990050310320205171 614_ab6c0_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://iiif.bodleian.ox.ac.uk/iiif/image/0665914a-7d87-473e-a47c-8df47e474e16/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-06-25T17:20:50.968354+00:00</Created>
+            <LastChange>2021-06-25T17:20:50.968384+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="3146" lry="4000">
+         <graphic url="614_ab6c0_default.jpg"/>
+         <zone xml:id="r_614_ab6c0_default-eSc_textblock_1762ec2c"
+               type="region"
+               points="2819,3751 3030,3768 3057,3828 2781,3855 578,3855 409,3811 1058,3760 2819,3751">
+            <zone xml:id="l_614_ab6c0_default-eSc_line_c83d5260"
+                  type="line"
+                  points="583,3813 713,3786 1154,3783 1221,3780 1257,3760 1544,3770 1648,3756 2642,3753 2662,3770 2725,3770 2769,3753 2795,3770 2959,3763 2972,3766 2975,3793 2972,3863 2935,3860 2922,3873 2769,3860 2638,3860 2605,3873 2578,3860 2412,3873 2251,3863 2235,3876 2198,3863 2091,3866 2075,3880 2041,3866 1981,3866 1964,3880 1804,3866 1678,3883 1571,3870 1554,3883 1381,3873 1361,3886 583,3886"/>
+            <zone xml:id="l_614_ab6c0_default-eSc_line_bc7ada4a"
+                  type="line"
+                  points="2668,3820 2665,3796 2792,3800 2795,3813 2792,3830 2672,3823"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_614_ab6c0_default.jpg"/>
+            <cb xml:id="c_614_ab6c0_default.jpg-body"/>
+            <ab corresp="#r_614_ab6c0_default-eSc_textblock_1762ec2c" type="Main">
+               <l corresp="#l_614_ab6c0_default-eSc_line_c83d5260"/>
+               <l corresp="#l_614_ab6c0_default-eSc_line_bc7ada4a">א</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

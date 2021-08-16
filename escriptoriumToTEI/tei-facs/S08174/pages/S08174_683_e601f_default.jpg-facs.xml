@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 683_e601f_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541994j/f684/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:34:32.225143+00:00</Created>
+            <LastChange>2021-08-15T01:34:32.225163+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4482" lry="6460">
+         <graphic url="683_e601f_default.jpg"/>
+         <zone xml:id="r_683_e601f_default-eSc_textblock_fd35baad"
+               type="region"
+               points="2452,258 2467,436 2169,450 2126,272 2197,229">
+            <zone xml:id="l_683_e601f_default-eSc_line_e21b428b"
+                  type="line"
+                  points="2095,301 2095,263 2192,236 2354,269 2434,258 2467,301 2461,328 2386,349 2138,349 2095,323"/>
+            <zone xml:id="l_683_e601f_default-eSc_line_a981969f"
+                  type="line"
+                  points="2214,371 2284,344 2343,371 2337,484 2214,473"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_683_e601f_default.jpg"/>
+            <cb xml:id="c_683_e601f_default.jpg-A"/>
+            <ab corresp="#r_683_e601f_default-eSc_textblock_fd35baad" type="Paratext">
+               <l corresp="#l_683_e601f_default-eSc_line_e21b428b">בשם השם</l>
+               <l corresp="#l_683_e601f_default-eSc_line_a981969f">אמן</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

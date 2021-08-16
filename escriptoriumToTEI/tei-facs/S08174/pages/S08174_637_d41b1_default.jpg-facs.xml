@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 637_d41b1_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541994j/f638/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:34:29.738111+00:00</Created>
+            <LastChange>2021-08-15T01:34:29.738133+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4443" lry="6475">
+         <graphic url="637_d41b1_default.jpg"/>
+         <zone xml:id="r_637_d41b1_default-eSc_textblock_e405257e"
+               type="region"
+               points="3493,1568 3522,1651 2806,1665 2762,1611 2820,1554">
+            <zone xml:id="l_637_d41b1_default-eSc_line_84aefd71"
+                  type="line"
+                  points="2737,1607 2818,1570 2861,1591 2899,1570 2942,1591 3082,1570 3174,1591 3368,1575 3514,1607 3509,1683 3428,1699 3249,1672 3185,1672 3158,1699 2818,1699 2737,1678"/>
+         </zone>
+         <zone xml:id="r_637_d41b1_default-eSc_textblock_2b33bbe8"
+               type="region"
+               points="2457,158 2500,226 2230,241 2172,226 2187,158">
+            <zone xml:id="l_637_d41b1_default-eSc_line_719b17ac"
+                  type="line"
+                  points="2154,194 2159,172 2224,161 2369,161 2488,172 2504,194 2494,264 2154,264"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_637_d41b1_default.jpg"/>
+            <cb xml:id="c_637_d41b1_default.jpg-A"/>
+            <ab corresp="#r_637_d41b1_default-eSc_textblock_e405257e" type="Main">
+               <l corresp="#l_637_d41b1_default-eSc_line_84aefd71">הפרק חחמישי</l>
+            </ab>
+            <cb xml:id="c_637_d41b1_default.jpg-B"/>
+            <ab corresp="#r_637_d41b1_default-eSc_textblock_2b33bbe8" type="Paratext">
+               <l corresp="#l_637_d41b1_default-eSc_line_719b17ac">מסכת אבות</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

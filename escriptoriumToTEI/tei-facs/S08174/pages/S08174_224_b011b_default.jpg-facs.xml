@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 224_b011b_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541996f/f225/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:39:18.415905+00:00</Created>
+            <LastChange>2021-08-15T01:39:18.415926+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4375" lry="6582">
+         <graphic url="224_b011b_default.jpg"/>
+         <zone xml:id="r_224_b011b_default-eSc_textblock_20fa5b6f"
+               type="region"
+               points="1854,1155 1869,1195 1682,1239 1565,1195 1580,1140">
+            <zone xml:id="l_224_b011b_default-eSc_line_42f3a7a6"
+                  type="line"
+                  points="1575,1184 1569,1129 1877,1135 1882,1179 1877,1294 1575,1360"/>
+         </zone>
+         <zone xml:id="r_224_b011b_default-eSc_textblock_a81f98eb"
+               type="region"
+               points="2161,263 2191,303 1829,303 1858,248 1975,234">
+            <zone xml:id="l_224_b011b_default-eSc_line_44caad02"
+                  type="line"
+                  points="1822,296 1816,252 2162,252 2173,290 2168,362 1816,356"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_224_b011b_default.jpg"/>
+            <cb xml:id="c_224_b011b_default.jpg-A"/>
+            <ab corresp="#r_224_b011b_default-eSc_textblock_a81f98eb" type="Paratext">
+               <l corresp="#l_224_b011b_default-eSc_line_44caad02">סדר טהרות</l>
+            </ab>
+            <cb xml:id="c_224_b011b_default.jpg-B"/>
+            <ab corresp="#r_224_b011b_default-eSc_textblock_20fa5b6f" type="Main">
+               <l corresp="#l_224_b011b_default-eSc_line_42f3a7a6">והדין</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

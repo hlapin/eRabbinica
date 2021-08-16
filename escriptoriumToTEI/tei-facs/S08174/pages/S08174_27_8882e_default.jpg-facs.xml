@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 27_8882e_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541994j/f28/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:33:55.025712+00:00</Created>
+            <LastChange>2021-08-15T01:33:55.025732+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4368" lry="6436">
+         <graphic url="27_8882e_default.jpg"/>
+         <zone xml:id="r_27_8882e_default-eSc_textblock_8a98ab05"
+               type="region"
+               points="1956,1516 2182,1516 2210,1555 2082,1626 1913,1612 1899,1530 1956,1516">
+            <zone xml:id="l_27_8882e_default-eSc_line_3d88e237"
+                  type="line"
+                  points="2065,1555 2065,1517 2114,1517 2184,1533 2200,1560 2194,1635 2065,1678"/>
+            <zone xml:id="l_27_8882e_default-eSc_line_332263dd"
+                  type="line"
+                  points="1910,1544 1926,1523 1942,1550 1910,1571"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_27_8882e_default.jpg"/>
+            <cb xml:id="c_27_8882e_default.jpg-A"/>
+            <ab corresp="#r_27_8882e_default-eSc_textblock_8a98ab05" type="Main">
+               <l corresp="#l_27_8882e_default-eSc_line_3d88e237">הגי'</l>
+               <l corresp="#l_27_8882e_default-eSc_line_332263dd">ק</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 343_05ffc_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541994j/f344/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:34:13.807653+00:00</Created>
+            <LastChange>2021-08-15T01:34:13.807684+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4317" lry="6442">
+         <graphic url="343_05ffc_default.jpg"/>
+         <zone xml:id="r_343_05ffc_default-eSc_textblock_67816202"
+               type="region"
+               points="3490,2233 3772,2247 3787,2272 3729,2329 3533,2315 3647,2276 3418,2258 3490,2233">
+            <zone xml:id="l_343_05ffc_default-eSc_line_df9d3181"
+                  type="line"
+                  points="3398,2265 3398,2238 3769,2238 3790,2260 3785,2335 3753,2351 3398,2345"/>
+         </zone>
+         <zone xml:id="r_343_05ffc_default-eSc_textblock_d73bac20"
+               type="region"
+               points="3633,4008 3772,4008 3744,4062 3801,4090 3647,4119 3590,4062 3661,4033 3633,4008">
+            <zone xml:id="l_343_05ffc_default-eSc_line_94db3746"
+                  type="line"
+                  points="3597,4074 3678,4047 3817,4047 3823,4074 3817,4149 3597,4165"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_343_05ffc_default.jpg"/>
+            <cb xml:id="c_343_05ffc_default.jpg-A"/>
+            <ab corresp="#r_343_05ffc_default-eSc_textblock_67816202" type="Main">
+               <l corresp="#l_343_05ffc_default-eSc_line_df9d3181">ובהניע</l>
+            </ab>
+            <ab corresp="#r_343_05ffc_default-eSc_textblock_d73bac20" type="Main">
+               <l corresp="#l_343_05ffc_default-eSc_line_94db3746">וזה</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

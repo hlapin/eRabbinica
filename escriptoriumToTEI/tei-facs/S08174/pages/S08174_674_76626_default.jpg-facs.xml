@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 674_76626_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541994j/f675/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:34:31.731491+00:00</Created>
+            <LastChange>2021-08-15T01:34:31.731522+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4404" lry="6391">
+         <graphic url="674_76626_default.jpg"/>
+         <zone xml:id="r_674_76626_default-eSc_textblock_b8e40552"
+               type="region"
+               points="3263,2343 3263,2396 3050,2439 2542,2396 2628,2329">
+            <zone xml:id="l_674_76626_default-eSc_line_053f1dd3"
+                  type="line"
+                  points="2575,2354 2591,2327 3209,2338 3263,2369 3241,2449 2943,2444 2921,2423 2820,2444 2772,2417 2575,2433"/>
+         </zone>
+         <zone xml:id="r_674_76626_default-eSc_textblock_9defe52d"
+               type="region"
+               points="1943,218 1943,349 2331,349 2331,218">
+            <zone xml:id="l_674_76626_default-eSc_line_5c224089"
+                  type="line"
+                  points="1978,266 1978,229 2106,255 2319,234 2329,271 2319,319 2239,335 1978,314"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_674_76626_default.jpg"/>
+            <cb xml:id="c_674_76626_default.jpg-A"/>
+            <ab corresp="#r_674_76626_default-eSc_textblock_b8e40552" type="Main">
+               <l corresp="#l_674_76626_default-eSc_line_053f1dd3">מסכת הוריוף</l>
+            </ab>
+            <cb xml:id="c_674_76626_default.jpg-B"/>
+            <ab corresp="#r_674_76626_default-eSc_textblock_9defe52d" type="Paratext">
+               <l corresp="#l_674_76626_default-eSc_line_5c224089">סדר ישועות</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

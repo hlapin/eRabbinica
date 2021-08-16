@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 217_e055f_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541996f/f218/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:39:18.132786+00:00</Created>
+            <LastChange>2021-08-15T01:39:18.132807+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4330" lry="6564">
+         <graphic url="217_e055f_default.jpg"/>
+         <zone xml:id="r_217_e055f_default-eSc_textblock_03564107"
+               type="region"
+               points="2506,233 2549,302 2261,317 2203,288 2247,218">
+            <zone xml:id="l_217_e055f_default-eSc_line_fd5a4785"
+                  type="line"
+                  points="2195,273 2195,224 2539,229 2539,278 2529,355 2184,361"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_217_e055f_default.jpg"/>
+            <cb xml:id="c_217_e055f_default.jpg-A"/>
+            <ab corresp="#r_217_e055f_default-eSc_textblock_03564107" type="Paratext">
+               <l corresp="#l_217_e055f_default-eSc_line_fd5a4785">מסכת קינים</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>

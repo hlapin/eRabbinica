@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automated Transcription of S08174 671_27cd8_default.jpg
+                        using Escriptorium</title>
+            <respStmt>
+               <resp>Placeholder</resp>
+               <name>Placeholder</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <Metadata xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   externalRef="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10541994j/f672/full/full/0/default.jpg">
+            <Creator>escriptorium</Creator>
+            <Created>2021-08-15T01:34:31.604531+00:00</Created>
+            <LastChange>2021-08-15T01:34:31.604552+00:00</LastChange>
+         </Metadata>
+      </xenoData>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4464" lry="6472">
+         <graphic url="671_27cd8_default.jpg"/>
+         <zone xml:id="r_671_27cd8_default-eSc_textblock_e4920009"
+               type="region"
+               points="2069,171 2069,318 2423,318 2423,171">
+            <zone xml:id="l_671_27cd8_default-eSc_line_b58cd6aa"
+                  type="line"
+                  points="2061,237 2105,188 2164,204 2234,172 2402,204 2407,226 2402,269 2337,302 2061,291"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb xml:id="p_671_27cd8_default.jpg"/>
+            <cb xml:id="c_671_27cd8_default.jpg-A"/>
+            <ab corresp="#r_671_27cd8_default-eSc_textblock_e4920009" type="Paratext">
+               <l corresp="#l_671_27cd8_default-eSc_line_b58cd6aa">מסכת אכות</l>
+            </ab>
+            <milestone unit="pageSection" type="notInMain"/>
+         </div>
+      </body>
+   </text>
+</TEI>
