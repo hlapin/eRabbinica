@@ -12,7 +12,7 @@
     <xsl:output encoding="UTF-8" method="text"></xsl:output>
     
     <xsl:param name="regiontype-to-extract" select="'Main'"/>
-    <xsl:param name="out-path" select="'file:///C:/Users/hlapin/Documents/GitHub/eRabbinica/escriptoriumToTEI/tei-facs/S08174/txt_for_alignment/'"/>
+    <xsl:param name="out-path" select="'file:///C:/Users/hlapin/Documents/GitHub/eRabbinica/escriptoriumToTEI/tei-facs/P1143297/txt_for_alignment/'"/>
     
     <xsl:param name="milestones" select="1"></xsl:param>
     <xsl:variable name="id" select="teiCorpus/@xml:id"/>
