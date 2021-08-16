@@ -11,8 +11,9 @@
     <xsl:preserve-space elements="ab l"/>-->
     <xsl:output encoding="UTF-8" method="text"></xsl:output>
     
-    <xsl:param name="regiontype-to-extract" select="'Main'">
-    </xsl:param>
+    <xsl:param name="regiontype-to-extract" select="'Main'"/>
+    <xsl:param name="out-path" select="'file:///C:/Users/hlapin/Documents/GitHub/eRabbinica/escriptoriumToTEI/tei-facs/S08174/txt_for_alignment/'"/>
+    
     <xsl:param name="milestones" select="1"></xsl:param>
     <xsl:variable name="id" select="teiCorpus/@xml:id"/>
     <xsl:variable name="data" as="element()+">
@@ -34,7 +35,8 @@
             <!--<xsl:message select="current-group()[1][self::comment()]"></xsl:message>-->
             <xsl:if test="current-group()[1][self::comment()]">
                 <xsl:message select="current-group()[1]/string()"></xsl:message>
-                <xsl:result-document href="{$id/string()}-{normalize-space(current-group()[1]/string())}.txt"
+                <xsl:result-document 
+                    href="{$out-path}{$id/string()}-{normalize-space(current-group()[1]/string())}.txt"
                      method="text" encoding="UTF-8">
                     <xsl:value-of select="current-group()[1]/string()"/>
                     <xsl:copy-of select="current-group()"></xsl:copy-of>

@@ -27,7 +27,7 @@
                 (: project name :)
                 'Naples ed. princ. of the Mishnah',
                 (:our internal ID number:)
-                'restricted',
+                'P1143297',
                 (: Institution :)
                 'NLI',
                 (: Place :)
