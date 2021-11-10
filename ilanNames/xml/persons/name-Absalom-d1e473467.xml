@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Absalom-אבשלום</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Absalom-d1e473467" n="Absalom-אבשלום">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_M-d8e1204-person"
+                    n="Vol-3-B_M-Biblical-Males-Absalom-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אבשלום</persName>
+               <persName type="lemma" xml:lang="en">Absalom</persName>
+               <persName>Α̓σοληνου<ref type="note" corresp="#Vol-3-B_M-ftn87"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e4731-person" type="relation" n="father-of">Aulus (2)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Apollonia, Van Buren</note>
+               </state>
+               <bibl>CJZC3</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-B_M-ftn88"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit>Pre-117 CE?</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_M-d8e1246-person"
+                    n="Vol-3-B_M-Biblical-Males-Absalom-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אבשלום</persName>
+               <persName type="lemma" xml:lang="en">Absalom</persName>
+               <persName>̓Αψαλαμοῦ<ref type="note" corresp="#Vol-3-B_M-ftn89"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Memphis</note>
+               </state>
+               <bibl>Miller,RA21 (1870) 115</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-B_M-ftn90"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0150" notAfter="-0100">150-100 BCE<ref type="note" corresp="#Vol-3-B_M-ftn91"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

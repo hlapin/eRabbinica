@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - HaGardian-הגרדיאן</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-HaGardian-d1e254973" n="HaGardian-הגרדיאן">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-Ha_Names-d2e161-person"
+                    n="Vol-1-Ha_Names-HaGardian-1">
+               <persName type="lemma">הגרדיאן</persName>
+               <persName type="lemma" xml:lang="en">HaGardian</persName>
+               <sex cert="high">Names</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Masada</note>
+               </state>
+               <bibl>Mas no. 420</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0073" notAfter="0073">Pre-73 CE<ref type="note" corresp="#Vol-1-Ha_Names-ftn9"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

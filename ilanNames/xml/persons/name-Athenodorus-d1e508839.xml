@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Athenodorus-̓Αθηνόδωρος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Athenodorus-d1e508839"
+                     n="Athenodorus-̓Αθηνόδωρος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e1665-person"
+                    n="Vol-3-G_M-Greek-Males-Athenodorus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αθηνόδωρος</persName>
+               <persName type="lemma" xml:lang="en">Athenodorus</persName>
+               <persName>̓Αθηνοδώ[ρου] /̓Αθνοδώρο[υ]<ref type="note" corresp="#Vol-3-G_M-ftn101"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e1486-person" type="relation" n="son-of">Athenion (3)’s son</ref>, <ref corresp="#Vol-3-G_M-d8e58256-person" type="relation" n="father-of">Neocles (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Manumission inscription, Gorgippia,<ref type="note" corresp="#Vol-3-G_M-ftn102"/>Blavatskaia</note>
+               </state>
+               <bibl>CIJ690a</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn103"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Bosphoran Kingdom</note>
+               </state>
+               <floruit notBefore="0068" notAfter="0068">68 CE<ref type="note" corresp="#Vol-3-G_M-ftn104"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

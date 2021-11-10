@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Menedemus-Μενέδημος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Menedemus-d1e536810" n="Menedemus-Μενέδημος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e55644-person"
+                    n="Vol-3-G_M-Greek-Males-Menedemus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Μενέδημος</persName>
+               <persName type="lemma" xml:lang="en">Menedemus</persName>
+               <persName>Με[νεδή]μου<ref type="note" corresp="#Vol-3-G_M-ftn3199"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_F-d8e15326-person" type="relation" n="father-of">Nea (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Saittai</note>
+               </state>
+               <bibl>Bakir-Barthel &amp; Müller,ZPE36 (1979) 182</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3200"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0108" notAfter="0109">108/9 CE<ref type="note" corresp="#Vol-3-G_M-ftn3201"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

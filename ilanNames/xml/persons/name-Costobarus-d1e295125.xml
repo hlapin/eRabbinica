@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Costobarus-Κοστοβαρος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Costobarus-d1e295125"
+                     n="Costobarus-Κοστοβαρος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-G_M-d2e1793-person"
+                    n="Vol-1-S-G_M-Costobarus-1">
+               <persName type="lemma">Κοστοβαρος</persName>
+               <persName type="lemma" xml:lang="en">Costobarus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_F-d2e3858-person" type="relation" n="husband-of">Salome (1)’s husband</ref>
+                     <ref type="note" corresp="#Vol-1-S-G_M-ftn100"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ1:486;AJ15:252 (Schalit,NB, 76)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="-0026" notAfter="-0026">26 BCE<ref type="note" corresp="#Vol-1-S-G_M-ftn101"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-G_M-d2e1821-person"
+                    n="Vol-1-S-G_M-Costobarus-2">
+               <persName type="lemma">Κοστοβαρος</persName>
+               <persName type="lemma" xml:lang="en">Costobarus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-L_M-d2e250-person" type="relation" n="relative-of">Agrippa (2)’s relative</ref>
+                     <ref type="note" corresp="#Vol-1-S-G_M-ftn102"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ2:418;AJ20:214 (Schalit,NB, 76)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0064" notAfter="0066">64-66 CE<ref type="note" corresp="#Vol-1-S-G_M-ftn103"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

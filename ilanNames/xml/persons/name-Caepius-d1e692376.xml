@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Caepius-Caepius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Caepius-d1e692376" n="Caepius-Caepius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-Vol-3-Add-L_M-d8e74-person"
+                    n="Vol-4-Vol-3-Add-L_M-Latin-Males-Caepius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Caepius</persName>
+               <persName type="lemma" xml:lang="en">Caepius</persName>
+               <persName>ⲅⲁⲓⲡⲓⲟⲥ<ref type="note" corresp="#Vol-4-Vol-3-Add-L_M-ftn7"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Martyrdom of Mercurius 12b-13a</bibl>
+               <state type="addl-Descr">
+                  <note>Christian convert<ref type="note" corresp="#Vol-4-Vol-3-Add-L_M-ftn8"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt<ref type="note" corresp="#Vol-4-Vol-3-Add-L_M-ftn9"/>
+                  </note>
+               </state>
+               <floruit notBefore="0214" notAfter="0214">Post-214 CE<ref type="note" corresp="#Vol-4-Vol-3-Add-L_M-ftn10"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

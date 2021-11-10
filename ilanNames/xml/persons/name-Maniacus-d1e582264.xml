@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Maniacus-Maniacus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Maniacus-d1e582264" n="Maniacus-Maniacus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e25716-person"
+                    n="Vol-3-L_M-Latin-Males-Maniacus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Maniacus</persName>
+               <persName type="lemma" xml:lang="en">Maniacus</persName>
+               <persName>Mannacius<ref type="note" corresp="#Vol-3-L_M-ftn1537"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_F-d8e19889-person" type="relation" n="brother-of">Chrysis (1)’s brother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vigna Randanini, Garrucci</note>
+               </state>
+               <bibl>CIJ222</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1538"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e25753-person"
+                    n="Vol-3-L_M-Latin-Males-Maniacus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Maniacus</persName>
+               <persName type="lemma" xml:lang="en">Maniacus</persName>
+               <persName>Μανίκιος<ref type="note" corresp="#Vol-3-L_M-ftn1539"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+               </state>
+               <bibl>IJO2, 14:B48</bibl>
+               <state type="addl-Descr">
+                  <note>God-fearer<ref type="note" corresp="#Vol-3-L_M-ftn1540"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

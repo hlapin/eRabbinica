@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Critola-Κριτόλα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Critola-d1e501176" n="Critola-Κριτόλα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e13664-person"
+                    n="Vol-3-G_F-Greek-Females-Critola-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Κριτόλα</persName>
+               <persName type="lemma" xml:lang="en">Critola</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e53768-person"
+                          type="relation"
+                          n="daughter-of">Lysias (1)’s daughter</ref>, aged 35<ref type="note" corresp="#Vol-3-G_F-ftn775"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira, Oliverio</note>
+               </state>
+               <bibl>CJZC46b</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn776"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0035" notAfter="0035">Pre-35 CE<ref type="note" corresp="#Vol-3-G_F-ftn777"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

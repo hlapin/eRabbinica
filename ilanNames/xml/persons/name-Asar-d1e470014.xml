@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Asar-اسر</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Asar-d1e470014" n="Asar-اسر">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-4-ADD-A_M-d8e140-person"
+                    n="Vol-2-Vol-4-ADD-A_M-Arabic-Males-Asar-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">اسر</persName>
+               <persName type="lemma" xml:lang="en">Asar</persName>
+               <persName>אסאר<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn10"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn11"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ryckmans,Museon66 (1953) 285, 297</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn12"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Arabia</note>
+               </state>
+               <floruit>522-5/30 CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn13"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

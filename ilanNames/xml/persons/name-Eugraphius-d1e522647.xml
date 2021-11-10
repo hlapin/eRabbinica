@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Eugraphius-Ε̓γράφιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Eugraphius-d1e522647"
+                     n="Eugraphius-Ε̓γράφιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e29374-person"
+                    n="Vol-3-G_M-Greek-Males-Eugraphius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ε̓γράφιος</persName>
+               <persName type="lemma" xml:lang="en">Eugraphius</persName>
+               <persName>Ε̓γραφίου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e74801-person" type="relation" n="father-of">Sophronius (2)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Villa Torlonia, Paribeni</note>
+               </state>
+               <bibl>CIJ55</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1722"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

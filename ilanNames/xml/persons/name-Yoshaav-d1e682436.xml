@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Yoshʿaṭav-יושעטב</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Yoshaav-d1e682436" n="Yoshʿaṭav-יושעטב">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e22998-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Yoshʿaṭav-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יושעטב</persName>
+               <persName type="lemma" xml:lang="en">Yoshʿaṭav</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-B_M-d8e31208-person" type="relation" n="father-of">Samuel (56)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Seal</note>
+               </state>
+               <bibl>Friedenberg,Sasanian Jewry, no, 40</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1593"/>; authentic?<ref type="note" corresp="#Vol-4-S-H_M-ftn1594"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1595"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

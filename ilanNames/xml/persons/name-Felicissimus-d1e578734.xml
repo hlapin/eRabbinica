@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Felicissimus-Felicissimus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Felicissimus-d1e578734"
+                     n="Felicissimus-Felicissimus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e15554-person"
+                    n="Vol-3-L_M-Latin-Males-Felicissimus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Felicissimus</persName>
+               <persName type="lemma" xml:lang="en">Felicissimus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Lucanie, Diehl</note>
+               </state>
+               <bibl>CIJ56*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn928"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn929"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

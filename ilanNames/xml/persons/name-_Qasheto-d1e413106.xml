@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Κασέτος Qasheto-Κασέτος Qasheto</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Qasheto-d1e413106"
+                     n="Κασέτος Qasheto-Κασέτος Qasheto">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_M-d8e1362-person"
+                    n="Vol-2-S-G_M-Semitic-Greek-Males-Κασέτος Qasheto-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Κασέτος Qasheto</persName>
+               <persName type="lemma" xml:lang="en">Κασέτος Qasheto</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-S-G_M-ftn87"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph,Zoar</note>
+               </state>
+               <bibl>IPT1a, no. 271</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-G_M-ftn88"/>
+                  </note>
+               </state>
+               <floruit>4th-6thC<ref type="note" corresp="#Vol-2-S-G_M-ftn89"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

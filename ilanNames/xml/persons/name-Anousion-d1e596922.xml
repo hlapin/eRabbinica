@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Anousion-Anousion</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Anousion-d1e596922" n="Anousion-Anousion">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-G_M-d8e513-person"
+                    n="Vol-3-S-G_M-Semitic-Greek-Males-Anousion-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Anousion</persName>
+               <persName type="lemma" xml:lang="en">Anousion</persName>
+               <persName>̓Ανουσίων</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e10215-person" type="relation" n="son-of">Meshulam (6)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Hermopolis, Zucker</note>
+               </state>
+               <bibl>JIGRE156:76</bibl>
+               <state type="addl-Descr">
+                  <note>Idumean<ref type="note" corresp="#Vol-3-S-G_M-ftn28"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0078" notAfter="-0078">78 BCE<ref type="note" corresp="#Vol-3-S-G_M-ftn29"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

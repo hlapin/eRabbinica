@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Lucianis-Lucianis</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Lucianis-d1e581399" n="Lucianis-Lucianis">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e23907-person"
+                    n="Vol-3-L_M-Latin-Males-Lucianis-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Lucianis</persName>
+               <persName type="lemma" xml:lang="en">Lucianis</persName>
+               <persName>Lucianidi</persName>
+               <state type="desc">
+                  <note>Maecia (1) <ref corresp="#Vol-3-L_F-d8e24877-person" type="relation" n="father-of">Lucia (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Müller</note>
+               </state>
+               <bibl>CIJ470</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1425"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e23944-person"
+                    n="Vol-3-L_M-Latin-Males-Lucianis-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Lucianis</persName>
+               <persName type="lemma" xml:lang="en">Lucianis</persName>
+               <persName>Λουκιανοῦ<ref type="note" corresp="#Vol-3-L_M-ftn1426"/>
+               </persName>
+               <state type="desc">
+                  <note>Aurelia (33) <ref corresp="#Vol-3-L_F-d8e1031-person" type="relation" n="father-of">Appia (3)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Hierapolis, Miranda</note>
+               </state>
+               <bibl>IJO2, 193</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1427"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

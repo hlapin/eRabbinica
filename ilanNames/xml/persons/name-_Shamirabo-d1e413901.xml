@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Σαμίραββος Shamirabo-Σαμίραββος Shamirabo</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Shamirabo-d1e413901"
+                     n="Σαμίραββος Shamirabo-Σαμίραββος Shamirabo">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_M-d8e2227-person"
+                    n="Vol-2-S-G_M-Semitic-Greek-Males-Σαμίραββος Shamirabo-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Σαμίραββος Shamirabo</persName>
+               <persName type="lemma" xml:lang="en">Σαμίραββος Shamirabo</persName>
+               <persName>Σαμιράββου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e43180-person" type="relation" n="father-of">Shalum (6)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1a, no. 15</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-G_M-ftn143"/>
+                  </note>
+               </state>
+               <floruit>356<ref type="note" corresp="#Vol-2-S-G_M-ftn144"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

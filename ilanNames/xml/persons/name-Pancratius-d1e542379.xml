@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Pancratius-Παγκράτιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Pancratius-d1e542379"
+                     n="Pancratius-Παγκράτιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e62273-person"
+                    n="Vol-3-G_M-Greek-Males-Pancratius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Παγκράτιος</persName>
+               <persName type="lemma" xml:lang="en">Pancratius</persName>
+               <persName>Πανκρατίου<ref type="note" corresp="#Vol-3-G_M-ftn3587"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_F-d8e10556-person" type="relation" n="husband-of">Thalassa (1)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Villa Torlonia, Paribeni</note>
+               </state>
+               <bibl>CIJ28</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3588"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

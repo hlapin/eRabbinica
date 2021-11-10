@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Purti-Purti</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Purti-d1e648890" n="Purti-Purti">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e11630-person"
+                    n="Vol-4-I_F-Iranian-Females-Purti-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Purti</persName>
+               <persName type="lemma" xml:lang="en">Purti</persName>
+               <persName>פורתי<ref type="note" corresp="#Vol-4-I_F-ftn951"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e27910-person"
+                          type="relation"
+                          n="mother-of">Mesharshiya (12)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl</note>
+               </state>
+               <bibl>CAMIBBM005A</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn952"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn953"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

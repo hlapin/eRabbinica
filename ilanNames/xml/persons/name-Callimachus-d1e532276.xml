@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Callimachus-Καλλίμαχος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Callimachus-d1e532276"
+                     n="Callimachus-Καλλίμαχος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e49639-person"
+                    n="Vol-3-G_M-Greek-Males-Callimachus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Καλλίμαχος</persName>
+               <persName type="lemma" xml:lang="en">Callimachus</persName>
+               <persName>Χαλιμάχῳ<ref type="note" corresp="#Vol-3-G_M-ftn2853"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_F-d8e1188-person" type="relation" n="husband-of">Ammia (3)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Acmonia, Ramsay</note>
+               </state>
+               <bibl>CIJ763</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2854"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0199">2ndC CE<ref type="note" corresp="#Vol-3-G_M-ftn2855"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

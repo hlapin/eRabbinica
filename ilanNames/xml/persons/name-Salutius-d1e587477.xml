@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Salutius-Salutius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Salutius-d1e587477" n="Salutius-Salutius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e36175-person"
+                    n="Vol-3-L_M-Latin-Males-Salutius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Salutius</persName>
+               <persName type="lemma" xml:lang="en">Salutius</persName>
+               <persName>Σαλουτίου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="father-of">Judah (26)’s father</ref>, scribe<ref type="note" corresp="#Vol-3-L_M-ftn2153"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vigna Randanini, Garrucci</note>
+               </state>
+               <bibl>CIJ122</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2154"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e36216-person"
+                    n="Vol-3-L_M-Latin-Males-Salutius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Salutius</persName>
+               <persName type="lemma" xml:lang="en">Salutius</persName>
+               <persName>Σαλουτίου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_F-d8e2398-person" type="relation" n="husband-of">Mariam (20)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Schneider Graziosi</note>
+               </state>
+               <bibl>CIJ374</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2155"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

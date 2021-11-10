@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Kenebon-כנבון</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Kenebon-d1e326744" n="Kenebon-כנבון">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e8228-person"
+                    n="Vol-1-S-H_M-Kenebon-1">
+               <persName type="lemma">כנבון</persName>
+               <persName type="lemma" xml:lang="en">Kenebon</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, “lot,” Masada</note>
+               </state>
+               <bibl>Mas no. 430</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn552"/>
+                  </note>
+               </state>
+               <floruit notBefore="0073" notAfter="0073">Pre-73 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn553"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

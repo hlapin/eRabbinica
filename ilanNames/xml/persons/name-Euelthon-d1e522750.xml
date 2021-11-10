@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Euelthon-Ε̓έλθων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Euelthon-d1e522750" n="Euelthon-Ε̓έλθων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e29555-person"
+                    n="Vol-3-G_M-Greek-Males-Euelthon-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ε̓έλθων</persName>
+               <persName type="lemma" xml:lang="en">Euelthon</persName>
+               <persName>Ε̓έλθοντος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e40163-person" type="relation" n="father-of">Theogenes (6)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Heracleides</note>
+               </state>
+               <bibl>P. Michigan Koenen 781</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1730"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0186" notAfter="-0005">186/5 BCE<ref type="note" corresp="#Vol-3-G_M-ftn1731"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

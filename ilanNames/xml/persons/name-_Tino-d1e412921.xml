@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Θίνος Tino-Θίνος Tino</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Tino-d1e412921" n="Θίνος Tino-Θίνος Tino">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_M-d8e1172-person"
+                    n="Vol-2-S-G_M-Semitic-Greek-Males-Θίνος Tino-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Θίνος Tino</persName>
+               <persName type="lemma" xml:lang="en">Θίνος Tino</persName>
+               <persName>Θινώ<ref type="note" corresp="#Vol-2-S-G_M-ftn75"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Beth She‘arim, catacomb 11</note>
+               </state>
+               <bibl>BS2:130</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-S-G_M-ftn76"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_M-d8e1204-person"
+                    n="Vol-2-S-G_M-Semitic-Greek-Males-Θίνος Tino-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Θίνος Tino</persName>
+               <persName type="lemma" xml:lang="en">Θίνος Tino</persName>
+               <persName>Θίνου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e33331-person" type="relation" n="father-of">Jethro (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Lod<ref type="note" corresp="#Vol-2-S-G_M-ftn77"/>
+                  </note>
+               </state>
+               <bibl>Schwabe,Tarbiz12 (1941) 230</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-G_M-ftn78"/>D: –<ref type="note" corresp="#Vol-2-S-G_M-ftn79"/>
+                  </note>
+               </state>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

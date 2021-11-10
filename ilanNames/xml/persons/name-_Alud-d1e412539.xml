@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ᾽Αλοῦδος Alud-᾽Αλοῦδος Alud</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Alud-d1e412539"
+                     n="᾽Αλοῦδος Alud-᾽Αλοῦδος Alud">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_M-d8e740-person"
+                    n="Vol-2-S-G_M-Semitic-Greek-Males-᾽Αλοῦδος Alud-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">᾽Αλοῦδος Alud</persName>
+               <persName type="lemma" xml:lang="en">᾽Αλοῦδος Alud</persName>
+               <persName>Αλου[δ]ος<ref type="note" corresp="#Vol-2-S-G_M-ftn52"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e13004-person" type="relation" n="son-of">Hananiah (52)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Kafr Nafâkh<ref type="note" corresp="#Vol-2-S-G_M-ftn53"/>
+                  </note>
+               </state>
+               <bibl>Gregg &amp; Urman, no. 107</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-G_M-ftn54"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-S-G_M-ftn55"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

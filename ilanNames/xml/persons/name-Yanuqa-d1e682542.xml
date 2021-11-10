@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Yanuqa-ינוקא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Yanuqa-d1e682542" n="Yanuqa-ינוקא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e23601-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Yanuqa-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ינוקא</persName>
+               <persName type="lemma" xml:lang="en">Yanuqa</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-S-H_M-ftn1629"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e10768-person"
+                          type="relation"
+                          n="father-of">Ameimar (2)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bḤul18b (Kosowsky,Babylonico, 887)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1630"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0499">5thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1631"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

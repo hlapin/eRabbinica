@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Qaquzta-קקוזתא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Qaquzta-d1e689168" n="Qaquzta-קקוזתא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e32258-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Qaquzta-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">קקוזתא</persName>
+               <persName type="lemma" xml:lang="en">Qaquzta</persName>
+               <persName>קקוזיתא<ref type="note" corresp="#Vol-4-S-H_M-ftn2246"/>
+               </persName>
+               <persName>/הקנותא<ref type="note" corresp="#Vol-4-S-H_M-ftn2247"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e13811-person"
+                          type="relation"
+                          n="father-of">Dimi (4)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bShab156a (Kosowsky,Babylonico, 359)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn2248"/>Nickname?<ref type="note" corresp="#Vol-4-S-H_M-ftn2249"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0499">4th-5thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2250"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

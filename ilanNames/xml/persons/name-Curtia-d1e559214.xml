@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Curtia-Curtia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Curtia-d1e559214" n="Curtia-Curtia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e6585-person"
+                    n="Vol-3-L_F-Latin-Females-Curtia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Curtia</persName>
+               <persName type="lemma" xml:lang="en">Curtia</persName>
+               <persName>Curtiae</persName>
+               <state type="desc">
+                  <note>Marcia (10) Euodia (4), Gaius (37) Vetulenus (1) <ref corresp="#Vol-3-G_M-d8e54947-person" type="relation" n="wife-of">Melissus (1)’s wife</ref>, aged 48<ref type="note" corresp="#Vol-3-L_F-ftn355"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Capri</note>
+               </state>
+               <bibl>Miranda,Capri, 350</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn356"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0199">1st-2ndC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

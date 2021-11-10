@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sibylle-Σίβυλλα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sibylle-d1e366130" n="Sibylle-Σίβυλλα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e4570-person"
+                    n="Vol-2-G_F-Greek-Females-Sibylle-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Σίβυλλα</persName>
+               <persName type="lemma" xml:lang="en">Sibylle</persName>
+               <persName>Σιβύλης<ref type="note" corresp="#Vol-2-G_F-ftn299"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_M-d8e2894-person" type="relation" n="daughter-of">Asclepiades (1)’s daughter</ref>, aged 9<ref type="note" corresp="#Vol-2-G_F-ftn300"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1a, no. 5</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn301"/>
+                  </note>
+               </state>
+               <floruit>334?<ref type="note" corresp="#Vol-2-G_F-ftn302"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

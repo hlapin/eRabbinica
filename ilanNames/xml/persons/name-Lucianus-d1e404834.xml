@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Lucianus-Lucianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Lucianus-d1e404834" n="Lucianus-Lucianus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e6729-person"
+                    n="Vol-2-L_M-Latin-Males-Lucianus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Lucianus</persName>
+               <persName type="lemma" xml:lang="en">Lucianus</persName>
+               <persName>Λουκιανός<ref type="note" corresp="#Vol-2-L_M-ftn512"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Jaffa, Clermont-Ganneau</note>
+               </state>
+               <bibl>CIJ936</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

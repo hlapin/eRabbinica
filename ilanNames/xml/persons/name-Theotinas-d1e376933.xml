@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Theotinas-Θεοτίνας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Theotinas-d1e376933" n="Theotinas-Θεοτίνας">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e9847-person"
+                    n="Vol-2-G_M-Greek-Males-Theotinas-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Θεοτίνας</persName>
+               <persName type="lemma" xml:lang="en">Theotinas</persName>
+               <persName>תאוטני<ref type="note" corresp="#Vol-2-G_M-ftn659"/>
+               </persName>
+               <persName>/תוטני<ref type="note" corresp="#Vol-2-G_M-ftn660"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-G_M-ftn661"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bShab71a<ref type="note" corresp="#Vol-2-G_M-ftn662"/>(Kosowsky,Babylonico, 1769)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname?<ref type="note" corresp="#Vol-2-G_M-ftn663"/>
+                  </note>
+               </state>
+               <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-G_M-ftn664"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Cunerius-Cunerius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Cunerius-d1e269477" n="Cunerius-Cunerius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e1724-person"
+                    n="Vol-1-L_M-Cunerius-1">
+               <persName type="lemma">Cunerius</persName>
+               <persName type="lemma" xml:lang="en">Cunerius</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Κυνωρός</persName>
+               <persName xml:lang="he">קנרוס<ref type="note" corresp="#Vol-1-L_M-ftn114"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Zif, Rahmani, 1972</note>
+               </state>
+               <bibl>CJO, no. 282</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-L_M-ftn115"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e1758-person"
+                    n="Vol-1-L_M-Cunerius-2">
+               <persName type="lemma">Cunerius</persName>
+               <persName type="lemma" xml:lang="en">Cunerius</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">קנרס<ref type="note" corresp="#Vol-1-L_M-ftn116"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Beit Gobrin</note>
+               </state>
+               <bibl>CJO, no. 465</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-L_M-ftn117"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

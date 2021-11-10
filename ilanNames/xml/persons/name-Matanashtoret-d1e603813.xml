@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Matanashtoret-מתנעשתרת</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Matanashtoret-d1e603813"
+                     n="Matanashtoret-מתנעשתרת">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-H_M-d8e4983-person"
+                    n="Vol-3-S-H_M-Semitic-Hebrew-Males-Matanashtoret-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מתנעשתרת</persName>
+               <persName type="lemma" xml:lang="en">Matanashtoret</persName>
+               <persName>–<ref type="note" corresp="#Vol-3-S-H_M-ftn313"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e12739-person" type="relation" n="son-of">Azariah (2)’s son</ref>, head of scribes<ref type="note" corresp="#Vol-3-S-H_M-ftn314"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Kition, Hadjisavvas</note>
+               </state>
+               <bibl>IJO3, Cyp7</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-S-H_M-ftn315"/>Early?<ref type="note" corresp="#Vol-3-S-H_M-ftn316"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyprus</note>
+               </state>
+               <floruit notBefore="-0399" notAfter="-0300">4thC BCE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

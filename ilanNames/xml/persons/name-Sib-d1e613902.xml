@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sibṭ-سبط</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sib-d1e613902" n="Sibṭ-سبط">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e6386-person"
+                    n="Vol-4-A_M-Arabic-Males-Sibṭ-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">سبط</persName>
+               <persName type="lemma" xml:lang="en">Sibṭ</persName>
+               <persName>السبط<ref type="note" corresp="#Vol-4-A_M-ftn519"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-B_M-d8e2469-person" type="relation" n="son-of">Elishaʿ (1)’s son</ref>, <ref corresp="#Vol-4-A_M-d8e1728-person" type="relation" n="father-of">Tawʾamān (1)’s father</ref>, priest<ref type="note" corresp="#Vol-4-A_M-ftn520"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Hishām,Leben Muhammed’s, 13</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-A_M-ftn521"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit>Pre-Islamic<ref type="note" corresp="#Vol-4-A_M-ftn522"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

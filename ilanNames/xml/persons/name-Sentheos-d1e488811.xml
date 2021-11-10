@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sentheos-Sentheos</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sentheos-d1e488811" n="Sentheos-Sentheos">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e8828-person"
+                    n="Vol-3-E_M-Egyptian-Males-Sentheos-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Sentheos</persName>
+               <persName type="lemma" xml:lang="en">Sentheos</persName>
+               <persName>Σενθέως</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_F-d8e8715-person" type="relation" n="father-of">Tamar (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Crocodilopolis</note>
+               </state>
+               <bibl>P. Bodl. 8</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn536"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0121" notAfter="-0121">121 BCE<ref type="note" corresp="#Vol-3-E_M-ftn537"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

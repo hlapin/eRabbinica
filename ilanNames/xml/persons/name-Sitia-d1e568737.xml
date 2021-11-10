@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sitia-Sitia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sitia-d1e568737" n="Sitia-Sitia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e32976-person"
+                    n="Vol-3-L_F-Latin-Females-Sitia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Sitia</persName>
+               <persName type="lemma" xml:lang="en">Sitia</persName>
+               <persName>Sittiae<ref type="note" corresp="#Vol-3-L_F-ftn1171"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_F-ftn1172"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Riba</note>
+               </state>
+               <bibl>CIJ36*</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn1173"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

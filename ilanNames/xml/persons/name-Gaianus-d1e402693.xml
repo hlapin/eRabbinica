@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Gaianus-Gaianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Gaianus-d1e402693" n="Gaianus-Gaianus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e3436-person"
+                    n="Vol-2-L_M-Latin-Males-Gaianus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Gaianus</persName>
+               <persName type="lemma" xml:lang="en">Gaianus</persName>
+               <persName>Γα[ϊ]α[ν]ου<ref type="note" corresp="#Vol-2-L_M-ftn271"/>
+               </persName>
+               <state type="desc">
+                  <note>Domnus (2), <ref corresp="#Vol-2-B_M-d8e42417-person" type="relation" n="father-of">Saul (8)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Kafr Nafâkh<ref type="note" corresp="#Vol-2-L_M-ftn272"/>
+                  </note>
+               </state>
+               <bibl>Gregg &amp; Urman, no. 108</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn273"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-L_M-ftn274"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e3482-person"
+                    n="Vol-2-L_M-Latin-Males-Gaianus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Gaianus</persName>
+               <persName type="lemma" xml:lang="en">Gaianus</persName>
+               <persName>Γαιάνου<ref type="note" corresp="#Vol-2-L_M-ftn275"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="brother-of">Zosimos (1)’s brother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Caesarea</note>
+               </state>
+               <bibl>Lehmann &amp; Holum,CMER5, no. 151</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn276"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-L_M-ftn277"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e16887-person"
+                    n="Vol-3-L_M-Latin-Males-Gaianus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Gaianus</persName>
+               <persName type="lemma" xml:lang="en">Gaianus</persName>
+               <persName>Γαϊανός</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn1012"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Villa Torlonia, Fasola</note>
+               </state>
+               <bibl>JIWE2, 502</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1013"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-L_M-d8e619-person"
+                    n="Vol-4-L_M-Latin-Males-Gaianus-1">
+               <sex cert="high">M</sex>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl,Nippur, Montgomery</note>
+               </state>
+               <bibl>Isbell, no. 12</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-L_M-ftn61"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-L_M-ftn62"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

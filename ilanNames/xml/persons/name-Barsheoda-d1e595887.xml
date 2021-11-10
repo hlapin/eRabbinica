@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Barsheoda-Barsheoda</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Barsheoda-d1e595887" n="Barsheoda-Barsheoda">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-G_F-d8e62-person"
+                    n="Vol-3-S-G_F-Semitic-Greek-Females-Barsheoda-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Barsheoda</persName>
+               <persName type="lemma" xml:lang="en">Barsheoda</persName>
+               <persName>Βαρשεοδα<ref type="note" corresp="#Vol-3-S-G_F-ftn5"/>
+               </persName>
+               <state type="desc">
+                  <note>Hermione (1), <ref corresp="#" type="relation" n="daughter-of">Pisina (1)’s daughter</ref>, aged 11 months<ref type="note" corresp="#Vol-3-S-G_F-ftn6"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Garrucci</note>
+               </state>
+               <bibl>CIJ108</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-S-G_F-ftn7"/>; second/family name</note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0499">3rd-5thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

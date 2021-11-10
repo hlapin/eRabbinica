@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Joash-יואש</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Joash-d1e630300" n="Joash-יואש">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_M-d8e10382-person"
+                    n="Vol-4-B_M-Biblical-Males-Joash-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יואש</persName>
+               <persName type="lemma" xml:lang="en">Joash</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-B_M-ftn865"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-B_M-d8e9966-person" type="relation" n="son-of">Judah (23)’s son</ref>, the judge<ref type="note" corresp="#Vol-4-B_M-ftn866"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Seal</note>
+               </state>
+               <bibl>Shaked, “Jewish Sasanian Sigillography,” no. 14</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-B_M-ftn867"/>; authentic?<ref type="note" corresp="#Vol-4-B_M-ftn868"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia?<ref type="note" corresp="#Vol-4-B_M-ftn869"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-4-B_M-ftn870"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

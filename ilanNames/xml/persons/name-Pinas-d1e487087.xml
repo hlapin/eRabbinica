@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Pinas-Pinas</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Pinas-d1e487087" n="Pinas-Pinas">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e7302-person"
+                    n="Vol-3-E_M-Egyptian-Males-Pinas-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Pinas</persName>
+               <persName type="lemma" xml:lang="en">Pinas</persName>
+               <persName>Πίνατος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e28160-person" type="relation" n="father-of">Shabtai (14)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Kenyon</note>
+               </state>
+               <bibl>CPJ42</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn443"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0152" notAfter="-0141">152-141 BCE<ref type="note" corresp="#Vol-3-E_M-ftn444"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

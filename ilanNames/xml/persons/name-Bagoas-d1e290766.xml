@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Bagoas-Bagoas</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Bagoas-d1e290766" n="Bagoas-Bagoas">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-P_M-d2e444-person"
+                    n="Vol-1-P_M-Bagoas-1">
+               <persName type="lemma">Bagoas</persName>
+               <persName type="lemma" xml:lang="en">Bagoas</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Βαγώας<ref type="note" corresp="#Vol-1-P_M-ftn30"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-P_M-ftn31"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>AJ17:44 (Schalit,NB, 23)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="-0006" notAfter="-0006">6 BCE<ref type="note" corresp="#Vol-1-P_M-ftn32"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

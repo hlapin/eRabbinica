@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hagne-̔Αγνή</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hagne-d1e360838" n="Hagne-̔Αγνή">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e16-person"
+                    n="Vol-2-G_F-Greek-Females-Hagne-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̔Αγνή</persName>
+               <persName type="lemma" xml:lang="en">Hagne</persName>
+               <persName>̔Αγνής</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-L_M-d8e8968-person" type="relation" n="wife-of">Publius (1)’s wife</ref>?<ref type="note" corresp="#Vol-2-G_F-ftn2"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Elijah’s Cave</note>
+               </state>
+               <bibl>Appendix, no. 25</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn3"/>
+                  </note>
+               </state>
+               <floruit>Pre-8thC<ref type="note" corresp="#Vol-2-G_F-ftn4"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

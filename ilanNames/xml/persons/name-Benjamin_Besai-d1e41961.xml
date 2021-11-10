@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Benjamin Besai-בנימיןבסי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Benjamin_Besai-d1e41961"
+                     n="Benjamin Besai-בנימיןבסי">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e7807-person"
+                    n="Vol-1-B_M-Benjamin_Besai-1">
+               <persName type="lemma">בנימיןבסי</persName>
+               <persName type="lemma" xml:lang="en">Benjamin Besai</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Βασέας<ref type="note" corresp="#Vol-1-B_M-ftn562"/>
+               </persName>
+               <persName xml:lang="he">בסא<ref type="note" corresp="#Vol-1-B_M-ftn563"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Arist47</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-1-B_M-ftn564"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE<ref type="note" corresp="#Vol-1-B_M-ftn565"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e7889-person"
+                    n="Vol-1-B_M-Benjamin_Besai-2">
+               <persName type="lemma">בנימיןבסי</persName>
+               <persName type="lemma" xml:lang="en">Benjamin Besai</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Βησᾶς<ref type="note" corresp="#Vol-1-B_M-ftn566"/>
+               </persName>
+               <state type="desc">
+                  <note>Guardian, <ref corresp="#Vol-1-B_M-d2e24072-person" type="relation" n="son-of">Joshua (79)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyri, Babatha archive</note>
+               </state>
+               <bibl>PYadin 20, 23, 24, 25</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0130" notAfter="0131">130-1 CE<ref type="note" corresp="#Vol-1-B_M-ftn567"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e7910-person"
+                    n="Vol-1-B_M-Benjamin_Besai-3">
+               <persName type="lemma">בנימיןבסי</persName>
+               <persName type="lemma" xml:lang="en">Benjamin Besai</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—<ref type="note" corresp="#Vol-1-B_M-ftn568"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Jar, Masada</note>
+               </state>
+               <bibl>Mas no. 506</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0073" notAfter="0073">Pre-73 CE<ref type="note" corresp="#Vol-1-B_M-ftn569"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

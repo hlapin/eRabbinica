@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Rāzī-Rāzī</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Rz-d1e292919" n="Rāzī-Rāzī">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-P_M-d2e2421-person"
+                    n="Vol-1-P_M-Rāzī-1">
+               <persName type="lemma">Rāzī</persName>
+               <persName type="lemma" xml:lang="en">Rāzī</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">̔Ραζείς<ref type="note" corresp="#Vol-1-P_M-ftn179"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>2 Macc 14:37 (H &amp; R Suppl. 127)<ref type="note" corresp="#Vol-1-P_M-ftn180"/>
+               </bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="-0162" notAfter="-0162">162 BCE<ref type="note" corresp="#Vol-1-P_M-ftn181"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

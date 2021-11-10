@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Petronia-Petronia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Petronia-d1e565082" n="Petronia-Petronia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e28496-person"
+                    n="Vol-3-L_F-Latin-Females-Petronia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Petronia</persName>
+               <persName type="lemma" xml:lang="en">Petronia</persName>
+               <persName>Πετρωνία<ref type="note" corresp="#Vol-3-L_F-ftn904"/>
+               </persName>
+               <persName>/Πετ[ρ]ωνία<ref type="note" corresp="#Vol-3-L_F-ftn905"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e19152-person" type="relation" n="wife-of">Honoratus (2)’s wife</ref>, <ref corresp="#Vol-3-L_M-d8e31523-person" type="relation" n="mother-of">Petronius (1)’s mother</ref>, aged 55<ref type="note" corresp="#Vol-3-L_F-ftn906"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaphs, Vigna Randanini, Garrucci</note>
+               </state>
+               <bibl>CIJ149, 150<ref type="note" corresp="#Vol-3-L_F-ftn907"/>
+               </bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn908"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e28568-person"
+                    n="Vol-3-L_F-Latin-Females-Petronia-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Petronia</persName>
+               <persName type="lemma" xml:lang="en">Petronia</persName>
+               <persName>Πετρωνία<ref type="note" corresp="#Vol-3-L_F-ftn909"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_F-ftn910"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Ptolemais, Pacho</note>
+               </state>
+               <bibl>CJZC31c</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn911"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="-0099" notAfter="0099">1stC BCE-1stC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

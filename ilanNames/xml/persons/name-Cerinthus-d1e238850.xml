@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Cerinthus-Κήρινθος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Cerinthus-d1e238850" n="Cerinthus-Κήρινθος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e11214-person"
+                    n="Vol-1-G_M-Cerinthus-1">
+               <persName type="lemma">Κήρινθος</persName>
+               <persName type="lemma" xml:lang="en">Cerinthus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Μήρινθος<ref type="note" corresp="#Vol-1-G_M-ftn797"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-G_M-ftn798"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Epiph.Pan.28</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE<ref type="note" corresp="#Vol-1-G_M-ftn799"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e50379-person"
+                    n="Vol-3-G_M-Greek-Males-Cerinthus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Κήρινθος</persName>
+               <persName type="lemma" xml:lang="en">Cerinthus</persName>
+               <persName>Μήρινθος<ref type="note" corresp="#Vol-3-G_M-ftn2896"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Epiphanius,PG41, 377</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2897"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

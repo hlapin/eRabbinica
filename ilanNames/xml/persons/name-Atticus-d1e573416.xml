@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Atticus-Atticus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Atticus-d1e573416" n="Atticus-Atticus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e4262-person"
+                    n="Vol-3-L_M-Latin-Males-Atticus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Atticus</persName>
+               <persName type="lemma" xml:lang="en">Atticus</persName>
+               <persName>̓Αττικοῦ</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn262"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Lapethos, Waddington</note>
+               </state>
+               <bibl>CIJ736</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn263"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyprus</note>
+               </state>
+               <floruit>3rdC CE͂</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e4304-person"
+                    n="Vol-3-L_M-Latin-Males-Atticus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Atticus</persName>
+               <persName type="lemma" xml:lang="en">Atticus</persName>
+               <persName>̓Αττικός</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vigna Randanini, Frey</note>
+               </state>
+               <bibl>CIJ6*</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn264"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

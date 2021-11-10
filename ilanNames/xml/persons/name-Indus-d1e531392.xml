@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Indus-̓Ινδός</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Indus-d1e531392" n="Indus-̓Ινδός">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e48338-person"
+                    n="Vol-3-G_M-Greek-Males-Indus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Ινδός</persName>
+               <persName type="lemma" xml:lang="en">Indus</persName>
+               <persName>̓Ινδῶς<ref type="note" corresp="#Vol-3-G_M-ftn2776"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-S-H_M-d8e741-person" type="relation" n="son-of">Abitai (9)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Thebes, Tait</note>
+               </state>
+               <bibl>CPJ74</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2777"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0160" notAfter="-0160">160 BCE<ref type="note" corresp="#Vol-3-G_M-ftn2778"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

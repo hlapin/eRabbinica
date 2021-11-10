@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Quarta-Quarta</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Quarta-d1e566810" n="Quarta-Quarta">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e30399-person"
+                    n="Vol-3-L_F-Latin-Females-Quarta-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Quarta</persName>
+               <persName type="lemma" xml:lang="en">Quarta</persName>
+               <persName>Quatra<ref type="note" corresp="#Vol-3-L_F-ftn1016"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e40206-person" type="relation" n="slave-of">Tullianus (2)’s slave</ref>
+                     <ref type="note" corresp="#Vol-3-L_F-ftn1017"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Venosa, Lifshitz</note>
+               </state>
+               <bibl>CIJ619e</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn1018"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0599">5th-6thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

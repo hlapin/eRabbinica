@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Eliconias-̓Ελικωνιάς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Eliconias-d1e519582"
+                     n="Eliconias-̓Ελικωνιάς">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e25431-person"
+                    n="Vol-3-G_M-Greek-Males-Eliconias-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Ελικωνιάς</persName>
+               <persName type="lemma" xml:lang="en">Eliconias</persName>
+               <persName>̓Ελικωνιάδος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_F-d8e19590-person" type="relation" n="heir-of">Chreste (1)’s heir</ref>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn1505"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Manumission inscription, Panticapeum,<ref type="note" corresp="#Vol-3-G_M-ftn1506"/>Montpéreux</note>
+               </state>
+               <bibl>CIJ683</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1507"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Bosphoran Kingdom</note>
+               </state>
+               <floruit notBefore="0080" notAfter="0080">80 CE<ref type="note" corresp="#Vol-3-G_M-ftn1508"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

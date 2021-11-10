@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Leucippus-Λεύκιππος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Leucippus-d1e535067" n="Leucippus-Λεύκιππος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e53061-person"
+                    n="Vol-3-G_M-Greek-Males-Leucippus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Λεύκιππος</persName>
+               <persName type="lemma" xml:lang="en">Leucippus</persName>
+               <persName>Λευκίππου</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira,</note>
+               </state>
+               <bibl>Reynolds,CJZC23k</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3049"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit>Pre-117 CE?</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

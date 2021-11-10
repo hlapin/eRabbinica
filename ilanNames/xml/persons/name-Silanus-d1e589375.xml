@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Silanus-Silanus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Silanus-d1e589375" n="Silanus-Silanus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e38285-person"
+                    n="Vol-3-L_M-Latin-Males-Silanus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Silanus</persName>
+               <persName type="lemma" xml:lang="en">Silanus</persName>
+               <persName>Silani<ref type="note" corresp="#Vol-3-L_M-ftn2291"/>
+               </persName>
+               <persName>/ סילנו<ref type="note" corresp="#Vol-3-L_M-ftn2292"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e34954-person" type="relation" n="father-of">Samuel (16)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Taranto, Ascoli</note>
+               </state>
+               <bibl>CIJ630</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2293"/>; late<ref type="note" corresp="#Vol-3-L_M-ftn2294"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0600" notAfter="0799">7th-8thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

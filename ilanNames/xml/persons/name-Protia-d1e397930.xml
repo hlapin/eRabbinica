@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Protia-Protia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Protia-d1e397930" n="Protia-Protia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_F-d8e2416-person"
+                    n="Vol-2-L_F-Latin-Female-Protia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Protia</persName>
+               <persName type="lemma" xml:lang="en">Protia</persName>
+               <persName>פרוטון<ref type="note" corresp="#Vol-2-L_F-ftn201"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-L_F-ftn202"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Hammat Gader, Sukenik</note>
+               </state>
+               <bibl>CIJ856</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-438?<ref type="note" corresp="#Vol-2-L_F-ftn203"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

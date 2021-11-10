@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Akos-הקוץ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Akos-d1e46356" n="Akos-הקוץ">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e9298-person"
+                    n="Vol-1-B_M-Akos-1">
+               <persName type="lemma">הקוץ</persName>
+               <persName type="lemma" xml:lang="en">Akos</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">̔Ακώς<ref type="note" corresp="#Vol-1-B_M-ftn663"/>
+               </persName>
+               <persName xml:lang="he">הקץ<ref type="note" corresp="#Vol-1-B_M-ftn664"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Parchment, Muraba‘at; Copper Scroll, Qumran</note>
+               </state>
+               <bibl>Mur 92; 3Q15 VII:9.</bibl>
+               <state type="addl-Descr">
+                  <note>Family<ref type="note" corresp="#Vol-1-B_M-ftn665"/>
+                  </note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-B_M-ftn666"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Rutilus-Rutilus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Rutilus-d1e587261" n="Rutilus-Rutilus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e35647-person"
+                    n="Vol-3-L_M-Latin-Males-Rutilus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Rutilus</persName>
+               <persName type="lemma" xml:lang="en">Rutilus</persName>
+               <persName>Ρουτ<ref type="note" corresp="#Vol-3-L_M-ftn2124"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn2125"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teos, Pottier &amp; Hauvette-Besnault</note>
+               </state>
+               <bibl>CIJ744</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2126"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

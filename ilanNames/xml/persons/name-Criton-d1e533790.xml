@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Criton-Κρίτων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Criton-d1e533790" n="Criton-Κρίτων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e51252-person"
+                    n="Vol-3-G_M-Greek-Males-Criton-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Κρίτων</persName>
+               <persName type="lemma" xml:lang="en">Criton</persName>
+               <persName>Κρίτωνι</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Heracleopolis</note>
+               </state>
+               <bibl>PC29 (2001) 19</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2957"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0141" notAfter="-0131">141-131 BCE<ref type="note" corresp="#Vol-3-G_M-ftn2958"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e51284-person"
+                    n="Vol-3-G_M-Greek-Males-Criton-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Κρίτων</persName>
+               <persName type="lemma" xml:lang="en">Criton</persName>
+               <persName>Κρίτωνος<ref type="note" corresp="#Vol-3-G_M-ftn2959"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e39284-person" type="relation" n="son-of">Simon (85)’s son</ref>, Peleia (1), Lysanias (2) and <ref corresp="#Vol-3-G_M-d8e53710-person" type="relation" n="father-of">Lysanias (9)’s father</ref>, aged 50<ref type="note" corresp="#Vol-3-G_M-ftn2960"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaphs, Teucheira, Oliverio</note>
+               </state>
+               <bibl>CJZC61a,b,c, Reynolds,CJZC22f</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2961"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit>Pre-117 CE?</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

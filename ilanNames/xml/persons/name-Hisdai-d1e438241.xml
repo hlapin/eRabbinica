@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ḥisdai-חסדי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hisdai-d1e438241" n="Ḥisdai-חסדי">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e14781-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ḥisdai-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חסדי</persName>
+               <persName type="lemma" xml:lang="en">Ḥisdai</persName>
+               <persName>חסידא<ref type="note" corresp="#Vol-2-S-H_M-ftn925"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yMSh5:5, 56d (Kosovsky,Yerushalmi, 284)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn926"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e14815-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ḥisdai-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חסדי</persName>
+               <persName type="lemma" xml:lang="en">Ḥisdai</persName>
+               <persName>חסידה<ref type="note" corresp="#Vol-2-S-H_M-ftn927"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-L_M-d8e2799-person" type="relation" n="son-of">Domitius (2)’s son</ref>, priest<ref type="note" corresp="#Vol-2-S-H_M-ftn928"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>MisgavIMSA5 (2006) no. 30</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>519<ref type="note" corresp="#Vol-2-S-H_M-ftn929"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

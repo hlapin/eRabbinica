@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Theodotion-Θεοδοτίων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Theodotion-d1e530062"
+                     n="Theodotion-Θεοδοτίων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e40709-person"
+                    n="Vol-3-G_M-Greek-Males-Theodotion-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Θεοδοτίων</persName>
+               <persName type="lemma" xml:lang="en">Theodotion</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn2326"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Eusebius,PG20, 452</bibl>
+               <state type="addl-Descr">
+                  <note>Proselyte?<ref type="note" corresp="#Vol-3-G_M-ftn2327"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0150" notAfter="0150">Pre-150 CE<ref type="note" corresp="#Vol-3-G_M-ftn2328"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

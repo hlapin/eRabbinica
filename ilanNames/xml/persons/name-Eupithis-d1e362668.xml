@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Eupithis-Ε̓πίθις</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Eupithis-d1e362668" n="Eupithis-Ε̓πίθις">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e1520-person"
+                    n="Vol-2-G_F-Greek-Females-Eupithis-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ε̓πίθις</persName>
+               <persName type="lemma" xml:lang="en">Eupithis</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue mosaic, Apamea/Syria, Mayence</note>
+               </state>
+               <bibl>1.CIJ809; 2.IJO3, Syr71</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>391<ref type="note" corresp="#Vol-2-G_F-ftn100"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

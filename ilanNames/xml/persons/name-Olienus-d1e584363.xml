@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Olienus-Olienus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Olienus-d1e584363" n="Olienus-Olienus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e30537-person"
+                    n="Vol-3-L_M-Latin-Males-Olienus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Olienus</persName>
+               <persName type="lemma" xml:lang="en">Olienus</persName>
+               <persName>اوليانه<ref type="note" corresp="#Vol-3-L_M-ftn1818"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn1819"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Abu’l Fath, 175</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-3-L_M-ftn1820"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0320" notAfter="0320">Post-320 CE<ref type="note" corresp="#Vol-3-L_M-ftn1821"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

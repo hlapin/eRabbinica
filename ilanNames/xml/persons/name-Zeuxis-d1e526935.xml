@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Zeuxis-Ζευξίς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Zeuxis-d1e526935" n="Zeuxis-Ζευξίς">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e35167-person"
+                    n="Vol-3-G_M-Greek-Males-Zeuxis-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ζευξίς</persName>
+               <persName type="lemma" xml:lang="en">Zeuxis</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e6037-person" type="relation" n="son-of">Amyntas (3)’s son</ref>, <ref corresp="#Vol-3-G_F-d8e18249-person" type="relation" n="father-of">Teleso (1)’s father</ref>, aged 40<ref type="note" corresp="#Vol-3-G_M-ftn2006"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaphs, Teucheira, Wright</note>
+               </state>
+               <bibl>CJZC63d, Reynolds,CJZC23e</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2007"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0117" notAfter="0117">Pre-117 CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

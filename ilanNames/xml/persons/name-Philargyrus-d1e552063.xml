@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Philargyrus-Φιλάργυρος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Philargyrus-d1e552063"
+                     n="Philargyrus-Φιλάργυρος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e77780-person"
+                    n="Vol-3-G_M-Greek-Males-Philargyrus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Φιλάργυρος</persName>
+               <persName type="lemma" xml:lang="en">Philargyrus</persName>
+               <persName>Φιλαργυρο[υ]<ref type="note" corresp="#Vol-3-G_M-ftn4521"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e7397-person" type="relation" n="father-of">Androsthenes (4)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira</note>
+               </state>
+               <bibl>Reynolds,CJZC17</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4522"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit>Pre-117 CE?</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

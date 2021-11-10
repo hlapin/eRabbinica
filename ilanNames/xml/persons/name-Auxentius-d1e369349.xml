@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Auxentius-Α̓ξέντιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Auxentius-d1e369349"
+                     n="Auxentius-Α̓ξέντιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e3005-person"
+                    n="Vol-2-G_M-Greek-Males-Auxentius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Α̓ξέντιος</persName>
+               <persName type="lemma" xml:lang="en">Auxentius</persName>
+               <persName>אוכסנטיס<ref type="note" corresp="#Vol-2-G_M-ftn202"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e49265-person" type="relation" n="father-of">Shemayah (2)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Beth Govrin,<ref type="note" corresp="#Vol-2-G_M-ftn203"/>CIJ1195</note>
+               </state>
+               <bibl>OSM71</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-G_M-ftn204"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e13745-person"
+                    n="Vol-3-G_M-Greek-Males-Auxentius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Α̓ξέντιος</persName>
+               <persName type="lemma" xml:lang="en">Auxentius</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Corycus, Keil &amp; Wilhelm</note>
+               </state>
+               <bibl>CIJ794</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn803"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0499">4th-5thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

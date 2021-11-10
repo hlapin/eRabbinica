@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Apolinarius-̓Απολινάριος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Apolinarius-d1e510900"
+                     n="Apolinarius-̓Απολινάριος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e8772-person"
+                    n="Vol-3-G_M-Greek-Males-Apolinarius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Απολινάριος</persName>
+               <persName type="lemma" xml:lang="en">Apolinarius</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Julius (5), <ref corresp="#Vol-3-B_F-d8e4488-person" type="relation" n="grandson-of">Shabtit (9)’s grandson</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyri, Karanis, Winter &amp; Youtie</note>
+               </state>
+               <bibl>CPJ486</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn513"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0107" notAfter="0107">107 CE<ref type="note" corresp="#Vol-3-G_M-ftn514"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e8805-person"
+                    n="Vol-3-G_M-Greek-Males-Apolinarius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Απολινάριος</persName>
+               <persName type="lemma" xml:lang="en">Apolinarius</persName>
+               <persName>̓Απολιν[αρί]ου<ref type="note" corresp="#Vol-3-G_M-ftn515"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-S-H_M-d8e2940-person" type="relation" n="father-of">Habub (3)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Villa Torlonia, Fasola</note>
+               </state>
+               <bibl>JIWE2, 415</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn516"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e8850-person"
+                    n="Vol-3-G_M-Greek-Males-Apolinarius-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Απολινάριος</persName>
+               <persName type="lemma" xml:lang="en">Apolinarius</persName>
+               <persName>Απολιναριου</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn517"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Coin, Phrygia</note>
+               </state>
+               <bibl>SNG Deutschland9, 3512</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn518"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0251" notAfter="0253">251-3 CE<ref type="note" corresp="#Vol-3-G_M-ftn519"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

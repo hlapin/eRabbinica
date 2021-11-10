@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Pasiphilus-Πασίφιλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Pasiphilus-d1e383864"
+                     n="Pasiphilus-Πασίφιλος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e15355-person"
+                    n="Vol-2-G_M-Greek-Males-Pasiphilus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πασίφιλος</persName>
+               <persName type="lemma" xml:lang="en">Pasiphilus</persName>
+               <persName>Πασ&lt;ί&gt;φιλος<ref type="note" corresp="#Vol-2-G_M-ftn1006"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Elijah’s Cave</note>
+               </state>
+               <bibl>Appendix, no. 19</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn1007"/>
+                  </note>
+               </state>
+               <floruit>Pre-8thC<ref type="note" corresp="#Vol-2-G_M-ftn1008"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

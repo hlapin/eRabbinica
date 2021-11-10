@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Menocritus-Μηνόκριτος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Menocritus-d1e537477"
+                     n="Menocritus-Μηνόκριτος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e56516-person"
+                    n="Vol-3-G_M-Greek-Males-Menocritus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Μηνόκριτος</persName>
+               <persName type="lemma" xml:lang="en">Menocritus</persName>
+               <persName>Μηνοκρίτου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e5756-person" type="relation" n="father-of">Aurelius (24)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Blaundos, Ramsay</note>
+               </state>
+               <bibl>CIJ760</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3248"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0248" notAfter="0249">248/9 CE<ref type="note" corresp="#Vol-3-G_M-ftn3249"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

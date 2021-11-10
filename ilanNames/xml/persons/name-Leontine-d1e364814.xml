@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Leontine-Λεοντίνη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Leontine-d1e364814" n="Leontine-Λεοντίνη">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e3443-person"
+                    n="Vol-2-G_F-Greek-Females-Leontine-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Λεοντίνη</persName>
+               <persName type="lemma" xml:lang="en">Leontine</persName>
+               <persName>Λεοντίνα<ref type="note" corresp="#Vol-2-G_F-ftn230"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e45589-person"
+                          type="relation"
+                          n="daughter-of">Samuel (59)’s daughter</ref>, <ref corresp="#" type="relation" n="wife-of">Thaumasius (3)’s wife</ref>, of Antioch, aged 70<ref type="note" corresp="#Vol-2-G_F-ftn231"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Tiberias</note>
+               </state>
+               <bibl>Schwabe,Yohanan Levi, no. 7</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn232"/>
+                  </note>
+               </state>
+               <floruit>3rdC</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

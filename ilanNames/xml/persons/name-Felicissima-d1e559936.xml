@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Felicissima-Felicissima</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Felicissima-d1e559936"
+                     n="Felicissima-Felicissima">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e7933-person"
+                    n="Vol-3-L_F-Latin-Females-Felicissima-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Felicissima</persName>
+               <persName type="lemma" xml:lang="en">Felicissima</persName>
+               <persName>Φηλικίσσιμα<ref type="note" corresp="#Vol-3-L_F-ftn436"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Schneider Graziosi</note>
+               </state>
+               <bibl>CIJ339</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn437"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e7974-person"
+                    n="Vol-3-L_F-Latin-Females-Felicissima-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Felicissima</persName>
+               <persName type="lemma" xml:lang="en">Felicissima</persName>
+               <persName>Φιλικείσιμα<ref type="note" corresp="#Vol-3-L_F-ftn438"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Schneider Graziosi</note>
+               </state>
+               <bibl>CIJ415</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn439"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

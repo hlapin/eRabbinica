@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Saturninus-Saturninus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Saturninus-d1e587940"
+                     n="Saturninus-Saturninus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e36597-person"
+                    n="Vol-3-L_M-Latin-Males-Saturninus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Saturninus</persName>
+               <persName type="lemma" xml:lang="en">Saturninus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn2180"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Henchir Djouana</note>
+               </state>
+               <bibl>Le Bohec,Ant. Afr.17 (1981) no. 11</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2181"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>North Africa</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0199">2ndC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e36635-person"
+                    n="Vol-3-L_M-Latin-Males-Saturninus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Saturninus</persName>
+               <persName type="lemma" xml:lang="en">Saturninus</persName>
+               <persName>Σατορνείνου<ref type="note" corresp="#Vol-3-L_M-ftn2182"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e61832-person" type="relation" n="father-of">Onesimus (5)’s father</ref>, <ref corresp="#Vol-3-B_F-d8e3565-person" type="relation" n="husband-of">Mariam (48)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Sibrihiser<ref type="note" corresp="#Vol-3-L_M-ftn2183"/>
+                  </note>
+               </state>
+               <bibl>Demangel &amp; Laumonier,BCH46 (1922) 337</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2184"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn2185"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

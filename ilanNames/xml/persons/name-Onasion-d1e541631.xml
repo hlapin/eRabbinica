@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Onasion-̓Ονασίων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Onasion-d1e541631" n="Onasion-̓Ονασίων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e61573-person"
+                    n="Vol-3-G_M-Greek-Males-Onasion-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Ονασίων</persName>
+               <persName type="lemma" xml:lang="en">Onasion</persName>
+               <persName>̓Ονασίωνος</persName>
+               <state type="desc">
+                  <note>Marcus (33) Laelius (1), <ref corresp="#Vol-3-G_M-d8e9863-person" type="relation" n="son-of">Apollonius (17)’s son</ref>, archon<ref type="note" corresp="#Vol-3-G_M-ftn3545"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Politeuma inscription, Berenice, Roux</note>
+               </state>
+               <bibl>CJZC71</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3546"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0024" notAfter="0005">24/5 CE<ref type="note" corresp="#Vol-3-G_M-ftn3547"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

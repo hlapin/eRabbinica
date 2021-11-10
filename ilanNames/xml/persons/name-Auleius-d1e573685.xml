@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Auleius-Auleius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Auleius-d1e573685" n="Auleius-Auleius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e4582-person"
+                    n="Vol-3-L_M-Latin-Males-Auleius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Auleius</persName>
+               <persName type="lemma" xml:lang="en">Auleius</persName>
+               <persName>Α̓λαίου<ref type="note" corresp="#Vol-3-L_M-ftn279"/>
+               </persName>
+               <state type="desc">
+                  <note>Bukhri (2) and <ref corresp="#Vol-3-B_M-d8e29042-person" type="relation" n="father-of">Shabtai (36)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostraca, Edfu, Manteuffel, Wessely</note>
+               </state>
+               <bibl>CPJ295, 405</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn280"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0094" notAfter="0110">94-110 CE<ref type="note" corresp="#Vol-3-L_M-ftn281"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e4624-person"
+                    n="Vol-3-L_M-Latin-Males-Auleius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Auleius</persName>
+               <persName type="lemma" xml:lang="en">Auleius</persName>
+               <persName>Α̓λαίου<ref type="note" corresp="#Vol-3-L_M-ftn282"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn283"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu</note>
+               </state>
+               <bibl>Worp,ZPE65 (1986) 194</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn284"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0084" notAfter="0084">84 CE<ref type="note" corresp="#Vol-3-L_M-ftn285"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

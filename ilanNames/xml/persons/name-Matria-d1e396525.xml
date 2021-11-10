@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Matria-Matria</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Matria-d1e396525" n="Matria-Matria">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_F-d8e1782-person"
+                    n="Vol-2-L_F-Latin-Female-Matria-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Matria</persName>
+               <persName type="lemma" xml:lang="en">Matria</persName>
+               <persName>Ματρυς<ref type="note" corresp="#Vol-2-L_F-ftn153"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, seat, Nablus</note>
+               </state>
+               <bibl>FitzGerald,PEFQS61 (1929) 106</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan?<ref type="note" corresp="#Vol-2-L_F-ftn154"/>
+                  </note>
+               </state>
+               <floruit>
+                  <ref type="note" corresp="#Vol-2-L_F-ftn155"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Agathonicus-̓Αγάθονίκος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Agathonicus-d1e507690"
+                     n="Agathonicus-̓Αγάθονίκος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e525-person"
+                    n="Vol-3-G_M-Greek-Males-Agathonicus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αγάθονίκος</persName>
+               <persName type="lemma" xml:lang="en">Agathonicus</persName>
+               <persName>̓Αγαθονίκ<ref type="note" corresp="#Vol-3-G_M-ftn34"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Fayum, Kenyon &amp; Bell</note>
+               </state>
+               <bibl>CPJ430</bibl>
+               <state type="addl-Descr">
+                  <note>-<ref type="note" corresp="#Vol-3-G_M-ftn35"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0105" notAfter="0105">105 CE<ref type="note" corresp="#Vol-3-G_M-ftn36"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

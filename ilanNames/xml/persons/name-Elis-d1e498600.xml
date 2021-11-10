@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Elis-̓̃Ηλις</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Elis-d1e498600" n="Elis-̓̃Ηλις">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e10274-person"
+                    n="Vol-3-G_F-Greek-Females-Elis-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓̃Ηλις</persName>
+               <persName type="lemma" xml:lang="en">Elis</persName>
+               <persName>̓́Ηλιδος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e60872-person"
+                          type="relation"
+                          n="daughter-of">Nymphagoras (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Manumission inscription, Gorgipia<ref type="note" corresp="#Vol-3-G_F-ftn567"/>Stephani</note>
+               </state>
+               <bibl>CIJ78*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn568"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Bosphoran Kingdom</note>
+               </state>
+               <floruit notBefore="0093" notAfter="0123">93-123 CE<ref type="note" corresp="#Vol-3-G_F-ftn569"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Masrūq-מסרוק</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Masrq-d1e684333" n="Masrūq-מסרוק">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e25750-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Masrūq-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מסרוק</persName>
+               <persName type="lemma" xml:lang="en">Masrūq</persName>
+               <persName>ܡܣܪܘܩ<ref type="note" corresp="#Vol-4-S-H_M-ftn1777"/>
+               </persName>
+               <persName>/مسروق<ref type="note" corresp="#Vol-4-S-H_M-ftn1778"/>
+               </persName>
+               <state type="desc">
+                  <note>Joseph (36) Dhū Nuwās (1), Tibān (1) <ref corresp="#Vol-4-A_M-d8e687-person" type="relation" n="son-of">Asʿad (1)’s son</ref>?<ref type="note" corresp="#Vol-4-S-H_M-ftn1779"/>
+                     <ref type="note" corresp="#Vol-4-S-H_M-ftn1780"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>1. Moberg,Himyarites, 9a; 2.POv/2, 331</bibl>
+               <state type="addl-Descr">
+                  <note>Proselyte<ref type="note" corresp="#Vol-4-S-H_M-ftn1781"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.<ref type="note" corresp="#Vol-4-S-H_M-ftn1782"/>
+                  </note>
+               </state>
+               <floruit notBefore="0525" notAfter="0525">525 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1783"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

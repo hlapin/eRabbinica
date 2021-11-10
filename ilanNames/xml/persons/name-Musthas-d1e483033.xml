@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Musthas-Musthas</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Musthas-d1e483033" n="Musthas-Musthas">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e3687-person"
+                    n="Vol-3-E_M-Egyptian-Males-Musthas-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Musthas</persName>
+               <persName type="lemma" xml:lang="en">Musthas</persName>
+               <persName>Μύσθας</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e20194-person" type="relation" n="son-of">Dius (1)’s son</ref>, <ref corresp="#Vol-3-B_M-d8e29423-person" type="relation" n="brother-of">Shabtai (46)’s brother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Philadelphia, Westerman &amp; Kraemer</note>
+               </state>
+               <bibl>CPJ481a</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn222"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e3719-person"
+                    n="Vol-3-E_M-Egyptian-Males-Musthas-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Musthas</persName>
+               <persName type="lemma" xml:lang="en">Musthas</persName>
+               <persName>Μύσθης<ref type="note" corresp="#Vol-3-E_M-ftn223"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e39411-person" type="relation" n="son-of">Tiberius (2)’s son</ref>, <ref corresp="#Vol-3-B_M-d8e29854-person"
+                          type="relation"
+                          n="grandson-of">Shabtai (58)’s grandson</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Karanis, Pearl &amp; Youtie</note>
+               </state>
+               <bibl>CPJ492(8)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn224"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0171" notAfter="0174">171-4 CE<ref type="note" corresp="#Vol-3-E_M-ftn225"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

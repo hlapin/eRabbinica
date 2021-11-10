@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Bacchius-Βάκχιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Bacchius-d1e514728" n="Bacchius-Βάκχιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e14378-person"
+                    n="Vol-3-G_M-Greek-Males-Bacchius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Βάκχιος</persName>
+               <persName type="lemma" xml:lang="en">Bacchius</persName>
+               <persName>בכיס<ref type="note" corresp="#Vol-3-G_M-ftn841"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Luxor, Cowley</note>
+               </state>
+               <bibl>TADAE3:3:28</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn842"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-Vol-3-Add-G_M-d8e150-person"
+                    n="Vol-4-Vol-3-Add-G_M-Greek-Males-Bacchius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Βάκχιος</persName>
+               <persName type="lemma" xml:lang="en">Bacchius</persName>
+               <persName>Bacchius</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn10"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Coin, Rome<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn11"/>
+                  </note>
+               </state>
+               <bibl>RCC1, no. 431</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn12"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="-0055" notAfter="-0055">55 BCE<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn13"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

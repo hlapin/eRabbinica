@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Dinah-דינה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Dinah-d1e327090" n="Dinah-דינה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_F-d8e591-person"
+                    n="Vol-2-B_F-Biblical-Females-Dinah-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">דינה</persName>
+               <persName type="lemma" xml:lang="en">Dinah</persName>
+               <persName>Δινά<ref type="note" corresp="#Vol-2-B_F-ftn37"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Tabgha<ref type="note" corresp="#Vol-2-B_F-ftn38"/>, Schneider</note>
+               </state>
+               <bibl>Klein,Yeshuv, 39</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>
+                  <ref type="note" corresp="#Vol-2-B_F-ftn39"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

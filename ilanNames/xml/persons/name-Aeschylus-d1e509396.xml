@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Aeschylus-Αἰσχύλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Aeschylus-d1e509396" n="Aeschylus-Αἰσχύλος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e2163-person"
+                    n="Vol-3-G_M-Greek-Males-Aeschylus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Αἰσχύλος</persName>
+               <persName type="lemma" xml:lang="en">Aeschylus</persName>
+               <persName>̓Αισχύλου<ref type="note" corresp="#Vol-3-G_M-ftn133"/>
+               </persName>
+               <persName>/̓Ισχύλος<ref type="note" corresp="#Vol-3-G_M-ftn134"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Joseph (18)’s son</ref>, Joseph (15) and <ref corresp="#Vol-3-G_M-d8e18-person" type="relation" n="father-of">Abascantus (1)’s father</ref>, tax collector<ref type="note" corresp="#Vol-3-G_M-ftn135"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracons, Edfu, Manteuffel &amp; Wessely</note>
+               </state>
+               <bibl>CPJ183, 185, 240, 302, 309</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn136"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0101">70-101 CE<ref type="note" corresp="#Vol-3-G_M-ftn137"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

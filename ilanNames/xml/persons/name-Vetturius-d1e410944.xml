@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Vetturius-Vetturius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Vetturius-d1e410944" n="Vetturius-Vetturius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e11385-person"
+                    n="Vol-2-L_M-Latin-Males-Vetturius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Vetturius</persName>
+               <persName type="lemma" xml:lang="en">Vetturius</persName>
+               <persName>Βητουρίου<ref type="note" corresp="#Vol-2-L_M-ftn869"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_M-d8e6541-person" type="relation" n="brother-of">Eusebius (2)’s brother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Apamea/Syria, Mayence</note>
+               </state>
+               <bibl>CIJ815</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>391<ref type="note" corresp="#Vol-2-L_M-ftn870"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

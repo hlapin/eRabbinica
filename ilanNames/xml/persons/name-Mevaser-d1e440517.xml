@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Mevaser-מבשר</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Mevaser-d1e440517" n="Mevaser-מבשר">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e16999-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Mevaser-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מבשר</persName>
+               <persName type="lemma" xml:lang="en">Mevaser</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e38817-person" type="relation" n="father-of">Nathan (9)’s father</ref>, <ref corresp="#Vol-2-S-H_M-d8e10943-person" type="relation" n="son-of">Ḥaras (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Aleppo/Syria</note>
+               </state>
+               <bibl>Sobernheim, “Aleppo,” 277</bibl>
+               <state type="addl-Descr">
+                  <note>Late<ref type="note" corresp="#Vol-2-S-H_M-ftn1066"/>
+                  </note>
+               </state>
+               <floruit>342?<ref type="note" corresp="#Vol-2-S-H_M-ftn1067"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

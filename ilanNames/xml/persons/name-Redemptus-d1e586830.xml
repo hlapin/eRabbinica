@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Redemptus-Redemptus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Redemptus-d1e586830" n="Redemptus-Redemptus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e34162-person"
+                    n="Vol-3-L_M-Latin-Males-Redemptus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Redemptus</persName>
+               <persName type="lemma" xml:lang="en">Redemptus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_F-d8e24020-person" type="relation" n="son-of">Justa (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Gregorius, IV, 31,CCSL140, 251</bibl>
+               <state type="addl-Descr">
+                  <note>Christian convert<ref type="note" corresp="#Vol-3-L_M-ftn2040"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0594" notAfter="0594">594 CE<ref type="note" corresp="#Vol-3-L_M-ftn2041"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

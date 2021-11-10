@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Φελφέλα Felfela-Φελφέλα Felfela</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Felfela-d1e411765"
+                     n="Φελφέλα Felfela-Φελφέλα Felfela">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_F-d8e529-person"
+                    n="Vol-2-S-G_F-Semitic-Greek-Females-Φελφέλα Felfela-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Φελφέλα Felfela</persName>
+               <persName type="lemma" xml:lang="en">Φελφέλα Felfela</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, Samaria</note>
+               </state>
+               <bibl>Piccirillo,Historiam pictura, 468</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan?<ref type="note" corresp="#Vol-2-S-G_F-ftn40"/>Second name</note>
+               </state>
+               <floruit>572<ref type="note" corresp="#Vol-2-S-G_F-ftn41"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

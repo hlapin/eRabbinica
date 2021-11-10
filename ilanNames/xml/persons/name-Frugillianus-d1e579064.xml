@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Frugillianus-Frugillianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Frugillianus-d1e579064"
+                     n="Frugillianus-Frugillianus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e16712-person"
+                    n="Vol-3-L_M-Latin-Males-Frugillianus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Frugillianus</persName>
+               <persName type="lemma" xml:lang="en">Frugillianus</persName>
+               <persName>Φρουγιλλιανός</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Phrygia</note>
+               </state>
+               <bibl>Ramsay,Cities and Bishoprics2, no. 394</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1000"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn1001"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

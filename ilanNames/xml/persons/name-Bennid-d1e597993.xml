@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Bennid-Bennid</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Bennid-d1e597993" n="Bennid-Bennid">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-G_M-d8e1521-person"
+                    n="Vol-3-S-G_M-Semitic-Greek-Males-Bennid-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Bennid</persName>
+               <persName type="lemma" xml:lang="en">Bennid</persName>
+               <persName>–<ref type="note" corresp="#Vol-3-S-G_M-ftn92"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Auch, Reinach</note>
+               </state>
+               <bibl>CIJ671</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-S-G_M-ftn93"/>; late<ref type="note" corresp="#Vol-3-S-G_M-ftn94"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Gaul</note>
+               </state>
+               <floruit notBefore="0600" notAfter="0799">7th-8thC CE<ref type="note" corresp="#Vol-3-S-G_M-ftn95"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

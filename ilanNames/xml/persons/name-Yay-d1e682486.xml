@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Yaḥyā-יחיא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Yay-d1e682486" n="Yaḥyā-יחיא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e23044-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Yaḥyā-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יחיא</persName>
+               <persName type="lemma" xml:lang="en">Yaḥyā</persName>
+               <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1597"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-B_M-d8e31649-person" type="relation" n="son-of">Simon (10)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, el-ʿEla, Jaussen</note>
+               </state>
+               <bibl>CIJ1423</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn1598"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0306" notAfter="0306">306 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1599"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

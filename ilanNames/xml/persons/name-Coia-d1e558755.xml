@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Coia-Coia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Coia-d1e558755" n="Coia-Coia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e6058-person"
+                    n="Vol-3-L_F-Latin-Females-Coia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Coia</persName>
+               <persName type="lemma" xml:lang="en">Coia</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_F-ftn326"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Frey</note>
+               </state>
+               <bibl>CIJ47*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn327"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

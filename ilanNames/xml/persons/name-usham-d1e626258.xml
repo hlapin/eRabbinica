@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ḥusham-חושם</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-usham-d1e626258" n="Ḥusham-חושם">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_M-d8e5493-person"
+                    n="Vol-4-B_M-Biblical-Males-Ḥusham-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חושם</persName>
+               <persName type="lemma" xml:lang="en">Ḥusham</persName>
+               <persName>Painter<ref type="note" corresp="#Vol-4-B_M-ftn467"/>
+               </persName>
+               <state type="findspot">
+                  <note>Graffito, synagoge Dura-Europos, du Mesnil</note>
+               </state>
+               <bibl>IJO3, Syr101</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-B_M-ftn468"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Dura-Europos</note>
+               </state>
+               <floruit notBefore="0244" notAfter="0245">244/5 CE<ref type="note" corresp="#Vol-4-B_M-ftn469"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

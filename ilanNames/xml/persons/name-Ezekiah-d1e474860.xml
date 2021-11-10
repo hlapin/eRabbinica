@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ezekiah-חזקיה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ezekiah-d1e474860" n="Ezekiah-חזקיה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_M-d8e6330-person"
+                    n="Vol-3-B_M-Biblical-Males-Ezekiah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חזקיה</persName>
+               <persName type="lemma" xml:lang="en">Ezekiah</persName>
+               <persName>̓Εζεικίας<ref type="note" corresp="#Vol-3-B_M-ftn436"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e6365-person" type="relation" n="son-of">Ezekiah (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Fayum, Wilcken</note>
+               </state>
+               <bibl>CPJ29</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-B_M-ftn437"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0199" notAfter="-0100">2ndC BCE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_M-d8e6365-person"
+                    n="Vol-3-B_M-Biblical-Males-Ezekiah-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חזקיה</persName>
+               <persName type="lemma" xml:lang="en">Ezekiah</persName>
+               <persName>̓Εζε[ικίου]<ref type="note" corresp="#Vol-3-B_M-ftn438"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e6330-person" type="relation" n="father-of">Ezekiah (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Fayum, Wilcken</note>
+               </state>
+               <bibl>CPJ29</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-B_M-ftn439"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0199" notAfter="-0100">2ndC BCE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_M-d8e6407-person"
+                    n="Vol-3-B_M-Biblical-Males-Ezekiah-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חזקיה</persName>
+               <persName type="lemma" xml:lang="en">Ezekiah</persName>
+               <persName>̓Ηζικίᾳ<ref type="note" corresp="#Vol-3-B_M-ftn440"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Isaac (51)’s son</ref>, leader in Alexandria<ref type="note" corresp="#Vol-3-B_M-ftn441"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Jaffa, Clermont-Ganneau</note>
+               </state>
+               <bibl>CIJ918</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-B_M-ftn442"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

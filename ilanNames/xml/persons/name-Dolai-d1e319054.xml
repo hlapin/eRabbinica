@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Dolai-דולעי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Dolai-d1e319054" n="Dolai-דולעי">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e3805-person"
+                    n="Vol-1-S-H_M-Dolai-1">
+               <persName type="lemma">דולעי</persName>
+               <persName type="lemma" xml:lang="en">Dolai</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e3491-person" type="relation" n="father-of">Eleazar (50)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>mMiq2:10 (Kasovsky,Mishnae, 494)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn254"/>
+                  </note>
+               </state>
+               <floruit notBefore="0200" notAfter="0200">Pre-200 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn255"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

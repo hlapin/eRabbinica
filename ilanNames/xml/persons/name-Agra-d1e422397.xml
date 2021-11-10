@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Agra-אגרא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Agra-d1e422397" n="Agra-אגרא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e4642-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Agra-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אגרא</persName>
+               <persName type="lemma" xml:lang="en">Agra</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e71-person"
+                          type="relation"
+                          n="father-in-law-of">Abba (2)’s father-in-law</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bHul104b<ref type="note" corresp="#Vol-2-S-H_M-ftn276"/>(Kosowsky,Babylonico, 103)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn277"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e4677-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Agra-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אגרא</persName>
+               <persName type="lemma" xml:lang="en">Agra</persName>
+               <persName>אגרי<ref type="note" corresp="#Vol-2-S-H_M-ftn278"/>
+               </persName>
+               <persName>/חגאי<ref type="note" corresp="#Vol-2-S-H_M-ftn279"/>
+               </persName>
+               <persName>/חגרי<ref type="note" corresp="#Vol-2-S-H_M-ftn280"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_M-d8e969-person" type="relation" n="father-of">Alexander (6)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Lev Rab19:2 (Hyman,Toldoth, 159)</bibl>
+               <state type="addl-Descr">
+                  <note>–D: Pre-400<ref type="note" corresp="#Vol-2-S-H_M-ftn281"/>
+                  </note>
+               </state>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e4719-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Agra-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אגרא</persName>
+               <persName type="lemma" xml:lang="en">Agra</persName>
+               <persName>אגירה<ref type="note" corresp="#Vol-2-S-H_M-ftn282"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Sepphoris</note>
+               </state>
+               <bibl>Weiss,Sepphoris Synagogue, no. 8</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>5th-7thC<ref type="note" corresp="#Vol-2-S-H_M-ftn283"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

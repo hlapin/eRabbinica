@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Istiaius-̓Ιστιαῖος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Istiaius-d1e378190" n="Istiaius-̓Ιστιαῖος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e10668-person"
+                    n="Vol-2-G_M-Greek-Males-Istiaius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Ιστιαῖος</persName>
+               <persName type="lemma" xml:lang="en">Istiaius</persName>
+               <persName>איסטייה<ref type="note" corresp="#Vol-2-G_M-ftn712"/>
+               </persName>
+               <persName>/איסטייא<ref type="note" corresp="#Vol-2-G_M-ftn713"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e30439-person" type="relation" n="father-of">Isaac (22)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yYev1:1, 2c (Kosovsky,Yerushalmi, 97-8)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname?<ref type="note" corresp="#Vol-2-G_M-ftn714"/>
+                  </note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-G_M-ftn715"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

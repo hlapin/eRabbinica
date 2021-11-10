@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Siricia-Siricia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Siricia-d1e398831" n="Siricia-Siricia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_F-d8e2695-person"
+                    n="Vol-2-L_F-Latin-Female-Siricia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Siricia</persName>
+               <persName type="lemma" xml:lang="en">Siricia</persName>
+               <persName>Σιρικία<ref type="note" corresp="#Vol-2-L_F-ftn222"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Beth She‘arim, catacomb 13</note>
+               </state>
+               <bibl>BS2:155</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-L_F-ftn223"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

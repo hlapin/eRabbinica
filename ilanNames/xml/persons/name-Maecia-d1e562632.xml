@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Maecia-Maecia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Maecia-d1e562632" n="Maecia-Maecia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e25157-person"
+                    n="Vol-3-L_F-Latin-Females-Maecia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Maecia</persName>
+               <persName type="lemma" xml:lang="en">Maecia</persName>
+               <persName>Maeciae</persName>
+               <state type="desc">
+                  <note>Lucia (1), Lucius (5) <ref corresp="#Vol-3-L_M-d8e25465-person" type="relation" n="mother-of">Maecius (1)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Müller</note>
+               </state>
+               <bibl>CIJ470</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn714"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e25194-person"
+                    n="Vol-3-L_F-Latin-Females-Maecia-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Maecia</persName>
+               <persName type="lemma" xml:lang="en">Maecia</persName>
+               <persName>Maeciae</persName>
+               <state type="desc">
+                  <note>Lucia (2) Shabtit (41), Lucius (5) <ref corresp="#Vol-3-L_M-d8e25465-person"
+                          type="relation"
+                          n="daughter-of">Maecius (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Müller</note>
+               </state>
+               <bibl>CIJ470</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn715"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

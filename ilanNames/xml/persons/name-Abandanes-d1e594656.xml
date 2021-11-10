@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Abandanes-Abandanes</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Abandanes-d1e594656" n="Abandanes-Abandanes">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-P_M-d8e19-person"
+                    n="Vol-3-P_M-Persian-Males-Abandanes-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Abandanes</persName>
+               <persName type="lemma" xml:lang="en">Abandanes</persName>
+               <persName>Abundantio<ref type="note" corresp="#Vol-3-P_M-ftn2"/>
+               </persName>
+               <state type="desc">
+                  <note>Judah (27) <ref corresp="#Vol-3-S-G_M-d8e1940-person"
+                          type="relation"
+                          n="brother-of">Cocotia (1)’s brother</ref>, aged 19<ref type="note" corresp="#Vol-3-P_M-ftn3"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vigna Randanini, Garrucci</note>
+               </state>
+               <bibl>CIJ206</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-P_M-ftn4"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-P_M-d8e61-person"
+                    n="Vol-3-P_M-Persian-Males-Abandanes-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Abandanes</persName>
+               <persName type="lemma" xml:lang="en">Abandanes</persName>
+               <persName>Abundanti<ref type="note" corresp="#Vol-3-P_M-ftn5"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_F-d8e4257-person" type="relation" n="father-of">Benus (1)’s father</ref>, rabbi<ref type="note" corresp="#Vol-3-P_M-ftn6"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Naples, Muratori</note>
+               </state>
+               <bibl>CIJ568</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-P_M-ftn7"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0599">5th-6thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

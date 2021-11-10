@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sosipatra-Σωσιπάτρα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sosipatra-d1e366184" n="Sosipatra-Σωσιπάτρα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e4623-person"
+                    n="Vol-2-G_F-Greek-Females-Sosipatra-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Σωσιπάτρα</persName>
+               <persName type="lemma" xml:lang="en">Sosipatra</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-L_M-d8e4022-person" type="relation" n="wife-of">Germanus (5)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Elijah’s Cave</note>
+               </state>
+               <bibl>Appendix, no. 39</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn304"/>
+                  </note>
+               </state>
+               <floruit>Pre-8thC<ref type="note" corresp="#Vol-2-G_F-ftn305"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

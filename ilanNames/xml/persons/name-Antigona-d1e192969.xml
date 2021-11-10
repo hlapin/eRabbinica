@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Antigona-̓Αντιγόνα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Antigona-d1e192969" n="Antigona-̓Αντιγόνα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_F-d2e356-person"
+                    n="Vol-1-G_F-Antigona-1">
+               <persName type="lemma">̓Αντιγόνα</persName>
+               <persName type="lemma" xml:lang="en">Antigona</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="gr">̓Ατιγόνα<ref type="note" corresp="#Vol-1-G_F-ftn23"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Jerusalem, Clermont-Ganneau, 1883</note>
+               </state>
+               <bibl>CIJ, no. 1382</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn24"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_F-d2e382-person"
+                    n="Vol-1-G_F-Antigona-2">
+               <persName type="lemma">̓Αντιγόνα</persName>
+               <persName type="lemma" xml:lang="en">Antigona</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Mt of Offence, Kloner, 1984</note>
+               </state>
+               <bibl>CJO, no. 717</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn25"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_F-d2e401-person"
+                    n="Vol-1-G_F-Antigona-3">
+               <persName type="lemma">̓Αντιγόνα</persName>
+               <persName type="lemma" xml:lang="en">Antigona</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-G_F-ftn26"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription Delphi, 1863</note>
+               </state>
+               <bibl>CIJ, no. 709</bibl>
+               <state type="addl-Descr">
+                  <note>Palestine?<ref type="note" corresp="#Vol-1-G_F-ftn27"/>
+                  </note>
+               </state>
+               <floruit>157 CBC<ref type="note" corresp="#Vol-1-G_F-ftn28"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e1886-person"
+                    n="Vol-3-G_F-Greek-Females-Antigona-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓Αντιγόνα</persName>
+               <persName type="lemma" xml:lang="en">Antigona</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e59493-person"
+                          type="relation"
+                          n="daughter-of">Nicias (8)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira</note>
+               </state>
+               <bibl>Reynolds,CJZC12i</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn107"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0035" notAfter="0035">35 CE<ref type="note" corresp="#Vol-3-G_F-ftn108"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Fabius-Fabius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Fabius-d1e578485" n="Fabius-Fabius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e14836-person"
+                    n="Vol-3-L_M-Latin-Males-Fabius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Fabius</persName>
+               <persName type="lemma" xml:lang="en">Fabius</persName>
+               <persName>Φάβιος</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Thyatira, Muratori</note>
+               </state>
+               <bibl>CIJ752</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn889"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0096" notAfter="0117">96-117 CE<ref type="note" corresp="#Vol-3-L_M-ftn890"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e14877-person"
+                    n="Vol-3-L_M-Latin-Males-Fabius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Fabius</persName>
+               <persName type="lemma" xml:lang="en">Fabius</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn891"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Pompeii, De Rossi</note>
+               </state>
+               <bibl>CIJ52*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn892"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0079" notAfter="0079">Pre-79 CE<ref type="note" corresp="#Vol-3-L_M-ftn893"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

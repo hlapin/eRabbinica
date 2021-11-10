@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Decimus-Decimus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Decimus-d1e577781" n="Decimus-Decimus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e13745-person"
+                    n="Vol-3-L_M-Latin-Males-Decimus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Decimus</persName>
+               <persName type="lemma" xml:lang="en">Decimus</persName>
+               <persName>Δέ[κ]μου<ref type="note" corresp="#Vol-3-L_M-ftn820"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_F-d8e2180-person" type="relation" n="husband-of">Arescusa (1)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Pherae, Béquignon</note>
+               </state>
+               <bibl>CIJ708d</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn821"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0399">1st-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e13799-person"
+                    n="Vol-3-L_M-Latin-Males-Decimus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Decimus</persName>
+               <persName type="lemma" xml:lang="en">Decimus</persName>
+               <persName>Δέκμος<ref type="note" corresp="#Vol-3-L_M-ftn822"/>
+               </persName>
+               <state type="desc">
+                  <note>Valerius (9) Dionysius (12), <ref corresp="#Vol-3-L_M-d8e17833-person" type="relation" n="son-of">Gaius (24)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Politeuma inscription, Berenice, Roux</note>
+               </state>
+               <bibl>CJZC70</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn823"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="-0009" notAfter="-0006">9-6 BCE<ref type="note" corresp="#Vol-3-L_M-ftn824"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

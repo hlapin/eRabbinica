@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tryphe-Τρύφη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tryphe-d1e692107" n="Tryphe-Τρύφη">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-Vol-3-Add-G_F-d8e281-person"
+                    n="Vol-4-Vol-3-Add-G_F-Greek-Females-Tryphe-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Τρύφη</persName>
+               <persName type="lemma" xml:lang="en">Tryphe</persName>
+               <persName>Τρυφᾶτος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="mother-of">Philous (2)’s mother</ref>, <ref corresp="#" type="relation" n="wife-of">Heras (1)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Arsinoe?<ref type="note" corresp="#Vol-4-Vol-3-Add-G_F-ftn18"/>
+                  </note>
+               </state>
+               <bibl>Salvaterra, “L’amministrazione,” 316</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-Vol-3-Add-G_F-ftn19"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit>92/3 C CE<ref type="note" corresp="#Vol-4-Vol-3-Add-G_F-ftn20"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-Vol-3-Add-G_F-d8e314-person"
+                    n="Vol-4-Vol-3-Add-G_F-Greek-Females-Tryphe-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Τρύφη</persName>
+               <persName type="lemma" xml:lang="en">Tryphe</persName>
+               <persName>[Τ]ρυφα</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Arsinoe?<ref type="note" corresp="#Vol-4-Vol-3-Add-G_F-ftn21"/>
+                  </note>
+               </state>
+               <bibl>Salvaterra, “L’amministrazione,” 326</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-Vol-3-Add-G_F-ftn22"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit>92/3 C CE<ref type="note" corresp="#Vol-4-Vol-3-Add-G_F-ftn23"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

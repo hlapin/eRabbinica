@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Soaimus-Σοαιμος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Soaimus-d1e296040" n="Soaimus-Σοαιμος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-G_M-d2e2743-person"
+                    n="Vol-1-S-G_M-Soaimus-1">
+               <persName type="lemma">Σοαιμος</persName>
+               <persName type="lemma" xml:lang="en">Soaimus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-S-G_M-ftn158"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>AJ15:185 (Schalit,NB, 114)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-1-S-G_M-ftn159"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0030" notAfter="-0029">30-29 BCE<ref type="note" corresp="#Vol-1-S-G_M-ftn160"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

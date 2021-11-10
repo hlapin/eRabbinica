@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Zeriqa-זריקא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Zeriqa-d1e320656" n="Zeriqa-זריקא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e4916-person"
+                    n="Vol-1-S-H_M-Zeriqa-1">
+               <persName type="lemma">זריקא</persName>
+               <persName type="lemma" xml:lang="en">Zeriqa</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>tOhil18:17 (Kasowski, Thosephthae, 89)<ref type="note" corresp="#Vol-1-S-H_M-ftn331"/>
+               </bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0200">Pre-200 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn332"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

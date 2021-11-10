@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ḥananel-חננאל</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-ananel-d1e627543" n="Ḥananel-חננאל">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_M-d8e6656-person"
+                    n="Vol-4-B_M-Biblical-Males-Ḥananel-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חננאל</persName>
+               <persName type="lemma" xml:lang="en">Ḥananel</persName>
+               <persName>̓Ανάνηλος<ref type="note" corresp="#Vol-4-B_M-ftn560"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-B_M-ftn561"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>AJ15:22 (Schalit,NB, 11)</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-B_M-ftn562"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="-0043" notAfter="-0043">43 BCE<ref type="note" corresp="#Vol-4-B_M-ftn563"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_M-d8e6702-person"
+                    n="Vol-4-B_M-Biblical-Males-Ḥananel-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חננאל</persName>
+               <persName type="lemma" xml:lang="en">Ḥananel</persName>
+               <persName>1.yBer6:6, 10d (Kosovsky,Yerushalmi, 264); 2.bBer43b (Kosowsky,Babylonico, 525)</persName>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-B_M-ftn564"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE<ref type="note" corresp="#Vol-4-B_M-ftn565"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

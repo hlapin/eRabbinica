@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Procharus-Πρόχορος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Procharus-d1e247987" n="Procharus-Πρόχορος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e15210-person"
+                    n="Vol-1-G_M-Procharus-1">
+               <persName type="lemma">Πρόχορος</persName>
+               <persName type="lemma" xml:lang="en">Procharus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Acts 6:5 (VKGNT 1185)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit>30s CE<ref type="note" corresp="#Vol-1-G_M-ftn1093"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

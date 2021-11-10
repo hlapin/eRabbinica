@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Seʿuram-סעורם</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Seuram-d1e686813" n="Seʿuram-סעורם">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e29497-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Seʿuram-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">סעורם</persName>
+               <persName type="lemma" xml:lang="en">Seʿuram</persName>
+               <persName>שעורים<ref type="note" corresp="#Vol-4-S-H_M-ftn2041"/>
+               </persName>
+               <persName>/סעורים<ref type="note" corresp="#Vol-4-S-H_M-ftn2042"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e789-person" type="relation" n="brother-of">Abba (17)’s brother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bBM73b (Kosowsky,Babylonico, 1132)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2043"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>abylonia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0399">4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2044"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

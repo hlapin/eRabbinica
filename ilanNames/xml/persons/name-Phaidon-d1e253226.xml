@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Phaidon-Φαίδων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Phaidon-d1e253226" n="Phaidon-Φαίδων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e16931-person"
+                    n="Vol-1-G_M-Phaidon-1">
+               <persName type="lemma">Φαίδων</persName>
+               <persName type="lemma" xml:lang="en">Phaidon</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Φαίδωνος<ref type="note" corresp="#Vol-1-G_M-ftn1215"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Shu‘afat, Abel, 1913</note>
+               </state>
+               <bibl>CIJ, no. 1238</bibl>
+               <state type="addl-Descr">
+                  <note>Palmyra<ref type="note" corresp="#Vol-1-G_M-ftn1216"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn1217"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

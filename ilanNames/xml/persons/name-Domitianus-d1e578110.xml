@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Domitianus-Domitianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Domitianus-d1e578110"
+                     n="Domitianus-Domitianus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e14059-person"
+                    n="Vol-3-L_M-Latin-Males-Domitianus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Domitianus</persName>
+               <persName type="lemma" xml:lang="en">Domitianus</persName>
+               <persName>Δομετιανός<ref type="note" corresp="#Vol-3-L_M-ftn843"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn844"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Epiphanius Monachus,PG120, 224</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn845"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

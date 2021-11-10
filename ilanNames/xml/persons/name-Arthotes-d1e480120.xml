@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Arthotes-Arthotes</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Arthotes-d1e480120" n="Arthotes-Arthotes">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e1051-person"
+                    n="Vol-3-E_M-Egyptian-Males-Arthotes-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Arthotes</persName>
+               <persName type="lemma" xml:lang="en">Arthotes</persName>
+               <persName>̓Αρθηνᾶτας<ref type="note" corresp="#Vol-3-E_M-ftn68"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e20332-person" type="relation" n="son-of">Julius (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu, Manteuffel</note>
+               </state>
+               <bibl>CPJ408b</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn69"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0199">1st-2ndC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

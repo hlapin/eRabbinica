@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Zarnuqi-זרנוקי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Zarnuqi-d1e434007" n="Zarnuqi-זרנוקי">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e10886-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Zarnuqi-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">זרנוקי</persName>
+               <persName type="lemma" xml:lang="en">Zarnuqi</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e12488-person"
+                          type="relation"
+                          n="father-of">Ḥiyya (25)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bSan26a<ref type="note" corresp="#Vol-2-S-H_M-ftn665"/>(Kosowsky,Babylonico, 486)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn666"/>
+                  </note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn667"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Coinus-Κοῖνος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Coinus-d1e239385" n="Coinus-Κοῖνος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e11594-person"
+                    n="Vol-1-G_M-Coinus-1">
+               <persName type="lemma">Κοῖνος</persName>
+               <persName type="lemma" xml:lang="en">Coinus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">קוינא<ref type="note" corresp="#Vol-1-G_M-ftn824"/>
+               </persName>
+               <persName xml:lang="he">קוניא<ref type="note" corresp="#Vol-1-G_M-ftn825"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-S-H_M-d2e7180-person" type="relation" n="father-of">Halafta (4)’s father</ref>
+                     <ref type="note" corresp="#Vol-1-G_M-ftn826"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>tMakh3:3 (Kasowski, Thosephthae, 91)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname?<ref type="note" corresp="#Vol-1-G_M-ftn827"/>
+                  </note>
+               </state>
+               <floruit notBefore="0200" notAfter="0200">Pre-200 CE<ref type="note" corresp="#Vol-1-G_M-ftn828"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

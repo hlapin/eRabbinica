@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Emautus-̓Εμαυτός</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Emautus-d1e519964" n="Emautus-̓Εμαυτός">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e25832-person"
+                    n="Vol-3-G_M-Greek-Males-Emautus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Εμαυτός</persName>
+               <persName type="lemma" xml:lang="en">Emautus</persName>
+               <persName>̓Εμαύο<ref type="note" corresp="#Vol-3-G_M-ftn1531"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e34142-person" type="relation" n="father-of">Solomon (3)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu, Manteuffel</note>
+               </state>
+               <bibl>CPJ198</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1532"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0102" notAfter="0103">102/3 CE<ref type="note" corresp="#Vol-3-G_M-ftn1533"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

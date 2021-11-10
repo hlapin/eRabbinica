@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Machaon-Μαχάων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Machaon-d1e536146" n="Machaon-Μαχάων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e54611-person"
+                    n="Vol-3-G_M-Greek-Males-Machaon-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Μαχάων</persName>
+               <persName type="lemma" xml:lang="en">Machaon</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Shabtai (134) and <ref corresp="#Vol-3-G_F-d8e19177-person" type="relation" n="son-of">Philumene (2)’s son</ref>, aged 5<ref type="note" corresp="#Vol-3-G_M-ftn3143"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Leontopolis?<ref type="note" corresp="#Vol-3-G_M-ftn3144"/>Botti</note>
+               </state>
+               <bibl>CIJ1539</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3145"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0008" notAfter="0008">8 CE<ref type="note" corresp="#Vol-3-G_M-ftn3146"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

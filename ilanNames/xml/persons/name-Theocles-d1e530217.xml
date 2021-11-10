@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Theocles-Θεοκλής</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Theocles-d1e530217" n="Theocles-Θεοκλής">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e45069-person"
+                    n="Vol-3-G_M-Greek-Males-Theocles-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Θεοκλής</persName>
+               <persName type="lemma" xml:lang="en">Theocles</persName>
+               <persName>Θε[οκ]λῆς<ref type="note" corresp="#Vol-3-G_M-ftn2590"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e44809-person" type="relation" n="son-of">Theodorus (55)’s son</ref>, aged 15<ref type="note" corresp="#Vol-3-G_M-ftn2591"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira, Oliverio</note>
+               </state>
+               <bibl>CJZC66b</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2592"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit>Pre-117CE?</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

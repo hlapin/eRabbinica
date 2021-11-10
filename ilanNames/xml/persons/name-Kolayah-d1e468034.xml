@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Kolayah-כליה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Kolayah-d1e468034" n="Kolayah-כליה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-P_M-d8e1489-person"
+                    n="Vol-2-Vol-1-ADD-P_M-Persian-Males-Kolayah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">כליה</persName>
+               <persName type="lemma" xml:lang="en">Kolayah</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ostraca, Tel Nimrîn<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn103"/>
+                  </note>
+               </state>
+               <bibl>Dempsey,BASOR303 (1995) 73</bibl>
+               <state type="addl-Descr">
+                  <note>Early?<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn104"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

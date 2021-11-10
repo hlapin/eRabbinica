@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Opilio-Opilio</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Opilio-d1e584478" n="Opilio-Opilio">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e30632-person"
+                    n="Vol-3-L_M-Latin-Males-Opilio-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Opilio</persName>
+               <persName type="lemma" xml:lang="en">Opilio</persName>
+               <persName>Opillonis<ref type="note" corresp="#Vol-3-L_M-ftn1827"/>
+               </persName>
+               <state type="desc">
+                  <note>Asella (2) and <ref corresp="#Vol-3-B_F-d8e7923-person" type="relation" n="father-of">Sarah (17)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Venosa, Angelis &amp; Smith,CIJ608</note>
+               </state>
+               <bibl>JIWE1, 89</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1828"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0599">5th-6thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Barikh Aryeh-בריך אריה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Barikh_Aryeh-d1e673487"
+                     n="Barikh Aryeh-בריך אריה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e12003-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Barikh Aryeh-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">בריך אריה</persName>
+               <persName type="lemma" xml:lang="en">Barikh Aryeh</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Rašn-Dūχt (4)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Louvre</note>
+               </state>
+               <bibl>Schwab,PSBA13 (1890-1) 586</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn832"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn833"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

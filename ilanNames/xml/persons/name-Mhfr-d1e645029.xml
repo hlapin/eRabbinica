@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Māhfrē-Māhfrē</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Mhfr-d1e645029" n="Māhfrē-Māhfrē">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e8420-person"
+                    n="Vol-4-I_F-Iranian-Females-Māhfrē-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Māhfrē</persName>
+               <persName type="lemma" xml:lang="en">Māhfrē</persName>
+               <persName>מהפרי<ref type="note" corresp="#Vol-4-I_F-ftn687"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_M-d8e2848-person" type="relation" n="mother-of">Daipharnes (1)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl</note>
+               </state>
+               <bibl>CAMIBBM043A</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn688"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn689"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

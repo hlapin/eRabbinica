@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Qāmī-قامي</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Qm-d1e606466" n="Qāmī-قامي">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_F-d8e738-person"
+                    n="Vol-4-A_F-Arabic-Females-Qāmī-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">قامي</persName>
+               <persName type="lemma" xml:lang="en">Qāmī</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>ʿĀmir (3) and <ref corresp="#Vol-4-A_M-d8e12987-person" type="relation" n="mother-of">Hāshim (1)’s mother</ref>, married a Qurayshī,<ref type="note" corresp="#Vol-4-A_F-ftn56"/>
+                     <ref type="note" corresp="#Vol-4-A_F-ftn57"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Ḥabīb,munammaq, 507</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-A_F-ftn58"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit>Pre-Islamic<ref type="note" corresp="#Vol-4-A_F-ftn59"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

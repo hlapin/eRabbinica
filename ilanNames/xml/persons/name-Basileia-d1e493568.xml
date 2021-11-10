@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Basileia-Βασίλεια</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Basileia-d1e493568" n="Basileia-Βασίλεια">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e3988-person"
+                    n="Vol-3-G_F-Greek-Females-Basileia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Βασίλεια</persName>
+               <persName type="lemma" xml:lang="en">Basileia</persName>
+               <persName>Basilia<ref type="note" corresp="#Vol-3-G_F-ftn221"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Ostia, Floriani</note>
+               </state>
+               <bibl>JIWE1, 14</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn222"/>
+                  </note>
+               </state>
+               <floruit>Italy</floruit>
+               <floruit notBefore="0001" notAfter="0199">1st-2ndC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

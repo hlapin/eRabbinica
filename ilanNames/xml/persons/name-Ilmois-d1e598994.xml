@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ilmois-Ilmois</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ilmois-d1e598994" n="Ilmois-Ilmois">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-G_M-d8e2428-person"
+                    n="Vol-3-S-G_M-Semitic-Greek-Males-Ilmois-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ilmois</persName>
+               <persName type="lemma" xml:lang="en">Ilmois</persName>
+               <persName>̓Ιλμοις</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e54746-person" type="relation" n="father-of">Megas (2)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira, Gray</note>
+               </state>
+               <bibl>CJZC56b</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-S-G_M-ftn150"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0001">70/1 CE<ref type="note" corresp="#Vol-3-S-G_M-ftn151"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

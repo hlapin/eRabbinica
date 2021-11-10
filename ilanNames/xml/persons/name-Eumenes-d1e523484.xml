@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Eumenes-Ε̓μένης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Eumenes-d1e523484" n="Eumenes-Ε̓μένης">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e30388-person"
+                    n="Vol-3-G_M-Greek-Males-Eumenes-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ε̓μένης</persName>
+               <persName type="lemma" xml:lang="en">Eumenes</persName>
+               <persName>Eumenes</persName>
+               <state type="desc">
+                  <note>Sextus (2) Pompeius (4), Pompeia (2) <ref corresp="#Vol-3-L_F-d8e8212-person" type="relation" n="husband-of">Felicula (1)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vigna Randanini, De Rossi</note>
+               </state>
+               <bibl>CIJ12*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1769"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e30422-person"
+                    n="Vol-3-G_M-Greek-Males-Eumenes-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ε̓μένης</persName>
+               <persName type="lemma" xml:lang="en">Eumenes</persName>
+               <persName>Ε̓μένις<ref type="note" corresp="#Vol-3-G_M-ftn1770"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Villa Torlonia, Fasola</note>
+               </state>
+               <bibl>JIWE2, 504</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1771"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e30464-person"
+                    n="Vol-3-G_M-Greek-Males-Eumenes-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ε̓μένης</persName>
+               <persName type="lemma" xml:lang="en">Eumenes</persName>
+               <persName>Ε̓μένευς<ref type="note" corresp="#Vol-3-G_M-ftn1772"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e80115-person" type="relation" n="father-of">Philon (15)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Cyrene, Oliverio</note>
+               </state>
+               <bibl>CJZC10</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1773"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit>Pre-117 CE?</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e30502-person"
+                    n="Vol-3-G_M-Greek-Males-Eumenes-4">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ε̓μένης</persName>
+               <persName type="lemma" xml:lang="en">Eumenes</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e45308-person" type="relation" n="son-of">Theologus (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira, Applebaum</note>
+               </state>
+               <bibl>CJZC69</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1774"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit>Pre-117 CE?</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

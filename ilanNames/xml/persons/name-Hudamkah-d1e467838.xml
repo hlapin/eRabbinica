@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hudamkah-הודמכה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hudamkah-d1e467838" n="Hudamkah-הודמכה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-P_M-d8e827-person"
+                    n="Vol-2-Vol-1-ADD-P_M-Persian-Males-Hudamkah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">הודמכה</persName>
+               <persName type="lemma" xml:lang="en">Hudamkah</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn55"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn56"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Abu’l Fath, 104</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn57"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0283" notAfter="-0046">283-46 BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn58"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

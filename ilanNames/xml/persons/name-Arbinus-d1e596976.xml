@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Arbinus-Arbinus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Arbinus-d1e596976" n="Arbinus-Arbinus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-G_M-d8e567-person"
+                    n="Vol-3-S-G_M-Semitic-Greek-Males-Arbinus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Arbinus</persName>
+               <persName type="lemma" xml:lang="en">Arbinus</persName>
+               <persName>̔Αρβίνου/ [̓Αρ]βείνου<ref type="note" corresp="#Vol-3-S-G_M-ftn31"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-S-H_M-d8e2402-person" type="relation" n="father-of">Dama (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostraca, Edfu, Manteuffel</note>
+               </state>
+               <bibl>CPJ203, 287?<ref type="note" corresp="#Vol-3-S-G_M-ftn32"/>
+               </bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-S-G_M-ftn33"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0091" notAfter="0106">91-106 CE<ref type="note" corresp="#Vol-3-S-G_M-ftn34"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-G_M-d8e621-person"
+                    n="Vol-3-S-G_M-Semitic-Greek-Males-Arbinus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Arbinus</persName>
+               <persName type="lemma" xml:lang="en">Arbinus</persName>
+               <persName>̓Αρβε[ίνου]<ref type="note" corresp="#Vol-3-S-G_M-ftn35"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e5606-person" type="relation" n="father-of">Pates (5)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu, Manteuffel</note>
+               </state>
+               <bibl>CPJ408c</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-S-G_M-ftn36"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

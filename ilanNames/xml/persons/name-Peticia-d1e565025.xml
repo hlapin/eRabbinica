@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Peticia-Peticia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Peticia-d1e565025" n="Peticia-Peticia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e28444-person"
+                    n="Vol-3-L_F-Latin-Females-Peticia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Peticia</persName>
+               <persName type="lemma" xml:lang="en">Peticia</persName>
+               <persName>Pticia<ref type="note" corresp="#Vol-3-L_F-ftn900"/>
+               </persName>
+               <state type="desc">
+                  <note>Aster (3), Julius (8) <ref corresp="#Vol-3-L_M-d8e35989-person" type="relation" n="wife-of">Sabinus (6)’s wife</ref>, aged 48<ref type="note" corresp="#Vol-3-L_F-ftn901"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Schneider Graziosi</note>
+               </state>
+               <bibl>CIJ468</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn902"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

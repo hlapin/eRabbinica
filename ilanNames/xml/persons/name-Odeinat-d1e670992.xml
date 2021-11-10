@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Odeinat-אדינת</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Odeinat-d1e670992" n="Odeinat-אדינת">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e8379-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Odeinat-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אדינת</persName>
+               <persName type="lemma" xml:lang="en">Odeinat</persName>
+               <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn589"/>
+               </persName>
+               <state type="desc">
+                  <note>Barshemesh (1) and <ref corresp="#Vol-4-B_F-d8e488-person" type="relation" n="son-of">Miriam (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Palmyra, Mordtmann</note>
+               </state>
+               <bibl>CIS2/3, 4023</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn590"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra</note>
+               </state>
+               <floruit notBefore="0226" notAfter="0226">226 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn591"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

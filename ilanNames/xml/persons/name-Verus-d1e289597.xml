@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Verus-Verus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Verus-d1e289597" n="Verus-Verus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e5438-person"
+                    n="Vol-1-L_M-Verus-1">
+               <persName type="lemma">Verus</persName>
+               <persName type="lemma" xml:lang="en">Verus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Βερουτος<ref type="note" corresp="#Vol-1-L_M-ftn368"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e48058-person" type="relation" n="father-of">Azariah (9)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Akeldama, Avni-Greenhut</note>
+               </state>
+               <bibl>Ilan,IAAR1 (1996) no. 7</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-1-L_M-ftn369"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-L_M-ftn370"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-L_M-d8e2016-person"
+                    n="Vol-2-Vol-1-ADD-L_M-Latin-Males-Verus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Verus</persName>
+               <persName type="lemma" xml:lang="en">Verus</persName>
+               <persName>Βεροῦθος<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn166"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Dimus (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Akeldama</note>
+               </state>
+               <bibl>CIIP1/1, 305</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn167"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Nicolaus-Νικόλαος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Nicolaus-d1e540027" n="Nicolaus-Νικόλαος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e59752-person"
+                    n="Vol-3-G_M-Greek-Males-Nicolaus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Νικόλαος</persName>
+               <persName type="lemma" xml:lang="en">Nicolaus</persName>
+               <persName>Νικολάο<ref type="note" corresp="#Vol-3-G_M-ftn3441"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-S-G_M-d8e3896-person" type="relation" n="father-of">Thetsas (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Vienna</note>
+               </state>
+               <bibl>P. Harrauer 33:104</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3442"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e59785-person"
+                    n="Vol-3-G_M-Greek-Males-Nicolaus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Νικόλαος</persName>
+               <persName type="lemma" xml:lang="en">Nicolaus</persName>
+               <persName>Νεικόλαος<ref type="note" corresp="#Vol-3-G_M-ftn3443"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e70475-person" type="relation" n="son-of">Seleucus (4)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Larissa, Oehler</note>
+               </state>
+               <bibl>CIJ707</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3444"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0399">1st-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e59823-person"
+                    n="Vol-3-G_M-Greek-Males-Nicolaus-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Νικόλαος</persName>
+               <persName type="lemma" xml:lang="en">Nicolaus</persName>
+               <persName>Νικολάου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e2777-person" type="relation" n="father-of">Eleazar (17)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Fayum, Lefèbvre</note>
+               </state>
+               <bibl>CIJ1531</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3445"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0199" notAfter="-0100">2ndC BCE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e59855-person"
+                    n="Vol-3-G_M-Greek-Males-Nicolaus-4">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Νικόλαος</persName>
+               <persName type="lemma" xml:lang="en">Nicolaus</persName>
+               <persName>Νικολάου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e14050-person" type="relation" n="father-of">Achaius (3)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Hermopolis, Jouguet</note>
+               </state>
+               <bibl>JIGRE155:203</bibl>
+               <state type="addl-Descr">
+                  <note>Idumean<ref type="note" corresp="#Vol-3-G_M-ftn3446"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0079" notAfter="-0079">79 BCE<ref type="note" corresp="#Vol-3-G_M-ftn3447"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

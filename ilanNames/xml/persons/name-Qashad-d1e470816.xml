@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Qashad-قشد</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Qashad-d1e470816" n="Qashad-قشد">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-4-ADD-A_M-d8e956-person"
+                    n="Vol-2-Vol-4-ADD-A_M-Arabic-Males-Qashad-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">قشد</persName>
+               <persName type="lemma" xml:lang="en">Qashad</persName>
+               <persName>קשאדן<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn73"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e29770-person" type="relation" n="son-of">Isaac (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Yemen</note>
+               </state>
+               <bibl>Robin, “Ḥimyar et Israel,” no. 5</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn74"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arabia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0599">4th-6thC CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn75"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

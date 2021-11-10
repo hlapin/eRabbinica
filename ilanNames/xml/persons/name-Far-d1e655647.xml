@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Farā-Farā</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Far-d1e655647" n="Farā-Farā">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e3049-person"
+                    n="Vol-4-I_M-Iranian-Males-Farā-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Farā</persName>
+               <persName type="lemma" xml:lang="en">Farā</persName>
+               <persName>Φαρᾶς<ref type="note" corresp="#Vol-4-I_M-ftn262"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-I_M-ftn263"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Bratke,Religionsgespräch, 28</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>Christian convert<ref type="note" corresp="#Vol-4-I_M-ftn264"/>; fictitious<ref type="note" corresp="#Vol-4-I_M-ftn265"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Persia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0699">4th-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn266"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

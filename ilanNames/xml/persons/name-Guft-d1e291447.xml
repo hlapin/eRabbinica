@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Guftī-Guftī</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Guft-d1e291447" n="Guftī-Guftī">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-P_M-d2e1086-person"
+                    n="Vol-1-P_M-Guftī-1">
+               <persName type="lemma">Guftī</persName>
+               <persName type="lemma" xml:lang="en">Guftī</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Γυφθέος<ref type="note" corresp="#Vol-1-P_M-ftn75"/>
+               </persName>
+               <persName xml:lang="gr">Τεφθέος<ref type="note" corresp="#Vol-1-P_M-ftn76"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ5:474 (Schalit,NB, 36)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">70 CE<ref type="note" corresp="#Vol-1-P_M-ftn77"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

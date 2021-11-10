@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Aprus-Aprus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Aprus-d1e573041" n="Aprus-Aprus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e3517-person"
+                    n="Vol-3-L_M-Latin-Males-Aprus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Aprus</persName>
+               <persName type="lemma" xml:lang="en">Aprus</persName>
+               <persName>̓̀Απρος<ref type="note" corresp="#Vol-3-L_M-ftn213"/>
+               </persName>
+               <state type="desc">
+                  <note>Glauconianus (1), Aurelia (18) <ref corresp="#Vol-3-L_F-d8e1674-person" type="relation" n="husband-of">Augusta (1)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Hierapolis, Judeich</note>
+               </state>
+               <bibl>CIJ775</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn214"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

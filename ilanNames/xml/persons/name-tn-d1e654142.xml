@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ātūn-Ātūn</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-tn-d1e654142" n="Ātūn-Ātūn">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e1716-person"
+                    n="Vol-4-I_M-Iranian-Males-Ātūn-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ātūn</persName>
+               <persName type="lemma" xml:lang="en">Ātūn</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-I_M-ftn151"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_F-d8e6807-person" type="relation" n="son-of">Karkōē (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Nippur, Gordon</note>
+               </state>
+               <bibl>Isbell, no. 48</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn152"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn153"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

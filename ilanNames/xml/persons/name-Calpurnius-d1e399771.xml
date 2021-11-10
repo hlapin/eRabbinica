@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Calpurnius-Calpurnius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Calpurnius-d1e399771"
+                     n="Calpurnius-Calpurnius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e1959-person"
+                    n="Vol-2-L_M-Latin-Males-Calpurnius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Calpurnius</persName>
+               <persName type="lemma" xml:lang="en">Calpurnius</persName>
+               <persName>Καλπούρνι<ref type="note" corresp="#Vol-2-L_M-ftn152"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1a, no. 297</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn153"/>
+                  </note>
+               </state>
+               <floruit>3rd-5thC<ref type="note" corresp="#Vol-2-L_M-ftn154"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Calypso-Καλυψώ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Calypso-d1e500904" n="Calypso-Καλυψώ">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e13258-person"
+                    n="Vol-3-G_F-Greek-Females-Calypso-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Καλυψώ</persName>
+               <persName type="lemma" xml:lang="en">Calypso</persName>
+               <persName>Kalypso<ref type="note" corresp="#Vol-3-G_F-ftn748"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_F-ftn749"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Kaibel</note>
+               </state>
+               <bibl>JIGRE141</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn750"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Rome / Egypt<ref type="note" corresp="#Vol-3-G_F-ftn751"/>
+                  </note>
+               </state>
+               <floruit notBefore="0100" notAfter="0199">2ndC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Shiqlai-שיקלי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Shiqlai-d1e450609" n="Shiqlai-שיקלי">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e24900-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Shiqlai-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שיקלי</persName>
+               <persName type="lemma" xml:lang="en">Shiqlai</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e15355-person" type="relation" n="father-of">Judah (42)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yKet9:10, 33c (Kosovsky,Yerushalmi, 324)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn1576"/>
+                  </note>
+               </state>
+               <floruit>4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn1577"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

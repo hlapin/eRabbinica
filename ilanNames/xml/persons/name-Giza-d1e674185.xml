@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Giza-גיזא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Giza-d1e674185" n="Giza-גיזא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e13370-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Giza-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">גיזא</persName>
+               <persName type="lemma" xml:lang="en">Giza</persName>
+               <persName>גוזא<ref type="note" corresp="#Vol-4-S-H_M-ftn932"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e34580-person"
+                          type="relation"
+                          n="father-of">Taḥlifa (11)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bʿAZ69a (Kosowsky,Babylonico, 330)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn933"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0399">4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn934"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e13413-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Giza-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">גיזא</persName>
+               <persName type="lemma" xml:lang="en">Giza</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-S-H_M-ftn935"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>SOZ10, 2</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn936"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0522" notAfter="0522">522 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn937"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

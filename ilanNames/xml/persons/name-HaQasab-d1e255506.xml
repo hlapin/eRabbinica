@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - HaQasab-הקצב</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-HaQasab-d1e255506" n="HaQasab-הקצב">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-Ha_Names-d2e650-person"
+                    n="Vol-1-Ha_Names-HaQasab-1">
+               <persName type="lemma">הקצב</persName>
+               <persName type="lemma" xml:lang="en">HaQasab</persName>
+               <sex cert="high">Names</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e10266-person" type="relation" n="father-of">Zachariah (17)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>mKet2:9 (Kasovsky,Mishnae, 1598)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-1-Ha_Names-ftn40"/>
+                  </note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-Ha_Names-ftn41"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

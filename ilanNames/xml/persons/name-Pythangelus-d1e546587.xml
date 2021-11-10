@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Pythangelus-Πυθάγγελος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Pythangelus-d1e546587"
+                     n="Pythangelus-Πυθάγγελος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e69269-person"
+                    n="Vol-3-G_M-Greek-Males-Pythangelus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πυθάγγελος</persName>
+               <persName type="lemma" xml:lang="en">Pythangelus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Joseph (10)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Thebes, Wilcken</note>
+               </state>
+               <bibl>CPJ89</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4000"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0154" notAfter="-0154">154 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4001"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

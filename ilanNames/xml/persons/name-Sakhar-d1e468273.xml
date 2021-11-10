@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sakhar-סכר</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sakhar-d1e468273" n="Sakhar-סכר">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-P_M-d8e1909-person"
+                    n="Vol-2-Vol-1-ADD-P_M-Persian-Males-Sakhar-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">סכר</persName>
+               <persName type="lemma" xml:lang="en">Sakhar</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Jerusalem?</note>
+               </state>
+               <bibl>Puech,EI20 (1989) 161*</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-70 CE?<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn132"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

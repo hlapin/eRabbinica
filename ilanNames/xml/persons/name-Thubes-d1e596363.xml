@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Thubes-Thubes</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Thubes-d1e596363" n="Thubes-Thubes">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-G_F-d8e552-person"
+                    n="Vol-3-S-G_F-Semitic-Greek-Females-Thubes-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Thubes</persName>
+               <persName type="lemma" xml:lang="en">Thubes</persName>
+               <persName>Θυβες</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="mother-of">Judah (87)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, Sofiana, Sciacca</note>
+               </state>
+               <bibl>JIWE1, 159</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-S-G_F-ftn31"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Sicily</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

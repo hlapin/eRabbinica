@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Charito-Χαριτώ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Charito-d1e506604" n="Charito-Χαριτώ">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e19478-person"
+                    n="Vol-3-G_F-Greek-Females-Charito-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Χαριτώ</persName>
+               <persName type="lemma" xml:lang="en">Charito</persName>
+               <persName>Χαριτ<ref type="note" corresp="#Vol-3-G_F-ftn1110"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e26895-person"
+                          type="relation"
+                          n="daughter-of">Epiphanius (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Corycus</note>
+               </state>
+               <bibl>IJO2, 243</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-3-G_F-ftn1111"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0599">4th-6thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

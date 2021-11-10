@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Magius-Magius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Magius-d1e582125" n="Magius-Magius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e25601-person"
+                    n="Vol-3-L_M-Latin-Males-Magius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Magius</persName>
+               <persName type="lemma" xml:lang="en">Magius</persName>
+               <persName>Μαγιᾶ<ref type="note" corresp="#Vol-3-L_M-ftn1531"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e37887-person" type="relation" n="father-of">Simon (49)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Turner</note>
+               </state>
+               <bibl>CPJ501</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1532"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0399">4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e25638-person"
+                    n="Vol-3-L_M-Latin-Males-Magius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Magius</persName>
+               <persName type="lemma" xml:lang="en">Magius</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Müller</note>
+               </state>
+               <bibl>JIWE2, p. 2</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1533"/>; real?<ref type="note" corresp="#Vol-3-L_M-ftn1534"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e25676-person"
+                    n="Vol-3-L_M-Latin-Males-Magius-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Magius</persName>
+               <persName type="lemma" xml:lang="en">Magius</persName>
+               <persName>Μαγίου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_F-d8e8260-person" type="relation" n="father-of">Flaccia (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira, Oliverio</note>
+               </state>
+               <bibl>CJZC62c</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1535"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit>Pre-117 CE?</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

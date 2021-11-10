@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Cyriacus-Κυριακός</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Cyriacus-d1e533989" n="Cyriacus-Κυριακός">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e51433-person"
+                    n="Vol-3-G_M-Greek-Males-Cyriacus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Κυριακός</persName>
+               <persName type="lemma" xml:lang="en">Cyriacus</persName>
+               <persName>Cyriacus</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_F-d8e1202-person" type="relation" n="husband-of">Joanna (1)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Gregorius, I, 69,CCSL140, 78</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2968"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Sicily</note>
+               </state>
+               <floruit notBefore="0591" notAfter="0591">591 CE<ref type="note" corresp="#Vol-3-G_M-ftn2969"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Qorḥa-קרחה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Qorha-d1e449568" n="Qorḥa-קרחה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e23881-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Qorḥa-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">קרחה</persName>
+               <persName type="lemma" xml:lang="en">Qorḥa</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e6620-person" type="relation" n="father-of">Ami (9)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yBB10:8, 17d (Kosovsky,Yerushalmi, 97)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn1506"/>
+                  </note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1507"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

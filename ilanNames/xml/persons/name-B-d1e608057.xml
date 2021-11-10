@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Bāṭā-باطا</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-B-d1e608057" n="Bāṭā-باطا">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e1261-person"
+                    n="Vol-4-A_M-Arabic-Males-Bāṭā-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">باطا</persName>
+               <persName type="lemma" xml:lang="en">Bāṭā</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_M-d8e5627-person" type="relation" n="father-of">Zubayr (1)’s father</ref>, <ref corresp="#Vol-4-A_M-d8e13235-person" type="relation" n="son-of">Wahb (1)’s son</ref>, of the Banū Qurayẓa<ref type="note" corresp="#Vol-4-A_M-ftn107"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Hishām,Leben Muhammed’s, 352</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-A_M-ftn108"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0500" notAfter="0599">6thC CE<ref type="note" corresp="#Vol-4-A_M-ftn109"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

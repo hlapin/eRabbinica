@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Keyaniḥaye-Keyaniḥaye</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Keyaniaye-d1e658642"
+                     n="Keyaniḥaye-Keyaniḥaye">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e5966-person"
+                    n="Vol-4-I_M-Iranian-Males-Keyaniḥaye-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Keyaniḥaye</persName>
+               <persName type="lemma" xml:lang="en">Keyaniḥaye</persName>
+               <persName>כיליחיי<ref type="note" corresp="#Vol-4-I_M-ftn507"/>
+               </persName>
+               <persName>/כיניחיי<ref type="note" corresp="#Vol-4-I_M-ftn508"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_F-d8e4008-person" type="relation" n="son-of">Ḥatai (4)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Borsippa</note>
+               </state>
+               <bibl>Harviainen,Studia Orientalia51:14 (1981) 4-5</bibl>
+               <state type="addl-Descr">
+                  <note>Christian?<ref type="note" corresp="#Vol-4-I_M-ftn509"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn510"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

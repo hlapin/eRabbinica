@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hippalus-̔́Ιππαλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hippalus-d1e531501" n="Hippalus-̔́Ιππαλος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e48446-person"
+                    n="Vol-3-G_M-Greek-Males-Hippalus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̔́Ιππαλος</persName>
+               <persName type="lemma" xml:lang="en">Hippalus</persName>
+               <persName>̔Ιππάλου</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Heracleopolis</note>
+               </state>
+               <bibl>PC29 (2001) 13</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2783"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0136" notAfter="-0136">136 BCE<ref type="note" corresp="#Vol-3-G_M-ftn2784"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e48484-person"
+                    n="Vol-3-G_M-Greek-Males-Hippalus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̔́Ιππαλος</persName>
+               <persName type="lemma" xml:lang="en">Hippalus</persName>
+               <persName>̔Ιππάλο<ref type="note" corresp="#Vol-3-G_M-ftn2785"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e68544-person" type="relation" n="father-of">Ptolemaius (30)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Vienna</note>
+               </state>
+               <bibl>P. Harrauer 33:83</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2786"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

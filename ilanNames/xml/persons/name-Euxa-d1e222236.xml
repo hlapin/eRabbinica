@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Euxa-Ε̓ξᾶ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Euxa-d1e222236" n="Euxa-Ε̓ξᾶ">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e7032-person"
+                    n="Vol-1-G_M-Euxa-1">
+               <persName type="lemma">Ε̓ξᾶ</persName>
+               <persName type="lemma" xml:lang="en">Euxa</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">אפקשיון<ref type="note" corresp="#Vol-1-G_M-ftn498"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e46453-person" type="relation" n="father-of">Nahum (5)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>bYoma28b (Kosowsky,Babylonico, 280)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname?<ref type="note" corresp="#Vol-1-G_M-ftn499"/>
+                  </note>
+               </state>
+               <floruit notBefore="0200" notAfter="0200">Pre-200 CE<ref type="note" corresp="#Vol-1-G_M-ftn500"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

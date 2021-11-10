@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Theoctistus-Θεόκτιστος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Theoctistus-d1e530326"
+                     n="Theoctistus-Θεόκτιστος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e45183-person"
+                    n="Vol-3-G_M-Greek-Males-Theoctistus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Θεόκτιστος</persName>
+               <persName type="lemma" xml:lang="en">Theoctistus</persName>
+               <persName>תיוקט[יסט]<ref type="note" corresp="#Vol-3-G_M-ftn2597"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Vienna</note>
+               </state>
+               <bibl>Sirat,PCHTE, Pl. 15 (H47)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2598"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0499">5thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e45221-person"
+                    n="Vol-3-G_M-Greek-Males-Theoctistus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Θεόκτιστος</persName>
+               <persName type="lemma" xml:lang="en">Theoctistus</persName>
+               <persName>Θεονκτίστου<ref type="note" corresp="#Vol-3-G_M-ftn2599"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_F-d8e9342-person" type="relation" n="son-of">Eutychia (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Athens, Koumanoudis</note>
+               </state>
+               <bibl>CIJ712</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2600"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0499">4th-5thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e45262-person"
+                    n="Vol-3-G_M-Greek-Males-Theoctistus-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Θεόκτιστος</persName>
+               <persName type="lemma" xml:lang="en">Theoctistus</persName>
+               <persName>Θεοκτίστου</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Jar, synagogue store, Sardis, Hanfmann</note>
+               </state>
+               <bibl>IJO2, 57</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2601"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0616" notAfter="0616">Pre-616 CE<ref type="note" corresp="#Vol-3-G_M-ftn2602"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

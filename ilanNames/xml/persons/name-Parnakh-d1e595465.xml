@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Parnakh-Parnakh</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Parnakh-d1e595465" n="Parnakh-Parnakh">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-P_M-d8e773-person"
+                    n="Vol-3-P_M-Persian-Males-Parnakh-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Parnakh</persName>
+               <persName type="lemma" xml:lang="en">Parnakh</persName>
+               <persName>Φαρνακίω[ν]<ref type="note" corresp="#Vol-3-P_M-ftn58"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Manumission inscription, Gorgippia,<ref type="note" corresp="#Vol-3-P_M-ftn59"/>Latyšev</note>
+               </state>
+               <bibl>IJO1, BS25</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-P_M-ftn60"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Bosphoran Kingdom</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0199">1st-2ndC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

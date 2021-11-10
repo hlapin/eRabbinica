@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hamduri-Hamduri</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hamduri-d1e656749" n="Hamduri-Hamduri">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e4302-person"
+                    n="Vol-4-I_M-Iranian-Males-Hamduri-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Hamduri</persName>
+               <persName type="lemma" xml:lang="en">Hamduri</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-I_M-ftn370"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-I_M-ftn371"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bShab107b (Kosowsky,Babylonico, 416)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-I_M-ftn372"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE<ref type="note" corresp="#Vol-4-I_M-ftn373"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e4347-person"
+                    n="Vol-4-I_M-Iranian-Males-Hamduri-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Hamduri</persName>
+               <persName type="lemma" xml:lang="en">Hamduri</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-I_M-ftn374"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e4223-person" type="relation" n="father-of">Abdimi (6)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bSuk20a (Kosowsky,Babylonico, 416)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-I_M-ftn375"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE<ref type="note" corresp="#Vol-4-I_M-ftn376"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

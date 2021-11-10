@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Nedabiah-נדביה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Nedabiah-d1e141275" n="Nedabiah-נדביה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e46255-person"
+                    n="Vol-1-B_M-Nedabiah-1">
+               <persName type="lemma">נדביה</persName>
+               <persName type="lemma" xml:lang="en">Nedabiah</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">נדבה<ref type="note" corresp="#Vol-1-B_M-ftn3569"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e57223-person" type="relation" n="father-of">Simon (158)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Kh. ‘Aitun</note>
+               </state>
+               <bibl>Kloner,Qadmoniot18 (1986) 99</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname?<ref type="note" corresp="#Vol-1-B_M-ftn3570"/>
+                  </note>
+               </state>
+               <floruit notBefore="0100" notAfter="0199">2ndC CE<ref type="note" corresp="#Vol-1-B_M-ftn3571"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

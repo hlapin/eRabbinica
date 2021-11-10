@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Zenobius-Ζηνόβιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Zenobius-d1e374408" n="Zenobius-Ζηνόβιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e7433-person"
+                    n="Vol-2-G_M-Greek-Males-Zenobius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ζηνόβιος</persName>
+               <persName type="lemma" xml:lang="en">Zenobius</persName>
+               <persName>Ζηνοβίω</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_M-d8e18430-person" type="relation" n="son-of">Orion (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1a, no. 274</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn511"/>
+                  </note>
+               </state>
+               <floruit>4th-6thC<ref type="note" corresp="#Vol-2-G_M-ftn512"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-G_M-d8e815-person"
+                    n="Vol-4-G_M-Greek-Males-Zenobius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ζηνόβιος</persName>
+               <persName type="lemma" xml:lang="en">Zenobius</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Zebediah (5), <ref corresp="#Vol-4-B_M-d8e15844-person" type="relation" n="son-of">Levi (8)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Palmyra, de Vogüé</note>
+               </state>
+               <bibl>CIJ820</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-G_M-ftn63"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra</note>
+               </state>
+               <floruit notBefore="0212" notAfter="0212">212 CE<ref type="note" corresp="#Vol-4-G_M-ftn64"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

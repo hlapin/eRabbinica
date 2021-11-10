@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Roxane-Roxane</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Roxane-d1e290272" n="Roxane-Roxane">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-P_F-d2e95-person"
+                    n="Vol-1-P_F-Roxane-1">
+               <persName type="lemma">Roxane</persName>
+               <persName type="lemma" xml:lang="en">Roxane</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="gr">̔Ρωξάνη<ref type="note" corresp="#Vol-1-P_F-ftn5"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e8218-person" type="relation" n="daughter-of">Herod (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ1:563;AJ17:21 (Schalit,NB, 103)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="-0099" notAfter="-0001">1stC BCE<ref type="note" corresp="#Vol-1-P_F-ftn6"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

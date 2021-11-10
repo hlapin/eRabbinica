@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Malka-מלכה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Malka-d1e327244" n="Malka-מלכה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_F-d8e1301-person"
+                    n="Vol-2-B_F-Biblical-Females-Malka-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">מלכה</persName>
+               <persName type="lemma" xml:lang="en">Malka</persName>
+               <persName>Μελχά<ref type="note" corresp="#Vol-2-B_F-ftn92"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_F-d8e2580-person" type="relation" n="daughter-of">Sarah (3)’s daughter</ref>, aged 13<ref type="note" corresp="#Vol-2-B_F-ftn93"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Sichem-Nablus, Berger</note>
+               </state>
+               <bibl>CIJ1169</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan?<ref type="note" corresp="#Vol-2-B_F-ftn94"/>
+                  </note>
+               </state>
+               <floruit>
+                  <ref type="note" corresp="#Vol-2-B_F-ftn95"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

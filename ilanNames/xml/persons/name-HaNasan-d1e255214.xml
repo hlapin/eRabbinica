@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - HaNasan-הנסען</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-HaNasan-d1e255214" n="HaNasan-הנסען">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-Ha_Names-d2e374-person"
+                    n="Vol-1-Ha_Names-HaNasan-1">
+               <persName type="lemma">הנסען</persName>
+               <persName type="lemma" xml:lang="en">HaNasan</persName>
+               <sex cert="high">Names</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e5368-person" type="relation" n="father-of">Eleazar (123)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Muraba‘at</note>
+               </state>
+               <bibl>Mur 74</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-1-Ha_Names-ftn23"/>
+                  </note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-Ha_Names-ftn24"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

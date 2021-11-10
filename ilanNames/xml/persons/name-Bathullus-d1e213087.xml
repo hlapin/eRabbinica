@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Bathullus-Βάθυλλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Bathullus-d1e213087" n="Bathullus-Βάθυλλος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e3982-person"
+                    n="Vol-1-G_M-Bathullus-1">
+               <persName type="lemma">Βάθυλλος</persName>
+               <persName type="lemma" xml:lang="en">Bathullus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e2455-person" type="relation" n="freedman-of">Antipatrus (3)’s freedman</ref>
+                     <ref type="note" corresp="#Vol-1-G_M-ftn280"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ1:601;AJ17:79 (Schalit,NB, 23)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-1-G_M-ftn281"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0004" notAfter="-0004">4 BCE<ref type="note" corresp="#Vol-1-G_M-ftn282"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

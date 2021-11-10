@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hiera-̔Ιέρα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hiera-d1e364458" n="Hiera-̔Ιέρα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e2520-person"
+                    n="Vol-2-G_F-Greek-Females-Hiera-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̔Ιέρα</persName>
+               <persName type="lemma" xml:lang="en">Hiera</persName>
+               <persName>Ηερα<ref type="note" corresp="#Vol-2-G_F-ftn162"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_M-d8e6661-person" type="relation" n="mother-of">Eusebius (5)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, Hebron?<ref type="note" corresp="#Vol-2-G_F-ftn163"/>
+                  </note>
+               </state>
+               <bibl>Lifschitz,RB77 (1970) 81</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn164"/>Title?<ref type="note" corresp="#Vol-2-G_F-ftn165"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-G_F-ftn166"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

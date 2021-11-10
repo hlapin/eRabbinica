@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Bagadates-Bagadates</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Bagadates-d1e290675" n="Bagadates-Bagadates">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-P_M-d2e349-person"
+                    n="Vol-1-P_M-Bagadates-1">
+               <persName type="lemma">Bagadates</persName>
+               <persName type="lemma" xml:lang="en">Bagadates</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Βαγαδάτης<ref type="note" corresp="#Vol-1-P_M-ftn25"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e12576-person" type="relation" n="father-of">Hanan (5)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ5:531 (Schalit,NB, 23)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">70 CE<ref type="note" corresp="#Vol-1-P_M-ftn26"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-P_M-d2e381-person"
+                    n="Vol-1-P_M-Bagadates-2">
+               <persName type="lemma">Bagadates</persName>
+               <persName type="lemma" xml:lang="en">Bagadates</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Βαγαδάτης</persName>
+               <persName xml:lang="gr">Μαγαδδάτης<ref type="note" corresp="#Vol-1-P_M-ftn27"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e3796-person" type="relation" n="father-of">Archelaus (2)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ6:229 (Schalit,NB, 80)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">70 CE<ref type="note" corresp="#Vol-1-P_M-ftn28"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

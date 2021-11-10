@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Polycarpus-Πολύκαρπος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Polycarpus-d1e545037"
+                     n="Polycarpus-Πολύκαρπος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e65730-person"
+                    n="Vol-3-G_M-Greek-Males-Polycarpus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πολύκαρπος</persName>
+               <persName type="lemma" xml:lang="en">Polycarpus</persName>
+               <persName>Πολύκαρπο[ς]<ref type="note" corresp="#Vol-3-G_M-ftn3790"/>
+               </persName>
+               <state type="desc">
+                  <note>Aurelia (3) <ref corresp="#Vol-3-B_F-d8e2243-person" type="relation" n="father-of">Mariam (16)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vigna Randanini, Garrucci</note>
+               </state>
+               <bibl>CIJ96</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3791"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

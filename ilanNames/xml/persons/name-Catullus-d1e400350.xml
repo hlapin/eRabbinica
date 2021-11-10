@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Catullus-Catullus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Catullus-d1e400350" n="Catullus-Catullus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e2331-person"
+                    n="Vol-2-L_M-Latin-Males-Catullus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Catullus</persName>
+               <persName type="lemma" xml:lang="en">Catullus</persName>
+               <persName>Κατωλά<ref type="note" corresp="#Vol-2-L_M-ftn180"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Caesarea</note>
+               </state>
+               <bibl>Lehmann &amp; Holum,CMER5, no. 168</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-L_M-ftn181"/>; second name</note>
+               </state>
+               <floruit>4th-6thC</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

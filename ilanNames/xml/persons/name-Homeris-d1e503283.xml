@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Homeris-̔Ομηρίς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Homeris-d1e503283" n="Homeris-̔Ομηρίς">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e16105-person"
+                    n="Vol-3-G_F-Greek-Females-Homeris-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̔Ομηρίς</persName>
+               <persName type="lemma" xml:lang="en">Homeris</persName>
+               <persName>Homeridi</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vog</note>
+               </state>
+               <bibl>CIJ524</bibl>
+               <state type="addl-Descr">
+                  <note>God-fearer?<ref type="note" corresp="#Vol-3-G_F-ftn919"/>
+                  </note>
+               </state>
+               <floruit>Rome</floruit>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

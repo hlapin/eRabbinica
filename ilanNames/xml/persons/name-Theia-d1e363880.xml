@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Theia-Θεία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Theia-d1e363880" n="Theia-Θεία">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e2213-person"
+                    n="Vol-2-G_F-Greek-Females-Theia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Θεία</persName>
+               <persName type="lemma" xml:lang="en">Theia</persName>
+               <persName>Θέης<ref type="note" corresp="#Vol-2-G_F-ftn139"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-G_M-d8e1847-person"
+                          type="relation"
+                          n="daughter-of">Oboto (1)’s daughter</ref>, aged 32<ref type="note" corresp="#Vol-2-G_F-ftn140"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1a, no. 178</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn141"/>
+                  </note>
+               </state>
+               <floruit>445<ref type="note" corresp="#Vol-2-G_F-ftn142"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

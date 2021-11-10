@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ezer-עזר</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ezer-d1e349335" n="Ezer-עזר">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_M-d8e39483-person"
+                    n="Vol-2-B_M-Biblical-Males-Ezer-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עזר</persName>
+               <persName type="lemma" xml:lang="en">Ezer</persName>
+               <persName>–<ref type="note" corresp="#Vol-2-B_M-ftn2594"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e25991-person" type="relation" n="father-of">Joseph (111)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Bar‘am<ref type="note" corresp="#Vol-2-B_M-ftn2595"/>
+                  </note>
+               </state>
+               <bibl>Kedar,AN11 (1964) 9</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-B_M-ftn2596"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

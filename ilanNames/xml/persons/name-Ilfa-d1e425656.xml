@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ilfa-אילפא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ilfa-d1e425656" n="Ilfa-אילפא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e6128-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ilfa-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אילפא</persName>
+               <persName type="lemma" xml:lang="en">Ilfa</persName>
+               <persName>איפה<ref type="note" corresp="#Vol-2-S-H_M-ftn370"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bTaan21a<ref type="note" corresp="#Vol-2-S-H_M-ftn371"/>(Kosowsky,Babylonico, 161-2)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn372"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

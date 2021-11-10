@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - MādereFrahāta-MādereFrahāta</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-MdereFrahta-d1e644280"
+                     n="MādereFrahāta-MādereFrahāta">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e7797-person"
+                    n="Vol-4-I_F-Iranian-Females-MādereFrahāta-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">MādereFrahāta</persName>
+               <persName type="lemma" xml:lang="en">MādereFrahāta</persName>
+               <persName>מאאדאראפרי/מאדאראפרי<ref type="note" corresp="#Vol-4-I_F-ftn638"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_F-d8e308-person Vol-4-I_F-d8e1612-person Vol-4-I_F-d8e9936-person Vol-4-I_M-d8e1763-person Vol-4-I_M-d8e7001-person"
+                          type="relation"
+                          n="daughter-of">Anōš (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Hebrew University</note>
+               </state>
+               <bibl>AMBno. 3</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn639"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn640"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Rusticula-Rusticula</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Rusticula-d1e568070" n="Rusticula-Rusticula">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e31580-person"
+                    n="Vol-3-L_F-Latin-Females-Rusticula-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Rusticula</persName>
+               <persName type="lemma" xml:lang="en">Rusticula</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Vitalianus (1) and <ref corresp="#Vol-3-L_F-d8e26715-person"
+                          type="relation"
+                          n="daughter-of">Martina (3)’s daughter</ref>, aged 3<ref type="note" corresp="#Vol-3-L_F-ftn1087"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Auch, Le Blant</note>
+               </state>
+               <bibl>CIJ94*</bibl>
+               <state type="addl-Descr">
+                  <note>Christian?<ref type="note" corresp="#Vol-3-L_F-ftn1088"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Gaul</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0499">4th-5thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

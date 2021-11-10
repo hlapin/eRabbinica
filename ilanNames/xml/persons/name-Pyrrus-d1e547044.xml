@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Pyrrus-Πύρρος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Pyrrus-d1e547044" n="Pyrrus-Πύρρος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e69683-person"
+                    n="Vol-3-G_M-Greek-Males-Pyrrus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πύρρος</persName>
+               <persName type="lemma" xml:lang="en">Pyrrus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e73654-person" type="relation" n="father-of">Sopatrus (1)’s father</ref>, of Beroea<ref type="note" corresp="#Vol-3-G_M-ftn4027"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Acts 20:4 (VKGNT 1189)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4028"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0053" notAfter="0008">53-8 CE<ref type="note" corresp="#Vol-3-G_M-ftn4029"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e69718-person"
+                    n="Vol-3-G_M-Greek-Males-Pyrrus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πύρρος</persName>
+               <persName type="lemma" xml:lang="en">Pyrrus</persName>
+               <persName>פרס<ref type="note" corresp="#Vol-3-G_M-ftn4030"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Luxor, Cowley</note>
+               </state>
+               <bibl>TADAE3:3:28</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4031"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e69752-person"
+                    n="Vol-3-G_M-Greek-Males-Pyrrus-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πύρρος</persName>
+               <persName type="lemma" xml:lang="en">Pyrrus</persName>
+               <persName>Πύρρου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e22671-person" type="relation" n="father-of">Dositheus (27)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Thebes, Wilcken</note>
+               </state>
+               <bibl>CPJ84</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4032"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0157" notAfter="-0157">157 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4033"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Glabrio-Glabrio</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Glabrio-d1e579588" n="Glabrio-Glabrio">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e18961-person"
+                    n="Vol-3-L_M-Latin-Males-Glabrio-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Glabrio</persName>
+               <persName type="lemma" xml:lang="en">Glabrio</persName>
+               <persName>Γλαβρίω</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn1133"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Cassius Dio,GLAJJ2, 435</bibl>
+               <state type="addl-Descr">
+                  <note>Proselyte<ref type="note" corresp="#Vol-3-L_M-ftn1134"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0095" notAfter="0095">95 CE<ref type="note" corresp="#Vol-3-L_M-ftn1135"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Aaron-אהרון</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Aaron-d1e473622" n="Aaron-אהרון">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_M-d8e1346-person"
+                    n="Vol-3-B_M-Biblical-Males-Aaron-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אהרון</persName>
+               <persName type="lemma" xml:lang="en">Aaron</persName>
+               <persName>̓Αάρων<ref type="note" corresp="#Vol-3-B_M-ftn96"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Fayum, Clauson</note>
+               </state>
+               <bibl>CPJ429</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-B_M-ftn97"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0114" notAfter="0114">114 CE<ref type="note" corresp="#Vol-3-B_M-ftn98"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_M-d8e1387-person"
+                    n="Vol-3-B_M-Biblical-Males-Aaron-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אהרון</persName>
+               <persName type="lemma" xml:lang="en">Aaron</persName>
+               <persName>̓́Αρων<ref type="note" corresp="#Vol-3-B_M-ftn99"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Trikomia</note>
+               </state>
+               <bibl>CPR13, 12:6</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-B_M-ftn100"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Kili-כילי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Kili-d1e682956" n="Kili-כילי">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e24446-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Kili-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">כילי</persName>
+               <persName type="lemma" xml:lang="en">Kili</persName>
+               <persName>כייליל<ref type="note" corresp="#Vol-4-S-H_M-ftn1685"/>
+               </persName>
+               <persName>/יליל<ref type="note" corresp="#Vol-4-S-H_M-ftn1686"/>
+               </persName>
+               <persName>/בילול<ref type="note" corresp="#Vol-4-S-H_M-ftn1687"/>
+               </persName>
+               <persName>/מלל<ref type="note" corresp="#Vol-4-S-H_M-ftn1688"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e4806-person" type="relation" n="father-of">Abbayye (1)’s father</ref>
+                     <ref type="note" corresp="#Vol-4-S-H_M-ftn1689"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bZev118b (Kosowsky,Babylonico, 971)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1690"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1691"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e24509-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Kili-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">כילי</persName>
+               <persName type="lemma" xml:lang="en">Kili</persName>
+               <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1692"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-B_M-d8e13298-person" type="relation" n="son-of">Jacob (13)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Altar dedication inscription, Palmyra, de Vogüé</note>
+               </state>
+               <bibl>CIS2/3, 4029</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn1693"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra</note>
+               </state>
+               <floruit notBefore="0231" notAfter="0231">231 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1694"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

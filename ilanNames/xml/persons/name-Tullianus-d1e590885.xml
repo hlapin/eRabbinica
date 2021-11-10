@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tullianus-Tullianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tullianus-d1e590885" n="Tullianus-Tullianus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e40168-person"
+                    n="Vol-3-L_M-Latin-Males-Tullianus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Tullianus</persName>
+               <persName type="lemma" xml:lang="en">Tullianus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Via Nomentana, Marucchi</note>
+               </state>
+               <bibl>CIJ72</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2405"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e40206-person"
+                    n="Vol-3-L_M-Latin-Males-Tullianus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Tullianus</persName>
+               <persName type="lemma" xml:lang="en">Tullianus</persName>
+               <persName>Tulliani</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_F-d8e30399-person" type="relation" n="owner-of">Quarta (1)’s owner</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Venosa, Lifshitz</note>
+               </state>
+               <bibl>CIJ619e</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2406"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0599">5th-6thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

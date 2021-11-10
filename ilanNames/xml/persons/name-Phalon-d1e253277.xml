@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Phalon-Φάλων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Phalon-d1e253277" n="Phalon-Φάλων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e16976-person"
+                    n="Vol-1-G_M-Phalon-1">
+               <persName type="lemma">Φάλων</persName>
+               <persName type="lemma" xml:lang="en">Phalon</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Φαλωνεί<ref type="note" corresp="#Vol-1-G_M-ftn1219"/>
+               </persName>
+               <state type="desc">
+                  <note>Judah (138), Simon (182) and <ref corresp="#Vol-1-B_M-d2e50982-person" type="relation" n="father-of">Saul (20)’s father</ref>
+                     <ref type="note" corresp="#Vol-1-G_M-ftn1220"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Parchment, Muraba‘at</note>
+               </state>
+               <bibl>Mur nos. 92, 94</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname?<ref type="note" corresp="#Vol-1-G_M-ftn1221"/>
+                  </note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-G_M-ftn1222"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

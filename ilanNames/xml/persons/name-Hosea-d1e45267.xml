@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hosea-הושע</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hosea-d1e45267" n="Hosea-הושע">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e8930-person"
+                    n="Vol-1-B_M-Hosea-1">
+               <persName type="lemma">הושע</persName>
+               <persName type="lemma" xml:lang="en">Hosea</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e56142-person" type="relation" n="son-of">Simon (114)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Hizmeh, Avigad, 1967</note>
+               </state>
+               <bibl>CJO, no. 38</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn637"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e8949-person"
+                    n="Vol-1-B_M-Hosea-2">
+               <persName type="lemma">הושע</persName>
+               <persName type="lemma" xml:lang="en">Hosea</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Seal, Jerusalem</note>
+               </state>
+               <bibl>Sukenik,Kedem1 (1942) 20</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn638"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e8978-person"
+                    n="Vol-1-B_M-Hosea-3">
+               <persName type="lemma">הושע</persName>
+               <persName type="lemma" xml:lang="en">Hosea</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Masada</note>
+               </state>
+               <bibl>Mas no. 665</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0073" notAfter="0073">Pre-73 CE<ref type="note" corresp="#Vol-1-B_M-ftn639"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

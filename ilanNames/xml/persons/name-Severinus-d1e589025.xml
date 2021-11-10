@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Severinus-Severinus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Severinus-d1e589025" n="Severinus-Severinus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e37624-person"
+                    n="Vol-3-L_M-Latin-Males-Severinus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Severinus</persName>
+               <persName type="lemma" xml:lang="en">Severinus</persName>
+               <persName>Σεβηρανῷ<ref type="note" corresp="#Vol-3-L_M-ftn2249"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_F-d8e909-person"
+                          type="relation"
+                          n="foster-child-of">Alexandria (3)’s foster-child</ref>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn2250"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vigna Randanini, Garrucci</note>
+               </state>
+               <bibl>CIJ144</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2251"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e37680-person"
+                    n="Vol-3-L_M-Latin-Males-Severinus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Severinus</persName>
+               <persName type="lemma" xml:lang="en">Severinus</persName>
+               <persName>Σεουηριανῷ<ref type="note" corresp="#Vol-3-L_M-ftn2252"/>
+               </persName>
+               <state type="desc">
+                  <note>Messius (1) Alexander (38), Messia (1) Severina (1) <ref corresp="#Vol-3-L_F-d8e24619-person" type="relation" n="brother-of">Longia (1)’s brother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Moretti</note>
+               </state>
+               <bibl>CIJ733g</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2253"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

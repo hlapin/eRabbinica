@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Demetria-Δημητρία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Demetria-d1e494544" n="Demetria-Δημητρία">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e5333-person"
+                    n="Vol-3-G_F-Greek-Females-Demetria-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Δημητρία</persName>
+               <persName type="lemma" xml:lang="en">Demetria</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e65530-person"
+                          type="relation"
+                          n="daughter-of">Polyarchus (2)’s daughter</ref>, aged 73<ref type="note" corresp="#Vol-3-G_F-ftn296"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira, Reynolds</note>
+               </state>
+               <bibl>CJZC58c</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn297"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit>20s CE<ref type="note" corresp="#Vol-3-G_F-ftn298"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e5370-person"
+                    n="Vol-3-G_F-Greek-Females-Demetria-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Δημητρία</persName>
+               <persName type="lemma" xml:lang="en">Demetria</persName>
+               <persName>דמיטרין<ref type="note" corresp="#Vol-3-G_F-ftn299"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_F-d8e7208-person" type="relation" n="mother-of">Salome (17)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, Ağabeyli</note>
+               </state>
+               <bibl>AMBno. 7</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn300"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-G_F-ftn301"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

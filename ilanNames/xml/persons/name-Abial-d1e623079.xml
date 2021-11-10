@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Abiṭal-אביטל</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Abial-d1e623079" n="Abiṭal-אביטל">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_M-d8e62-person"
+                    n="Vol-4-B_M-Biblical-Males-Abiṭal-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אביטל</persName>
+               <persName type="lemma" xml:lang="en">Abiṭal</persName>
+               <persName>אביטול<ref type="note" corresp="#Vol-4-B_M-ftn8"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-B_M-ftn9"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>bMQ18a(Kosowsky,Babylonico, 32)</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-B_M-ftn10"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0247" notAfter="0247">Post-247 CE<ref type="note" corresp="#Vol-4-B_M-ftn11"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

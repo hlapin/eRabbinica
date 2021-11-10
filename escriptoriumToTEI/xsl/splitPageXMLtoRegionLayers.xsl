@@ -10,12 +10,12 @@
     
 
     <!-- 2021-08-11 -->
-    <!-- takes on or two lists of region types and produces one or two copies of XML -->
+    <!-- takes one or two lists of region types and produces one or two copies of XML -->
     <!-- second list can be empty. If it is, create one layer only -->
     <!-- for omitted transcription, remove text, leaving <Unicode/> empty -->
     <!-- skip any regions not on the two lists -->
 
-    <xsl:param name="regionsForLayer1" select="'Commentary Margin Illustration'">
+    <xsl:param name="regionsForLayer1" select="'Main Paratext'">
         <!-- create a layer that includes metadata and retain transcriptions these region types -->
     </xsl:param>
     <xsl:param name="regionsForLayer2"/>
@@ -24,8 +24,8 @@
         <!-- if empty do not create layer 
     </xsl:param>-->
     <xsl:param name="dataRoot"
-        select="'file:///C:/Users/hlapin/Documents/GitHub/eRabbinica/escriptoriumToTEI/pagexml/export_bnf_328_329_maimonides/'"/>
-    <xsl:param name="inData" select="'commentary-raw/'"/>
+        select="'file:///C:/Users/hlapin/Documents/GitHub/eRabbinica/escriptoriumToTEI/pagexml/export_naples_ed_princ/'"/>
+    <xsl:param name="inData" select="'main-raw/'"/>
     <xsl:param name="outData" select="''"/>
 
 

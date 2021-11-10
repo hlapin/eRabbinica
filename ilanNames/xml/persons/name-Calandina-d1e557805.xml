@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Calandina-Calandina</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Calandina-d1e557805" n="Calandina-Calandina">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e4676-person"
+                    n="Vol-3-L_F-Latin-Females-Calandina-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Calandina</persName>
+               <persName type="lemma" xml:lang="en">Calandina</persName>
+               <persName>Καλανδία<ref type="note" corresp="#Vol-3-L_F-ftn242"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Thessalonica, Oehler</note>
+               </state>
+               <bibl>CIJ66*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn243"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn244"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

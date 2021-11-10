@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Zakhut-זכות</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Zakhut-d1e668122" n="Zakhut-זכות">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_F-d8e3616-person"
+                    n="Vol-4-S-H_F-Semitic-Hebrew-Females-Zakhut-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">זכות</persName>
+               <persName type="lemma" xml:lang="en">Zakhut</persName>
+               <persName>זכוש<ref type="note" corresp="#Vol-4-S-H_F-ftn273"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-B_M-d8e10937-person" type="relation" n="mother-of">Jonathan (5)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Toronto</note>
+               </state>
+               <bibl>McCullough,JMIB, B</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-H_F-ftn274"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_F-ftn275"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

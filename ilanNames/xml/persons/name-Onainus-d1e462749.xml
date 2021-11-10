@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Onainus-̓́Οναινος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Onainus-d1e462749" n="Onainus-̓́Οναινος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-G_M-d8e3683-person"
+                    n="Vol-2-Vol-1-ADD-G_M-Greek-Males-Onainus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓́Οναινος</persName>
+               <persName type="lemma" xml:lang="en">Onainus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Mattathias (11)’s son</ref>, <ref corresp="#Vol-2-L_M-d8e430-person" type="relation" n="brother-of">Amerius (1)’s brother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory altar inscription, Hauran<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn251"/>
+                  </note>
+               </state>
+               <bibl>Ewing,PEFQS27 (1895) 55</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn252"/>
+                  </note>
+               </state>
+               <floruit notBefore="0126" notAfter="0126">126 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn253"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Pušbeh-Pušbeh</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Pubeh-d1e648947" n="Pušbeh-Pušbeh">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e11677-person"
+                    n="Vol-4-I_F-Iranian-Females-Pušbeh-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Pušbeh</persName>
+               <persName type="lemma" xml:lang="en">Pušbeh</persName>
+               <persName>פושבי<ref type="note" corresp="#Vol-4-I_F-ftn955"/>
+               </persName>
+               <state type="desc">
+                  <note>Farruχ(3), Nēwān-Dūχt (1) and <ref corresp="#" type="relation" n="mother-of">Ābān-Dūχt (1)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Nippur, Montgomery</note>
+               </state>
+               <bibl>Isbell, no. 10</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn956"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn957"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

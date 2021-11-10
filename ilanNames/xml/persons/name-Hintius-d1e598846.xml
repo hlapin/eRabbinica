@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hintius-Hintius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hintius-d1e598846" n="Hintius-Hintius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-G_M-d8e2300-person"
+                    n="Vol-3-S-G_M-Semitic-Greek-Males-Hintius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Hintius</persName>
+               <persName type="lemma" xml:lang="en">Hintius</persName>
+               <persName>Hintiu</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_F-d8e7923-person" type="relation" n="husband-of">Sarah (17)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Venosa, Angelis &amp; Smith</note>
+               </state>
+               <bibl>CIJ608</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-S-G_M-ftn143"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0599">5th-6thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

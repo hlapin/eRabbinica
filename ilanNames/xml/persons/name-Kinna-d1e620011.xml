@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Kināna-كنانة</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Kinna-d1e620011" n="Kināna-كنانة">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e11603-person"
+                    n="Vol-4-A_M-Arabic-Males-Kināna-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">كنانة</persName>
+               <persName type="lemma" xml:lang="en">Kināna</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_M-d8e5149-person" type="relation" n="son-of">Rabīʿ (1)’s son</ref>, <ref corresp="#Vol-4-A_M-d8e3520-person" type="relation" n="grandson-of">Ḥuqayq (1)’s grandson</ref>, Shalum (2) and <ref corresp="#Vol-4-A_M-d8e5194-person" type="relation" n="brother-of">Rabīʿ (2)’s brother</ref>
+                     <ref type="note" corresp="#Vol-4-A_M-ftn927"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Hishām,Leben Muhammed’s, 351</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-A_M-ftn928"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0632" notAfter="0632">Pre-632 CE<ref type="note" corresp="#Vol-4-A_M-ftn929"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e11643-person"
+                    n="Vol-4-A_M-Arabic-Males-Kināna-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">كنانة</persName>
+               <persName type="lemma" xml:lang="en">Kināna</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Ṣūriyāʾ (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Hishām,Leben Muhammed’s, 352</bibl>
+               <state type="addl-Descr">
+                  <note>Muslim convert?<ref type="note" corresp="#Vol-4-A_M-ftn930"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0632" notAfter="0632">Pre-632 CE<ref type="note" corresp="#Vol-4-A_M-ftn931"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

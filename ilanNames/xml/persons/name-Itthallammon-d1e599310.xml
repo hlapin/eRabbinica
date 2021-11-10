@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Itthallammon-Itthallammon</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Itthallammon-d1e599310"
+                     n="Itthallammon-Itthallammon">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-G_M-d8e2719-person"
+                    n="Vol-3-S-G_M-Semitic-Greek-Males-Itthallammon-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Itthallammon</persName>
+               <persName type="lemma" xml:lang="en">Itthallammon</persName>
+               <persName>̓Ιτθαλλαμμονος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e8626-person" type="relation" n="son-of">Apellas (6)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Lanuvium, Applebaum</note>
+               </state>
+               <bibl>CJZC36</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-S-G_M-ftn167"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy/Cyrenaica</note>
+               </state>
+               <floruit notBefore="-0099" notAfter="-0001">1stC BCE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

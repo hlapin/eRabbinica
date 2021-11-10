@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Īlīyafa‘-اليفع</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-lyafa-d1e470073" n="Īlīyafa‘-اليفع">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-4-ADD-A_M-d8e203-person"
+                    n="Vol-2-Vol-4-ADD-A_M-Arabic-Males-Īlīyafa‘-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">اليفع</persName>
+               <persName type="lemma" xml:lang="en">Īlīyafa‘</persName>
+               <persName>אליפע<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn15"/>
+               </persName>
+               <state type="desc">
+                  <note>Arshal (1), <ref corresp="#" type="relation" n="son-of">Haṣbaḥ (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Deed of sale inscription, Ḥaṣi, Yemen</note>
+               </state>
+               <bibl>Robin, “Ḥimyar et Israel,” no. 4</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn16"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arabia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0599">4th-6thC CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn17"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

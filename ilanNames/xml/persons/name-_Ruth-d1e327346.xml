@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - רות Ruth-</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Ruth-d1e327346" n="רות Ruth-">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_F-d8e2003-person"
+                    n="Vol-2-B_F-Biblical-Females-רות Ruth-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma"/>
+               <persName type="lemma" xml:lang="en">רות Ruth</persName>
+               <persName>Ρεούθ<ref type="note" corresp="#Vol-2-B_F-ftn138"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Beth She‘arim, catacomb 1,CIJ1061, 1065</note>
+               </state>
+               <bibl>1.BS1:69, 2. 2:48</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-B_F-ftn139"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Alosmathoutos-Alosmathoutos</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Alosmathoutos-d1e596819"
+                     n="Alosmathoutos-Alosmathoutos">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-G_M-d8e430-person"
+                    n="Vol-3-S-G_M-Semitic-Greek-Males-Alosmathoutos-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Alosmathoutos</persName>
+               <persName type="lemma" xml:lang="en">Alosmathoutos</persName>
+               <persName>̓Αλοσμαθουτος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e1076-person" type="relation" n="father-of">Abraham (22)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Ptolemais, Lefèbvre</note>
+               </state>
+               <bibl>JIGRE154</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-S-G_M-ftn23"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0138" notAfter="-0007">138/7 BCE<ref type="note" corresp="#Vol-3-S-G_M-ftn24"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

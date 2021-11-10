@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Babatha-בבתא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Babatha-d1e299221" n="Babatha-בבתא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_F-d2e431-person"
+                    n="Vol-1-S-H_F-Babatha-1">
+               <persName type="lemma">בבתא</persName>
+               <persName type="lemma" xml:lang="en">Babatha</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="he">בבתה</persName>
+               <persName xml:lang="he">בבתיה<ref type="note" corresp="#Vol-1-S-H_F-ftn31"/>
+               </persName>
+               <persName xml:lang="gr">Βαβαθα<ref type="note" corresp="#Vol-1-S-H_F-ftn32"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyri, Babatha archive</note>
+               </state>
+               <bibl>PYadin 7, 10, 13, 14, 15, 16, 17, 21, 22, 23, 24, 25, 26, 27, 34c, 35</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0124" notAfter="0132">124-32 CE<ref type="note" corresp="#Vol-1-S-H_F-ftn33"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

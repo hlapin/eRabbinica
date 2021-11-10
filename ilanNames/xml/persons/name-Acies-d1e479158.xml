@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Acies-Acies</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Acies-d1e479158" n="Acies-Acies">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e190-person"
+                    n="Vol-3-E_M-Egyptian-Males-Acies-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Acies</persName>
+               <persName type="lemma" xml:lang="en">Acies</persName>
+               <persName>̓Ακιήτ<ref type="note" corresp="#Vol-3-E_M-ftn13"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_F-d8e415-person" type="relation" n="father-of">Marous (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu, Manteuffel</note>
+               </state>
+               <bibl>CPJ171</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-E_M-ftn14"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0075" notAfter="0075">75 CE<ref type="note" corresp="#Vol-3-E_M-ftn15"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e225-person"
+                    n="Vol-3-E_M-Egyptian-Males-Acies-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Acies</persName>
+               <persName type="lemma" xml:lang="en">Acies</persName>
+               <persName>̓Ακιῆτος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e5571-person" type="relation" n="son-of">Pates (4)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu, Manteuffel</note>
+               </state>
+               <bibl>CPJ292</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn16"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0093" notAfter="0093">93 CE<ref type="note" corresp="#Vol-3-E_M-ftn17"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Bezalel-בצלאל</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Bezalel-d1e332519" n="Bezalel-בצלאל">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_M-d8e6487-person"
+                    n="Vol-2-B_M-Biblical-Males-Bezalel-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">בצלאל</persName>
+               <persName type="lemma" xml:lang="en">Bezalel</persName>
+               <persName>בוצלא<ref type="note" corresp="#Vol-2-B_M-ftn454"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Rut Rab1:2 (Hyman,Toldoth, 283)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-400<ref type="note" corresp="#Vol-2-B_M-ftn455"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

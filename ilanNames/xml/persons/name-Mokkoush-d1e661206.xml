@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Mokkoush-Mokkoush</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Mokkoush-d1e661206" n="Mokkoush-Mokkoush">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e8250-person"
+                    n="Vol-4-I_M-Iranian-Males-Mokkoush-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Mokkoush</persName>
+               <persName type="lemma" xml:lang="en">Mokkoush</persName>
+               <persName>מכוש<ref type="note" corresp="#Vol-4-I_M-ftn697"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-G_M-d8e1693-person" type="relation" n="son-of">Numenis (1)’s son</ref>
+                     <ref type="note" corresp="#Vol-4-I_M-ftn698"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Susa</note>
+               </state>
+               <bibl>Isbell,BASOR223 (1976) 18</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn699"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Persia<ref type="note" corresp="#Vol-4-I_M-ftn700"/>
+                  </note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn701"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

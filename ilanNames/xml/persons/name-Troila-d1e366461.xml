@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Troila-Τρωι́λα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Troila-d1e366461" n="Troila-Τρωι́λα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e4861-person"
+                    n="Vol-2-G_F-Greek-Females-Troila-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Τρωι́λα</persName>
+               <persName type="lemma" xml:lang="en">Troila</persName>
+               <persName>Τροείλλα<ref type="note" corresp="#Vol-2-G_F-ftn318"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_M-d8e3060-person" type="relation" n="daughter-of">Auxibius (1)’s daughter</ref>, aged 35<ref type="note" corresp="#Vol-2-G_F-ftn319"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1a, no. 8</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn320"/>
+                  </note>
+               </state>
+               <floruit>347<ref type="note" corresp="#Vol-2-G_F-ftn321"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

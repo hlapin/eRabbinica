@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Aybbu-אייבו</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Aybbu-d1e666938" n="Aybbu-אייבו">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_F-d8e1021-person"
+                    n="Vol-4-S-H_F-Semitic-Hebrew-Females-Aybbu-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">אייבו</persName>
+               <persName type="lemma" xml:lang="en">Aybbu</persName>
+               <persName>איבו<ref type="note" corresp="#Vol-4-S-H_F-ftn76"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e19253-person"
+                          type="relation"
+                          n="sister-of">Ḥiyya (1)’s sister</ref>
+                     <ref type="note" corresp="#Vol-4-S-H_F-ftn77"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bSan5a (Kosowsky,Babylonico, 153)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_F-ftn78"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia<ref type="note" corresp="#Vol-4-S-H_F-ftn79"/>
+                  </note>
+               </state>
+               <floruit notBefore="0200" notAfter="0200">Pre-200 CE<ref type="note" corresp="#Vol-4-S-H_F-ftn80"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

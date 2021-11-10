@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Polyxenus-Πολύξενος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Polyxenus-d1e545298" n="Polyxenus-Πολύξενος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e65998-person"
+                    n="Vol-3-G_M-Greek-Males-Polyxenus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πολύξενος</persName>
+               <persName type="lemma" xml:lang="en">Polyxenus</persName>
+               <persName>[Πολ]ύξενος<ref type="note" corresp="#Vol-3-G_M-ftn3805"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e51338-person" type="relation" n="son-of">Ctesion (1)’s son</ref>, of the synagogue<ref type="note" corresp="#Vol-3-G_M-ftn3806"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Collegium inscription, Chios</note>
+               </state>
+               <bibl>Dunst,APF16 (1958) 177</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3807"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0199">1st-2ndC CE<ref type="note" corresp="#Vol-3-G_M-ftn3808"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

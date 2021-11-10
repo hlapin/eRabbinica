@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Theocritus-Θεόκριτος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Theocritus-d1e530273"
+                     n="Theocritus-Θεόκριτος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e45126-person"
+                    n="Vol-3-G_M-Greek-Males-Theocritus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Θεόκριτος</persName>
+               <persName type="lemma" xml:lang="en">Theocritus</persName>
+               <persName>Θυοκρίτου<ref type="note" corresp="#Vol-3-G_M-ftn2594"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_F-d8e16055-person" type="relation" n="father-of">Olympias (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Hierapolis, Miranda</note>
+               </state>
+               <bibl>IJO2, 189</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2595"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0299">2nd-3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

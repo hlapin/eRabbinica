@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Timarṣu-תימרצו</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Timaru-d1e691675" n="Timarṣu-תימרצו">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e34727-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Timarṣu-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">תימרצו</persName>
+               <persName type="lemma" xml:lang="en">Timarṣu</persName>
+               <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2420"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e21003-person" type="relation" n="son-of">Ḥalafta (3)’s son</ref>, <ref corresp="#Vol-4-S-H_M-d8e20969-person"
+                          type="relation"
+                          n="father-of">Ḥalafta (2)’s father</ref>, <ref corresp="#Vol-4-B_M-d8e32065-person"
+                          type="relation"
+                          n="grandson-of">Simon (22)’s grandson</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Palmyra, Lidzbarski</note>
+               </state>
+               <bibl>CIS2/3, 4277</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn2421"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2422"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e34761-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Timarṣu-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">תימרצו</persName>
+               <persName type="lemma" xml:lang="en">Timarṣu</persName>
+               <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2423"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-B_M-d8e32888-person"
+                          type="relation"
+                          n="grandson-of">Simon (47)’s grandson</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Burial cave contract, Palmyra</note>
+               </state>
+               <bibl>Cantineau,RB39 (1930) 526</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn2424"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra</note>
+               </state>
+               <floruit notBefore="0118" notAfter="0118">118 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2425"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

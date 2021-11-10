@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Saraf-שרף</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Saraf-d1e451054" n="Saraf-שרף">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e25381-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Saraf-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שרף</persName>
+               <persName type="lemma" xml:lang="en">Saraf</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e18704-person" type="relation" n="father-of">Joshua (20)’s father</ref>, of Arbel<ref type="note" corresp="#Vol-2-S-H_M-ftn1608"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>SOZ9:6</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Post-270<ref type="note" corresp="#Vol-2-S-H_M-ftn1609"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

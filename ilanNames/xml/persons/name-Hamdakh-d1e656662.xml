@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hamdakh-Hamdakh</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hamdakh-d1e656662" n="Hamdakh-Hamdakh">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e4220-person"
+                    n="Vol-4-I_M-Iranian-Males-Hamdakh-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Hamdakh</persName>
+               <persName type="lemma" xml:lang="en">Hamdakh</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-I_M-ftn359"/>
+               </persName>
+               <persName>/הרמך<ref type="note" corresp="#Vol-4-I_M-ftn360"/>
+               </persName>
+               <persName>/הרמיך<ref type="note" corresp="#Vol-4-I_M-ftn361"/>
+               </persName>
+               <persName>/דרמך<ref type="note" corresp="#Vol-4-I_M-ftn362"/>
+               </persName>
+               <persName>/הירמך<ref type="note" corresp="#Vol-4-I_M-ftn363"/>
+               </persName>
+               <persName>/חמין<ref type="note" corresp="#Vol-4-I_M-ftn364"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-I_M-ftn365"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bMQ4b (Kosowsky,Babylonico, 416)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-I_M-ftn366"/>; family<ref type="note" corresp="#Vol-4-I_M-ftn367"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0399">4thC CE<ref type="note" corresp="#Vol-4-I_M-ftn368"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

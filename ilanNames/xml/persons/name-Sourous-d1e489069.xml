@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sourous-Sourous</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sourous-d1e489069" n="Sourous-Sourous">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e9049-person"
+                    n="Vol-3-E_M-Egyptian-Males-Sourous-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Sourous</persName>
+               <persName type="lemma" xml:lang="en">Sourous</persName>
+               <persName>Σουροῦτος</persName>
+               <state type="desc">
+                  <note>Joseph (32) <ref corresp="#Vol-3-L_M-d8e4989-person" type="relation" n="father-of">Aurelius (5)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Antinoopolis, Roberts</note>
+               </state>
+               <bibl>CPJ508</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-E_M-ftn551"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0542" notAfter="0542">542 CE<ref type="note" corresp="#Vol-3-E_M-ftn552"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

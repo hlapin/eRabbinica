@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Shapir-שפיר</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Shapir-d1e690890" n="Shapir-שפיר">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e33928-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Shapir-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שפיר</persName>
+               <persName type="lemma" xml:lang="en">Shapir</persName>
+               <persName>שאפי<ref type="note" corresp="#Vol-4-S-H_M-ftn2369"/>
+               </persName>
+               <persName>/שבו<ref type="note" corresp="#Vol-4-S-H_M-ftn2370"/>
+               </persName>
+               <persName>/שאפין<ref type="note" corresp="#Vol-4-S-H_M-ftn2371"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-S-H_M-ftn2372"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bMQ11a (Kosowsky,Babylonico, 1751)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2373"/>; nickname?<ref type="note" corresp="#Vol-4-S-H_M-ftn2374"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2375"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

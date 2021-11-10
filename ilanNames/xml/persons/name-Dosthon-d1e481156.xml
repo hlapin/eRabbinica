@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Dosthon-Dosthon</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Dosthon-d1e481156" n="Dosthon-Dosthon">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e2037-person"
+                    n="Vol-3-E_M-Egyptian-Males-Dosthon-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Dosthon</persName>
+               <persName type="lemma" xml:lang="en">Dosthon</persName>
+               <persName>Δόσθωνο<ref type="note" corresp="#Vol-3-E_M-ftn125"/>
+               </persName>
+               <state type="desc">
+                  <note>Joseph (25) <ref corresp="#Vol-3-E_M-d8e9461-person"
+                          type="relation"
+                          n="forefather-of">Teuphilos (6)’s forefather</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Fayum, Krebs</note>
+               </state>
+               <bibl>CPJ428</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-E_M-ftn126"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0101" notAfter="0102">101/2 CE<ref type="note" corresp="#Vol-3-E_M-ftn127"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - La’al-לאל</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Laal-d1e440113" n="La’al-לאל">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e16471-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-La’al-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">לאל</persName>
+               <persName type="lemma" xml:lang="en">La’al</persName>
+               <persName>זאל<ref type="note" corresp="#Vol-2-S-H_M-ftn1027"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e7859-person" type="relation" n="son-of">Bakhar (1)’s son</ref>, leader<ref type="note" corresp="#Vol-2-S-H_M-ftn1028"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Tulida, 133</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-2-S-H_M-ftn1029"/>
+                  </note>
+               </state>
+               <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn1030"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Dorcas-Δορκάς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Dorcas-d1e494701" n="Dorcas-Δορκάς">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e5763-person"
+                    n="Vol-3-G_F-Greek-Females-Dorcas-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Δορκάς</persName>
+               <persName type="lemma" xml:lang="en">Dorcas</persName>
+               <persName>Δορκ[άς]<ref type="note" corresp="#Vol-3-G_F-ftn318"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-S-G_M-d8e804-person"
+                          type="relation"
+                          n="daughter-of">Arimmas (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Oliverio</note>
+               </state>
+               <bibl>CJZC45g</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn319"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0067" notAfter="0008">67/8 CE<ref type="note" corresp="#Vol-3-G_F-ftn320"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e5802-person"
+                    n="Vol-3-G_F-Greek-Females-Dorcas-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Δορκάς</persName>
+               <persName type="lemma" xml:lang="en">Dorcas</persName>
+               <persName>Δόρκα</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="daughter-of">Joseph (110)’s daughter</ref>, aged 33<ref type="note" corresp="#Vol-3-G_F-ftn321"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Ptolemais</note>
+               </state>
+               <bibl>Reynolds,CJZC7</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn322"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0117" notAfter="0117">Pre-117 CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

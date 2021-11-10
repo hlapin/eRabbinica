@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Carinus-Carinus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Carinus-d1e267856" n="Carinus-Carinus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e1260-person"
+                    n="Vol-1-L_M-Carinus-1">
+               <persName type="lemma">Carinus</persName>
+               <persName type="lemma" xml:lang="en">Carinus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">Karinus<ref type="note" corresp="#Vol-1-L_M-ftn80"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e54216-person" type="relation" n="son-of">Simon (39)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Dec. Christi 11 (Tischendorf,EA, 65)</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-1-L_M-ftn81"/>
+                  </note>
+               </state>
+               <floruit notBefore="0030" notAfter="0030">Post-30 CE<ref type="note" corresp="#Vol-1-L_M-ftn82"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

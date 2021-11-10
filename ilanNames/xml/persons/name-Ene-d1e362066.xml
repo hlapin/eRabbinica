@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ene-̓́Ενη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ene-d1e362066" n="Ene-̓́Ενη">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e1149-person"
+                    n="Vol-2-G_F-Greek-Females-Ene-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓́Ενη</persName>
+               <persName type="lemma" xml:lang="en">Ene</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_F-d8e1668-person"
+                          type="relation"
+                          n="daughter-of">Shilat (1)’s daughter</ref>, virgin<ref type="note" corresp="#Vol-2-G_F-ftn78"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1b, no. 51</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn79"/>
+                  </note>
+               </state>
+               <floruit>363?<ref type="note" corresp="#Vol-2-G_F-ftn80"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e1183-person"
+                    n="Vol-2-G_F-Greek-Females-Ene-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓́Ενη</persName>
+               <persName type="lemma" xml:lang="en">Ene</persName>
+               <persName>אינה<ref type="note" corresp="#Vol-2-G_F-ftn81"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_F-d8e391-person"
+                          type="relation"
+                          n="daughter-of">Ze‘irti (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, Tiberias</note>
+               </state>
+               <bibl>MSFno. 17</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-G_F-ftn82"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

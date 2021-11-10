@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ma‘arava-מערבא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Maarava-d1e441559" n="Ma‘arava-מערבא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e18036-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ma‘arava-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מערבא</persName>
+               <persName type="lemma" xml:lang="en">Ma‘arava</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e25875-person"
+                          type="relation"
+                          n="father-of">Taḥlifa (7)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bKet8a<ref type="note" corresp="#Vol-2-S-H_M-ftn1131"/>(Kosowsky,Babylonico, 1770-1)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname?<ref type="note" corresp="#Vol-2-S-H_M-ftn1132"/>
+                  </note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1133"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e18074-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ma‘arava-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מערבא</persName>
+               <persName type="lemma" xml:lang="en">Ma‘arava</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e15707-person" type="relation" n="father-of">Judah (52)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bSot41b<ref type="note" corresp="#Vol-2-S-H_M-ftn1134"/>(Kosowsky,Babylonico, 666)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname?<ref type="note" corresp="#Vol-2-S-H_M-ftn1135"/>
+                  </note>
+               </state>
+               <floruit>Pre-400<ref type="note" corresp="#Vol-2-S-H_M-ftn1136"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

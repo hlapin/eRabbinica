@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Quirinius-Quirinius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Quirinius-d1e286134" n="Quirinius-Quirinius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e4620-person"
+                    n="Vol-1-L_M-Quirinius-1">
+               <persName type="lemma">Quirinius</persName>
+               <persName type="lemma" xml:lang="en">Quirinius</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Κυρηναῖος<ref type="note" corresp="#Vol-1-L_M-ftn312"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e17477-person" type="relation" n="father-of">Philo (3)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Bagatti</note>
+               </state>
+               <bibl>DF81, no. 9</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname?<ref type="note" corresp="#Vol-1-L_M-ftn313"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-L_M-ftn314"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e4662-person"
+                    n="Vol-1-L_M-Quirinius-2">
+               <persName type="lemma">Quirinius</persName>
+               <persName type="lemma" xml:lang="en">Quirinius</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Κυρηναῖ[ος]<ref type="note" corresp="#Vol-1-L_M-ftn315"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e9179-person" type="relation" n="father-of">Hillel (7)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Parchment, Muraba‘at</note>
+               </state>
+               <bibl>Mur 90</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname?<ref type="note" corresp="#Vol-1-L_M-ftn316"/>
+                  </note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-L_M-ftn317"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e9087-person"
+                    n="Vol-2-L_M-Latin-Males-Quirinius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Quirinius</persName>
+               <persName type="lemma" xml:lang="en">Quirinius</persName>
+               <persName>Κυρίνου<ref type="note" corresp="#Vol-2-L_M-ftn696"/>
+               </persName>
+               <persName>/Κυρῖνος<ref type="note" corresp="#Vol-2-L_M-ftn697"/>
+               </persName>
+               <state type="desc">
+                  <note>Sarah (6) and <ref corresp="#Vol-2-B_M-d8e31644-person" type="relation" n="father-of">Isaac (55)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaphs, Beth She‘arim, catacomb 3,CIJ1107, 1108, 1109</note>
+               </state>
+               <bibl>1.BS2:85; 2. 2:86; 3. 2:87</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-L_M-ftn698"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

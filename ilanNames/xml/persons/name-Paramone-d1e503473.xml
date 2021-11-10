@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Paramone-Παράμονη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Paramone-d1e503473" n="Paramone-Παράμονη">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e16342-person"
+                    n="Vol-3-G_F-Greek-Females-Paramone-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Παράμονη</persName>
+               <persName type="lemma" xml:lang="en">Paramone</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_F-ftn929"/>
+                     <ref type="note" corresp="#Vol-3-G_F-ftn930"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Oxyrhynchus, Hunt</note>
+               </state>
+               <bibl>CPJ473</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn931"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0291" notAfter="0291">291 CE<ref type="note" corresp="#Vol-3-G_F-ftn932"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Panāhōē-Panāhōē</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Panh-d1e648314" n="Panāhōē-Panāhōē">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e11182-person"
+                    n="Vol-4-I_F-Iranian-Females-Panāhōē-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Panāhōē</persName>
+               <persName type="lemma" xml:lang="en">Panāhōē</persName>
+               <persName>פנוי<ref type="note" corresp="#Vol-4-I_F-ftn915"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_F-d8e13073-person"
+                          type="relation"
+                          n="daughter-of">Šērkōē (2)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowls, Nippur, Montgomery</note>
+               </state>
+               <bibl>1. Isbell, no. 23; 2. no. 24</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-I_F-ftn916"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn917"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e11217-person"
+                    n="Vol-4-I_F-Iranian-Females-Panāhōē-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Panāhōē</persName>
+               <persName type="lemma" xml:lang="en">Panāhōē</persName>
+               <persName>פנוי<ref type="note" corresp="#Vol-4-I_F-ftn918"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_F-d8e7544-person" type="relation" n="daughter-of">Χuzitari (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Tel ʿAmran, Laynard</note>
+               </state>
+               <bibl>CAMIBBM009A</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn919"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn920"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Heracles-̔Ηρακλῆς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Heracles-d1e528792" n="Heracles-̔Ηρακλῆς">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e38525-person"
+                    n="Vol-3-G_M-Greek-Males-Heracles-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̔Ηρακλῆς</persName>
+               <persName type="lemma" xml:lang="en">Heracles</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e4938-person" type="relation" n="and-of">Papontos (1)’s and</ref>
+                     <ref corresp="#Vol-3-B_F-d8e4676-person" type="relation" n="son-of">Shabtit (14)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyri, Theadelphia, Westerman &amp; Keyes &amp; Kortenbeutel</note>
+               </state>
+               <bibl>CPJ489b,c,d</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2192"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0134" notAfter="0145">134-45 CE<ref type="note" corresp="#Vol-3-G_M-ftn2193"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

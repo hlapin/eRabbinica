@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Simḥah-שמחה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Simhah-d1e450765" n="Simḥah-שמחה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e25071-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Simḥah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שמחה</persName>
+               <persName type="lemma" xml:lang="en">Simḥah</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bSuk48b<ref type="note" corresp="#Vol-2-S-H_M-ftn1588"/>(Kosowsky,Babylonico, 1640)</bibl>
+               <state type="addl-Descr">
+                  <note>Christian?<ref type="note" corresp="#Vol-2-S-H_M-ftn1589"/>Fictitious?<ref type="note" corresp="#Vol-2-S-H_M-ftn1590"/>
+                  </note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1591"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

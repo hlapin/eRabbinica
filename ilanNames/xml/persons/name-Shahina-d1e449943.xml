@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Shahina-שהינא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Shahina-d1e449943" n="Shahina-שהינא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e24281-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Shahina-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שהינא</persName>
+               <persName type="lemma" xml:lang="en">Shahina</persName>
+               <persName>כרשינא<ref type="note" corresp="#Vol-2-S-H_M-ftn1530"/>
+               </persName>
+               <persName>/שאונה<ref type="note" corresp="#Vol-2-S-H_M-ftn1531"/>
+               </persName>
+               <persName>/שאינה<ref type="note" corresp="#Vol-2-S-H_M-ftn1532"/>
+               </persName>
+               <persName>/שהונא<ref type="note" corresp="#Vol-2-S-H_M-ftn1533"/>
+               </persName>
+               <persName>/שחינא<ref type="note" corresp="#Vol-2-S-H_M-ftn1534"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e19669-person" type="relation" n="father-of">Yohanan (13)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>1.bAZ75a; 2.Lev Rab5:2 (Kosowsky,Babylonico, 499)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn1535"/>
+                  </note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1536"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

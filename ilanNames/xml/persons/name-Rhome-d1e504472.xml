@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Rhome-̔Ρώμη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Rhome-d1e504472" n="Rhome-̔Ρώμη">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e17361-person"
+                    n="Vol-3-G_F-Greek-Females-Rhome-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̔Ρώμη</persName>
+               <persName type="lemma" xml:lang="en">Rhome</persName>
+               <persName>̔Ρώμης</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_F-ftn989"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Heracleopolis</note>
+               </state>
+               <bibl>PC29 (2001) 9</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn990"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0133" notAfter="-0002">133/2 BCE<ref type="note" corresp="#Vol-3-G_F-ftn991"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-Vol-3-Add-G_F-d8e224-person"
+                    n="Vol-4-Vol-3-Add-G_F-Greek-Females-Rhome-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̔Ρώμη</persName>
+               <persName type="lemma" xml:lang="en">Rhome</persName>
+               <persName>Ρωμας<ref type="note" corresp="#Vol-4-Vol-3-Add-G_F-ftn14"/>
+               </persName>
+               <state type="desc">
+                  <note>Procla (1) and <ref corresp="#" type="relation" n="daughter-of">Romanus (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Andriake</note>
+               </state>
+               <bibl>Çevik &amp; Eshel,Qadmoniot43 (2010) 42</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-Vol-3-Add-G_F-ftn15"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0499">4th-5thC CE<ref type="note" corresp="#Vol-4-Vol-3-Add-G_F-ftn16"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

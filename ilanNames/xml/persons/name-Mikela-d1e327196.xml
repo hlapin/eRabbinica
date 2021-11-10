@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Mikela-מיכאלה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Mikela-d1e327196" n="Mikela-מיכאלה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_F-d8e1254-person"
+                    n="Vol-2-B_F-Biblical-Females-Mikela-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">מיכאלה</persName>
+               <persName type="lemma" xml:lang="en">Mikela</persName>
+               <persName>Μικέλα<ref type="note" corresp="#Vol-2-B_F-ftn88"/>
+               </persName>
+               <persName>/מיכאלא<ref type="note" corresp="#Vol-2-B_F-ftn89"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <bibl>BS2:122</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-B_F-ftn90"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

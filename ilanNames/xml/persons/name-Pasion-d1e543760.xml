@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Pasion-Πασίων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Pasion-d1e543760" n="Pasion-Πασίων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e64195-person"
+                    n="Vol-3-G_M-Greek-Males-Pasion-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πασίων</persName>
+               <persName type="lemma" xml:lang="en">Pasion</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e24553-person" type="relation" n="son-of">Dositheus (80)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Sedment el-Gebel</note>
+               </state>
+               <bibl>Abd el-Fatah &amp; Wagner,CRIPÉL19 (1998) no. 13</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3701"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0099" notAfter="-0001">1stC BCE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e64227-person"
+                    n="Vol-3-G_M-Greek-Males-Pasion-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πασίων</persName>
+               <persName type="lemma" xml:lang="en">Pasion</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e6496-person" type="relation" n="son-of">Petheus (2)’s son</ref>, <ref corresp="#Vol-3-B_M-d8e29889-person"
+                          type="relation"
+                          n="grandson-of">Shabtai (59)’s grandson</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Karanis, Pearl &amp; Youtie</note>
+               </state>
+               <bibl>CPJ492(9)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3702"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0171" notAfter="0174">171-4 CE<ref type="note" corresp="#Vol-3-G_M-ftn3703"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

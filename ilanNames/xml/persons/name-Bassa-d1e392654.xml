@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Bassa-Bassa</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Bassa-d1e392654" n="Bassa-Bassa">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_F-d8e236-person"
+                    n="Vol-2-L_F-Latin-Female-Bassa-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Bassa</persName>
+               <persName type="lemma" xml:lang="en">Bassa</persName>
+               <persName>Βάσσα<ref type="note" corresp="#Vol-2-L_F-ftn21"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Tiberias</note>
+               </state>
+               <bibl>Lifschitz,Euphrosyne6 (1974) 27</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-L_F-ftn22"/>
+                  </note>
+               </state>
+               <floruit>
+                  <ref type="note" corresp="#Vol-2-L_F-ftn23"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Zoambres-Zoambres</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Zoambres-d1e595775" n="Zoambres-Zoambres">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-P_M-d8e965-person"
+                    n="Vol-3-P_M-Persian-Males-Zoambres-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Zoambres</persName>
+               <persName type="lemma" xml:lang="en">Zoambres</persName>
+               <persName>Ζαμβρῆς<ref type="note" corresp="#Vol-3-P_M-ftn71"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-P_M-ftn72"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Georgius Cedrenus,PG121, 521</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-P_M-ftn73"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0312" notAfter="0340">312-40 CE<ref type="note" corresp="#Vol-3-P_M-ftn74"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ptollous-Ptollous</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ptollous-d1e477550" n="Ptollous-Ptollous">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_F-d8e781-person"
+                    n="Vol-3-E_F-Egyptian-Females-Ptollous-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ptollous</persName>
+               <persName type="lemma" xml:lang="en">Ptollous</persName>
+               <persName>Πτολλοῦτος<ref type="note" corresp="#Vol-3-E_F-ftn52"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_F-d8e496-person" type="relation" n="mother-of">Philous (1)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Arsinoe, Wessely</note>
+               </state>
+               <bibl>CPJ421</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-E_F-ftn53"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0073" notAfter="0073">73 CE<ref type="note" corresp="#Vol-3-E_F-ftn54"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_F-d8e816-person"
+                    n="Vol-3-E_F-Egyptian-Females-Ptollous-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ptollous</persName>
+               <persName type="lemma" xml:lang="en">Ptollous</persName>
+               <persName>Πτολλοῦν</persName>
+               <state type="desc">
+                  <note>Julius (5) <ref corresp="#Vol-3-G_M-d8e8772-person" type="relation" n="relative-of">Apolinarius (1)’s relative</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Karanis, Winter &amp; Youtie</note>
+               </state>
+               <bibl>CPJ486</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_F-ftn55"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0107" notAfter="0107">107 CE<ref type="note" corresp="#Vol-3-E_F-ftn56"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Cassianus-Cassianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Cassianus-d1e400104" n="Cassianus-Cassianus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e2153-person"
+                    n="Vol-2-L_M-Latin-Males-Cassianus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Cassianus</persName>
+               <persName type="lemma" xml:lang="en">Cassianus</persName>
+               <persName>Κασσ[ια]νῷ<ref type="note" corresp="#Vol-2-L_M-ftn165"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Apollonia<ref type="note" corresp="#Vol-2-L_M-ftn166"/>
+                  </note>
+               </state>
+               <bibl>Roll and Tal,SCI28 (2009) 143</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan?<ref type="note" corresp="#Vol-2-L_M-ftn167"/>
+                  </note>
+               </state>
+               <floruit>Pre-529<ref type="note" corresp="#Vol-2-L_M-ftn168"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e2201-person"
+                    n="Vol-2-L_M-Latin-Males-Cassianus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Cassianus</persName>
+               <persName type="lemma" xml:lang="en">Cassianus</persName>
+               <persName>קאסיאנוס<ref type="note" corresp="#Vol-2-L_M-ftn169"/>
+               </persName>
+               <persName>/קסהיאנוס<ref type="note" corresp="#Vol-2-L_M-ftn170"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-L_F-d8e594-person" type="relation" n="son-of">Domitia (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, private collection</note>
+               </state>
+               <bibl>MSFno. 31</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-L_M-ftn171"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

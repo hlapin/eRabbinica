@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Maʿn-מען</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Man-d1e684403" n="Maʿn-מען">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e25846-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Maʿn-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מען</persName>
+               <persName type="lemma" xml:lang="en">Maʿn</persName>
+               <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1785"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_M-d8e11345-person" type="relation" n="son-of">Wardān (1)’s son</ref>, <ref corresp="#Vol-4-B_M-d8e32691-person" type="relation" n="father-of">Simon (41)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Ra’a ash-Shaʿr</note>
+               </state>
+               <bibl>Schlumberger,Palmerène,154</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn1786"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1787"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

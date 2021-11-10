@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Asher-Asher</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Asher-d1e637074" n="Asher-Asher">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e673-person"
+                    n="Vol-4-I_F-Iranian-Females-Asher-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Asher</persName>
+               <persName type="lemma" xml:lang="en">Asher</persName>
+               <persName>אשר<ref type="note" corresp="#Vol-4-I_F-ftn58"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_F-d8e9418-person" type="relation" n="daughter-of">Mamay (18)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Moussyaieff collection</note>
+               </state>
+               <bibl>Levene,CMB, M117</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn59"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn60"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

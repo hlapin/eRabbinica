@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Yehu-יהוא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Yehu-d1e66182" n="Yehu-יהוא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e16886-person"
+                    n="Vol-1-B_M-Yehu-1">
+               <persName type="lemma">יהוא</persName>
+               <persName type="lemma" xml:lang="en">Yehu</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">̓Ιού<ref type="note" corresp="#Vol-1-B_M-ftn1224"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e4358-person" type="relation" n="son-of">Galaistes (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Parchment, Muraba‘at</note>
+               </state>
+               <bibl>Mur 93</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-B_M-ftn1225"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e16915-person"
+                    n="Vol-1-B_M-Yehu-2">
+               <persName type="lemma">יהוא</persName>
+               <persName type="lemma" xml:lang="en">Yehu</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-S-H_M-d2e2225-person" type="relation" n="son-of">Beroqa (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Masada</note>
+               </state>
+               <bibl>Mas no. 398</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0073" notAfter="0073">Pre-73 CE<ref type="note" corresp="#Vol-1-B_M-ftn1226"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

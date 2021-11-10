@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Lydia-Λυδία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Lydia-d1e198943" n="Lydia-Λυδία">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_F-d2e2946-person"
+                    n="Vol-1-G_F-Lydia-1">
+               <persName type="lemma">Λυδία</persName>
+               <persName type="lemma" xml:lang="en">Lydia</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="gr">ΛγΔια<ref type="note" corresp="#Vol-1-G_F-ftn203"/>
+               </persName>
+               <persName xml:lang="checkme">Lydia<ref type="note" corresp="#Vol-1-G_F-ftn204"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-G_F-ftn205"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Hist. Ioseph 2 (Tischendorf,EA, 123)</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-1-G_F-ftn206"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0099" notAfter="-0001">1stCBCE<ref type="note" corresp="#Vol-1-G_F-ftn207"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e14427-person"
+                    n="Vol-3-G_F-Greek-Females-Lydia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Λυδία</persName>
+               <persName type="lemma" xml:lang="en">Lydia</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_F-ftn819"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Acts 16:14 (VKGNT 751)</bibl>
+               <state type="addl-Descr">
+                  <note>God-fearer?<ref type="note" corresp="#Vol-3-G_F-ftn820"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0050" notAfter="0002">50-2 CE<ref type="note" corresp="#Vol-3-G_F-ftn821"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

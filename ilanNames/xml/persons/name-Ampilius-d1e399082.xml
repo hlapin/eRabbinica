@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ampilius-Ampilius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ampilius-d1e399082" n="Ampilius-Ampilius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e473-person"
+                    n="Vol-2-L_M-Latin-Males-Ampilius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ampilius</persName>
+               <persName type="lemma" xml:lang="en">Ampilius</persName>
+               <persName>̓Αμπιλᾶ<ref type="note" corresp="#Vol-2-L_M-ftn37"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_M-d8e11204-person" type="relation" n="father-of">Cyrillus (4)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Beth She‘arim, catacomb 5,CIJ1130</note>
+               </state>
+               <bibl>BS2:107</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-L_M-ftn38"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

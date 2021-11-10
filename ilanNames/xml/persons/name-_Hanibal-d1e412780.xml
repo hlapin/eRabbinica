@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ̓Ενεβήλος Ḥanibal-̓Ενεβήλος Ḥanibal</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Hanibal-d1e412780"
+                     n="̓Ενεβήλος Ḥanibal-̓Ενεβήλος Ḥanibal">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_M-d8e1007-person"
+                    n="Vol-2-S-G_M-Semitic-Greek-Males-̓Ενεβήλος Ḥanibal-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Ενεβήλος Ḥanibal</persName>
+               <persName type="lemma" xml:lang="en">̓Ενεβήλος Ḥanibal</persName>
+               <persName>̓Ενεβήλου<ref type="note" corresp="#Vol-2-S-G_M-ftn67"/>
+               </persName>
+               <state type="desc">
+                  <note>Ḥ̣artat (1) and <ref corresp="#Vol-2-G_F-d8e3173-person" type="relation" n="father-of">Cyrilla (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaphs, Beth She‘arim, catacomb 8,CIJ1147, 1150</note>
+               </state>
+               <bibl>1.BS2:116; 2. 2:118; 3. 2:120</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-S-G_M-ftn68"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

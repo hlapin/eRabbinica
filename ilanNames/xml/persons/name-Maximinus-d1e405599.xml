@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Maximinus-Maximinus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Maximinus-d1e405599" n="Maximinus-Maximinus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e8097-person"
+                    n="Vol-2-L_M-Latin-Males-Maximinus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Maximinus</persName>
+               <persName type="lemma" xml:lang="en">Maximinus</persName>
+               <persName>מכסימיון<ref type="note" corresp="#Vol-2-L_M-ftn617"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, private collection</note>
+               </state>
+               <bibl>MSFno. 20</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-L_M-ftn618"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e28714-person"
+                    n="Vol-3-L_M-Latin-Males-Maximinus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Maximinus</persName>
+               <persName type="lemma" xml:lang="en">Maximinus</persName>
+               <persName>Μαξιμίνου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e54290-person" type="relation" n="son-of">Macarius (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Heidelberg</note>
+               </state>
+               <bibl>P. Heid IV, 333</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-3-L_M-ftn1711"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0499">5thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e28747-person"
+                    n="Vol-3-L_M-Latin-Males-Maximinus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Maximinus</persName>
+               <persName type="lemma" xml:lang="en">Maximinus</persName>
+               <persName>Maximini</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="father-of">Joseph (79)’s father</ref>, of Pannonia<ref type="note" corresp="#Vol-3-L_M-ftn1712"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Sophia,<ref type="note" corresp="#Vol-3-L_M-ftn1713"/>Kazarow</note>
+               </state>
+               <bibl>CIJ681</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1714"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Lower Moesia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

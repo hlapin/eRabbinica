@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Labois-Labois</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Labois-d1e482636" n="Labois-Labois">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e3314-person"
+                    n="Vol-3-E_M-Egyptian-Males-Labois-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Labois</persName>
+               <persName type="lemma" xml:lang="en">Labois</persName>
+               <persName>Λαβόϊς</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e6850-person" type="relation" n="son-of">Petos (3)’s son</ref>, aged 37<ref type="note" corresp="#Vol-3-E_M-ftn204"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Demerdesh, Edgar</note>
+               </state>
+               <bibl>CIJ1486</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn205"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0039" notAfter="-0039">39 BCE<ref type="note" corresp="#Vol-3-E_M-ftn206"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

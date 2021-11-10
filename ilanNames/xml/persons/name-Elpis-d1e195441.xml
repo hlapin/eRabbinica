@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Elpis-̓Ελπίς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Elpis-d1e195441" n="Elpis-̓Ελπίς">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_F-d2e1669-person"
+                    n="Vol-1-G_F-Elpis-1">
+               <persName type="lemma">̓Ελπίς</persName>
+               <persName type="lemma" xml:lang="en">Elpis</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e8218-person" type="relation" n="wife-of">Herod (1)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ1:536;AJ17:21 (Schalit,NB, 44)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="-0099" notAfter="-0001">1stC BCE<ref type="note" corresp="#Vol-1-G_F-ftn119"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e7455-person"
+                    n="Vol-3-G_F-Greek-Females-Elpis-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓Ελπίς</persName>
+               <persName type="lemma" xml:lang="en">Elpis</persName>
+               <persName>Elpis</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Schneider Graziosi</note>
+               </state>
+               <bibl>CIJ29*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn413"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

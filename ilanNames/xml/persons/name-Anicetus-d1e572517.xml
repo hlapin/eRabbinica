@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Anicetus-Anicetus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Anicetus-d1e572517" n="Anicetus-Anicetus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e1719-person"
+                    n="Vol-3-L_M-Latin-Males-Anicetus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Anicetus</persName>
+               <persName type="lemma" xml:lang="en">Anicetus</persName>
+               <persName>̓Ανήκητος<ref type="note" corresp="#Vol-3-L_M-ftn102"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e28578-person" type="relation" n="son-of">Eryalus (1)’s son</ref>, <ref corresp="#Vol-3-L_M-d8e1766-person" type="relation" n="grandson-of">Anicetus (2)’s grandson</ref>, aged 1<ref type="note" corresp="#Vol-3-L_M-ftn103"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Venosa, Angelis &amp; Smith</note>
+               </state>
+               <bibl>CIJ577</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn104"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0599">5th-6thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e1766-person"
+                    n="Vol-3-L_M-Latin-Males-Anicetus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Anicetus</persName>
+               <persName type="lemma" xml:lang="en">Anicetus</persName>
+               <persName>̓Ανηκήτου<ref type="note" corresp="#Vol-3-L_M-ftn105"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e28578-person" type="relation" n="father-of">Eryalus (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Venosa, Angelis &amp; Smith</note>
+               </state>
+               <bibl>CIJ577</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn106"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0599">5th-6thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

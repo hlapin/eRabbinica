@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Mazdawōē-Mazdawōē</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Mazdaw-d1e646580" n="Mazdawōē-Mazdawōē">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e9741-person"
+                    n="Vol-4-I_F-Iranian-Females-Mazdawōē-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Mazdawōē</persName>
+               <persName type="lemma" xml:lang="en">Mazdawōē</persName>
+               <persName>מזדואי<ref type="note" corresp="#Vol-4-I_F-ftn797"/>
+               </persName>
+               <state type="desc">
+                  <note>Imma (1) <ref corresp="#Vol-4-B_F-d8e1118-person" type="relation" n="daughter-of">Salome (6)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Nippur, Gordon</note>
+               </state>
+               <bibl>Isbell, no. 19</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-I_F-ftn798"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn799"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

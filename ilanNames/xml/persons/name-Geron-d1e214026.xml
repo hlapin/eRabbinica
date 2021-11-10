@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Geron-Γέρων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Geron-d1e214026" n="Geron-Γέρων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e4424-person"
+                    n="Vol-1-G_M-Geron-1">
+               <persName type="lemma">Γέρων</persName>
+               <persName type="lemma" xml:lang="en">Geron</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-L_M-d2e1590-person" type="relation" n="father-of">Cornelius (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>AJ20:14 (Schalit,NB, 34)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0045" notAfter="0045">45 CE<ref type="note" corresp="#Vol-1-G_M-ftn314"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e4446-person"
+                    n="Vol-1-G_M-Geron-2">
+               <persName type="lemma">Γέρων</persName>
+               <persName type="lemma" xml:lang="en">Geron</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">גרון<ref type="note" corresp="#Vol-1-G_M-ftn315"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e11425-person" type="relation" n="father-of">Hezekiah (7)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>mShab1:4 (Kasovsky,Mishnae, 461)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn316"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e3857-person"
+                    n="Vol-2-G_M-Greek-Males-Geron-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Γέρων</persName>
+               <persName type="lemma" xml:lang="en">Geron</persName>
+               <persName>גירונטי<ref type="note" corresp="#Vol-2-G_M-ftn265"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-G_M-ftn266"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yBes1:7, 60c (Kosovsky,Yerushalmi, 167)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-400<ref type="note" corresp="#Vol-2-G_M-ftn267"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

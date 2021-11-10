@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Numenius-Νουμήνιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Numenius-d1e245021" n="Numenius-Νουμήνιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e13972-person"
+                    n="Vol-1-G_M-Numenius-1">
+               <persName type="lemma">Νουμήνιος</persName>
+               <persName type="lemma" xml:lang="en">Numenius</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>1 Macc 12:16 (H &amp; R Suppl. 121)AJ13:169 (Schalit,NB, 91)<ref type="note" corresp="#Vol-1-G_M-ftn1003"/>.</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="-0150" notAfter="-0150">150 BCE<ref type="note" corresp="#Vol-1-G_M-ftn1004"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e60664-person"
+                    n="Vol-3-G_M-Greek-Males-Numenius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Νουμήνιος</persName>
+               <persName type="lemma" xml:lang="en">Numenius</persName>
+               <persName>[Ν]ουμηνίου<ref type="note" corresp="#Vol-3-G_M-ftn3494"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e6812-person" type="relation" n="son-of">Petos (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Schwartz</note>
+               </state>
+               <bibl>CPJ515</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3495"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0199">2ndC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

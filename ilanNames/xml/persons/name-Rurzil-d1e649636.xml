@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Rurzil-Rurzil</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Rurzil-d1e649636" n="Rurzil-Rurzil">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e12266-person"
+                    n="Vol-4-I_F-Iranian-Females-Rurzil-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Rurzil</persName>
+               <persName type="lemma" xml:lang="en">Rurzil</persName>
+               <persName>רורזיל<ref type="note" corresp="#Vol-4-I_F-ftn1005"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_F-d8e8956-person" type="relation" n="daughter-of">Mamay (6)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Bagdad, Gordon</note>
+               </state>
+               <bibl>Isbell, no. 40</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn1006"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn1007"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

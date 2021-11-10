@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Nasius-Nasius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Nasius-d1e583881" n="Nasius-Nasius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e29965-person"
+                    n="Vol-3-L_M-Latin-Males-Nasius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Nasius</persName>
+               <persName type="lemma" xml:lang="en">Nasius</persName>
+               <persName>Nasas<ref type="note" corresp="#Vol-3-L_M-ftn1780"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn1781"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Gregorius, III, 37,CCSL140, 182</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1782"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Sicily</note>
+               </state>
+               <floruit notBefore="0593" notAfter="0593">593 CE<ref type="note" corresp="#Vol-3-L_M-ftn1783"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

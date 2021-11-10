@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Surχāb-Surχāb</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Surb-d1e664361" n="Surχāb-Surχāb">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e11292-person"
+                    n="Vol-4-I_M-Iranian-Males-Surχāb-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Surχāb</persName>
+               <persName type="lemma" xml:lang="en">Surχāb</persName>
+               <persName>סורחב<ref type="note" corresp="#Vol-4-I_M-ftn951"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_M-d8e9140-person" type="relation" n="son-of">Pāpā (9)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bKet17b (Kosowsky,Babylonico, 1128)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-I_M-ftn952"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdCE<ref type="note" corresp="#Vol-4-I_M-ftn953"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

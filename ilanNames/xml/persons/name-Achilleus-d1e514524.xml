@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Achilleus-̓Αχιλλεύς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Achilleus-d1e514524" n="Achilleus-̓Αχιλλεύς">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e14095-person"
+                    n="Vol-3-G_M-Greek-Males-Achilleus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αχιλλεύς</persName>
+               <persName type="lemma" xml:lang="en">Achilleus</persName>
+               <persName>̓Αχιλλέως</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="father-of">Jacob (22)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Oxyrhynchus, Grenfell &amp; Hunt</note>
+               </state>
+               <bibl>CPJ475</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn823"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0295" notAfter="0295">295 CE<ref type="note" corresp="#Vol-3-G_M-ftn824"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e14127-person"
+                    n="Vol-3-G_M-Greek-Males-Achilleus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αχιλλεύς</persName>
+               <persName type="lemma" xml:lang="en">Achilleus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e17639-person" type="relation" n="son-of">Demetrius (7)’s son</ref>, of Purthaius<ref type="note" corresp="#Vol-3-G_M-ftn825"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Renovation inscription, Olbia,<ref type="note" corresp="#Vol-3-G_M-ftn826"/>Osann</note>
+               </state>
+               <bibl>CIJ682</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn827"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Scythia</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0299">2nd-3rdC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e14181-person"
+                    n="Vol-3-G_M-Greek-Males-Achilleus-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αχιλλεύς</persName>
+               <persName type="lemma" xml:lang="en">Achilleus</persName>
+               <persName>̓Αχιλλέ<ref type="note" corresp="#Vol-3-G_M-ftn828"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e26107-person" type="relation" n="father-of">Heortasius (3)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Reynolds &amp; Tannenbaum</note>
+               </state>
+               <bibl>IJO2, 14:B31</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn829"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ilai-עילאי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ilai-d1e446875" n="Ilai-עילאי">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e21422-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ilai-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עילאי</persName>
+               <persName type="lemma" xml:lang="en">Ilai</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e610-person" type="relation" n="father-of">Abba (18)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yBer9:5, 14c (Kosovsky,Yerushalmi, 18)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn1337"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e21456-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ilai-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עילאי</persName>
+               <persName type="lemma" xml:lang="en">Ilai</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e26438-person"
+                          type="relation"
+                          n="father-of">Tanḥum (11)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yTer2:1, 41c (Kosovsky,Yerushalmi, 91)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1338"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

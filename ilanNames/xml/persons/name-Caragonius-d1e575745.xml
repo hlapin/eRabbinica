@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Caragonius-Caragonius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Caragonius-d1e575745"
+                     n="Caragonius-Caragonius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e10937-person"
+                    n="Vol-3-L_M-Latin-Males-Caragonius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Caragonius</persName>
+               <persName type="lemma" xml:lang="en">Caragonius</persName>
+               <persName>Καραγος<ref type="note" corresp="#Vol-3-L_M-ftn641"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn642"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Manumission inscription, Phanagoria,<ref type="note" corresp="#Vol-3-L_M-ftn643"/>Dan’shin</note>
+               </state>
+               <bibl>IJO1, BS18</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn644"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Bosphoran Kingdom</note>
+               </state>
+               <floruit notBefore="0045" notAfter="0052">45-52 CE<ref type="note" corresp="#Vol-3-L_M-ftn645"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

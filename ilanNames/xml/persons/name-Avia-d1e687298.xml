@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ʿAvia-עויא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Avia-d1e687298" n="ʿAvia-עויא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e30107-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-ʿAvia-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עויא</persName>
+               <persName type="lemma" xml:lang="en">ʿAvia</persName>
+               <persName>עוא<ref type="note" corresp="#Vol-4-S-H_M-ftn2090"/>
+               </persName>
+               <persName>/עוירא<ref type="note" corresp="#Vol-4-S-H_M-ftn2091"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-B_M-d8e1377-person" type="relation" n="father-of">Aḥi (14)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bPes24b (Kosowsky,Babylonico, 1137)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2092"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia<ref type="note" corresp="#Vol-4-S-H_M-ftn2093"/>
+                  </note>
+               </state>
+               <floruit notBefore="0400" notAfter="0499">5thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2094"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

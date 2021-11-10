@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Peristeria-Περιστερία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Peristeria-d1e503688"
+                     n="Peristeria-Περιστερία">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e16576-person"
+                    n="Vol-3-G_F-Greek-Females-Peristeria-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Περιστερία</persName>
+               <persName type="lemma" xml:lang="en">Peristeria</persName>
+               <persName>Περιστερίας</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_F-ftn944"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Thebes, Sotiriou</note>
+               </state>
+               <bibl>CIJ696b</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn945"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

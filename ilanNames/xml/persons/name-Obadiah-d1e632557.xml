@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ʿObadiah-עבדיה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Obadiah-d1e632557" n="ʿObadiah-עבדיה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_M-d8e20062-person"
+                    n="Vol-4-B_M-Biblical-Males-ʿObadiah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עבדיה</persName>
+               <persName type="lemma" xml:lang="en">ʿObadiah</persName>
+               <persName>Isaiah (1)’s son, exilarch<ref type="note" corresp="#Vol-4-B_M-ftn1632"/>
+               </persName>
+               <state type="findspot">
+                  <note>SOZ8, 7</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-B_M-ftn1633"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="-0099" notAfter="-0001">1stC BCE<ref type="note" corresp="#Vol-4-B_M-ftn1634"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

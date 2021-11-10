@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Soteria-Σωτηρία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Soteria-d1e505186" n="Soteria-Σωτηρία">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e18008-person"
+                    n="Vol-3-G_F-Greek-Females-Soteria-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Σωτηρία</persName>
+               <persName type="lemma" xml:lang="en">Soteria</persName>
+               <persName>Soteria<ref type="note" corresp="#Vol-3-G_F-ftn1024"/>
+               </persName>
+               <persName>/ Sotreiae<ref type="note" corresp="#Vol-3-G_F-ftn1025"/>
+               </persName>
+               <state type="desc">
+                  <note>Aurelia (13), Aurelius (19) Stephanus (4) and Aurelius (18) <ref corresp="#Vol-3-G_M-d8e74647-person" type="relation" n="mother-of">Soter (1)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaphs, Pola, Gruter, Diehl</note>
+               </state>
+               <bibl>CIJ641, 642</bibl>
+               <state type="addl-Descr">
+                  <note>God-fearer?<ref type="note" corresp="#Vol-3-G_F-ftn1026"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0499">3rd-5thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e18055-person"
+                    n="Vol-3-G_F-Greek-Females-Soteria-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Σωτηρία</persName>
+               <persName type="lemma" xml:lang="en">Soteria</persName>
+               <persName>סיטורה<ref type="note" corresp="#Vol-3-G_F-ftn1027"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_F-ftn1028"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Middle Egypt, Euting</note>
+               </state>
+               <bibl>CIJ1536</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn1029"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0199">2ndC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

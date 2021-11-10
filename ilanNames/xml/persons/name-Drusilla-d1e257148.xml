@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Drusilla-Drusilla</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Drusilla-d1e257148" n="Drusilla-Drusilla">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_F-d2e387-person"
+                    n="Vol-1-L_F-Drusilla-1">
+               <persName type="lemma">Drusilla</persName>
+               <persName type="lemma" xml:lang="en">Drusilla</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="gr">Δρούσιλλα<ref type="note" corresp="#Vol-1-L_F-ftn30"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-L_M-d2e141-person" type="relation" n="daughter-of">Agrippa (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ2:220;AJ18:132 (Schalit 40); Tacitus,GLAJJ2, 21<ref type="note" corresp="#Vol-1-L_F-ftn31"/>.</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0044" notAfter="0078">44-78 CE<ref type="note" corresp="#Vol-1-L_F-ftn32"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

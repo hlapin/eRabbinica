@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Argurion-̓Αργυρίων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Argurion-d1e511801" n="Argurion-̓Αργυρίων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e10330-person"
+                    n="Vol-3-G_M-Greek-Males-Argurion-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αργυρίων</persName>
+               <persName type="lemma" xml:lang="en">Argurion</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Tertullus (2) and <ref corresp="#Vol-3-G_F-d8e19767-person" type="relation" n="son-of">Chrysa (3)’s son</ref>, the youth, murdered, aged 15<ref type="note" corresp="#Vol-3-G_M-ftn604"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Bahcekonak</note>
+               </state>
+               <bibl>Mareck,EpA32 (2000) 138</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn605"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0237" notAfter="0238">237/8 CE<ref type="note" corresp="#Vol-3-G_M-ftn606"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Chryse-Χρύση</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Chryse-d1e506924" n="Chryse-Χρύση">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e19835-person"
+                    n="Vol-3-G_F-Greek-Females-Chryse-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Χρύση</persName>
+               <persName type="lemma" xml:lang="en">Chryse</persName>
+               <persName>Cr[y]se<ref type="note" corresp="#Vol-3-G_F-ftn1132"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Adjuration inscription, Saguntum</note>
+               </state>
+               <bibl>Corell,ZPE130 (2000) 242</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn1133"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Spain</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0199">1st- 2ndC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

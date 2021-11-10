@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Lassia-Lassia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Lassia-d1e561691" n="Lassia-Lassia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e24323-person"
+                    n="Vol-3-L_F-Latin-Females-Lassia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Lassia</persName>
+               <persName type="lemma" xml:lang="en">Lassia</persName>
+               <persName>Lasif<ref type="note" corresp="#Vol-3-L_F-ftn655"/>
+               </persName>
+               <state type="desc">
+                  <note>Eirene (7), Samuel (18) <ref corresp="#Vol-3-L_M-d8e5575-person" type="relation" n="wife-of">Aurelius (20)’s wife</ref>, aged 22<ref type="note" corresp="#Vol-3-L_F-ftn656"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Catania, Libertini,CIJ650</note>
+               </state>
+               <bibl>JIWE1, 145</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn657"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Sicily</note>
+               </state>
+               <floruit notBefore="0383" notAfter="0383">383 CE<ref type="note" corresp="#Vol-3-L_F-ftn658"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

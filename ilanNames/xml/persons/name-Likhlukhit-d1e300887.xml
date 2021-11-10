@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Likhlukhit-לכלוכית</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Likhlukhit-d1e300887" n="Likhlukhit-לכלוכית">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_F-d2e1132-person"
+                    n="Vol-1-S-H_F-Likhlukhit-1">
+               <persName type="lemma">לכלוכית</persName>
+               <persName type="lemma" xml:lang="en">Likhlukhit</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>bNed66b (Kosowsky,Babylonico, -)</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-1-S-H_F-ftn86"/>
+                  </note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Post-135 CE<ref type="note" corresp="#Vol-1-S-H_F-ftn87"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

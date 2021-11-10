@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Terio-Terio</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Terio-d1e590209" n="Terio-Terio">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e39093-person"
+                    n="Vol-3-L_M-Latin-Males-Terio-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Terio</persName>
+               <persName type="lemma" xml:lang="en">Terio</persName>
+               <persName>Τηρίων<ref type="note" corresp="#Vol-3-L_M-ftn2338"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e19117-person" type="relation" n="son-of">Honoratus (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu, Schwartz</note>
+               </state>
+               <bibl>CPJ183a</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2339"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0085" notAfter="0085">85 CE<ref type="note" corresp="#Vol-3-L_M-ftn2340"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

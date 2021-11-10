@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ma‘dīkarib-معديكرب</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Madkarib-d1e471199" n="Ma‘dīkarib-معديكرب">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-4-ADD-A_M-d8e1324-person"
+                    n="Vol-2-Vol-4-ADD-A_M-Arabic-Males-Ma‘dīkarib-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">معديكرب</persName>
+               <persName type="lemma" xml:lang="en">Ma‘dīkarib</persName>
+               <persName>–<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn101"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn102"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Robin, “Ḥimyar et Israel,” p. 897</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn103"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arabia</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0440">400-40 CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn104"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-4-ADD-A_M-d8e1369-person"
+                    n="Vol-2-Vol-4-ADD-A_M-Arabic-Males-Ma‘dīkarib-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">معديكرب</persName>
+               <persName type="lemma" xml:lang="en">Ma‘dīkarib</persName>
+               <persName>–<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn105"/>
+               </persName>
+               <state type="desc">
+                  <note>Yun‘im (2), Sharaḥbi’il (2) <ref corresp="#" type="relation" n="son-of">Yaqaf (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Robin, “Ḥimyar et Israel,” p. 898</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn106"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arabia</note>
+               </state>
+               <floruit notBefore="0465" notAfter="0485">465-85 CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn107"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

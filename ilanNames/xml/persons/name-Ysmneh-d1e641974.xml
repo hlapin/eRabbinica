@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Yāsmīneh-Yāsmīneh</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ysmneh-d1e641974" n="Yāsmīneh-Yāsmīneh">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e5833-person"
+                    n="Vol-4-I_F-Iranian-Females-Yāsmīneh-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Yāsmīneh</persName>
+               <persName type="lemma" xml:lang="en">Yāsmīneh</persName>
+               <persName>יסמין<ref type="note" corresp="#Vol-4-I_F-ftn478"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_F-d8e13073-person"
+                          type="relation"
+                          n="daughter-of">Šērkōē (2)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowls, Nippur, Montgomery</note>
+               </state>
+               <bibl>1. Isbell, no. 23; 2. no. 24</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-I_F-ftn479"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn480"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e5868-person"
+                    n="Vol-4-I_F-Iranian-Females-Yāsmīneh-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Yāsmīneh</persName>
+               <persName type="lemma" xml:lang="en">Yāsmīneh</persName>
+               <persName>סמין/אסמין<ref type="note" corresp="#Vol-4-I_F-ftn481"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_F-d8e5701-person" type="relation" n="daughter-of">Itie (3)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Berlin</note>
+               </state>
+               <bibl>Wohlstein,ZA9 (1894) 34</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn482"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn483"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

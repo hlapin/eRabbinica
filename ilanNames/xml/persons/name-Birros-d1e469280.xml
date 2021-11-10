@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Birros-Birros</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Birros-d1e469280" n="Birros-Birros">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-S-G_M-d8e160-person"
+                    n="Vol-2-Vol-1-ADD-S-G_M-Semitic-Greek-Males-Birros-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Birros</persName>
+               <persName type="lemma" xml:lang="en">Birros</persName>
+               <persName>ⲛⲃⲓⲣⲣⲟⲥ<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_M-ftn10"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_M-ftn11"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Robinson,CAG, 36</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_M-ftn12"/>
+                  </note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_M-ftn13"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

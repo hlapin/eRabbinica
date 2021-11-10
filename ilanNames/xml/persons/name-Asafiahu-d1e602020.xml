@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Asafiahu-אספיהו</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Asafiahu-d1e602020" n="Asafiahu-אספיהו">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-H_M-d8e1355-person"
+                    n="Vol-3-S-H_M-Semitic-Hebrew-Males-Asafiahu-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אספיהו</persName>
+               <persName type="lemma" xml:lang="en">Asafiahu</persName>
+               <persName>–<ref type="note" corresp="#Vol-3-S-H_M-ftn89"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e33988-person" type="relation" n="father-of">Shalum (12)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Kition, Hadjisavvas</note>
+               </state>
+               <bibl>IJO3, Cyp8</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-S-H_M-ftn90"/>; early?<ref type="note" corresp="#Vol-3-S-H_M-ftn91"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyprus</note>
+               </state>
+               <floruit notBefore="-0399" notAfter="-0300">4thC BCE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

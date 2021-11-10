@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Craton-Κράτων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Craton-d1e240012" n="Craton-Κράτων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e11878-person"
+                    n="Vol-1-G_M-Craton-1">
+               <persName type="lemma">Κράτων</persName>
+               <persName type="lemma" xml:lang="en">Craton</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Κραιτο<ref type="note" corresp="#Vol-1-G_M-ftn846"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e57759-person" type="relation" n="father-of">Simon (183)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Parchment, Muraba‘at</note>
+               </state>
+               <bibl>Mur 94</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname?<ref type="note" corresp="#Vol-1-G_M-ftn847"/>
+                  </note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-G_M-ftn848"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

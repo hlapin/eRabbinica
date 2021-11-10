@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Celerina-Celerina</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Celerina-d1e558478" n="Celerina-Celerina">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e5430-person"
+                    n="Vol-3-L_F-Latin-Females-Celerina-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Celerina</persName>
+               <persName type="lemma" xml:lang="en">Celerina</persName>
+               <persName>Καιλερειναι<ref type="note" corresp="#Vol-3-L_F-ftn288"/>
+               </persName>
+               <state type="desc">
+                  <note>Aurelia (6), Sempronius (1) <ref corresp="#Vol-3-G_M-d8e14668-person" type="relation" n="wife-of">Basileus (2)’s wife</ref> and pupil<ref type="note" corresp="#Vol-3-L_F-ftn289"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vigna Randanini, Garrucci</note>
+               </state>
+               <bibl>CIJ215</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn290"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

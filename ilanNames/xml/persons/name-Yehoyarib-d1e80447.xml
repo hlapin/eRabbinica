@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Yehoyarib-יהויריב</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Yehoyarib-d1e80447" n="Yehoyarib-יהויריב">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e21666-person"
+                    n="Vol-1-B_M-Yehoyarib-1">
+               <persName type="lemma">יהויריב</persName>
+               <persName type="lemma" xml:lang="en">Yehoyarib</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">̓Ιωαρείβ<ref type="note" corresp="#Vol-1-B_M-ftn1579"/>
+               </persName>
+               <persName xml:lang="gr">̓Ιωάριβος<ref type="note" corresp="#Vol-1-B_M-ftn1580"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>1 Macc 2:1 (H &amp; R Suppl. 91); AJ 12:265 (Schalit, NB, 66); mBQ10:2 (Kasovsky,Mishnae, 835).</bibl>
+               <state type="addl-Descr">
+                  <note>Family<ref type="note" corresp="#Vol-1-B_M-ftn1581"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0199" notAfter="-0001">2nd-1stC BCE<ref type="note" corresp="#Vol-1-B_M-ftn1582"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

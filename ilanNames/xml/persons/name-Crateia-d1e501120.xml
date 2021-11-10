@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Crateia-Κράτεια</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Crateia-d1e501120" n="Crateia-Κράτεια">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e13606-person"
+                    n="Vol-3-G_F-Greek-Females-Crateia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Κράτεια</persName>
+               <persName type="lemma" xml:lang="en">Crateia</persName>
+               <persName>Κρατε[ί]α<ref type="note" corresp="#Vol-3-G_F-ftn771"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e46434-person"
+                          type="relation"
+                          n="daughter-of">Theochrestus (2)’s daughter</ref>, aged 8<ref type="note" corresp="#Vol-3-G_F-ftn772"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira</note>
+               </state>
+               <bibl>Reynolds,CJZC22g</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn773"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit>Pre-117 CE?</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

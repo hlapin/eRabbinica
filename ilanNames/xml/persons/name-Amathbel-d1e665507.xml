@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Amathbel-Amathbel</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Amathbel-d1e665507" n="Amathbel-Amathbel">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-G_F-d8e16-person"
+                    n="Vol-4-S-G_F-Semitic-Greek-Females-Amathbel-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Amathbel</persName>
+               <persName type="lemma" xml:lang="en">Amathbel</persName>
+               <persName>[̓́Α]μαθβηλ<ref type="note" corresp="#Vol-4-S-G_F-ftn2"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Graffito, synagogue Dura-Europos, du Mesnil</note>
+               </state>
+               <bibl>IJO3, Syr90</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-G_F-ftn3"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Dura-Europos</note>
+               </state>
+               <floruit notBefore="0256" notAfter="0256">Pre-256 C CE<ref type="note" corresp="#Vol-4-S-G_F-ftn4"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Artaχšaθrā-Artaχšaθrā</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Artaar-d1e653750" n="Artaχšaθrā-Artaχšaθrā">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e1333-person"
+                    n="Vol-4-I_M-Iranian-Males-Artaχšaθrā-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Artaχšaθrā</persName>
+               <persName type="lemma" xml:lang="en">Artaχšaθrā</persName>
+               <persName>ארתשריה<ref type="note" corresp="#Vol-4-I_M-ftn117"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_F-d8e7129-person" type="relation" n="son-of">Komiš (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Nippur, Montgomery</note>
+               </state>
+               <bibl>Isbell, no. 13</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn118"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn119"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

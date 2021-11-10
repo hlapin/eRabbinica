@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Euphranticus-Ε̓φραντικός</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Euphranticus-d1e525572"
+                     n="Euphranticus-Ε̓φραντικός">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e33839-person"
+                    n="Vol-3-G_M-Greek-Males-Euphranticus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ε̓φραντικός</persName>
+               <persName type="lemma" xml:lang="en">Euphranticus</persName>
+               <persName>Ε̓φραντικοῦ<ref type="note" corresp="#Vol-3-G_M-ftn1934"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_F-d8e34395-person" type="relation" n="son-of">Verrina (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaphs, Villa Torlonia, Paribeni</note>
+               </state>
+               <bibl>CIJ12, 27<ref type="note" corresp="#Vol-3-G_M-ftn1935"/>
+               </bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1936"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e33893-person"
+                    n="Vol-3-G_M-Greek-Males-Euphranticus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ε̓φραντικός</persName>
+               <persName type="lemma" xml:lang="en">Euphranticus</persName>
+               <persName>Ε̓φραντικόν</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn1937"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Thessalonica, Oehler</note>
+               </state>
+               <bibl>CIJ66*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1938"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-G_M-ftn1939"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

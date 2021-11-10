@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Encairus-̓́Εγκαιρος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Encairus-d1e519201" n="Encairus-̓́Εγκαιρος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e24641-person"
+                    n="Vol-3-G_M-Greek-Males-Encairus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓́Εγκαιρος</persName>
+               <persName type="lemma" xml:lang="en">Encairus</persName>
+               <persName>̓Ενκαίριος<ref type="note" corresp="#Vol-3-G_M-ftn1458"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Isaac (59)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Lapethos, Mitford</note>
+               </state>
+               <bibl>IJO3, App26</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1459"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyprus</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0499">5thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

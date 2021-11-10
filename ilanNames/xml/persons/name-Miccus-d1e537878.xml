@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Miccus-Μίκκος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Miccus-d1e537878" n="Miccus-Μίκκος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e56916-person"
+                    n="Vol-3-G_M-Greek-Males-Miccus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Μίκκος</persName>
+               <persName type="lemma" xml:lang="en">Miccus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e11459-person" type="relation" n="son-of">Nathan (11)’s son</ref>, aged 35<ref type="note" corresp="#Vol-3-G_M-ftn3271"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Leontopolis, Naville</note>
+               </state>
+               <bibl>CIJ1452</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3272"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0012" notAfter="-0012">12 BCE<ref type="note" corresp="#Vol-3-G_M-ftn3273"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

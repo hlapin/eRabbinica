@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Rasha-רשא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Rasha-d1e689772" n="Rasha-רשא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e32879-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Rasha-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">רשא</persName>
+               <persName type="lemma" xml:lang="en">Rasha</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-S-H_M-ftn2291"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Edessa, Pognon</note>
+               </state>
+               <bibl>CIJ1415</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2292"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0399">1st-4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2293"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

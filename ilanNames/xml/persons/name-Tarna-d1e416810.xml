@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tarna-תרנא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tarna-d1e416810" n="Tarna-תרנא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_F-d8e1812-person"
+                    n="Vol-2-S-H_F-Semitic-Hebrew-Females-Tarna-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">תרנא</persName>
+               <persName type="lemma" xml:lang="en">Tarna</persName>
+               <persName>ترنا<ref type="note" corresp="#Vol-2-S-H_F-ftn126"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-S-H_F-ftn127"/>
+                     <ref type="note" corresp="#Vol-2-S-H_F-ftn128"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ibn Qutayba,Kitāb al-Ma‘ārif,319</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-S-H_F-ftn129"/>
+                  </note>
+               </state>
+               <floruit>Pre-632<ref type="note" corresp="#Vol-2-S-H_F-ftn130"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

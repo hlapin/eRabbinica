@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Volumnius-Volumnius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Volumnius-d1e289798" n="Volumnius-Volumnius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e5682-person"
+                    n="Vol-1-L_M-Volumnius-1">
+               <persName type="lemma">Volumnius</persName>
+               <persName type="lemma" xml:lang="en">Volumnius</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Ο̓ολόμνιος<ref type="note" corresp="#Vol-1-L_M-ftn380"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e8218-person" type="relation" n="friend-of">Herod (1)’s friend</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ1:535;AJ16:332 (Schalit,NB, 94)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-1-L_M-ftn381"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0007" notAfter="-0007">7 BCE<ref type="note" corresp="#Vol-1-L_M-ftn382"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

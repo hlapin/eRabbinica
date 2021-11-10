@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Mithra-Mithra</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Mithra-d1e594597" n="Mithra-Mithra">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-P_F-d8e66-person"
+                    n="Vol-3-P_F-Persian-Females-Mithra-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Mithra</persName>
+               <persName type="lemma" xml:lang="en">Mithra</persName>
+               <persName>מיטרא<ref type="note" corresp="#Vol-3-P_F-ftn5"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e2320-person" type="relation" n="daughter-of">Eleazar (6)’s daughter</ref>, of Alexandria<ref type="note" corresp="#Vol-3-P_F-ftn6"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Antinoopolis</note>
+               </state>
+               <bibl>PC12 (1986) 20-1</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-P_F-ftn7"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0417" notAfter="0417">417 CE<ref type="note" corresp="#Vol-3-P_F-ftn8"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

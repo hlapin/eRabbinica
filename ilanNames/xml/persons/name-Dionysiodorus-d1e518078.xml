@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Dionysiodorus-Διονυσιόδωρος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Dionysiodorus-d1e518078"
+                     n="Dionysiodorus-Διονυσιόδωρος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e19621-person"
+                    n="Vol-3-G_M-Greek-Males-Dionysiodorus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Διονυσιόδωρος</persName>
+               <persName type="lemma" xml:lang="en">Dionysiodorus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e28680-person" type="relation" n="son-of">Eros (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Renovation inscription, Olbia,<ref type="note" corresp="#Vol-3-G_M-ftn1155"/>Osann</note>
+               </state>
+               <bibl>CIJ682</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1156"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Scythia</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0299">2nd-3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

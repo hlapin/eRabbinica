@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Maro-Maro</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Maro-d1e284388" n="Maro-Maro">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e3717-person"
+                    n="Vol-1-L_M-Maro-1">
+               <persName type="lemma">Maro</persName>
+               <persName type="lemma" xml:lang="en">Maro</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Μαρωης<ref type="note" corresp="#Vol-1-L_M-ftn253"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, marriage contract, “Seyal”</note>
+               </state>
+               <bibl>Se 69</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0130" notAfter="0130">130 CE<ref type="note" corresp="#Vol-1-L_M-ftn254"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

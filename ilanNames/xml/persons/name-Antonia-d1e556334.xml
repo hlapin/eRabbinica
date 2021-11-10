@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Antonia-Antonia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Antonia-d1e556334" n="Antonia-Antonia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e758-person"
+                    n="Vol-3-L_F-Latin-Females-Antonia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Antonia</persName>
+               <persName type="lemma" xml:lang="en">Antonia</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Tisiphone (1), Publius (6) <ref corresp="#Vol-3-L_M-d8e593-person" type="relation" n="mother-of">Aelius (5)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Tortona, Oehler</note>
+               </state>
+               <bibl>CIJ59*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn43"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn44"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

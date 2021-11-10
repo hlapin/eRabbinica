@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Abigail-אביגיל</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Abigail-d1e472378" n="Abigail-אביגיל">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_F-d8e15-person"
+                    n="Vol-3-B_F-Biblical-Females-Abigail-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">אביגיל</persName>
+               <persName type="lemma" xml:lang="en">Abigail</persName>
+               <persName>̓Αβηγάηλ<ref type="note" corresp="#Vol-3-B_F-ftn2"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <anchor xml:id="OLE_LINK1"/>
+                     <anchor xml:id="OLE_LINK2"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ring, Alexandria</note>
+               </state>
+               <bibl>Schwabe,Tarbiz7 (1936) 345</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-B_F-ftn3"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0499">5thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

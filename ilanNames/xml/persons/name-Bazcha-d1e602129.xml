@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Bazcha-בזכה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Bazcha-d1e602129" n="Bazcha-בזכה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-H_M-d8e1698-person"
+                    n="Vol-3-S-H_M-Semitic-Hebrew-Males-Bazcha-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">בזכה</persName>
+               <persName type="lemma" xml:lang="en">Bazcha</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu, Lidzbarski</note>
+               </state>
+               <bibl>TADAE4:8:8</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-S-H_M-ftn109"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

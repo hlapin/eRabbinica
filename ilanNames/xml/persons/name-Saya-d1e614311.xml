@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Saʿya-سعية</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Saya-d1e614311" n="Saʿya-سعية">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e6713-person"
+                    n="Vol-4-A_M-Arabic-Males-Saʿya-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">سعية</persName>
+               <persName type="lemma" xml:lang="en">Saʿya</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Thaʿlaba (3) and <ref corresp="#Vol-4-A_M-d8e564-person" type="relation" n="father-of">Asad (3)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Hishām,Leben Muhammed’s, 387</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-A_M-ftn546"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0500" notAfter="0599">6thC CE<ref type="note" corresp="#Vol-4-A_M-ftn547"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e6750-person"
+                    n="Vol-4-A_M-Arabic-Males-Saʿya-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">سعية</persName>
+               <persName type="lemma" xml:lang="en">Saʿya</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_M-d8e197-person" type="relation" n="father-of">Akhṭab (1)’s father</ref>, <ref corresp="#Vol-4-A_M-d8e8073-person" type="relation" n="son-of">ʿĀmir (2)’s son</ref>, priest<ref type="note" corresp="#Vol-4-A_M-ftn548"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ṭabarī, iii, 2452</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-A_M-ftn549"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0500" notAfter="0599">6thC CE<ref type="note" corresp="#Vol-4-A_M-ftn550"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

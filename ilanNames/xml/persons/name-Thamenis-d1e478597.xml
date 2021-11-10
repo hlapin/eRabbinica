@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Thamenis-Thamenis</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Thamenis-d1e478597" n="Thamenis-Thamenis">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_F-d8e1746-person"
+                    n="Vol-3-E_F-Egyptian-Females-Thamenis-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Thamenis</persName>
+               <persName type="lemma" xml:lang="en">Thamenis</persName>
+               <persName>תמן<ref type="note" corresp="#Vol-3-E_F-ftn117"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-S-H_M-d8e6584-person"
+                          type="relation"
+                          n="daughter-of">Tasi (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu, Degen</note>
+               </state>
+               <bibl>TADAE4:8:7</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-E_F-ftn118"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

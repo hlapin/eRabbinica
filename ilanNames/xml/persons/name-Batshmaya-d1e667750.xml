@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Batshmaya-בתשמיא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Batshmaya-d1e667750" n="Batshmaya-בתשמיא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_F-d8e3263-person"
+                    n="Vol-4-S-H_F-Semitic-Hebrew-Females-Batshmaya-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">בתשמיא</persName>
+               <persName type="lemma" xml:lang="en">Batshmaya</persName>
+               <persName>–<ref type="note" corresp="#Vol-4-S-H_F-ftn250"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_M-d8e8238-person" type="relation" n="daughter-of">ʿAbbās (2)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Palmyra</note>
+               </state>
+               <bibl>Ingholt,Berytus2 (1935) 80</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-H_F-ftn251"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra</note>
+               </state>
+               <floruit>219 C CE<ref type="note" corresp="#Vol-4-S-H_F-ftn252"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ari-ארי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ari-d1e315733" n="Ari-ארי">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e1520-person"
+                    n="Vol-1-S-H_M-Ari-1">
+               <persName type="lemma">ארי</persName>
+               <persName type="lemma" xml:lang="en">Ari</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">̓Αρί<ref type="note" corresp="#Vol-1-S-H_M-ftn94"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Judah (15) and Simon (20)’s father</note>
+               </state>
+               <bibl>—</bibl>
+               <state type="addl-Descr">
+                  <note>BJ6:92 (Schalit,NB, 16)</note>
+               </state>
+               <floruit>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn95"/>
+               </floruit>
+               <state>
+                  <note type="prob-in-source">70 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn96"/>
+                  </note>
+               </state>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e1564-person"
+                    n="Vol-1-S-H_M-Ari-2">
+               <persName type="lemma">ארי</persName>
+               <persName type="lemma" xml:lang="en">Ari</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">אריה</persName>
+               <persName xml:lang="he">אריא<ref type="note" corresp="#Vol-1-S-H_M-ftn97"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-S-H_M-ftn98"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>tYeb14:10 (Kasowski,Thosephthae, 593)</bibl>
+               <state type="addl-Descr">
+                  <note>Second name<ref type="note" corresp="#Vol-1-S-H_M-ftn99"/>
+                  </note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn100"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

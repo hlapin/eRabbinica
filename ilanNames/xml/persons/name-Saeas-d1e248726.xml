@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Saeas-Σαέας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Saeas-d1e248726" n="Saeas-Σαέας">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e15727-person"
+                    n="Vol-1-G_M-Saeas-1">
+               <persName type="lemma">Σαέας</persName>
+               <persName type="lemma" xml:lang="en">Saeas</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Σαει.ου<ref type="note" corresp="#Vol-1-G_M-ftn1130"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e35454-person" type="relation" n="father-of">Joseph (176)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, deed, Babatha archive</note>
+               </state>
+               <bibl>PYadin 11</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname?<ref type="note" corresp="#Vol-1-G_M-ftn1131"/>
+                  </note>
+               </state>
+               <floruit notBefore="0124" notAfter="0124">124 CE<ref type="note" corresp="#Vol-1-G_M-ftn1132"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

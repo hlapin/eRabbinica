@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ansami-אנסמי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ansami-d1e427543" n="Ansami-אנסמי">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e6768-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ansami-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אנסמי</persName>
+               <persName type="lemma" xml:lang="en">Ansami</persName>
+               <persName>انسمي<ref type="note" corresp="#Vol-2-S-H_M-ftn407"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-S-H_M-ftn408"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Abu’l Fath, 172</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-2-S-H_M-ftn409"/>
+                  </note>
+               </state>
+               <floruit>4th-7thC<ref type="note" corresp="#Vol-2-S-H_M-ftn410"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

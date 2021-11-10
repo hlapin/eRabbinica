@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Shelamiah-שלמיה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Shelamiah-d1e634781" n="Shelamiah-שלמיה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_M-d8e28857-person"
+                    n="Vol-4-B_M-Biblical-Males-Shelamiah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שלמיה</persName>
+               <persName type="lemma" xml:lang="en">Shelamiah</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-B_M-ftn1863"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e23381-person"
+                          type="relation"
+                          n="father-of">Yeymar (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bShab66b (Kosowsky,Babylonico, 1556)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-B_M-ftn1864"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0399">4thC CE<ref type="note" corresp="#Vol-4-B_M-ftn1865"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

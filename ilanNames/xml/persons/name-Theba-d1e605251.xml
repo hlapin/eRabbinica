@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Theba-תבא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Theba-d1e605251" n="Theba-תבא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-H_M-d8e6317-person"
+                    n="Vol-3-S-H_M-Semitic-Hebrew-Males-Theba-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">תבא</persName>
+               <persName type="lemma" xml:lang="en">Theba</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu, Sachau</note>
+               </state>
+               <bibl>TADAE4:8:4</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-S-H_M-ftn394"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-H_M-d8e6348-person"
+                    n="Vol-3-S-H_M-Semitic-Hebrew-Males-Theba-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">תבא</persName>
+               <persName type="lemma" xml:lang="en">Theba</persName>
+               <persName>Θήβων<ref type="note" corresp="#Vol-3-S-H_M-ftn395"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e77492-person" type="relation" n="son-of">Phanocles (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Trikomia, Wilcken</note>
+               </state>
+               <bibl>CPJ24</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-S-H_M-ftn396"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0174" notAfter="-0174">174 BCE<ref type="note" corresp="#Vol-3-S-H_M-ftn397"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

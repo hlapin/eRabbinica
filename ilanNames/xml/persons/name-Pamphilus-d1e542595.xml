@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Pamphilus-Πάμφιλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Pamphilus-d1e542595" n="Pamphilus-Πάμφιλος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e62484-person"
+                    n="Vol-3-G_M-Greek-Males-Pamphilus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πάμφιλος</persName>
+               <persName type="lemma" xml:lang="en">Pamphilus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-S-G_M-d8e3107-person" type="relation" n="son-of">Nabaius (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu, Manteuffel</note>
+               </state>
+               <bibl>CPJ331</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3602"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0105" notAfter="0105">105 CE<ref type="note" corresp="#Vol-3-G_M-ftn3603"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e62515-person"
+                    n="Vol-3-G_M-Greek-Males-Pamphilus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πάμφιλος</persName>
+               <persName type="lemma" xml:lang="en">Pamphilus</persName>
+               <persName>Παμφίλου</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Hierapolis, Judeich</note>
+               </state>
+               <bibl>IJO2, 202</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3604"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e62553-person"
+                    n="Vol-3-G_M-Greek-Males-Pamphilus-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πάμφιλος</persName>
+               <persName type="lemma" xml:lang="en">Pamphilus</persName>
+               <persName>Παμφίλο[ς]<ref type="note" corresp="#Vol-3-G_M-ftn3605"/>
+               </persName>
+               <state type="desc">
+                  <note>Aurelius (69), Marcus (26) Aurelius (68) <ref corresp="#Vol-3-G_M-d8e62515-person" type="relation" n="son-of">Pamphilus (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Hierapolis, Judeich</note>
+               </state>
+               <bibl>IJO2, 202</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3606"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

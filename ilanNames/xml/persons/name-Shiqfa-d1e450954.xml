@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Shiqfa-שקפא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Shiqfa-d1e450954" n="Shiqfa-שקפא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e25257-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Shiqfa-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שקפא</persName>
+               <persName type="lemma" xml:lang="en">Shiqfa</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e47525-person" type="relation" n="father-of">Simon (40)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Eccl Rab1:11 (Hyman,Toldoth, 1216)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn1601"/>
+                  </note>
+               </state>
+               <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn1602"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

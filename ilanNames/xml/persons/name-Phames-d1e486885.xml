@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Phames-Phames</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Phames-d1e486885" n="Phames-Phames">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e7116-person"
+                    n="Vol-3-E_M-Egyptian-Males-Phames-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Phames</persName>
+               <persName type="lemma" xml:lang="en">Phames</persName>
+               <persName>Φαμεῖς<ref type="note" corresp="#Vol-3-E_M-ftn433"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="father-of">Joshua (14)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Leontopolis Edgar</note>
+               </state>
+               <bibl>CIJ1511</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn434"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0199" notAfter="0199">2ndC BCE-2ndC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e7154-person"
+                    n="Vol-3-E_M-Egyptian-Males-Phames-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Phames</persName>
+               <persName type="lemma" xml:lang="en">Phames</persName>
+               <persName>Φαμσωθίς<ref type="note" corresp="#Vol-3-E_M-ftn435"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_F-d8e3139-person" type="relation" n="father-of">Mariam (37)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Antinoopolis, de Ricci</note>
+               </state>
+               <bibl>CIJ1535</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn436"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0199">2ndC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

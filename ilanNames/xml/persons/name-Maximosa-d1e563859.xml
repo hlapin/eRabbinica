@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Maximosa-Maximosa</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Maximosa-d1e563859" n="Maximosa-Maximosa">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e27323-person"
+                    n="Vol-3-L_F-Latin-Females-Maximosa-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Maximosa</persName>
+               <persName type="lemma" xml:lang="en">Maximosa</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Carthage</note>
+               </state>
+               <bibl>Le Bohec,Ant. Afr.17 (1981) no. 42</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn832"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>North Africa</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn833"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

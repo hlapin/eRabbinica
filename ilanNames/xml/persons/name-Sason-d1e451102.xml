@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sason-ששון</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sason-d1e451102" n="Sason-ששון">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e25424-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Sason-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ששון</persName>
+               <persName type="lemma" xml:lang="en">Sason</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bSuk48b<ref type="note" corresp="#Vol-2-S-H_M-ftn1611"/>(Kosowsky,Babylonico, 1753)E: Christian?<ref type="note" corresp="#Vol-2-S-H_M-ftn1612"/>Fictitious?<ref type="note" corresp="#Vol-2-S-H_M-ftn1613"/>
+               </bibl>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1614"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e25467-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Sason-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ששון</persName>
+               <persName type="lemma" xml:lang="en">Sason</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e40243-person" type="relation" n="father-of">Anan (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bMQ24b<ref type="note" corresp="#Vol-2-S-H_M-ftn1615"/>(Kosowsky,Babylonico, 1160)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1616"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

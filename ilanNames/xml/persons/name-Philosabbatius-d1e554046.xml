@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Philosabbatius-Φιλοσαββάτιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Philosabbatius-d1e554046"
+                     n="Philosabbatius-Φιλοσαββάτιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e79459-person"
+                    n="Vol-3-G_M-Greek-Males-Philosabbatius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Φιλοσαββάτιος</persName>
+               <persName type="lemma" xml:lang="en">Philosabbatius</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Epiphanius,PG41, 901</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4624"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4625"/>
+                  </note>
+               </state>
+               <floruit notBefore="0100" notAfter="0199">2ndC CE<ref type="note" corresp="#Vol-3-G_M-ftn4626"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

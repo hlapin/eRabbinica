@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Buzia-בוזיא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Buzia-d1e469634" n="Buzia-בוזיא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-S-H_F-d8e148-person"
+                    n="Vol-2-Vol-1-ADD-S-H_F-Semitic-Greek-Females-Buzia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">בוזיא</persName>
+               <persName type="lemma" xml:lang="en">Buzia</persName>
+               <persName>ܒܘܙܝܐ<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-H_F-ftn13"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-Vol-1-ADD-S-H_F-ftn14"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Solomon of Basra,Book of the Bee, 100</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-H_F-ftn15"/>
+                  </note>
+               </state>
+               <floruit notBefore="0030" notAfter="0030">30 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-H_F-ftn16"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

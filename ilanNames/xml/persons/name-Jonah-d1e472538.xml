@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Jonah-יונה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Jonah-d1e472538" n="Jonah-יונה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_F-d8e1399-person"
+                    n="Vol-3-B_F-Biblical-Females-Jonah-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">יונה</persName>
+               <persName type="lemma" xml:lang="en">Jonah</persName>
+               <persName>̓Ιωνᾶς<ref type="note" corresp="#Vol-3-B_F-ftn96"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e21326-person"
+                          type="relation"
+                          n="sister-in-law-of">Dorotheus (2)’s sister-in-law</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Heracleopolis</note>
+               </state>
+               <bibl>PC29 (2001) 7</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-B_F-ftn97"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0139" notAfter="-0008">139/8 BCE<ref type="note" corresp="#Vol-3-B_F-ftn98"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_M-d8e10706-person"
+                    n="Vol-4-B_M-Biblical-Males-Jonah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יונה</persName>
+               <persName type="lemma" xml:lang="en">Jonah</persName>
+               <persName>Seal</persName>
+               <bibl>Shaked, “Jewish Sasanian Sigillography,” no. 12</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-B_M-ftn900"/>; authentic?<ref type="note" corresp="#Vol-4-B_M-ftn901"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia?<ref type="note" corresp="#Vol-4-B_M-ftn902"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-4-B_M-ftn903"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-Vol-3-Add-B_M-d8e225-person"
+                    n="Vol-4-Vol-3-Add-B_M-Biblical-Males-Jonah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יונה</persName>
+               <persName type="lemma" xml:lang="en">Jonah</persName>
+               <persName>̓Ιωνᾶς</persName>
+               <floruit>–<ref type="note" corresp="#Vol-4-Vol-3-Add-B_M-ftn17"/>
+               </floruit>
+               <state type="findspot">
+                  <note>Papyrus, Kom Ushim</note>
+               </state>
+               <bibl>SB16560, ii: 46</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-Vol-3-Add-B_M-ftn18"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0199">2ndC CE<ref type="note" corresp="#Vol-4-Vol-3-Add-B_M-ftn19"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

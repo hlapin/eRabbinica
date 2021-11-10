@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sebūχt-Sebūχt</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sebt-d1e663716" n="Sebūχt-Sebūχt">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e10549-person"
+                    n="Vol-4-I_M-Iranian-Males-Sebūχt-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Sebūχt</persName>
+               <persName type="lemma" xml:lang="en">Sebūχt</persName>
+               <persName>سيبخت<ref type="note" corresp="#Vol-4-I_M-ftn887"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_M-d8e2897-person" type="relation" n="son-of">Daχwār (1)’s son</ref>, shoemaker<ref type="note" corresp="#Vol-4-I_M-ftn888"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Farazdaq,Diwān, 1:207</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn889"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Persia<ref type="note" corresp="#Vol-4-I_M-ftn890"/>
+                  </note>
+               </state>
+               <floruit notBefore="0500" notAfter="0599">6thC CE<ref type="note" corresp="#Vol-4-I_M-ftn891"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

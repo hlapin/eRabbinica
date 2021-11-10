@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Laurentia-Laurentia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Laurentia-d1e561750" n="Laurentia-Laurentia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e24380-person"
+                    n="Vol-3-L_F-Latin-Females-Laurentia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Laurentia</persName>
+               <persName type="lemma" xml:lang="en">Laurentia</persName>
+               <persName>[L]aurentia<ref type="note" corresp="#Vol-3-L_F-ftn660"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_F-ftn661"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Carthage,</note>
+               </state>
+               <bibl>Le Bohec,Ant. Afr.17 (1981) no. 46</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn662"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>North Africa</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0199">2ndC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

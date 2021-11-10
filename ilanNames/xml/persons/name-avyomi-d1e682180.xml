@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ṭavyomi-טביומי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-avyomi-d1e682180" n="Ṭavyomi-טביומי">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e22759-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Ṭavyomi-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">טביומי</persName>
+               <persName type="lemma" xml:lang="en">Ṭavyomi</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bʿEruv26b (Kosowsky,Babylonico, 555)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1578"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0399">4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1579"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e22799-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Ṭavyomi-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">טביומי</persName>
+               <persName type="lemma" xml:lang="en">Ṭavyomi</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e11827-person"
+                          type="relation"
+                          n="father-of">Bardala (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bḤag5a (Kosowsky,Babylonico, 555)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1580"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1581"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e22839-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Ṭavyomi-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">טביומי</persName>
+               <persName type="lemma" xml:lang="en">Ṭavyomi</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Mari (2), <ref corresp="#Vol-4-S-H_M-d8e10932-person" type="relation" n="son-of">Ashi (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>ShGa§ 188</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1582"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit>d. 468 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1583"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

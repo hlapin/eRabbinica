@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - אומבי Omabi-</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Omabi-d1e414244" n="אומבי Omabi-">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_F-d8e17-person"
+                    n="Vol-2-S-H_F-Semitic-Hebrew-Females-אומבי Omabi-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma"/>
+               <persName type="lemma" xml:lang="en">אומבי Omabi</persName>
+               <persName>אמבו<ref type="note" corresp="#Vol-2-S-H_F-ftn2"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Beth She‘arim</note>
+               </state>
+               <bibl>CIJ1133</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-S-H_F-ftn3"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_F-d8e45-person"
+                    n="Vol-2-S-H_F-Semitic-Hebrew-Females-אומבי Omabi-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma"/>
+               <persName type="lemma" xml:lang="en">אומבי Omabi</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e48838-person"
+                          type="relation"
+                          n="daughter-of">Simon (79)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>Misgav &amp; Stern,Tarbiz74 (2005) 141</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>4th-6thC<ref type="note" corresp="#Vol-2-S-H_F-ftn4"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_F-d8e77-person"
+                    n="Vol-2-S-H_F-Semitic-Hebrew-Females-אומבי Omabi-3">
+               <sex cert="high">F</sex>
+               <persName type="lemma"/>
+               <persName type="lemma" xml:lang="en">אומבי Omabi</persName>
+               <persName>̓Ωμμάβι<ref type="note" corresp="#Vol-2-S-H_F-ftn5"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-S-H_F-ftn6"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1a, no. 35</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-H_F-ftn7"/>
+                  </note>
+               </state>
+               <floruit>375<ref type="note" corresp="#Vol-2-S-H_F-ftn8"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Maximianus-Maximianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Maximianus-d1e466972"
+                     n="Maximianus-Maximianus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-L_M-d8e1467-person"
+                    n="Vol-2-Vol-1-ADD-L_M-Latin-Males-Maximianus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Maximianus</persName>
+               <persName type="lemma" xml:lang="en">Maximianus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn125"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Transitus Mariae A. 14 (Tischendorf,Apocal. Apocry116)</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn126"/>
+                  </note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn127"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

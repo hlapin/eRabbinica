@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Democles-Δημοκλῆς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Democles-d1e517505" n="Democles-Δημοκλῆς">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e17938-person"
+                    n="Vol-3-G_M-Greek-Males-Democles-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Δημοκλῆς</persName>
+               <persName type="lemma" xml:lang="en">Democles</persName>
+               <persName>דמוקלס<ref type="note" corresp="#Vol-3-G_M-ftn1055"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn1056"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Della Vida</note>
+               </state>
+               <bibl>TADAE3:3:29</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1057"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e17975-person"
+                    n="Vol-3-G_M-Greek-Males-Democles-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Δημοκλῆς</persName>
+               <persName type="lemma" xml:lang="en">Democles</persName>
+               <persName>Δημοκ<ref type="note" corresp="#Vol-3-G_M-ftn1058"/>
+               </persName>
+               <state type="desc">
+                  <note>Econus (1), <ref corresp="#" type="relation" n="son-of">Joseph (55)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, NYU</note>
+               </state>
+               <bibl>Nielsen &amp; Worp,ZPE149 (2004) 122</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1059"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0199">2ndC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

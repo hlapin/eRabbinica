@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Aponerius-̓Απονήριος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Aponerius-d1e511548"
+                     n="Aponerius-̓Απονήριος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e10100-person"
+                    n="Vol-3-G_M-Greek-Males-Aponerius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Απονήριος</persName>
+               <persName type="lemma" xml:lang="en">Aponerius</persName>
+               <persName>̓Απον<ref type="note" corresp="#Vol-3-G_M-ftn590"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e10144-person" type="relation" n="father-of">Aponerius (2)’s father</ref>, councilor<ref type="note" corresp="#Vol-3-G_M-ftn591"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+               </state>
+               <bibl>IJO2, 14:B38, 41</bibl>
+               <state type="addl-Descr">
+                  <note>God-fearer<ref type="note" corresp="#Vol-3-G_M-ftn592"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e10144-person"
+                    n="Vol-3-G_M-Greek-Males-Aponerius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Απονήριος</persName>
+               <persName type="lemma" xml:lang="en">Aponerius</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e10100-person" type="relation" n="son-of">Aponerius (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+               </state>
+               <bibl>IJO2, 14:B41</bibl>
+               <state type="addl-Descr">
+                  <note>God-fearer<ref type="note" corresp="#Vol-3-G_M-ftn593"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

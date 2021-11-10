@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Aṣlaḥ-אצלח</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Aslah-d1e427646" n="Aṣlaḥ-אצלח">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e6877-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Aṣlaḥ-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אצלח</persName>
+               <persName type="lemma" xml:lang="en">Aṣlaḥ</persName>
+               <persName>–<ref type="note" corresp="#Vol-2-S-H_M-ftn415"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e26042-person" type="relation" n="son-of">Tamlah (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Samâkiyé<ref type="note" corresp="#Vol-2-S-H_M-ftn416"/>
+                  </note>
+               </state>
+               <bibl>Milik,LA9 (1958-9) 343</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-H_M-ftn417"/>
+                  </note>
+               </state>
+               <floruit>
+                  <ref type="note" corresp="#Vol-2-S-H_M-ftn418"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-P_M-d8e556-person"
+                    n="Vol-2-Vol-1-ADD-P_M-Persian-Males-Aṣlaḥ-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אצלח</persName>
+               <persName type="lemma" xml:lang="en">Aṣlaḥ</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e8801-person" type="relation" n="son-of">Zebadi (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Mt. Gerizim</note>
+               </state>
+               <bibl>Gerizim20</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn39"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0111" notAfter="-0111">Pre-110 BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn40"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

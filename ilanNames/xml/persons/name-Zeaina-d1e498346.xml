@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Zeaina-Ζήαινα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Zeaina-d1e498346" n="Zeaina-Ζήαινα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e9825-person"
+                    n="Vol-3-G_F-Greek-Females-Zeaina-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ζήαινα</persName>
+               <persName type="lemma" xml:lang="en">Zeaina</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-S-G_M-d8e804-person"
+                          type="relation"
+                          n="daughter-of">Arimmas (1)’s daughter</ref>, aged 16<ref type="note" corresp="#Vol-3-G_F-ftn542"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira, Oliverio</note>
+               </state>
+               <bibl>CJZC45e</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn543"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0117" notAfter="0117">Pre-117 CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Νάμος Namo-Νάμος Namo</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Namo-d1e413499" n="Νάμος Namo-Νάμος Namo">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_M-d8e1798-person"
+                    n="Vol-2-S-G_M-Semitic-Greek-Males-Νάμος Namo-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Νάμος Namo</persName>
+               <persName type="lemma" xml:lang="en">Νάμος Namo</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e19388-person" type="relation" n="son-of">Naṭira (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1a, no. 299</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-G_M-ftn113"/>
+                  </note>
+               </state>
+               <floruit>4th-6thC<ref type="note" corresp="#Vol-2-S-G_M-ftn114"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

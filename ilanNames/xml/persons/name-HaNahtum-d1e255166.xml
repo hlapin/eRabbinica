@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - HaNahtum-הנחתם</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-HaNahtum-d1e255166" n="HaNahtum-הנחתם">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-Ha_Names-d2e328-person"
+                    n="Vol-1-Ha_Names-HaNahtum-1">
+               <persName type="lemma">הנחתם</persName>
+               <persName type="lemma" xml:lang="en">HaNahtum</persName>
+               <sex cert="high">Names</sex>
+               <persName xml:lang="he">הנהתמ<ref type="note" corresp="#Vol-1-Ha_Names-ftn20"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, “lot,” Masada</note>
+               </state>
+               <bibl>Mas no. 429</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname2a</note>
+               </state>
+               <floruit notBefore="0073" notAfter="0073">Pre-73 CE<ref type="note" corresp="#Vol-1-Ha_Names-ftn21"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

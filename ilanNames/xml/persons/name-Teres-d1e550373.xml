@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Teres-Τήρης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Teres-d1e550373" n="Teres-Τήρης">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e75179-person"
+                    n="Vol-3-G_M-Greek-Males-Teres-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Τήρης</persName>
+               <persName type="lemma" xml:lang="en">Teres</persName>
+               <persName>Τηροῦς</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e79408-person" type="relation" n="father-of">Philopator (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Theogenis, Kramer</note>
+               </state>
+               <bibl>CPR18:7</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4363"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0232" notAfter="-0232">232 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4364"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e75214-person"
+                    n="Vol-3-G_M-Greek-Males-Teres-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Τήρης</persName>
+               <persName type="lemma" xml:lang="en">Teres</persName>
+               <persName>Τήρου<ref type="note" corresp="#Vol-3-G_M-ftn4365"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Vienna</note>
+               </state>
+               <bibl>P. Harrauer 33:96</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4366"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

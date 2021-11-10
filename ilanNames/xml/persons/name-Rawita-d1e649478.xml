@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Rawita-Rawita</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Rawita-d1e649478" n="Rawita-Rawita">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e12133-person"
+                    n="Vol-4-I_F-Iranian-Females-Rawita-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Rawita</persName>
+               <persName type="lemma" xml:lang="en">Rawita</persName>
+               <persName>רביתא<ref type="note" corresp="#Vol-4-I_F-ftn994"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e29703-person"
+                          type="relation"
+                          n="mother-of">Safra (4)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Moussyaieff collection</note>
+               </state>
+               <bibl>Levene,CMB, M102</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn995"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn996"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e12171-person"
+                    n="Vol-4-I_F-Iranian-Females-Rawita-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Rawita</persName>
+               <persName type="lemma" xml:lang="en">Rawita</persName>
+               <persName>רביתא<ref type="note" corresp="#Vol-4-I_F-ftn997"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e25044-person"
+                          type="relation"
+                          n="mother-of">Maḥlefa (5)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl</note>
+               </state>
+               <bibl>Borisov,EV19 (1969) 12</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn998"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn999"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

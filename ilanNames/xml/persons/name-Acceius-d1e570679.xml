@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Acceius-Acceius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Acceius-d1e570679" n="Acceius-Acceius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e16-person"
+                    n="Vol-3-L_M-Latin-Males-Acceius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Acceius</persName>
+               <persName type="lemma" xml:lang="en">Acceius</persName>
+               <persName>̓Ακεί[ους]<ref type="note" corresp="#Vol-3-L_M-ftn2"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e141-person" type="relation" n="father-of">Aciaris (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Fayum, Kortenbeutel</note>
+               </state>
+               <bibl>CPJ459</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn3"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0149" notAfter="0149">149 CE<ref type="note" corresp="#Vol-3-L_M-ftn4"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

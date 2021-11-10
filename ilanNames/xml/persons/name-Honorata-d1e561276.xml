@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Honorata-Honorata</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Honorata-d1e561276" n="Honorata-Honorata">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e22474-person"
+                    n="Vol-3-L_F-Latin-Females-Honorata-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Honorata</persName>
+               <persName type="lemma" xml:lang="en">Honorata</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Claudia (8), Furfanius (2) <ref corresp="#Vol-3-L_M-d8e19282-person" type="relation" n="mother-of">Honoratus (4)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Mauritania</note>
+               </state>
+               <bibl>Le Bohec,Ant. Afr.17 (1981) no. 76</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn556"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>North Africa</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn557"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

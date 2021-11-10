@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Chrestus-Χρῆστος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Chrestus-d1e555059" n="Chrestus-Χρῆστος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e81396-person"
+                    n="Vol-3-G_M-Greek-Males-Chrestus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Χρῆστος</persName>
+               <persName type="lemma" xml:lang="en">Chrestus</persName>
+               <persName>Chrestus</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn4736"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Seutenius,GLAJJ2, 307</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4737"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0049" notAfter="0049">49 CE<ref type="note" corresp="#Vol-3-G_M-ftn4738"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e81443-person"
+                    n="Vol-3-G_M-Greek-Males-Chrestus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Χρῆστος</persName>
+               <persName type="lemma" xml:lang="en">Chrestus</persName>
+               <persName>Χρηστοῦς<ref type="note" corresp="#Vol-3-G_M-ftn4739"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e12865-person" type="relation" n="son-of">Cosius (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Manumission inscription, Panitcapeum,<ref type="note" corresp="#Vol-3-G_M-ftn4740"/>Newton</note>
+               </state>
+               <bibl>CIJ65*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4741"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Bosphoran Kingdom</note>
+               </state>
+               <floruit notBefore="0175" notAfter="0210">175-210 CE<ref type="note" corresp="#Vol-3-G_M-ftn4742"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

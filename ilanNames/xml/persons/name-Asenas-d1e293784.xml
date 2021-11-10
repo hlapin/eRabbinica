@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Asenas-Ασηνας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Asenas-d1e293784" n="Asenas-Ασηνας">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-G_M-d2e299-person"
+                    n="Vol-1-S-G_M-Asenas-1">
+               <persName type="lemma">Ασηνας</persName>
+               <persName type="lemma" xml:lang="en">Asenas</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">̓Ασενᾶν<ref type="note" corresp="#Vol-1-S-G_M-ftn12"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-S-G_M-ftn13"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Zosimos,Omega, 8</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-1-S-G_M-ftn14"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0031" notAfter="-0031">Pre-30 BCE<ref type="note" corresp="#Vol-1-S-G_M-ftn15"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

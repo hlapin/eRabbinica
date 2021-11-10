@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Azgad-עזגד</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Azgad-d1e475668" n="Azgad-עזגד">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_M-d8e12544-person"
+                    n="Vol-3-B_M-Biblical-Males-Azgad-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עזגד</persName>
+               <persName type="lemma" xml:lang="en">Azgad</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e10049-person" type="relation" n="father-of">Meshulam (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Luxor, Cowley</note>
+               </state>
+               <bibl>TADAE3:3:28</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-B_M-ftn853"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_M-d8e12575-person"
+                    n="Vol-3-B_M-Biblical-Males-Azgad-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עזגד</persName>
+               <persName type="lemma" xml:lang="en">Azgad</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e8962-person" type="relation" n="father-of">Malkiah (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu</note>
+               </state>
+               <bibl>TADAE4:7:57</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-B_M-ftn854"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_M-d8e12606-person"
+                    n="Vol-3-B_M-Biblical-Males-Azgad-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עזגד</persName>
+               <persName type="lemma" xml:lang="en">Azgad</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-S-H_M-d8e4829-person" type="relation" n="son-of">Mari (1)’s son</ref>, Shelamzion (3), Zebadiah (2) and <ref corresp="#Vol-3-B_M-d8e10111-person" type="relation" n="father-of">Meshulam (3)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Edfu, Kornfeld</note>
+               </state>
+               <bibl>TADAE4:21:7</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-B_M-ftn855"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0100">3rd-2ndC BCE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

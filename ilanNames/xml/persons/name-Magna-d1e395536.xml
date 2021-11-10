@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Magna-Magna</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Magna-d1e395536" n="Magna-Magna">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_F-d8e1417-person"
+                    n="Vol-2-L_F-Latin-Female-Magna-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Magna</persName>
+               <persName type="lemma" xml:lang="en">Magna</persName>
+               <persName>Μάγνα<ref type="note" corresp="#Vol-2-L_F-ftn121"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Beth She‘arim, catacomb 1,CIJ1008</note>
+               </state>
+               <bibl>BS2:78</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-L_F-ftn122"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_F-d8e1449-person"
+                    n="Vol-2-L_F-Latin-Female-Magna-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Magna</persName>
+               <persName type="lemma" xml:lang="en">Magna</persName>
+               <persName>Μάγνα<ref type="note" corresp="#Vol-2-L_F-ftn123"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_M-d8e6880-person" type="relation" n="wife-of">Eutychianus (1)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Elijah’s Cave</note>
+               </state>
+               <bibl>Appendix, no. 2</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-L_F-ftn124"/>
+                  </note>
+               </state>
+               <floruit>Pre-8thC<ref type="note" corresp="#Vol-2-L_F-ftn125"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

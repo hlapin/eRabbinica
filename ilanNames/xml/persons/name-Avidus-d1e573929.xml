@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Avidus-Avidus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Avidus-d1e573929" n="Avidus-Avidus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e9218-person"
+                    n="Vol-3-L_M-Latin-Males-Avidus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Avidus</persName>
+               <persName type="lemma" xml:lang="en">Avidus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn526"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Oxyrhynchus, Grenfell &amp; Hunt</note>
+               </state>
+               <bibl>CPJ465</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn527"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0205" notAfter="0205">205 CE<ref type="note" corresp="#Vol-3-L_M-ftn528"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

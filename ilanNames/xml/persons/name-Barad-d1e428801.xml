@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Barad-ברד</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Barad-d1e428801" n="Barad-ברד">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e7960-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Barad-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ברד</persName>
+               <persName type="lemma" xml:lang="en">Barad</persName>
+               <persName>–<ref type="note" corresp="#Vol-2-S-H_M-ftn486"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e25312-person" type="relation" n="son-of">Sharian (1)’s son</ref>, leader<ref type="note" corresp="#Vol-2-S-H_M-ftn487"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Tulida, 136</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-2-S-H_M-ftn488"/>
+                  </note>
+               </state>
+               <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn489"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

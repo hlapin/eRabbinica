@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Qa‘mut-قعمت</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Qamut-d1e470872" n="Qa‘mut-قعمت">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-4-ADD-A_M-d8e1017-person"
+                    n="Vol-2-Vol-4-ADD-A_M-Arabic-Males-Qa‘mut-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">قعمت</persName>
+               <persName type="lemma" xml:lang="en">Qa‘mut</persName>
+               <persName>יקעמות<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn77"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn78"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Deed of sale inscription, Ḥaṣi, Yemen</note>
+               </state>
+               <bibl>Robin, “Ḥimyar et Israel,” no. 4</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn79"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arabia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0599">4th-6thC CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn80"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

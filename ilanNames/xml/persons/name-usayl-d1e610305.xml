@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ḥusayl-حسيل</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-usayl-d1e610305" n="Ḥusayl-حسيل">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e3311-person"
+                    n="Vol-4-A_M-Arabic-Males-Ḥusayl-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">حسيل</persName>
+               <persName type="lemma" xml:lang="en">Ḥusayl</persName>
+               <persName>حسل<ref type="note" corresp="#Vol-4-A_M-ftn261"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_M-d8e2139-person" type="relation" n="son-of">Jābir (1)’s son</ref>, Ḥudhayfa (1), Saʿd (5), Safwān (1), Mudlij (1) and <ref corresp="#Vol-4-A_F-d8e845-person" type="relation" n="father-of">Laylā (1)’s father</ref>?<ref type="note" corresp="#Vol-4-A_M-ftn262"/>, <ref corresp="#Vol-4-A_F-d8e213-person" type="relation" n="husband-of">Ribāb (2)’s husband</ref>, the Yemenite<ref type="note" corresp="#Vol-4-A_M-ftn263"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Qudāma,Istibṣār, 233</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-A_M-ftn264"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0500" notAfter="0599">6thC CE<ref type="note" corresp="#Vol-4-A_M-ftn265"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

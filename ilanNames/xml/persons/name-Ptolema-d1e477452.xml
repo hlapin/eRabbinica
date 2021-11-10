@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ptolema-Ptolema</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ptolema-d1e477452" n="Ptolema-Ptolema">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_F-d8e703-person"
+                    n="Vol-3-E_F-Egyptian-Females-Ptolema-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ptolema</persName>
+               <persName type="lemma" xml:lang="en">Ptolema</persName>
+               <persName>Πτολέμα</persName>
+               <state type="desc">
+                  <note>Aurelia (1), Aurelius (2) <ref corresp="#" type="relation" n="wife-of">Yohanan (14)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Karanis, Boak &amp; Youtie</note>
+               </state>
+               <bibl>CPJ474</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_F-ftn47"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0304" notAfter="0306">304-6 CE<ref type="note" corresp="#Vol-3-E_F-ftn48"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_F-d8e735-person"
+                    n="Vol-3-E_F-Egyptian-Females-Ptolema-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ptolema</persName>
+               <persName type="lemma" xml:lang="en">Ptolema</persName>
+               <persName>Πτολεμα</persName>
+               <state type="desc">
+                  <note>Julius (5) <ref corresp="#" type="relation" n="relative-of">Apolinaris (1)’s relative</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Karanis, Winter &amp; Youtie</note>
+               </state>
+               <bibl>CPJ486</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_F-ftn49"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0107" notAfter="0107">107 CE<ref type="note" corresp="#Vol-3-E_F-ftn50"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

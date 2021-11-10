@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Rhodo-̔Ρόδω</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Rhodo-d1e504366" n="Rhodo-̔Ρόδω">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e17257-person"
+                    n="Vol-3-G_F-Greek-Females-Rhodo-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̔Ρόδω</persName>
+               <persName type="lemma" xml:lang="en">Rhodo</persName>
+               <persName>̔Ροδοῦν</persName>
+               <state type="desc">
+                  <note>Shabtit (19), <ref corresp="#Vol-3-G_M-d8e27727-person"
+                          type="relation"
+                          n="daughter-of">Hermias (3)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Theadelphia, Kortenbeutel</note>
+               </state>
+               <bibl>CPJ489g</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn982"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0166" notAfter="0166">166 CE<ref type="note" corresp="#Vol-3-G_F-ftn983"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e17289-person"
+                    n="Vol-3-G_F-Greek-Females-Rhodo-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̔Ρόδω</persName>
+               <persName type="lemma" xml:lang="en">Rhodo</persName>
+               <persName>̔Ροδο<ref type="note" corresp="#Vol-3-G_F-ftn984"/>
+               </persName>
+               <persName>/̔Ροδία<ref type="note" corresp="#Vol-3-G_F-ftn985"/>
+               </persName>
+               <state type="desc">
+                  <note>Shabtit (21), <ref corresp="#Vol-3-G_M-d8e1415-person" type="relation" n="daughter-of">Athenion (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyri, Theadelphia, Kortenbeutel</note>
+               </state>
+               <bibl>CPJ489h,i</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn986"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0166" notAfter="0172">166-72 CE<ref type="note" corresp="#Vol-3-G_F-ftn987"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

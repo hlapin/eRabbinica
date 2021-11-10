@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names -  Στοιχηευσ-Στοιχεύς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_-d1e548626" n=" Στοιχηευσ-Στοιχεύς">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e71613-person"
+                    n="Vol-3-G_M-Greek-Males- Στοιχηευσ-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Στοιχεύς</persName>
+               <persName type="lemma" xml:lang="en"> Στοιχηευσ</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn4142"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>AJ18:204 (Schalit,NB, 116)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4143"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome?<ref type="note" corresp="#Vol-3-G_M-ftn4144"/>
+                  </note>
+               </state>
+               <floruit notBefore="0036" notAfter="0036">36 CE<ref type="note" corresp="#Vol-3-G_M-ftn4145"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

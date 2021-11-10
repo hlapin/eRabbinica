@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Proclina-Proclina</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Proclina-d1e566547" n="Proclina-Proclina">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e30142-person"
+                    n="Vol-3-L_F-Latin-Females-Proclina-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Proclina</persName>
+               <persName type="lemma" xml:lang="en">Proclina</persName>
+               <persName>Προκλεῖνα<ref type="note" corresp="#Vol-3-L_F-ftn1002"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_F-d8e1214-person" type="relation" n="daughter-of">Aquilina (1)’s daughter</ref>, aged 18<ref type="note" corresp="#Vol-3-L_F-ftn1003"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Schneider Graziosi</note>
+               </state>
+               <bibl>CIJ389</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn1004"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

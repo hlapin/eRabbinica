@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Aesopus-Αἴσωπος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Aesopus-d1e456425" n="Aesopus-Αἴσωπος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-G_M-d8e118-person"
+                    n="Vol-2-Vol-1-ADD-G_M-Greek-Males-Aesopus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Αἴσωπος</persName>
+               <persName type="lemma" xml:lang="en">Aesopus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn10"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>AJ15:47 (Schalit,NB, 6)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn11"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0036" notAfter="-0036">36 BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn12"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

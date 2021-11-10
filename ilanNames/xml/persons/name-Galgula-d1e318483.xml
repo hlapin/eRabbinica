@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Galgula-גלגולא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Galgula-d1e318483" n="Galgula-גלגולא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e3347-person"
+                    n="Vol-1-S-H_M-Galgula-1">
+               <persName type="lemma">גלגולא</persName>
+               <persName type="lemma" xml:lang="en">Galgula</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Γαλγουλα<ref type="note" corresp="#Vol-1-S-H_M-ftn225"/>
+               </persName>
+               <state type="desc">
+                  <note>Joshua (65) and <ref corresp="#Vol-1-B_M-d2e27093-person" type="relation" n="father-of">Yohanan (86)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyri, Muraba‘at</note>
+               </state>
+               <bibl>Mur 42, 43, 44, 115</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn226"/>
+                  </note>
+               </state>
+               <floruit notBefore="0124" notAfter="0135">124-135 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn227"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-P_M-d8e731-person"
+                    n="Vol-2-Vol-1-ADD-P_M-Persian-Males-Galgula-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">גלגולא</persName>
+               <persName type="lemma" xml:lang="en">Galgula</persName>
+               <persName>גלגול<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn51"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Pisgat Zeev, Reich</note>
+               </state>
+               <bibl>CIIP1.1, no. 620</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Zenodorus-Ζηνόδωρος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Zenodorus-d1e461823" n="Zenodorus-Ζηνόδωρος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-G_M-d8e2179-person"
+                    n="Vol-2-Vol-1-ADD-G_M-Greek-Males-Zenodorus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ζηνόδωρος</persName>
+               <persName type="lemma" xml:lang="en">Zenodorus</persName>
+               <persName>[Ζη]ν[ο]δωρος</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn151"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn152"/>Tomb of the Prophets, Clermon-Gannau</note>
+               </state>
+               <bibl>CIIP1/2, 952</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn153"/>
+                  </note>
+               </state>
+               <floruit>Pre-70 CE?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn154"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e35381-person"
+                    n="Vol-3-G_M-Greek-Males-Zenodorus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ζηνόδωρος</persName>
+               <persName type="lemma" xml:lang="en">Zenodorus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e46260-person" type="relation" n="son-of">Theophilus (16)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Donors inscription, Berenice, Caputo</note>
+               </state>
+               <bibl>CJZC72</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2020"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0055" notAfter="0006">55/6 CE<ref type="note" corresp="#Vol-3-G_M-ftn2021"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

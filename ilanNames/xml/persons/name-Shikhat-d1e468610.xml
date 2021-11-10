@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Shikhat-שיכת</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Shikhat-d1e468610" n="Shikhat-שיכת">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-P_M-d8e2430-person"
+                    n="Vol-2-Vol-1-ADD-P_M-Persian-Males-Shikhat-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שיכת</persName>
+               <persName type="lemma" xml:lang="en">Shikhat</persName>
+               <persName>–</persName>
+               <floruit>Of Petra<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn161"/>
+               </floruit>
+               <state type="findspot">
+                  <note>Ostracon, Jerusalem</note>
+               </state>
+               <bibl>Eshel,Jewish Quarter Excavations3, 397-8</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn162"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn163"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

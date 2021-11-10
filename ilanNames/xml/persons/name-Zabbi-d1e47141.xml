@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Zabbi-זבי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Zabbi-d1e47141" n="Zabbi-זבי">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e9622-person"
+                    n="Vol-1-B_M-Zabbi-1">
+               <persName type="lemma">זבי</persName>
+               <persName type="lemma" xml:lang="en">Zabbi</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Ζαββαίου<ref type="note" corresp="#Vol-1-B_M-ftn683"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e45887-person" type="relation" n="father-of">Mattathias (54)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, deed, Babatha archive</note>
+               </state>
+               <bibl>PYadin 20</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname?<ref type="note" corresp="#Vol-1-B_M-ftn684"/>
+                  </note>
+               </state>
+               <floruit notBefore="0130" notAfter="0130">130 CE<ref type="note" corresp="#Vol-1-B_M-ftn685"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

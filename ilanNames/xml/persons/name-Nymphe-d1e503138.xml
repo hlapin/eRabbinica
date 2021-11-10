@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Nymphe-Νύμφη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Nymphe-d1e503138" n="Nymphe-Νύμφη">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e15951-person"
+                    n="Vol-3-G_F-Greek-Females-Nymphe-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Νύμφη</persName>
+               <persName type="lemma" xml:lang="en">Nymphe</persName>
+               <persName>–<ref type="note" corresp="#Vol-3-G_F-ftn912"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Syracuse, Paolo Orsi,CIJ651</note>
+               </state>
+               <bibl>JIWE1, 151</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn913"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Sicily</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0499">4th-5thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e16001-person"
+                    n="Vol-3-G_F-Greek-Females-Nymphe-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Νύμφη</persName>
+               <persName type="lemma" xml:lang="en">Nymphe</persName>
+               <persName>Νύφῆ<ref type="note" corresp="#Vol-3-G_F-ftn914"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Syracuse, Paolo Orsi</note>
+               </state>
+               <bibl>CIJ652</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn915"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Sicily</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0499">4th-5thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

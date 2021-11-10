@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Donatus-Donatus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Donatus-d1e578281" n="Donatus-Donatus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e14589-person"
+                    n="Vol-3-L_M-Latin-Males-Donatus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Donatus</persName>
+               <persName type="lemma" xml:lang="en">Donatus</persName>
+               <persName>Δωνᾶτος</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn874"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Müller</note>
+               </state>
+               <bibl>CIJ318</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn875"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e14630-person"
+                    n="Vol-3-L_M-Latin-Males-Donatus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Donatus</persName>
+               <persName type="lemma" xml:lang="en">Donatus</persName>
+               <persName>Donati</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Mauritania</note>
+               </state>
+               <bibl>Le Bohec,Ant. Afr.17 (1981) no. 75</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn876"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>North Africa</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn877"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

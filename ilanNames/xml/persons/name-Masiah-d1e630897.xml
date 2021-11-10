@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Maḥsiah-מחסיה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Masiah-d1e630897" n="Maḥsiah-מחסיה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_M-d8e15982-person"
+                    n="Vol-4-B_M-Biblical-Males-Maḥsiah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מחסיה</persName>
+               <persName type="lemma" xml:lang="en">Maḥsiah</persName>
+               <persName>Abba (5)’s father</persName>
+               <state type="findspot">
+                  <note>yBer6:6, 10d (Kosovsky,Yerushalmi, 22)</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-B_M-ftn1307"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia<ref type="note" corresp="#Vol-4-B_M-ftn1308"/>
+                  </note>
+               </state>
+               <floruit notBefore="0100" notAfter="0299">2nd-3rdC CE<ref type="note" corresp="#Vol-4-B_M-ftn1309"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_M-d8e16025-person"
+                    n="Vol-4-B_M-Biblical-Males-Maḥsiah-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מחסיה</persName>
+               <persName type="lemma" xml:lang="en">Maḥsiah</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-B_M-ftn1310"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e972-person" type="relation" n="father-of">Abba (21)’s father</ref>
+                     <ref type="note" corresp="#Vol-4-B_M-ftn1311"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>bShab10b (Kosowsky,Babylonico, –)</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-B_M-ftn1312"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE<ref type="note" corresp="#Vol-4-B_M-ftn1313"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sosibius-Σωσίβιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sosibius-d1e387958" n="Sosibius-Σωσίβιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e17214-person"
+                    n="Vol-2-G_M-Greek-Males-Sosibius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Σωσίβιος</persName>
+               <persName type="lemma" xml:lang="en">Sosibius</persName>
+               <persName>Σω[σίβι]ος<ref type="note" corresp="#Vol-2-G_M-ftn1119"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Sepphoris</note>
+               </state>
+               <bibl>Weiss,Sepphoris Synagogue, no. 3Gr</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>5th-7thC<ref type="note" corresp="#Vol-2-G_M-ftn1120"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e73936-person"
+                    n="Vol-3-G_M-Greek-Males-Sosibius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Σωσίβιος</persName>
+               <persName type="lemma" xml:lang="en">Sosibius</persName>
+               <persName>Σωσιβίου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e46744-person" type="relation" n="father-of">Thraseas (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Trikomia, Wilcken</note>
+               </state>
+               <bibl>CPJ24</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4285"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0174" notAfter="-0174">174 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4286"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e73971-person"
+                    n="Vol-3-G_M-Greek-Males-Sosibius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Σωσίβιος</persName>
+               <persName type="lemma" xml:lang="en">Sosibius</persName>
+               <persName>Σωσιβίωι</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Fayum</note>
+               </state>
+               <bibl>CPJ130</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4287"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0183" notAfter="-0183">183 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4288"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e74006-person"
+                    n="Vol-3-G_M-Greek-Males-Sosibius-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Σωσίβιος</persName>
+               <persName type="lemma" xml:lang="en">Sosibius</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e47902-person" type="relation" n="son-of">Jason (29)’s son</ref>, archon<ref type="note" corresp="#Vol-3-G_M-ftn4289"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Donors inscription, Berenice, Caputo</note>
+               </state>
+               <bibl>CJZC72</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4290"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0055" notAfter="0006">55/6 CE<ref type="note" corresp="#Vol-3-G_M-ftn4291"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

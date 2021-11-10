@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Cale-Καλή</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Cale-d1e500570" n="Cale-Καλή">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e12927-person"
+                    n="Vol-3-G_F-Greek-Females-Cale-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Καλή</persName>
+               <persName type="lemma" xml:lang="en">Cale</persName>
+               <persName>Καλήν</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_F-ftn725"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Manumission inscription, Anapa,<ref type="note" corresp="#Vol-3-G_F-ftn726"/>Boltunova</note>
+               </state>
+               <bibl>IJO1, p. 318</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn727"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Bosphoran Kingdom</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0199">1st-2ndC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ridanius-Ridanius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ridanius-d1e587043" n="Ridanius-Ridanius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e34352-person"
+                    n="Vol-3-L_M-Latin-Males-Ridanius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ridanius</persName>
+               <persName type="lemma" xml:lang="en">Ridanius</persName>
+               <persName>Riddei<ref type="note" corresp="#Vol-3-L_M-ftn2052"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_F-d8e26432-person" type="relation" n="father-of">Margarita (3)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Hammam Lif</note>
+               </state>
+               <bibl>Le Bohec,Ant. Afr.17 (1981) no. 14</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2053"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>North Africa</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0399">4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

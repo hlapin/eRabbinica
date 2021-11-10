@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Clara-Clara</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Clara-d1e392904" n="Clara-Clara">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_F-d8e367-person"
+                    n="Vol-2-L_F-Latin-Female-Clara-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Clara</persName>
+               <persName type="lemma" xml:lang="en">Clara</persName>
+               <persName>קלארא<ref type="note" corresp="#Vol-2-L_F-ftn34"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_F-d8e3127-person" type="relation" n="daughter-of">Cyria (8)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, private collection, Syria<ref type="note" corresp="#Vol-2-L_F-ftn35"/>
+                  </note>
+               </state>
+               <bibl>MSFno. 18</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-L_F-ftn36"/>
+                  </note>
+               </state>
+               <floruit>
+                  <ref type="note" corresp="#Vol-2-L_F-ftn37"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

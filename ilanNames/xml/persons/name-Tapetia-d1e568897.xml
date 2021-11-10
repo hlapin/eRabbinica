@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tapetia-Tapetia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tapetia-d1e568897" n="Tapetia-Tapetia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e33130-person"
+                    n="Vol-3-L_F-Latin-Females-Tapetia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Tapetia</persName>
+               <persName type="lemma" xml:lang="en">Tapetia</persName>
+               <persName>Ταπετεῦς<ref type="note" corresp="#Vol-3-L_F-ftn1180"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e4785-person" type="relation" n="wife-of">Alexas (1)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Oxyrhynchus</note>
+               </state>
+               <bibl>CPR7:2</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn1181"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

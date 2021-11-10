@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - חארס Ḥaras-</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Haras-d1e434058" n="חארס Ḥaras-">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e10943-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-חארס Ḥaras-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma"/>
+               <persName type="lemma" xml:lang="en">חארס Ḥaras</persName>
+               <persName>חאדם<ref type="note" corresp="#Vol-2-S-H_M-ftn669"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e16999-person"
+                          type="relation"
+                          n="father-of">Mevaser (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Aleppo/Syria</note>
+               </state>
+               <bibl>Sobernheim, “Aleppo,” 277</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn670"/>; late?<ref type="note" corresp="#Vol-2-S-H_M-ftn671"/>
+                  </note>
+               </state>
+               <floruit>342?<ref type="note" corresp="#Vol-2-S-H_M-ftn672"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

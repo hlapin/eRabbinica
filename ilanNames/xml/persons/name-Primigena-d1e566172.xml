@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Primigena-Primigena</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Primigena-d1e566172" n="Primigena-Primigena">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e29565-person"
+                    n="Vol-3-L_F-Latin-Females-Primigena-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Primigena</persName>
+               <persName type="lemma" xml:lang="en">Primigena</persName>
+               <persName>Πριμιγᾶ<ref type="note" corresp="#Vol-3-L_F-ftn968"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_F-ftn969"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Thessalonica, Dumont</note>
+               </state>
+               <bibl>Rajak, “Archisynagogoi,” no. 2</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn970"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0155" notAfter="0155">155 CE<ref type="note" corresp="#Vol-3-L_F-ftn971"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

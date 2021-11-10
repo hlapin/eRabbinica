@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Justina-Justina</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Justina-d1e395441" n="Justina-Justina">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_F-d8e1374-person"
+                    n="Vol-2-L_F-Latin-Female-Justina-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Justina</persName>
+               <persName type="lemma" xml:lang="en">Justina</persName>
+               <persName>̓Ιουστίνας<ref type="note" corresp="#Vol-2-L_F-ftn117"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Caesarea</note>
+               </state>
+               <bibl>Lehmann &amp; Holum,CMER5, no. 246</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-L_F-ftn118"/>
+                  </note>
+               </state>
+               <floruit>
+                  <ref type="note" corresp="#Vol-2-L_F-ftn119"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e24183-person"
+                    n="Vol-3-L_F-Latin-Females-Justina-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Justina</persName>
+               <persName type="lemma" xml:lang="en">Justina</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, Poitiers, Longuemar</note>
+               </state>
+               <bibl>PC22/1 (1994) no. 8</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn649"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Gaul</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0399">4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

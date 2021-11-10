@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Qaifa-קיפא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Qaifa-d1e449285" n="Qaifa-קיפא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e23578-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Qaifa-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">קיפא</persName>
+               <persName type="lemma" xml:lang="en">Qaifa</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yMaas5:3, 52a (Kosovsky,Yerushalmi, 330)</bibl>
+               <state type="addl-Descr">
+                  <note>Second name</note>
+               </state>
+               <floruit>Pre-400<ref type="note" corresp="#Vol-2-S-H_M-ftn1489"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

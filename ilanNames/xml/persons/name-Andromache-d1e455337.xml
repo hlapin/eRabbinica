@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Andromache-̓Ανδρομάχη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Andromache-d1e455337"
+                     n="Andromache-̓Ανδρομάχη">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-G_F-d8e219-person"
+                    n="Vol-2-Vol-1-ADD-G_F-Greek-Females-Andromache-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓Ανδρομάχη</persName>
+               <persName type="lemma" xml:lang="en">Andromache</persName>
+               <persName>̓Ανδρομάχης</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-L_M-d8e5364-person" type="relation" n="mother-of">Justus (2)’s mother</ref>, of Tiberias<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn15"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Laconia,<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn16"/>Robert</note>
+               </state>
+               <bibl>CIJ721a</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn17"/>
+                  </note>
+               </state>
+               <floruit notBefore="0001" notAfter="0199">1st-2ndC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

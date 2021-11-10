@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Thaliarchus-Θαλίαρχος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Thaliarchus-d1e226266"
+                     n="Thaliarchus-Θαλίαρχος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e9030-person"
+                    n="Vol-1-G_M-Thaliarchus-1">
+               <persName type="lemma">Θαλίαρχος</persName>
+               <persName type="lemma" xml:lang="en">Thaliarchus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e5886-person" type="relation" n="son-of">Dositheus (20)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Kidron, Sukenik, 1942</note>
+               </state>
+               <bibl>CJO, no. 100</bibl>
+               <state type="addl-Descr">
+                  <note>Cyrene<ref type="note" corresp="#Vol-1-G_M-ftn637"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn638"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e39376-person"
+                    n="Vol-3-G_M-Greek-Males-Thaliarchus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Θαλίαρχος</persName>
+               <persName type="lemma" xml:lang="en">Thaliarchus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e24265-person" type="relation" n="son-of">Dositheus (72)’s son</ref>, archon<ref type="note" corresp="#Vol-3-G_M-ftn2245"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Donors inscription, Berenice, Caputo</note>
+               </state>
+               <bibl>CJZC72</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2246"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0055" notAfter="0006">55/6 CE<ref type="note" corresp="#Vol-3-G_M-ftn2247"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e39414-person"
+                    n="Vol-3-G_M-Greek-Males-Thaliarchus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Θαλίαρχος</persName>
+               <persName type="lemma" xml:lang="en">Thaliarchus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e24432-person" type="relation" n="son-of">Dositheus (77)’s son</ref>, aged 20<ref type="note" corresp="#Vol-3-G_M-ftn2248"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Kidron Valley (Jerusalem), Sukenik</note>
+               </state>
+               <bibl>CJO100</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2249"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica<ref type="note" corresp="#Vol-3-G_M-ftn2250"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-3-G_M-ftn2251"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

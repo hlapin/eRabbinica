@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Catella-Catella</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Catella-d1e558335" n="Catella-Catella">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e5238-person"
+                    n="Vol-3-L_F-Latin-Females-Catella-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Catella</persName>
+               <persName type="lemma" xml:lang="en">Catella</persName>
+               <persName>Ctelles<ref type="note" corresp="#Vol-3-L_F-ftn278"/>
+               </persName>
+               <state type="desc">
+                  <note>Asella (2) and <ref corresp="#Vol-3-B_F-d8e7923-person" type="relation" n="mother-of">Sarah (17)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Venosa, Angelis &amp; Smith</note>
+               </state>
+               <bibl>CIJ608</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn279"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0599">5th-6thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e5275-person"
+                    n="Vol-3-L_F-Latin-Females-Catella-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Catella</persName>
+               <persName type="lemma" xml:lang="en">Catella</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e32177-person"
+                          type="relation"
+                          n="daughter-of">Shabtai (121)’s daughter</ref>, aged 9<ref type="note" corresp="#Vol-3-L_F-ftn280"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Venosa, Angelis &amp; Smith</note>
+               </state>
+               <bibl>CIJ610</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn281"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0599">5th-6thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e5312-person"
+                    n="Vol-3-L_F-Latin-Females-Catella-3">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Catella</persName>
+               <persName type="lemma" xml:lang="en">Catella</persName>
+               <persName>[Κ]ατιλία<ref type="note" corresp="#Vol-3-L_F-ftn282"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vigna Randanini, Moretti</note>
+               </state>
+               <bibl>JIWE2, 360</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn283"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

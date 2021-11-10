@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Capellus-Capellus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Capellus-d1e267760" n="Capellus-Capellus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e1163-person"
+                    n="Vol-1-L_M-Capellus-1">
+               <persName type="lemma">Capellus</persName>
+               <persName type="lemma" xml:lang="en">Capellus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Κάπελλος<ref type="note" corresp="#Vol-1-L_M-ftn73"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Vita32 (Schalit,NB, 64)</bibl>
+               <state type="addl-Descr">
+                  <note>Second name<ref type="note" corresp="#Vol-1-L_M-ftn74"/>
+                  </note>
+               </state>
+               <floruit notBefore="0066" notAfter="0066">66 CE<ref type="note" corresp="#Vol-1-L_M-ftn75"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e1201-person"
+                    n="Vol-1-L_M-Capellus-2">
+               <persName type="lemma">Capellus</persName>
+               <persName type="lemma" xml:lang="en">Capellus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Κάπελλος<ref type="note" corresp="#Vol-1-L_M-ftn76"/>
+               </persName>
+               <persName xml:lang="gr">Καπέλλα<ref type="note" corresp="#Vol-1-L_M-ftn77"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e2924-person" type="relation" n="son-of">Antyllus (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Vita69 (Schalit,NB, 64)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0067" notAfter="0067">67 CE<ref type="note" corresp="#Vol-1-L_M-ftn78"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

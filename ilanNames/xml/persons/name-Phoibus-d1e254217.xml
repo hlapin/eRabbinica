@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Phoibus-Φοῖβος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Phoibus-d1e254217" n="Phoibus-Φοῖβος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e17612-person"
+                    n="Vol-1-G_M-Phoibus-1">
+               <persName type="lemma">Φοῖβος</persName>
+               <persName type="lemma" xml:lang="en">Phoibus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-L_M-d2e250-person" type="relation" n="friend-of">Agrippa (2)’s friend</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ2:524 (Schalit,NB, 124)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-1-G_M-ftn1264"/>
+                  </note>
+               </state>
+               <floruit notBefore="0066" notAfter="0066">66 CE<ref type="note" corresp="#Vol-1-G_M-ftn1265"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

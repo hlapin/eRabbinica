@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Diodorus-Διόδωρος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Diodorus-d1e216786" n="Diodorus-Διόδωρος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e5024-person"
+                    n="Vol-1-G_M-Diodorus-1">
+               <persName type="lemma">Διόδωρος</persName>
+               <persName type="lemma" xml:lang="en">Diodorus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>Ambassador, <ref corresp="#Vol-1-G_M-d2e10657-person" type="relation" n="son-of">Jason (6)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>AJ13:260 (Schalit,NB, 38)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="-0132" notAfter="-0132">132 BCE<ref type="note" corresp="#Vol-1-G_M-ftn355"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e4475-person"
+                    n="Vol-2-G_M-Greek-Males-Diodorus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Διόδωρος</persName>
+               <persName type="lemma" xml:lang="en">Diodorus</persName>
+               <persName>Διοδώρου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_M-d8e8844-person" type="relation" n="father-of">Theodotus (4)’s father</ref>, of Antioch<ref type="note" corresp="#Vol-2-G_M-ftn312"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Athens</note>
+               </state>
+               <bibl>Urdahl,Symbolae Osloenses43 (1968) 47</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn313"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-G_M-ftn314"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

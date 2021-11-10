@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hoples-̔Οπλῆς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hoples-d1e382576" n="Hoples-̔Οπλῆς">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e13999-person"
+                    n="Vol-2-G_M-Greek-Males-Hoples-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̔Οπλῆς</persName>
+               <persName type="lemma" xml:lang="en">Hoples</persName>
+               <persName>הופליס<ref type="note" corresp="#Vol-2-G_M-ftn926"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-G_M-ftn927"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Hammat Gader, Sukenik</note>
+               </state>
+               <bibl>CIJ856</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-438?<ref type="note" corresp="#Vol-2-G_M-ftn928"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sophia-Σοφία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sophia-d1e504839" n="Sophia-Σοφία">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e17655-person"
+                    n="Vol-3-G_F-Greek-Females-Sophia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Σοφία</persName>
+               <persName type="lemma" xml:lang="en">Sophia</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e75476-person" type="relation" n="wife-of">Timotheus (2)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Symeonis Junioris,PG86, 3160</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn1008"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0500" notAfter="0599">6thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e17690-person"
+                    n="Vol-3-G_F-Greek-Females-Sophia-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Σοφία</persName>
+               <persName type="lemma" xml:lang="en">Sophia</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_F-ftn1009"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Cisamus, Bandy</note>
+               </state>
+               <bibl>CIJ731c</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn1010"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Crete</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0499">4th-5thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

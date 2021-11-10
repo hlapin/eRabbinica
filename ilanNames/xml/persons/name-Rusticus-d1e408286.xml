@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Rusticus-Rusticus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Rusticus-d1e408286" n="Rusticus-Rusticus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e9328-person"
+                    n="Vol-2-L_M-Latin-Males-Rusticus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Rusticus</persName>
+               <persName type="lemma" xml:lang="en">Rusticus</persName>
+               <persName>[̔Ρο]ύστικος<ref type="note" corresp="#Vol-2-L_M-ftn716"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Dabburah, Urman</note>
+               </state>
+               <bibl>Roth-Gerson,GISEI, no. 11</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>2nd-3rdC</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e35604-person"
+                    n="Vol-3-L_M-Latin-Males-Rusticus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Rusticus</persName>
+               <persName type="lemma" xml:lang="en">Rusticus</persName>
+               <persName>Rustici</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e13328-person" type="relation" n="father-of">Asterius (3)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Hammam Lif</note>
+               </state>
+               <bibl>Le Bohec,Ant. Afr.17 (1981) no. 14</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2122"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>North Africa</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0399">4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

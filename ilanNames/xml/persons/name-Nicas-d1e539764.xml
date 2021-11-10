@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Nicas-Νικᾶς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Nicas-d1e539764" n="Nicas-Νικᾶς">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e59086-person"
+                    n="Vol-3-G_M-Greek-Males-Nicas-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Νικᾶς</persName>
+               <persName type="lemma" xml:lang="en">Nicas</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e59493-person" type="relation" n="son-of">Nicias (8)’s son</ref>, aged 85<ref type="note" corresp="#Vol-3-G_M-ftn3399"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira, Oliverio</note>
+               </state>
+               <bibl>Reynolds,CJZC12f</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3400"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0035" notAfter="0035">Post-35 CE<ref type="note" corresp="#Vol-3-G_M-ftn3401"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

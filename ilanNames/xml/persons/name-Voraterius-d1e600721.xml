@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Voraterius-Voraterius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Voraterius-d1e600721"
+                     n="Voraterius-Voraterius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-G_M-d8e3978-person"
+                    n="Vol-3-S-G_M-Semitic-Greek-Males-Voraterius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Voraterius</persName>
+               <persName type="lemma" xml:lang="en">Voraterius</persName>
+               <persName>Vorateri</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Lucanie, Diehl</note>
+               </state>
+               <bibl>CIJ56*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-S-G_M-ftn247"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-S-G_M-ftn248"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

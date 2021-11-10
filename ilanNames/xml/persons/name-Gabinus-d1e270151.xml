@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Gabinus-Gabinus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Gabinus-d1e270151" n="Gabinus-Gabinus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e2107-person"
+                    n="Vol-1-L_M-Gabinus-1">
+               <persName type="lemma">Gabinus</persName>
+               <persName type="lemma" xml:lang="en">Gabinus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">גביני<ref type="note" corresp="#Vol-1-L_M-ftn141"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-L_M-ftn142"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>mSheq5:1 (Kasovsky,Mishnae, 425)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-L_M-ftn143"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e2154-person"
+                    n="Vol-1-L_M-Gabinus-2">
+               <persName type="lemma">Gabinus</persName>
+               <persName type="lemma" xml:lang="en">Gabinus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">גבניס<ref type="note" corresp="#Vol-1-L_M-ftn144"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e34732-person" type="relation" n="father-of">Joseph (145)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, deed, Muraba‘at</note>
+               </state>
+               <bibl>Mur 28</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-L_M-ftn145"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

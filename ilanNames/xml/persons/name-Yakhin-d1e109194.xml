@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Yakhin-יכין</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Yakhin-d1e109194" n="Yakhin-יכין">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e37636-person"
+                    n="Vol-1-B_M-Yakhin-1">
+               <persName type="lemma">יכין</persName>
+               <persName type="lemma" xml:lang="en">Yakhin</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">יכים<ref type="note" corresp="#Vol-1-B_M-ftn2910"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e42988-person"
+                          type="relation"
+                          n="priestly-of">Menahem (19)’s priestly</ref> course</note>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Bagatti</note>
+               </state>
+               <bibl>DF90, no. 22</bibl>
+               <state type="addl-Descr">
+                  <note>Family<ref type="note" corresp="#Vol-1-B_M-ftn2911"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn2912"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

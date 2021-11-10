@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Qarna-קרנא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Qarna-d1e689231" n="Qarna-קרנא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e32341-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Qarna-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">קרנא</persName>
+               <persName type="lemma" xml:lang="en">Qarna</persName>
+               <persName>קרני<ref type="note" corresp="#Vol-4-S-H_M-ftn2252"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>1.yBB5:5, 15b (Kosovsky,Yerushalmi, 610); 2.bShab108a (Kosowsky,Babylonico, 1240)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2253"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2254"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e32395-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Qarna-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">קרנא</persName>
+               <persName type="lemma" xml:lang="en">Qarna</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-S-H_M-ftn2255"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e29830-person" type="relation" n="son-of">Aga (3)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedication inscription, Khirbet Semrine</note>
+               </state>
+               <bibl>Schlumberger,Palmerène, 147</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn2256"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2257"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

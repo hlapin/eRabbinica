@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Stratonicus-Στρατόνικος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Stratonicus-d1e548833"
+                     n="Stratonicus-Στρατόνικος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e71794-person"
+                    n="Vol-3-G_M-Greek-Males-Stratonicus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Στρατόνικος</persName>
+               <persName type="lemma" xml:lang="en">Stratonicus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn4154"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+               </state>
+               <bibl>IJO2, 14:B59</bibl>
+               <state type="addl-Descr">
+                  <note>God-fearer<ref type="note" corresp="#Vol-3-G_M-ftn4155"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e71834-person"
+                    n="Vol-3-G_M-Greek-Males-Stratonicus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Στρατόνικος</persName>
+               <persName type="lemma" xml:lang="en">Stratonicus</persName>
+               <persName>Στρατ[ον]εικι[α]νός<ref type="note" corresp="#Vol-3-G_M-ftn4156"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Sardis, Kroll</note>
+               </state>
+               <bibl>IJO2, 60</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4157"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0399">4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e71891-person"
+                    n="Vol-3-G_M-Greek-Males-Stratonicus-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Στρατόνικος</persName>
+               <persName type="lemma" xml:lang="en">Stratonicus</persName>
+               <persName>Στρα[τό]νεικος<ref type="note" corresp="#Vol-3-G_M-ftn4158"/>
+               </persName>
+               <state type="desc">
+                  <note>Aurelius (70), Marcus (26) Aurelius (68) <ref corresp="#Vol-3-G_M-d8e62515-person" type="relation" n="son-of">Pamphilus (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Hierapolis, Judeich</note>
+               </state>
+               <bibl>IJO2, 202</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4159"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e71938-person"
+                    n="Vol-3-G_M-Greek-Males-Stratonicus-4">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Στρατόνικος</persName>
+               <persName type="lemma" xml:lang="en">Stratonicus</persName>
+               <persName>Στρατωνίκου<ref type="note" corresp="#Vol-3-G_M-ftn4160"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e50435-person" type="relation" n="father-of">Cleandrus (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Politeuma inscription, Berenice, Roux</note>
+               </state>
+               <bibl>CJZC71</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4161"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0024" notAfter="0005">24/5 CE<ref type="note" corresp="#Vol-3-G_M-ftn4162"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Philoxena-Φιλοξένα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Philoxena-d1e506295" n="Philoxena-Φιλοξένα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e19086-person"
+                    n="Vol-3-G_F-Greek-Females-Philoxena-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Φιλοξένα</persName>
+               <persName type="lemma" xml:lang="en">Philoxena</persName>
+               <persName>Φιλοξήνα<ref type="note" corresp="#Vol-3-G_F-ftn1085"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="daughter-of">Yohanan (30)’s daughter</ref>, aged 30<ref type="note" corresp="#Vol-3-G_F-ftn1086"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira, Applebaum</note>
+               </state>
+               <bibl>CJZC55g</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn1087"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0117" notAfter="0117">Pre-117 CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

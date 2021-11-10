@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Asella-Asella</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Asella-d1e556594" n="Asella-Asella">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e1314-person"
+                    n="Vol-3-L_F-Latin-Females-Asella-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Asella</persName>
+               <persName type="lemma" xml:lang="en">Asella</persName>
+               <persName>̓Ασέλλα<ref type="note" corresp="#Vol-3-L_F-ftn72"/>
+               </persName>
+               <persName>/ Acelle<ref type="note" corresp="#Vol-3-L_F-ftn73"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e15024-person" type="relation" n="wife-of">Faustinus (3)’s wife</ref>, <ref corresp="#Vol-3-L_M-d8e201-person" type="relation" n="daughter-of">Aelianus (2)’s daughter</ref>, aged 30<ref type="note" corresp="#Vol-3-L_F-ftn74"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaphs, Venosa, Angelis &amp; Smith</note>
+               </state>
+               <bibl>CIJ578, 611</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn75"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0599">5th-6thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e1372-person"
+                    n="Vol-3-L_F-Latin-Females-Asella-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Asella</persName>
+               <persName type="lemma" xml:lang="en">Asella</persName>
+               <persName>Asella</persName>
+               <state type="desc">
+                  <note>Opilio (1) and <ref corresp="#Vol-3-L_F-d8e5238-person" type="relation" n="daughter-of">Catella (1)’s daughter</ref>, virgin, aged 14<ref type="note" corresp="#Vol-3-L_F-ftn76"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Venosa, Angelis &amp; Smith</note>
+               </state>
+               <bibl>CIJ608</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn77"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0599">5th-6thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

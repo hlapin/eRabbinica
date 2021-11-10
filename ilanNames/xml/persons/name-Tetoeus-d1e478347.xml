@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tetoeus-Tetoeus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tetoeus-d1e478347" n="Tetoeus-Tetoeus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_F-d8e1514-person"
+                    n="Vol-3-E_F-Egyptian-Females-Tetoeus-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Tetoeus</persName>
+               <persName type="lemma" xml:lang="en">Tetoeus</persName>
+               <persName>Τετώυτι<ref type="note" corresp="#Vol-3-E_F-ftn102"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-E_F-ftn103"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Heracleopolis</note>
+               </state>
+               <bibl>PC29 (2001) 10</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_F-ftn104"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0138" notAfter="-0007">138/7 BCE<ref type="note" corresp="#Vol-3-E_F-ftn105"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

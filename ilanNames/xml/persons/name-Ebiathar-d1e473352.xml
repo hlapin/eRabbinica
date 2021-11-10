@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ebiathar-אביתר</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ebiathar-d1e473352" n="Ebiathar-אביתר">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_M-d8e119-person"
+                    n="Vol-3-B_M-Biblical-Males-Ebiathar-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אביתר</persName>
+               <persName type="lemma" xml:lang="en">Ebiathar</persName>
+               <persName>̓Αβιάθαρ<ref type="note" corresp="#Vol-3-B_M-ftn10"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-B_M-ftn11"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Georgius Cedrenus,PG121, 521</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-B_M-ftn12"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0314" notAfter="0335">314-35 CE<ref type="note" corresp="#Vol-3-B_M-ftn13"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Diyyāl-ديّّال</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Diyyl-d1e611641" n="Diyyāl-ديّّال">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e4503-person"
+                    n="Vol-4-A_M-Arabic-Males-Diyyāl-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ديّّال</persName>
+               <persName type="lemma" xml:lang="en">Diyyāl</persName>
+               <persName>Abû ’ddiyâl<ref type="note" corresp="#Vol-4-A_M-ftn364"/>
+               </persName>
+               <persName>/Abū al-Zanāb<ref type="note" corresp="#Vol-4-A_M-ftn365"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-A_M-ftn366"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Nöldeke,Beiträge, 77 E: Proselyete<ref type="note" corresp="#Vol-4-A_M-ftn367"/>
+               </bibl>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit>Pre-Islamic<ref type="note" corresp="#Vol-4-A_M-ftn368"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ḥarym-حريم</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Harym-d1e470363" n="Ḥarym-حريم">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-4-ADD-A_M-d8e501-person"
+                    n="Vol-2-Vol-4-ADD-A_M-Arabic-Males-Ḥarym-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">حريم</persName>
+               <persName type="lemma" xml:lang="en">Ḥarym</persName>
+               <persName>בנו חרין<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn38"/>
+               </persName>
+               <state type="desc">
+                  <note>Benjamin (1) and <ref corresp="#" type="relation" n="son-of">Abī‘lī (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedication inscription, Zafar Yemen</note>
+               </state>
+               <bibl>Robin, “Ḥimyar et Israel,” no. 1</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn39"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arabia</note>
+               </state>
+               <floruit notBefore="0470" notAfter="0470">470 CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn40"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

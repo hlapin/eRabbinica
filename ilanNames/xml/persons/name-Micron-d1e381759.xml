@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Micron-Μίκρων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Micron-d1e381759" n="Micron-Μίκρων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e13347-person"
+                    n="Vol-2-G_M-Greek-Males-Micron-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Μίκρων</persName>
+               <persName type="lemma" xml:lang="en">Micron</persName>
+               <persName>Μηκέρων<ref type="note" corresp="#Vol-2-G_M-ftn885"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Caesarea</note>
+               </state>
+               <bibl>Lehmann &amp; HolumCMER5, no. 172</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-G_M-ftn886"/>D:–<ref type="note" corresp="#Vol-2-G_M-ftn887"/>
+                  </note>
+               </state>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

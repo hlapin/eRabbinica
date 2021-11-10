@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Cimber-Cimber</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Cimber-d1e268147" n="Cimber-Cimber">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e1470-person"
+                    n="Vol-1-L_M-Cimber-1">
+               <persName type="lemma">Cimber</persName>
+               <persName type="lemma" xml:lang="en">Cimber</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Κίμβερ<ref type="note" corresp="#Vol-1-L_M-ftn96"/>
+               </persName>
+               <persName xml:lang="gr">Κίνβερ<ref type="note" corresp="#Vol-1-L_M-ftn97"/>
+               </persName>
+               <persName xml:lang="he">[ק]מבר<ref type="note" corresp="#Vol-1-L_M-ftn98"/>
+               </persName>
+               <state type="desc">
+                  <note>Judah (144), <ref corresp="#Vol-1-S-H_F-d2e3009-person"
+                          type="relation"
+                          n="husband-of">Shelamzion (23)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyri, Babatha archive</note>
+               </state>
+               <bibl>PYadin 18, 20</bibl>
+               <state type="addl-Descr">
+                  <note>Second name<ref type="note" corresp="#Vol-1-L_M-ftn99"/>
+                  </note>
+               </state>
+               <floruit notBefore="0128" notAfter="0130">128-130 CE<ref type="note" corresp="#Vol-1-L_M-ftn100"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

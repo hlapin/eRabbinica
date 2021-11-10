@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Telephus-Τήλεφος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Telephus-d1e550316" n="Telephus-Τήλεφος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e75116-person"
+                    n="Vol-3-G_M-Greek-Males-Telephus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Τήλεφος</persName>
+               <persName type="lemma" xml:lang="en">Telephus</persName>
+               <persName>Τελούφιος<ref type="note" corresp="#Vol-3-G_M-ftn4359"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e75324-person" type="relation" n="father-of">Timaius (2)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Apollonias, Smyly</note>
+               </state>
+               <bibl>CPJ21</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4360"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0210" notAfter="-0210">210 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4361"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

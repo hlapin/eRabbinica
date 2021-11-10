@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Raqata-רקתא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Raqata-d1e689714" n="Raqata-רקתא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e32809-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Raqata-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">רקתא</persName>
+               <persName type="lemma" xml:lang="en">Raqata</persName>
+               <persName>אחא<ref type="note" corresp="#Vol-4-S-H_M-ftn2286"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e29158-person"
+                          type="relation"
+                          n="father-of">Sama (4)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bQid9a (Kosowsky,Babylonico, 1539)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2287"/>; nickname?<ref type="note" corresp="#Vol-4-S-H_M-ftn2288"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0499">4th-5thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2289"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

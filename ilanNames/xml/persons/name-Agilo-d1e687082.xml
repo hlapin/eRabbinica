@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ʿAgilo-עגילו</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Agilo-d1e687082" n="ʿAgilo-עגילו">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e29923-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-ʿAgilo-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עגילו</persName>
+               <persName type="lemma" xml:lang="en">ʿAgilo</persName>
+               <persName>עגי[לו]<ref type="note" corresp="#Vol-4-S-H_M-ftn2074"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-B_M-d8e8131-person" type="relation" n="father-of">Ḥananiah (35)’s father</ref>, <ref corresp="#Vol-4-S-H_M-d8e10822-person" type="relation" n="son-of">Asrai (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedication inscriptions, Kheurbet Semrine</note>
+               </state>
+               <bibl>Schlumberger,Palmerène, 143, 146-7</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn2075"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2076"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e29958-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-ʿAgilo-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עגילו</persName>
+               <persName type="lemma" xml:lang="en">ʿAgilo</persName>
+               <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2077"/>
+               </persName>
+               <state type="desc">
+                  <note>Maṭan (1), Burfa (1) and <ref corresp="#Vol-4-B_M-d8e16761-person" type="relation" n="father-of">Malkiah (15)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Palmyra</note>
+               </state>
+               <bibl>Cantineau,RB39 (1930) 537</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn2078"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra</note>
+               </state>
+               <floruit notBefore="0118" notAfter="0118">118 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2079"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

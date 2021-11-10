@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Θούθας Tuta-Θούθας Tuta</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Tuta-d1e413009"
+                     n="Θούθας Tuta-Θούθας Tuta">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_M-d8e1255-person"
+                    n="Vol-2-S-G_M-Semitic-Greek-Males-Θούθας Tuta-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Θούθας Tuta</persName>
+               <persName type="lemma" xml:lang="en">Θούθας Tuta</persName>
+               <persName>Θουθᾶ</persName>
+               <state type="desc">
+                  <note>Jacob (54) and <ref corresp="#Vol-2-B_M-d8e31548-person" type="relation" n="father-of">Isaac (52)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaphs, Beth She‘arim, catacomb 1,CIJ1095, 1096,</note>
+               </state>
+               <bibl>1.BS2:75; 2. 2:76</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-S-G_M-ftn81"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

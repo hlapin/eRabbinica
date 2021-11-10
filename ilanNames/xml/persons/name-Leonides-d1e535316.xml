@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Leonides-Λεωνίδης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Leonides-d1e535316" n="Leonides-Λεωνίδης">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e53281-person"
+                    n="Vol-3-G_M-Greek-Males-Leonides-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Λεωνίδης</persName>
+               <persName type="lemma" xml:lang="en">Leonides</persName>
+               <persName>Ληωνιδης<ref type="note" corresp="#Vol-3-G_M-ftn3064"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn3065"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyri, Fayum</note>
+               </state>
+               <bibl>P. Petrie 2.28, 3.66</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3066"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0001">3rd-1stC BCE<ref type="note" corresp="#Vol-3-G_M-ftn3067"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e53326-person"
+                    n="Vol-3-G_M-Greek-Males-Leonides-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Λεωνίδης</persName>
+               <persName type="lemma" xml:lang="en">Leonides</persName>
+               <persName>Λ[ε]ωνίδης<ref type="note" corresp="#Vol-3-G_M-ftn3068"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Porto, Kaibel</note>
+               </state>
+               <bibl>CIJ49*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3069"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-G_M-ftn3070"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

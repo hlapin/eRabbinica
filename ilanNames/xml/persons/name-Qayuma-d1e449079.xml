@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Qayuma-קיומה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Qayuma-d1e449079" n="Qayuma-קיומה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e23440-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Qayuma-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">קיומה</persName>
+               <persName type="lemma" xml:lang="en">Qayuma</persName>
+               <persName>קלא דרומה<ref type="note" corresp="#Vol-2-S-H_M-ftn1478"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e14233-person" type="relation" n="slave-of">Judah (10)’s slave</ref>
+                     <ref type="note" corresp="#Vol-2-S-H_M-ftn1479"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yBes1:9, 60d (Kosovsky,Yerushalmi, 605)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-H_M-ftn1480"/>
+                  </note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1481"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e23480-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Qayuma-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">קיומה</persName>
+               <persName type="lemma" xml:lang="en">Qayuma</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e36524-person" type="relation" n="son-of">Moses (8)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Temple Mount</note>
+               </state>
+               <bibl>Sukenik, “Jewish Inscriptions,” 139</bibl>
+               <state type="addl-Descr">
+                  <note>Late?<ref type="note" corresp="#Vol-2-S-H_M-ftn1482"/>
+                  </note>
+               </state>
+               <floruit>Pre-650?<ref type="note" corresp="#Vol-2-S-H_M-ftn1483"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e31963-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Qayuma-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">קיומה</persName>
+               <persName type="lemma" xml:lang="en">Qayuma</persName>
+               <persName>Καίουμας<ref type="note" corresp="#Vol-4-S-H_M-ftn2219"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-S-H_M-ftn2220"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Tella,<ref type="note" corresp="#Vol-4-S-H_M-ftn2221"/>Chabot</note>
+               </state>
+               <bibl>CIJ1419</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn2222"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>Babylonia</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2223"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

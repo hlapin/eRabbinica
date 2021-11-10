@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Asiaticus-̓Ασιατικός</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Asiaticus-d1e369243"
+                     n="Asiaticus-̓Ασιατικός">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e2821-person"
+                    n="Vol-2-G_M-Greek-Males-Asiaticus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Ασιατικός</persName>
+               <persName type="lemma" xml:lang="en">Asiaticus</persName>
+               <persName>̓Α[σι]α[τι]κός<ref type="note" corresp="#Vol-2-G_M-ftn190"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-L_M-d8e7922-person" type="relation" n="son-of">Marinus (14)’s son</ref>, of Tiberias<ref type="note" corresp="#Vol-2-G_M-ftn191"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Carthage</note>
+               </state>
+               <bibl>Le Bohec,Ant. Afr.17 (1981) no. 28</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn192"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-G_M-ftn193"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

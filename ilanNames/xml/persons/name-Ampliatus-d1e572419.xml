@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ampliatus-Ampliatus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ampliatus-d1e572419" n="Ampliatus-Ampliatus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e1639-person"
+                    n="Vol-3-L_M-Latin-Males-Ampliatus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ampliatus</persName>
+               <persName type="lemma" xml:lang="en">Ampliatus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Ostia, Floriani</note>
+               </state>
+               <bibl>JIWE1, 14</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn97"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0199">1st-2ndC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e1673-person"
+                    n="Vol-3-L_M-Latin-Males-Ampliatus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ampliatus</persName>
+               <persName type="lemma" xml:lang="en">Ampliatus</persName>
+               <persName>[A]mpli[atus]<ref type="note" corresp="#Vol-3-L_M-ftn98"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Carthage</note>
+               </state>
+               <bibl>Le Bohec,Ant. Afr.17 (1981) no. 37</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn99"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>North Africa</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn100"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

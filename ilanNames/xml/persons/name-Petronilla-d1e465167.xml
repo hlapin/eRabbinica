@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Petronilla-Petronilla</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Petronilla-d1e465167"
+                     n="Petronilla-Petronilla">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-L_F-d8e170-person"
+                    n="Vol-2-Vol-1-ADD-L_F-Latin-Females-Petronilla-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Petronilla</persName>
+               <persName type="lemma" xml:lang="en">Petronilla</persName>
+               <persName>Πετρωνίλλας<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_F-ftn12"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Acta Nerei et Achillei, 15</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_F-ftn13"/>
+                  </note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_F-ftn14"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

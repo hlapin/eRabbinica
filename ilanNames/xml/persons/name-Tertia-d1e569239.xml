@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tertia-Tertia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tertia-d1e569239" n="Tertia-Tertia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e33441-person"
+                    n="Vol-3-L_F-Latin-Females-Tertia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Tertia</persName>
+               <persName type="lemma" xml:lang="en">Tertia</persName>
+               <persName>Τερτίας</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_F-d8e2855-person" type="relation" n="mother-of">Mariam (31)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Beroea, Delacoulonche</note>
+               </state>
+               <bibl>CIJ694b</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn1198"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0499">4th-5thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e33514-person"
+                    n="Vol-3-L_F-Latin-Females-Tertia-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Tertia</persName>
+               <persName type="lemma" xml:lang="en">Tertia</persName>
+               <persName>Τερτία</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="daughter-of">Joseph (111)’s daughter</ref>, aged 40<ref type="note" corresp="#Vol-3-L_F-ftn1199"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Ptolemais</note>
+               </state>
+               <bibl>Reynolds,CJZC8</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn1200"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0117" notAfter="0117">Pre-117 CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e33550-person"
+                    n="Vol-3-L_F-Latin-Females-Tertia-3">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Tertia</persName>
+               <persName type="lemma" xml:lang="en">Tertia</persName>
+               <persName>Τερτία</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Chios</note>
+               </state>
+               <bibl>Dunst,APF16 (1958) 172</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn1201"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0199">1st-2ndC CE<ref type="note" corresp="#Vol-3-L_F-ftn1202"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

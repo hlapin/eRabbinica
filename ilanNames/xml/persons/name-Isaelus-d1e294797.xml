@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Isaelus-Ισαηλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Isaelus-d1e294797" n="Isaelus-Ισαηλος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-G_M-d2e1357-person"
+                    n="Vol-1-S-G_M-Isaelus-1">
+               <persName type="lemma">Ισαηλος</persName>
+               <persName type="lemma" xml:lang="en">Isaelus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">איסאלוס<ref type="note" corresp="#Vol-1-S-G_M-ftn75"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Arist50</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-1-S-G_M-ftn76"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE<ref type="note" corresp="#Vol-1-S-G_M-ftn77"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

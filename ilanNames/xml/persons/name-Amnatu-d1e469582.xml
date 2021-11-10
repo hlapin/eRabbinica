@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Amnatu-אמנטו</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Amnatu-d1e469582" n="Amnatu-אמנטו">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-S-H_F-d8e102-person"
+                    n="Vol-2-Vol-1-ADD-S-H_F-Semitic-Greek-Females-Amnatu-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">אמנטו</persName>
+               <persName type="lemma" xml:lang="en">Amnatu</persName>
+               <persName>امنطو<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-H_F-ftn8"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-Vol-1-ADD-S-H_F-ftn9"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Abu’l Fath, 166</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-H_F-ftn10"/>
+                  </note>
+               </state>
+               <floruit notBefore="0117" notAfter="0117">Pre-117 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-H_F-ftn11"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

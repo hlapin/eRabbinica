@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Cassia-Cassia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Cassia-d1e558223" n="Cassia-Cassia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e5136-person"
+                    n="Vol-3-L_F-Latin-Females-Cassia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Cassia</persName>
+               <persName type="lemma" xml:lang="en">Cassia</persName>
+               <persName>Κασσιε<ref type="note" corresp="#Vol-3-L_F-ftn270"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Salva,<ref type="note" corresp="#Vol-3-L_F-ftn271"/>Fröhlich</note>
+               </state>
+               <bibl>CIJ676</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn272"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Pannonia</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn273"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

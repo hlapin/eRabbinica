@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Khālid-خالد</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Khlid-d1e610994" n="Khālid-خالد">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e3964-person"
+                    n="Vol-4-A_M-Arabic-Males-Khālid-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">خالد</persName>
+               <persName type="lemma" xml:lang="en">Khālid</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-A_M-ftn317"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Hishām,Leben Muhammed’s, 352</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-A_M-ftn318"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0632" notAfter="0632">Pre-632 CE<ref type="note" corresp="#Vol-4-A_M-ftn319"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e4000-person"
+                    n="Vol-4-A_M-Arabic-Males-Khālid-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">خالد</persName>
+               <persName type="lemma" xml:lang="en">Khālid</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_M-d8e7553-person" type="relation" n="son-of">Ṣuql (1)’s son</ref>, <ref corresp="#Vol-4-A_F-d8e474-person" type="relation" n="father-of">Ṣaʿba (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Muṣʿab,nasab, 211</bibl>
+               <state type="addl-Descr">
+                  <note>Proselyte?<ref type="note" corresp="#Vol-4-A_M-ftn320"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0500" notAfter="0599">6thC CE<ref type="note" corresp="#Vol-4-A_M-ftn321"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

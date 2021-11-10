@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ̓Αμάθα Amatha-̓Αμάθα Amatha</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Amatha-d1e411360"
+                     n="̓Αμάθα Amatha-̓Αμάθα Amatha">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_F-d8e118-person"
+                    n="Vol-2-S-G_F-Semitic-Greek-Females-̓Αμάθα Amatha-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓Αμάθα Amatha</persName>
+               <persName type="lemma" xml:lang="en">̓Αμάθα Amatha</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-G_M-d8e1891-person"
+                          type="relation"
+                          n="daughter-of">Ogezon (1)’s daughter</ref>, aged 15<ref type="note" corresp="#Vol-2-S-G_F-ftn9"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1a, no. 114</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-G_F-ftn10"/>
+                  </note>
+               </state>
+               <floruit>417<ref type="note" corresp="#Vol-2-S-G_F-ftn11"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

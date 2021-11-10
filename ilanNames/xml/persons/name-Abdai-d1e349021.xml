@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Abdai-עבדי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Abdai-d1e349021" n="Abdai-עבדי">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_M-d8e39085-person"
+                    n="Vol-2-B_M-Biblical-Males-Abdai-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עבדי</persName>
+               <persName type="lemma" xml:lang="en">Abdai</persName>
+               <persName>–<ref type="note" corresp="#Vol-2-B_M-ftn2565"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-B_M-ftn2566"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Tulida124</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-2-B_M-ftn2567"/>
+                  </note>
+               </state>
+               <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-B_M-ftn2568"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_M-d8e39122-person"
+                    n="Vol-2-B_M-Biblical-Males-Abdai-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עבדי</persName>
+               <persName type="lemma" xml:lang="en">Abdai</persName>
+               <persName>עו[בדיה]<ref type="note" corresp="#Vol-2-B_M-ftn2569"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e48249-person" type="relation" n="father-of">Simon (62)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Tiberias</note>
+               </state>
+               <bibl>Schwabe,Yohanan Levi, no. 3</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>4thC</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

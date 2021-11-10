@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Geta-Geta</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Geta-d1e579535" n="Geta-Geta">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e18912-person"
+                    n="Vol-3-L_M-Latin-Males-Geta-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Geta</persName>
+               <persName type="lemma" xml:lang="en">Geta</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn1130"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Sant’ Antioco Muratori</note>
+               </state>
+               <bibl>CIJ526</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1131"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Sardinia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

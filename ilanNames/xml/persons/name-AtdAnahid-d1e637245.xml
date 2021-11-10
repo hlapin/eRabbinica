@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - AštādAnahid-AštādAnahid</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-AtdAnahid-d1e637245"
+                     n="AštādAnahid-AštādAnahid">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e823-person"
+                    n="Vol-4-I_F-Iranian-Females-AštādAnahid-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">AštādAnahid</persName>
+               <persName type="lemma" xml:lang="en">AštādAnahid</persName>
+               <persName>אשתד אנהיד<ref type="note" corresp="#Vol-4-I_F-ftn71"/>
+               </persName>
+               <state type="desc">
+                  <note>Bahrām (3) <ref corresp="#Vol-4-I_M-d8e420-person Vol-4-I_M-d8e3910-person"
+                          type="relation"
+                          n="mother-of">Gušnasp (3)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Tehran</note>
+               </state>
+               <bibl>CAMIBBM068A</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn72"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Persia<ref type="note" corresp="#Vol-4-I_F-ftn73"/>
+                  </note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn74"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

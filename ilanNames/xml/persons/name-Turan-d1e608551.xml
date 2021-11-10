@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Turan-ترن</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Turan-d1e608551" n="Turan-ترن">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e1775-person"
+                    n="Vol-4-A_M-Arabic-Males-Turan-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ترن</persName>
+               <persName type="lemma" xml:lang="en">Turan</persName>
+               <persName>תוראן<ref type="note" corresp="#Vol-4-A_M-ftn148"/>
+               </persName>
+               <persName>/תורן<ref type="note" corresp="#Vol-4-A_M-ftn149"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-A_M-ftn150"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bShab122b (Kosowsky,Babylonico, 96)E:–<ref type="note" corresp="#Vol-4-A_M-ftn151"/>
+               </bibl>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE<ref type="note" corresp="#Vol-4-A_M-ftn152"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

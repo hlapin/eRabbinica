@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Panetbeouis-Panetbeouis</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Panetbeouis-d1e484117"
+                     n="Panetbeouis-Panetbeouis">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e4682-person"
+                    n="Vol-3-E_M-Egyptian-Males-Panetbeouis-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Panetbeouis</persName>
+               <persName type="lemma" xml:lang="en">Panetbeouis</persName>
+               <persName>Πανετβαύιος<ref type="note" corresp="#Vol-3-E_M-ftn282"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Joseph (53)’s son</ref>, <ref corresp="#Vol-3-E_M-d8e830-person" type="relation" n="father-of">Armaius (1)’s father</ref>, debtor<ref type="note" corresp="#Vol-3-E_M-ftn283"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Fayum</note>
+               </state>
+               <bibl>Schibli,ZPE50 (1983) 94</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-E_M-ftn284"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0042" notAfter="0042">42 CE<ref type="note" corresp="#Vol-3-E_M-ftn285"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

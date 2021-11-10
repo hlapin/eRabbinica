@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tychicus-Τύχικος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tychicus-d1e463576" n="Tychicus-Τύχικος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-G_M-d8e4486-person"
+                    n="Vol-2-Vol-1-ADD-G_M-Greek-Males-Tychicus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Τύχικος</persName>
+               <persName type="lemma" xml:lang="en">Tychicus</persName>
+               <persName>Disciple<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn312"/>
+               </persName>
+               <state type="findspot">
+                  <note>Epiphanius Monachus,PG120, 225</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn313"/>
+                  </note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn314"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

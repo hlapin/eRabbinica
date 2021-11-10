@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Eugenia-Ε̓γενία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Eugenia-d1e455620" n="Eugenia-Ε̓γενία">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-G_F-d8e677-person"
+                    n="Vol-2-Vol-1-ADD-G_F-Greek-Females-Eugenia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ε̓γενία</persName>
+               <persName type="lemma" xml:lang="en">Eugenia</persName>
+               <persName>Ε̓γηνία<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn43"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_M-d8e11294-person"
+                          type="relation"
+                          n="daughter-of">Cyrus (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Isawiya,</note>
+               </state>
+               <bibl>CIIP1.1, no. 59 Re’em &amp; Abu Raya</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn44"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e8298-person"
+                    n="Vol-3-G_F-Greek-Females-Eugenia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ε̓γενία</persName>
+               <persName type="lemma" xml:lang="en">Eugenia</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_F-ftn463"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Schneider Graziosi</note>
+               </state>
+               <bibl>CIJ326</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn464"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Rayḥāna-ريحانة</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Rayna-d1e605929" n="Rayḥāna-ريحانة">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_F-d8e262-person"
+                    n="Vol-4-A_F-Arabic-Females-Rayḥāna-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">ريحانة</persName>
+               <persName type="lemma" xml:lang="en">Rayḥāna</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_M-d8e9699-person" type="relation" n="daughter-of">ʿUmar (10)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>– S: Ibn Hishām,Leben Muhammed’s, 693</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-A_F-ftn20"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0632" notAfter="0632">Pre-632 CE<ref type="note" corresp="#Vol-4-A_F-ftn21"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_F-d8e291-person"
+                    n="Vol-4-A_F-Arabic-Females-Rayḥāna-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">ريحانة</persName>
+               <persName type="lemma" xml:lang="en">Rayḥāna</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_M-d8e6237-person" type="relation" n="daughter-of">Zayd (11)’s daughter</ref>, <ref corresp="#Vol-4-A_M-d8e3586-person" type="relation" n="widow-of">Ḥakam (1)’s widow</ref>, of the Banū al-Naḍīr<ref type="note" corresp="#Vol-4-A_F-ftn22"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ṭabarī, iii, 2432</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-A_F-ftn23"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0632" notAfter="0632">Pre-632 CE<ref type="note" corresp="#Vol-4-A_F-ftn24"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

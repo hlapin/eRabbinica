@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Nicarchus-Νίκαρχος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Nicarchus-d1e244043" n="Nicarchus-Νίκαρχος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e13388-person"
+                    n="Vol-1-G_M-Nicarchus-1">
+               <persName type="lemma">Νίκαρχος</persName>
+               <persName type="lemma" xml:lang="en">Nicarchus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">ניקרכס<ref type="note" corresp="#Vol-1-G_M-ftn957"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e5863-person" type="relation" n="father-of">Eleazar (142)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Nabatean deed, Babatha archive</note>
+               </state>
+               <bibl>PYadin 36</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0106" notAfter="0106">Pre-106 CE<ref type="note" corresp="#Vol-1-G_M-ftn958"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e59036-person"
+                    n="Vol-3-G_M-Greek-Males-Nicarchus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Νίκαρχος</persName>
+               <persName type="lemma" xml:lang="en">Nicarchus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn3395"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Heracleopolis</note>
+               </state>
+               <bibl>PC29 (2001) 1</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3396"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0135" notAfter="-0135">135 BCE<ref type="note" corresp="#Vol-3-G_M-ftn3397"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

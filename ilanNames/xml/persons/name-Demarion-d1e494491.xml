@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Demarion-Δημάριον</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Demarion-d1e494491" n="Demarion-Δημάριον">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e5275-person"
+                    n="Vol-3-G_F-Greek-Females-Demarion-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Δημάριον</persName>
+               <persName type="lemma" xml:lang="en">Demarion</persName>
+               <persName>Δ[ημ]αρείου<ref type="note" corresp="#Vol-3-G_F-ftn293"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e8333-person" type="relation" n="mother-of">Samba (4)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Hermopolis</note>
+               </state>
+               <bibl>P. L. Bat. 25, 27</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn294"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ḥafiẓ-حفظ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-afi-d1e610470" n="Ḥafiẓ-حفظ">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e3461-person"
+                    n="Vol-4-A_M-Arabic-Males-Ḥafiẓ-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">حفظ</persName>
+               <persName type="lemma" xml:lang="en">Ḥafiẓ</persName>
+               <persName>חפץ<ref type="note" corresp="#Vol-4-A_M-ftn274"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_F-d8e570-person" type="relation" n="father-of">Ṣafīya (2)’s father</ref>,the Prophet’s jār?<ref type="note" corresp="#Vol-4-A_M-ftn275"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Leveen,JQR16 (1925–6) 402</bibl>
+               <state type="addl-Descr">
+                  <note>Muslim convert<ref type="note" corresp="#Vol-4-A_M-ftn276"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0632" notAfter="0632">Pre-632 CE<ref type="note" corresp="#Vol-4-A_M-ftn277"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

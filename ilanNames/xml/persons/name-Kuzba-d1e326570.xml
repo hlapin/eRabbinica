@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Kuzba-כוזבא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Kuzba-d1e326570" n="Kuzba-כוזבא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e8038-person"
+                    n="Vol-1-S-H_M-Kuzba-1">
+               <persName type="lemma">כוזבא</persName>
+               <persName type="lemma" xml:lang="en">Kuzba</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">כוזיבה<ref type="note" corresp="#Vol-1-S-H_M-ftn539"/>
+               </persName>
+               <persName xml:lang="he">כוסבא</persName>
+               <persName xml:lang="he">כוסבה</persName>
+               <persName xml:lang="he">כסבה</persName>
+               <persName xml:lang="he">כשבה<ref type="note" corresp="#Vol-1-S-H_M-ftn540"/>
+               </persName>
+               <persName xml:lang="gr">Χωσιβᾶ<ref type="note" corresp="#Vol-1-S-H_M-ftn541"/>
+               </persName>
+               <persName xml:lang="gr">Βαρχωχεβας<ref type="note" corresp="#Vol-1-S-H_M-ftn542"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e57328-person" type="relation" n="father-of">Simon (162)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyri, Muraba‘at- Heber “Seyal”</note>
+               </state>
+               <bibl>tShab15:9 (Kasowski, Thosephthae, 38; Mur 24, 43; PYadin 42, 43, 44, 45, 46, 47, 49, 50, 53, 54, 55, 56, 63, Lifschitz,Aegyptus42 (1962) 240; Se 13, 30, 36, 49; Eus.EH, 4:6.</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn543"/>
+                  </note>
+               </state>
+               <floruit notBefore="0132" notAfter="0135">132-5 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn544"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

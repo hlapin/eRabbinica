@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Asteria-̓Αστερία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Asteria-d1e492767" n="Asteria-̓Αστερία">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e3178-person"
+                    n="Vol-3-G_F-Greek-Females-Asteria-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓Αστερία</persName>
+               <persName type="lemma" xml:lang="en">Asteria</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Graffito, Vigna Randanini, Frey</note>
+               </state>
+               <bibl>CIJ94</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn178"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e3213-person"
+                    n="Vol-3-G_F-Greek-Females-Asteria-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓Αστερία</persName>
+               <persName type="lemma" xml:lang="en">Asteria</persName>
+               <persName>̓Αστερίας</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Thessaly, Giannopoulos</note>
+               </state>
+               <bibl>CIJ695</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn179"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0699">5th-7thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

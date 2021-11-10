@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Menodorus-Μενόδωρος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Menodorus-d1e537073" n="Menodorus-Μενόδωρος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e56121-person"
+                    n="Vol-3-G_M-Greek-Males-Menodorus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Μενόδωρος</persName>
+               <persName type="lemma" xml:lang="en">Menodorus</persName>
+               <persName>Μενοδώρου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="father-of">Joseph (12)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Upper Egypt, Tait</note>
+               </state>
+               <bibl>CPJ113</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3226"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0100">3rd-2ndC BCE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

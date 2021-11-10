@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Malous-Malous</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Malous-d1e599467" n="Malous-Malous">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-G_M-d8e2875-person"
+                    n="Vol-3-S-G_M-Semitic-Greek-Males-Malous-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Malous</persName>
+               <persName type="lemma" xml:lang="en">Malous</persName>
+               <persName>Μαλουτος</persName>
+               <state type="desc">
+                  <note>Eirenaius (1), <ref corresp="#Vol-3-G_M-d8e24799-person" type="relation" n="son-of">Eirenaius (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Marmarica, Norsa &amp; Vitelli</note>
+               </state>
+               <bibl>CJZC77.11</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-S-G_M-ftn175"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0175" notAfter="0181">175-81 CE<ref type="note" corresp="#Vol-3-S-G_M-ftn176"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

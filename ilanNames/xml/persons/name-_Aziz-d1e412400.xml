@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ̓Αζίζος Aziz-̓Αζίζος Aziz</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Aziz-d1e412400"
+                     n="̓Αζίζος Aziz-̓Αζίζος Aziz">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_M-d8e599-person"
+                    n="Vol-2-S-G_M-Semitic-Greek-Males-̓Αζίζος Aziz-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αζίζος Aziz</persName>
+               <persName type="lemma" xml:lang="en">̓Αζίζος Aziz</persName>
+               <persName>̓Αζίζου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e36342-person" type="relation" n="father-of">Moses (3)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Hauran<ref type="note" corresp="#Vol-2-S-G_M-ftn43"/>
+                  </note>
+               </state>
+               <bibl>Ewing,PEFQS27 (1895) 347</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-G_M-ftn44"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-S-G_M-ftn45"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_M-d8e632-person"
+                    n="Vol-2-S-G_M-Semitic-Greek-Males-̓Αζίζος Aziz-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αζίζος Aziz</persName>
+               <persName type="lemma" xml:lang="en">̓Αζίζος Aziz</persName>
+               <persName>̓Αζίζο[ς]<ref type="note" corresp="#Vol-2-S-G_M-ftn46"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-S-G_M-ftn47"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Deir Aziz<ref type="note" corresp="#Vol-2-S-G_M-ftn48"/>
+                  </note>
+               </state>
+               <bibl>Maoz &amp; Ben David,Qadmoniot39 (2006) 30</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>6thC</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

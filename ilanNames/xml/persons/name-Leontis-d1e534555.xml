@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Leontis-Λεόντις</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Leontis-d1e534555" n="Leontis-Λεόντις">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e52598-person"
+                    n="Vol-3-G_M-Greek-Males-Leontis-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Λεόντις</persName>
+               <persName type="lemma" xml:lang="en">Leontis</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e3472-person" type="relation" n="son-of">Marios (1)’s son</ref>, <ref corresp="#Vol-3-G_F-d8e11266-person" type="relation" n="father-of">Theodora (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Arsinoe, Schürer</note>
+               </state>
+               <bibl>CPJ47</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3028"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0199" notAfter="-0100">2ndC BCE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e52632-person"
+                    n="Vol-3-G_M-Greek-Males-Leontis-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Λεόντις</persName>
+               <persName type="lemma" xml:lang="en">Leontis</persName>
+               <persName>Λεόντι</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e52065-person" type="relation" n="son-of">Leontius (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vigna Randanini, Garrucci</note>
+               </state>
+               <bibl>CIJ134</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3029"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e52667-person"
+                    n="Vol-3-G_M-Greek-Males-Leontis-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Λεόντις</persName>
+               <persName type="lemma" xml:lang="en">Leontis</persName>
+               <persName>[Λ]έοντις<ref type="note" corresp="#Vol-3-G_M-ftn3030"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Villa Torlonia, Fasola</note>
+               </state>
+               <bibl>JIWE2, 438</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3031"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

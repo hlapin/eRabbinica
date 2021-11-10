@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Domnolus-Domnolus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Domnolus-d1e578166" n="Domnolus-Domnolus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e14316-person"
+                    n="Vol-3-L_M-Latin-Males-Domnolus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Domnolus</persName>
+               <persName type="lemma" xml:lang="en">Domnolus</persName>
+               <persName>דומנו]לו]<ref type="note" corresp="#Vol-3-L_M-ftn855"/>
+               </persName>
+               <persName>/ [Dom]nolo<ref type="note" corresp="#Vol-3-L_M-ftn856"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e14365-person" type="relation" n="son-of">Domnolus (2)’s son</ref>, aged 14<ref type="note" corresp="#Vol-3-L_M-ftn857"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Taranto, Colafemmina</note>
+               </state>
+               <bibl>JIWE1, 128</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn858"/>; late<ref type="note" corresp="#Vol-3-L_M-ftn859"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0600" notAfter="0799">7th-8thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e14365-person"
+                    n="Vol-3-L_M-Latin-Males-Domnolus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Domnolus</persName>
+               <persName type="lemma" xml:lang="en">Domnolus</persName>
+               <persName>דומנו[לו]<ref type="note" corresp="#Vol-3-L_M-ftn860"/>
+               </persName>
+               <persName>/ D[omnoli]<ref type="note" corresp="#Vol-3-L_M-ftn861"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e14316-person" type="relation" n="father-of">Domnolus (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Taranto, Colafemmina</note>
+               </state>
+               <bibl>JIWE1, 128</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn862"/>; late<ref type="note" corresp="#Vol-3-L_M-ftn863"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0600" notAfter="0799">7th-8thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

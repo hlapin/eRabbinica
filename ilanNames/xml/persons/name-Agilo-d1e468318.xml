@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Agilo-עגילו</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Agilo-d1e468318" n="Agilo-עגילו">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-P_M-d8e2006-person"
+                    n="Vol-2-Vol-1-ADD-P_M-Persian-Males-Agilo-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עגילו</persName>
+               <persName type="lemma" xml:lang="en">Agilo</persName>
+               <persName>עגל<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn136"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Tel el-Mazar<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn137"/>
+                  </note>
+               </state>
+               <bibl>Yassine &amp; Teixidor,BASOR264 (1986) 46</bibl>
+               <state type="addl-Descr">
+                  <note>Early?<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn138"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

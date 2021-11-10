@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hagira-חגירה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hagira-d1e320936" n="Hagira-חגירה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e5086-person"
+                    n="Vol-1-S-H_M-Hagira-1">
+               <persName type="lemma">חגירה</persName>
+               <persName type="lemma" xml:lang="en">Hagira</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Χαγείρας<ref type="note" corresp="#Vol-1-S-H_M-ftn341"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e46166-person" type="relation" n="son-of">Nabayot (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ5:474 (Schalit,NB, 125); Pesiq RabNahamu (139b).</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">70 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn342"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e5124-person"
+                    n="Vol-1-S-H_M-Hagira-2">
+               <persName type="lemma">חגירה</persName>
+               <persName type="lemma" xml:lang="en">Hagira</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-S-H_M-ftn343"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>yMeg1:11, 71d (Kosovsky,Yerushalmi, 237)</bibl>
+               <state type="addl-Descr">
+                  <note>Family<ref type="note" corresp="#Vol-1-S-H_M-ftn344"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn345"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

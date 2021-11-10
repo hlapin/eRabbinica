@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Βιλίστος Bilistus-Βιλίστος Bilistus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Bilistus-d1e515053"
+                     n="Βιλίστος Bilistus-Βιλίστος Bilistus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e14817-person"
+                    n="Vol-3-G_M-Greek-Males-Βιλίστος Bilistus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Βιλίστος Bilistus</persName>
+               <persName type="lemma" xml:lang="en">Βιλίστος Bilistus</persName>
+               <persName>Βιλίστου</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn871"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Phydna, Cormack</note>
+               </state>
+               <bibl>Rajak, “Archisynagogoi,” no. 6</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn872"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0250" notAfter="0250">250 CE<ref type="note" corresp="#Vol-3-G_M-ftn873"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

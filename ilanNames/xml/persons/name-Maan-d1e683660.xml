@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Maṭan-מטן</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Maan-d1e683660" n="Maṭan-מטן">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e25107-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Maṭan-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מטן</persName>
+               <persName type="lemma" xml:lang="en">Maṭan</persName>
+               <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1735"/>
+               </persName>
+               <state type="desc">
+                  <note>ʿAgilo (2), Burfa (2) and <ref corresp="#Vol-4-B_M-d8e16761-person" type="relation" n="father-of">Malkiah (15)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Palmyra</note>
+               </state>
+               <bibl>Cantineau,RB39 (1930) 537</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn1736"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra</note>
+               </state>
+               <floruit notBefore="0118" notAfter="0118">118 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1737"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

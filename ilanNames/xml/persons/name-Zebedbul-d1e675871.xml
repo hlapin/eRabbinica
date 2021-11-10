@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Zebedbul-זבדבול</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Zebedbul-d1e675871" n="Zebedbul-זבדבול">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e16959-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Zebedbul-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">זבדבול</persName>
+               <persName type="lemma" xml:lang="en">Zebedbul</persName>
+               <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1176"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-B_M-d8e32235-person" type="relation" n="son-of">Simon (27)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Palmyra, Barthélemy</note>
+               </state>
+               <bibl>CIS2/3, 4396</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn1177"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1178"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e16993-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Zebedbul-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">זבדבול</persName>
+               <persName type="lemma" xml:lang="en">Zebedbul</persName>
+               <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1179"/>
+               </persName>
+               <state type="desc">
+                  <note>Nebozebed (1) <ref corresp="#Vol-4-B_M-d8e32965-person" type="relation" n="father-of">Simon (49)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph (on statue), Palmyra</note>
+               </state>
+               <bibl>Cantineau,Syria12 (1931) 127</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn1180"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra</note>
+               </state>
+               <floruit notBefore="0168" notAfter="0168">168 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1181"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Amphiklus-̓́Αμφικλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Amphiklus-d1e206133" n="Amphiklus-̓́Αμφικλος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e1687-person"
+                    n="Vol-1-G_M-Amphiklus-1">
+               <persName type="lemma">̓́Αμφικλος</persName>
+               <persName type="lemma" xml:lang="en">Amphiklus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">̓Αμφικάλλει<ref type="note" corresp="#Vol-1-G_M-ftn120"/>
+               </persName>
+               <persName xml:lang="he">אבקלוס<ref type="note" corresp="#Vol-1-G_M-ftn121"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e9922-person" type="relation" n="father-of">Zachariah (6)’s father</ref>
+                     <ref type="note" corresp="#Vol-1-G_M-ftn122"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ 4:225 (Schalit, NB, 11)tShab16:7 (Kasowski, Thosephthae, 25).</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0068" notAfter="0068">68 CE<ref type="note" corresp="#Vol-1-G_M-ftn123"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e1763-person"
+                    n="Vol-1-G_M-Amphiklus-2">
+               <persName type="lemma">̓́Αμφικλος</persName>
+               <persName type="lemma" xml:lang="en">Amphiklus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">אפיקלוס<ref type="note" corresp="#Vol-1-G_M-ftn124"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>tHul8:3 (Kasowski, Thosephthae, 584)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0200">Pre-200 CE<ref type="note" corresp="#Vol-1-G_M-ftn125"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

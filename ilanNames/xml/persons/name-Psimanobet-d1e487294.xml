@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Psimanobet-Psimanobet</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Psimanobet-d1e487294"
+                     n="Psimanobet-Psimanobet">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e7481-person"
+                    n="Vol-3-E_M-Egyptian-Males-Psimanobet-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Psimanobet</persName>
+               <persName type="lemma" xml:lang="en">Psimanobet</persName>
+               <persName>Ψιμανωβέτ</persName>
+               <state type="desc">
+                  <note>Enoch (3) and <ref corresp="#Vol-3-B_F-d8e2088-person" type="relation" n="father-of">Mariam (12)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Aphrodito</note>
+               </state>
+               <bibl>Gascou,CRIPÉL7 (1985) 130</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn456"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0610" notAfter="0641">610-41 CE<ref type="note" corresp="#Vol-3-E_M-ftn457"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

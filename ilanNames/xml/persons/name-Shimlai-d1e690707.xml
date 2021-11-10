@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Shimlai-שמלאי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Shimlai-d1e690707" n="Shimlai-שמלאי">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e33739-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Shimlai-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שמלאי</persName>
+               <persName type="lemma" xml:lang="en">Shimlai</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>1.yBer5:4, 9d (Kosovsky,Yerushalmi, 664) ; 2.bBer32a (Kosowsky,Babylonico, 1640-1)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2354"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia<ref type="note" corresp="#Vol-4-S-H_M-ftn2355"/>
+                  </note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2356"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

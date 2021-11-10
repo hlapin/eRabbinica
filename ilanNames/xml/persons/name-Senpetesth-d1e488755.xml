@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Senpetesth-Senpetesth</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Senpetesth-d1e488755"
+                     n="Senpetesth-Senpetesth">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e8764-person"
+                    n="Vol-3-E_M-Egyptian-Males-Senpetesth-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Senpetesth</persName>
+               <persName type="lemma" xml:lang="en">Senpetesth</persName>
+               <persName>Σενπετεσθ<ref type="note" corresp="#Vol-3-E_M-ftn532"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ostraca, Edfu, Manteuffel</note>
+               </state>
+               <bibl>CPJ375, 378, 384, 387, 392, 393, 394, 395, 399</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn533"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0151" notAfter="0155">151-5 CE<ref type="note" corresp="#Vol-3-E_M-ftn534"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

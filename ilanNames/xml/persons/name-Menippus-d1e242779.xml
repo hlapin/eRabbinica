@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Menippus-Μένιππος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Menippus-d1e242779" n="Menippus-Μένιππος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e12762-person"
+                    n="Vol-1-G_M-Menippus-1">
+               <persName type="lemma">Μένιππος</persName>
+               <persName type="lemma" xml:lang="en">Menippus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-G_M-ftn911"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Tomb inscription, Rhodes</note>
+               </state>
+               <bibl>IGXII: 1:11</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn912"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e55899-person"
+                    n="Vol-3-G_M-Greek-Males-Menippus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Μένιππος</persName>
+               <persName type="lemma" xml:lang="en">Menippus</persName>
+               <persName>Μένιππον</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e12265-person" type="relation" n="son-of">Artemidorus (4)’s son</ref>, of Heracleon<ref type="note" corresp="#Vol-3-G_M-ftn3216"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Delos, Bruneau</note>
+               </state>
+               <bibl>IJO1, Ach66</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-3-G_M-ftn3217"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greek</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0100">3rd-2ndC BCE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e55943-person"
+                    n="Vol-3-G_M-Greek-Males-Menippus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Μένιππος</persName>
+               <persName type="lemma" xml:lang="en">Menippus</persName>
+               <persName>Μενίππου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e69961-person" type="relation" n="father-of">Rhodocles (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Rhodes, Salzmann</note>
+               </state>
+               <bibl>IJO2, 11</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-3-G_M-ftn3218"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0199">2ndC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Nicius-Νίκιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Nicius-d1e539926" n="Nicius-Νίκιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e59548-person"
+                    n="Vol-3-G_M-Greek-Males-Nicius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Νίκιος</persName>
+               <persName type="lemma" xml:lang="en">Nicius</persName>
+               <persName>Νικίο</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="grandson-of">Jacob (70)’s grandson</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory Inscription, Tarsus, Mouterde</note>
+               </state>
+               <bibl>IJO2, 248</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3429"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0500" notAfter="0599">6thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Cainon-Καίνων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Cainon-d1e532013" n="Cainon-Καίνων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e49302-person"
+                    n="Vol-3-G_M-Greek-Males-Cainon-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Καίνων</persName>
+               <persName type="lemma" xml:lang="en">Cainon</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-S-G_M-d8e1986-person" type="relation" n="son-of">Cosakabus (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Hermopolis, Zucker</note>
+               </state>
+               <bibl>JIGRE156:88</bibl>
+               <state type="addl-Descr">
+                  <note>Idumean<ref type="note" corresp="#Vol-3-G_M-ftn2833"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0078" notAfter="-0078">78 BCE<ref type="note" corresp="#Vol-3-G_M-ftn2834"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

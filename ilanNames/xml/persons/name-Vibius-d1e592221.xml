@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Vibius-Vibius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Vibius-d1e592221" n="Vibius-Vibius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e41941-person"
+                    n="Vol-3-L_M-Latin-Males-Vibius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Vibius</persName>
+               <persName type="lemma" xml:lang="en">Vibius</persName>
+               <persName>Ο̓ιβίῳ</persName>
+               <state type="desc">
+                  <note>Gaius (12) Crispus (2), <ref corresp="#Vol-3-G_F-d8e1154-person" type="relation" n="father-of">Ammia (2)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Acmonia, Ramsay</note>
+               </state>
+               <bibl>CIJ762</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2511"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn2512"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e41981-person"
+                    n="Vol-3-L_M-Latin-Males-Vibius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Vibius</persName>
+               <persName type="lemma" xml:lang="en">Vibius</persName>
+               <persName>Βειβίῳ<ref type="note" corresp="#Vol-3-L_M-ftn2513"/>
+               </persName>
+               <state type="desc">
+                  <note>Antonius (7), <ref corresp="#Vol-3-S-G_M-d8e1097-person"
+                          type="relation"
+                          n="father-in-law-of">Asidares (1)’s father-in-law</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Olynthus</note>
+               </state>
+               <bibl>Rajak, “Archisynagogoi,” no. 4</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2514"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0199">1st-2ndC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

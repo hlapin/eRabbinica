@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Eustochius-Ε̓στόχιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Eustochius-d1e373469"
+                     n="Eustochius-Ε̓στόχιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e6770-person"
+                    n="Vol-2-G_M-Greek-Males-Eustochius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ε̓στόχιος</persName>
+               <persName type="lemma" xml:lang="en">Eustochius</persName>
+               <persName>Ε̓στοχίω</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Hulda</note>
+               </state>
+               <bibl>Roth-Gerson,GISEI, no. 13</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>5thC</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

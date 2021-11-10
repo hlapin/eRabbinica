@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Iotape-Ιωταπη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Iotape-d1e293348" n="Iotape-Ιωταπη">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-G_F-d2e94-person"
+                    n="Vol-1-S-G_F-Iotape-1">
+               <persName type="lemma">Ιωταπη</persName>
+               <persName type="lemma" xml:lang="en">Iotape</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>Deaf-mute, <ref corresp="#Vol-1-G_M-d2e3290-person" type="relation" n="daughter-of">Aristobulus (4)’s daughter</ref>
+                     <ref type="note" corresp="#Vol-1-S-G_F-ftn6"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ2:221;AJ18:135 (Schalit,NB, 69)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE<ref type="note" corresp="#Vol-1-S-G_F-ftn7"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

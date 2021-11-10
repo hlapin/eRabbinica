@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Achaius-̓Αχαιός</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Achaius-d1e514379" n="Achaius-̓Αχαιός">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e13974-person"
+                    n="Vol-3-G_M-Greek-Males-Achaius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αχαιός</persName>
+               <persName type="lemma" xml:lang="en">Achaius</persName>
+               <persName>̓Αχαϊάς<ref type="note" corresp="#Vol-3-G_M-ftn815"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Villa Torlonia, Fasola</note>
+               </state>
+               <bibl>JIWE2, 503</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn816"/>; nickname?<ref type="note" corresp="#Vol-3-G_M-ftn817"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e14018-person"
+                    n="Vol-3-G_M-Greek-Males-Achaius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αχαιός</persName>
+               <persName type="lemma" xml:lang="en">Achaius</persName>
+               <persName>̓Αχαιου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-S-G_M-d8e22-person" type="relation" n="father-of">Abdocos (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Hermopolis, Jouguet</note>
+               </state>
+               <bibl>JIGRE155:50</bibl>
+               <state type="addl-Descr">
+                  <note>Idumean<ref type="note" corresp="#Vol-3-G_M-ftn818"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0079" notAfter="-0079">79 BCE<ref type="note" corresp="#Vol-3-G_M-ftn819"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e14050-person"
+                    n="Vol-3-G_M-Greek-Males-Achaius-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αχαιός</persName>
+               <persName type="lemma" xml:lang="en">Achaius</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e59855-person" type="relation" n="son-of">Nicolaus (4)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Hermopolis, Jouguet</note>
+               </state>
+               <bibl>JIGRE155:203</bibl>
+               <state type="addl-Descr">
+                  <note>Idumean<ref type="note" corresp="#Vol-3-G_M-ftn820"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0079" notAfter="-0079">79 BCE<ref type="note" corresp="#Vol-3-G_M-ftn821"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Cotius-Cotius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Cotius-d1e577138" n="Cotius-Cotius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e13018-person"
+                    n="Vol-3-L_M-Latin-Males-Cotius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Cotius</persName>
+               <persName type="lemma" xml:lang="en">Cotius</persName>
+               <persName>Κώτυος<ref type="note" corresp="#Vol-3-L_M-ftn772"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_F-d8e7105-person" type="relation" n="son-of">Eirene (15)’s son</ref>, archisynagogus<ref type="note" corresp="#Vol-3-L_M-ftn773"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Thessalonica, Dumont</note>
+               </state>
+               <bibl>Rajak, “Archisynagogoi,” no. 2</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn774"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0155" notAfter="0155">155 CE<ref type="note" corresp="#Vol-3-L_M-ftn775"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

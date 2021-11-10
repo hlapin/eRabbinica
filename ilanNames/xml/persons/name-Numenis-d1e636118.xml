@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Numenis-Νουμηνίς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Numenis-d1e636118" n="Numenis-Νουμηνίς">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-G_M-d8e1693-person"
+                    n="Vol-4-G_M-Greek-Males-Numenis-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Νουμηνίς</persName>
+               <persName type="lemma" xml:lang="en">Numenis</persName>
+               <persName>נאמאנש<ref type="note" corresp="#Vol-4-G_M-ftn129"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-G_M-ftn130"/>
+                     <ref type="note" corresp="#Vol-4-G_M-ftn131"/>
+                     <ref type="note" corresp="#Vol-4-G_M-ftn132"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Susa</note>
+               </state>
+               <bibl>Isbell,BASOR223 (1976) 16, 18, 20</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-G_M-ftn133"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-G_M-ftn134"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

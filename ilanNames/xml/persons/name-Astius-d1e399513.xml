@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Astius-Astius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Astius-d1e399513" n="Astius-Astius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e1296-person"
+                    n="Vol-2-L_M-Latin-Males-Astius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Astius</persName>
+               <persName type="lemma" xml:lang="en">Astius</persName>
+               <persName>אסטיון<ref type="note" corresp="#Vol-2-L_M-ftn100"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e8524-person" type="relation" n="father-of">Gurion (4)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bBM86b<ref type="note" corresp="#Vol-2-L_M-ftn101"/>(Kosowsky,Babylonico, 330<ref type="note" corresp="#Vol-2-L_M-ftn102"/>)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-L_M-ftn103"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

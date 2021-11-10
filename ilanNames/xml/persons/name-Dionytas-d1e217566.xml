@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Dionytas-Διονυτᾶς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Dionytas-d1e217566" n="Dionytas-Διονυτᾶς">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e5125-person"
+                    n="Vol-1-G_M-Dionytas-1">
+               <persName type="lemma">Διονυτᾶς</persName>
+               <persName type="lemma" xml:lang="en">Dionytas</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">דיונטס<ref type="note" corresp="#Vol-1-G_M-ftn362"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, deed, Muraba‘at</note>
+               </state>
+               <bibl>Mur 30</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0134" notAfter="0134">134 CE<ref type="note" corresp="#Vol-1-G_M-ftn363"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e20143-person"
+                    n="Vol-3-G_M-Greek-Males-Dionytas-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Διονυτᾶς</persName>
+               <persName type="lemma" xml:lang="en">Dionytas</persName>
+               <persName>Διονῦτος<ref type="note" corresp="#Vol-3-G_M-ftn1184"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e37635-person" type="relation" n="father-of">Simon (42)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostraca, Edfu, Manteuffel</note>
+               </state>
+               <bibl>CPJ231, 233</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1185"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0056" notAfter="0067">56-67 CE<ref type="note" corresp="#Vol-3-G_M-ftn1186"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

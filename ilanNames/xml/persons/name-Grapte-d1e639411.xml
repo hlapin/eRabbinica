@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Grapte-Grapte</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Grapte-d1e639411" n="Grapte-Grapte">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e3693-person"
+                    n="Vol-4-I_F-Iranian-Females-Grapte-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Grapte</persName>
+               <persName type="lemma" xml:lang="en">Grapte</persName>
+               <persName>Γραπτή</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-I_F-ftn303"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>BJ4:567 (Schalit,NB, 35)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-I_F-ftn304"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE<ref type="note" corresp="#Vol-4-I_F-ftn305"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e3737-person"
+                    n="Vol-4-I_F-Iranian-Females-Grapte-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Grapte</persName>
+               <persName type="lemma" xml:lang="en">Grapte</persName>
+               <persName>גריבתא<ref type="note" corresp="#Vol-4-I_F-ftn306"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e6611-person" type="relation" n="mother-of">Abbin (28)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowls, Nippur, Montgomery</note>
+               </state>
+               <bibl>1. Isbell, no. 2; 2. no. 5</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn307"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn308"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

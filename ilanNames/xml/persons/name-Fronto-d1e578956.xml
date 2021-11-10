@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Fronto-Fronto</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Fronto-d1e578956" n="Fronto-Fronto">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e16584-person"
+                    n="Vol-3-L_M-Latin-Males-Fronto-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Fronto</persName>
+               <persName type="lemma" xml:lang="en">Fronto</persName>
+               <persName>[Φ]ρόντ[ω]ν<ref type="note" corresp="#Vol-3-L_M-ftn993"/>
+               </persName>
+               <state type="desc">
+                  <note>Aurelia (11) <ref corresp="#Vol-3-G_F-d8e10117-person"
+                          type="relation"
+                          n="grandson-of">Zotice (2)’s grandson</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Oderici,CIJ307</note>
+               </state>
+               <bibl>JIWE2, 184</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn994"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Plotinus-Plotinus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Plotinus-d1e406643" n="Plotinus-Plotinus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e8785-person"
+                    n="Vol-2-L_M-Latin-Males-Plotinus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Plotinus</persName>
+               <persName type="lemma" xml:lang="en">Plotinus</persName>
+               <persName>Πλ[ωτείνω]<ref type="note" corresp="#Vol-2-L_M-ftn671"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e37467-person" type="relation" n="son-of">Nahum (14)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Mount Gerizim</note>
+               </state>
+               <bibl>GerizimII, p. 247.</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-2-L_M-ftn672"/>
+                  </note>
+               </state>
+               <floruit>4th-5thC</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

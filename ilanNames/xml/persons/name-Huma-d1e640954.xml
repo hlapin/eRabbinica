@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Huma-Huma</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Huma-d1e640954" n="Huma-Huma">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e4994-person"
+                    n="Vol-4-I_F-Iranian-Females-Huma-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Huma</persName>
+               <persName type="lemma" xml:lang="en">Huma</persName>
+               <persName>חומה<ref type="note" corresp="#Vol-4-I_F-ftn408"/>
+               </persName>
+               <persName>/חומא<ref type="note" corresp="#Vol-4-I_F-ftn409"/>
+               </persName>
+               <persName>/חימה<ref type="note" corresp="#Vol-4-I_F-ftn410"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e4806-person" type="relation" n="wife-of">Abbayye (1)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bYev64b (Kosowsky,Babylonico, 455)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-I_F-ftn411"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0399">4thC CE<ref type="note" corresp="#Vol-4-I_F-ftn412"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

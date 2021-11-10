@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Apollonides-̓Απολλονίδης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Apollonides-d1e511341"
+                     n="Apollonides-̓Απολλονίδης">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e9159-person"
+                    n="Vol-3-G_M-Greek-Males-Apollonides-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Απολλονίδης</persName>
+               <persName type="lemma" xml:lang="en">Apollonides</persName>
+               <persName>̓Απολλωνδου<ref type="note" corresp="#Vol-3-G_M-ftn536"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e55518-person" type="relation" n="father-of">Menandrus (9)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Nysa, Robert</note>
+               </state>
+               <bibl>IJO2, 26</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn537"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e9212-person"
+                    n="Vol-3-G_M-Greek-Males-Apollonides-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Απολλονίδης</persName>
+               <persName type="lemma" xml:lang="en">Apollonides</persName>
+               <persName>̓Απολωνίδα<ref type="note" corresp="#Vol-3-G_M-ftn538"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-S-G_M-d8e952-person" type="relation" n="father-of">Arimmas (5)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira, Applebaum</note>
+               </state>
+               <bibl>CJZC69</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn539"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit>Pre-117 CE?</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

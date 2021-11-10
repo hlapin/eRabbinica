@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Satabous-Satabous</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Satabous-d1e488551" n="Satabous-Satabous">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e8574-person"
+                    n="Vol-3-E_M-Egyptian-Males-Satabous-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Satabous</persName>
+               <persName type="lemma" xml:lang="en">Satabous</persName>
+               <persName>Σαταβοῦτος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e451-person" type="relation" n="son-of">Anchopheos (1)’s son</ref>, <ref corresp="#Vol-3-B_F-d8e5004-person" type="relation" n="husband-of">Shabtit (23)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Karanis, Pearl &amp; Youtie</note>
+               </state>
+               <bibl>CPJ492(1)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn521"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0171" notAfter="0174">171-4 CE<ref type="note" corresp="#Vol-3-E_M-ftn522"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e8606-person"
+                    n="Vol-3-E_M-Egyptian-Males-Satabous-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Satabous</persName>
+               <persName type="lemma" xml:lang="en">Satabous</persName>
+               <persName>Σαταβοῦτος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e2983-person" type="relation" n="son-of">Horos (6)’s son</ref>, <ref corresp="#Vol-3-B_F-d8e5039-person" type="relation" n="husband-of">Shabtit (24)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Karanis, Pearl &amp; Youtie</note>
+               </state>
+               <bibl>CPJ492(2)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn523"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0171" notAfter="0174">171-4 CE<ref type="note" corresp="#Vol-3-E_M-ftn524"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

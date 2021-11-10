@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tibān-تبان</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tibn-d1e608433" n="Tibān-تبان">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e1657-person"
+                    n="Vol-4-A_M-Arabic-Males-Tibān-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">تبان</persName>
+               <persName type="lemma" xml:lang="en">Tibān</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Karib (1) Asʿad (1), Joseph (36) Dhū <ref corresp="#Vol-4-A_M-d8e4614-person" type="relation" n="father-of">Nuwās (1)’s father</ref>?<ref type="note" corresp="#Vol-4-A_M-ftn138"/>
+                     <ref type="note" corresp="#Vol-4-A_M-ftn139"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Hishām,Leben Muhammed’s, 12</bibl>
+               <state type="addl-Descr">
+                  <note>Proselyte<ref type="note" corresp="#Vol-4-A_M-ftn140"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0385" notAfter="0420">385-420 CE<ref type="note" corresp="#Vol-4-A_M-ftn141"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

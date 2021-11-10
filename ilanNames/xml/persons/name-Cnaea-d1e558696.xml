@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Cnaea-Cnaea</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Cnaea-d1e558696" n="Cnaea-Cnaea">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e6009-person"
+                    n="Vol-3-L_F-Latin-Females-Cnaea-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Cnaea</persName>
+               <persName type="lemma" xml:lang="en">Cnaea</persName>
+               <persName>Cn<ref type="note" corresp="#Vol-3-L_F-ftn321"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_F-ftn322"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vatican, Dessau</note>
+               </state>
+               <bibl>CIJ73*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn323"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn324"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

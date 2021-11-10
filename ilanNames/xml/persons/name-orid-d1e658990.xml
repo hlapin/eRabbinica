@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Χorχšid-Χorχšid</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-orid-d1e658990" n="Χorχšid-Χorχšid">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e6270-person"
+                    n="Vol-4-I_M-Iranian-Males-Χorχšid-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Χorχšid</persName>
+               <persName type="lemma" xml:lang="en">Χorχšid</persName>
+               <persName>כורכשיד<ref type="note" corresp="#Vol-4-I_M-ftn536"/>
+               </persName>
+               <state type="desc">
+                  <note>Gušnasp (2), <ref corresp="#Vol-4-G_F-d8e126-person" type="relation" n="son-of">Dosithea (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl</note>
+               </state>
+               <bibl>CAMIBBM036A</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn537"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn538"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e6307-person"
+                    n="Vol-4-I_M-Iranian-Males-Χorχšid-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Χorχšid</persName>
+               <persName type="lemma" xml:lang="en">Χorχšid</persName>
+               <persName>כורכשיד<ref type="note" corresp="#Vol-4-I_M-ftn539"/>
+               </persName>
+               <state type="desc">
+                  <note>Gušnasp (4), <ref corresp="#Vol-4-I_F-d8e11525-person Vol-4-I_M-d8e9796-person"
+                          type="relation"
+                          n="son-of">Pērōzag (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Moussyaieff collection</note>
+               </state>
+               <bibl>Levene,CMB, M107</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn540"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn541"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

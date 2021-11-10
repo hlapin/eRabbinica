@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Comicus-Comicus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Comicus-d1e576483" n="Comicus-Comicus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e12375-person"
+                    n="Vol-3-L_M-Latin-Males-Comicus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Comicus</persName>
+               <persName type="lemma" xml:lang="en">Comicus</persName>
+               <persName>[Κ]ωμικός<ref type="note" corresp="#Vol-3-L_M-ftn730"/>
+               </persName>
+               <state type="desc">
+                  <note>Marcus (38) Pompeius (6), <ref corresp="#Vol-3-L_M-d8e12415-person" type="relation" n="son-of">Comicus (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Heraclea, Kalinken</note>
+               </state>
+               <bibl>Rajak, “Archisynagogoi,” no. 1</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn731"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e12415-person"
+                    n="Vol-3-L_M-Latin-Males-Comicus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Comicus</persName>
+               <persName type="lemma" xml:lang="en">Comicus</persName>
+               <persName>Κω[μικοῦ]<ref type="note" corresp="#Vol-3-L_M-ftn732"/>
+               </persName>
+               <state type="desc">
+                  <note>Marcus (38) Pompeius (6) <ref corresp="#Vol-3-L_M-d8e12375-person" type="relation" n="father-of">Comicus (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Heraclea, Kalinken</note>
+               </state>
+               <bibl>Rajak, “Archisynagogoi,” no. 1</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn733"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

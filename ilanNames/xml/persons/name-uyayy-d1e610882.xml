@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ḥuyayy-حيي</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-uyayy-d1e610882" n="Ḥuyayy-حيي">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e3848-person"
+                    n="Vol-4-A_M-Arabic-Males-Ḥuyayy-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">حيي</persName>
+               <persName type="lemma" xml:lang="en">Ḥuyayy</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_M-d8e197-person" type="relation" n="son-of">Akhṭab (1)’s son</ref>, Yāsir (1) and <ref corresp="#Vol-4-A_M-d8e2404-person" type="relation" n="brother-of">Judayy (1)’s brother</ref>, <ref corresp="#Vol-4-A_F-d8e529-person" type="relation" n="father-of">Ṣafīya (1)’s father</ref>, of a court fortress<ref type="note" corresp="#Vol-4-A_M-ftn307"/>
+                     <ref type="note" corresp="#Vol-4-A_M-ftn308"/>
+                     <ref type="note" corresp="#Vol-4-A_M-ftn309"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Hishām,Leben Muhammed’s, 351, 354:–<ref type="note" corresp="#Vol-4-A_M-ftn310"/>
+               </bibl>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0632" notAfter="0632">Pre-632 CE<ref type="note" corresp="#Vol-4-A_M-ftn311"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

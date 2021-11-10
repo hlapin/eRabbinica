@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Qetia-קטיעה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Qetia-d1e604594" n="Qetia-קטיעה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-H_M-d8e5724-person"
+                    n="Vol-3-S-H_M-Semitic-Hebrew-Males-Qetia-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">קטיעה</persName>
+               <persName type="lemma" xml:lang="en">Qetia</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-S-H_M-ftn358"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bAZ10b (Kosowsky,Babylonico, 1235)</bibl>
+               <state type="addl-Descr">
+                  <note>Proselyte<ref type="note" corresp="#Vol-3-S-H_M-ftn359"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome?<ref type="note" corresp="#Vol-3-S-H_M-ftn360"/>
+                  </note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-3-S-H_M-ftn361"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Pērōzag-Pērōzag</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Przag-d1e648721" n="Pērōzag-Pērōzag">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e11525-person"
+                    n="Vol-4-I_F-Iranian-Females-Pērōzag-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Pērōzag</persName>
+               <persName type="lemma" xml:lang="en">Pērōzag</persName>
+               <persName>פאריזג<ref type="note" corresp="#Vol-4-I_F-ftn943"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_F-d8e4349-person" type="relation" n="daughter-of">Hazārōē (1)’s daughter</ref>, Āzādyār (1), Hōrmīzd (5) Gušnasp (4),Χorkshid (2) Gušnasp (5) and <ref corresp="#Vol-4-I_F-d8e3184-person" type="relation" n="mother-of">Dūχtizag (1)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Moussyaieff collection</note>
+               </state>
+               <bibl>Levene,CMB, M107</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn944"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn945"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e9796-person"
+                    n="Vol-4-I_M-Iranian-Males-Pērōzag-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Pērōzag</persName>
+               <persName type="lemma" xml:lang="en">Pērōzag</persName>
+               <persName>פרזק<ref type="note" corresp="#Vol-4-I_M-ftn823"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-I_M-ftn824"/>
+                     <ref type="note" corresp="#Vol-4-I_M-ftn825"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bBM49b (Kosowsky,Babylonico, 1229)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-I_M-ftn826"/>; family<ref type="note" corresp="#Vol-4-I_M-ftn827"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE<ref type="note" corresp="#Vol-4-I_M-ftn828"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ḥuqayq-حقيق</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-uqayq-d1e610529" n="Ḥuqayq-حقيق">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e3520-person"
+                    n="Vol-4-A_M-Arabic-Males-Ḥuqayq-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">حقيق</persName>
+               <persName type="lemma" xml:lang="en">Ḥuqayq</persName>
+               <persName>ابو الحقيق<ref type="note" corresp="#Vol-4-A_M-ftn279"/>
+               </persName>
+               <state type="desc">
+                  <note>Rāfiʿ (1), Shalum (2) and <ref corresp="#Vol-4-A_M-d8e5194-person" type="relation" n="father-of">Rabīʿ (2)’s father</ref> and <ref corresp="#Vol-4-A_M-d8e11603-person"
+                          type="relation"
+                          n="grandfather-of">Kināna (1)’s grandfather</ref>,<ref type="note" corresp="#Vol-4-A_M-ftn280"/>
+                     <ref type="note" corresp="#Vol-4-A_M-ftn281"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Hishām,Leben Muhammed’s, 351, 669</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-A_M-ftn282"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0500" notAfter="0599">6thC CE<ref type="note" corresp="#Vol-4-A_M-ftn283"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

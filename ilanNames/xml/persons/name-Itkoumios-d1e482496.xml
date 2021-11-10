@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Itkoumios-Itkoumios</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Itkoumios-d1e482496" n="Itkoumios-Itkoumios">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e3200-person"
+                    n="Vol-3-E_M-Egyptian-Males-Itkoumios-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Itkoumios</persName>
+               <persName type="lemma" xml:lang="en">Itkoumios</persName>
+               <persName>יתקום<ref type="note" corresp="#Vol-3-E_M-ftn198"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e4410-person" type="relation" n="father-of">Daliah (2)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu, Degen</note>
+               </state>
+               <bibl>TADAE4:8:7</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-E_M-ftn199"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e3234-person"
+                    n="Vol-3-E_M-Egyptian-Males-Itkoumios-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Itkoumios</persName>
+               <persName type="lemma" xml:lang="en">Itkoumios</persName>
+               <persName>יתקום<ref type="note" corresp="#Vol-3-E_M-ftn200"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu</note>
+               </state>
+               <bibl>TADAE4:8:10</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn201"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e3268-person"
+                    n="Vol-3-E_M-Egyptian-Males-Itkoumios-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Itkoumios</persName>
+               <persName type="lemma" xml:lang="en">Itkoumios</persName>
+               <persName>̓Ιτκούμιος</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Berlin</note>
+               </state>
+               <bibl>BGU10, 2009</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn202"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0199" notAfter="-0100">2ndC BCE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

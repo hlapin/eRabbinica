@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Zuṭra-זוטרא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Zutra-d1e432857" n="Zuṭra-זוטרא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e9692-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Zuṭra-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">זוטרא</persName>
+               <persName type="lemma" xml:lang="en">Zuṭra</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e883-person" type="relation" n="father-of">Abba (26)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yShab14:4, 14d (Kosovsky,Yerushalmi, 13)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn589"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e9723-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Zuṭra-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">זוטרא</persName>
+               <persName type="lemma" xml:lang="en">Zuṭra</persName>
+               <persName>זוטרתי<ref type="note" corresp="#Vol-2-S-H_M-ftn590"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e2801-person" type="relation" n="father-of">Abbahu (3)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bBer12b<ref type="note" corresp="#Vol-2-S-H_M-ftn591"/>(Kosowsky,Babylonico, 30)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn592"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e9764-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Zuṭra-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">זוטרא</persName>
+               <persName type="lemma" xml:lang="en">Zuṭra</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Gurion (6)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>SOZ10:5</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Post-522<ref type="note" corresp="#Vol-2-S-H_M-ftn593"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

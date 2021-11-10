@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Erpidia-̓Ερπιδία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Erpidia-d1e496850" n="Erpidia-̓Ερπιδία">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e8054-person"
+                    n="Vol-3-G_F-Greek-Females-Erpidia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓Ερπιδία</persName>
+               <persName type="lemma" xml:lang="en">Erpidia</persName>
+               <persName>Erpidia<ref type="note" corresp="#Vol-3-G_F-ftn447"/>
+               </persName>
+               <persName>/ארפידיא<ref type="note" corresp="#Vol-3-G_F-ftn448"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_F-ftn449"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Taranto, Colafemmina</note>
+               </state>
+               <bibl>JIWE1, 127</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn450"/>; late<ref type="note" corresp="#Vol-3-G_F-ftn451"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0600" notAfter="0799">7th-8thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

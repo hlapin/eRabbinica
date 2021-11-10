@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Bona-Bona</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Bona-d1e664928" n="Bona-Bona">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-L_F-d8e67-person"
+                    n="Vol-4-L_F-Latin-Females-Bona-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Bona</persName>
+               <persName type="lemma" xml:lang="en">Bona</persName>
+               <persName>Βώννη<ref type="note" corresp="#Vol-4-L_F-ftn7"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e26002-person"
+                          type="relation"
+                          n="daughter-of">Moqimo (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Burial cave contract, Palmyra, Cantineau</note>
+               </state>
+               <bibl>IJO3, Syr50</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-L_F-ftn8"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE<ref type="note" corresp="#Vol-4-L_F-ftn9"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

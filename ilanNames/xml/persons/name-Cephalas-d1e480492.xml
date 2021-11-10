@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Cephalas-Cephalas</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Cephalas-d1e480492" n="Cephalas-Cephalas">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e1428-person"
+                    n="Vol-3-E_M-Egyptian-Males-Cephalas-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Cephalas</persName>
+               <persName type="lemma" xml:lang="en">Cephalas</persName>
+               <persName>Κεφαλᾶ</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e6531-person" type="relation" n="father-of">Petheus (3)’s father</ref>, <ref corresp="#Vol-3-B_F-d8e5144-person" type="relation" n="husband-of">Shabtit (27)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Karanis, Pearl &amp; Youtie</note>
+               </state>
+               <bibl>CPJ492(10)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn89"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0171" notAfter="0174">171-4 CE<ref type="note" corresp="#Vol-3-E_M-ftn90"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e1460-person"
+                    n="Vol-3-E_M-Egyptian-Males-Cephalas-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Cephalas</persName>
+               <persName type="lemma" xml:lang="en">Cephalas</persName>
+               <persName>Κεφάλο<ref type="note" corresp="#Vol-3-E_M-ftn91"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e68408-person" type="relation" n="father-of">Ptolemaius (26)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Vienna</note>
+               </state>
+               <bibl>P. Harrauer 33:42</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn92"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e1493-person"
+                    n="Vol-3-E_M-Egyptian-Males-Cephalas-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Cephalas</persName>
+               <persName type="lemma" xml:lang="en">Cephalas</persName>
+               <persName>Κεφαλ<ref type="note" corresp="#Vol-3-E_M-ftn93"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Vienna</note>
+               </state>
+               <bibl>P. Harrauer 33:66</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn94"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

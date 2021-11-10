@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Cyrtos-Κυρτός</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Cyrtos-d1e295261" n="Cyrtos-Κυρτός">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-G_M-d2e1922-person"
+                    n="Vol-1-S-G_M-Cyrtos-1">
+               <persName type="lemma">Κυρτός</persName>
+               <persName type="lemma" xml:lang="en">Cyrtos</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Vita4 (Schalit,NB, 77)</bibl>
+               <state type="addl-Descr">
+                  <note>Second name<ref type="note" corresp="#Vol-1-S-G_M-ftn107"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0135" notAfter="-0135">135 BCE<ref type="note" corresp="#Vol-1-S-G_M-ftn108"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-G_M-d2e1949-person"
+                    n="Vol-1-S-G_M-Cyrtos-2">
+               <persName type="lemma">Κυρτός</persName>
+               <persName type="lemma" xml:lang="en">Cyrtos</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Κυρτω<ref type="note" corresp="#Vol-1-S-G_M-ftn109"/>
+               </persName>
+               <persName xml:lang="he">ג[בי]חיה<ref type="note" corresp="#Vol-1-S-G_M-ftn110"/>
+               </persName>
+               <state type="desc">
+                  <note>Simon (204), <ref corresp="#Vol-1-B_M-d2e27289-person" type="relation" n="son-of">Yohanan (94)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Babatha archive</note>
+               </state>
+               <bibl>PYadin 27</bibl>
+               <state type="addl-Descr">
+                  <note>Second name<ref type="note" corresp="#Vol-1-S-G_M-ftn111"/>
+                  </note>
+               </state>
+               <floruit notBefore="0132" notAfter="0132">132 CE<ref type="note" corresp="#Vol-1-S-G_M-ftn112"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

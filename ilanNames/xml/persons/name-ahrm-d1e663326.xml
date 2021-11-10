@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Šahrām-Šahrām</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-ahrm-d1e663326" n="Šahrām-Šahrām">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e10197-person"
+                    n="Vol-4-I_M-Iranian-Males-Šahrām-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Šahrām</persName>
+               <persName type="lemma" xml:lang="en">Šahrām</persName>
+               <persName>שהרם<ref type="note" corresp="#Vol-4-I_M-ftn857"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_F-d8e429-person" type="relation" n="husband-of">Shamsam (1)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Himyar</note>
+               </state>
+               <bibl>CIS4/2, 543</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-I_M-ftn858"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-4-I_M-ftn859"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

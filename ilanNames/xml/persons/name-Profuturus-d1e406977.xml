@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Profuturus-Profuturus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Profuturus-d1e406977"
+                     n="Profuturus-Profuturus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e8916-person"
+                    n="Vol-2-L_M-Latin-Males-Profuturus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Profuturus</persName>
+               <persName type="lemma" xml:lang="en">Profuturus</persName>
+               <persName>Προφοτοῦρος<ref type="note" corresp="#Vol-2-L_M-ftn681"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-L_M-ftn682"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Hammat Tiberias, Dothan</note>
+               </state>
+               <bibl>Roth-Gerson,GISEI, no. 17</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>4thC</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

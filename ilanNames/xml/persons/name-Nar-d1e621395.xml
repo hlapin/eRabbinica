@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Naḍīr-نضير</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Nar-d1e621395" n="Naḍīr-نضير">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e12809-person"
+                    n="Vol-4-A_M-Arabic-Males-Naḍīr-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">نضير</persName>
+               <persName type="lemma" xml:lang="en">Naḍīr</persName>
+               <persName>النضير<ref type="note" corresp="#Vol-4-A_M-ftn1015"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-A_M-ftn1016"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Hishām,Leben Muhammed’s, 13</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-A_M-ftn1017"/>; family<ref type="note" corresp="#Vol-4-A_M-ftn1018"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit>Pre-Islamic<ref type="note" corresp="#Vol-4-A_M-ftn1019"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e12852-person"
+                    n="Vol-4-A_M-Arabic-Males-Naḍīr-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">نضير</persName>
+               <persName type="lemma" xml:lang="en">Naḍīr</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e18826-person"
+                          type="relation"
+                          n="father-of">Ḥabiba (6)’s father</ref>, <ref corresp="#" type="relation" n="son-of">Naḥūm (8)’s son</ref>, priest<ref type="note" corresp="#Vol-4-A_M-ftn1020"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ṭabarī, iii, 2452</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-A_M-ftn1021"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0399">4thC CE<ref type="note" corresp="#Vol-4-A_M-ftn1022"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

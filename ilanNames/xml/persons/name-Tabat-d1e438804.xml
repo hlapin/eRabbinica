@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ṭabat-טבת</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tabat-d1e438804" n="Ṭabat-טבת">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e15356-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ṭabat-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">טבת</persName>
+               <persName type="lemma" xml:lang="en">Ṭabat</persName>
+               <persName>שונם<ref type="note" corresp="#Vol-2-S-H_M-ftn962"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-L_M-d8e5588-person" type="relation" n="father-of">Justus (8)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Gen Rab80:8 (Hyman,Toldoth, 325)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn963"/>
+                  </note>
+               </state>
+               <floruit>Pre-400<ref type="note" corresp="#Vol-2-S-H_M-ftn964"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

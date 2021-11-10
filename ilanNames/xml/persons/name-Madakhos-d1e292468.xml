@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Madakhos-Madakhos</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Madakhos-d1e292468" n="Madakhos-Madakhos">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-P_M-d2e1921-person"
+                    n="Vol-1-P_M-Madakhos-1">
+               <persName type="lemma">Madakhos</persName>
+               <persName type="lemma" xml:lang="en">Madakhos</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">מדך<ref type="note" corresp="#Vol-1-P_M-ftn137"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary lid, Bethphage, Dussaud, 1910,CIJ, no. 1285</note>
+               </state>
+               <bibl>Yardeni,TAHNDTJD, 221</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-1-P_M-ftn138"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-P_M-ftn139"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

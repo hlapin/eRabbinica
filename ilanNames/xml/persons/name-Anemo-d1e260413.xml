@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Anemo-Anemo</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Anemo-d1e260413" n="Anemo-Anemo">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e670-person"
+                    n="Vol-1-L_M-Anemo-1">
+               <persName type="lemma">Anemo</persName>
+               <persName type="lemma" xml:lang="en">Anemo</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Ανεμυ<ref type="note" corresp="#Vol-1-L_M-ftn42"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e20201-person" type="relation" n="father-of">Judah (118)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Franciscan Museum, no. 7606</note>
+               </state>
+               <bibl>Puech,RB90 (1983) 525</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-L_M-ftn43"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

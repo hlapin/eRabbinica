@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Augusta-Augusta</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Augusta-d1e556960" n="Augusta-Augusta">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e1674-person"
+                    n="Vol-3-L_F-Latin-Females-Augusta-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Augusta</persName>
+               <persName type="lemma" xml:lang="en">Augusta</persName>
+               <persName>Α̓γούστας</persName>
+               <state type="desc">
+                  <note>Aurelia (18), <ref corresp="#Vol-3-G_M-d8e37367-person"
+                          type="relation"
+                          n="daughter-of">Zoticus (4)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Hierapolis, Judeich</note>
+               </state>
+               <bibl>CIJ775</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn92"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e1716-person"
+                    n="Vol-3-L_F-Latin-Females-Augusta-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Augusta</persName>
+               <persName type="lemma" xml:lang="en">Augusta</persName>
+               <persName>אגוסתה<ref type="note" corresp="#Vol-3-L_F-ftn93"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e9980-person" type="relation" n="wife-of">Bonus (3)’s wife</ref>, <ref corresp="#" type="relation" n="daughter-of">Isaac (57)’s daughter</ref>, aged 20<ref type="note" corresp="#Vol-3-L_F-ftn94"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Venosa, Colafemmina</note>
+               </state>
+               <bibl>JIWE1, 107</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn95"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0521" notAfter="0521">521 CE<ref type="note" corresp="#Vol-3-L_F-ftn96"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

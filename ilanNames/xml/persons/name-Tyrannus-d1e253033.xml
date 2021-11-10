@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tyrannus-Τύραννος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tyrannus-d1e253033" n="Tyrannus-Τύραννος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e16847-person"
+                    n="Vol-1-G_M-Tyrannus-1">
+               <persName type="lemma">Τύραννος</persName>
+               <persName type="lemma" xml:lang="en">Tyrannus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e8218-person" type="relation" n="general-of">Herod (1)’s general</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ1:527;AJ16:314 (Schalit,NB, 120)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-1-G_M-ftn1209"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0007" notAfter="-0007">7 BCE<ref type="note" corresp="#Vol-1-G_M-ftn1210"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e76700-person"
+                    n="Vol-3-G_M-Greek-Males-Tyrannus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Τύραννος</persName>
+               <persName type="lemma" xml:lang="en">Tyrannus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn4459"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Acts 19:9 (VKGNT 1270)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4460"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0053" notAfter="0008">53-8 CE<ref type="note" corresp="#Vol-3-G_M-ftn4461"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e76738-person"
+                    n="Vol-3-G_M-Greek-Males-Tyrannus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Τύραννος</persName>
+               <persName type="lemma" xml:lang="en">Tyrannus</persName>
+               <persName>Τυράννου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e72503-person" type="relation" n="father-of">Straton (15)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Magnesia, Reinach</note>
+               </state>
+               <bibl>CIJ753</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4462"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0199">1st-2ndC CE<ref type="note" corresp="#Vol-3-G_M-ftn4463"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ṣafīya-صفية</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-afya-d1e606246" n="Ṣafīya-صفية">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_F-d8e529-person"
+                    n="Vol-4-A_F-Arabic-Females-Ṣafīya-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">صفية</persName>
+               <persName type="lemma" xml:lang="en">Ṣafīya</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Ḥuyayy (1) and <ref corresp="#Vol-4-A_F-d8e68-person" type="relation" n="daughter-of">Barrah (1)’s daughter</ref>, Muḥammad’s wife<ref type="note" corresp="#Vol-4-A_F-ftn40"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Hishām,Leben Muhammed’s, 354</bibl>
+               <state type="addl-Descr">
+                  <note>Muslim convert<ref type="note" corresp="#Vol-4-A_F-ftn41"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0632" notAfter="0632">Pre-632 CE<ref type="note" corresp="#Vol-4-A_F-ftn42"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_F-d8e570-person"
+                    n="Vol-4-A_F-Arabic-Females-Ṣafīya-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">صفية</persName>
+               <persName type="lemma" xml:lang="en">Ṣafīya</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-A_F-ftn43"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_M-d8e3461-person" type="relation" n="daughter-of">Ḥafiẓ (1)’s daughter</ref>, the Prophet’s jār<ref type="note" corresp="#Vol-4-A_F-ftn44"/>
+                  </note>
+               </state>
+               <bibl>–</bibl>
+               <state type="findspot">
+                  <note>Leveen,JQR16 (1925-6) 402</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>Muslim convert?<ref type="note" corresp="#Vol-4-A_F-ftn45"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit>Early Pre-632 CE<ref type="note" corresp="#Vol-4-A_F-ftn46"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

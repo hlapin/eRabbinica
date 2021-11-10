@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Pertollos-Pertollos</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Pertollos-d1e485508" n="Pertollos-Pertollos">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e5938-person"
+                    n="Vol-3-E_M-Egyptian-Males-Pertollos-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Pertollos</persName>
+               <persName type="lemma" xml:lang="en">Pertollos</persName>
+               <persName>Περτόλλου</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Arsinoe, Juster</note>
+               </state>
+               <bibl>CPJ134</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-E_M-ftn358"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0199" notAfter="-0100">2ndC BCE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

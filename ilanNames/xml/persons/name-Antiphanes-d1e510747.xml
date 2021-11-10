@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Antiphanes-̓Αντιφάνης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Antiphanes-d1e510747"
+                     n="Antiphanes-̓Αντιφάνης">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e8348-person"
+                    n="Vol-3-G_M-Greek-Males-Antiphanes-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αντιφάνης</persName>
+               <persName type="lemma" xml:lang="en">Antiphanes</persName>
+               <persName>̓Αντιφάνους</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e69224-person" type="relation" n="father-of">Ptolemaius (48)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Sedment el-Gebel</note>
+               </state>
+               <bibl>Abd el-Fatah &amp; Wagner,CRIPÉL19 (1998) no. 3</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn491"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0099" notAfter="-0001">1stC BCE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

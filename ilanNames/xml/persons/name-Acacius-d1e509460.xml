@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Acacius-̓Ακάκιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Acacius-d1e509460" n="Acacius-̓Ακάκιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e2229-person"
+                    n="Vol-3-G_M-Greek-Males-Acacius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Ακάκιος</persName>
+               <persName type="lemma" xml:lang="en">Acacius</persName>
+               <persName>̓Ακακίας<ref type="note" corresp="#Vol-3-G_M-ftn139"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e38054-person" type="relation" n="son-of">Heracleides (5)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu, Wessely</note>
+               </state>
+               <bibl>CPJ209</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn140"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0107" notAfter="0107">107 CE<ref type="note" corresp="#Vol-3-G_M-ftn141"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

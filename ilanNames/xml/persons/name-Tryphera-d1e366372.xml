@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tryphera-Τρυφέρα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tryphera-d1e366372" n="Tryphera-Τρυφέρα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e4809-person"
+                    n="Vol-2-G_F-Greek-Females-Tryphera-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Τρυφέρα</persName>
+               <persName type="lemma" xml:lang="en">Tryphera</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Beth She‘arim, catacomb 1,CIJ1067</note>
+               </state>
+               <bibl>BS2:57</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_F-ftn316"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e18734-person"
+                    n="Vol-3-G_F-Greek-Females-Tryphera-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Τρυφέρα</persName>
+               <persName type="lemma" xml:lang="en">Tryphera</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Marcia (1), Marcia (2) <ref corresp="#Vol-3-G_F-d8e9907-person" type="relation" n="sister-of">Zenodora (2)’s sister</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Villa Torlonia, Paribeni</note>
+               </state>
+               <bibl>CIJ43</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn1067"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

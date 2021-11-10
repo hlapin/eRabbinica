@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Urbib-Urbib</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Urbib-d1e600665" n="Urbib-Urbib">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-G_M-d8e3934-person"
+                    n="Vol-3-S-G_M-Semitic-Greek-Males-Urbib-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Urbib</persName>
+               <persName type="lemma" xml:lang="en">Urbib</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-S-G_M-ftn243"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Eutychius,PG111, 1062</bibl>
+               <state type="addl-Descr">
+                  <note>Christian convert<ref type="note" corresp="#Vol-3-S-G_M-ftn244"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0471" notAfter="0491">471-91 CE<ref type="note" corresp="#Vol-3-S-G_M-ftn245"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ctesion-Κτησίων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ctesion-d1e533891" n="Ctesion-Κτησίων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e51338-person"
+                    n="Vol-3-G_M-Greek-Males-Ctesion-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Κτησίων</persName>
+               <persName type="lemma" xml:lang="en">Ctesion</persName>
+               <persName>Κτησίωνος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e65998-person" type="relation" n="father-of">Polyxenus (1)’s father</ref>, of the synagogue<ref type="note" corresp="#Vol-3-G_M-ftn2963"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Collegium inscription, Chios</note>
+               </state>
+               <bibl>Dunst,APF16 (1958) 177</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2964"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0199">1st-2ndC CE<ref type="note" corresp="#Vol-3-G_M-ftn2965"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e51387-person"
+                    n="Vol-3-G_M-Greek-Males-Ctesion-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Κτησίων</persName>
+               <persName type="lemma" xml:lang="en">Ctesion</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Sedment el-Gebel</note>
+               </state>
+               <bibl>Abd el-Fatah &amp; Wagner,CRIPÉL19 (1998) no. 17</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2966"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0099" notAfter="-0001">1stC BCE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

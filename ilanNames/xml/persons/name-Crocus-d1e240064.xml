@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Crocus-Κρόκος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Crocus-d1e240064" n="Crocus-Κρόκος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e11926-person"
+                    n="Vol-1-G_M-Crocus-1">
+               <persName type="lemma">Κρόκος</persName>
+               <persName type="lemma" xml:lang="en">Crocus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">קרקס<ref type="note" corresp="#Vol-1-G_M-ftn850"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Nablus Rd, Clermont-Ganneau, 1891</note>
+               </state>
+               <bibl>CIJ, no. 1212</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn851"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-G_M-d8e3063-person"
+                    n="Vol-2-Vol-1-ADD-G_M-Greek-Males-Crocus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Κρόκος</persName>
+               <persName type="lemma" xml:lang="en">Crocus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Jerusalem</note>
+               </state>
+               <bibl>Clermont-Ganneau,PEFQS23 (1891) 242</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn206"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

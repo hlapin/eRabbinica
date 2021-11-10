@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Gennaios-Gennaios</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Gennaios-d1e481370" n="Gennaios-Gennaios">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e2266-person"
+                    n="Vol-3-E_M-Egyptian-Males-Gennaios-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Gennaios</persName>
+               <persName type="lemma" xml:lang="en">Gennaios</persName>
+               <persName>Γενναῖος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e35661-person" type="relation" n="son-of">Zenon (7)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Hermopolis, Jouguet</note>
+               </state>
+               <bibl>JIGRE155:100</bibl>
+               <state type="addl-Descr">
+                  <note>Idumean<ref type="note" corresp="#Vol-3-E_M-ftn139"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0079" notAfter="-0079">79 BCE<ref type="note" corresp="#Vol-3-E_M-ftn140"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e2298-person"
+                    n="Vol-3-E_M-Egyptian-Males-Gennaios-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Gennaios</persName>
+               <persName type="lemma" xml:lang="en">Gennaios</persName>
+               <persName>Γενναίου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e19122-person" type="relation" n="father-of">Diodotus (3)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Hermopolis, Zucker</note>
+               </state>
+               <bibl>JIGRE156:201</bibl>
+               <state type="addl-Descr">
+                  <note>Idumean<ref type="note" corresp="#Vol-3-E_M-ftn141"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0078" notAfter="-0078">78 BCE<ref type="note" corresp="#Vol-3-E_M-ftn142"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e2330-person"
+                    n="Vol-3-E_M-Egyptian-Males-Gennaios-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Gennaios</persName>
+               <persName type="lemma" xml:lang="en">Gennaios</persName>
+               <persName>[Γ]ναίου<ref type="note" corresp="#Vol-3-E_M-ftn143"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e35059-person" type="relation" n="father-of">Zelaius (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Politeuma inscription, Berenice, Roux</note>
+               </state>
+               <bibl>CJZC70</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-E_M-ftn144"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="-0009" notAfter="-0006">9-6 BCE<ref type="note" corresp="#Vol-3-E_M-ftn145"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

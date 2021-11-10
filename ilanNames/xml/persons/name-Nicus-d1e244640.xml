@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Nicus-Νῖκος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Nicus-d1e244640" n="Nicus-Νῖκος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e13707-person"
+                    n="Vol-1-G_M-Nicus-1">
+               <persName type="lemma">Νῖκος</persName>
+               <persName type="lemma" xml:lang="en">Nicus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">נקוסה<ref type="note" corresp="#Vol-1-G_M-ftn979"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e18592-person" type="relation" n="father-of">Judah (54)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>tOhil4:8 (Kasowski, Thosephthae, -)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname?<ref type="note" corresp="#Vol-1-G_M-ftn980"/>
+                  </note>
+               </state>
+               <floruit notBefore="0200" notAfter="0200">Pre-200 CE<ref type="note" corresp="#Vol-1-G_M-ftn981"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e13737-person"
+                    n="Vol-1-G_M-Nicus-2">
+               <persName type="lemma">Νῖκος</persName>
+               <persName type="lemma" xml:lang="en">Nicus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">נקסן<ref type="note" corresp="#Vol-1-G_M-ftn982"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e34628-person" type="relation" n="father-of">Joseph (140)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Masada divorce bill, Muraba‘at</note>
+               </state>
+               <bibl>Mur 19</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname?<ref type="note" corresp="#Vol-1-G_M-ftn983"/>
+                  </note>
+               </state>
+               <floruit notBefore="0111" notAfter="0111">111 CE<ref type="note" corresp="#Vol-1-G_M-ftn984"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

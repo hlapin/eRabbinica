@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sha’avyah-שאביה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Shaavyah-d1e449895" n="Sha’avyah-שאביה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e24231-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Sha’avyah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שאביה</persName>
+               <persName type="lemma" xml:lang="en">Sha’avyah</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_M-d8e9579-person" type="relation" n="father-of">Theodorus (18)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Sepphoris</note>
+               </state>
+               <bibl>Weiss,Sepphoris Synagogue, no. 4</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn1527"/>
+                  </note>
+               </state>
+               <floruit>5th-7thC<ref type="note" corresp="#Vol-2-S-H_M-ftn1528"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

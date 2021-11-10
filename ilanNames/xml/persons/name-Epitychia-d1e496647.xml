@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Epitychia-̓Επιτυχία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Epitychia-d1e496647" n="Epitychia-̓Επιτυχία">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e7727-person"
+                    n="Vol-3-G_F-Greek-Females-Epitychia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓Επιτυχία</persName>
+               <persName type="lemma" xml:lang="en">Epitychia</persName>
+               <persName>̓Επιτυχίας</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Donation inscription, Fayum, Rubensohn</note>
+               </state>
+               <bibl>CIJ1532</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn429"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0029" notAfter="-0029">29 BCE<ref type="note" corresp="#Vol-3-G_F-ftn430"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e7768-person"
+                    n="Vol-3-G_F-Greek-Females-Epitychia-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓Επιτυχία</persName>
+               <persName type="lemma" xml:lang="en">Epitychia</persName>
+               <persName>̓Επιτύνχουσα<ref type="note" corresp="#Vol-3-G_F-ftn431"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Lintel inscription, Hyllarima, Laumonier</note>
+               </state>
+               <bibl>IJO2, 20</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn432"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

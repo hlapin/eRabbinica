@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Gode‘a-גודע</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Godea-d1e318117" n="Gode‘a-גודע">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e2809-person"
+                    n="Vol-1-S-H_M-Gode‘a-1">
+               <persName type="lemma">גודע</persName>
+               <persName type="lemma" xml:lang="en">Gode‘a</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e55126-person" type="relation" n="father-of">Simon (73)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>tAZ4:9 (Kasowski, Thosephthae, -)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn183"/>
+                  </note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Post-135 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn184"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e2838-person"
+                    n="Vol-1-S-H_M-Gode‘a-2">
+               <persName type="lemma">גודע</persName>
+               <persName type="lemma" xml:lang="en">Gode‘a</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Γοδδάος<ref type="note" corresp="#Vol-1-S-H_M-ftn185"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Parchment, Muraba‘at</note>
+               </state>
+               <bibl>Mur 90</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn186"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e8241-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Gode‘a-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">גודע</persName>
+               <persName type="lemma" xml:lang="en">Gode‘a</persName>
+               <persName>Γοδέου<ref type="note" corresp="#Vol-2-S-H_M-ftn506"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_M-d8e547-person" type="relation" n="father-of">Ainius (3)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1a, no. 59</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-H_M-ftn507"/>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn508"/>
+                  </note>
+               </state>
+               <floruit>388<ref type="note" corresp="#Vol-2-S-H_M-ftn509"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

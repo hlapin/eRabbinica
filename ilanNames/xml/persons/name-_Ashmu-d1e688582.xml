@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - עשמו ʿAshmu-עשמו ʿAshmu</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Ashmu-d1e688582" n="עשמו ʿAshmu-עשמו ʿAshmu">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e31413-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-עשמו ʿAshmu-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עשמו ʿAshmu</persName>
+               <persName type="lemma" xml:lang="en">עשמו ʿAshmu</persName>
+               <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2178"/>
+               </persName>
+               <state type="desc">
+                  <note>Hoshaʿiah (4) and <ref corresp="#Vol-4-B_M-d8e20542-person" type="relation" n="brother-of">Amram (6)’s brother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teima</note>
+               </state>
+               <bibl>Macdonald,AAE20 (2009) 209</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2179"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0203" notAfter="0203">203 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2180"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Abshaʿr-ابشعر</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Abshar-d1e606693" n="Abshaʿr-ابشعر">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e16-person"
+                    n="Vol-4-A_M-Arabic-Males-Abshaʿr-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ابشعر</persName>
+               <persName type="lemma" xml:lang="en">Abshaʿr</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-A_M-ftn2"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_M-d8e10197-person" type="relation" n="slave-of">Šahrām (1)’s slave</ref>?<ref type="note" corresp="#Vol-4-A_M-ftn3"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Ḥimyar</note>
+               </state>
+               <bibl>CIS4/2, 543</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-A_M-ftn4"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.<ref type="note" corresp="#Vol-4-A_M-ftn5"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-4-A_M-ftn6"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

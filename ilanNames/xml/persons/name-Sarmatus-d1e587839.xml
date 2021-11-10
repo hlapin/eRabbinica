@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sarmatus-Sarmatus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sarmatus-d1e587839" n="Sarmatus-Sarmatus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e36500-person"
+                    n="Vol-3-L_M-Latin-Males-Sarmatus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Sarmatus</persName>
+               <persName type="lemma" xml:lang="en">Sarmatus</persName>
+               <persName>Sarmatanis<ref type="note" corresp="#Vol-3-L_M-ftn2174"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_F-d8e469-person"
+                          type="relation"
+                          n="grandfather-of">Agnella (1)’s grandfather</ref>, father’s father<ref type="note" corresp="#Vol-3-L_M-ftn2175"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Venosa, Angelis &amp; Smith</note>
+               </state>
+               <bibl>CIJ614</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2176"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0599">5th-6thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e36540-person"
+                    n="Vol-3-L_M-Latin-Males-Sarmatus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Sarmatus</persName>
+               <persName type="lemma" xml:lang="en">Sarmatus</persName>
+               <persName>S[ar]ma[te]<ref type="note" corresp="#Vol-3-L_M-ftn2177"/>
+               </persName>
+               <state type="desc">
+                  <note>Joseph (75) and <ref corresp="#Vol-3-B_F-d8e2664-person" type="relation" n="grandson-of">Mariam (27)’s grandson</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Venosa, Angelis &amp; Smith,CIJ616</note>
+               </state>
+               <bibl>JIWE1, 88</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2178"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0599">5th-6thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

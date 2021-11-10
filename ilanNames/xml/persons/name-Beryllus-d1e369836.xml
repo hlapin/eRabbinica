@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Beryllus-Βηρύλλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Beryllus-d1e369836" n="Beryllus-Βηρύλλος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e3355-person"
+                    n="Vol-2-G_M-Greek-Males-Beryllus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Βηρύλλος</persName>
+               <persName type="lemma" xml:lang="en">Beryllus</persName>
+               <persName>Βη[ρ]ύλλος<ref type="note" corresp="#Vol-2-G_M-ftn229"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-G_M-ftn230"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Caesarea, Avi-Yonah</note>
+               </state>
+               <bibl>Lehmann &amp; Holum,CMER5, no. 79</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>6thC</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-G_M-d8e223-person"
+                    n="Vol-4-G_M-Greek-Males-Beryllus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Βηρύλλος</persName>
+               <persName type="lemma" xml:lang="en">Beryllus</persName>
+               <persName>ברלא/בירלה/בירלא<ref type="note" corresp="#Vol-4-G_M-ftn20"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_F-d8e1224-person" type="relation" n="son-of">Imma (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Bagdad, Gordon</note>
+               </state>
+               <bibl>Isbell, no. 19</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-G_M-ftn21"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-G_M-ftn22"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

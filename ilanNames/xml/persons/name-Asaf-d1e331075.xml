@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Asaf-אסף</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Asaf-d1e331075" n="Asaf-אסף">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_M-d8e4678-person"
+                    n="Vol-2-B_M-Biblical-Males-Asaf-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אסף</persName>
+               <persName type="lemma" xml:lang="en">Asaf</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e6863-person" type="relation" n="son-of">Barachiah (7)’s son</ref>, the physician,<ref type="note" corresp="#Vol-2-B_M-ftn329"/>
+                     <ref type="note" corresp="#Vol-2-B_M-ftn330"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Pines,PIASH5 (1971-6) 258</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious?<ref type="note" corresp="#Vol-2-B_M-ftn331"/>
+                  </note>
+               </state>
+               <floruit>Pre-6thC<ref type="note" corresp="#Vol-2-B_M-ftn332"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_M-d8e3171-person"
+                    n="Vol-3-B_M-Biblical-Males-Asaf-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אסף</persName>
+               <persName type="lemma" xml:lang="en">Asaf</persName>
+               <persName>Asphatii<ref type="note" corresp="#Vol-3-B_M-ftn224"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Marucchi</note>
+               </state>
+               <bibl>CIJ1*</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-B_M-ftn225"/>; forgery<ref type="note" corresp="#Vol-3-B_M-ftn226"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-B_M-ftn227"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

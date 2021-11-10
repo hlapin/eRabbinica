@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sadaïn-Sadaïn</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sadan-d1e649748" n="Sadaïn-Sadaïn">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e12367-person"
+                    n="Vol-4-I_F-Iranian-Females-Sadaïn-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Sadaïn</persName>
+               <persName type="lemma" xml:lang="en">Sadaïn</persName>
+               <persName>צדן/צדה<ref type="note" corresp="#Vol-4-I_F-ftn1013"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-I_F-ftn1014"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Tomb of the Kings, Jerusalem, de Saulcy</note>
+               </state>
+               <bibl>CIJ1388</bibl>
+               <state type="addl-Descr">
+                  <note>Proselyte<ref type="note" corresp="#Vol-4-I_F-ftn1015"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0045" notAfter="0045">45 CE<ref type="note" corresp="#Vol-4-I_F-ftn1016"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

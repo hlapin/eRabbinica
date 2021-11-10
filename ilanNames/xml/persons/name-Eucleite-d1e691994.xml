@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Eucleite-Ε̓κλείτη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Eucleite-d1e691994" n="Eucleite-Ε̓κλείτη">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-Vol-3-Add-G_F-d8e26-person"
+                    n="Vol-4-Vol-3-Add-G_F-Greek-Females-Eucleite-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ε̓κλείτη</persName>
+               <persName type="lemma" xml:lang="en">Eucleite</persName>
+               <persName>[Ε]υκλιτης<ref type="note" corresp="#Vol-4-Vol-3-Add-G_F-ftn2"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Andriake</note>
+               </state>
+               <bibl>Çevik &amp; Eshel,Qadmoniot43 (2010) 43</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-Vol-3-Add-G_F-ftn3"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0499">4th-5thC CE<ref type="note" corresp="#Vol-4-Vol-3-Add-G_F-ftn4"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

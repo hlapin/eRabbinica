@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Amiʿ-עמי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ami-d1e447107" n="Amiʿ-עמי">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e21668-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Amiʿ-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עמי</persName>
+               <persName type="lemma" xml:lang="en">Amiʿ</persName>
+               <persName>עם<ref type="note" corresp="#Vol-2-S-H_M-ftn1351"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e17981-person" type="relation" n="son-of">Ma‘an (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Samâkiyé<ref type="note" corresp="#Vol-2-S-H_M-ftn1352"/>
+                  </note>
+               </state>
+               <bibl>Milik,LA9 (1958-9) 343</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-H_M-ftn1353"/>
+                  </note>
+               </state>
+               <floruit>
+                  <ref type="note" corresp="#Vol-2-S-H_M-ftn1354"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e21702-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Amiʿ-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עמי</persName>
+               <persName type="lemma" xml:lang="en">Amiʿ</persName>
+               <persName>עם<ref type="note" corresp="#Vol-2-S-H_M-ftn1355"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e6877-person" type="relation" n="son-of">Aṣlaḥ (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Samâkiyé<ref type="note" corresp="#Vol-2-S-H_M-ftn1356"/>
+                  </note>
+               </state>
+               <bibl>Milik,LA9 (1958-9) 343</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-H_M-ftn1357"/>
+                  </note>
+               </state>
+               <floruit>
+                  <ref type="note" corresp="#Vol-2-S-H_M-ftn1358"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

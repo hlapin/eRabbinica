@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Theopempte-Θεοπέμπτη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Theopempte-d1e499359"
+                     n="Theopempte-Θεοπέμπτη">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e11660-person"
+                    n="Vol-3-G_F-Greek-Females-Theopempte-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Θεοπέμπτη</persName>
+               <persName type="lemma" xml:lang="en">Theopempte</persName>
+               <persName>[Θ]εοπέμπτης<ref type="note" corresp="#Vol-3-G_F-ftn650"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e32289-person" type="relation" n="mother-of">Eusebius (7)’s mother</ref>, archisynagoga<ref type="note" corresp="#Vol-3-G_F-ftn651"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Myndos, Reinach</note>
+               </state>
+               <bibl>CIJ756</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn652"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0599">4th-6thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sintacius-Sintacius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sintacius-d1e410186" n="Sintacius-Sintacius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e10294-person"
+                    n="Vol-2-L_M-Latin-Males-Sintacius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Sintacius</persName>
+               <persName type="lemma" xml:lang="en">Sintacius</persName>
+               <persName>Σιν[τ]ακ[οῦ]<ref type="note" corresp="#Vol-2-L_M-ftn783"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e18574-person" type="relation" n="son-of">Mari (6)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, El-Khirbe<ref type="note" corresp="#Vol-2-L_M-ftn784"/>
+                  </note>
+               </state>
+               <bibl>Di Segni,Early Christianity, no. 5</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-2-L_M-ftn785"/>
+                  </note>
+               </state>
+               <floruit>4th-5thC</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

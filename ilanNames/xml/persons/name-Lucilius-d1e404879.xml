@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Lucilius-Lucilius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Lucilius-d1e404879" n="Lucilius-Lucilius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e6769-person"
+                    n="Vol-2-L_M-Latin-Males-Lucilius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Lucilius</persName>
+               <persName type="lemma" xml:lang="en">Lucilius</persName>
+               <persName>Λουκίλλις<ref type="note" corresp="#Vol-2-L_M-ftn514"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Elijah’s Cave</note>
+               </state>
+               <bibl>Appendix, no. 20</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn515"/>
+                  </note>
+               </state>
+               <floruit>Pre-8thC<ref type="note" corresp="#Vol-2-L_M-ftn516"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e24055-person"
+                    n="Vol-3-L_M-Latin-Males-Lucilius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Lucilius</persName>
+               <persName type="lemma" xml:lang="en">Lucilius</persName>
+               <persName>Λουκειλίας<ref type="note" corresp="#Vol-3-L_M-ftn1432"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn1433"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Thessalonica, Dumont</note>
+               </state>
+               <bibl>Rajak, “Archisynagogoi,” no. 2</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1434"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0155" notAfter="0155">155 CE<ref type="note" corresp="#Vol-3-L_M-ftn1435"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

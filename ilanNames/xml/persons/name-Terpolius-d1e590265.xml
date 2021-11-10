@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Terpolius-Terpolius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Terpolius-d1e590265" n="Terpolius-Terpolius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e39142-person"
+                    n="Vol-3-L_M-Latin-Males-Terpolius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Terpolius</persName>
+               <persName type="lemma" xml:lang="en">Terpolius</persName>
+               <persName>Τερπωλίω<ref type="note" corresp="#Vol-3-L_M-ftn2342"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_F-d8e10039-person" type="relation" n="father-of">Zosime (2)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Donation inscription, Berenice, Caputo</note>
+               </state>
+               <bibl>CJZC72</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2343"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0055" notAfter="0006">55/6 CE<ref type="note" corresp="#Vol-3-L_M-ftn2344"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

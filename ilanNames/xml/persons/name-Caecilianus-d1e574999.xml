@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Caecilianus-Caecilianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Caecilianus-d1e574999"
+                     n="Caecilianus-Caecilianus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e10138-person"
+                    n="Vol-3-L_M-Latin-Males-Caecilianus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Caecilianus</persName>
+               <persName type="lemma" xml:lang="en">Caecilianus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn584"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Severus,PL41, 829</bibl>
+               <state type="addl-Descr">
+                  <note>Christian convert<ref type="note" corresp="#Vol-3-L_M-ftn585"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Spain</note>
+               </state>
+               <floruit notBefore="0417" notAfter="0417">417 CE<ref type="note" corresp="#Vol-3-L_M-ftn586"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e10174-person"
+                    n="Vol-3-L_M-Latin-Males-Caecilianus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Caecilianus</persName>
+               <persName type="lemma" xml:lang="en">Caecilianus</persName>
+               <persName>Καικιλιανός</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn587"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Mauritania</note>
+               </state>
+               <bibl>Le Bohec,Ant. Afr.17 (1981) no. 79</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn588"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>North Africa</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

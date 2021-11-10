@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Zosime-Ζωσίμη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Zosime-d1e363388" n="Zosime-Ζωσίμη">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e1965-person"
+                    n="Vol-2-G_F-Greek-Females-Zosime-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ζωσίμη</persName>
+               <persName type="lemma" xml:lang="en">Zosime</persName>
+               <persName>Ζωσίμης</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-G_F-ftn124"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Caesarea</note>
+               </state>
+               <bibl>Lehmann &amp; Holum,CMER5, no. 244</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn125"/>Italy<ref type="note" corresp="#Vol-2-G_F-ftn126"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-G_F-ftn127"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e10002-person"
+                    n="Vol-3-G_F-Greek-Females-Zosime-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ζωσίμη</persName>
+               <persName type="lemma" xml:lang="en">Zosime</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-S-H_M-d8e4429-person" type="relation" n="slave-of">Malka (3)’s slave</ref>
+                     <ref type="note" corresp="#Vol-3-G_F-ftn550"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu, Manteuffel</note>
+               </state>
+               <bibl>CPJ218</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn551"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0108" notAfter="0108">108 CE<ref type="note" corresp="#Vol-3-G_F-ftn552"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e10039-person"
+                    n="Vol-3-G_F-Greek-Females-Zosime-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ζωσίμη</persName>
+               <persName type="lemma" xml:lang="en">Zosime</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e39142-person"
+                          type="relation"
+                          n="daughter-of">Terpolius (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Donors inscription, Berenice, Caputo</note>
+               </state>
+               <bibl>CJZC72</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn553"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0055" notAfter="0006">55/6 CE<ref type="note" corresp="#Vol-3-G_F-ftn554"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

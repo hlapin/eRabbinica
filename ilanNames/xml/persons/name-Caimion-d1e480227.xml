@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Caimion-Caimion</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Caimion-d1e480227" n="Caimion-Caimion">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e1171-person"
+                    n="Vol-3-E_M-Egyptian-Males-Caimion-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Caimion</persName>
+               <persName type="lemma" xml:lang="en">Caimion</persName>
+               <persName>Καιμίω<ref type="note" corresp="#Vol-3-E_M-ftn74"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e22120-person" type="relation" n="father-of">Dositheus (12)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Fayum, Wilcken</note>
+               </state>
+               <bibl>CPJ29</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn75"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0199" notAfter="-0100">2ndC BCE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

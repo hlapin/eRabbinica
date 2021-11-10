@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Seḥora-סחורא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sehora-d1e445194" n="Seḥora-סחורא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e20006-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Seḥora-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">סחורא</persName>
+               <persName type="lemma" xml:lang="en">Seḥora</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e3773-person" type="relation" n="father-of">Abbin (14)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yPes10:5, 37d (Kosovsky,Yerushalmi, 51)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-400<ref type="note" corresp="#Vol-2-S-H_M-ftn1248"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e20034-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Seḥora-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">סחורא</persName>
+               <persName type="lemma" xml:lang="en">Seḥora</persName>
+               <persName>סחורה<ref type="note" corresp="#Vol-2-S-H_M-ftn1249"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yBer4:1, 7c (Kosovsky,Yerushalmi, 445)</bibl>
+               <state type="addl-Descr">
+                  <note>Second name</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1250"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

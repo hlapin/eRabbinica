@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Psyche-Ψυχή</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Psyche-d1e199583" n="Psyche-Ψυχή">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_F-d2e3530-person"
+                    n="Vol-1-G_F-Psyche-1">
+               <persName type="lemma">Ψυχή</persName>
+               <persName type="lemma" xml:lang="en">Psyche</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="gr">Ψυχης<ref type="note" corresp="#Vol-1-G_F-ftn241"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-G_F-ftn242"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Franciscan Museum, no. 7603</note>
+               </state>
+               <bibl>Puech,RB90 (1983) 524</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn243"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e5023-person"
+                    n="Vol-2-G_F-Greek-Females-Psyche-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ψυχή</persName>
+               <persName type="lemma" xml:lang="en">Psyche</persName>
+               <persName>Ψυχής</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <bibl>Appendix, no. 47</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_F-ftn331"/>
+                  </note>
+               </state>
+               <floruit>Pre-8thC<ref type="note" corresp="#Vol-2-G_F-ftn332"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

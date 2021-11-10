@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ʿAliʿu-עליעו</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Aliu-d1e688348" n="ʿAliʿu-עליעו">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e31164-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-ʿAliʿu-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עליעו</persName>
+               <persName type="lemma" xml:lang="en">ʿAliʿu</persName>
+               <persName>[ע]ליעו<ref type="note" corresp="#Vol-4-S-H_M-ftn2160"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-B_M-d8e28558-person" type="relation" n="father-of">Shabtai (2)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Madāʾin Ṣāliḥ, Jaussen &amp; Savignac</note>
+               </state>
+               <bibl>CIJ1422</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2161"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0043" notAfter="0043">43 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2162"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

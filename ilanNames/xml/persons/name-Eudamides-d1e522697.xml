@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Eudamides-Ε̓δαμίδης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Eudamides-d1e522697"
+                     n="Eudamides-Ε̓δαμίδης">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e29430-person"
+                    n="Vol-3-G_M-Greek-Males-Eudamides-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ε̓δαμίδης</persName>
+               <persName type="lemma" xml:lang="en">Eudamides</persName>
+               <persName>[Ε]̓δαμ[ί]δ[α]<ref type="note" corresp="#Vol-3-G_M-ftn1724"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_F-d8e1690-person" type="relation" n="father-of">Thalous (4)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira</note>
+               </state>
+               <bibl>Reynolds,CJZC14b</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1725"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0117" notAfter="0117">Pre-117 CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Carpia-Καρπία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Carpia-d1e197394" n="Carpia-Καρπία">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_F-d2e2471-person"
+                    n="Vol-1-G_F-Carpia-1">
+               <persName type="lemma">Καρπία</persName>
+               <persName type="lemma" xml:lang="en">Carpia</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="gr">{Ι}Καρπία<ref type="note" corresp="#Vol-1-G_F-ftn171"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Mt Scopus, Kloner, 1974</note>
+               </state>
+               <bibl>CJO, no. 478</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn172"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

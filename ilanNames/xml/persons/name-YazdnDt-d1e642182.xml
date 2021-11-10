@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - YazdānDūχt-YazdānDūχt</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-YazdnDt-d1e642182" n="YazdānDūχt-YazdānDūχt">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e6003-person"
+                    n="Vol-4-I_F-Iranian-Females-YazdānDūχt-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">YazdānDūχt</persName>
+               <persName type="lemma" xml:lang="en">YazdānDūχt</persName>
+               <persName>איזדנדוך<ref type="note" corresp="#Vol-4-I_F-ftn492"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_M-d8e5510-person" type="relation" n="mother-of">Yazēdād (1)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowls, Nippur, Montgomery</note>
+               </state>
+               <bibl>1. Isbell, no. 3; 2. no. 6</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn493"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn494"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e6038-person"
+                    n="Vol-4-I_F-Iranian-Females-YazdānDūχt-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">YazdānDūχt</persName>
+               <persName type="lemma" xml:lang="en">YazdānDūχt</persName>
+               <persName>איזדנדוך<ref type="note" corresp="#Vol-4-I_F-ftn495"/>
+               </persName>
+               <state type="desc">
+                  <note>Baradates (1) <ref corresp="#" type="relation" n="mother-of">andΧosrow (1)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Belgrad</note>
+               </state>
+               <bibl>AMBno. 11</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn496"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn497"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

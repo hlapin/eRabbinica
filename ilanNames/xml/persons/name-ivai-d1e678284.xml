@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ḥivai-חיואי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-ivai-d1e678284" n="Ḥivai-חיואי">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e19120-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Ḥivai-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חיואי</persName>
+               <persName type="lemma" xml:lang="en">Ḥivai</persName>
+               <persName>היי<ref type="note" corresp="#Vol-4-S-H_M-ftn1337"/>
+               </persName>
+               <persName>/חייא<ref type="note" corresp="#Vol-4-S-H_M-ftn1338"/>
+               </persName>
+               <persName>/חיי<ref type="note" corresp="#Vol-4-S-H_M-ftn1339"/>
+               </persName>
+               <persName>/חוזי<ref type="note" corresp="#Vol-4-S-H_M-ftn1340"/>
+               </persName>
+               <persName>/הווי<ref type="note" corresp="#Vol-4-S-H_M-ftn1341"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bYev121b (Kosowsky,Babylonico, 461-2)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1342"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0399">4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1343"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

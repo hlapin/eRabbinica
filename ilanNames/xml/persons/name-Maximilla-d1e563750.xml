@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Maximilla-Maximilla</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Maximilla-d1e563750" n="Maximilla-Maximilla">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e27227-person"
+                    n="Vol-3-L_F-Latin-Females-Maximilla-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Maximilla</persName>
+               <persName type="lemma" xml:lang="en">Maximilla</persName>
+               <persName>Maximillae</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_F-ftn825"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Alberti-Irsa, Mommsen</note>
+               </state>
+               <bibl>CIJ64*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn826"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Pannonia</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn827"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

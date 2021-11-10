@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Bisef-Bisef</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Bisef-d1e654916" n="Bisef-Bisef">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e2392-person"
+                    n="Vol-4-I_M-Iranian-Males-Bisef-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Bisef</persName>
+               <persName type="lemma" xml:lang="en">Bisef</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-I_M-ftn208"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Goʿel (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Tehran</note>
+               </state>
+               <bibl>CAMIBBM068A</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn209"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Persia<ref type="note" corresp="#Vol-4-I_M-ftn210"/>
+                  </note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn211"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

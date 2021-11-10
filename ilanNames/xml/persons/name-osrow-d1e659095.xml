@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Χosrow-Χosrow</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-osrow-d1e659095" n="Χosrow-Χosrow">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e6357-person"
+                    n="Vol-4-I_M-Iranian-Males-Χosrow-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Χosrow</persName>
+               <persName type="lemma" xml:lang="en">Χosrow</persName>
+               <persName>כוסרו<ref type="note" corresp="#Vol-4-I_M-ftn543"/>
+               </persName>
+               <state type="desc">
+                  <note>Farruχ(5), <ref corresp="#Vol-4-I_F-d8e13579-person" type="relation" n="son-of">Sisnoi (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Nippur, Obermann</note>
+               </state>
+               <bibl>Isbell, no. 61</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn544"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn545"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e6395-person"
+                    n="Vol-4-I_M-Iranian-Males-Χosrow-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Χosrow</persName>
+               <persName type="lemma" xml:lang="en">Χosrow</persName>
+               <persName>כוסרו<ref type="note" corresp="#Vol-4-I_M-ftn546"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Yazdān-Dūχt (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Belgrad</note>
+               </state>
+               <bibl>AMBno. 11</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn547"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn548"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

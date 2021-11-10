@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Apate-̓Απάτη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Apate-d1e491612" n="Apate-̓Απάτη">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e1982-person"
+                    n="Vol-3-G_F-Greek-Females-Apate-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓Απάτη</persName>
+               <persName type="lemma" xml:lang="en">Apate</persName>
+               <persName>̓Απάτης</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_F-d8e6283-person" type="relation" n="mother-of">Shabtit (55)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Manumission inscription, Larissa, Duchesne</note>
+               </state>
+               <bibl>IG9/2, 538</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn113"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0117" notAfter="0117">117 CE<ref type="note" corresp="#Vol-3-G_F-ftn114"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

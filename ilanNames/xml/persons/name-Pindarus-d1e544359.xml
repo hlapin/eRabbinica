@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Pindarus-Πίνδαρος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Pindarus-d1e544359" n="Pindarus-Πίνδαρος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e65007-person"
+                    n="Vol-3-G_M-Greek-Males-Pindarus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πίνδαρος</persName>
+               <persName type="lemma" xml:lang="en">Pindarus</persName>
+               <persName>Πινδάρου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="father-of">Judah (45)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Manumission inscription, Delphi, Homolle</note>
+               </state>
+               <bibl>CIJ711</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3746"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="-0119" notAfter="-0119">119 BCE<ref type="note" corresp="#Vol-3-G_M-ftn3747"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e65039-person"
+                    n="Vol-3-G_M-Greek-Males-Pindarus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πίνδαρος</persName>
+               <persName type="lemma" xml:lang="en">Pindarus</persName>
+               <persName>Πινδάρου</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Manumission inscription, Delphi, Homolle</note>
+               </state>
+               <bibl>CIJ711</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3748"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="-0119" notAfter="-0119">119 BCE<ref type="note" corresp="#Vol-3-G_M-ftn3749"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

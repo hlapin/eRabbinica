@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Panesneus-Panesneus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Panesneus-d1e484061" n="Panesneus-Panesneus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e4633-person"
+                    n="Vol-3-E_M-Egyptian-Males-Panesneus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Panesneus</persName>
+               <persName type="lemma" xml:lang="en">Panesneus</persName>
+               <persName>Πανεσνέως<ref type="note" corresp="#Vol-3-E_M-ftn278"/>
+               </persName>
+               <state type="desc">
+                  <note>Ptollas (5) and <ref corresp="#Vol-3-E_M-d8e7383-person" type="relation" n="father-of">Pnepheros (2)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyri, Theadelphia, Westerman &amp; Keyes &amp; Kortenbeutel</note>
+               </state>
+               <bibl>CPJ489b,c</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn279"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0134" notAfter="0135">134/5 CE<ref type="note" corresp="#Vol-3-E_M-ftn280"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

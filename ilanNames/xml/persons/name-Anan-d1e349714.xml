@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Anan-ענן</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Anan-d1e349714" n="Anan-ענן">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_M-d8e40243-person"
+                    n="Vol-2-B_M-Biblical-Males-Anan-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ענן</persName>
+               <persName type="lemma" xml:lang="en">Anan</persName>
+               <persName>ענני<ref type="note" corresp="#Vol-2-B_M-ftn2655"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e25467-person" type="relation" n="son-of">Sason (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bMQ24b<ref type="note" corresp="#Vol-2-B_M-ftn2656"/>(Kosowsky,Babylonico, 1160)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-B_M-ftn2657"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_M-d8e40281-person"
+                    n="Vol-2-B_M-Biblical-Males-Anan-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ענן</persName>
+               <persName type="lemma" xml:lang="en">Anan</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Beth She’an</note>
+               </state>
+               <bibl>Naveh,OSM, p. 76</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-2-B_M-ftn2658"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-B_M-ftn2659"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-B_M-d8e9059-person"
+                    n="Vol-2-Vol-1-ADD-B_M-Biblical-Males-Anan-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ענן</persName>
+               <persName type="lemma" xml:lang="en">Anan</persName>
+               <persName>ענני<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn639"/>
+               </persName>
+               <floruit>The golden?<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn640"/>
+               </floruit>
+               <state type="findspot">
+                  <note>Ostracon, Jerusalem</note>
+               </state>
+               <bibl>Eshel,Jewish Quarter Excavations3, 304</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn641"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_M-d8e26448-person"
+                    n="Vol-3-B_M-Biblical-Males-Anan-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ענן</persName>
+               <persName type="lemma" xml:lang="en">Anan</persName>
+               <persName>Α̓νᾶν<ref type="note" corresp="#Vol-3-B_M-ftn875"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-B_M-ftn876"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Georgius Cedrenus,PG121, 525</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-B_M-ftn877"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0314" notAfter="0335">314-35 CE<ref type="note" corresp="#Vol-3-B_M-ftn878"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

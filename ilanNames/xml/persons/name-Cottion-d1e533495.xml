@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Cottion-Κοττίων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Cottion-d1e533495" n="Cottion-Κοττίων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e51011-person"
+                    n="Vol-3-G_M-Greek-Males-Cottion-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Κοττίων</persName>
+               <persName type="lemma" xml:lang="en">Cottion</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e1106-person" type="relation" n="son-of">Besas (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Hermopolis, Jouguet</note>
+               </state>
+               <bibl>JIGRE155:41</bibl>
+               <state type="addl-Descr">
+                  <note>Idumean<ref type="note" corresp="#Vol-3-G_M-ftn2942"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0079" notAfter="-0079">79 BCE<ref type="note" corresp="#Vol-3-G_M-ftn2943"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e51043-person"
+                    n="Vol-3-G_M-Greek-Males-Cottion-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Κοττίων</persName>
+               <persName type="lemma" xml:lang="en">Cottion</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e12174-person" type="relation" n="son-of">Abdi (13)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Hermopolis, Jouguet</note>
+               </state>
+               <bibl>JIGRE155:44</bibl>
+               <state type="addl-Descr">
+                  <note>Idumean<ref type="note" corresp="#Vol-3-G_M-ftn2944"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0079" notAfter="-0079">79 BCE<ref type="note" corresp="#Vol-3-G_M-ftn2945"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

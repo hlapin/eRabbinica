@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Bilga-בלגה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Bilga-d1e38738" n="Bilga-בלגה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e6991-person"
+                    n="Vol-1-B_M-Bilga-1">
+               <persName type="lemma">בלגה</persName>
+               <persName type="lemma" xml:lang="en">Bilga</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">[ב]לגה<ref type="note" corresp="#Vol-1-B_M-ftn499"/>
+               </persName>
+               <persName xml:lang="gr">Βελγᾶς<ref type="note" corresp="#Vol-1-B_M-ftn500"/>
+               </persName>
+               <state type="desc">
+                  <note>Meir (1) and <ref corresp="#Vol-1-B_F-d2e1543-person" type="relation" n="father-of">Mariam (16)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Tomb inscription, Jifna<ref type="note" corresp="#Vol-1-B_M-ftn501"/>
+                  </note>
+               </state>
+               <bibl>BJ 6:280 (Schalit, NB, 26); mSuk 5:8 (Kasovsky, Mishnae, 380); Sukenik,BIES1 (1933) 8.</bibl>
+               <state type="addl-Descr">
+                  <note>Family<ref type="note" corresp="#Vol-1-B_M-ftn502"/>
+                  </note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-B_M-ftn503"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

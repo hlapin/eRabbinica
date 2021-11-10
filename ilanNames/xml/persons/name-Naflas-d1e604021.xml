@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Naflas-נפלס</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Naflas-d1e604021" n="Naflas-נפלס">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-H_M-d8e5179-person"
+                    n="Vol-3-S-H_M-Semitic-Hebrew-Males-Naflas-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">נפלס</persName>
+               <persName type="lemma" xml:lang="en">Naflas</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-3-S-H_M-ftn324"/>
+               </persName>
+               <persName>نافلس</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-S-H_M-ftn325"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Abu’l Fath, 100</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-3-S-H_M-ftn326"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0332" notAfter="-0323">332-323 BCE<ref type="note" corresp="#Vol-3-S-H_M-ftn327"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

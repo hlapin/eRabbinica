@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Shalbar-שלבר</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Shalbar-d1e469797" n="Shalbar-שלבר">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-S-H_F-d8e638-person"
+                    n="Vol-2-Vol-1-ADD-S-H_F-Semitic-Greek-Females-Shalbar-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">שלבר</persName>
+               <persName type="lemma" xml:lang="en">Shalbar</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e32923-person" type="relation" n="mother-of">Ishmael (6)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Mt. Gerizim</note>
+               </state>
+               <bibl>Gerizim21</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-H_F-ftn46"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0111" notAfter="-0111">Pre-110 BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-H_F-ftn47"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Qimhit-קמחית</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Qimhit-d1e304208" n="Qimhit-קמחית">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_F-d2e2156-person"
+                    n="Vol-1-S-H_F-Qimhit-1">
+               <persName type="lemma">קמחית</persName>
+               <persName type="lemma" xml:lang="en">Qimhit</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="gr">Κάμιθος<ref type="note" corresp="#Vol-1-S-H_F-ftn155"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>AJ18:34 (Schalit,NB, 70) SECTIONyYoma1:1, 38d (Kosovsky,Yerushalmi, 606).</bibl>
+               <state type="addl-Descr">
+                  <note>Family<ref type="note" corresp="#Vol-1-S-H_F-ftn156"/>
+                  </note>
+               </state>
+               <floruit notBefore="0017" notAfter="0018">17-18 CE<ref type="note" corresp="#Vol-1-S-H_F-ftn157"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

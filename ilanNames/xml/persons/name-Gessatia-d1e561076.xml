@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Gessatia-Gessatia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Gessatia-d1e561076" n="Gessatia-Gessatia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e9768-person"
+                    n="Vol-3-L_F-Latin-Females-Gessatia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Gessatia</persName>
+               <persName type="lemma" xml:lang="en">Gessatia</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Clariana (1), Aurelia (24) <ref corresp="#Vol-3-B_F-d8e5959-person" type="relation" n="mother-of">Shabtit (47)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Lyons, Almer</note>
+               </state>
+               <bibl>CIJ63*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn546"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Gaul</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0299">2nd-3rdC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e22330-person"
+                    n="Vol-3-L_F-Latin-Females-Gessatia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Gessatia</persName>
+               <persName type="lemma" xml:lang="en">Gessatia</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Tacitus,GLAJJ2, no. 293</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn548"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

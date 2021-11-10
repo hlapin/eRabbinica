@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tabael-טבאל</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tabael-d1e454156" n="Tabael-טבאל">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-B_M-d8e3091-person"
+                    n="Vol-2-Vol-1-ADD-B_M-Biblical-Males-Tabael-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">טבאל</persName>
+               <persName type="lemma" xml:lang="en">Tabael</persName>
+               <persName>Τιβήλου<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn222"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="father-of">Mathan (2)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Zenon Archive</note>
+               </state>
+               <bibl>Skeat,Zenon Papyri, 2141</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn223"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0259" notAfter="-0259">259 BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn224"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

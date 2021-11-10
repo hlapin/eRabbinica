@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Izates-Izates</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Izates-d1e292163" n="Izates-Izates">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-P_M-d2e1633-person"
+                    n="Vol-1-P_M-Izates-1">
+               <persName type="lemma">Izates</persName>
+               <persName type="lemma" xml:lang="en">Izates</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">̓Ιζάτης<ref type="note" corresp="#Vol-1-P_M-ftn113"/>
+               </persName>
+               <persName xml:lang="he">זויטוס<ref type="note" corresp="#Vol-1-P_M-ftn114"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ4:567;AJ20:17 (Schalit,NB, 60); Gen Rab46:10; Tacitus,GLAJJ2, 74.</bibl>
+               <state type="addl-Descr">
+                  <note>Adiabene,<ref type="note" corresp="#Vol-1-P_M-ftn115"/>proselyte<ref type="note" corresp="#Vol-1-P_M-ftn116"/>
+                  </note>
+               </state>
+               <floruit notBefore="0047" notAfter="0047">47 CE<ref type="note" corresp="#Vol-1-P_M-ftn117"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-P_M-d2e1695-person"
+                    n="Vol-1-P_M-Izates-2">
+               <persName type="lemma">Izates</persName>
+               <persName type="lemma" xml:lang="en">Izates</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">̓Ιζάτων<ref type="note" corresp="#Vol-1-P_M-ftn118"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Shu‘afat, Abel, 1913</note>
+               </state>
+               <bibl>CIJ, no. 1230</bibl>
+               <state type="addl-Descr">
+                  <note>Palmyra<ref type="note" corresp="#Vol-1-P_M-ftn119"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-P_M-ftn120"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

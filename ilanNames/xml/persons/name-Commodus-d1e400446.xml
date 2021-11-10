@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Commodus-Commodus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Commodus-d1e400446" n="Commodus-Commodus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e2539-person"
+                    n="Vol-2-L_M-Latin-Males-Commodus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Commodus</persName>
+               <persName type="lemma" xml:lang="en">Commodus</persName>
+               <persName>Κόμ[μοδος]<ref type="note" corresp="#Vol-2-L_M-ftn196"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-L_M-ftn197"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Ashkelon, Dalman</note>
+               </state>
+               <bibl>CIJ964</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>604<ref type="note" corresp="#Vol-2-L_M-ftn198"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

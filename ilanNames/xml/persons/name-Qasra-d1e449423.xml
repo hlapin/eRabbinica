@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Qaṣra-קצרא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Qasra-d1e449423" n="Qaṣra-קצרא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e23726-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Qaṣra-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">קצרא</persName>
+               <persName type="lemma" xml:lang="en">Qaṣra</persName>
+               <persName>קצרתה<ref type="note" corresp="#Vol-2-S-H_M-ftn1496"/>
+               </persName>
+               <persName>/קצרי<ref type="note" corresp="#Vol-2-S-H_M-ftn1497"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e22809-person" type="relation" n="father-of">Joseph (24)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yShab2:6, 5b (Kosovsky,Yerushalmi, 432)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn1498"/>
+                  </note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1499"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e23776-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Qaṣra-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">קצרא</persName>
+               <persName type="lemma" xml:lang="en">Qaṣra</persName>
+               <persName>–<ref type="note" corresp="#Vol-2-S-H_M-ftn1500"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>TanB wayehi6 (Hyman,Toldoth, 1036)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn1501"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

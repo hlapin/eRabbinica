@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Florianus-Florianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Florianus-d1e466915" n="Florianus-Florianus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-L_M-d8e587-person"
+                    n="Vol-2-Vol-1-ADD-L_M-Latin-Males-Florianus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Florianus</persName>
+               <persName type="lemma" xml:lang="en">Florianus</persName>
+               <persName>Φλωριανός<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn51"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn52"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph?<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn53"/>Tomb of the Prophets, Clermon-Gannau</note>
+               </state>
+               <bibl>CIIP1/2, 941</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn54"/>
+                  </note>
+               </state>
+               <floruit>Pre-70 CE?<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn55"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

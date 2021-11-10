@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Theoxena-Θεοξένα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Theoxena-d1e499305" n="Theoxena-Θεοξένα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e11611-person"
+                    n="Vol-3-G_F-Greek-Females-Theoxena-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Θεοξένα</persName>
+               <persName type="lemma" xml:lang="en">Theoxena</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e52834-person"
+                          type="relation"
+                          n="daughter-of">Leucius (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Samaria, Wilcken</note>
+               </state>
+               <bibl>CPJ28</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn647"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0155" notAfter="-0144">155-144 BCE<ref type="note" corresp="#Vol-3-G_F-ftn648"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Nicentius-Νικέντιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Nicentius-d1e539820" n="Nicentius-Νικέντιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e59137-person"
+                    n="Vol-3-G_M-Greek-Males-Nicentius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Νικέντιος</persName>
+               <persName type="lemma" xml:lang="en">Nicentius</persName>
+               <persName>Nictentius<ref type="note" corresp="#Vol-3-G_M-ftn3403"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Taoura</note>
+               </state>
+               <bibl>Le Bohec,Ant. Afr.17 (1981) no. 67</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3404"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>North Africa</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-G_M-ftn3405"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Proto-Πρωτώ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Proto-d1e504110" n="Proto-Πρωτώ">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e17016-person"
+                    n="Vol-3-G_F-Greek-Females-Proto-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Πρωτώ</persName>
+               <persName type="lemma" xml:lang="en">Proto</persName>
+               <persName>Πρωτοῦς</persName>
+               <state type="desc">
+                  <note>Dosarion (2) and <ref corresp="#Vol-3-B_M-d8e37779-person"
+                          type="relation"
+                          n="daughter-of">Simon (46)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Arsinoe, Wessely</note>
+               </state>
+               <bibl>CPJ421</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn967"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0073" notAfter="0073">73 CE<ref type="note" corresp="#Vol-3-G_F-ftn968"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e17048-person"
+                    n="Vol-3-G_F-Greek-Females-Proto-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Πρωτώ</persName>
+               <persName type="lemma" xml:lang="en">Proto</persName>
+               <persName>[Πρ]ωτοῦς<ref type="note" corresp="#Vol-3-G_F-ftn969"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e43597-person"
+                          type="relation"
+                          n="daughter-of">Theodorus (21)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Arsinoe, Wessely</note>
+               </state>
+               <bibl>CPJ421</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn970"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0073" notAfter="0073">73 CE<ref type="note" corresp="#Vol-3-G_F-ftn971"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

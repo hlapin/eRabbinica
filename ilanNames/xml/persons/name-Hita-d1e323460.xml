@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hita-חטה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hita-d1e323460" n="Hita-חטה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e6340-person"
+                    n="Vol-1-S-H_M-Hita-1">
+               <persName type="lemma">חטה</persName>
+               <persName type="lemma" xml:lang="en">Hita</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">חיטא</persName>
+               <persName xml:lang="he">חיטה<ref type="note" corresp="#Vol-1-S-H_M-ftn435"/>
+               </persName>
+               <state type="desc">
+                  <note>Eleazar (145) and <ref corresp="#Vol-1-B_M-d2e15539-person" type="relation" n="father-of">Hananiah (74)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyri, Heber</note>
+               </state>
+               <bibl>PYadin 44, 45, 46, 50, 56</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn436"/>
+                  </note>
+               </state>
+               <floruit notBefore="0132" notAfter="0135">132-5 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn437"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

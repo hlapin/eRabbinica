@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Goliath-גלית</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Goliath-d1e42674" n="Goliath-גלית">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e8103-person"
+                    n="Vol-1-B_M-Goliath-1">
+               <persName type="lemma">גלית</persName>
+               <persName type="lemma" xml:lang="en">Goliath</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Γολιάθου<ref type="note" corresp="#Vol-1-B_M-ftn581"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuaries, Jericho, Hachlili, 1979</note>
+               </state>
+               <bibl>CJO, nos. 783, 799, 800, 801<ref type="note" corresp="#Vol-1-B_M-ftn582"/>
+               </bibl>
+               <state type="addl-Descr">
+                  <note>Second name<ref type="note" corresp="#Vol-1-B_M-ftn583"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn584"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_M-d8e7153-person"
+                    n="Vol-2-B_M-Biblical-Males-Goliath-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">גלית</persName>
+               <persName type="lemma" xml:lang="en">Goliath</persName>
+               <persName>איגוד/גוליד/גולידו/גולייר/גולירי/גולית<ref type="note" corresp="#Vol-2-B_M-ftn496"/>
+               </persName>
+               <persName>/אמי<ref type="note" corresp="#Vol-2-B_M-ftn497"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e12542-person" type="relation" n="father-of">Hananiah (38)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Gen Rab16:3 (Hyman,Toldoth, 479)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-2-B_M-ftn498"/>
+                  </note>
+               </state>
+               <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-B_M-ftn499"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

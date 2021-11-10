@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Manun-Μανουν</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Manun-d1e295644" n="Manun-Μανουν">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-G_M-d2e2288-person"
+                    n="Vol-1-S-G_M-Manun-1">
+               <persName type="lemma">Μανουν</persName>
+               <persName type="lemma" xml:lang="en">Manun</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Μανουν[.]ι[ου]<ref type="note" corresp="#Vol-1-S-G_M-ftn132"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e57862-person" type="relation" n="father-of">Simon (187)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, deed, Babatha archive</note>
+               </state>
+               <bibl>PYadin 5</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-1-S-G_M-ftn133"/>
+                  </note>
+               </state>
+               <floruit notBefore="0110" notAfter="0110">110 CE<ref type="note" corresp="#Vol-1-S-G_M-ftn134"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

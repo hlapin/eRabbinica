@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Helenus-̔́Ελενος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Helenus-d1e370911" n="Helenus-̔́Ελενος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e5572-person"
+                    n="Vol-2-G_M-Greek-Males-Helenus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̔́Ελενος</persName>
+               <persName type="lemma" xml:lang="en">Helenus</persName>
+               <persName>̔Ελένου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_M-d8e1161-person" type="relation" n="father-of">Alexander (10)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Caesarea</note>
+               </state>
+               <bibl>Lehmann &amp; Holum,CMER5, no. 152</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn394"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-G_M-ftn395"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e25348-person"
+                    n="Vol-3-G_M-Greek-Males-Helenus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̔́Ελενος</persName>
+               <persName type="lemma" xml:lang="en">Helenus</persName>
+               <persName>̔́Ελλην<ref type="note" corresp="#Vol-3-G_M-ftn1499"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e22639-person" type="relation" n="son-of">Dositheus (26)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostraca, Thebes, Tait</note>
+               </state>
+               <bibl>CPJ82, 83</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1500"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0157" notAfter="-0157">157 BCE<ref type="note" corresp="#Vol-3-G_M-ftn1501"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e25383-person"
+                    n="Vol-3-G_M-Greek-Males-Helenus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̔́Ελενος</persName>
+               <persName type="lemma" xml:lang="en">Helenus</persName>
+               <persName>̔́Ελένου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e76219-person" type="relation" n="son-of">Tryphon (5)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Alexandria, Schubart</note>
+               </state>
+               <bibl>CPJ151</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1502"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0005" notAfter="-0004">5/4 BCE<ref type="note" corresp="#Vol-3-G_M-ftn1503"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

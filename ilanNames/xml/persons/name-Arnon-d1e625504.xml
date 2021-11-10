@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Arnon-ארנן</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Arnon-d1e625504" n="Arnon-ארנן">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_M-d8e2983-person"
+                    n="Vol-4-B_M-Biblical-Males-Arnon-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ארנן</persName>
+               <persName type="lemma" xml:lang="en">Arnon</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-B_M-d8e14783-person" type="relation" n="father-of">Isaac (32)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Graffito, synagogue Dura-Europos, du Mesnil</note>
+               </state>
+               <bibl>IJO3, Syr92</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-B_M-ftn259"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Dura-Europos</note>
+               </state>
+               <floruit notBefore="0240" notAfter="0241">240/1 CE<ref type="note" corresp="#Vol-4-B_M-ftn260"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Abdocos-Abdocos</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Abdocos-d1e596413" n="Abdocos-Abdocos">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-G_M-d8e22-person"
+                    n="Vol-3-S-G_M-Semitic-Greek-Males-Abdocos-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Abdocos</persName>
+               <persName type="lemma" xml:lang="en">Abdocos</persName>
+               <persName>̓Αβδοκῶς</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e14018-person" type="relation" n="son-of">Achaius (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Hermopolis, Jouguet</note>
+               </state>
+               <bibl>JIGRE155:50</bibl>
+               <state type="addl-Descr">
+                  <note>Idumean<ref type="note" corresp="#Vol-3-S-G_M-ftn2"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0079" notAfter="-0079">79 BCE<ref type="note" corresp="#Vol-3-S-G_M-ftn3"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-G_M-d8e54-person"
+                    n="Vol-3-S-G_M-Semitic-Greek-Males-Abdocos-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Abdocos</persName>
+               <persName type="lemma" xml:lang="en">Abdocos</persName>
+               <persName>̓Αβδοκῶς</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e9672-person" type="relation" n="son-of">Apollonius (12)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Hermopolis, Zucker</note>
+               </state>
+               <bibl>JIGRE156:76</bibl>
+               <state type="addl-Descr">
+                  <note>Idumean<ref type="note" corresp="#Vol-3-S-G_M-ftn4"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0078" notAfter="-0078">78 BCE<ref type="note" corresp="#Vol-3-S-G_M-ftn5"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

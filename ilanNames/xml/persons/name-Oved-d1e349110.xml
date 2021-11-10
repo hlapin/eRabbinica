@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Oved-עובד</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Oved-d1e349110" n="Oved-עובד">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_M-d8e39163-person"
+                    n="Vol-2-B_M-Biblical-Males-Oved-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עובד</persName>
+               <persName type="lemma" xml:lang="en">Oved</persName>
+               <persName>עובר<ref type="note" corresp="#Vol-2-B_M-ftn2571"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-B_M-ftn2572"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bSan70a<ref type="note" corresp="#Vol-2-B_M-ftn2573"/>(Kosowsky,Babylonico, 1782)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-400<ref type="note" corresp="#Vol-2-B_M-ftn2574"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_M-d8e39201-person"
+                    n="Vol-2-B_M-Biblical-Males-Oved-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">עובד</persName>
+               <persName type="lemma" xml:lang="en">Oved</persName>
+               <persName>̓Οβέδδου<ref type="note" corresp="#Vol-2-B_M-ftn2575"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_M-d8e18465-person" type="relation" n="son-of">Orion (3)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1b, no. 22</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-B_M-ftn2576"/>
+                  </note>
+               </state>
+               <floruit>423<ref type="note" corresp="#Vol-2-B_M-ftn2577"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

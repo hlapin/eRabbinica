@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:PcGts="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
@@ -10,8 +9,8 @@
     exclude-result-prefixes="xs PcGts xsi tei local functx saxon" version="2.0">
     <xsl:output indent="yes" encoding="UTF-8" method="xml"/>
     <xsl:strip-space elements="*"/>
-     
 <!--    <xsl:param name="how_many_cols" select="2"></xsl:param>
+    <xsl:param name="regionSelect" select="'Main Commentary'"/>
     <xsl:param name="regionSelect" select="'Main Commentary'"/> 
     <xsl:variable name="regionTypesForColumns" select="tokenize($regionSelect, '\s+')"/> -->
     

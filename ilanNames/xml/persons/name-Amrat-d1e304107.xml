@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Amrat-עמרת</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Amrat-d1e304107" n="Amrat-עמרת">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_F-d2e2045-person"
+                    n="Vol-1-S-H_F-Amrat-1">
+               <persName type="lemma">עמרת</persName>
+               <persName type="lemma" xml:lang="en">Amrat</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son’s-of">Ali‘o (1)’s son’s</ref> wife</note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, al-Hijr (Arabia), 1909</note>
+               </state>
+               <bibl>Hirschberg,EI12 (1975) 144</bibl>
+               <state type="addl-Descr">
+                  <note>Arabia,<ref type="note" corresp="#Vol-1-S-H_F-ftn148"/>Jew?<ref type="note" corresp="#Vol-1-S-H_F-ftn149"/>
+                  </note>
+               </state>
+               <floruit notBefore="0043" notAfter="0043">43 CE<ref type="note" corresp="#Vol-1-S-H_F-ftn150"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

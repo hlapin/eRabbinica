@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sulla-Sulla</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sulla-d1e287912" n="Sulla-Sulla">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e5080-person"
+                    n="Vol-1-L_M-Sulla-1">
+               <persName type="lemma">Sulla</persName>
+               <persName type="lemma" xml:lang="en">Sulla</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Σύλλας<ref type="note" corresp="#Vol-1-L_M-ftn343"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-L_M-d2e250-person" type="relation" n="general-of">Agrippa (2)’s general</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Vita398 (Schalit,NB, 116)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-1-L_M-ftn344"/>
+                  </note>
+               </state>
+               <floruit notBefore="0067" notAfter="0067">67 CE<ref type="note" corresp="#Vol-1-L_M-ftn345"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

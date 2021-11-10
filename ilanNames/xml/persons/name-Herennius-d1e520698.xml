@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Herennius-̔Ερέννιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Herennius-d1e520698" n="Herennius-̔Ερέννιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e27046-person"
+                    n="Vol-3-G_M-Greek-Males-Herennius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̔Ερέννιος</persName>
+               <persName type="lemma" xml:lang="en">Herennius</persName>
+               <persName>̔Ερένιος<ref type="note" corresp="#Vol-3-G_M-ftn1599"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e18264-person" type="relation" n="son-of">Didymus (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu, Wessley</note>
+               </state>
+               <bibl>CPJ160</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1600"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0071" notAfter="0002">71/2 CE<ref type="note" corresp="#Vol-3-G_M-ftn1601"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e27084-person"
+                    n="Vol-3-G_M-Greek-Males-Herennius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̔Ερέννιος</persName>
+               <persName type="lemma" xml:lang="en">Herennius</persName>
+               <persName>̔Ερεννου<ref type="note" corresp="#Vol-3-G_M-ftn1602"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e10800-person" type="relation" n="father-of">Candidus (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira, Oliverio</note>
+               </state>
+               <bibl>CJZC49</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1603"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit>Pre-117 CE?</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

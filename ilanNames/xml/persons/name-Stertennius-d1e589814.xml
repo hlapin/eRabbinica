@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Stertennius-Stertennius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Stertennius-d1e589814"
+                     n="Stertennius-Stertennius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e38716-person"
+                    n="Vol-3-L_M-Latin-Males-Stertennius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Stertennius</persName>
+               <persName type="lemma" xml:lang="en">Stertennius</persName>
+               <persName>Σ[τ]ερτίνιος<ref type="note" corresp="#Vol-3-L_M-ftn2319"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Acroenus</note>
+               </state>
+               <bibl>Treblico, 70-1</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2320"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0299">1st-3rdC CE<ref type="note" corresp="#Vol-3-L_M-ftn2321"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Eudoxius-Ε̓δόξιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Eudoxius-d1e372381" n="Eudoxius-Ε̓δόξιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e6221-person"
+                    n="Vol-2-G_M-Greek-Males-Eudoxius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ε̓δόξιος</persName>
+               <persName type="lemma" xml:lang="en">Eudoxius</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription?<ref type="note" corresp="#Vol-2-G_M-ftn432"/>Syria,du Mesnil</note>
+               </state>
+               <bibl>IJO3, App16</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn433"/>
+                  </note>
+               </state>
+               <floruit>5thC</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e29497-person"
+                    n="Vol-3-G_M-Greek-Males-Eudoxius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ε̓δόξιος</persName>
+               <persName type="lemma" xml:lang="en">Eudoxius</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn1727"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Vigna Randanini, Garrucci</note>
+               </state>
+               <bibl>CIJ109</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1728"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

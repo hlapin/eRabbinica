@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Auxanius-Α̓ξάνιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Auxanius-d1e514071" n="Auxanius-Α̓ξάνιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e13540-person"
+                    n="Vol-3-G_M-Greek-Males-Auxanius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Α̓ξάνιος</persName>
+               <persName type="lemma" xml:lang="en">Auxanius</persName>
+               <persName>Α̓ξάνειος<ref type="note" corresp="#Vol-3-G_M-ftn793"/>
+               </persName>
+               <persName>/Α̓ξανίου<ref type="note" corresp="#Vol-3-G_M-ftn794"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_F-d8e7875-person" type="relation" n="husband-of">Faustina (7)’s husband</ref>, father and patron of city<ref type="note" corresp="#Vol-3-G_M-ftn795"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaphs, Venosa, Bognetti</note>
+               </state>
+               <bibl>CIJ619c,d</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn796"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0599">5th-6thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

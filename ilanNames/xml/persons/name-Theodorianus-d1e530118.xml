@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Theodorianus-Θεοδωριανός</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Theodorianus-d1e530118"
+                     n="Theodorianus-Θεοδωριανός">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e42769-person"
+                    n="Vol-3-G_M-Greek-Males-Theodorianus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Θεοδωριανός</persName>
+               <persName type="lemma" xml:lang="en">Theodorianus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Marcus (24) Aurelius (65) <ref corresp="#Vol-3-L_M-d8e17674-person" type="relation" n="father-of">Gaius (19)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Hierapolis, Judeich</note>
+               </state>
+               <bibl>IJO2, 200</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2449"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e42804-person"
+                    n="Vol-3-G_M-Greek-Males-Theodorianus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Θεοδωριανός</persName>
+               <persName type="lemma" xml:lang="en">Theodorianus</persName>
+               <persName>Θηδώριν<ref type="note" corresp="#Vol-3-G_M-ftn2450"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e45014-person" type="relation" n="son-of">Theodorus (60)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Luxor?<ref type="note" corresp="#Vol-3-G_M-ftn2451"/>
+                  </note>
+               </state>
+               <bibl>Bingen,CÉ55 (1980) 317</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2452"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0099" notAfter="0099">1stC BCE-1stC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

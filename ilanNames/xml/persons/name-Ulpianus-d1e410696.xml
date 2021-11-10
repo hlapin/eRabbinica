@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ulpianus-Ulpianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ulpianus-d1e410696" n="Ulpianus-Ulpianus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e11040-person"
+                    n="Vol-2-L_M-Latin-Males-Ulpianus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ulpianus</persName>
+               <persName type="lemma" xml:lang="en">Ulpianus</persName>
+               <persName>[Ο̓]λπιανοῦ<ref type="note" corresp="#Vol-2-L_M-ftn843"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-G_M-d8e446-person" type="relation" n="father-of">Abdoshimeo (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1a, no. 305</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn844"/>
+                  </note>
+               </state>
+               <floruit>4th-6thC C<ref type="note" corresp="#Vol-2-L_M-ftn845"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

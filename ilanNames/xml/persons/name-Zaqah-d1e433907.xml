@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Zaqah-זקה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Zaqah-d1e433907" n="Zaqah-זקה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e10780-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Zaqah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">זקה</persName>
+               <persName type="lemma" xml:lang="en">Zaqah</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e17423-person" type="relation" n="father-of">Judah (103)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Sepphoris</note>
+               </state>
+               <bibl>Weiss,Sepphoris Synagogue, no. 7</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn657"/>
+                  </note>
+               </state>
+               <floruit>5th-7thC<ref type="note" corresp="#Vol-2-S-H_M-ftn658"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

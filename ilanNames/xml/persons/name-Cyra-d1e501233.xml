@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Cyra-Κύρα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Cyra-d1e501233" n="Cyra-Κύρα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e13718-person"
+                    n="Vol-3-G_F-Greek-Females-Cyra-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Κύρα</persName>
+               <persName type="lemma" xml:lang="en">Cyra</persName>
+               <persName>Κύρας<ref type="note" corresp="#Vol-3-G_F-ftn779"/>
+               </persName>
+               <state type="desc">
+                  <note>Roia (1), <ref corresp="#Vol-3-G_M-d8e25936-person"
+                          type="relation"
+                          n="daughter-of">Entolius (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Alexandria, Botti</note>
+               </state>
+               <bibl>CIJ1438</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn780"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE<ref type="note" corresp="#Vol-3-G_F-ftn781"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e13762-person"
+                    n="Vol-3-G_F-Greek-Females-Cyra-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Κύρα</persName>
+               <persName type="lemma" xml:lang="en">Cyra</persName>
+               <persName>–<ref type="note" corresp="#Vol-3-G_F-ftn782"/>
+               </persName>
+               <state type="desc">
+                  <note>Panto (1), <ref corresp="#Vol-3-L_M-d8e28575-person"
+                          type="relation"
+                          n="daughter-of">Maronius (5)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Mantinea, Newton</note>
+               </state>
+               <bibl>CIJ721</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn783"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0299">2nd-3rdC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e13801-person"
+                    n="Vol-3-G_F-Greek-Females-Cyra-3">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Κύρα</persName>
+               <persName type="lemma" xml:lang="en">Cyra</persName>
+               <persName>[Κ]ύρας<ref type="note" corresp="#Vol-3-G_F-ftn784"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Tarsus, Mouterde</note>
+               </state>
+               <bibl>IJO2, 248</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn785"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0500" notAfter="0599">6thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

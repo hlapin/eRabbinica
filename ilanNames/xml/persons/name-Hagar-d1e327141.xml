@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hagar-הגר</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hagar-d1e327141" n="Hagar-הגר">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_F-d8e636-person"
+                    n="Vol-2-B_F-Biblical-Females-Hagar-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">הגר</persName>
+               <persName type="lemma" xml:lang="en">Hagar</persName>
+               <persName>̓Αγαρεα<ref type="note" corresp="#Vol-2-B_F-ftn41"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Ashdot Ya‘aqov<ref type="note" corresp="#Vol-2-B_F-ftn42"/>
+                  </note>
+               </state>
+               <bibl>Ovadiah,Atiqot5 (1969 – HS) 84</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-B_F-ftn43"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-B_F-ftn44"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

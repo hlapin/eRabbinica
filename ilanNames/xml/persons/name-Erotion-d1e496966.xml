@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Erotion-̓Ερώτιον</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Erotion-d1e496966" n="Erotion-̓Ερώτιον">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e8170-person"
+                    n="Vol-3-G_F-Greek-Females-Erotion-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓Ερώτιον</persName>
+               <persName type="lemma" xml:lang="en">Erotion</persName>
+               <persName>̓Ερωτίου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e78765-person" type="relation" n="mother-of">Philiscus (1)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Arsinoe, Wessely</note>
+               </state>
+               <bibl>CPJ421</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn456"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0073" notAfter="0073">73 CE<ref type="note" corresp="#Vol-3-G_F-ftn457"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e8202-person"
+                    n="Vol-3-G_F-Greek-Females-Erotion-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓Ερώτιον</persName>
+               <persName type="lemma" xml:lang="en">Erotion</persName>
+               <persName>̓Ερωτίου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e74602-person" type="relation" n="mother-of">Soteles (1)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Fayum, Viereck</note>
+               </state>
+               <bibl>CPJ427</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn458"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0101" notAfter="0101">101 CE<ref type="note" corresp="#Vol-3-G_F-ftn459"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

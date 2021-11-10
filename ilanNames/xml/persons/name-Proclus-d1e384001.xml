@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Proclus-Πρόκλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Proclus-d1e384001" n="Proclus-Πρόκλος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e15713-person"
+                    n="Vol-2-G_M-Greek-Males-Proclus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πρόκλος</persName>
+               <persName type="lemma" xml:lang="en">Proclus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-L_M-d8e2620-person" type="relation" n="son-of">Crispus (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Tiberias</note>
+               </state>
+               <bibl>Roth-Gerson,GISEI, no. 15</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>5th-7thC<ref type="note" corresp="#Vol-2-G_M-ftn1030"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

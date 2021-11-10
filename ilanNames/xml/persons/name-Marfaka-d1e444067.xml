@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Marfaka-מרפכה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Marfaka-d1e444067" n="Marfaka-מרפכה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e18753-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Marfaka-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מרפכה</persName>
+               <persName type="lemma" xml:lang="en">Marfaka</persName>
+               <persName>مرفكه<ref type="note" corresp="#Vol-2-S-H_M-ftn1171"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_F-d8e1359-person" type="relation" n="son-of">Mariam (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Abu’l Fath, 177</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-2-S-H_M-ftn1172"/>
+                  </note>
+               </state>
+               <floruit>4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn1173"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

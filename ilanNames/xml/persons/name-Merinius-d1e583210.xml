@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Merinius-Merinius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Merinius-d1e583210" n="Merinius-Merinius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e29359-person"
+                    n="Vol-3-L_M-Latin-Males-Merinius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Merinius</persName>
+               <persName type="lemma" xml:lang="en">Merinius</persName>
+               <persName>Μέριν<ref type="note" corresp="#Vol-3-L_M-ftn1742"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Isaac (10)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu, Manteuffel</note>
+               </state>
+               <bibl>CPJ163</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1743"/>
+                  </note>
+               </state>
+               <floruit>Egypt</floruit>
+               <floruit notBefore="0072" notAfter="0072">72 CE<ref type="note" corresp="#Vol-3-L_M-ftn1744"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

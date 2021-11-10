@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ismenus-̓Ισμηνός</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ismenus-d1e378142" n="Ismenus-̓Ισμηνός">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e10619-person"
+                    n="Vol-2-G_M-Greek-Males-Ismenus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Ισμηνός</persName>
+               <persName type="lemma" xml:lang="en">Ismenus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e19911-person" type="relation" n="son-of">Yohanan (20)’s son</ref>, Tiberian<ref type="note" corresp="#Vol-2-G_M-ftn709"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Rome</note>
+               </state>
+               <bibl>Schwabe,Yohanan Levi, no. 16</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn710"/>
+                  </note>
+               </state>
+               <floruit>3rdC</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

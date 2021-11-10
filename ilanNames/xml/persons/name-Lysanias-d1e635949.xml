@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Lysanias-Λυσανίας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Lysanias-d1e635949" n="Lysanias-Λυσανίας">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-G_M-d8e1240-person"
+                    n="Vol-4-G_M-Greek-Males-Lysanias-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Λυσανίας</persName>
+               <persName type="lemma" xml:lang="en">Lysanias</persName>
+               <persName>Λυσανίου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-B_M-d8e21297-person" type="relation" n="father-of">Aqub (13)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Graffito, Dura-Europos</note>
+               </state>
+               <bibl>Brown,Dura-Europos(1939) no. 905</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-G_M-ftn95"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Dura-Europus</note>
+               </state>
+               <floruit notBefore="0256" notAfter="0256">Pre-256 CE<ref type="note" corresp="#Vol-4-G_M-ftn96"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Saḥura-סחורא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Saura-d1e685980" n="Saḥura-סחורא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e28744-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Saḥura-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">סחורא</persName>
+               <persName type="lemma" xml:lang="en">Saḥura</persName>
+               <persName>סחורה<ref type="note" corresp="#Vol-4-S-H_M-ftn1992"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bBer5a (Kosowsky,Babylonico, 1128)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1993"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0297" notAfter="0297">Post-297 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1994"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e28787-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Saḥura-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">סחורא</persName>
+               <persName type="lemma" xml:lang="en">Saḥura</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-S-H_M-ftn1995"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e6488-person" type="relation" n="father-of">Abbin (25)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bḤul107b (Kosowsky,Babylonico, 1129)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1996"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1997"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e28829-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Saḥura-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">סחורא</persName>
+               <persName type="lemma" xml:lang="en">Saḥura</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-S-H_M-ftn1998"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e15943-person"
+                          type="relation"
+                          n="father-of">Huna (31)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bBekh60a (Kosowsky,Babylonico, 1128)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1999"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0399">4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2000"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

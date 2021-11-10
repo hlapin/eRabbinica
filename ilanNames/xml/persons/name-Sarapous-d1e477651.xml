@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sarapous-Sarapous</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sarapous-d1e477651" n="Sarapous-Sarapous">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_F-d8e865-person"
+                    n="Vol-3-E_F-Egyptian-Females-Sarapous-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Sarapous</persName>
+               <persName type="lemma" xml:lang="en">Sarapous</persName>
+               <persName>Σαραποῦς</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Gizeh?<ref type="note" corresp="#Vol-3-E_F-ftn58"/>de Ricci</note>
+               </state>
+               <bibl>CIJ1478</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_F-ftn59"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-E_F-ftn60"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

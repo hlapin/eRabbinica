@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Toma-תומא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Toma-d1e605349" n="Toma-תומא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-H_M-d8e6411-person"
+                    n="Vol-3-S-H_M-Semitic-Hebrew-Males-Toma-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">תומא</persName>
+               <persName type="lemma" xml:lang="en">Toma</persName>
+               <persName>Θωμᾶς<ref type="note" corresp="#Vol-3-S-H_M-ftn399"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-S-H_M-ftn400"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Malalas,PG97, 621</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-S-H_M-ftn401"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia?<ref type="note" corresp="#Vol-3-S-H_M-ftn402"/>
+                  </note>
+               </state>
+               <floruit notBefore="0528" notAfter="0528">528 CE<ref type="note" corresp="#Vol-3-S-H_M-ftn403"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

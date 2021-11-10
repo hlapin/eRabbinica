@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Prytanis-Πρύτανις</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Prytanis-d1e546068" n="Prytanis-Πρύτανις">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e67020-person"
+                    n="Vol-3-G_M-Greek-Males-Prytanis-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πρύτανις</persName>
+               <persName type="lemma" xml:lang="en">Prytanis</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e27330-person" type="relation" n="son-of">Hermas (1)’s son</ref>, of Miletus<ref type="note" corresp="#Vol-3-G_M-ftn3867"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>AJ14:245 (Schalit,NB, 45)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3868"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="-0046" notAfter="-0044">46-44 BCE<ref type="note" corresp="#Vol-3-G_M-ftn3869"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

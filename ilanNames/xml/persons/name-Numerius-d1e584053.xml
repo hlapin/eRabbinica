@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Numerius-Numerius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Numerius-d1e584053" n="Numerius-Numerius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e30253-person"
+                    n="Vol-3-L_M-Latin-Males-Numerius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Numerius</persName>
+               <persName type="lemma" xml:lang="en">Numerius</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn1803"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Naples, Serrao</note>
+               </state>
+               <bibl>JIWE1, 33</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1804"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0499">5thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e30289-person"
+                    n="Vol-3-L_M-Latin-Males-Numerius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Numerius</persName>
+               <persName type="lemma" xml:lang="en">Numerius</persName>
+               <persName>Νωμερείου<ref type="note" corresp="#Vol-3-L_M-ftn1805"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Venosa, Colafemmina</note>
+               </state>
+               <bibl>JIWE1, 95</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1806"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0499">4th-5thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

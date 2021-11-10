@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Annamius-Annamius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Annamius-d1e665045" n="Annamius-Annamius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-L_M-d8e162-person"
+                    n="Vol-4-L_M-Latin-Males-Annamius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Annamius</persName>
+               <persName type="lemma" xml:lang="en">Annamius</persName>
+               <persName>̓́Αναμος<ref type="note" corresp="#Vol-4-L_M-ftn18"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-L_M-ftn19"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Tomb of the Prophet</note>
+               </state>
+               <bibl>Clermont-Ganneau,Researches1, 364</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-L_M-ftn20"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-4-L_M-ftn21"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

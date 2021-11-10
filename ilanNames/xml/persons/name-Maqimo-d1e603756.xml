@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Maqimo-מקימו</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Maqimo-d1e603756" n="Maqimo-מקימו">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-H_M-d8e4770-person"
+                    n="Vol-3-S-H_M-Semitic-Hebrew-Males-Maqimo-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מקימו</persName>
+               <persName type="lemma" xml:lang="en">Maqimo</persName>
+               <persName>–<ref type="note" corresp="#Vol-3-S-H_M-ftn298"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e39454-person" type="relation" n="son-of">Simon (90)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Lambaesis</note>
+               </state>
+               <bibl>CIS2/3, 3909</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-S-H_M-ftn299"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>North Africa/Palmyra</note>
+               </state>
+               <floruit notBefore="0149" notAfter="0149">149 CE<ref type="note" corresp="#Vol-3-S-H_M-ftn300"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ḥartah-חרתה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hartah-d1e414650" n="Ḥartah-חרתה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_F-d8e521-person"
+                    n="Vol-2-S-H_F-Semitic-Hebrew-Females-Ḥartah-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">חרתה</persName>
+               <persName type="lemma" xml:lang="en">Ḥartah</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e11132-person"
+                          type="relation"
+                          n="mother-of">Ḥabiba (2)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, Skirball Museum, Los Angeles</note>
+               </state>
+               <bibl>MSFno. 26</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>
+                  <ref type="note" corresp="#Vol-2-S-H_F-ftn34"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

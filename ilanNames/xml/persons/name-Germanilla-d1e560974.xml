@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Germanilla-Germanilla</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Germanilla-d1e560974"
+                     n="Germanilla-Germanilla">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e9690-person"
+                    n="Vol-3-L_F-Latin-Females-Germanilla-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Germanilla</persName>
+               <persName type="lemma" xml:lang="en">Germanilla</persName>
+               <persName>Germa[n]ilae<ref type="note" corresp="#Vol-3-L_F-ftn540"/>
+               </persName>
+               <state type="desc">
+                  <note>Aurelia (43), Germanus (2) <ref corresp="#Vol-3-L_M-d8e40616-person"
+                          type="relation"
+                          n="daughter-of">Valens (2)’s daughter</ref>, aged 4<ref type="note" corresp="#Vol-3-L_F-ftn541"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Intercisa, Mahler</note>
+               </state>
+               <bibl>Scheiber 5</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn542"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Pannonia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e9725-person"
+                    n="Vol-3-L_F-Latin-Females-Germanilla-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Germanilla</persName>
+               <persName type="lemma" xml:lang="en">Germanilla</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Aurelia (44), Germanus (2) <ref corresp="#Vol-3-L_M-d8e40616-person"
+                          type="relation"
+                          n="daughter-of">Valens (2)’s daughter</ref>, aged 2<ref type="note" corresp="#Vol-3-L_F-ftn543"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Intercisa, Mahler</note>
+               </state>
+               <bibl>Scheiber 5</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn544"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Pannonia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tineius-Tineius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tineius-d1e590377" n="Tineius-Tineius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e39716-person"
+                    n="Vol-3-L_M-Latin-Males-Tineius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Tineius</persName>
+               <persName type="lemma" xml:lang="en">Tineius</persName>
+               <persName>Tineosus<ref type="note" corresp="#Vol-3-L_M-ftn2376"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Convicts list, De Rossi</note>
+               </state>
+               <bibl>CIJ530</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2377"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0374" notAfter="0374">374 CE<ref type="note" corresp="#Vol-3-L_M-ftn2378"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

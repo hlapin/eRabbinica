@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ireneus-̓Ιρηνε͂ος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ireneus-d1e531820" n="Ireneus-̓Ιρηνε͂ος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e48766-person"
+                    n="Vol-3-G_M-Greek-Males-Ireneus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Ιρηνε͂ος</persName>
+               <persName type="lemma" xml:lang="en">Ireneus</persName>
+               <persName>Ireneus</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_F-d8e9035-person" type="relation" n="husband-of">Flora (1)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Villa Torlonia, Paribeni</note>
+               </state>
+               <bibl>CIJ69</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2802"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e48800-person"
+                    n="Vol-3-G_M-Greek-Males-Ireneus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Ιρηνε͂ος</persName>
+               <persName type="lemma" xml:lang="en">Ireneus</persName>
+               <persName>Ireneus</persName>
+               <state type="desc">
+                  <note>Egnatius (1), Aurelia (23) <ref corresp="#Vol-3-G_F-d8e13148-person" type="relation" n="husband-of">Calliste (1)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Lyon, Oehler</note>
+               </state>
+               <bibl>CIJ62*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2803"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Gaul</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0199">2ndC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

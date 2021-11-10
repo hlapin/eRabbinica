@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Jucundus-Jucundus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Jucundus-d1e273438" n="Jucundus-Jucundus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e2664-person"
+                    n="Vol-1-L_M-Jucundus-1">
+               <persName type="lemma">Jucundus</persName>
+               <persName type="lemma" xml:lang="en">Jucundus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">̓Ιούκουνδος<ref type="note" corresp="#Vol-1-L_M-ftn179"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e8218-person" type="relation" n="general-of">Herod (1)’s general</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ1:527;AJ16:314 (Schalit,NB, 63)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-1-L_M-ftn180"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0007" notAfter="-0007">7 BCE<ref type="note" corresp="#Vol-1-L_M-ftn181"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

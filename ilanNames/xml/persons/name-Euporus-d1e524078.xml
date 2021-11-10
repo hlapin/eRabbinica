@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Euporus-Εὔπορος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Euporus-d1e524078" n="Euporus-Εὔπορος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e31180-person"
+                    n="Vol-3-G_M-Greek-Males-Euporus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Εὔπορος</persName>
+               <persName type="lemma" xml:lang="en">Euporus</persName>
+               <persName>Ε̓πόρι<ref type="note" corresp="#Vol-3-G_M-ftn1812"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e31939-person" type="relation" n="father-of">Shabtai (115)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Schneider Graziosi</note>
+               </state>
+               <bibl>CIJ329</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1813"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e31222-person"
+                    n="Vol-3-G_M-Greek-Males-Euporus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Εὔπορος</persName>
+               <persName type="lemma" xml:lang="en">Euporus</persName>
+               <persName>Eupor<ref type="note" corresp="#Vol-3-G_M-ftn1814"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn1815"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Pompeii, De Rossi</note>
+               </state>
+               <bibl>CIJ52*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1816"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0079" notAfter="0079">Pre-79 CE<ref type="note" corresp="#Vol-3-G_M-ftn1817"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

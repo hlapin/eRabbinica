@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Cossutianus-Cossutianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Cossutianus-d1e577034"
+                     n="Cossutianus-Cossutianus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e12918-person"
+                    n="Vol-3-L_M-Latin-Males-Cossutianus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Cossutianus</persName>
+               <persName type="lemma" xml:lang="en">Cossutianus</persName>
+               <persName>Κοσσουτίου<ref type="note" corresp="#Vol-3-L_M-ftn765"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn766"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vigna Randanini, Garrucci</note>
+               </state>
+               <bibl>CIJ131</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn767"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e12962-person"
+                    n="Vol-3-L_M-Latin-Males-Cossutianus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Cossutianus</persName>
+               <persName type="lemma" xml:lang="en">Cossutianus</persName>
+               <persName>Κοσσούτιος<ref type="note" corresp="#Vol-3-L_M-ftn768"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn769"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Moretti</note>
+               </state>
+               <bibl>JIWE2, 624</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn770"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

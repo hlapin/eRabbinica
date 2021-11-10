@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Metradotion-Μητραδώτιον</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Metradotion-d1e365277"
+                     n="Metradotion-Μητραδώτιον">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e3908-person"
+                    n="Vol-2-G_F-Greek-Females-Metradotion-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Μητραδώτιον</persName>
+               <persName type="lemma" xml:lang="en">Metradotion</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-L_M-d8e2282-person" type="relation" n="mother-of">Cassius (2)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, Evron<ref type="note" corresp="#Vol-2-G_F-ftn261"/>
+                  </note>
+               </state>
+               <bibl>PC22/1 (1994) no. 56</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-G_F-ftn262"/>
+                  </note>
+               </state>
+               <floruit>3rd-4thC</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

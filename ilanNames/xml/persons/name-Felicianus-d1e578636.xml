@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Felicianus-Felicianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Felicianus-d1e578636"
+                     n="Felicianus-Felicianus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e15462-person"
+                    n="Vol-3-L_M-Latin-Males-Felicianus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Felicianus</persName>
+               <persName type="lemma" xml:lang="en">Felicianus</persName>
+               <persName>Felicia[nus]<ref type="note" corresp="#Vol-3-L_M-ftn923"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_F-d8e13946-person" type="relation" n="husband-of">Cyrrias (1)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vigna Randanini, Frey</note>
+               </state>
+               <bibl>CIJ11*</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn924"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e15505-person"
+                    n="Vol-3-L_M-Latin-Males-Felicianus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Felicianus</persName>
+               <persName type="lemma" xml:lang="en">Felicianus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn925"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Henchir Djouana</note>
+               </state>
+               <bibl>Le Bohec,Ant. Afr.17 (1981) no. 10</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn926"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>North Africa</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0199">2ndC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

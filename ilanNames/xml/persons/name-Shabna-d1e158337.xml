@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Shabna-שבנא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Shabna-d1e158337" n="Shabna-שבנא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e51290-person"
+                    n="Vol-1-B_M-Shabna-1">
+               <persName type="lemma">שבנא</persName>
+               <persName type="lemma" xml:lang="en">Shabna</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-B_M-ftn3930"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>bShab12b (Kosowsky,Babylonico, 1544)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Post-135 CE<ref type="note" corresp="#Vol-1-B_M-ftn3931"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e51315-person"
+                    n="Vol-1-B_M-Shabna-2">
+               <persName type="lemma">שבנא</persName>
+               <persName type="lemma" xml:lang="en">Shabna</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e9006-person" type="relation" n="brother-of">Hillel (1)’s brother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>bSot(Kosowsky,Babylonico, 1544)</bibl>
+               <state type="addl-Descr">
+                  <note>Babylonia,<ref type="note" corresp="#Vol-1-B_M-ftn3932"/>fictitious<ref type="note" corresp="#Vol-1-B_M-ftn3933"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn3934"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_M-d8e28486-person"
+                    n="Vol-4-B_M-Biblical-Males-Shabna-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שבנא</persName>
+               <persName type="lemma" xml:lang="en">Shabna</persName>
+               <persName>Hillel (1)’s brother</persName>
+               <state type="findspot">
+                  <note>bSoṭ21a (Kosowsky,Babylonico, 1544)</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-B_M-ftn1828"/>; fictitious<ref type="note" corresp="#Vol-4-B_M-ftn1829"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-4-B_M-ftn1830"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

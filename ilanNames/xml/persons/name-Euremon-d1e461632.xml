@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Euremon-Ε̓ρήμων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Euremon-d1e461632" n="Euremon-Ε̓ρήμων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-G_M-d8e1997-person"
+                    n="Vol-2-Vol-1-ADD-G_M-Greek-Males-Euremon-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ε̓ρήμων</persName>
+               <persName type="lemma" xml:lang="en">Euremon</persName>
+               <persName>Ε̓ρήμονος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="husband-of">Ammia (3)’s husband</ref>, of Antioch<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn141"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Athens, Dittenberger</note>
+               </state>
+               <bibl>IJO1, Ach35</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn142"/>
+                  </note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e31441-person"
+                    n="Vol-3-G_M-Greek-Males-Euremon-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ε̓ρήμων</persName>
+               <persName type="lemma" xml:lang="en">Euremon</persName>
+               <persName>Ε̓ρήμονος</persName>
+               <state type="desc">
+                  <note>Heron (1) and <ref corresp="#Vol-3-E_M-d8e7067-person"
+                          type="relation"
+                          n="grandfather-of">Phaesis (1)’s grandfather</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyri, Karanis, Pearl &amp; Youtie</note>
+               </state>
+               <bibl>CPJ492(4,5,6,13,14,15)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1829"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0171" notAfter="0174">171-4 CE<ref type="note" corresp="#Vol-3-G_M-ftn1830"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e31477-person"
+                    n="Vol-3-G_M-Greek-Males-Euremon-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ε̓ρήμων</persName>
+               <persName type="lemma" xml:lang="en">Euremon</persName>
+               <persName>Ε̓ρήμονος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_F-d8e1262-person" type="relation" n="husband-of">Ammia (5)’s husband</ref>, of Antioch<ref type="note" corresp="#Vol-3-G_M-ftn1831"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Athens, Dittenberger</note>
+               </state>
+               <bibl>IJO1, Ach35</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan?<ref type="note" corresp="#Vol-3-G_M-ftn1832"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

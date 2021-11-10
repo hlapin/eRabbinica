@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Agathinus-̓Αγαθῖνος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Agathinus-d1e507250" n="Agathinus-̓Αγαθῖνος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e123-person"
+                    n="Vol-3-G_M-Greek-Males-Agathinus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αγαθῖνος</persName>
+               <persName type="lemma" xml:lang="en">Agathinus</persName>
+               <persName>̓Αγαθεῖνος<ref type="note" corresp="#Vol-3-G_M-ftn10"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e80513-person" type="relation" n="son-of">Philotas (1)’s son</ref>, <ref corresp="#Vol-3-G_F-d8e5560-person" type="relation" n="uncle-of">Dionysia (1)’s uncle</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Alexandria, Schubart</note>
+               </state>
+               <bibl>CPJ143</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn11"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0013" notAfter="-0013">13 BCE<ref type="note" corresp="#Vol-3-G_M-ftn12"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ḥirbān-حربان</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-irbn-d1e610186" n="Ḥirbān-حربان">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e3193-person"
+                    n="Vol-4-A_M-Arabic-Males-Ḥirbān-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">حربان</persName>
+               <persName type="lemma" xml:lang="en">Ḥirbān</persName>
+               <persName>̔Ερβᾶν<ref type="note" corresp="#Vol-4-A_M-ftn251"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-A_M-ftn252"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Gregentius,PG86, 621</bibl>
+               <state type="addl-Descr">
+                  <note>Christian convert<ref type="note" corresp="#Vol-4-A_M-ftn253"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.<ref type="note" corresp="#Vol-4-A_M-ftn254"/>
+                  </note>
+               </state>
+               <floruit notBefore="0552" notAfter="0552">Pre-552 CE<ref type="note" corresp="#Vol-4-A_M-ftn255"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

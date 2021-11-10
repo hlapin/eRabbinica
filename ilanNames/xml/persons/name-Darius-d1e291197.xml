@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Darius-Darius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Darius-d1e291197" n="Darius-Darius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-P_M-d2e834-person"
+                    n="Vol-1-P_M-Darius-1">
+               <persName type="lemma">Darius</persName>
+               <persName type="lemma" xml:lang="en">Darius</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Δαρεῖος<ref type="note" corresp="#Vol-1-P_M-ftn56"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-L_M-d2e250-person" type="relation" n="general-of">Agrippa (2)’s general</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ2:421 (Schalit,NB, 37)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0066" notAfter="0066">66 CE<ref type="note" corresp="#Vol-1-P_M-ftn57"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

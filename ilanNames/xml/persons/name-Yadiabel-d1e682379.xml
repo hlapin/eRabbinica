@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Yadiʿabel-ידיעבל</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Yadiabel-d1e682379" n="Yadiʿabel-ידיעבל">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e22954-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Yadiʿabel-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ידיעבל</persName>
+               <persName type="lemma" xml:lang="en">Yadiʿabel</persName>
+               <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1589"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e23812-person"
+                          type="relation"
+                          n="father-of">Yirḥi (3)’s father</ref>, <ref corresp="#Vol-4-B_M-d8e32203-person" type="relation" n="son-of">Simon (26)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Palmyra, Schröder</note>
+               </state>
+               <bibl>CIS2/3, 4364</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn1590"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1591"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

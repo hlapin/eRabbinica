@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Dioscorus-Διόσκορος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Dioscorus-d1e217665" n="Dioscorus-Διόσκορος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e5172-person"
+                    n="Vol-1-G_M-Dioscorus-1">
+               <persName type="lemma">Διόσκορος</persName>
+               <persName type="lemma" xml:lang="en">Dioscorus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Tomb inscription, Jatt</note>
+               </state>
+               <bibl>Porath,Atiqot37 (1999) 49*</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE<ref type="note" corresp="#Vol-1-G_M-ftn365"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e20438-person"
+                    n="Vol-3-G_M-Greek-Males-Dioscorus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Διόσκορος</persName>
+               <persName type="lemma" xml:lang="en">Dioscorus</persName>
+               <persName>Διοσκόρου</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Oxyrhynchus, Hunt</note>
+               </state>
+               <bibl>CPJ473</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1202"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0291" notAfter="0291">291 CE<ref type="note" corresp="#Vol-3-G_M-ftn1203"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e20483-person"
+                    n="Vol-3-G_M-Greek-Males-Dioscorus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Διόσκορος</persName>
+               <persName type="lemma" xml:lang="en">Dioscorus</persName>
+               <persName>Διοσκόρ[ου]<ref type="note" corresp="#Vol-3-G_M-ftn1204"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="father-of">Isaac (22)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Oxyrhynchus</note>
+               </state>
+               <bibl>P. Oxy 3125</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1205"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0325" notAfter="0325">325 CE<ref type="note" corresp="#Vol-3-G_M-ftn1206"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

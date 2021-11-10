@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Grapa-גרפה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Grapa-d1e318906" n="Grapa-גרפה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e3710-person"
+                    n="Vol-1-S-H_M-Grapa-1">
+               <persName type="lemma">גרפה</persName>
+               <persName type="lemma" xml:lang="en">Grapa</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>Tehinah (10) and <ref corresp="#Vol-1-B_M-d2e27594-person" type="relation" n="father-of">Yohanan (108)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, list, Jericho</note>
+               </state>
+               <bibl>Jer 1</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn248"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0324" notAfter="-0324">Post-323 BCE<ref type="note" corresp="#Vol-1-S-H_M-ftn249"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

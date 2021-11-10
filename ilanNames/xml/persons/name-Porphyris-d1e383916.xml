@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Porphyris-Πορφύρις</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Porphyris-d1e383916" n="Porphyris-Πορφύρις">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e15620-person"
+                    n="Vol-2-G_M-Greek-Males-Porphyris-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πορφύρις</persName>
+               <persName type="lemma" xml:lang="en">Porphyris</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Beth She‘arim,catacomb 1</note>
+               </state>
+               <bibl>BS2:4</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_M-ftn1026"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e15651-person"
+                    n="Vol-2-G_M-Greek-Males-Porphyris-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πορφύρις</persName>
+               <persName type="lemma" xml:lang="en">Porphyris</persName>
+               <persName>Προφύρι<ref type="note" corresp="#Vol-2-G_M-ftn1027"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaphs, Beth She‘arim,catacomb 1,CIJ1015, 1016</note>
+               </state>
+               <bibl>1.BS2:4; 2. 2:5</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_M-ftn1028"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

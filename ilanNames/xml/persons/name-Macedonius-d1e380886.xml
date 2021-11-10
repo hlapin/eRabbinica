@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Macedonius-Μακεδόνιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Macedonius-d1e380886"
+                     n="Macedonius-Μακεδόνιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e12423-person"
+                    n="Vol-2-G_M-Greek-Males-Macedonius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Μακεδόνιος</persName>
+               <persName type="lemma" xml:lang="en">Macedonius</persName>
+               <persName>Μακεδόνις<ref type="note" corresp="#Vol-2-G_M-ftn825"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_M-d8e1011-person" type="relation" n="son-of">Alexander (7)’s son</ref>, of Caesarea<ref type="note" corresp="#Vol-2-G_M-ftn826"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Rome, Schneider Graziosi</note>
+               </state>
+               <bibl>CIJ370</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-G_M-ftn827"/>
+                  </note>
+               </state>
+               <floruit>3rd-4thC</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e12469-person"
+                    n="Vol-2-G_M-Greek-Males-Macedonius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Μακεδόνιος</persName>
+               <persName type="lemma" xml:lang="en">Macedonius</persName>
+               <persName>Μ[ακε]δόνιος<ref type="note" corresp="#Vol-2-G_M-ftn828"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Caesarea</note>
+               </state>
+               <bibl>Lehmann &amp; Holum,CMER5, no. 271</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn829"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-G_M-ftn830"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e54392-person"
+                    n="Vol-3-G_M-Greek-Males-Macedonius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Μακεδόνιος</persName>
+               <persName type="lemma" xml:lang="en">Macedonius</persName>
+               <persName>Μακεδονίου</persName>
+               <state type="desc">
+                  <note>Aurelius (33) <ref corresp="#Vol-3-G_M-d8e24705-person" type="relation" n="father-of">Ethelusius (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Nicomedia, Pogodine &amp; Wulf</note>
+               </state>
+               <bibl>CIJ798</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3131"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-Vol-3-Add-G_M-d8e491-person"
+                    n="Vol-4-Vol-3-Add-G_M-Greek-Males-Macedonius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Μακεδόνιος</persName>
+               <persName type="lemma" xml:lang="en">Macedonius</persName>
+               <persName>Μακεδονιο[υ]<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn35"/>
+               </persName>
+               <state type="desc">
+                  <note>Procla (1) and <ref corresp="#" type="relation" n="son-of">Romanus (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Andriake</note>
+               </state>
+               <bibl>Çevik &amp; Eshel,Qadmoniot43 (2010) 42</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn36"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0499">4th-5thC CE<ref type="note" corresp="#Vol-4-Vol-3-Add-G_M-ftn37"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

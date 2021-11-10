@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Decius-Decius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Decius-d1e577882" n="Decius-Decius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e13846-person"
+                    n="Vol-3-L_M-Latin-Males-Decius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Decius</persName>
+               <persName type="lemma" xml:lang="en">Decius</persName>
+               <persName>Δεκᾶς<ref type="note" corresp="#Vol-3-L_M-ftn826"/>
+               </persName>
+               <state type="desc">
+                  <note>Appaeanus (1) <ref corresp="#Vol-3-L_M-d8e41432-person" type="relation" n="slave-of">Velorius (1)’s slave</ref>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn827"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu, Manteuffel</note>
+               </state>
+               <bibl>CPJ206</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn828"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0106" notAfter="0106">106 CE<ref type="note" corresp="#Vol-3-L_M-ftn829"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

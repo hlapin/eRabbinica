@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Dimus-Dimus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Dimus-d1e469385" n="Dimus-Dimus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-S-G_M-d8e292-person"
+                    n="Vol-2-Vol-1-ADD-S-G_M-Semitic-Greek-Males-Dimus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Dimus</persName>
+               <persName type="lemma" xml:lang="en">Dimus</persName>
+               <persName>Δίμου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="father-of">Verus (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Akeldama</note>
+               </state>
+               <bibl>CIIP1.1, 305</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-S-G_M-ftn19"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

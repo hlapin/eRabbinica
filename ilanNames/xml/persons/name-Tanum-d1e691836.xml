@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tanḥum-תנחום</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tanum-d1e691836" n="Tanḥum-תנחום">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e34873-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Tanḥum-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">תנחום</persName>
+               <persName type="lemma" xml:lang="en">Tanḥum</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-S-H_M-ftn2431"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bShab30a (Kosowsky,Babylonico, 1773)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2432"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0299" notAfter="0299">Post-299 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2433"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e34916-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Tanḥum-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">תנחום</persName>
+               <persName type="lemma" xml:lang="en">Tanḥum</persName>
+               <persName>تنحوم<ref type="note" corresp="#Vol-4-S-H_M-ftn2434"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_M-d8e12668-person" type="relation" n="father-of">Najjām (2)’s father</ref>, priest<ref type="note" corresp="#Vol-4-S-H_M-ftn2435"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Hishām,Leben Muhammed’s, 13</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2436"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit>Pre-Islamic<ref type="note" corresp="#Vol-4-S-H_M-ftn2437"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e34954-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Tanḥum-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">תנחום</persName>
+               <persName type="lemma" xml:lang="en">Tanḥum</persName>
+               <persName>تنحوم<ref type="note" corresp="#Vol-4-S-H_M-ftn2438"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-B_M-d8e18347-person" type="relation" n="father-of">Naḥum (8)’s father</ref>, priest<ref type="note" corresp="#Vol-4-S-H_M-ftn2439"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ṭabari,Annales, iii, 2452</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2440"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0399">4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2441"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

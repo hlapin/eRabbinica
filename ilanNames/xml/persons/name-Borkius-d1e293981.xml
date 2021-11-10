@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Borkius-Βορκιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Borkius-d1e293981" n="Borkius-Βορκιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-G_M-d2e521-person"
+                    n="Vol-1-S-G_M-Borkius-1">
+               <persName type="lemma">Βορκιος</persName>
+               <persName type="lemma" xml:lang="en">Borkius</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-L_M-d2e250-person" type="relation" n="friend-of">Agrippa (2)’s friend</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ2:524 (Schalit 29)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0066" notAfter="0066">66 CE<ref type="note" corresp="#Vol-1-S-G_M-ftn25"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-G_M-d2e540-person"
+                    n="Vol-1-S-G_M-Borkius-2">
+               <persName type="lemma">Βορκιος</persName>
+               <persName type="lemma" xml:lang="en">Borkius</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Βορκεου<ref type="note" corresp="#Vol-1-S-G_M-ftn26"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_F-d2e6161-person" type="relation" n="father-of">Shiphra (9)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary</note>
+               </state>
+               <bibl>Puech,RB90 (1983) 527</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-S-G_M-ftn27"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-G_M-d2e570-person"
+                    n="Vol-1-S-G_M-Borkius-3">
+               <persName type="lemma">Βορκιος</persName>
+               <persName type="lemma" xml:lang="en">Borkius</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Βορκ̓́..̓̀<ref type="note" corresp="#Vol-1-S-G_M-ftn28"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Egla (3)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, marriage contract, “Seyal”</note>
+               </state>
+               <bibl>Se 69</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0130" notAfter="0130">130 CE<ref type="note" corresp="#Vol-1-S-G_M-ftn29"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

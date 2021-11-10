@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Laḥaya‘t-لحيعت</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Lahayat-d1e470988" n="Laḥaya‘t-لحيعت">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-4-ADD-A_M-d8e1135-person"
+                    n="Vol-2-Vol-4-ADD-A_M-Arabic-Males-Laḥaya‘t-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">لحيعت</persName>
+               <persName type="lemma" xml:lang="en">Laḥaya‘t</persName>
+               <persName>–<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn86"/>
+               </persName>
+               <state type="desc">
+                  <note>Yanūf (1), Sharaḥbi’il (2) <ref corresp="#" type="relation" n="son-of">Yaqaf (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Robin, “Ḥimyar et Israel,” p. 898</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn87"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arabia</note>
+               </state>
+               <floruit notBefore="0465" notAfter="0485">465-85 CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn88"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Eleuthera-̓Ελευθερά</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Eleuthera-d1e496322" n="Eleuthera-̓Ελευθερά">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e7284-person"
+                    n="Vol-3-G_F-Greek-Females-Eleuthera-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓Ελευθερά</persName>
+               <persName type="lemma" xml:lang="en">Eleuthera</persName>
+               <persName>̓Ελευθέρας</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_F-ftn403"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Syracuse</note>
+               </state>
+               <bibl>Orsi,Römische Quartalschrift10 (1896) 31</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn404"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Sicily</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-G_F-ftn405"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

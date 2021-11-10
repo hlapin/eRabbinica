@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Livia-Livia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Livia-d1e561905" n="Livia-Livia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e24516-person"
+                    n="Vol-3-L_F-Latin-Females-Livia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Livia</persName>
+               <persName type="lemma" xml:lang="en">Livia</persName>
+               <persName>Λειβι<ref type="note" corresp="#Vol-3-L_F-ftn669"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e24156-person" type="relation" n="mother-of">Luciolus (1)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, Badenweiler, Brambach</note>
+               </state>
+               <bibl>CIJ674</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn670"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Germany</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn671"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tiridates-Tiridates</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tiridates-d1e293156" n="Tiridates-Tiridates">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-P_M-d2e2673-person"
+                    n="Vol-1-P_M-Tiridates-1">
+               <persName type="lemma">Tiridates</persName>
+               <persName type="lemma" xml:lang="en">Tiridates</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">תרדיון<ref type="note" corresp="#Vol-1-P_M-ftn196"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e14287-person" type="relation" n="father-of">Hananiah (21)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>mAb3:2 (Kasovsky,Mishnae, 1878)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-1-P_M-ftn197"/>
+                  </note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-P_M-ftn198"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-P_M-d8e585-person"
+                    n="Vol-2-P_M-Persian-Males-Tiridates-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Tiridates</persName>
+               <persName type="lemma" xml:lang="en">Tiridates</persName>
+               <persName>תרדיון<ref type="note" corresp="#Vol-2-P_M-ftn46"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e3119-person" type="relation" n="father-of">Eleazar (19)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yGit7:4, 48d (Kosovsky,Yerushalmi, 131)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-400<ref type="note" corresp="#Vol-2-P_M-ftn47"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

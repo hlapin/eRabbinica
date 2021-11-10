@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ḥudhayfa-حذيفة</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-udhayfa-d1e610128" n="Ḥudhayfa-حذيفة">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e3133-person"
+                    n="Vol-4-A_M-Arabic-Males-Ḥudhayfa-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">حذيفة</persName>
+               <persName type="lemma" xml:lang="en">Ḥudhayfa</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_M-d8e13659-person"
+                          type="relation"
+                          n="descendent-of">Yāmin (3)’s descendent</ref>,<ref type="note" corresp="#Vol-4-A_M-ftn246"/>Saʿd (5), Safwān (1), Mudlij (1) and <ref corresp="#Vol-4-A_F-d8e845-person" type="relation" n="brother-of">Laylā (1)’s brother</ref>,<ref type="note" corresp="#Vol-4-A_M-ftn247"/>Ribāb (2) and <ref corresp="#Vol-4-A_M-d8e3311-person" type="relation" n="son-of">Ḥusayl (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Masʿūdī,tanbīh, 282</bibl>
+               <state type="addl-Descr">
+                  <note>Muslim convert<ref type="note" corresp="#Vol-4-A_M-ftn248"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0632" notAfter="0632">Pre-632 CE<ref type="note" corresp="#Vol-4-A_M-ftn249"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

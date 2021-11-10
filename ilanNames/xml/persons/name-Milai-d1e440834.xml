@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Milai-מלאי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Milai-d1e440834" n="Milai-מלאי">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e17353-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Milai-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מלאי</persName>
+               <persName type="lemma" xml:lang="en">Milai</persName>
+               <persName>שמלאי<ref type="note" corresp="#Vol-2-S-H_M-ftn1089"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bShab139a<ref type="note" corresp="#Vol-2-S-H_M-ftn1090"/>(Kosowsky,Babylonico, 1018)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1091"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e17397-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Milai-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מלאי</persName>
+               <persName type="lemma" xml:lang="en">Milai</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e3253-person" type="relation" n="father-of">Eleazar (23)’s father</ref>
+                     <ref type="note" corresp="#Vol-2-S-H_M-ftn1092"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bShab139a<ref type="note" corresp="#Vol-2-S-H_M-ftn1093"/>(Kosowsky,Babylonico, 212)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1094"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

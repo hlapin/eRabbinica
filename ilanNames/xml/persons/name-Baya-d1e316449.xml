@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ba‘ya-בעיה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Baya-d1e316449" n="Ba‘ya-בעיה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e2019-person"
+                    n="Vol-1-S-H_M-Ba‘ya-1">
+               <persName type="lemma">בעיה</persName>
+               <persName type="lemma" xml:lang="en">Ba‘ya</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">מעיין<ref type="note" corresp="#Vol-1-S-H_M-ftn125"/>
+               </persName>
+               <persName xml:lang="he">בעיא<ref type="note" corresp="#Vol-1-S-H_M-ftn126"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-S-H_M-ftn127"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>yHag2:2, 77d (Kosovsky,Yerushalmi, 532)</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious,<ref type="note" corresp="#Vol-1-S-H_M-ftn128"/>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn129"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn130"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e2088-person"
+                    n="Vol-1-S-H_M-Ba‘ya-2">
+               <persName type="lemma">בעיה</persName>
+               <persName type="lemma" xml:lang="en">Ba‘ya</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">בעינן<ref type="note" corresp="#Vol-1-S-H_M-ftn131"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e19177-person" type="relation" n="son-of">Judah (76)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>S of S Zuta18:14</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-1-S-H_M-ftn132"/>
+                  </note>
+               </state>
+               <floruit notBefore="0066" notAfter="0066">66 CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e2123-person"
+                    n="Vol-1-S-H_M-Ba‘ya-3">
+               <persName type="lemma">בעיה</persName>
+               <persName type="lemma" xml:lang="en">Ba‘ya</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">בעין<ref type="note" corresp="#Vol-1-S-H_M-ftn133"/>
+               </persName>
+               <persName xml:lang="gr">Βειανοῦ<ref type="note" corresp="#Vol-1-S-H_M-ftn134"/>
+               </persName>
+               <persName xml:lang="gr">Βαϊανοῦ<ref type="note" corresp="#Vol-1-S-H_M-ftn135"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e30094-person" type="relation" n="father-of">Jonathan (66)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyri, Heber</note>
+               </state>
+               <bibl>PYadin 26, 34, 49, 50, 51, 53, 56, 57, Lifschitz,Aegyptus42 (1962) 241</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn136"/>
+                  </note>
+               </state>
+               <floruit notBefore="0131" notAfter="0135">131-5 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn137"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

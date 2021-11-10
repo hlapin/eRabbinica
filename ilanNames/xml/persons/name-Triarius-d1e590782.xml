@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Triarius-Triarius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Triarius-d1e590782" n="Triarius-Triarius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e40078-person"
+                    n="Vol-3-L_M-Latin-Males-Triarius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Triarius</persName>
+               <persName type="lemma" xml:lang="en">Triarius</persName>
+               <persName>Triario</persName>
+               <state type="desc">
+                  <note>Pacatinius (1), <ref corresp="#Vol-3-B_M-d8e33468-person" type="relation" n="son-of">Shabtai (153)’s son</ref>, aged 2<ref type="note" corresp="#Vol-3-L_M-ftn2400"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Laconia</note>
+               </state>
+               <bibl>Buonopane,Epigraphica57 (1995) 203</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2401"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Salah-צלח</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Salah-d1e604479" n="Salah-צלח">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-H_M-d8e5609-person"
+                    n="Vol-3-S-H_M-Semitic-Hebrew-Males-Salah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">צלח</persName>
+               <persName type="lemma" xml:lang="en">Salah</persName>
+               <persName>صالح<ref type="note" corresp="#Vol-3-S-H_M-ftn349"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="father-of">Joseph (5)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Cheikho,Mélanges14 (1929) 64<ref type="note" corresp="#Vol-3-S-H_M-ftn350"/>
+               </bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-S-H_M-ftn351"/>; late?<ref type="note" corresp="#Vol-3-S-H_M-ftn352"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt?<ref type="note" corresp="#Vol-3-S-H_M-ftn353"/>
+                  </note>
+               </state>
+               <floruit notBefore="0600" notAfter="0699">7thC CE<ref type="note" corresp="#Vol-3-S-H_M-ftn354"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

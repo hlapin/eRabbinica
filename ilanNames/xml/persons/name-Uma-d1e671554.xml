@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Umṣa-אומצא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Uma-d1e671554" n="Umṣa-אומצא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e8921-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Umṣa-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אומצא</persName>
+               <persName type="lemma" xml:lang="en">Umṣa</persName>
+               <persName>אמוציא/אימציא/אמוסא<ref type="note" corresp="#Vol-4-S-H_M-ftn624"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e6571-person" type="relation" n="father-of">Abbin (27)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>ShGa191</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn625"/>; nickname<ref type="note" corresp="#Vol-4-S-H_M-ftn626"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0499">5thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn627"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

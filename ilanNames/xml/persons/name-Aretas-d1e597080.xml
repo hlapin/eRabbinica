@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Aretas-Aretas</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Aretas-d1e597080" n="Aretas-Aretas">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-G_M-d8e688-person"
+                    n="Vol-3-S-G_M-Semitic-Greek-Males-Aretas-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Aretas</persName>
+               <persName type="lemma" xml:lang="en">Aretas</persName>
+               <persName>̓Αρ[ε]τᾶς<ref type="note" corresp="#Vol-3-S-G_M-ftn38"/>
+               </persName>
+               <state type="desc">
+                  <note>Gaius (25) Julius (27), Gaius (26) Julius (28) <ref corresp="#Vol-3-L_M-d8e10835-person" type="relation" n="son-of">Candidus (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira</note>
+               </state>
+               <bibl>Reynolds,CJZC13a</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-S-G_M-ftn39"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0117" notAfter="0117">Pre-117 CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

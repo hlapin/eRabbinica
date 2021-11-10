@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Abi-אבי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Abi-d1e622492" n="Abi-אבי">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_F-d8e12-person"
+                    n="Vol-4-B_F-Biblical-Females-Abi-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">אבי</persName>
+               <persName type="lemma" xml:lang="en">Abi</persName>
+               <persName>Gušnasp-Dūχt (8)’s daughter</persName>
+               <state type="findspot">
+                  <note>Incantation bowl, Iraq</note>
+               </state>
+               <bibl>Gordon,Orientalia10 (1941) 351</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-B_F-ftn2"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-B_F-ftn3"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

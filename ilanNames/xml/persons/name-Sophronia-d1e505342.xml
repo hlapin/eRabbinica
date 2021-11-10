@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sophronia-Σωφρονία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sophronia-d1e505342" n="Sophronia-Σωφρονία">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e18153-person"
+                    n="Vol-3-G_F-Greek-Females-Sophronia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Σωφρονία</persName>
+               <persName type="lemma" xml:lang="en">Sophronia</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e70431-person" type="relation" n="wife-of">Seleucus (3)’s wife</ref>, Mariam (24) and <ref corresp="#Vol-3-G_M-d8e58589-person" type="relation" n="mother-of">Nicandrus (2)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Dante Vaglieri</note>
+               </state>
+               <bibl>CIJ511</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn1033"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0499">3rd-5thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e18190-person"
+                    n="Vol-3-G_F-Greek-Females-Sophronia-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Σωφρονία</persName>
+               <persName type="lemma" xml:lang="en">Sophronia</persName>
+               <persName>Σωφρονίη<ref type="note" corresp="#Vol-3-G_F-ftn1034"/>
+               </persName>
+               <state type="desc">
+                  <note>Aelius (6) Eugenius (3) and Flavia (17) <ref corresp="#" type="relation" n="slave/adopted-of">Susanna (5)’s slave/adopted</ref>
+                     <ref type="note" corresp="#Vol-3-G_F-ftn1035"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Laodicea</note>
+               </state>
+               <bibl>MAMA1, 163</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn1036"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-G_F-ftn1037"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

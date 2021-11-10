@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Philemon-Φιλήμων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Philemon-d1e552166" n="Philemon-Φιλήμων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e77877-person"
+                    n="Vol-3-G_M-Greek-Males-Philemon-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Φιλήμων</persName>
+               <persName type="lemma" xml:lang="en">Philemon</persName>
+               <persName>Φιλήμ<ref type="note" corresp="#Vol-3-G_M-ftn4526"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e16505-person" type="relation" n="father-of">Damion (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu, Manteuffel</note>
+               </state>
+               <bibl>CPJ312</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4527"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0102" notAfter="0102">102 CE<ref type="note" corresp="#Vol-3-G_M-ftn4528"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e77915-person"
+                    n="Vol-3-G_M-Greek-Males-Philemon-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Φιλήμων</persName>
+               <persName type="lemma" xml:lang="en">Philemon</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn4529"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Ptolemais, Pacho</note>
+               </state>
+               <bibl>CJZC32c</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4530"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0117" notAfter="0117">Pre-117 CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

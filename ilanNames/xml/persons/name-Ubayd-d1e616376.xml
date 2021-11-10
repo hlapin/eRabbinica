@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ʿUbayd-عبيد</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ubayd-d1e616376" n="ʿUbayd-عبيد">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e8540-person"
+                    n="Vol-4-A_M-Arabic-Males-ʿUbayd-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">عبيد</persName>
+               <persName type="lemma" xml:lang="en">ʿUbayd</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_M-d8e521-person" type="relation" n="father-of">Asad (2)’s father</ref>, of the Banū Qurayẓa<ref type="note" corresp="#Vol-4-A_M-ftn689"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Hishām,Leben Muhammed’s, 387</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-A_M-ftn690"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0500" notAfter="0599">6thC CE<ref type="note" corresp="#Vol-4-A_M-ftn691"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e8584-person"
+                    n="Vol-4-A_M-Arabic-Males-ʿUbayd-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">عبيد</persName>
+               <persName type="lemma" xml:lang="en">ʿUbayd</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_M-d8e8073-person" type="relation" n="father-of">ʿĀmir (2)’s father</ref>, <ref corresp="#Vol-4-A_M-d8e11484-person" type="relation" n="son-of">Kaʿb (8)’s son</ref>, priest<ref type="note" corresp="#Vol-4-A_M-ftn692"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ṭabarī, iii, 2452</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-A_M-ftn693"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0499">5thC CE<ref type="note" corresp="#Vol-4-A_M-ftn694"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

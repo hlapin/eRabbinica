@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Benus-Benus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Benus-d1e557313" n="Benus-Benus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e4257-person"
+                    n="Vol-3-L_F-Latin-Females-Benus-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Benus</persName>
+               <persName type="lemma" xml:lang="en">Benus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-P_M-d8e61-person" type="relation" n="daughter-of">Abandanes (2)’s daughter</ref>, aged 17<ref type="note" corresp="#Vol-3-L_F-ftn215"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Naples, Muratori</note>
+               </state>
+               <bibl>CIJ568</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn216"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0599">5th-6thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

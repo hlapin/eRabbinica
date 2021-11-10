@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Barʾān-برأن</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Barn-d1e608265" n="Barʾān-برأن">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e1497-person"
+                    n="Vol-4-A_M-Arabic-Males-Barʾān-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">برأن</persName>
+               <persName type="lemma" xml:lang="en">Barʾān</persName>
+               <persName>בראן<ref type="note" corresp="#Vol-4-A_M-ftn126"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Mithr-Dūχt (3)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, London</note>
+               </state>
+               <bibl>Levene,CMB, M163</bibl>
+               <state type="addl-Descr">
+                  <note>Christian?<ref type="note" corresp="#Vol-4-A_M-ftn127"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-A_M-ftn128"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

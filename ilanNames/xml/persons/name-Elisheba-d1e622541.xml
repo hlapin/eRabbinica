@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Elishebaʿ-אלישבע</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Elisheba-d1e622541" n="Elishebaʿ-אלישבע">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_F-d8e60-person"
+                    n="Vol-4-B_F-Biblical-Females-Elishebaʿ-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">אלישבע</persName>
+               <persName type="lemma" xml:lang="en">Elishebaʿ</persName>
+               <persName>אילישבא<ref type="note" corresp="#Vol-4-B_F-ftn5"/>
+               </persName>
+               <persName>/אילישבה<ref type="note" corresp="#Vol-4-B_F-ftn6"/>
+               </persName>
+               <state type="desc">
+                  <note>Zāδān (1), <ref corresp="#Vol-4-I_M-d8e10352-person" type="relation" n="mother-of">Sāpōr (1)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowls, Nippur, Gordon</note>
+               </state>
+               <bibl>1. Isbell, no. 50; 2. 51</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-B_F-ftn7"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-B_F-ftn8"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

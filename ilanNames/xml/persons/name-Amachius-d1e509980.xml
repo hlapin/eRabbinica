@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Amachius-̓Αμάχιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Amachius-d1e509980" n="Amachius-̓Αμάχιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e5381-person"
+                    n="Vol-3-G_M-Greek-Males-Amachius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αμάχιος</persName>
+               <persName type="lemma" xml:lang="en">Amachius</persName>
+               <persName>̓Αμάχις<ref type="note" corresp="#Vol-3-G_M-ftn316"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vigna Randanini, Garrucci</note>
+               </state>
+               <bibl>CIJ86</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn317"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e5419-person"
+                    n="Vol-3-G_M-Greek-Males-Amachius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αμάχιος</persName>
+               <persName type="lemma" xml:lang="en">Amachius</persName>
+               <persName>̓Αμαχίου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e22752-person" type="relation" n="father-of">Justus (22)’s father</ref>, of Catania<ref type="note" corresp="#Vol-3-G_M-ftn318"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Villa Torlonia (Rome), Fasola</note>
+               </state>
+               <bibl>JIWE2, 515</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn319"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Sicily</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e5460-person"
+                    n="Vol-3-G_M-Greek-Males-Amachius-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αμάχιος</persName>
+               <persName type="lemma" xml:lang="en">Amachius</persName>
+               <persName>̓Αμαχίου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e32982-person" type="relation" n="father-of">Shabtai (140)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+               </state>
+               <bibl>IJO2, 14:A18</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn320"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

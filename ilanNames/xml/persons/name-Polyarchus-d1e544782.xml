@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Polyarchus-Πολύαρχος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Polyarchus-d1e544782"
+                     n="Polyarchus-Πολύαρχος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e65498-person"
+                    n="Vol-3-G_M-Greek-Males-Polyarchus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πολύαρχος</persName>
+               <persName type="lemma" xml:lang="en">Polyarchus</persName>
+               <persName>Πολυάρχω</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_F-d8e6111-person" type="relation" n="father-of">Dosithea (4)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira, Applebaum</note>
+               </state>
+               <bibl>CJZC58a</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3777"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0074" notAfter="0005">74/5 CE<ref type="note" corresp="#Vol-3-G_M-ftn3778"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e65530-person"
+                    n="Vol-3-G_M-Greek-Males-Polyarchus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πολύαρχος</persName>
+               <persName type="lemma" xml:lang="en">Polyarchus</persName>
+               <persName>Πολυάρχω</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_F-d8e5333-person" type="relation" n="father-of">Demetria (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira, Reynolds</note>
+               </state>
+               <bibl>CJZC58c</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3779"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit>20s CE<ref type="note" corresp="#Vol-3-G_M-ftn3780"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

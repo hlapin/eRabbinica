@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Zaza-זזא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Zaza-d1e47192" n="Zaza-זזא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e9669-person"
+                    n="Vol-1-B_M-Zaza-1">
+               <persName type="lemma">זזא</persName>
+               <persName type="lemma" xml:lang="en">Zaza</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>yBQ6:7, 5c (Kosovsky,Yerushalmi, 210)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname?<ref type="note" corresp="#Vol-1-B_M-ftn687"/>
+                  </note>
+               </state>
+               <floruit notBefore="0200" notAfter="0200">Pre-200 CE<ref type="note" corresp="#Vol-1-B_M-ftn688"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_M-d8e9457-person"
+                    n="Vol-2-B_M-Biblical-Males-Zaza-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">זזא</persName>
+               <persName type="lemma" xml:lang="en">Zaza</persName>
+               <persName>זוזי<ref type="note" corresp="#Vol-2-B_M-ftn647"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e9413-person" type="relation" n="father-of">Zebadiah (11)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Kafra<ref type="note" corresp="#Vol-2-B_M-ftn648"/>
+                  </note>
+               </state>
+               <bibl>Ilan,Ancient Synagogues, 160</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-B_M-ftn649"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-B_M-d8e2170-person"
+                    n="Vol-2-Vol-1-ADD-B_M-Biblical-Males-Zaza-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">זזא</persName>
+               <persName type="lemma" xml:lang="en">Zaza</persName>
+               <persName>זיזא<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn164"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn165"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yBQ6:7, 5c (Kosovsky,Yerushalmi, 210)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn166"/>
+                  </note>
+               </state>
+               <floruit>Pre-200<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn167"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

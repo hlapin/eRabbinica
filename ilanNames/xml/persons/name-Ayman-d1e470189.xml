@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ayman-ايمن</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ayman-d1e470189" n="Ayman-ايمن">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-4-ADD-A_M-d8e326-person"
+                    n="Vol-2-Vol-4-ADD-A_M-Arabic-Males-Ayman-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ايمن</persName>
+               <persName type="lemma" xml:lang="en">Ayman</persName>
+               <persName>אימאן<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn24"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn25"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Robin, “Ḥimyar et Israel,” p. 898</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn26"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Arabia</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0440">400-40 CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn27"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

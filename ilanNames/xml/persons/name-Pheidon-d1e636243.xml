@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Pheidon-Φείδων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Pheidon-d1e636243" n="Pheidon-Φείδων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-G_M-d8e1922-person"
+                    n="Vol-4-G_M-Greek-Males-Pheidon-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Φείδων</persName>
+               <persName type="lemma" xml:lang="en">Pheidon</persName>
+               <persName>Φείδωνος</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Jerusalem, Abel</note>
+               </state>
+               <bibl>CIJ1238</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-G_M-ftn147"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra<ref type="note" corresp="#Vol-4-G_M-ftn148"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-4-G_M-ftn149"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

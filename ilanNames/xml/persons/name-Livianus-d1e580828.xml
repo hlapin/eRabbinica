@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Livianus-Livianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Livianus-d1e580828" n="Livianus-Livianus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e23232-person"
+                    n="Vol-3-L_M-Latin-Males-Livianus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Livianus</persName>
+               <persName type="lemma" xml:lang="en">Livianus</persName>
+               <persName>לויאנוס<ref type="note" corresp="#Vol-3-L_M-ftn1377"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bHul87a (Kosowsky,Babylonico, 980)</bibl>
+               <state type="addl-Descr">
+                  <note>Christian?<ref type="note" corresp="#Vol-3-L_M-ftn1378"/>Family name?<ref type="note" corresp="#Vol-3-L_M-ftn1379"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0200">Pre-200 CE<ref type="note" corresp="#Vol-3-L_M-ftn1380"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e23276-person"
+                    n="Vol-3-L_M-Latin-Males-Livianus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Livianus</persName>
+               <persName type="lemma" xml:lang="en">Livianus</persName>
+               <persName>Libianus<ref type="note" corresp="#Vol-3-L_M-ftn1381"/>
+               </persName>
+               <state type="desc">
+                  <note>Sallus (1), Mariam (40) and <ref corresp="#" type="relation" n="brother-of">Judah (56)’s brother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Sanders</note>
+               </state>
+               <bibl>JIWE2, 553</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1382"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

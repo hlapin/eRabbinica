@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Damon-Δάμων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Damon-d1e214346" n="Damon-Δάμων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e4674-person"
+                    n="Vol-1-G_M-Damon-1">
+               <persName type="lemma">Δάμων</persName>
+               <persName type="lemma" xml:lang="en">Damon</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Δάμωνος<ref type="note" corresp="#Vol-1-G_M-ftn330"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_F-d2e3418-person" type="relation" n="son-of">Sabatis (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Kidron, Sukenik, 1942</note>
+               </state>
+               <bibl>CJO, no. 98</bibl>
+               <state type="addl-Descr">
+                  <note>Cyrene<ref type="note" corresp="#Vol-1-G_M-ftn331"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn332"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e4233-person"
+                    n="Vol-2-G_M-Greek-Males-Damon-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Δάμων</persName>
+               <persName type="lemma" xml:lang="en">Damon</persName>
+               <persName>Λαμων<ref type="note" corresp="#Vol-2-G_M-ftn293"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Oil lamp, Lahav<ref type="note" corresp="#Vol-2-G_M-ftn294"/>
+                  </note>
+               </state>
+               <bibl>Gofna &amp; Sussman,Atiqot7 (1974-HS) 74</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn295"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-G_M-ftn296"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e16764-person"
+                    n="Vol-3-G_M-Greek-Males-Damon-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Δάμων</persName>
+               <persName type="lemma" xml:lang="en">Damon</persName>
+               <persName>Δάμωνος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_F-d8e6245-person" type="relation" n="son-of">Shabtit (54)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Kidron Valley (Jerusalem), Sukenik</note>
+               </state>
+               <bibl>CJO98</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn979"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica<ref type="note" corresp="#Vol-3-G_M-ftn980"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-3-G_M-ftn981"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

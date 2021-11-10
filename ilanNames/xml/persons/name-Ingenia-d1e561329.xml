@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ingenia-Ingenia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ingenia-d1e561329" n="Ingenia-Ingenia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e22517-person"
+                    n="Vol-3-L_F-Latin-Females-Ingenia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ingenia</persName>
+               <persName type="lemma" xml:lang="en">Ingenia</persName>
+               <persName>Ingenua<ref type="note" corresp="#Vol-3-L_F-ftn559"/>
+               </persName>
+               <state type="desc">
+                  <note>Claudia (5) <ref corresp="#Vol-3-L_F-d8e27227-person" type="relation" n="sister-of">Maximilla (1)’s sister</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Alberti-Irsa, Mommsen</note>
+               </state>
+               <bibl>CIJ64*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn560"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Pannonia</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn561"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

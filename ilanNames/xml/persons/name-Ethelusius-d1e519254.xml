@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ethelusius-̓Εθελούσιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ethelusius-d1e519254"
+                     n="Ethelusius-̓Εθελούσιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e24705-person"
+                    n="Vol-3-G_M-Greek-Males-Ethelusius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Εθελούσιος</persName>
+               <persName type="lemma" xml:lang="en">Ethelusius</persName>
+               <persName>̓Εθε[λ]άσιος<ref type="note" corresp="#Vol-3-G_M-ftn1461"/>
+               </persName>
+               <state type="desc">
+                  <note>Aurelius (33), <ref corresp="#Vol-3-G_M-d8e54392-person" type="relation" n="son-of">Macedonius (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Nicomedia, Pogodine &amp; Wulf</note>
+               </state>
+               <bibl>CIJ798</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1462"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

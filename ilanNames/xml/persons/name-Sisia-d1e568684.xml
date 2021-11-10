@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sisia-Sisia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sisia-d1e568684" n="Sisia-Sisia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e32930-person"
+                    n="Vol-3-L_F-Latin-Females-Sisia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Sisia</persName>
+               <persName type="lemma" xml:lang="en">Sisia</persName>
+               <persName>Sissoi<ref type="note" corresp="#Vol-3-L_F-ftn1168"/>
+               </persName>
+               <state type="desc">
+                  <note>Julia (29), Julius (32) <ref corresp="#Vol-3-L_M-d8e11567-person" type="relation" n="mother-of">Ciceronius (1)’s mother</ref>, <ref corresp="#Vol-3-L_M-d8e10657-person" type="relation" n="wife-of">Calendinus (1)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Mauritania</note>
+               </state>
+               <bibl>Le Bohec,Ant. Afr.17 (1981) no. 77</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn1169"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>North Africa</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Demo-Δημώ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Demo-d1e455433" n="Demo-Δημώ">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-G_F-d8e380-person"
+                    n="Vol-2-Vol-1-ADD-G_F-Greek-Females-Demo-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Δημώ</persName>
+               <persName type="lemma" xml:lang="en">Demo</persName>
+               <persName>Beloved of Meleager<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn23"/>
+               </persName>
+               <state type="findspot">
+                  <note>Meleager,GLAJJ1, 42</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn24"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0199" notAfter="-0001">2nd-1stC BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn25"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e5417-person"
+                    n="Vol-3-G_F-Greek-Females-Demo-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Δημώ</persName>
+               <persName type="lemma" xml:lang="en">Demo</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e39809-person"
+                          type="relation"
+                          n="daughter-of">Titianus (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Larissa, Oehler</note>
+               </state>
+               <bibl>CIJ700</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn303"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0399">1st-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e5457-person"
+                    n="Vol-3-G_F-Greek-Females-Demo-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Δημώ</persName>
+               <persName type="lemma" xml:lang="en">Demo</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Visinia (1), Publius (2) Rutilus (1) <ref corresp="#" type="relation" n="wife-of">Joseph (84)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teos, Pottier &amp; Hauvette-Besnault</note>
+               </state>
+               <bibl>CIJ744</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn304"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

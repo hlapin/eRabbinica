@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Archagathus-̓Αρχάγαθος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Archagathus-d1e513500"
+                     n="Archagathus-̓Αρχάγαθος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e12776-person"
+                    n="Vol-3-G_M-Greek-Males-Archagathus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αρχάγαθος</persName>
+               <persName type="lemma" xml:lang="en">Archagathus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn751"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Suida, kappa 1165</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn752"/>,</note>
+               </state>
+               <state type="provenance">
+                  <note>Sicily<ref type="note" corresp="#Vol-3-G_M-ftn753"/>
+                  </note>
+               </state>
+               <floruit notBefore="0117" notAfter="0138">117-138 CE<ref type="note" corresp="#Vol-3-G_M-ftn754"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e12824-person"
+                    n="Vol-3-G_M-Greek-Males-Archagathus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αρχάγαθος</persName>
+               <persName type="lemma" xml:lang="en">Archagathus</persName>
+               <persName>̓Αρχαγάθου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_F-d8e4239-person" type="relation" n="father-of">Berenice (3)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Heracleopolis</note>
+               </state>
+               <bibl>PC29 (2001) 9</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn755"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0133" notAfter="-0002">133/2 BCE<ref type="note" corresp="#Vol-3-G_M-ftn756"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

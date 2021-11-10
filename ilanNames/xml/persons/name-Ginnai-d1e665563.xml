@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ginnai-Ginnai</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ginnai-d1e665563" n="Ginnai-Ginnai">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-G_M-d8e16-person"
+                    n="Vol-4-S-G_M-Semitic-Greek-Males-Ginnai-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ginnai</persName>
+               <persName type="lemma" xml:lang="en">Ginnai</persName>
+               <persName>Ginn[aei]<ref type="note" corresp="#Vol-4-S-G_M-ftn2"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Military roster papyrus, Dura-Europos</note>
+               </state>
+               <bibl>Welles et al.Dura-Europos(1959) 100, xxvii, 101, i</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-G_M-ftn3"/>Second Name</note>
+               </state>
+               <state type="provenance">
+                  <note>Dura-Europos</note>
+               </state>
+               <floruit notBefore="0256" notAfter="0256">Pre-256 CE<ref type="note" corresp="#Vol-4-S-G_M-ftn4"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

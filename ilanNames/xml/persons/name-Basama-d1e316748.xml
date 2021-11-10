@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Basama-בשמא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Basama-d1e316748" n="Basama-בשמא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e2285-person"
+                    n="Vol-1-S-H_M-Basama-1">
+               <persName type="lemma">בשמא</persName>
+               <persName type="lemma" xml:lang="en">Basama</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">בשמ[א]<ref type="note" corresp="#Vol-1-S-H_M-ftn145"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e21445-person" type="relation" n="father-of">Judah (170)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Jar, Masada</note>
+               </state>
+               <bibl>Mas no. 471</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn146"/>
+                  </note>
+               </state>
+               <floruit notBefore="0073" notAfter="0073">Pre-73 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn147"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

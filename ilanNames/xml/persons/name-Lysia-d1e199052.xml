@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Lysia-Λυσίας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Lysia-d1e199052" n="Lysia-Λυσίας">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_F-d2e3011-person"
+                    n="Vol-1-G_F-Lysia-1">
+               <persName type="lemma">Λυσίας</persName>
+               <persName type="lemma" xml:lang="en">Lysia</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="gr">Λγсια<ref type="note" corresp="#Vol-1-G_F-ftn209"/>
+               </persName>
+               <persName xml:lang="checkme">Assia<ref type="note" corresp="#Vol-1-G_F-ftn210"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-G_F-ftn211"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Morte Iosephi (Lagarde,Aegyptiaca, 1)</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-1-G_F-ftn212"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0099" notAfter="-0001">1stCBCE<ref type="note" corresp="#Vol-1-G_F-ftn213"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

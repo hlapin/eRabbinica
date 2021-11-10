@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Neoptolemus-Νεοπτόλεμος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Neoptolemus-d1e539323"
+                     n="Neoptolemus-Νεοπτόλεμος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e58307-person"
+                    n="Vol-3-G_M-Greek-Males-Neoptolemus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Νεοπτόλεμος</persName>
+               <persName type="lemma" xml:lang="en">Neoptolemus</persName>
+               <persName>Νεοπτολέμου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e74278-person" type="relation" n="father-of">Sostratus (2)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Crocodilopolis, Wilcken</note>
+               </state>
+               <bibl>CPJ23</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3350"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0182" notAfter="-0182">182 BCE<ref type="note" corresp="#Vol-3-G_M-ftn3351"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

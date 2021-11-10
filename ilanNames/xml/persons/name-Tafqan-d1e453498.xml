@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tafqan-תפקן</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tafqan-d1e453498" n="Tafqan-תפקן">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e27467-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Tafqan-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">תפקן</persName>
+               <persName type="lemma" xml:lang="en">Tafqan</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-S-H_M-ftn1718"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yKet10:5, 34a (Kosovsky,Yerushalmi, 684)</bibl>
+               <state type="addl-Descr">
+                  <note>Family<ref type="note" corresp="#Vol-2-S-H_M-ftn1719"/>
+                  </note>
+               </state>
+               <floruit>4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn1720"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

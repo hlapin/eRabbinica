@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - BahrāmDūχt-BahrāmDūχt</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-BahrmDt-d1e638053" n="BahrāmDūχt-BahrāmDūχt">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e1524-person"
+                    n="Vol-4-I_F-Iranian-Females-BahrāmDūχt-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">BahrāmDūχt</persName>
+               <persName type="lemma" xml:lang="en">BahrāmDūχt</persName>
+               <persName>בהרנדוך<ref type="note" corresp="#Vol-4-I_F-ftn128"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="daughter-of">Nēwān-Dūχt (3)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Borsippa, Layard</note>
+               </state>
+               <bibl>CAMIBBM013A</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn129"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn130"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e1564-person"
+                    n="Vol-4-I_F-Iranian-Females-BahrāmDūχt-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">BahrāmDūχt</persName>
+               <persName type="lemma" xml:lang="en">BahrāmDūχt</persName>
+               <persName>בהרנדוך<ref type="note" corresp="#Vol-4-I_F-ftn131"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_F-d8e5739-person" type="relation" n="daughter-of">Itie (4)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl</note>
+               </state>
+               <bibl>Borisov,EV19 (1969) 10</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn132"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn133"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

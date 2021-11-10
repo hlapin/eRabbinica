@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Seponius-Seponius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Seponius-d1e588909" n="Seponius-Seponius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e37508-person"
+                    n="Vol-3-L_M-Latin-Males-Seponius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Seponius</persName>
+               <persName type="lemma" xml:lang="en">Seponius</persName>
+               <persName>[Σ]έππονος<ref type="note" corresp="#Vol-3-L_M-ftn2240"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn2241"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Tomis,<ref type="note" corresp="#Vol-3-L_M-ftn2242"/>Ferrua</note>
+               </state>
+               <bibl>CIJ681b</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2243"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Moesia / Egypt</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn2244"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hyperechius-̔Υπερέχιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hyperechius-d1e389371"
+                     n="Hyperechius-̔Υπερέχιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e17813-person"
+                    n="Vol-2-G_M-Greek-Males-Hyperechius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̔Υπερέχιος</persName>
+               <persName type="lemma" xml:lang="en">Hyperechius</persName>
+               <persName>̔Υπερέχις<ref type="note" corresp="#Vol-2-G_M-ftn1161"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Beth She‘arim,catacomb 19</note>
+               </state>
+               <bibl>BS2:192</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_M-ftn1162"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

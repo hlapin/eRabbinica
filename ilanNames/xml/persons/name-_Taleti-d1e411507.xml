@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Θαλεθι Taleti-Θαλεθι Taleti</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Taleti-d1e411507"
+                     n="Θαλεθι Taleti-Θαλεθι Taleti">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_F-d8e275-person"
+                    n="Vol-2-S-G_F-Semitic-Greek-Females-Θαλεθι Taleti-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Θαλεθι Taleti</persName>
+               <persName type="lemma" xml:lang="en">Θαλεθι Taleti</persName>
+               <persName>Θαλεθθι<ref type="note" corresp="#Vol-2-S-G_F-ftn19"/>
+               </persName>
+               <state type="desc">
+                  <note>Mara (1), <ref corresp="#Vol-2-B_M-d8e45822-person"
+                          type="relation"
+                          n="daughter-of">Samuel (65)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Tiberias</note>
+               </state>
+               <bibl>Lifschitz,Euphrosyne6 (1974) 24</bibl>
+               <state type="addl-Descr">
+                  <note>Second name</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-S-G_F-ftn20"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

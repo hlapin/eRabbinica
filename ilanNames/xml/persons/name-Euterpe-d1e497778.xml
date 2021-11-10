@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Euterpe-Ε̓τέρπη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Euterpe-d1e497778" n="Euterpe-Ε̓τέρπη">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e9223-person"
+                    n="Vol-3-G_F-Greek-Females-Euterpe-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ε̓τέρπη</persName>
+               <persName type="lemma" xml:lang="en">Euterpe</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e7792-person" type="relation" n="wife-of">Ptollas (2)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Arsinoe, Wessely</note>
+               </state>
+               <bibl>CPJ421</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn511"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0073" notAfter="0073">73 CE<ref type="note" corresp="#Vol-3-G_F-ftn512"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e9254-person"
+                    n="Vol-3-G_F-Greek-Females-Euterpe-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ε̓τέρπη</persName>
+               <persName type="lemma" xml:lang="en">Euterpe</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e42611-person"
+                          type="relation"
+                          n="daughter-of">Theodotus (51)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira, Pacho</note>
+               </state>
+               <bibl>CJZC68</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn513"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit>Pre-117 CE?</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

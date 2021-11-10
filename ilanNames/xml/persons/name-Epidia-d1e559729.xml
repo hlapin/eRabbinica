@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Epidia-Epidia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Epidia-d1e559729" n="Epidia-Epidia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e7418-person"
+                    n="Vol-3-L_F-Latin-Females-Epidia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Epidia</persName>
+               <persName type="lemma" xml:lang="en">Epidia</persName>
+               <persName>Epidie<ref type="note" corresp="#Vol-3-L_F-ftn405"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_F-ftn406"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Lucanie, Diehl</note>
+               </state>
+               <bibl>CIJ56*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn407"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn408"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

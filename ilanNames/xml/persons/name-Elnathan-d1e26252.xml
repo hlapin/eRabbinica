@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Elnathan-אלנתן</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Elnathan-d1e26252" n="Elnathan-אלנתן">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e1633-person"
+                    n="Vol-1-B_M-Elnathan-1">
+               <persName type="lemma">אלנתן</persName>
+               <persName type="lemma" xml:lang="en">Elnathan</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">אלינתן<ref type="note" corresp="#Vol-1-B_M-ftn123"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="father-of">Nehonia (3)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>mEd6:2 (Kasovsky,Mishnae, 162)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-B_M-ftn124"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e1661-person"
+                    n="Vol-1-B_M-Elnathan-2">
+               <persName type="lemma">אלנתן</persName>
+               <persName type="lemma" xml:lang="en">Elnathan</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Gezer</note>
+               </state>
+               <bibl>Seger,BASOR264 (1986) 58</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE<ref type="note" corresp="#Vol-1-B_M-ftn125"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-B_M-d8e415-person"
+                    n="Vol-2-Vol-1-ADD-B_M-Biblical-Males-Elnathan-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אלנתן</persName>
+               <persName type="lemma" xml:lang="en">Elnathan</persName>
+               <persName>אלנתנ<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn30"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Mt. Gerizim</note>
+               </state>
+               <bibl>Gerizim5</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn31"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0111" notAfter="-0111">Pre-110 BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn32"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

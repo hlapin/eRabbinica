@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Gozlon-גוזלון</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Gozlon-d1e428949" n="Gozlon-גוזלון">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e8341-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Gozlon-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">גוזלון</persName>
+               <persName type="lemma" xml:lang="en">Gozlon</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e5130-person" type="relation" n="father-of">Bebai (4)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yBM2:5, 8c (Kosovsky,Yerushalmi, 147)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn514"/>
+                  </note>
+               </state>
+               <floruit>Post-247<ref type="note" corresp="#Vol-2-S-H_M-ftn515"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Barikh Mariya-בריך מריא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Barikh_Mariya-d1e673698"
+                     n="Barikh Mariya-בריך מריא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e12182-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Barikh Mariya-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">בריך מריא</persName>
+               <persName type="lemma" xml:lang="en">Barikh Mariya</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Rašn-Dūχt (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowls, Louvre, Gordon</note>
+               </state>
+               <bibl>1. Isbell, no. 41, 2. no. 42</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn845"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia Pre-7thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn846"/>
+                  </note>
+               </state>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

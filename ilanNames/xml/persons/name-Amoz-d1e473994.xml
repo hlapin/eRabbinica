@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Amoz-אמוץ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Amoz-d1e473994" n="Amoz-אמוץ">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_M-d8e3114-person"
+                    n="Vol-3-B_M-Biblical-Males-Amoz-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אמוץ</persName>
+               <persName type="lemma" xml:lang="en">Amoz</persName>
+               <persName>אמץ<ref type="note" corresp="#Vol-3-B_M-ftn219"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e9163-person" type="relation" n="father-of">Menahem (5)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Phanagoria,<ref type="note" corresp="#Vol-3-B_M-ftn220"/>Chwolson</note>
+               </state>
+               <bibl>IJO1, App6</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-B_M-ftn221"/>; late<ref type="note" corresp="#Vol-3-B_M-ftn222"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Bosphoran Kingdom</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0399">4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

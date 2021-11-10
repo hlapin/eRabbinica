@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hananel-חננאל</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hananel-d1e56176" n="Hananel-חננאל">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e13586-person"
+                    n="Vol-1-B_M-Hananel-1">
+               <persName type="lemma">חננאל</persName>
+               <persName type="lemma" xml:lang="en">Hananel</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">̓Ανάνηλος<ref type="note" corresp="#Vol-1-B_M-ftn987"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-B_M-ftn988"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>AJ15:22 (Schalit,NB, 11)</bibl>
+               <state type="addl-Descr">
+                  <note>Babylonia<ref type="note" corresp="#Vol-1-B_M-ftn989"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0037" notAfter="-0037">37 BCE<ref type="note" corresp="#Vol-1-B_M-ftn990"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

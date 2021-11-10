@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tertullus-Tertullus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tertullus-d1e288012" n="Tertullus-Tertullus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e5177-person"
+                    n="Vol-1-L_M-Tertullus-1">
+               <persName type="lemma">Tertullus</persName>
+               <persName type="lemma" xml:lang="en">Tertullus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Τέρτυλλος<ref type="note" corresp="#Vol-1-L_M-ftn350"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="accuser-of">Paul (1)’s accuser</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Acts 24:1 (VKGNT 1249)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0057" notAfter="0057">57 CE<ref type="note" corresp="#Vol-1-L_M-ftn351"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e39192-person"
+                    n="Vol-3-L_M-Latin-Males-Tertullus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Tertullus</persName>
+               <persName type="lemma" xml:lang="en">Tertullus</persName>
+               <persName>Τέρτυλλος</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn2346"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+               </state>
+               <bibl>IJO2, 14:B35</bibl>
+               <state type="addl-Descr">
+                  <note>God-fearer<ref type="note" corresp="#Vol-3-L_M-ftn2347"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e39233-person"
+                    n="Vol-3-L_M-Latin-Males-Tertullus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Tertullus</persName>
+               <persName type="lemma" xml:lang="en">Tertullus</persName>
+               <persName>Τέρτυλλος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e10330-person" type="relation" n="father-of">Argurion (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Bahcekonak</note>
+               </state>
+               <bibl>Mareck,EpA32 (2000) 138</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2348"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0237" notAfter="0238">237/8 CE<ref type="note" corresp="#Vol-3-L_M-ftn2349"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

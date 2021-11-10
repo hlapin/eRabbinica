@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Heliodorus-̔Ηλιόδωρος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Heliodorus-d1e461924"
+                     n="Heliodorus-̔Ηλιόδωρος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-G_M-d8e2306-person"
+                    n="Vol-2-Vol-1-ADD-G_M-Greek-Males-Heliodorus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̔Ηλιόδωρος</persName>
+               <persName type="lemma" xml:lang="en">Heliodorus</persName>
+               <persName>̔Ηλιοδώρου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="father-of">Simotera (1)’s father</ref>, of Sidon<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn159"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Alexandria,<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn160"/>Clermont-Ganneau</note>
+               </state>
+               <bibl>CIJ1430</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn161"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

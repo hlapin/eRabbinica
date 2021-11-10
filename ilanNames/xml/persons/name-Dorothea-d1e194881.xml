@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Dorothea-Δωροθέα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Dorothea-d1e194881" n="Dorothea-Δωροθέα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_F-d2e1343-person"
+                    n="Vol-1-G_F-Dorothea-1">
+               <persName type="lemma">Δωροθέα</persName>
+               <persName type="lemma" xml:lang="en">Dorothea</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="gr">Δωροθέαν<ref type="note" corresp="#Vol-1-G_F-ftn95"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="daughter-of">Antigone (3)’s daughter</ref>, Freedwoman<ref type="note" corresp="#Vol-1-G_F-ftn96"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Delphi, 1863</note>
+               </state>
+               <bibl>CIJ, no. 709</bibl>
+               <state type="addl-Descr">
+                  <note>Palestine?<ref type="note" corresp="#Vol-1-G_F-ftn97"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0157" notAfter="-0157">157 BCE<ref type="note" corresp="#Vol-1-G_F-ftn98"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-G_F-d8e551-person"
+                    n="Vol-2-Vol-1-ADD-G_F-Greek-Females-Dorothea-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Δωροθέα</persName>
+               <persName type="lemma" xml:lang="en">Dorothea</persName>
+               <persName>Δωροθεας</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Jehoshaphat Valley</note>
+               </state>
+               <bibl>Séjourné,RB6 (1897) 131</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn34"/>
+                  </note>
+               </state>
+               <floruit>Pre-70 CE?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn35"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

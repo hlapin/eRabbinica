@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Timocrates-Τιμοκράτης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Timocrates-d1e550527"
+                     n="Timocrates-Τιμοκράτης">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e75693-person"
+                    n="Vol-3-G_M-Greek-Males-Timocrates-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Τιμοκράτης</persName>
+               <persName type="lemma" xml:lang="en">Timocrates</persName>
+               <persName>Τιμοκράτους</persName>
+               <state type="desc">
+                  <note>Apion (1) and <ref corresp="#Vol-3-B_F-d8e1502-person" type="relation" n="son-of">Isacous (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Theadelphia, Vitelli</note>
+               </state>
+               <bibl>CPJ455</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4399"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0137" notAfter="0137">137 CE<ref type="note" corresp="#Vol-3-G_M-ftn4400"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e75725-person"
+                    n="Vol-3-G_M-Greek-Males-Timocrates-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Τιμοκράτης</persName>
+               <persName type="lemma" xml:lang="en">Timocrates</persName>
+               <persName>Τειμοκρ<ref type="note" corresp="#Vol-3-G_M-ftn4401"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e19183-person" type="relation" n="son-of">Diodotus (5)’s son</ref>, aged 4<ref type="note" corresp="#Vol-3-G_M-ftn4402"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira, Oliviero</note>
+               </state>
+               <bibl>CJZC44j</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4403"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0076" notAfter="0007">76/7 CE<ref type="note" corresp="#Vol-3-G_M-ftn4404"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Cleodemus-Κλεόδημος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Cleodemus-d1e533159" n="Cleodemus-Κλεόδημος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e50541-person"
+                    n="Vol-3-G_M-Greek-Males-Cleodemus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Κλεόδημος</persName>
+               <persName type="lemma" xml:lang="en">Cleodemus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn2907"/>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn2908"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>AJ1:240 (Schalit,NB, 75)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn2909"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>North Africa?<ref type="note" corresp="#Vol-3-G_M-ftn2910"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0200" notAfter="-0050">200-50 BCE<ref type="note" corresp="#Vol-3-G_M-ftn2911"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

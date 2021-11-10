@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sextus-Sextus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sextus-d1e589176" n="Sextus-Sextus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e38106-person"
+                    n="Vol-3-L_M-Latin-Males-Sextus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Sextus</persName>
+               <persName type="lemma" xml:lang="en">Sextus</persName>
+               <persName>Sex<ref type="note" corresp="#Vol-3-L_M-ftn2280"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn2281"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vigna Randanini, De Rossi</note>
+               </state>
+               <bibl>CIJ12*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2282"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e38146-person"
+                    n="Vol-3-L_M-Latin-Males-Sextus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Sextus</persName>
+               <persName type="lemma" xml:lang="en">Sextus</persName>
+               <persName>Sex<ref type="note" corresp="#Vol-3-L_M-ftn2283"/>
+               </persName>
+               <state type="desc">
+                  <note>Pompeius (4) Eumenes (1), Pompeia (2) <ref corresp="#Vol-3-L_F-d8e8212-person" type="relation" n="husband-of">Felicula (1)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vigna Randanini, De Rossi</note>
+               </state>
+               <bibl>CIJ12*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn2284"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e38184-person"
+                    n="Vol-3-L_M-Latin-Males-Sextus-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Sextus</persName>
+               <persName type="lemma" xml:lang="en">Sextus</persName>
+               <persName>Σέξτου</persName>
+               <state type="desc">
+                  <note>Marcus (34) Titius (3) <ref corresp="#Vol-3-L_M-d8e911-person" type="relation" n="father-of">Aemilius (4)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Politeuma inscription, Berenice, Roux</note>
+               </state>
+               <bibl>CJZC71</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn2285"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0024" notAfter="0005">24/5 CE<ref type="note" corresp="#Vol-3-L_M-ftn2286"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

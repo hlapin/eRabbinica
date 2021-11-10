@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Numicius-Numicius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Numicius-d1e284818" n="Numicius-Numicius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e3982-person"
+                    n="Vol-1-L_M-Numicius-1">
+               <persName type="lemma">Numicius</persName>
+               <persName type="lemma" xml:lang="en">Numicius</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Νομικός<ref type="note" corresp="#Vol-1-L_M-ftn273"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e36786-person" type="relation" n="father-of">Yoezer (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ2:628 (Schalit,NB, -)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0066" notAfter="0066">66 CE<ref type="note" corresp="#Vol-1-L_M-ftn274"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

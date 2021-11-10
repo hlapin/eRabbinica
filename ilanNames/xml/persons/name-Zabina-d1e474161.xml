@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Zabina-זבינא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Zabina-d1e474161" n="Zabina-זבינא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_M-d8e5411-person"
+                    n="Vol-3-B_M-Biblical-Males-Zabina-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">זבינא</persName>
+               <persName type="lemma" xml:lang="en">Zabina</persName>
+               <persName>Ζαβινᾶς<ref type="note" corresp="#Vol-3-B_M-ftn378"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e78448-person" type="relation" n="son-of">Philippus (12)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Hermopolis, Jouguet</note>
+               </state>
+               <bibl>JIGRE155:31</bibl>
+               <state type="addl-Descr">
+                  <note>Idumean<ref type="note" corresp="#Vol-3-B_M-ftn379"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0079" notAfter="-0079">79 BCE<ref type="note" corresp="#Vol-3-B_M-ftn380"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_M-d8e5449-person"
+                    n="Vol-3-B_M-Biblical-Males-Zabina-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">זבינא</persName>
+               <persName type="lemma" xml:lang="en">Zabina</persName>
+               <persName>Ζαβινᾶς<ref type="note" corresp="#Vol-3-B_M-ftn381"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e17260-person" type="relation" n="son-of">Demas (6)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Hermopolis, Jouguet</note>
+               </state>
+               <bibl>JIGRE155:222</bibl>
+               <state type="addl-Descr">
+                  <note>Idumean<ref type="note" corresp="#Vol-3-B_M-ftn382"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0079" notAfter="-0079">79 BCE<ref type="note" corresp="#Vol-3-B_M-ftn383"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

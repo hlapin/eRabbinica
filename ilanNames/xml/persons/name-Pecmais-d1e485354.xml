@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Pecmais-Pecmais</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Pecmais-d1e485354" n="Pecmais-Pecmais">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e5792-person"
+                    n="Vol-3-E_M-Egyptian-Males-Pecmais-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Pecmais</persName>
+               <persName type="lemma" xml:lang="en">Pecmais</persName>
+               <persName>Πεκμήιτος<ref type="note" corresp="#Vol-3-E_M-ftn349"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e7014-person" type="relation" n="son-of">Phaeris (1)’s son</ref>, <ref corresp="#Vol-3-B_F-d8e4570-person" type="relation" n="husband-of">Shabtit (11)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Karanis, Westerman &amp; Kraemer</note>
+               </state>
+               <bibl>CPJ488</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn350"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0126" notAfter="0126">126 CE<ref type="note" corresp="#Vol-3-E_M-ftn351"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e5833-person"
+                    n="Vol-3-E_M-Egyptian-Males-Pecmais-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Pecmais</persName>
+               <persName type="lemma" xml:lang="en">Pecmais</persName>
+               <persName>Πεκμήιτος<ref type="note" corresp="#Vol-3-E_M-ftn352"/>
+               </persName>
+               <state type="desc">
+                  <note>Heron (1) and <ref corresp="#Vol-3-E_M-d8e7067-person" type="relation" n="father-of">Phaesis (1)’s father</ref>, <ref corresp="#Vol-3-B_F-d8e5109-person" type="relation" n="husband-of">Shabtit (26)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyri, Karanis, Pearl &amp; Youtie</note>
+               </state>
+               <bibl>CPJ492(4,5,6,14,15,16)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn353"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0171" notAfter="0174">171-4 CE<ref type="note" corresp="#Vol-3-E_M-ftn354"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Mipshaa-מפשאה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Mipshaa-d1e684459" n="Mipshaa-מפשאה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e25894-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Mipshaa-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מפשאה</persName>
+               <persName type="lemma" xml:lang="en">Mipshaa</persName>
+               <persName>משפא<ref type="note" corresp="#Vol-4-S-H_M-ftn1789"/>
+               </persName>
+               <persName>/מפשי<ref type="note" corresp="#Vol-4-S-H_M-ftn1790"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bNed10b (Kosowsky,Babylonico, 1026)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1791"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0200">Post-200 CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1792"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

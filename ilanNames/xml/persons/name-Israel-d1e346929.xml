@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Israel-ישראל</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Israel-d1e346929" n="Israel-ישראל">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_M-d8e33196-person"
+                    n="Vol-2-B_M-Biblical-Males-Israel-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ישראל</persName>
+               <persName type="lemma" xml:lang="en">Israel</persName>
+               <persName>–<ref type="note" corresp="#Vol-2-B_M-ftn2167"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e34889-person" type="relation" n="son-of">Makhir (1)’s son</ref>, leader<ref type="note" corresp="#Vol-2-B_M-ftn2168"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Tulida, 131</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-2-B_M-ftn2169"/>
+                  </note>
+               </state>
+               <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-B_M-ftn2170"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_M-d8e33236-person"
+                    n="Vol-2-B_M-Biblical-Males-Israel-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ישראל</persName>
+               <persName type="lemma" xml:lang="en">Israel</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-2-B_M-ftn2171"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e42147-person" type="relation" n="son-of">Reuben (6)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Graffito, Elijah’s Cave</note>
+               </state>
+               <bibl>Appendix, no. 10</bibl>
+               <state type="addl-Descr">
+                  <note>Late?<ref type="note" corresp="#Vol-2-B_M-ftn2172"/>
+                  </note>
+               </state>
+               <floruit>Pre-8thC?<ref type="note" corresp="#Vol-2-B_M-ftn2173"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-B_M-d8e6821-person"
+                    n="Vol-2-Vol-1-ADD-B_M-Biblical-Males-Israel-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ישראל</persName>
+               <persName type="lemma" xml:lang="en">Israel</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Beit Anun<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn475"/>
+                  </note>
+               </state>
+               <bibl>Magen,Qadmoniot34 (2001) 57</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn476"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ḥabiba-חביבא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Habiba-d1e434181" n="Ḥabiba-חביבא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e11081-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ḥabiba-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חביבא</persName>
+               <persName type="lemma" xml:lang="en">Ḥabiba</persName>
+               <persName>̓Αβάβου<ref type="note" corresp="#Vol-2-S-H_M-ftn682"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-S-H_M-ftn683"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, list of magistrates, Qatana,<ref type="note" corresp="#Vol-2-S-H_M-ftn684"/>Clermont-Ganneau</note>
+               </state>
+               <bibl>IJO3, Syr40</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-S-H_M-ftn685"/>
+                  </note>
+               </state>
+               <floruit>3rdC</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e11132-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ḥabiba-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חביבא</persName>
+               <persName type="lemma" xml:lang="en">Ḥabiba</persName>
+               <persName>חביבי<ref type="note" corresp="#Vol-2-S-H_M-ftn686"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_F-d8e521-person" type="relation" n="son-of">Ḥartah (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, Skirball Museum, Los Angeles</note>
+               </state>
+               <bibl>MSFno. 26</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-S-H_M-ftn687"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-P_M-d8e934-person"
+                    n="Vol-2-Vol-1-ADD-P_M-Persian-Males-Ḥabiba-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חביבא</persName>
+               <persName type="lemma" xml:lang="en">Ḥabiba</persName>
+               <persName>Abibas<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn63"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn64"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Lucianus,PL41, 811</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn65"/>
+                  </note>
+               </state>
+               <floruit notBefore="0030" notAfter="0049">30s-40s CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn66"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

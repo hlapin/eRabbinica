@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Buheiš-Buheiš</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Buhei-d1e290818" n="Buheiš-Buheiš">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-P_M-d2e513-person"
+                    n="Vol-1-P_M-Buheiš-1">
+               <persName type="lemma">Buheiš</persName>
+               <persName type="lemma" xml:lang="en">Buheiš</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">בוהיין<ref type="note" corresp="#Vol-1-P_M-ftn34"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>tPes2:20 (Kasowski, Thosephthae, 32)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-1-P_M-ftn35"/>
+                  </note>
+               </state>
+               <floruit notBefore="0200" notAfter="0200">Pre-200 CE<ref type="note" corresp="#Vol-1-P_M-ftn36"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-P_M-d8e170-person"
+                    n="Vol-2-P_M-Persian-Males-Buheiš-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Buheiš</persName>
+               <persName type="lemma" xml:lang="en">Buheiš</persName>
+               <persName>ברבוהיין<ref type="note" corresp="#Vol-2-P_M-ftn15"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-P_M-ftn16"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Est Rab2:3</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-400<ref type="note" corresp="#Vol-2-P_M-ftn17"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

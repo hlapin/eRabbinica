@@ -10,34 +10,53 @@
     <xsl:output indent="yes" encoding="UTF-8" method="xml"/>
     <xsl:strip-space elements="*"/>
     
+    <!-- modified 8/31/2021 to transfer lines/regions even if no text in source xml -->
+    
     <xsl:include href="sortTextRegionsForFacsimile.xsl"/>
 
-     <xsl:param name="regionSelect" select="'Main Paratext'"/> 
+     <xsl:param name="regionSelect" select="'Main Paratext Commentary'"/> 
      <xsl:variable name="regionTypesForColumns" select="tokenize($regionSelect, '\s+')"/>
     <xsl:param name="how_many_cols" select="'2'"></xsl:param>
     <xsl:param name="dataRoot"
         select="'file:///C:/Users/hlapin/Documents/GitHub/eRabbinica/escriptoriumToTEI/'"/>
-    <xsl:param name="pageXMLIn" select="concat($dataRoot, 'pagexml/export_naples_ed_princ/Main_Paratext/')"/>
+    <xsl:param name="pageXMLIn" select="concat($dataRoot, 'pagexml/export_bnf_328_329_maimonides/Main_Paratext')"/>
     <xsl:param name="outpath" select="concat($dataRoot, 'tei-facs/')"/>
     
     
     <!-- ideally this should flow from the metadata in escriptorium -->
+    <!--<xsl:param name="reposInfo" as="xs:string+"
+        select="(
+        (: project name :)
+        'Naples Editio Princeps of the Mishnah, 1492',
+        (:our internal ID number:)
+        'P1143297',
+        (: Institution :)
+        'NLI',
+        (: Place :)
+        'Jerusalem',
+        (: shelfmark at institution :)
+        '1143297',
+        (: link to NLI catalog :)
+        'https://www.nli.org.il/en/books/NNL_ALEPH001143297/NLI?volumeItem=3', 
+        (: if print bibliography of Hebrew Book; if in Ktiv, Ktiv link :)
+        'http://uli.nli.org.il:80/F/?func=direct&amp;doc_number=000150614&amp;local_base=MBI01'
+        )"/> -->
     <xsl:param name="reposInfo" as="xs:string+"
         select="(
                 (: project name :)
-                'Naples ed. princ. of the Mishnah',
+                'Paris ms of the Mishnah with Maimonides in Hebrew',
                 (:our internal ID number:)
-                'P1143297',
+                'S08174',
                 (: Institution :)
-                'NLI',
+                'BNF',
                 (: Place :)
-                'Jerusalem',
+                'Paris',
                 (: shelfmark at institution :)
                 '328-329',
                 (: link to NLI catalog :)
-                'https://www.nli.org.il/en/books/NNL_ALEPH001143297/NLI?volumeItem=3', 
+                'https://gallica.bnf.fr/ark:/12148/btv1b10541994j', 
                 (: if print bibliography of Hebrew Book; if in Ktiv, Ktiv link :)
-                'http://uli.nli.org.il:80/F/?func=direct&amp;doc_number=000150614&amp;local_base=MBI01'
+                'https://web.nli.org.il/sites/NLIS/en/ManuScript/Pages/Item.aspx?ItemID=PNX_MANUSCRIPTS990001292390205171'
                 )"/> 
 
     <xsl:variable name="data"
@@ -62,12 +81,16 @@
     </xsl:template>
 
     <xsl:template match="Page" mode="reorder">
+        <xsl:variable name="fname" select="substring-before(tokenize(base-uri(.),'/')[last()],'.xml')"/>
         <xsl:message select="concat('processing xml for ',@imageFilename/string())"/>
         <xsl:variable name="current" select=".">
         </xsl:variable>
         <xsl:variable name="inMainText"
             select="
-                TextRegion[TextLine/TextEquiv/Unicode[normalize-space(.)]]
+                (: to only include TextLine with text data :)
+                (: TextRegion[TextLine/TextEquiv/Unicode[normalize-space(.)]] :)
+                (: to include any TextLine :)
+                TextRegion[TextLine/TextEquiv/Unicode]
                 intersect
                 (for $r in $regionTypesForColumns
                 return
@@ -82,17 +105,21 @@
         </xsl:variable>
         <xsl:variable name="notInMainText"
             select="
+                (: For margins etc., omitting empty in this pass :)
+                (: to only include TextLine with text data :)
                 TextRegion[TextLine/TextEquiv/Unicode[normalize-space(.)]]
+                (: to include any TextLine :)
+                (: TextRegion[TextLine/TextEquiv/Unicode] :)
                 except
                 $inMainText
                 " />
         
         
             <xsl:element name="xi:include">
-                <xsl:attribute name="href" select="concat('pages/',$reposInfo[2],'_',@imageFilename,'-facs.xml')"></xsl:attribute>
+                <xsl:attribute name="href" select="concat('pages/',$reposInfo[2],'_',$fname,'-facs.xml')"></xsl:attribute>
             </xsl:element>
         
-        <xsl:result-document href="{$outpath}{$reposInfo[2]}/pages/{$reposInfo[2]}_{@imageFilename}-facs.xml">
+        <xsl:result-document href="{$outpath}{$reposInfo[2]}/pages/{$reposInfo[2]}_{$fname}-facs.xml">
             <TEI>
                 <!-- output link and result-document to be xincluded -->
                 <!-- teiHeader -->
@@ -117,10 +144,10 @@
                     <body>
                         <div>
                             <!-- Regions in main body -->
-                                <pb xml:id="p_{$current/@imageFilename}"/>
+                                <pb xml:id="p_{$fname}"/>
                             <xsl:for-each select="$inMainTextSortedGrouped/tei:col">
                                 <xsl:sort select="@n" order="ascending"></xsl:sort>
-                                <cb xml:id="c_{$current/@imageFilename}-{@n}"></cb>
+                                <cb xml:id="c_{$fname}-{@n}"></cb>
                                 <xsl:apply-templates 
                                     mode="text"
                                     select="for $r in * return $current/TextRegion[./@id eq $r/@id]"/>

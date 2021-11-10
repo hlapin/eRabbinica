@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Gaiana-Gaiana</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Gaiana-d1e560595" n="Gaiana-Gaiana">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e9322-person"
+                    n="Vol-3-L_F-Latin-Females-Gaiana-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Gaiana</persName>
+               <persName type="lemma" xml:lang="en">Gaiana</persName>
+               <persName>Γαιανῃ<ref type="note" corresp="#Vol-3-L_F-ftn515"/>
+               </persName>
+               <state type="desc">
+                  <note>Titius (2) Flavius (5) <ref corresp="#Vol-3-G_M-d8e3907-person" type="relation" n="wife-of">Alexander (40)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Acmonia, Legrand &amp; Chamonard</note>
+               </state>
+               <bibl>CIJ770</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn516"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0243" notAfter="0244">243/4 CE<ref type="note" corresp="#Vol-3-L_F-ftn517"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

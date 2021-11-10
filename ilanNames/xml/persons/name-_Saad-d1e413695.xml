@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Σαάδος Saad-Σαάδος Saad</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Saad-d1e413695"
+                     n="Σαάδος Saad-Σαάδος Saad">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_M-d8e1997-person"
+                    n="Vol-2-S-G_M-Semitic-Greek-Males-Σαάδος Saad-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Σαάδος Saad</persName>
+               <persName type="lemma" xml:lang="en">Σαάδος Saad</persName>
+               <persName>Σαάδου<ref type="note" corresp="#Vol-2-S-G_M-ftn126"/>
+               </persName>
+               <persName>/Sati<ref type="note" corresp="#Vol-2-S-G_M-ftn127"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e49518-person" type="relation" n="father-of">Teima (2)’s father</ref>, Syrian of Canotha<ref type="note" corresp="#Vol-2-S-G_M-ftn128"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, France, Oehler</note>
+               </state>
+               <bibl>CIJ61*</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-G_M-ftn129"/>
+                  </note>
+               </state>
+               <floruit>Post-211<ref type="note" corresp="#Vol-2-S-G_M-ftn130"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_M-d8e2057-person"
+                    n="Vol-2-S-G_M-Semitic-Greek-Males-Σαάδος Saad-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Σαάδος Saad</persName>
+               <persName type="lemma" xml:lang="en">Σαάδος Saad</persName>
+               <persName>Σοέδου<ref type="note" corresp="#Vol-2-S-G_M-ftn131"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e13553-person"
+                          type="relation"
+                          n="father-of">Ḥalifa (18)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1a, no. 314</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-G_M-ftn132"/>
+                  </note>
+               </state>
+               <floruit>4th-6thC<ref type="note" corresp="#Vol-2-S-G_M-ftn133"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

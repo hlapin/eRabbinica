@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Shutlaḥ-שותלח</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Shutlah-d1e450063" n="Shutlaḥ-שותלח">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e24407-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Shutlaḥ-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שותלח</persName>
+               <persName type="lemma" xml:lang="en">Shutlaḥ</persName>
+               <persName>–<ref type="note" corresp="#Vol-2-S-H_M-ftn1541"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e22011-person" type="relation" n="father-of">Joseph (2)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Tulida, 132</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-2-S-H_M-ftn1542"/>; nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn1543"/>
+                  </note>
+               </state>
+               <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn1544"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

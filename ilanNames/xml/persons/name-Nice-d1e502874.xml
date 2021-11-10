@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Nice-Νίκη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Nice-d1e502874" n="Nice-Νίκη">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e15568-person"
+                    n="Vol-3-G_F-Greek-Females-Nice-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Νίκη</persName>
+               <persName type="lemma" xml:lang="en">Nice</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_F-ftn889"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Leontopolis, de Ricci</note>
+               </state>
+               <bibl>CIJ1472</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn890"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0011" notAfter="-0011">11 BCE<ref type="note" corresp="#Vol-3-G_F-ftn891"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e15605-person"
+                    n="Vol-3-G_F-Greek-Females-Nice-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Νίκη</persName>
+               <persName type="lemma" xml:lang="en">Nice</persName>
+               <persName>Νείκῃ<ref type="note" corresp="#Vol-3-G_F-ftn892"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="wife-of">Joseph (96)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Arcades, Kritzas</note>
+               </state>
+               <bibl>IJO1, Cre2</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn893"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Crete</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0299">1st-3rdC CE<ref type="note" corresp="#Vol-3-G_F-ftn894"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

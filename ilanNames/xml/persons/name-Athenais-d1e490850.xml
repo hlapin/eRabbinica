@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Athenais-̓́Αθηναϊς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Athenais-d1e490850" n="Athenais-̓́Αθηναϊς">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e586-person"
+                    n="Vol-3-G_F-Greek-Females-Athenais-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓́Αθηναϊς</persName>
+               <persName type="lemma" xml:lang="en">Athenais</persName>
+               <persName>̓Αθηναΐδα</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_F-ftn38"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Side, Schubart</note>
+               </state>
+               <bibl>CPJ490</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn39"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0151" notAfter="0151">151 CE<ref type="note" corresp="#Vol-3-G_F-ftn40"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ᾽Ουβοδοῦς Oubodou-᾽Ουβοδοῦς Oubodou</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Oubodou-d1e411664"
+                     n="᾽Ουβοδοῦς Oubodou-᾽Ουβοδοῦς Oubodou">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_F-d8e431-person"
+                    n="Vol-2-S-G_F-Semitic-Greek-Females-᾽Ουβοδοῦς Oubodou-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">᾽Ουβοδοῦς Oubodou</persName>
+               <persName type="lemma" xml:lang="en">᾽Ουβοδοῦς Oubodou</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-G_M-d8e2402-person"
+                          type="relation"
+                          n="daughter-of">Finatheos (1)’s daughter</ref>, aged 2<ref type="note" corresp="#Vol-2-S-G_F-ftn32"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1a, no. 10</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-G_F-ftn33"/>
+                  </note>
+               </state>
+               <floruit>349<ref type="note" corresp="#Vol-2-S-G_F-ftn34"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

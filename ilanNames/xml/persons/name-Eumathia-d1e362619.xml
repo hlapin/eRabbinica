@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Eumathia-Ε̓μαθία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Eumathia-d1e362619" n="Eumathia-Ε̓μαθία">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e1442-person"
+                    n="Vol-2-G_F-Greek-Females-Eumathia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ε̓μαθία</persName>
+               <persName type="lemma" xml:lang="en">Eumathia</persName>
+               <persName>Ε̓μαθεία<ref type="note" corresp="#Vol-2-G_F-ftn97"/>
+               </persName>
+               <state type="desc">
+                  <note>Jacob (57) and <ref corresp="#Vol-2-L_M-d8e5922-person" type="relation" n="mother-of">Justus (17)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaphs, Beth She‘arim, catacomb 8,CIJ1140, 1160</note>
+               </state>
+               <bibl>1.BS2:113; 2. 2:125</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_F-ftn98"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

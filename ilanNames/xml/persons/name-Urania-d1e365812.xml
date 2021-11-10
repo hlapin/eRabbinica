@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Urania-Ο̓ρανία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Urania-d1e365812" n="Urania-Ο̓ρανία">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e4232-person"
+                    n="Vol-2-G_F-Greek-Females-Urania-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ο̓ρανία</persName>
+               <persName type="lemma" xml:lang="en">Urania</persName>
+               <persName>Ο̓ρανίῃ<ref type="note" corresp="#Vol-2-G_F-ftn281"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_M-d8e10208-person" type="relation" n="wife-of">Hierius (1)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue mosaic, Apamea/Syria, Mayence</note>
+               </state>
+               <bibl>CIJ817</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>391<ref type="note" corresp="#Vol-2-G_F-ftn282"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e4265-person"
+                    n="Vol-2-G_F-Greek-Females-Urania-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ο̓ρανία</persName>
+               <persName type="lemma" xml:lang="en">Urania</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-G_F-ftn283"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Beth She‘arim,CIJ1154</note>
+               </state>
+               <bibl>BS2:121</bibl>
+               <state type="addl-Descr">
+                  <note>Second name</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_F-ftn284"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

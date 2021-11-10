@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Chaireas-Χαιρέας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Chaireas-d1e254317" n="Chaireas-Χαιρέας">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e17716-person"
+                    n="Vol-1-G_M-Chaireas-1">
+               <persName type="lemma">Χαιρέας</persName>
+               <persName type="lemma" xml:lang="en">Chaireas</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e14788-person" type="relation" n="father-of">Patroclus (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>AJ14:222 (Schalit,NB, 125)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="-0044" notAfter="-0044">44 BCE<ref type="note" corresp="#Vol-1-G_M-ftn1271"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e80828-person"
+                    n="Vol-3-G_M-Greek-Males-Chaireas-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Χαιρέας</persName>
+               <persName type="lemma" xml:lang="en">Chaireas</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu, Manteuffel</note>
+               </state>
+               <bibl>CPJ406</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4702"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0199">1st-2ndC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e80865-person"
+                    n="Vol-3-G_M-Greek-Males-Chaireas-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Χαιρέας</persName>
+               <persName type="lemma" xml:lang="en">Chaireas</persName>
+               <persName>Χαιρείᾳ<ref type="note" corresp="#Vol-3-G_M-ftn4703"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Heracleopolis</note>
+               </state>
+               <bibl>PC29 (2001) 17</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4704"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0143" notAfter="-0143">143 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4705"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e80906-person"
+                    n="Vol-3-G_M-Greek-Males-Chaireas-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Χαιρέας</persName>
+               <persName type="lemma" xml:lang="en">Chaireas</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Judah (75)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epheboi inscription, Cyrene, Oliverio &amp; Pugliese Carratelli</note>
+               </state>
+               <bibl>CJZC7</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4706"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit>Pre-38/9 CE<ref type="note" corresp="#Vol-3-G_M-ftn4707"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

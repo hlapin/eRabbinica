@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Entolius-̓Εντόλιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Entolius-d1e371103" n="Entolius-̓Εντόλιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e5661-person"
+                    n="Vol-2-G_M-Greek-Males-Entolius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Εντόλιος</persName>
+               <persName type="lemma" xml:lang="en">Entolius</persName>
+               <persName>̓Εντολίου</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Caesarea</note>
+               </state>
+               <bibl>Lehmann &amp; Holum,CMER5, no. 157</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn400"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-G_M-ftn401"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e5691-person"
+                    n="Vol-2-G_M-Greek-Males-Entolius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Εντόλιος</persName>
+               <persName type="lemma" xml:lang="en">Entolius</persName>
+               <persName>̓Εντουλίου<ref type="note" corresp="#Vol-2-G_M-ftn402"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-G_M-ftn403"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Caesarea</note>
+               </state>
+               <bibl>Lehmann &amp; Holum,CMER5, no. 169</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-G_M-ftn404"/>
+                  </note>
+               </state>
+               <floruit>4th-7thC</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e25936-person"
+                    n="Vol-3-G_M-Greek-Males-Entolius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Εντόλιος</persName>
+               <persName type="lemma" xml:lang="en">Entolius</persName>
+               <persName>̓Εντολίου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_F-d8e30871-person" type="relation" n="father-of">Roia (1)’s father</ref>, <ref corresp="#Vol-3-B_M-d8e3743-person" type="relation" n="son-of">Baruch (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Alexandria, Botti</note>
+               </state>
+               <bibl>CIJ1438</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn1537"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE<ref type="note" corresp="#Vol-3-G_M-ftn1538"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e25974-person"
+                    n="Vol-3-G_M-Greek-Males-Entolius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Εντόλιος</persName>
+               <persName type="lemma" xml:lang="en">Entolius</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn1539"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Lapethos, Mitford</note>
+               </state>
+               <bibl>IJO3, App26</bibl>
+               <state type="addl-Descr">
+                  <note>Jew<ref type="note" corresp="#Vol-3-G_M-ftn1540"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyprus</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0499">5thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

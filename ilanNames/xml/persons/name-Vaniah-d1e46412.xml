@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Vaniah-וניה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Vaniah-d1e46412" n="Vaniah-וניה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e9403-person"
+                    n="Vol-1-B_M-Vaniah-1">
+               <persName type="lemma">וניה</persName>
+               <persName type="lemma" xml:lang="en">Vaniah</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">ונה<ref type="note" corresp="#Vol-1-B_M-ftn668"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, marriage contract, Babatha archive</note>
+               </state>
+               <bibl>PYadin 18</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0128" notAfter="0128">128 CE<ref type="note" corresp="#Vol-1-B_M-ftn669"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

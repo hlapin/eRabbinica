@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tatiana-Tatiana</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tatiana-d1e569138" n="Tatiana-Tatiana">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e33335-person"
+                    n="Vol-3-L_F-Latin-Females-Tatiana-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Tatiana</persName>
+               <persName type="lemma" xml:lang="en">Tatiana</persName>
+               <persName>Τατιανῇ<ref type="note" corresp="#Vol-3-L_F-ftn1192"/>
+               </persName>
+               <state type="desc">
+                  <note>Aurelia (17), Aurelius (27) <ref corresp="#Vol-3-L_M-d8e35164-person" type="relation" n="wife-of">Rufus (6)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Apamea, Ramasy</note>
+               </state>
+               <bibl>CIJ774</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn1193"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e33379-person"
+                    n="Vol-3-L_F-Latin-Females-Tatiana-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Tatiana</persName>
+               <persName type="lemma" xml:lang="en">Tatiana</persName>
+               <persName>Τατιανῇ<ref type="note" corresp="#Vol-3-L_F-ftn1194"/>
+               </persName>
+               <state type="desc">
+                  <note>Aurelia (49), Aurelius (96) Gaius (35) <ref corresp="#Vol-3-G_M-d8e37159-person" type="relation" n="wife-of">Zosimus (10)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Apamea</note>
+               </state>
+               <bibl>RamsayBCH7 (1883) 311</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn1195"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_F-ftn1196"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

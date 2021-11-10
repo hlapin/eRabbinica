@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ḥujr-حجر</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hujr-d1e470304" n="Ḥujr-حجر">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-4-ADD-A_M-d8e438-person"
+                    n="Vol-2-Vol-4-ADD-A_M-Arabic-Males-Ḥujr-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">حجر</persName>
+               <persName type="lemma" xml:lang="en">Ḥujr</persName>
+               <persName>–<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn33"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn34"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Robin, “Ḥimyar et Israel,” p. 897</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn35"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arabia</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0440">400-40 CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn36"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Carsandanus-Carsandanus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Carsandanus-d1e598212"
+                     n="Carsandanus-Carsandanus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-G_M-d8e1717-person"
+                    n="Vol-3-S-G_M-Semitic-Greek-Males-Carsandanus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Carsandanus</persName>
+               <persName type="lemma" xml:lang="en">Carsandanus</persName>
+               <persName>Καρσανδανος</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-S-G_M-ftn108"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Manumission inscription, Phanagoria,<ref type="note" corresp="#Vol-3-S-G_M-ftn109"/>Dan’shin</note>
+               </state>
+               <bibl>IJO1, BS18</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-S-G_M-ftn110"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Bosphoran Kingdom</note>
+               </state>
+               <floruit notBefore="0045" notAfter="0052">45-52 CE<ref type="note" corresp="#Vol-3-S-G_M-ftn111"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Eutelion-Ε̓τελίων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Eutelion-d1e222744" n="Eutelion-Ε̓τελίων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e7229-person"
+                    n="Vol-1-G_M-Eutelion-1">
+               <persName type="lemma">Ε̓τελίων</persName>
+               <persName type="lemma" xml:lang="en">Eutelion</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">אבטליון<ref type="note" corresp="#Vol-1-G_M-ftn510"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e59398-person" type="relation" n="“pair”-of">Shemayah (1)’s “pair”</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>mAb1:10 (Kasovsky,Mishnae, 8)</bibl>
+               <state type="addl-Descr">
+                  <note>Proselyte?<ref type="note" corresp="#Vol-1-G_M-ftn511"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn512"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

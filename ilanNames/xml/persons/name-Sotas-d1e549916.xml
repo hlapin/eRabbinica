@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sotas-Σώτας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sotas-d1e549916" n="Sotas-Σώτας">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e74525-person"
+                    n="Vol-3-G_M-Greek-Males-Sotas-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Σώτας</persName>
+               <persName type="lemma" xml:lang="en">Sotas</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e29713-person"
+                          type="relation"
+                          n="grandson-of">Shabtai (54)’s grandson</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Theadelphia, Westerman &amp; Keyes</note>
+               </state>
+               <bibl>CPJ489e</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4324"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0155" notAfter="0155">155 CE<ref type="note" corresp="#Vol-3-G_M-ftn4325"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e74556-person"
+                    n="Vol-3-G_M-Greek-Males-Sotas-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Σώτας</persName>
+               <persName type="lemma" xml:lang="en">Sotas</persName>
+               <persName>Σωτᾶ</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Marmarica, Norsa &amp; Vitelli</note>
+               </state>
+               <bibl>CJZC77.10</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4326"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0175" notAfter="0181">175-81 CE<ref type="note" corresp="#Vol-3-G_M-ftn4327"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

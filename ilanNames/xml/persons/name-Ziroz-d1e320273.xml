@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ziroz-זירוז</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ziroz-d1e320273" n="Ziroz-זירוז">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e4785-person"
+                    n="Vol-1-S-H_M-Ziroz-1">
+               <persName type="lemma">זירוז</persName>
+               <persName type="lemma" xml:lang="en">Ziroz</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e22813-person" type="relation" n="father-of">Joshua (31)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>yDemai2:1, 22c (Kosovsky,Yerushalmi, 211)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn322"/>
+                  </note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Post-135 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn323"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e9903-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ziroz-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">זירוז</persName>
+               <persName type="lemma" xml:lang="en">Ziroz</persName>
+               <persName>זריז<ref type="note" corresp="#Vol-2-S-H_M-ftn601"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e17863-person" type="relation" n="son-of">Manir (1)’s son</ref>, priest<ref type="note" corresp="#Vol-2-S-H_M-ftn602"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Tulida, 135</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-2-S-H_M-ftn603"/>
+                  </note>
+               </state>
+               <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn604"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e9943-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ziroz-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">זירוז</persName>
+               <persName type="lemma" xml:lang="en">Ziroz</persName>
+               <persName>זאדיר<ref type="note" corresp="#Vol-2-S-H_M-ftn605"/>
+               </persName>
+               <persName>/זירוד<ref type="note" corresp="#Vol-2-S-H_M-ftn606"/>
+               </persName>
+               <persName>/זכור<ref type="note" corresp="#Vol-2-S-H_M-ftn607"/>
+               </persName>
+               <persName>/זרוז<ref type="note" corresp="#Vol-2-S-H_M-ftn608"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e47379-person" type="relation" n="father-of">Simon (36)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bSan14a<ref type="note" corresp="#Vol-2-S-H_M-ftn609"/>(Kosowsky,Babylonico, 1707)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn610"/>
+                  </note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn611"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

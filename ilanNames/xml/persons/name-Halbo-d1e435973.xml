@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ḥalbo-חלבו</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Halbo-d1e435973" n="Ḥalbo-חלבו">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e12739-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ḥalbo-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חלבו</persName>
+               <persName type="lemma" xml:lang="en">Ḥalbo</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e10871-person" type="relation" n="son-of">Hanan (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yBer7:1, 11a (Kosovsky,Yerushalmi, 259)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn782"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e12770-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ḥalbo-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חלבו</persName>
+               <persName type="lemma" xml:lang="en">Ḥalbo</persName>
+               <persName>חלוב<ref type="note" corresp="#Vol-2-S-H_M-ftn783"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e30851-person" type="relation" n="father-of">Isaac (33)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bHul99b<ref type="note" corresp="#Vol-2-S-H_M-ftn784"/>(Kosowsky,Babylonico, 915)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn785"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

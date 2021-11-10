@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Paula-Paula</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Paula-d1e564867" n="Paula-Paula">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e28298-person"
+                    n="Vol-3-L_F-Latin-Females-Paula-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Paula</persName>
+               <persName type="lemma" xml:lang="en">Paula</persName>
+               <persName>Παῦλαν</persName>
+               <state type="desc">
+                  <note>Aurelius (60) <ref corresp="#Vol-3-L_M-d8e18669-person" type="relation" n="cousin-of">Gemellus (3)’s cousin</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Eumenia, Robert</note>
+               </state>
+               <bibl>IJO2, 186</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn891"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

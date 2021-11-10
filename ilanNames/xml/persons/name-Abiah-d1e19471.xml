@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Abiah-אביה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Abiah-d1e19471" n="Abiah-אביה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e36-person"
+                    n="Vol-1-B_M-Abiah-1">
+               <persName type="lemma">אביה</persName>
+               <persName type="lemma" xml:lang="en">Abiah</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">̓Αβιά<ref type="note" corresp="#Vol-1-B_M-ftn2"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e10028-person"
+                          type="relation"
+                          n="priestly-of">Zachariah (9)’s priestly</ref> family</note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Luke 1:5 (VKGNT 1)</bibl>
+               <state type="addl-Descr">
+                  <note>Family<ref type="note" corresp="#Vol-1-B_M-ftn3"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0001" notAfter="-0001">1 BCE<ref type="note" corresp="#Vol-1-B_M-ftn4"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_M-d8e111-person"
+                    n="Vol-2-B_M-Biblical-Males-Abiah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אביה</persName>
+               <persName type="lemma" xml:lang="en">Abiah</persName>
+               <persName>ابيه<ref type="note" corresp="#Vol-2-B_M-ftn10"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-B_M-ftn11"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Abu’l Fath, 173</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-2-B_M-ftn12"/>
+                  </note>
+               </state>
+               <floruit>4th-7thC<ref type="note" corresp="#Vol-2-B_M-ftn13"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_M-d8e73-person"
+                    n="Vol-3-B_M-Biblical-Males-Abiah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אביה</persName>
+               <persName type="lemma" xml:lang="en">Abiah</persName>
+               <persName>̓Αβια<ref type="note" corresp="#Vol-3-B_M-ftn6"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Joseph (42)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Thebes</note>
+               </state>
+               <bibl>O. Heid. 1</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-B_M-ftn7"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE<ref type="note" corresp="#Vol-3-B_M-ftn8"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_M-d8e17-person"
+                    n="Vol-4-B_M-Biblical-Males-Abiah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אביה</persName>
+               <persName type="lemma" xml:lang="en">Abiah</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-B_M-ftn2"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <bibl>Shaked, “Jewish Sasanian Sigillography,” no. 21</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-B_M-ftn3"/>; authentic?<ref type="note" corresp="#Vol-4-B_M-ftn4"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia?<ref type="note" corresp="#Vol-4-B_M-ftn5"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-4-B_M-ftn6"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

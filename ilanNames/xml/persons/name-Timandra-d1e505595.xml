@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Timandra-Τιμάνδρα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Timandra-d1e505595" n="Timandra-Τιμάνδρα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e18394-person"
+                    n="Vol-3-G_F-Greek-Females-Timandra-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Τιμάνδρα</persName>
+               <persName type="lemma" xml:lang="en">Timandra</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e37994-person"
+                          type="relation"
+                          n="daughter-of">Simon (52)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Trikomia</note>
+               </state>
+               <bibl>CPR13, 4:148</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn1047"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

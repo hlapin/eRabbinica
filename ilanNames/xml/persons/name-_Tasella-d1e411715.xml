@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Τασέλλα Tasella-Τασέλλα Tasella</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Tasella-d1e411715"
+                     n="Τασέλλα Tasella-Τασέλλα Tasella">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_F-d8e479-person"
+                    n="Vol-2-S-G_F-Semitic-Greek-Females-Τασέλλα Tasella-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Τασέλλα Tasella</persName>
+               <persName type="lemma" xml:lang="en">Τασέλλα Tasella</persName>
+               <persName>Τασέλλας</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_F-d8e2607-person" type="relation" n="mother-of">Hieris (1)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Caesarea</note>
+               </state>
+               <bibl>Lehmann &amp; HolumCMER5, no. 247</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-G_F-ftn36"/>Name?<ref type="note" corresp="#Vol-2-S-G_F-ftn37"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-S-G_F-ftn38"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Salina-Salina</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Salina-d1e259119" n="Salina-Salina">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_F-d2e813-person"
+                    n="Vol-1-L_F-Salina-1">
+               <persName type="lemma">Salina</persName>
+               <persName type="lemma" xml:lang="en">Salina</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="gr">Σαλίνα<ref type="note" corresp="#Vol-1-L_F-ftn58"/>
+               </persName>
+               <state type="desc">
+                  <note>Alexandra (3), <ref corresp="#Vol-1-G_M-d2e3182-person" type="relation" n="wife-of">Aristobulus (1)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>AJ13:320 (Schalit,NB, -)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="-0104" notAfter="-0104">104 BCE<ref type="note" corresp="#Vol-1-L_F-ftn59"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

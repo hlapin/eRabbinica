@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Visinia-Visinia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Visinia-d1e570573" n="Visinia-Visinia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e34866-person"
+                    n="Vol-3-L_F-Latin-Females-Visinia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Visinia</persName>
+               <persName type="lemma" xml:lang="en">Visinia</persName>
+               <persName>Βισιννίᾳ<ref type="note" corresp="#Vol-3-L_F-ftn1283"/>
+               </persName>
+               <state type="desc">
+                  <note>Demo (2), Publius (2) Rutilus (2) <ref corresp="#" type="relation" n="wife-of">Joseph (84)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Teos, Pottier &amp; Hauvette-Besnault</note>
+               </state>
+               <bibl>CIJ744</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn1284"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

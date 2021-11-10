@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Nahshon-נחשון</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Nahshon-d1e348872" n="Nahshon-נחשון">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_M-d8e38423-person"
+                    n="Vol-2-B_M-Biblical-Males-Nahshon-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">נחשון</persName>
+               <persName type="lemma" xml:lang="en">Nahshon</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Yalqut Psalms752 (Hyman,Toldoth, 945)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-400<ref type="note" corresp="#Vol-2-B_M-ftn2520"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-4-ADD-B_M-d8e493-person"
+                    n="Vol-2-Vol-4-ADD-B_M-Biblical-Males-Nahshon-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">נחשון</persName>
+               <persName type="lemma" xml:lang="en">Nahshon</persName>
+               <persName>נחשן<ref type="note" corresp="#Vol-2-Vol-4-ADD-B_M-ftn35"/>
+               </persName>
+               <state type="desc">
+                  <note>Benjamin (1) and <ref corresp="#" type="relation" n="son-of">Abī‘lī (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedication inscription, Zafar, Yemen</note>
+               </state>
+               <bibl>Robin, “Ḥimyar et Israel,” no. 1</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-Vol-4-ADD-B_M-ftn36"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arabia</note>
+               </state>
+               <floruit notBefore="0470" notAfter="0470">470 CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-B_M-ftn37"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

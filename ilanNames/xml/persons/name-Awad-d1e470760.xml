@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ‘Awaḏ-عوذ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Awad-d1e470760" n="‘Awaḏ-عوذ">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-4-ADD-A_M-d8e895-person"
+                    n="Vol-2-Vol-4-ADD-A_M-Arabic-Males-‘Awaḏ-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">عوذ</persName>
+               <persName type="lemma" xml:lang="en">‘Awaḏ</persName>
+               <persName>עוד<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn69"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Seal, Zafar, Yemen</note>
+               </state>
+               <bibl>Robin, “Ḥimyar et Israel,” no. 10</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn70"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arabia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0599">4th-6thC CE<ref type="note" corresp="#Vol-2-Vol-4-ADD-A_M-ftn71"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

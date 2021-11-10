@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Luciolus-Luciolus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Luciolus-d1e581597" n="Luciolus-Luciolus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e24156-person"
+                    n="Vol-3-L_M-Latin-Males-Luciolus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Luciolus</persName>
+               <persName type="lemma" xml:lang="en">Luciolus</persName>
+               <persName>Λουκιολουμ<ref type="note" corresp="#Vol-3-L_M-ftn1439"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_F-d8e24516-person" type="relation" n="son-of">Livia (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, Badenweiler, Brambach</note>
+               </state>
+               <bibl>CIJ674</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1440"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Germany</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn1441"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

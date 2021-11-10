@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Arcadius-̓Αρκάδιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Arcadius-d1e369198" n="Arcadius-̓Αρκάδιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e2729-person"
+                    n="Vol-2-G_M-Greek-Males-Arcadius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αρκάδιος</persName>
+               <persName type="lemma" xml:lang="en">Arcadius</persName>
+               <persName>̓Αρκαδίω</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Caesarea</note>
+               </state>
+               <bibl>Lehmann &amp; Holum,CMER5, no. 153</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn184"/>
+                  </note>
+               </state>
+               <floruit>2nd-3rdC</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

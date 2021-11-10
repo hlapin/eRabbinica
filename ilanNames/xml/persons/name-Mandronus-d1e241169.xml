@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Mandronus-Μανδρῶνος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Mandronus-d1e241169" n="Mandronus-Μανδρῶνος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e12395-person"
+                    n="Vol-1-G_M-Mandronus-1">
+               <persName type="lemma">Μανδρῶνος</persName>
+               <persName type="lemma" xml:lang="en">Mandronus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Μαδδαρωνα<ref type="note" corresp="#Vol-1-G_M-ftn885"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e23965-person" type="relation" n="father-of">Joshua (75)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyri, Babatha archive</note>
+               </state>
+               <bibl>PYadin 11, 19</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0124" notAfter="0126">124-6 CE<ref type="note" corresp="#Vol-1-G_M-ftn886"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Chenanoupis-Chenanoupis</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Chenanoupis-d1e476419"
+                     n="Chenanoupis-Chenanoupis">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_F-d8e123-person"
+                    n="Vol-3-E_F-Egyptian-Females-Chenanoupis-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Chenanoupis</persName>
+               <persName type="lemma" xml:lang="en">Chenanoupis</persName>
+               <persName>Χενανοῦπιος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e1286-person" type="relation" n="wife-of">Capais (1)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Hermopolis, Magna, Meyer</note>
+               </state>
+               <bibl>CPJ485</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_F-ftn7"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0090" notAfter="0090">90 CE<ref type="note" corresp="#Vol-3-E_F-ftn8"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

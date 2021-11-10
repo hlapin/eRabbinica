@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Masabala-מסבלה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Masabala-d1e468127" n="Masabala-מסבלה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-P_M-d8e1593-person"
+                    n="Vol-2-Vol-1-ADD-P_M-Persian-Males-Masabala-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מסבלה</persName>
+               <persName type="lemma" xml:lang="en">Masabala</persName>
+               <persName>–</persName>
+               <state type="findspot">
+                  <note>Clay disc</note>
+               </state>
+               <bibl>Zelinger &amp; Eshel,Jerusalem and Eretz Israel8-9 (2013) 281</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Pre-135 CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

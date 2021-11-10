@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Fabia-Fabia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Fabia-d1e559788" n="Fabia-Fabia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e7466-person"
+                    n="Vol-3-L_F-Latin-Females-Fabia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Fabia</persName>
+               <persName type="lemma" xml:lang="en">Fabia</persName>
+               <persName>Φαβία</persName>
+               <state type="desc">
+                  <note>Mauria (1), Fabia (2) <ref corresp="#Vol-3-G_F-d8e3050-person" type="relation" n="daughter-of">Asia (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Paribeni</note>
+               </state>
+               <bibl>CIJ413</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn410"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e7502-person"
+                    n="Vol-3-L_F-Latin-Females-Fabia-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Fabia</persName>
+               <persName type="lemma" xml:lang="en">Fabia</persName>
+               <persName>Φαβίας<ref type="note" corresp="#Vol-3-L_F-ftn411"/>
+               </persName>
+               <state type="desc">
+                  <note>Asia (1), Fabia (1) <ref corresp="#Vol-3-L_F-d8e27095-person" type="relation" n="mother-of">Mauria (1)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Paribeni,CIJ413</note>
+               </state>
+               <bibl>JIWE2, 175</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn412"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

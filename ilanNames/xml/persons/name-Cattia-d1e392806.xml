@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Cattia-Cattia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Cattia-d1e392806" n="Cattia-Cattia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_F-d8e326-person"
+                    n="Vol-2-L_F-Latin-Female-Cattia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Cattia</persName>
+               <persName type="lemma" xml:lang="en">Cattia</persName>
+               <persName>קטטיה<ref type="note" corresp="#Vol-2-L_F-ftn30"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e48936-person" type="relation" n="mother-of">Simon (82)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, Horvat Kannah<ref type="note" corresp="#Vol-2-L_F-ftn31"/>
+                  </note>
+               </state>
+               <bibl>MSFno. 19</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>
+                  <ref type="note" corresp="#Vol-2-L_F-ftn32"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e5367-person"
+                    n="Vol-3-L_F-Latin-Females-Cattia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Cattia</persName>
+               <persName type="lemma" xml:lang="en">Cattia</persName>
+               <persName>Καττία</persName>
+               <state type="desc">
+                  <note>Ammias (1), <ref corresp="#Vol-3-G_M-d8e56607-person"
+                          type="relation"
+                          n="daughter-of">Menophilus (2)’s daughter</ref>, aged 34<ref type="note" corresp="#Vol-3-L_F-ftn285"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, La Blant</note>
+               </state>
+               <bibl>CIJ537</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn286"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

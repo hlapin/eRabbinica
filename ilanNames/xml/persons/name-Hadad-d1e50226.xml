@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hadad-חדד</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hadad-d1e50226" n="Hadad-חדד">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e11041-person"
+                    n="Vol-1-B_M-Hadad-1">
+               <persName type="lemma">חדד</persName>
+               <persName type="lemma" xml:lang="en">Hadad</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">חדר<ref type="note" corresp="#Vol-1-B_M-ftn790"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e21120-person" type="relation" n="son-of">Judah (155)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, deed, “Seyal”</note>
+               </state>
+               <bibl>Se 8a</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0134" notAfter="0135">134-5 CE<ref type="note" corresp="#Vol-1-B_M-ftn791"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e11061-person"
+                    n="Vol-1-B_M-Hadad-2">
+               <persName type="lemma">חדד</persName>
+               <persName type="lemma" xml:lang="en">Hadad</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e6374-person" type="relation" n="father-of">Eleazar (167)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Jar, Masada</note>
+               </state>
+               <bibl>Mas no. 469</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0073" notAfter="0073">Pre-73 CE<ref type="note" corresp="#Vol-1-B_M-ftn792"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

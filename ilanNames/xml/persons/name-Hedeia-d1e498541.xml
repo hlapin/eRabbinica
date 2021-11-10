@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hedeia-̔Ηδεῖα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hedeia-d1e498541" n="Hedeia-̔Ηδεῖα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e10218-person"
+                    n="Vol-3-G_F-Greek-Females-Hedeia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̔Ηδεῖα</persName>
+               <persName type="lemma" xml:lang="en">Hedeia</persName>
+               <persName>[̔Η]δεία<ref type="note" corresp="#Vol-3-G_F-ftn562"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Manumisssion inscription, Panticapeum,<ref type="note" corresp="#Vol-3-G_F-ftn563"/>Škorpil</note>
+               </state>
+               <bibl>IJO1, BS8</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn564"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Bosphoran Kingdom</note>
+               </state>
+               <floruit notBefore="0058" notAfter="0058">58 CE<ref type="note" corresp="#Vol-3-G_F-ftn565"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Georgius-Γεώργιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Georgius-d1e370353" n="Georgius-Γεώργιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e3905-person"
+                    n="Vol-2-G_M-Greek-Males-Georgius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Γεώργιος</persName>
+               <persName type="lemma" xml:lang="en">Georgius</persName>
+               <persName>גיורגיס<ref type="note" corresp="#Vol-2-G_M-ftn269"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_F-d8e3772-person" type="relation" n="son-of">Megea (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, Irbid</note>
+               </state>
+               <bibl>MSFno. 29</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-G_M-ftn270"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

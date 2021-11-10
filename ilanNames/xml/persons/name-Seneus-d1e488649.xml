@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Seneus-Seneus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Seneus-d1e488649" n="Seneus-Seneus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e8652-person"
+                    n="Vol-3-E_M-Egyptian-Males-Seneus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Seneus</persName>
+               <persName type="lemma" xml:lang="en">Seneus</persName>
+               <persName>Σηνεύς</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-P_M-d8e840-person" type="relation" n="son-of">Sisines (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Samaria, Wilcken</note>
+               </state>
+               <bibl>CPJ28</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn526"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0155" notAfter="-0144">155-144 BCE<ref type="note" corresp="#Vol-3-E_M-ftn527"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

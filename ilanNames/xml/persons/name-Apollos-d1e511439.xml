@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Apollos-̓Απολλώς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Apollos-d1e511439" n="Apollos-̓Απολλώς">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e9996-person"
+                    n="Vol-3-G_M-Greek-Males-Apollos-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Απολλώς</persName>
+               <persName type="lemma" xml:lang="en">Apollos</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn582"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Acts 18:24 (VKGNT 83)</bibl>
+               <state type="addl-Descr">
+                  <note>Christian convert<ref type="note" corresp="#Vol-3-G_M-ftn583"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0053" notAfter="0008">53-8 CE<ref type="note" corresp="#Vol-3-G_M-ftn584"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e10035-person"
+                    n="Vol-3-G_M-Greek-Males-Apollos-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Απολλώς</persName>
+               <persName type="lemma" xml:lang="en">Apollos</persName>
+               <persName>̓Απολῶ[τος]<ref type="note" corresp="#Vol-3-G_M-ftn585"/>
+               </persName>
+               <persName>/̓Απολλῶλωτος<ref type="note" corresp="#Vol-3-G_M-ftn586"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e7358-person" type="relation" n="son-of">Hanan (9)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Hermopolis</note>
+               </state>
+               <bibl>P. Sta. Xyla 4</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn587"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0541" notAfter="0541">541 CE<ref type="note" corresp="#Vol-3-G_M-ftn588"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

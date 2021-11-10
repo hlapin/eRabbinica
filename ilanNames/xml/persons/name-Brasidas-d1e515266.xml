@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Brasidas-Βρασίδας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Brasidas-d1e515266" n="Brasidas-Βρασίδας">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e15183-person"
+                    n="Vol-3-G_M-Greek-Males-Brasidas-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Βρασίδας</persName>
+               <persName type="lemma" xml:lang="en">Brasidas</persName>
+               <persName>[Β]ρασίδας<ref type="note" corresp="#Vol-3-G_M-ftn893"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e38250-person" type="relation" n="son-of">Heracleides (10)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Honorary inscription, Alexandria, de Ricci</note>
+               </state>
+               <bibl>JIGRE18</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn894"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0003" notAfter="0003">3 CE<ref type="note" corresp="#Vol-3-G_M-ftn895"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

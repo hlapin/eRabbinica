@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Severianus-Severianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Severianus-d1e409252"
+                     n="Severianus-Severianus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e9826-person"
+                    n="Vol-2-L_M-Latin-Males-Severianus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Severianus</persName>
+               <persName type="lemma" xml:lang="en">Severianus</persName>
+               <persName>Συβεριάνο<ref type="note" corresp="#Vol-2-L_M-ftn754"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e4816-person" type="relation" n="son-of">Ephraim (3)’s son</ref>, Archisynagogus of Tyre<ref type="note" corresp="#Vol-2-L_M-ftn755"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Sepphoris, Ewing</note>
+               </state>
+               <bibl>CIJ991</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>4th-5thC</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

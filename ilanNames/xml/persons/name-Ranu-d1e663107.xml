@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Rašnu-Rašnu</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ranu-d1e663107" n="Rašnu-Rašnu">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e10010-person"
+                    n="Vol-4-I_M-Iranian-Males-Rašnu-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Rašnu</persName>
+               <persName type="lemma" xml:lang="en">Rašnu</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-I_M-ftn841"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-I_M-ftn842"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Dura-Europos, Pagliaro</note>
+               </state>
+               <bibl>IJO3, Syr115</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn843"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Dura-Europos</note>
+               </state>
+               <floruit notBefore="0253" notAfter="0254">253/4 CE<ref type="note" corresp="#Vol-4-I_M-ftn844"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e10049-person"
+                    n="Vol-4-I_M-Iranian-Males-Rašnu-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Rašnu</persName>
+               <persName type="lemma" xml:lang="en">Rašnu</persName>
+               <persName>רשוני<ref type="note" corresp="#Vol-4-I_M-ftn845"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_F-d8e2425-person" type="relation" n="son-of">Imma (34)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Amsterdam</note>
+               </state>
+               <bibl>Smelik, Bibliotheca Orientalis35 (1978) 177</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn846"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn847"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Humanus-Humanus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Humanus-d1e665160" n="Humanus-Humanus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-L_M-d8e728-person"
+                    n="Vol-4-L_M-Latin-Males-Humanus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Humanus</persName>
+               <persName type="lemma" xml:lang="en">Humanus</persName>
+               <persName>ܗܘܡܢܐܣ<ref type="note" corresp="#Vol-4-L_M-ftn69"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-L_M-ftn70"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Iulianos der Abtruennige, 121</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-L_M-ftn71"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0355" notAfter="0360">355-60 CE<ref type="note" corresp="#Vol-4-L_M-ftn72"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

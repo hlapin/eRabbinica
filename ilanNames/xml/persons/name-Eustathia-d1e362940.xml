@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Eustathia-Ε̓σταθία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Eustathia-d1e362940" n="Eustathia-Ε̓σταθία">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e1638-person"
+                    n="Vol-2-G_F-Greek-Females-Eustathia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ε̓σταθία</persName>
+               <persName type="lemma" xml:lang="en">Eustathia</persName>
+               <persName>Ε̓σταθίας</persName>
+               <state type="desc">
+                  <note>Ilasius (1) and <ref corresp="#" type="relation" n="mother-in-law-of">Thaumasis (2)’s mother-in-law</ref>
+                     <ref type="note" corresp="#Vol-2-G_F-ftn106"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue mosaic, Apamea/Syria, Mayence</note>
+               </state>
+               <bibl>CIJ804, 813</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>391<ref type="note" corresp="#Vol-2-G_F-ftn107"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

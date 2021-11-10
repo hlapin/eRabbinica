@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Meliusa-Meliusa</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Meliusa-d1e563912" n="Meliusa-Meliusa">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e27366-person"
+                    n="Vol-3-L_F-Latin-Females-Meliusa-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Meliusa</persName>
+               <persName type="lemma" xml:lang="en">Meliusa</persName>
+               <persName>מיללאשא<ref type="note" corresp="#Vol-3-L_F-ftn835"/>
+               </persName>
+               <persName>/ Meliosa<ref type="note" corresp="#Vol-3-L_F-ftn836"/>
+               </persName>
+               <persName>/Μ[ελιώσ]α<ref type="note" corresp="#Vol-3-L_F-ftn837"/>
+               </persName>
+               <state type="desc">
+                  <note>Judah (38) and <ref corresp="#Vol-3-B_F-d8e2755-person" type="relation" n="daughter-of">Mariam (29)’s daughter</ref>, aged 24?<ref type="note" corresp="#Vol-3-L_F-ftn838"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Tortosa, Renan &amp; Le Blant</note>
+               </state>
+               <bibl>CIJ661</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn839"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Spain</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0599">5th-6thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

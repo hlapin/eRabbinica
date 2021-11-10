@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Arphaesis-Arphaesis</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Arphaesis-d1e479958" n="Arphaesis-Arphaesis">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e889-person"
+                    n="Vol-3-E_M-Egyptian-Males-Arphaesis-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Arphaesis</persName>
+               <persName type="lemma" xml:lang="en">Arphaesis</persName>
+               <persName>̓Αρφαῆσις</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e31718-person" type="relation" n="son-of">Shabtai (109)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Philadelphia</note>
+               </state>
+               <bibl>Montevecchi,Aegyptus63 (1983) 75</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn58"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0034" notAfter="0034">34 CE<ref type="note" corresp="#Vol-3-E_M-ftn59"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

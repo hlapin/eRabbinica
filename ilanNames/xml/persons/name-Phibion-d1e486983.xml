@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Phibion-Phibion</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Phibion-d1e486983" n="Phibion-Phibion">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e7203-person"
+                    n="Vol-3-E_M-Egyptian-Males-Phibion-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Phibion</persName>
+               <persName type="lemma" xml:lang="en">Phibion</persName>
+               <persName>Φιβίων</persName>
+               <state type="desc">
+                  <note>Hermaius (1), <ref corresp="#Vol-3-S-H_M-d8e3294-person" type="relation" n="son-of">Honi (8)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Hermopolis, Wilcken</note>
+               </state>
+               <bibl>CPJ453</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-E_M-ftn438"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0132" notAfter="0132">132 CE<ref type="note" corresp="#Vol-3-E_M-ftn439"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

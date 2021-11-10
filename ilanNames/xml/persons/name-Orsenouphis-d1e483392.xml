@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Orsenouphis-Orsenouphis</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Orsenouphis-d1e483392"
+                     n="Orsenouphis-Orsenouphis">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e4028-person"
+                    n="Vol-3-E_M-Egyptian-Males-Orsenouphis-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Orsenouphis</persName>
+               <persName type="lemma" xml:lang="en">Orsenouphis</persName>
+               <persName>̓Ορσενοῦφις</persName>
+               <state type="desc">
+                  <note>Horos (5) and <ref corresp="#Vol-3-B_F-d8e4781-person" type="relation" n="son-of">Shabtit (17)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Theadelphia, Kortenbeutel</note>
+               </state>
+               <bibl>CPJ489c</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn242"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0134" notAfter="0134">134 CE<ref type="note" corresp="#Vol-3-E_M-ftn243"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e4060-person"
+                    n="Vol-3-E_M-Egyptian-Males-Orsenouphis-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Orsenouphis</persName>
+               <persName type="lemma" xml:lang="en">Orsenouphis</persName>
+               <persName>̓Ορσενο<ref type="note" corresp="#Vol-3-E_M-ftn244"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="father-of">Horus (5)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Theadelphia, Kortenbeutel</note>
+               </state>
+               <bibl>CPJ489c</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn245"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0134" notAfter="0134">134 CE<ref type="note" corresp="#Vol-3-E_M-ftn246"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

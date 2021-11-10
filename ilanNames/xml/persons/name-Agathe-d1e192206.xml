@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Agathe-̓Αγάθη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Agathe-d1e192206" n="Agathe-̓Αγάθη">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_F-d2e45-person"
+                    n="Vol-1-G_F-Agathe-1">
+               <persName type="lemma">̓Αγάθη</persName>
+               <persName type="lemma" xml:lang="en">Agathe</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="he">אגתא<ref type="note" corresp="#Vol-1-G_F-ftn2"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Syrian Orphanage, Euting, 1885</note>
+               </state>
+               <bibl>CIJ, no. 1371</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn3"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e18-person"
+                    n="Vol-3-G_F-Greek-Females-Agathe-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓Αγάθη</persName>
+               <persName type="lemma" xml:lang="en">Agathe</persName>
+               <persName>̓Αγαθῆς</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Argos, Vollgraff</note>
+               </state>
+               <bibl>CIJ100*</bibl>
+               <state type="addl-Descr">
+                  <note>Christian?<ref type="note" corresp="#Vol-3-G_F-ftn2"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-G_F-ftn3"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

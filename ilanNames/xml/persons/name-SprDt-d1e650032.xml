@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - SāpōrDūχt-SāpōrDūχt</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-SprDt-d1e650032" n="SāpōrDūχt-SāpōrDūχt">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e12654-person"
+                    n="Vol-4-I_F-Iranian-Females-SāpōrDūχt-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">SāpōrDūχt</persName>
+               <persName type="lemma" xml:lang="en">SāpōrDūχt</persName>
+               <persName>שברדוך<ref type="note" corresp="#Vol-4-I_F-ftn1034"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_F-d8e7797-person Vol-4-I_M-d8e3576-person"
+                          type="relation"
+                          n="mother-of">Frahāta (1)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowls, Nippur, Montgomery</note>
+               </state>
+               <bibl>1. Isbell, no. 1; 2. no. 25</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn1035"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn1036"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e12689-person"
+                    n="Vol-4-I_F-Iranian-Females-SāpōrDūχt-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">SāpōrDūχt</persName>
+               <persName type="lemma" xml:lang="en">SāpōrDūχt</persName>
+               <persName>שברדוך<ref type="note" corresp="#Vol-4-I_F-ftn1037"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_M-d8e6841-person" type="relation" n="mother-of">Mahadat (1)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Jeruzalmi</note>
+               </state>
+               <bibl>Isbell, no. 67</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn1038"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn1039"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Felfeloi-פלפלוי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Felfeloi-d1e468417" n="Felfeloi-פלפלוי">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-P_M-d8e2170-person"
+                    n="Vol-2-Vol-1-ADD-P_M-Persian-Males-Felfeloi-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">פלפלוי</persName>
+               <persName type="lemma" xml:lang="en">Felfeloi</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn146"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Tulida, 139</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn147"/>
+                  </note>
+               </state>
+               <floruit notBefore="0117" notAfter="0117">Pre-117 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn148"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

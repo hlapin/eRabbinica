@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tabitha-טביתא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tabitha-d1e299690" n="Tabitha-טביתא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_F-d2e564-person"
+                    n="Vol-1-S-H_F-Tabitha-1">
+               <persName type="lemma">טביתא</persName>
+               <persName type="lemma" xml:lang="en">Tabitha</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="gr">Ταβιθά<ref type="note" corresp="#Vol-1-S-H_F-ftn41"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Acts 9:36 (VKGNT 1242)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit>30s CE<ref type="note" corresp="#Vol-1-S-H_F-ftn42"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_F-d2e588-person"
+                    n="Vol-1-S-H_F-Tabitha-2">
+               <persName type="lemma">טביתא</persName>
+               <persName type="lemma" xml:lang="en">Tabitha</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="he">טבתא<ref type="note" corresp="#Vol-1-S-H_F-ftn43"/>
+               </persName>
+               <state type="desc">
+                  <note>Mary’s virgin companion, <ref corresp="#" type="relation" n="daughter-of">Tobias (3)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Syriac Assumption of the Virgin 2 (Lewis,AS41)</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-1-S-H_F-ftn44"/>
+                  </note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE<ref type="note" corresp="#Vol-1-S-H_F-ftn45"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_F-d2e624-person"
+                    n="Vol-1-S-H_F-Tabitha-3">
+               <persName type="lemma">טביתא</persName>
+               <persName type="lemma" xml:lang="en">Tabitha</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e8321-person" type="relation" n="slave-of">Gamaliel (4)’s slave</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>yNed2:1, 49d (Kosovsky,Yerushalmi, 288)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Pre-135CE<ref type="note" corresp="#Vol-1-S-H_F-ftn46"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-S-H_F-d8e167-person"
+                    n="Vol-3-S-H_F-Semitic-Hebrew-Females-Tabitha-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">טביתא</persName>
+               <persName type="lemma" xml:lang="en">Tabitha</persName>
+               <persName>Ταβιαθᾳ<ref type="note" corresp="#Vol-3-S-H_F-ftn12"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e78714-person" type="relation" n="wife-of">Philippus (19)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Chios</note>
+               </state>
+               <bibl>Dunst,APF16 (1958) 172</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-S-H_F-ftn13"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0199">1st-2ndC CE<ref type="note" corresp="#Vol-3-S-H_F-ftn14"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

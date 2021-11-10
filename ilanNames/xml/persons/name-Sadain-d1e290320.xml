@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sadain-Sadain</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sadain-d1e290320" n="Sadain-Sadain">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-P_F-d2e142-person"
+                    n="Vol-1-P_F-Sadain-1">
+               <persName type="lemma">Sadain</persName>
+               <persName type="lemma" xml:lang="en">Sadain</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="he">צדן</persName>
+               <persName xml:lang="he">צדה<ref type="note" corresp="#Vol-1-P_F-ftn8"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-P_F-ftn9"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Kings’ Sepulchre, de Saulcy, 1865</note>
+               </state>
+               <bibl>CIJ, no. 1388</bibl>
+               <state type="addl-Descr">
+                  <note>proselyte<ref type="note" corresp="#Vol-1-P_F-ftn10"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-P_F-ftn11"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

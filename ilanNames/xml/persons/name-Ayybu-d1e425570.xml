@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ayybu-אייבו</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ayybu-d1e425570" n="Ayybu-אייבו">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e5887-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ayybu-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אייבו</persName>
+               <persName type="lemma" xml:lang="en">Ayybu</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yBer1:5, 3c (Kosovsky,Yerushalmi, 83-4)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn355"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e5918-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ayybu-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">אייבו</persName>
+               <persName type="lemma" xml:lang="en">Ayybu</persName>
+               <persName>אבהו<ref type="note" corresp="#Vol-2-S-H_M-ftn356"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e18948-person" type="relation" n="son-of">Nagara (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yPea7:5, 20b (Kosovsky,Yerushalmi, 34)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn357"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

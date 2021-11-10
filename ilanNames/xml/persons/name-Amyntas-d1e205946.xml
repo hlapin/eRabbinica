@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Amyntas-̓Αμύντας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Amyntas-d1e205946" n="Amyntas-̓Αμύντας">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e1650-person"
+                    n="Vol-1-G_M-Amyntas-1">
+               <persName type="lemma">̓Αμύντας</persName>
+               <persName type="lemma" xml:lang="en">Amyntas</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e3344-person" type="relation" n="father-of">Aristobulus (6)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>AJ14:248 (Schalit,NB, 11)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="-0105" notAfter="-0105">105 BCE<ref type="note" corresp="#Vol-1-G_M-ftn118"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e5960-person"
+                    n="Vol-3-G_M-Greek-Males-Amyntas-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αμύντας</persName>
+               <persName type="lemma" xml:lang="en">Amyntas</persName>
+               <persName>אמנתס<ref type="note" corresp="#Vol-3-G_M-ftn348"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Della Vida,</note>
+               </state>
+               <bibl>TADAE3:3:29</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn349"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e5994-person"
+                    n="Vol-3-G_M-Greek-Males-Amyntas-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αμύντας</persName>
+               <persName type="lemma" xml:lang="en">Amyntas</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn350"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Manumission inscription, Delphi, Homolle</note>
+               </state>
+               <bibl>CIJ711</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn351"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0119" notAfter="0119">119 CE<ref type="note" corresp="#Vol-3-G_M-ftn352"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e6037-person"
+                    n="Vol-3-G_M-Greek-Males-Amyntas-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αμύντας</persName>
+               <persName type="lemma" xml:lang="en">Amyntas</persName>
+               <persName>̓Αμύντα<ref type="note" corresp="#Vol-3-G_M-ftn353"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e35167-person" type="relation" n="father-of">Zeuxis (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira, Wright</note>
+               </state>
+               <bibl>CJZC63d</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn354"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0117" notAfter="0117">Pre-117 CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

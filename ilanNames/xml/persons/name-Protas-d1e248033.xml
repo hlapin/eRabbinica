@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Protas-Πρωτᾶς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Protas-d1e248033" n="Protas-Πρωτᾶς">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e15242-person"
+                    n="Vol-1-G_M-Protas-1">
+               <persName type="lemma">Πρωτᾶς</persName>
+               <persName type="lemma" xml:lang="en">Protas</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Mt Scopus, Vincent, 1900</note>
+               </state>
+               <bibl>CJO, no. 11</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn1095"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e15261-person"
+                    n="Vol-1-G_M-Protas-2">
+               <persName type="lemma">Πρωτᾶς</persName>
+               <persName type="lemma" xml:lang="en">Protas</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Πρωτάτος<ref type="note" corresp="#Vol-1-G_M-ftn1096"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_F-d2e1396-person" type="relation" n="husband-of">Dosis (1)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Jerusalem</note>
+               </state>
+               <bibl>CJO, no. 236</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn1097"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e16055-person"
+                    n="Vol-2-G_M-Greek-Males-Protas-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πρωτᾶς</persName>
+               <persName type="lemma" xml:lang="en">Protas</persName>
+               <persName>פרוטה<ref type="note" corresp="#Vol-2-G_M-ftn1050"/>
+               </persName>
+               <persName>/פריטה<ref type="note" corresp="#Vol-2-G_M-ftn1051"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_M-d8e17862-person" type="relation" n="father-of">Philip (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yMeg4:2, 75a (Kosovsky,Yerushalmi, 587)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>4thC<ref type="note" corresp="#Vol-2-G_M-ftn1052"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

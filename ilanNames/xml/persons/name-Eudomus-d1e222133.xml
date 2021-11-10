@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Eudomus-Ε̓δόμος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Eudomus-d1e222133" n="Eudomus-Ε̓δόμος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e6916-person"
+                    n="Vol-1-G_M-Eudomus-1">
+               <persName type="lemma">Ε̓δόμος</persName>
+               <persName type="lemma" xml:lang="en">Eudomus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Αὔδομος<ref type="note" corresp="#Vol-1-G_M-ftn490"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-G_M-ftn491"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Zenon’s archive</note>
+               </state>
+               <bibl>CPJno. 4</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-1-G_M-ftn492"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0257" notAfter="-0257">257 BCE<ref type="note" corresp="#Vol-1-G_M-ftn493"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

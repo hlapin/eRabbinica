@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Aida-᾽Αίδα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Aida-d1e454695" n="Aida-᾽Αίδα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-G_F-d8e18-person"
+                    n="Vol-2-Vol-1-ADD-G_F-Greek-Females-Aida-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">᾽Αίδα</persName>
+               <persName type="lemma" xml:lang="en">Aida</persName>
+               <persName>–<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn2"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn3"/>Tomb of the Prophets, Clermon-Gannau</note>
+               </state>
+               <bibl>CIIP1/2, 947</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn4"/>
+                  </note>
+               </state>
+               <floruit>Pre-70 CE?<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_F-ftn5"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

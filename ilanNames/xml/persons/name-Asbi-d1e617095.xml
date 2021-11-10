@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ʿAsbi-عسبي</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Asbi-d1e617095" n="ʿAsbi-عسبي">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e9144-person"
+                    n="Vol-4-A_M-Arabic-Males-ʿAsbi-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">عسبي</persName>
+               <persName type="lemma" xml:lang="en">ʿAsbi</persName>
+               <persName>עשבי<ref type="note" corresp="#Vol-4-A_M-ftn736"/>
+               </persName>
+               <persName>/עוסמי<ref type="note" corresp="#Vol-4-A_M-ftn737"/>
+               </persName>
+               <persName>/עיסמא<ref type="note" corresp="#Vol-4-A_M-ftn738"/>
+               </persName>
+               <persName>/עיסבי<ref type="note" corresp="#Vol-4-A_M-ftn739"/>
+               </persName>
+               <persName>/עוסבי<ref type="note" corresp="#Vol-4-A_M-ftn740"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e2410-person" type="relation" n="father-of">Abba (54)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bMQ11a (Kosowsky,Babylonico, 1465)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-A_M-ftn741"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE<ref type="note" corresp="#Vol-4-A_M-ftn742"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

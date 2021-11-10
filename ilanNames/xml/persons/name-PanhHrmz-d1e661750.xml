@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - PanāhHōrmīz-PanāhHōrmīz</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-PanhHrmz-d1e661750"
+                     n="PanāhHōrmīz-PanāhHōrmīz">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e8718-person"
+                    n="Vol-4-I_M-Iranian-Males-PanāhHōrmīz-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">PanāhHōrmīz</persName>
+               <persName type="lemma" xml:lang="en">PanāhHōrmīz</persName>
+               <persName>פנאחורמיז<ref type="note" corresp="#Vol-4-I_M-ftn739"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Rašn-Dūχt (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Jerusalem?<ref type="note" corresp="#Vol-4-I_M-ftn740"/>
+                  </note>
+               </state>
+               <bibl>MSFno. 18</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn741"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn742"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

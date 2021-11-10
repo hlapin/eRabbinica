@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Caridius-Caridius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Caridius-d1e400055" n="Caridius-Caridius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e2109-person"
+                    n="Vol-2-L_M-Latin-Males-Caridius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Caridius</persName>
+               <persName type="lemma" xml:lang="en">Caridius</persName>
+               <persName>Καρίδα<ref type="note" corresp="#Vol-2-L_M-ftn162"/>
+               </persName>
+               <state type="desc">
+                  <note>Isaac (49) and <ref corresp="#Vol-2-L_M-d8e4798-person" type="relation" n="father-of">Julius (5)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaphs, Beth She‘arim, catacomb 1,CIJ1031, 1032</note>
+               </state>
+               <bibl>1.BS2:16; 2. 2:17</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-L_M-ftn163"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

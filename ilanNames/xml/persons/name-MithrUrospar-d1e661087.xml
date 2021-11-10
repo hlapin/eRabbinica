@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - MithrUrospar-MithrUrospar</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-MithrUrospar-d1e661087"
+                     n="MithrUrospar-MithrUrospar">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e8147-person"
+                    n="Vol-4-I_M-Iranian-Males-MithrUrospar-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">MithrUrospar</persName>
+               <persName type="lemma" xml:lang="en">MithrUrospar</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-I_M-ftn687"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-I_M-ftn688"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Dura-Europos, Pagliaro</note>
+               </state>
+               <bibl>IJO3, Syr116</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn689"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Dura-Europos</note>
+               </state>
+               <floruit notBefore="0253" notAfter="0254">253/4 CE<ref type="note" corresp="#Vol-4-I_M-ftn690"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

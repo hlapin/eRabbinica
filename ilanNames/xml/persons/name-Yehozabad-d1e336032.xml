@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Yehozabad-יהוזבד</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Yehozabad-d1e336032" n="Yehozabad-יהוזבד">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_M-d8e17985-person"
+                    n="Vol-2-B_M-Biblical-Males-Yehozabad-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">יהוזבד</persName>
+               <persName type="lemma" xml:lang="en">Yehozabad</persName>
+               <persName>יהזבד<ref type="note" corresp="#Vol-2-B_M-ftn1185"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Beit She‘arim</note>
+               </state>
+               <bibl>CIJ1132</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-B_M-ftn1186"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

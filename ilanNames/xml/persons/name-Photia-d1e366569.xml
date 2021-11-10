@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Photia-Φωτία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Photia-d1e366569" n="Photia-Φωτία">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e4979-person"
+                    n="Vol-2-G_F-Greek-Females-Photia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Φωτία</persName>
+               <persName type="lemma" xml:lang="en">Photia</persName>
+               <persName>Φωτίου<ref type="note" corresp="#Vol-2-G_F-ftn328"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_M-d8e10404-person" type="relation" n="wife-of">Hilasius (2)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue mosaic, Apamea/Syria, Mayence</note>
+               </state>
+               <bibl>CIJ804</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>391<ref type="note" corresp="#Vol-2-G_F-ftn329"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e19377-person"
+                    n="Vol-3-G_F-Greek-Females-Photia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Φωτία</persName>
+               <persName type="lemma" xml:lang="en">Photia</persName>
+               <persName>Φωτίου<ref type="note" corresp="#Vol-3-G_F-ftn1103"/>
+               </persName>
+               <state type="desc">
+                  <note>Matrona (6), Aurelius (30) <ref corresp="#Vol-3-G_M-d8e31616-person" type="relation" n="wife-of">Eusabbathius (2)’s wife</ref>, of Seleucia<ref type="note" corresp="#Vol-3-G_F-ftn1104"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Corycus, Duchesne</note>
+               </state>
+               <bibl>CIJ788</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn1105"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e19421-person"
+                    n="Vol-3-G_F-Greek-Females-Photia-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Φωτία</persName>
+               <persName type="lemma" xml:lang="en">Photia</persName>
+               <persName>Φωτίων<ref type="note" corresp="#Vol-3-G_F-ftn1106"/>
+               </persName>
+               <state type="desc">
+                  <note>Photia (1) <ref corresp="#Vol-3-L_F-d8e27010-person"
+                          type="relation"
+                          n="granddaughter-of">Matrona (6)’s granddaughter</ref>, of Seleucia<ref type="note" corresp="#Vol-3-G_F-ftn1107"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Corycus, Duchesne</note>
+               </state>
+               <bibl>CIJ788</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn1108"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

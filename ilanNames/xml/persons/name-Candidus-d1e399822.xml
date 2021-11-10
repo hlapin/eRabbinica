@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Candidus-Candidus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Candidus-d1e399822" n="Candidus-Candidus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e2008-person"
+                    n="Vol-2-L_M-Latin-Males-Candidus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Candidus</persName>
+               <persName type="lemma" xml:lang="en">Candidus</persName>
+               <persName>Κανδ[έ]δας<ref type="note" corresp="#Vol-2-L_M-ftn156"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e44793-person" type="relation" n="son-of">Samuel (38)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Beirut, Renan</note>
+               </state>
+               <bibl>CIJ873</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-L_M-ftn157"/>
+                  </note>
+               </state>
+               <floruit>6thC</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-L_M-d8e267-person"
+                    n="Vol-2-Vol-1-ADD-L_M-Latin-Males-Candidus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Candidus</persName>
+               <persName type="lemma" xml:lang="en">Candidus</persName>
+               <persName>Κανδιδος<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn24"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Rockefeller Museum, Jerusalem</note>
+               </state>
+               <bibl>CIIP1/2, 738</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn25"/>
+                  </note>
+               </state>
+               <floruit>Pre-70 CE?<ref type="note" corresp="#Vol-2-Vol-1-ADD-L_M-ftn26"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e10800-person"
+                    n="Vol-3-L_M-Latin-Males-Candidus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Candidus</persName>
+               <persName type="lemma" xml:lang="en">Candidus</persName>
+               <persName>Κάνδιδος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e27084-person" type="relation" n="son-of">Herennius (2)’s son</ref>, aged 19<ref type="note" corresp="#Vol-3-L_M-ftn633"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira, Oliverio</note>
+               </state>
+               <bibl>CJZC49</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn634"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit>Pre-117 CE?</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e10835-person"
+                    n="Vol-3-L_M-Latin-Males-Candidus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Candidus</persName>
+               <persName type="lemma" xml:lang="en">Candidus</persName>
+               <persName>Κ[αν]δίδου<ref type="note" corresp="#Vol-3-L_M-ftn635"/>
+               </persName>
+               <state type="desc">
+                  <note>Gaius (26) Julius (28), Gaius (25) Julius (27) <ref corresp="#Vol-3-S-G_M-d8e688-person" type="relation" n="father-of">Aretas (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Teucheira</note>
+               </state>
+               <bibl>Reynolds,CJZC13a</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn636"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0117" notAfter="0117">Pre-117 CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hieronymus-̔Ιερώνυμος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hieronymus-d1e377142"
+                     n="Hieronymus-̔Ιερώνυμος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e10250-person"
+                    n="Vol-2-G_M-Greek-Males-Hieronymus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̔Ιερώνυμος</persName>
+               <persName type="lemma" xml:lang="en">Hieronymus</persName>
+               <persName>̔Ιερών[υμος]<ref type="note" corresp="#Vol-2-G_M-ftn688"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-G_M-ftn689"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Beth She‘arim,catacomb 16</note>
+               </state>
+               <bibl>BS2:180</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_M-ftn690"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

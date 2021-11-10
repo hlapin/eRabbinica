@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Polychares-Πολυχάρης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Polychares-d1e545458"
+                     n="Polychares-Πολυχάρης">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e66163-person"
+                    n="Vol-3-G_M-Greek-Males-Polychares-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πολυχάρης</persName>
+               <persName type="lemma" xml:lang="en">Polychares</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Aizanoi, Pazarcik</note>
+               </state>
+               <bibl>IJO2, 167</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3817"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0199">2ndC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e66194-person"
+                    n="Vol-3-G_M-Greek-Males-Polychares-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πολυχάρης</persName>
+               <persName type="lemma" xml:lang="en">Polychares</persName>
+               <persName>Πολυχάρους</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e18934-person" type="relation" n="father-of">Diogenes (7)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Augustus statue base, Cos</note>
+               </state>
+               <bibl>Maiuri,NSE, no. 466</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3818"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit>30 BCE-14 CE<ref type="note" corresp="#Vol-3-G_M-ftn3819"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

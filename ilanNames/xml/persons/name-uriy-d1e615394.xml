@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ṣuriyāʾ-صورياء</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-uriy-d1e615394" n="Ṣuriyāʾ-صورياء">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e7681-person"
+                    n="Vol-4-A_M-Arabic-Males-Ṣuriyāʾ-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">صورياء</persName>
+               <persName type="lemma" xml:lang="en">Ṣuriyāʾ</persName>
+               <persName>صوري<ref type="note" corresp="#Vol-4-A_M-ftn625"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_M-d8e8287-person" type="relation" n="father-of">ʿAbdullah (1)’s father</ref>, of the Thaʿlaba (2) b. al-Fiṭyawn (1)<ref type="note" corresp="#Vol-4-A_M-ftn626"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Hishām,Leben Muhammed’s, 351</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-A_M-ftn627"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0500" notAfter="0599">6thC CE<ref type="note" corresp="#Vol-4-A_M-ftn628"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e7728-person"
+                    n="Vol-4-A_M-Arabic-Males-Ṣuriyāʾ-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">صورياء</persName>
+               <persName type="lemma" xml:lang="en">Ṣuriyāʾ</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_M-d8e11643-person" type="relation" n="father-of">Kināna (2)’s father</ref>, client of the Banū Ḥāritha<ref type="note" corresp="#Vol-4-A_M-ftn629"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Hishām,Leben Muhammed’s, 352</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-A_M-ftn630"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0500" notAfter="0599">6thC CE<ref type="note" corresp="#Vol-4-A_M-ftn631"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

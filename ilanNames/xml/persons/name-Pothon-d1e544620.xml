@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Pothon-Πόθων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Pothon-d1e544620" n="Pothon-Πόθων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e65345-person"
+                    n="Vol-3-G_M-Greek-Males-Pothon-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πόθων</persName>
+               <persName type="lemma" xml:lang="en">Pothon</persName>
+               <persName>Πόθωνος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e16305-person" type="relation" n="father-of">Foeda (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Manumission inscription, Phanagoria,<ref type="note" corresp="#Vol-3-G_M-ftn3767"/>Jurgiewicz</note>
+               </state>
+               <bibl>CIJ691</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3768"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Bosphoran Kingdom</note>
+               </state>
+               <floruit notBefore="0016" notAfter="0016">16 CE<ref type="note" corresp="#Vol-3-G_M-ftn3769"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

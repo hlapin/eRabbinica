@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Dorymenes-Δορυμένης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Dorymenes-d1e218040" n="Dorymenes-Δορυμένης">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e5273-person"
+                    n="Vol-1-G_M-Dorymenes-1">
+               <persName type="lemma">Δορυμένης</persName>
+               <persName type="lemma" xml:lang="en">Dorymenes</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">דרמנס<ref type="note" corresp="#Vol-1-G_M-ftn371"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Mishmar</note>
+               </state>
+               <bibl>Bar-Adon,Cave of Treasure205</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-G_M-ftn372"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e5296-person"
+                    n="Vol-1-G_M-Dorymenes-2">
+               <persName type="lemma">Δορυμένης</persName>
+               <persName type="lemma" xml:lang="en">Dorymenes</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">דרמנס<ref type="note" corresp="#Vol-1-G_M-ftn373"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e35397-person" type="relation" n="father-of">Joseph (173)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, deed, Babatha archive</note>
+               </state>
+               <bibl>PYadin 7</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0120" notAfter="0120">120 CE<ref type="note" corresp="#Vol-1-G_M-ftn374"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

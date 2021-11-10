@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - YazdāntamFarnbag-YazdāntamFarnbag</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-YazdntamFarnbag-d1e658084"
+                     n="YazdāntamFarnbag-YazdāntamFarnbag">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e5458-person"
+                    n="Vol-4-I_M-Iranian-Males-YazdāntamFarnbag-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">YazdāntamFarnbag</persName>
+               <persName type="lemma" xml:lang="en">YazdāntamFarnbag</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-I_M-ftn466"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-I_M-ftn467"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Dura-Europos, Pagliaro</note>
+               </state>
+               <bibl>IJO3, Syr111</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_M-ftn468"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Dura-Europos</note>
+               </state>
+               <floruit notBefore="0253" notAfter="0253">253 CE<ref type="note" corresp="#Vol-4-I_M-ftn469"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

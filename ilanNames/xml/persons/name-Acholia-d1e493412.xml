@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Acholia-̓Αχολία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Acholia-d1e493412" n="Acholia-̓Αχολία">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e3810-person"
+                    n="Vol-3-G_F-Greek-Females-Acholia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓Αχολία</persName>
+               <persName type="lemma" xml:lang="en">Acholia</persName>
+               <persName>̓Αχολίας</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="wife-of">Jacob (58)’s wife</ref>, of Capadocia,<ref type="note" corresp="#Vol-3-G_F-ftn211"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Jaffa (Israel), Schick</note>
+               </state>
+               <bibl>CIJ910</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn212"/>
+                  </note>
+               </state>
+               <floruit>Asia</floruit>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

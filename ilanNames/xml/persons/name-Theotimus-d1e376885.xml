@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Theotimus-Θεότιμος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Theotimus-d1e376885" n="Theotimus-Θεότιμος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e9788-person"
+                    n="Vol-2-G_M-Greek-Males-Theotimus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Θεότιμος</persName>
+               <persName type="lemma" xml:lang="en">Theotimus</persName>
+               <persName>[Θε]οτίμας<ref type="note" corresp="#Vol-2-G_M-ftn656"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_F-d8e1744-person" type="relation" n="father-of">Zenobia (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Beth She‘arim,catacomb 1</note>
+               </state>
+               <bibl>BS2:24</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_M-ftn657"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

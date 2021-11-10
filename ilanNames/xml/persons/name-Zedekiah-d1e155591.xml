@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Zedekiah-צדקיה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Zedekiah-d1e155591" n="Zedekiah-צדקיה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e49993-person"
+                    n="Vol-1-B_M-Zedekiah-1">
+               <persName type="lemma">צדקיה</persName>
+               <persName type="lemma" xml:lang="en">Zedekiah</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Σεδεκίας<ref type="note" corresp="#Vol-1-B_M-ftn3836"/>
+               </persName>
+               <persName xml:lang="he">צדקיא<ref type="note" corresp="#Vol-1-B_M-ftn3837"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Arist49</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-1-B_M-ftn3838"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE<ref type="note" corresp="#Vol-1-B_M-ftn3839"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

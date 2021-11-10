@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - BahmanDūχt-BahmanDūχt</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-BahmanDt-d1e637949" n="BahmanDūχt-BahmanDūχt">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e1435-person"
+                    n="Vol-4-I_F-Iranian-Females-BahmanDūχt-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">BahmanDūχt</persName>
+               <persName type="lemma" xml:lang="en">BahmanDūχt</persName>
+               <persName>בהמנדוך<ref type="note" corresp="#Vol-4-I_F-ftn121"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_F-d8e12779-person"
+                          type="relation"
+                          n="daughter-of">Sēma (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowls, Nippur, Montgomery</note>
+               </state>
+               <bibl>1. Isbell, no. 1; 2. no. 25</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn122"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn123"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e1470-person"
+                    n="Vol-4-I_F-Iranian-Females-BahmanDūχt-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">BahmanDūχt</persName>
+               <persName type="lemma" xml:lang="en">BahmanDūχt</persName>
+               <persName>בהמנדוך<ref type="note" corresp="#Vol-4-I_F-ftn124"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-I_F-d8e6379-person" type="relation" n="daughter-of">Kayumta (5)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Moscow</note>
+               </state>
+               <bibl>Harkavi,Zapiski4 (1890) 83</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn125"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn126"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

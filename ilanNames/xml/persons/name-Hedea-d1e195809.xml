@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hedea-̔Ηδεῖα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hedea-d1e195809" n="Hedea-̔Ηδεῖα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_F-d2e1864-person"
+                    n="Vol-1-G_F-Hedea-1">
+               <persName type="lemma">̔Ηδεῖα</persName>
+               <persName type="lemma" xml:lang="en">Hedea</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="gr">̔Ηδῆα<ref type="note" corresp="#Vol-1-G_F-ftn131"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Mt of Offence, Clermont-Ganneau, 1874</note>
+               </state>
+               <bibl>CIJ, no. 1324</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn132"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

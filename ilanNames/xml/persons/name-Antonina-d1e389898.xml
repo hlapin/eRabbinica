@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Antonina-Antonina</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Antonina-d1e389898" n="Antonina-Antonina">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_F-d8e15-person"
+                    n="Vol-2-L_F-Latin-Female-Antonina-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Antonina</persName>
+               <persName type="lemma" xml:lang="en">Antonina</persName>
+               <persName>אנטונינה<ref type="note" corresp="#Vol-2-L_F-ftn2"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, Israel Museum</note>
+               </state>
+               <bibl>AMBno. 15</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-L_F-ftn3"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e812-person"
+                    n="Vol-3-L_F-Latin-Females-Antonina-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Antonina</persName>
+               <persName type="lemma" xml:lang="en">Antonina</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e17214-person" type="relation" n="wife-of">Gaius (7)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vigna Randanini, Garrucci</note>
+               </state>
+               <bibl>CIJ236</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn46"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e846-person"
+                    n="Vol-3-L_F-Latin-Females-Antonina-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Antonina</persName>
+               <persName type="lemma" xml:lang="en">Antonina</persName>
+               <persName>̓Αντωνῖνα<ref type="note" corresp="#Vol-3-L_F-ftn47"/>
+               </persName>
+               <state type="desc">
+                  <note>Flavia (10), <ref corresp="#Vol-3-L_M-d8e13635-person" type="relation" n="wife-of">Dativus (1)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Migliore</note>
+               </state>
+               <bibl>CIJ416</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn48"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

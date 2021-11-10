@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Marcianus-Marcianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Marcianus-d1e582615" n="Marcianus-Marcianus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e26341-person"
+                    n="Vol-3-L_M-Latin-Males-Marcianus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Marcianus</persName>
+               <persName type="lemma" xml:lang="en">Marcianus</persName>
+               <persName>Μαρκιανέ<ref type="note" corresp="#Vol-3-L_M-ftn1573"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn1574"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Porto, Ficker</note>
+               </state>
+               <bibl>CIJ539</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1575"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e26403-person"
+                    n="Vol-3-L_M-Latin-Males-Marcianus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Marcianus</persName>
+               <persName type="lemma" xml:lang="en">Marcianus</persName>
+               <persName>Μαρκια[ν]ός<ref type="note" corresp="#Vol-3-L_M-ftn1576"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Altar, Aphrodisias</note>
+               </state>
+               <bibl>Reynolds &amp; Tannenbaum, 138</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1577"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn1578"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

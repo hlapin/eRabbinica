@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ʿAmmār-عمار</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ammr-d1e617230" n="ʿAmmār-عمار">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e9299-person"
+                    n="Vol-4-A_M-Arabic-Males-ʿAmmār-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">عمار</persName>
+               <persName type="lemma" xml:lang="en">ʿAmmār</persName>
+               <persName>ابو عمار<ref type="note" corresp="#Vol-4-A_M-ftn755"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Hishām,Leben Muhammed’s, 391</bibl>
+               <state type="addl-Descr">
+                  <note>Muslim convert<ref type="note" corresp="#Vol-4-A_M-ftn756"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0632" notAfter="0632">Pre-632 CE<ref type="note" corresp="#Vol-4-A_M-ftn757"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e9335-person"
+                    n="Vol-4-A_M-Arabic-Males-ʿAmmār-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">عمار</persName>
+               <persName type="lemma" xml:lang="en">ʿAmmār</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_M-d8e13539-person" type="relation" n="son-of">Yāsir (4)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Rāzī,tafsīr, I, 439</bibl>
+               <state type="addl-Descr">
+                  <note>Muslim convert<ref type="note" corresp="#Vol-4-A_M-ftn758"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0632" notAfter="0632">Pre-632 CE<ref type="note" corresp="#Vol-4-A_M-ftn759"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

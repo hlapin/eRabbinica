@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Helladote-̔Ελλαδότη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Helladote-d1e496432" n="Helladote-̔Ελλαδότη">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e7393-person"
+                    n="Vol-3-G_F-Greek-Females-Helladote-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̔Ελλαδότη</persName>
+               <persName type="lemma" xml:lang="en">Helladote</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e80418-person"
+                          type="relation"
+                          n="daughter-of">Philonides (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Magdola, Guéraud</note>
+               </state>
+               <bibl>CPJ128</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn410"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0218" notAfter="-0218">218 BCE<ref type="note" corresp="#Vol-3-G_F-ftn411"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

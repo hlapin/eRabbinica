@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Χad-Χad</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-ad-d1e658929" n="Χad-Χad">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e6211-person"
+                    n="Vol-4-I_M-Iranian-Males-Χad-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Χad</persName>
+               <persName type="lemma" xml:lang="en">Χad</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-I_M-ftn530"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Seal</note>
+               </state>
+               <bibl>Shaked, “Jewish Sasanian Sigillography,” no. 26</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-I_M-ftn531"/>; authentic?<ref type="note" corresp="#Vol-4-I_M-ftn532"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia?<ref type="note" corresp="#Vol-4-I_M-ftn533"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-4-I_M-ftn534"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

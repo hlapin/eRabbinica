@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Leontides-Λεοντίδης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Leontides-d1e379397" n="Leontides-Λεοντίδης">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e11654-person"
+                    n="Vol-2-G_M-Greek-Males-Leontides-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Λεοντίδης</persName>
+               <persName type="lemma" xml:lang="en">Leontides</persName>
+               <persName>Λεοντεῖδης<ref type="note" corresp="#Vol-2-G_M-ftn777"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-L_M-d8e5954-person" type="relation" n="father-of">Justus (18)’s father</ref>, <ref corresp="#Vol-2-G_F-d8e4495-person" type="relation" n="husband-of">Sapho (2)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Beth She‘arim,catacomb 11</note>
+               </state>
+               <bibl>BS2:127</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn778"/>
+                  </note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_M-ftn779"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ecdemus-̓́Εκδημος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ecdemus-d1e519473" n="Ecdemus-̓́Εκδημος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e25235-person"
+                    n="Vol-3-G_M-Greek-Males-Ecdemus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓́Εκδημος</persName>
+               <persName type="lemma" xml:lang="en">Ecdemus</persName>
+               <persName>[̓Ε]κδήμου<ref type="note" corresp="#Vol-3-G_M-ftn1492"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e32535-person" type="relation" n="father-of">Shabtai (129)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Demerdash, Edgar</note>
+               </state>
+               <bibl>CIJ1483</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn1493"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0044" notAfter="-0044">44 BCE<ref type="note" corresp="#Vol-3-G_M-ftn1494"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

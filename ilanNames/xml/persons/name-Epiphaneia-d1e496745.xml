@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Epiphaneia-̓Επιφάνεια</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Epiphaneia-d1e496745"
+                     n="Epiphaneia-̓Επιφάνεια">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e7831-person"
+                    n="Vol-3-G_F-Greek-Females-Epiphaneia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓Επιφάνεια</persName>
+               <persName type="lemma" xml:lang="en">Epiphaneia</persName>
+               <persName>̓Επιφανία<ref type="note" corresp="#Vol-3-G_F-ftn434"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_F-ftn435"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vigna Randanini, Garrucci</note>
+               </state>
+               <bibl>CIJ130</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn436"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e7887-person"
+                    n="Vol-3-G_F-Greek-Females-Epiphaneia-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓Επιφάνεια</persName>
+               <persName type="lemma" xml:lang="en">Epiphaneia</persName>
+               <persName>̓Επιφανία<ref type="note" corresp="#Vol-3-G_F-ftn437"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Syracuse</note>
+               </state>
+               <bibl>Orsi,Römische Quartalschrift10 (1896) 19</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn438"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Sicily</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-G_F-ftn439"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

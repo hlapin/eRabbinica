@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sipora-צפרה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sipora-d1e327298" n="Sipora-צפרה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_F-d8e1807-person"
+                    n="Vol-2-B_F-Biblical-Females-Sipora-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">צפרה</persName>
+               <persName type="lemma" xml:lang="en">Sipora</persName>
+               <persName>ציפור<ref type="note" corresp="#Vol-2-B_F-ftn126"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e567-person" type="relation" n="daughter-of">Abshalom (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yGit5:3, 46d (Kosovsky,Yerushalmi, 55)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-B_F-ftn127"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

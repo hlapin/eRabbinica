@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sodamus-Σώδαμος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sodamus-d1e549641" n="Sodamus-Σώδαμος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e73394-person"
+                    n="Vol-3-G_M-Greek-Males-Sodamus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Σώδαμος</persName>
+               <persName type="lemma" xml:lang="en">Sodamus</persName>
+               <persName>Σωδάμω</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-S-H_F-d8e1057-person" type="relation" n="father-of">Marin (17)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Umm el-Hnaar</note>
+               </state>
+               <bibl>Reynolds,CJZC3</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4249"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="0086" notAfter="0086">86 CE<ref type="note" corresp="#Vol-3-G_M-ftn4250"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

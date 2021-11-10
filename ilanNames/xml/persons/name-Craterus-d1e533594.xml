@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Craterus-Κράτερος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Craterus-d1e533594" n="Craterus-Κράτερος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e51088-person"
+                    n="Vol-3-G_M-Greek-Males-Craterus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Κράτερος</persName>
+               <persName type="lemma" xml:lang="en">Craterus</persName>
+               <persName>כרתרס<ref type="note" corresp="#Vol-3-G_M-ftn2947"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Edfu, Weill</note>
+               </state>
+               <bibl>TADAE4:8:12</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2948"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0299" notAfter="-0200">3rdC BCE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e51122-person"
+                    n="Vol-3-G_M-Greek-Males-Craterus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Κράτερος</persName>
+               <persName type="lemma" xml:lang="en">Craterus</persName>
+               <persName>Κράτερο<ref type="note" corresp="#Vol-3-G_M-ftn2949"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e70888-person" type="relation" n="son-of">Serambus (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Vienna</note>
+               </state>
+               <bibl>P. Harrauer 33:111</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2950"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e51155-person"
+                    n="Vol-3-G_M-Greek-Males-Craterus-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Κράτερος</persName>
+               <persName type="lemma" xml:lang="en">Craterus</persName>
+               <persName>Κρατέρου</persName>
+               <state type="desc">
+                  <note>Shabtai (150) <ref corresp="#Vol-3-L_M-d8e8854-person" type="relation" n="father-of">Aurelius (94)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Ephesus</note>
+               </state>
+               <bibl>Merkelbach et al.,IK17, no. 3307</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2951"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

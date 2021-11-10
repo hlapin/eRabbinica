@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Theophylactus-Θεοφύλακτος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Theophylactus-d1e376995"
+                     n="Theophylactus-Θεοφύλακτος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e9971-person"
+                    n="Vol-2-G_M-Greek-Males-Theophylactus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Θεοφύλακτος</persName>
+               <persName type="lemma" xml:lang="en">Theophylactus</persName>
+               <persName>תיופולקטוס<ref type="note" corresp="#Vol-2-G_M-ftn668"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Temple Mount, Jerusalem, Mayer</note>
+               </state>
+               <bibl>CIJ1398</bibl>
+               <state type="addl-Descr">
+                  <note>Late?<ref type="note" corresp="#Vol-2-G_M-ftn669"/>
+                  </note>
+               </state>
+               <floruit>Pre-650?<ref type="note" corresp="#Vol-2-G_M-ftn670"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

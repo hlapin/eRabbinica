@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Marcellinia-Marcellinia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Marcellinia-d1e562889"
+                     n="Marcellinia-Marcellinia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e25689-person"
+                    n="Vol-3-L_F-Latin-Females-Marcellinia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Marcellinia</persName>
+               <persName type="lemma" xml:lang="en">Marcellinia</persName>
+               <persName>Marcellina<ref type="note" corresp="#Vol-3-L_F-ftn741"/>
+               </persName>
+               <state type="desc">
+                  <note>Flavia (12), Lucius (17) Valerius (6) <ref corresp="#Vol-3-L_M-d8e28979-person" type="relation" n="wife-of">Maximus (6)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Capena, Solin</note>
+               </state>
+               <bibl>JIWE1, 204</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn742"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0299">2nd-3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

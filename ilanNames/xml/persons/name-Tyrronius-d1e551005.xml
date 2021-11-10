@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tyrronius-Τυρρώνιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tyrronius-d1e551005" n="Tyrronius-Τυρρώνιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e76792-person"
+                    n="Vol-3-G_M-Greek-Males-Tyrronius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Τυρρώνιος</persName>
+               <persName type="lemma" xml:lang="en">Tyrronius</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn4465"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Acmonia, Ramsay</note>
+               </state>
+               <bibl>CIJ766</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4466"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0054" notAfter="0068">54-68 CE<ref type="note" corresp="#Vol-3-G_M-ftn4467"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e76831-person"
+                    n="Vol-3-G_M-Greek-Males-Tyrronius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Τυρρώνιος</persName>
+               <persName type="lemma" xml:lang="en">Tyrronius</persName>
+               <persName>Τυρρωνίου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e69797-person" type="relation" n="son-of">Rhapon (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Acmonia</note>
+               </state>
+               <bibl>Ramsay,Cities and Bishoprics2, no. 530</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4468"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0080">70-80 CE<ref type="note" corresp="#Vol-3-G_M-ftn4469"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

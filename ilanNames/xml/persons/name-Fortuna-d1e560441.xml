@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Fortuna-Fortuna</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Fortuna-d1e560441" n="Fortuna-Fortuna">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e9083-person"
+                    n="Vol-3-L_F-Latin-Females-Fortuna-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Fortuna</persName>
+               <persName type="lemma" xml:lang="en">Fortuna</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_F-d8e24020-person"
+                          type="relation"
+                          n="daughter-of">Justa (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Gregorius, IV, 31,CCSL140, 251</bibl>
+               <state type="addl-Descr">
+                  <note>Christian convert<ref type="note" corresp="#Vol-3-L_F-ftn499"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0594" notAfter="0594">594 CE<ref type="note" corresp="#Vol-3-L_F-ftn500"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e9115-person"
+                    n="Vol-3-L_F-Latin-Females-Fortuna-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Fortuna</persName>
+               <persName type="lemma" xml:lang="en">Fortuna</persName>
+               <persName>Fortuni<ref type="note" corresp="#Vol-3-L_F-ftn501"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_F-ftn502"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Riba</note>
+               </state>
+               <bibl>CIJ36*</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn503"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tasi-Tasi</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tasi-d1e651409" n="Tasi-Tasi">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e13777-person"
+                    n="Vol-4-I_F-Iranian-Females-Tasi-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Tasi</persName>
+               <persName type="lemma" xml:lang="en">Tasi</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-I_F-ftn1130"/>
+               </persName>
+               <persName>Ds:Χalbaχioi (1)’s mother</persName>
+               <state type="findspot">
+                  <note>Incantation bowl</note>
+               </state>
+               <bibl>Gorea,Semitica51 (2003) 86</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-I_F-ftn1131"/>Person?<ref type="note" corresp="#Vol-4-I_F-ftn1132"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn1133"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

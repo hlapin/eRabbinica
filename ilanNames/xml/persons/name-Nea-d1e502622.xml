@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Nea-Νέα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Nea-d1e502622" n="Nea-Νέα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e15326-person"
+                    n="Vol-3-G_F-Greek-Females-Nea-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Νέα</persName>
+               <persName type="lemma" xml:lang="en">Nea</persName>
+               <persName>Νια<ref type="note" corresp="#Vol-3-G_F-ftn875"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e55644-person"
+                          type="relation"
+                          n="daughter-of">Menedemus (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Siti</note>
+               </state>
+               <bibl>Bakir-Barthel &amp; Müller,ZPE36 (1979) 182</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn876"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0108" notAfter="0109">108/9 CE<ref type="note" corresp="#Vol-3-G_F-ftn877"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

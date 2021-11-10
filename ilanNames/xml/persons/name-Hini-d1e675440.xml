@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hini-היני</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hini-d1e675440" n="Hini-היני">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e16402-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Hini-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">היני</persName>
+               <persName type="lemma" xml:lang="en">Hini</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-B_M-d8e12107-person" type="relation" n="father-of">Joseph (30)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bḤul137b (Kosowsky,Babylonico, 403)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn1134"/>; nickname?<ref type="note" corresp="#Vol-4-S-H_M-ftn1135"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia<ref type="note" corresp="#Vol-4-S-H_M-ftn1136"/>
+                  </note>
+               </state>
+               <floruit notBefore="0100" notAfter="0299">2nd-3rdC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn1137"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

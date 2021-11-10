@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - MāhAnōš-MāhAnōš</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-MhAn-d1e659829" n="MāhAnōš-MāhAnōš">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e7001-person"
+                    n="Vol-4-I_M-Iranian-Males-MāhAnōš-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">MāhAnōš</persName>
+               <persName type="lemma" xml:lang="en">MāhAnōš</persName>
+               <persName>מהאנוש<ref type="note" corresp="#Vol-4-I_M-ftn593"/>
+               </persName>
+               <persName>/מתאניש<ref type="note" corresp="#Vol-4-I_M-ftn594"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Āzarmī-Dūχt (1)’s son</ref>, <ref corresp="#Vol-4-B_F-d8e205-person" type="relation" n="husband-of">Eve (1)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowls</note>
+               </state>
+               <bibl>1. Geller,Bible World, 49; 2. Gordon,Orientalia53 (1984) 221</bibl>
+               <state type="addl-Descr">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-I_M-ftn595"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_M-ftn596"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

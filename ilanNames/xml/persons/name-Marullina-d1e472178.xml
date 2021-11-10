@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Marullina-Marullina</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Marullina-d1e472178" n="Marullina-Marullina">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-Add-L_F-d8e15-person"
+                    n="Vol-3-Add-L_F-Latin-Females-Marullina-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Marullina</persName>
+               <persName type="lemma" xml:lang="en">Marullina</persName>
+               <persName>Μαρυλλε[ῖ]να<ref type="note" corresp="#Vol-3-Add-L_F-ftn2"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, Comiso</note>
+               </state>
+               <bibl>Belivacque &amp; de Romanis,RendicontiSeries 9, 14 (2003) 390</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-Add-L_F-ftn3"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Sicily</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0499">5thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e26763-person"
+                    n="Vol-3-L_F-Latin-Females-Marullina-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Marullina</persName>
+               <persName type="lemma" xml:lang="en">Marullina</persName>
+               <persName>Μαρυλλεῖνα<ref type="note" corresp="#Vol-3-L_F-ftn798"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_F-d8e8548-person" type="relation" n="sister-of">Flavia (7)’s sister</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Ponte Sisto, Gatti</note>
+               </state>
+               <bibl>CIJ288</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn799"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

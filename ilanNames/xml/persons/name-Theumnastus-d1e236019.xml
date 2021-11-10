@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Theumnastus-Θεόμναστος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Theumnastus-d1e236019"
+                     n="Theumnastus-Θεόμναστος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e10304-person"
+                    n="Vol-1-G_M-Theumnastus-1">
+               <persName type="lemma">Θεόμναστος</persName>
+               <persName type="lemma" xml:lang="en">Theumnastus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Θε[ο]μν[ᾶ]τος<ref type="note" corresp="#Vol-1-G_M-ftn732"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Augusta Victoria, Sukenik, 1930</note>
+               </state>
+               <bibl>CIJ, no. 1269</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn733"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e10348-person"
+                    n="Vol-1-G_M-Theumnastus-2">
+               <persName type="lemma">Θεόμναστος</persName>
+               <persName type="lemma" xml:lang="en">Theumnastus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Θευμνᾶς<ref type="note" corresp="#Vol-1-G_M-ftn734"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Augusta Victoria, Sukenik, 1930</note>
+               </state>
+               <bibl>CIJ, no. 1271</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn735"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

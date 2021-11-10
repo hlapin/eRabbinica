@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Dysmas-Δυσμας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Dysmas-d1e294401" n="Dysmas-Δυσμας">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-G_M-d2e911-person"
+                    n="Vol-1-S-G_M-Dysmas-1">
+               <persName type="lemma">Δυσμας</persName>
+               <persName type="lemma" xml:lang="en">Dysmas</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">ﺱﻮﺧﺎﻣﻭﺩ<ref type="note" corresp="#Vol-1-S-G_M-ftn49"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-S-G_M-ftn50"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Acta Pilati A: 9 (Tischendorf,EA245); Arabic Infancy Gospel (Sike,Evangelium Infantiae, 67).</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-1-S-G_M-ftn51"/>
+                  </note>
+               </state>
+               <floruit notBefore="0030" notAfter="0030">30 CE<ref type="note" corresp="#Vol-1-S-G_M-ftn52"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

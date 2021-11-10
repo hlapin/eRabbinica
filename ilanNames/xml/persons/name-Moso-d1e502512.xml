@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Moso-Μωσώ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Moso-d1e502512" n="Moso-Μωσώ">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e15208-person"
+                    n="Vol-3-G_F-Greek-Females-Moso-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Μωσώ</persName>
+               <persName type="lemma" xml:lang="en">Moso</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_F-ftn868"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Alexander Polyhistor,GLAJJ1, 52</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn869"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome<ref type="note" corresp="#Vol-3-G_F-ftn870"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0199" notAfter="-0100">2ndC BCE<ref type="note" corresp="#Vol-3-G_F-ftn871"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

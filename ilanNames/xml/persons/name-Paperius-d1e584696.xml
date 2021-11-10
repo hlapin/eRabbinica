@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Paperius-Paperius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Paperius-d1e584696" n="Paperius-Paperius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e30897-person"
+                    n="Vol-3-L_M-Latin-Males-Paperius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Paperius</persName>
+               <persName type="lemma" xml:lang="en">Paperius</persName>
+               <persName>Papario<ref type="note" corresp="#Vol-3-L_M-ftn1844"/>
+               </persName>
+               <state type="desc">
+                  <note>Petrus (2), <ref corresp="#Vol-3-G_M-d8e61305-person" type="relation" n="son-of">Olympius (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Mosaic Epitaph, Aquileia, Brusin</note>
+               </state>
+               <bibl>CIJ643a</bibl>
+               <state type="addl-Descr">
+                  <note>Christian convert<ref type="note" corresp="#Vol-3-L_M-ftn1845"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0499">5thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

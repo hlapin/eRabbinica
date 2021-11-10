@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Constantinus-Constantinus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Constantinus-d1e576581"
+                     n="Constantinus-Constantinus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e12466-person"
+                    n="Vol-3-L_M-Latin-Males-Constantinus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Constantinus</persName>
+               <persName type="lemma" xml:lang="en">Constantinus</persName>
+               <persName>Κωνσταντῖνος<ref type="note" corresp="#Vol-3-L_M-ftn735"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn736"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Corsini</note>
+               </state>
+               <bibl>CIJ507</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn737"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e12513-person"
+                    n="Vol-3-L_M-Latin-Males-Constantinus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Constantinus</persName>
+               <persName type="lemma" xml:lang="en">Constantinus</persName>
+               <persName>Κονσταντῖνος</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn738"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Garrucci</note>
+               </state>
+               <bibl>CIJ102*</bibl>
+               <state type="addl-Descr">
+                  <note>Christian?<ref type="note" corresp="#Vol-3-L_M-ftn739"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Bosphoran Kingdom</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-L_M-ftn740"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

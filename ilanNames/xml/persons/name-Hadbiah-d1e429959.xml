@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hadbiah-הדביה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hadbiah-d1e429959" n="Hadbiah-הדביה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e8972-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Hadbiah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">הדביה</persName>
+               <persName type="lemma" xml:lang="en">Hadbiah</persName>
+               <persName>הרמא<ref type="note" corresp="#Vol-2-S-H_M-ftn548"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e40162-person" type="relation" n="son-of">Amram (5)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, El Aqsa, Jerusalem, Chwolson</note>
+               </state>
+               <bibl>CIJ1401</bibl>
+               <state type="addl-Descr">
+                  <note>Late?<ref type="note" corresp="#Vol-2-S-H_M-ftn549"/>
+                  </note>
+               </state>
+               <floruit>Pre-650?<ref type="note" corresp="#Vol-2-S-H_M-ftn550"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

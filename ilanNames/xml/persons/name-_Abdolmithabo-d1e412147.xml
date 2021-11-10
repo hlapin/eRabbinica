@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ̓Αβδολμίθαβος Abdolmithabo-̓Αβδολμίθαβος Abdolmithabo</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Abdolmithabo-d1e412147"
+                     n="̓Αβδολμίθαβος Abdolmithabo-̓Αβδολμίθαβος Abdolmithabo">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_M-d8e293-person"
+                    n="Vol-2-S-G_M-Semitic-Greek-Males-̓Αβδολμίθαβος Abdolmithabo-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αβδολμίθαβος Abdolmithabo</persName>
+               <persName type="lemma" xml:lang="en">̓Αβδολμίθαβος Abdolmithabo</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e10140-person" type="relation" n="son-of">Hagai (5)’s son</ref>,aged 60<ref type="note" corresp="#Vol-2-S-G_M-ftn24"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1a, no. 48</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-G_M-ftn25"/>
+                  </note>
+               </state>
+               <floruit>385<ref type="note" corresp="#Vol-2-S-G_M-ftn26"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

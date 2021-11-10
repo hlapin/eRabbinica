@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ŠōšēnDūχt-ŠōšēnDūχt</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-nDt-d1e651240" n="ŠōšēnDūχt-ŠōšēnDūχt">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e13637-person"
+                    n="Vol-4-I_F-Iranian-Females-ŠōšēnDūχt-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">ŠōšēnDūχt</persName>
+               <persName type="lemma" xml:lang="en">ŠōšēnDūχt</persName>
+               <persName>–<ref type="note" corresp="#Vol-4-I_F-ftn1117"/>
+               </persName>
+               <state type="desc">
+                  <note>Exilarch’s daughter, king Yazdgerd I’s wife, <ref corresp="#Vol-4-I_M-d8e2000-person" type="relation" n="mother-of">Bahrām (2)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Markwart,Ērānshahr, 19</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-I_F-ftn1118"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Persia</note>
+               </state>
+               <floruit notBefore="0399" notAfter="0420">399-420 CE<ref type="note" corresp="#Vol-4-I_F-ftn1119"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

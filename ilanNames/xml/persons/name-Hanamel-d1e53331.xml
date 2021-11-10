@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hanamel-חנמאל</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hanamel-d1e53331" n="Hanamel-חנמאל">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e12330-person"
+                    n="Vol-1-B_M-Hanamel-1">
+               <persName type="lemma">חנמאל</persName>
+               <persName type="lemma" xml:lang="en">Hanamel</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-B_M-ftn892"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>mPar3:5 (Kasovsky,Mishnae, 716)</bibl>
+               <state type="addl-Descr">
+                  <note>Egypt<ref type="note" corresp="#Vol-1-B_M-ftn893"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn894"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_M-d8e6975-person"
+                    n="Vol-3-B_M-Biblical-Males-Hanamel-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">חנמאל</persName>
+               <persName type="lemma" xml:lang="en">Hanamel</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-B_M-ftn480"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>mPar3:5 (Kasovsky,Mishnae, 716)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-B_M-ftn481"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt<ref type="note" corresp="#Vol-3-B_M-ftn482"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-3-B_M-ftn483"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

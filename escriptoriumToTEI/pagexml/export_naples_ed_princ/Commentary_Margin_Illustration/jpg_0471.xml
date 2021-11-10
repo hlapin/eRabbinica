@@ -4,8 +4,8 @@
        xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
    <Metadata>
       <Creator>escriptorium</Creator>
-      <Created>2021-08-15T01:53:53.999375+00:00</Created>
-      <LastChange>2021-08-15T01:53:53.999397+00:00</LastChange>
+      <Created>2021-08-16T18:05:57.764049+00:00</Created>
+      <LastChange>2021-08-16T18:05:57.764092+00:00</LastChange>
    </Metadata>
    <Page imageFilename="jpg_0471.jpg" imageWidth="3386" imageHeight="4505">
       <TextRegion id="eSc_textblock_58a0f9af" custom="structure {type:Paratext;}">
@@ -18,8 +18,15 @@
             </TextEquiv>
          </TextLine>
       </TextRegion>
-      <TextRegion id="eSc_textblock_e24edb70">
-         <Coords points="2204,339 2251,320 2221,508 1202,508 1172,447 1182,330 1222,300 1940,330 2036,339"/>
+      <TextRegion id="eSc_textblock_e24edb70" custom="structure {type:Main;}">
+         <Coords points="2197,304 2251,320 2221,508 1202,508 1172,447 1182,330 1222,300 1940,330 2036,311"/>
+         <TextLine id="eSc_line_94b330ad">
+            <Coords points="1984,341 1984,311 2221,304 2232,330 2221,382 2127,371 2085,409 2025,412 2010,397 1988,412"/>
+            <Baseline points="1986,342 2236,334"/>
+            <TextEquiv>
+               <Unicode><!-- 05.03 --></Unicode>
+            </TextEquiv>
+         </TextLine>
          <TextLine id="eSc_line_fe7df560">
             <Coords points="1183,356 1183,337 1330,337 1379,319 1537,319 1563,337 1600,319 1638,337 1830,326 1841,352 1833,394 1183,390"/>
             <Baseline points="1187,357 1845,354"/>
@@ -834,15 +841,6 @@
       </TextRegion>
       <TextRegion id="eSc_textblock_9e26bf0b">
          <Coords points="3317,3360 3317,3394 3325,3394 3325,3360"/>
-      </TextRegion>
-      <TextRegion id="eSc_dummyblock_" custom="structure {type:Main;}">
-         <TextLine id="eSc_line_94b330ad">
-            <Coords points="1984,341 1984,311 2221,304 2232,330 2221,382 2127,371 2085,409 2025,412 2010,397 1988,412"/>
-            <Baseline points="1986,342 2236,334"/>
-            <TextEquiv>
-               <Unicode><!-- 05.03 --></Unicode>
-            </TextEquiv>
-         </TextLine>
       </TextRegion>
    </Page>
 </PcGts>

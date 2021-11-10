@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Amazonius-̓Αμαζόνιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Amazonius-d1e367642"
+                     n="Amazonius-̓Αμαζόνιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e1624-person"
+                    n="Vol-2-G_M-Greek-Males-Amazonius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αμαζόνιος</persName>
+               <persName type="lemma" xml:lang="en">Amazonius</persName>
+               <persName>̓Αμαζονίου<ref type="note" corresp="#Vol-2-G_M-ftn107"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-G_M-ftn108"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Building inscription, Bostra,<ref type="note" corresp="#Vol-2-G_M-ftn109"/>Waddington,IGLSno. 1918</note>
+               </state>
+               <bibl>Di Segni,SCI13 (1994) 108-9</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn110"/>
+                  </note>
+               </state>
+               <floruit>Pre-367<ref type="note" corresp="#Vol-2-G_M-ftn111"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e5238-person"
+                    n="Vol-3-G_M-Greek-Males-Amazonius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αμαζόνιος</persName>
+               <persName type="lemma" xml:lang="en">Amazonius</persName>
+               <persName>̓Αμαζονίου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e54995-person" type="relation" n="father-of">Meliton (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+               </state>
+               <bibl>IJO2, 14:B61</bibl>
+               <state type="addl-Descr">
+                  <note>God-fearer<ref type="note" corresp="#Vol-3-G_M-ftn309"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

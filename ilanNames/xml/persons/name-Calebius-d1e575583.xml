@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Calebius-Calebius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Calebius-d1e575583" n="Calebius-Calebius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e10706-person"
+                    n="Vol-3-L_M-Latin-Males-Calebius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Calebius</persName>
+               <persName type="lemma" xml:lang="en">Calebius</persName>
+               <persName>Calevius<ref type="note" corresp="#Vol-3-L_M-ftn626"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Urbino, Aringhius</note>
+               </state>
+               <bibl>CIJ84*</bibl>
+               <state type="addl-Descr">
+                  <note>Christian?<ref type="note" corresp="#Vol-3-L_M-ftn627"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0400" notAfter="0400">400 CE<ref type="note" corresp="#Vol-3-L_M-ftn628"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

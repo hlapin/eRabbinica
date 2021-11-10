@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Protogenes-Πρωτογένης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Protogenes-d1e546377"
+                     n="Protogenes-Πρωτογένης">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e67296-person"
+                    n="Vol-3-G_M-Greek-Males-Protogenes-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πρωτογένης</persName>
+               <persName type="lemma" xml:lang="en">Protogenes</persName>
+               <persName>Πρωτογένου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e9374-person" type="relation" n="father-of">Apollonius (4)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Crocodilopolis, Wilcken</note>
+               </state>
+               <bibl>CPJ23</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3885"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0182" notAfter="-0182">182 BCE<ref type="note" corresp="#Vol-3-G_M-ftn3886"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

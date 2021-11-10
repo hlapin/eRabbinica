@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ̓Αβδομάνης Abdomani-̓Αβδομάνης Abdomani</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Abdomani-d1e412198"
+                     n="̓Αβδομάνης Abdomani-̓Αβδομάνης Abdomani">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_M-d8e345-person"
+                    n="Vol-2-S-G_M-Semitic-Greek-Males-̓Αβδομάνης Abdomani-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αβδομάνης Abdomani</persName>
+               <persName type="lemma" xml:lang="en">̓Αβδομάνης Abdomani</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e13359-person" type="relation" n="son-of">Ḥalifa (13)’s son</ref>, aged 1<ref type="note" corresp="#Vol-2-S-G_M-ftn28"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1a, no. 26</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-G_M-ftn29"/>
+                  </note>
+               </state>
+               <floruit>367<ref type="note" corresp="#Vol-2-S-G_M-ftn30"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

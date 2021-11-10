@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tamuza-תמוזא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tamuza-d1e451789" n="Tamuza-תמוזא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e25987-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Tamuza-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">תמוזא</persName>
+               <persName type="lemma" xml:lang="en">Tamuza</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e15265-person" type="relation" n="father-of">Judah (39)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yMeg4:5, 75b (Kosovsky,Yerushalmi, 281)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-2-S-H_M-ftn1641"/>
+                  </note>
+               </state>
+               <floruit>4thC<ref type="note" corresp="#Vol-2-S-H_M-ftn1642"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

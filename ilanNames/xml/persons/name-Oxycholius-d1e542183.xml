@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Oxycholius-̓Οξυχόλιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Oxycholius-d1e542183"
+                     n="Oxycholius-̓Οξυχόλιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e62089-person"
+                    n="Vol-3-G_M-Greek-Males-Oxycholius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Οξυχόλιος</persName>
+               <persName type="lemma" xml:lang="en">Oxycholius</persName>
+               <persName>̓Οξυ<ref type="note" corresp="#Vol-3-G_M-ftn3577"/>
+               </persName>
+               <state type="desc">
+                  <note>Gorgonius (1), <ref corresp="#Vol-3-G_M-d8e31887-person" type="relation" n="and-of">Eusabbathius (8)’s and</ref>
+                     <ref corresp="#Vol-3-L_M-d8e38935-person" type="relation" n="father-of">Tatianus (1)’s father</ref>, the elder<ref type="note" corresp="#Vol-3-G_M-ftn3578"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+               </state>
+               <bibl>IJO2, 14:B10, 31-2, 46</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3579"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e62130-person"
+                    n="Vol-3-G_M-Greek-Males-Oxycholius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Οξυχόλιος</persName>
+               <persName type="lemma" xml:lang="en">Oxycholius</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn3580"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Aphrodisias, Reynolds &amp; Tannenbaum</note>
+               </state>
+               <bibl>IJO2, 14:B17</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3581"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e62167-person"
+                    n="Vol-3-G_M-Greek-Males-Oxycholius-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Οξυχόλιος</persName>
+               <persName type="lemma" xml:lang="en">Oxycholius</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Philippi, Koukouli-Chrysanthaki</note>
+               </state>
+               <bibl>IJO1, Mac12</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3582"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Dala-דלא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Dala-d1e675100" n="Dala-דלא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e14334-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Dala-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">דלא</persName>
+               <persName type="lemma" xml:lang="en">Dala</persName>
+               <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn988"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-B_M-d8e1419-person" type="relation" n="father-of">Aḥi (15)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bBeṣ14a (Kosowsky,Babylonico, –<ref type="note" corresp="#Vol-4-S-H_M-ftn989"/>)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn990"/>; nickname<ref type="note" corresp="#Vol-4-S-H_M-ftn991"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdCE<ref type="note" corresp="#Vol-4-S-H_M-ftn992"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

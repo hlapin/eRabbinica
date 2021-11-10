@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tamar-תמר</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tamar-d1e19289" n="Tamar-תמר">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_F-d2e6611-person"
+                    n="Vol-1-B_F-Tamar-1">
+               <persName type="lemma">תמר</persName>
+               <persName type="lemma" xml:lang="en">Tamar</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="gr">Θαμαρή<ref type="note" corresp="#Vol-1-B_F-ftn421"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e9069-person" type="relation" n="daughter-of">Thamus (1)’s daughter</ref>, date-grove owner<ref type="note" corresp="#Vol-1-B_F-ftn422"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, deed, Babatha archive</note>
+               </state>
+               <bibl>PYadin 16</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0127" notAfter="0127">127 CE<ref type="note" corresp="#Vol-1-B_F-ftn423"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_F-d8e3130-person"
+                    n="Vol-2-B_F-Biblical-Females-Tamar-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">תמר</persName>
+               <persName type="lemma" xml:lang="en">Tamar</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yMeg3:2, 74a (Kosovsky,Yerushalmi, 682)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-B_F-ftn224"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_F-d8e8715-person"
+                    n="Vol-3-B_F-Biblical-Females-Tamar-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">תמר</persName>
+               <persName type="lemma" xml:lang="en">Tamar</persName>
+               <persName>Ταμαρρείους<ref type="note" corresp="#Vol-3-B_F-ftn620"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e8828-person" type="relation" n="daughter-of">Sentheos (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Crocodilopolis</note>
+               </state>
+               <bibl>P. Bodl. 8</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-B_F-ftn621"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0121" notAfter="-0121">121 BCE<ref type="note" corresp="#Vol-3-B_F-ftn622"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_F-d8e8754-person"
+                    n="Vol-3-B_F-Biblical-Females-Tamar-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">תמר</persName>
+               <persName type="lemma" xml:lang="en">Tamar</persName>
+               <persName>Θαμάρ<ref type="note" corresp="#Vol-3-B_F-ftn623"/>
+               </persName>
+               <state type="desc">
+                  <note>Aurelia (22), Aurelius (33) <ref corresp="#Vol-3-G_M-d8e24705-person" type="relation" n="wife-of">Ethelusius (1)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Nicomedia, Pogodine &amp; Wulf</note>
+               </state>
+               <bibl>CIJ798</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-B_F-ftn624"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

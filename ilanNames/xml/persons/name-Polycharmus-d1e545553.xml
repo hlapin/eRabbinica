@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Polycharmus-Πολύχαρμος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Polycharmus-d1e545553"
+                     n="Polycharmus-Πολύχαρμος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e66240-person"
+                    n="Vol-3-G_M-Greek-Males-Polycharmus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πολύχαρμος</persName>
+               <persName type="lemma" xml:lang="en">Polycharmus</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn3821"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Stobi, Petrovic’</note>
+               </state>
+               <bibl>1.CIJ694; 2.IJO1, Mac3, Mac4</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3822"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0165" notAfter="0165">165 CE<ref type="note" corresp="#Vol-3-G_M-ftn3823"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

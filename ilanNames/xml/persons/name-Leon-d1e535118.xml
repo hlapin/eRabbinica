@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Leon-Λέων</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Leon-d1e535118" n="Leon-Λέων">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e53104-person"
+                    n="Vol-3-G_M-Greek-Males-Leon-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Λέων</persName>
+               <persName type="lemma" xml:lang="en">Leon</persName>
+               <persName>Leo</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn3051"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Riba</note>
+               </state>
+               <bibl>CIJ32*</bibl>
+               <state type="addl-Descr">
+                  <note>-<ref type="note" corresp="#Vol-3-G_M-ftn3052"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e53147-person"
+                    n="Vol-3-G_M-Greek-Males-Leon-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Λέων</persName>
+               <persName type="lemma" xml:lang="en">Leon</persName>
+               <persName>לאון<ref type="note" corresp="#Vol-3-G_M-ftn3053"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e4244-person" type="relation" n="son-of">David (2)’s son</ref>, of Melos<ref type="note" corresp="#Vol-3-G_M-ftn3054"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Taranto, Adler</note>
+               </state>
+               <bibl>CIJ621</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3055"/>; late<ref type="note" corresp="#Vol-3-G_M-ftn3056"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0600" notAfter="0799">7th-8thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e53192-person"
+                    n="Vol-3-G_M-Greek-Males-Leon-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Λέων</persName>
+               <persName type="lemma" xml:lang="en">Leon</persName>
+               <persName>לאון<ref type="note" corresp="#Vol-3-G_M-ftn3057"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e32231-person" type="relation" n="father-of">Shabtai (122)’s father</ref>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn3058"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Taranto, Adler</note>
+               </state>
+               <bibl>CIJ622</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn3059"/>; late<ref type="note" corresp="#Vol-3-G_M-ftn3060"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0600" notAfter="0799">7th-8thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e53237-person"
+                    n="Vol-3-G_M-Greek-Males-Leon-4">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Λέων</persName>
+               <persName type="lemma" xml:lang="en">Leon</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-S-G_M-d8e3305-person" type="relation" n="son-of">Odidelus (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Hermopolis, Zucker</note>
+               </state>
+               <bibl>JIGRE156:94</bibl>
+               <state type="addl-Descr">
+                  <note>Idumean<ref type="note" corresp="#Vol-3-G_M-ftn3061"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0078" notAfter="-0078">78 BCE<ref type="note" corresp="#Vol-3-G_M-ftn3062"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

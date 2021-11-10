@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Artimas-̓Αρτίμας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Artimas-d1e492489" n="Artimas-̓Αρτίμας">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e2946-person"
+                    n="Vol-3-G_F-Greek-Females-Artimas-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓Αρτίμας</persName>
+               <persName type="lemma" xml:lang="en">Artimas</persName>
+               <persName>̓Αρτιμάδι</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e27247-person"
+                          type="relation"
+                          n="daughter-of">Hermaius (4)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Pamphylia</note>
+               </state>
+               <bibl>IGR3, 478</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn168"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE<ref type="note" corresp="#Vol-3-G_F-ftn169"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e12686-person"
+                    n="Vol-3-G_M-Greek-Males-Artimas-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αρτίμας</persName>
+               <persName type="lemma" xml:lang="en">Artimas</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Artimas (2) and <ref corresp="#Vol-3-L_F-d8e26017-person" type="relation" n="son-of">Marcia (8)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Sidibunda, Bean</note>
+               </state>
+               <bibl>IJO2, 215</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn748"/>
+                  </note>
+               </state>
+               <floruit>Asia</floruit>
+               <floruit notBefore="0100" notAfter="0299">2nd-3rdC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e12728-person"
+                    n="Vol-3-G_M-Greek-Males-Artimas-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αρτίμας</persName>
+               <persName type="lemma" xml:lang="en">Artimas</persName>
+               <persName>̓Αρτίμου</persName>
+               <state type="desc">
+                  <note>Mommius (2), <ref corresp="#Vol-3-G_F-d8e2946-person Vol-3-G_M-d8e12686-person"
+                          type="relation"
+                          n="father-of">Artimas (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Sidibunda, Bean</note>
+               </state>
+               <bibl>IJO2, 215</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn749"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0299">2nd-3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

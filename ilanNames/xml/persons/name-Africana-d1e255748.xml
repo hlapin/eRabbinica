@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Africana-Africana</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Africana-d1e255748" n="Africana-Africana">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_F-d2e43-person"
+                    n="Vol-1-L_F-Africana-1">
+               <persName type="lemma">Africana</persName>
+               <persName type="lemma" xml:lang="en">Africana</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="gr">̓Αφρεικανά<ref type="note" corresp="#Vol-1-L_F-ftn2"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Shu‘afat, Abel, 1913</note>
+               </state>
+               <bibl>CIJ, no. 1227</bibl>
+               <state type="addl-Descr">
+                  <note>Palmyra,<ref type="note" corresp="#Vol-1-L_F-ftn3"/>second name<ref type="note" corresp="#Vol-1-L_F-ftn4"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-L_F-ftn5"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-L_F-d8e15-person"
+                    n="Vol-4-L_F-Latin-Females-Africana-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Africana</persName>
+               <persName type="lemma" xml:lang="en">Africana</persName>
+               <persName>̓Αφρεικαν<ref type="note" corresp="#Vol-4-L_F-ftn2"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Jerusalem, Abel</note>
+               </state>
+               <bibl>CIJ1227</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-L_F-ftn3"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra<ref type="note" corresp="#Vol-4-L_F-ftn4"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-4-L_F-ftn5"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

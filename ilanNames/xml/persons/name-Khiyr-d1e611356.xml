@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Khiyār-خيار</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Khiyr-d1e611356" n="Khiyār-خيار">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e4266-person"
+                    n="Vol-4-A_M-Arabic-Males-Khiyār-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">خيار</persName>
+               <persName type="lemma" xml:lang="en">Khiyār</persName>
+               <persName>خير<ref type="note" corresp="#Vol-4-A_M-ftn341"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_M-d8e12668-person" type="relation" n="son-of">Najjām (2)’s son</ref>, <ref corresp="#Vol-4-B_M-d8e15806-person" type="relation" n="father-of">Levi (7)’s father</ref>, priest<ref type="note" corresp="#Vol-4-A_M-ftn342"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Hishām,Leben Muhammed’s, 13</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-A_M-ftn343"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit>Pre-Islamic<ref type="note" corresp="#Vol-4-A_M-ftn344"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_M-d8e4300-person"
+                    n="Vol-4-A_M-Arabic-Males-Khiyār-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">خيار</persName>
+               <persName type="lemma" xml:lang="en">Khiyār</persName>
+               <persName>الخيار<ref type="note" corresp="#Vol-4-A_M-ftn345"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_F-d8e154-person" type="relation" n="son-of">Ribāb (1)’s son</ref>, <ref corresp="#Vol-4-A_M-d8e3414-person" type="relation" n="brother-of">Ḥuṣayn (2)’s brother</ref>
+                     <ref type="note" corresp="#Vol-4-A_M-ftn346"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn Ḥabīb,munammaq, 507</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-A_M-ftn347"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit>Pre-Islamic<ref type="note" corresp="#Vol-4-A_M-ftn348"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

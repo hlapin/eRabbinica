@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Pontiana-Pontiana</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Pontiana-d1e565875" n="Pontiana-Pontiana">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e29232-person"
+                    n="Vol-3-L_F-Latin-Females-Pontiana-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Pontiana</persName>
+               <persName type="lemma" xml:lang="en">Pontiana</persName>
+               <persName>Ποντιανῆς<ref type="note" corresp="#Vol-3-L_F-ftn948"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-L_M-d8e10077-person" type="relation" n="mother-of">Bucculius (1)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Larissa, Oehler</note>
+               </state>
+               <bibl>CIJ697</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn949"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0299">2nd-3rdC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e29273-person"
+                    n="Vol-3-L_F-Latin-Females-Pontiana-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Pontiana</persName>
+               <persName type="lemma" xml:lang="en">Pontiana</persName>
+               <persName>Ποντιανῆι<ref type="note" corresp="#Vol-3-L_F-ftn950"/>
+               </persName>
+               <state type="desc">
+                  <note>Aurelia (14), Fabius (1) <ref corresp="#" type="relation" n="wife-of">Zosimus (16)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Sarcophagus, Thyateira, Muratori</note>
+               </state>
+               <bibl>CIJ752</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_F-ftn951"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0096" notAfter="0117">96-117 CE<ref type="note" corresp="#Vol-3-L_F-ftn952"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

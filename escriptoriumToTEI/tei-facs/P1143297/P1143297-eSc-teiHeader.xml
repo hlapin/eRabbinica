@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automatic transcription of Naples Editio Princeps of the Mishnah, 1492 using
+               escriptorium</title>
+            <editor>
+               <persName corresp="ref.xml#HL">Hayim Lapin</persName>
+            </editor>
+            <respStmt>
+               <resp>model training data and correction</resp>
+               <persName corresp="ref.xml#HL">Hayim Lapin</persName>
+               <persName corresp="ref.xml#AF">Avital Fink</persName>
+            </respStmt>
+            <respStmt>
+               <persName corresp="ref.xml#HL">Hayim Lapin</persName>
+               <resp>format conversion -- pagexml/TEI-facsimile/TEI-project</resp>
+            </respStmt>
+            <respStmt>
+               <name/>
+               <resp/>
+            </respStmt>
+         </titleStmt>
+        
+         <editionStmt>
+            <edition n="0.1">Trial Edition Using kraken and eScriptorium</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher ref="http://erabbinica.org">eRabbinica Digital Mishnah Project</publisher>
+            <publisher ref="'give-me-a-url">Sofer Mahir</publisher>
+            <pubPlace>Meyerhoff Center for Jewish Studies</pubPlace>
+            <address>
+               <addrLine>4141 Susqehanna Hall</addrLine>
+               <addrLine>University of Maryland</addrLine>
+               <addrLine>College Park, MD</addrLine>
+            </address>
+            <idno type="local">P1143297-esc</idno>
+            <availability status="restricted">
+               <p>This work is copyright Hayim Lapin and the Joseph and Rebecca Meyerhoff Center for
+                  Jewish Studies and licensed under a <ref type="license"
+                     target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution-NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <pubPlace>College Park, MD USA</pubPlace>
+            <availability status="restricted">
+               <p>This work is copyright Hayim lapin and Daniel Stoekl ben Ezra and
+                  licensed under a <ref target="http://creativecommons.org/licensesby/4.0//">Creative
+                     Commons Attribution International 4.0 License</ref>.</p>
+            </availability>
+            <date>2021-09-1</date>
+         </publicationStmt>
+         <notesStmt>
+            <note>
+               <p>A digital transcription of the Naples 1492 edition of Mishnah with Maimonides' commentary in medieval Hebrew translation</p>
+               <p>Images accessed through the National Library of Israel at 
+                  <ref target="https://www.nli.org.il/en/books/NNL_ALEPH001143297/NLI?volumeItem=3"
+                     >https://www.nli.org.il/en/books/NNL_ALEPH001143297/NLI?volumeItem=3</ref></p>
+               <p>Automated page segmentation and text recognition utilizes 
+                  <ref target="https://github.com/mittagessen/kraken">kraken</ref>, 
+                  as implemented by the <ref target="https://gitlab.com/scripta/escriptorium">eScriptorium</ref>
+                  platform as hosted by the <ref target="https://www.ephe.psl.eu/">EPHE, Paris, France</ref></p>
+               <p>This is a trial release (version 0.1) of the whole text of the
+                  Mishnah according to Kaufmann, excepting Bava Qamma, Bava Metsi'a, 
+                  and Bava Batra, for which hand transcription exists under the id number
+                  1143297. Abbreviations have not been expanded. 
+                  Only minimal incorporation of marginalia and corrections was possible.</p>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Jerusalem</settlement>
+                  <repository>NLI, 1143297</repository>
+                  <idno type="nli"
+                     corresp="https://www.nli.org.il/en/books/NNL_ALEPH001143297/NLI?volumeItem=3">https://www.nli.org.il/en/books/NNL_ALEPH001143297/NLI?volumeItem=3</idno>
+                  <altIdentifier>
+                     <collection>Bibliography of the Hebrew Book</collection>
+                     <idno type="bhb"
+                        corresp="http://uli.nli.org.il:80/F/?func=direct&amp;doc_number=000150614&amp;local_base=MBI01">150614local_base=MBI01</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <ab>Copy 3 of the Naples printing of the Mishnah in the collection of the National Library  of Israel.
+               Formerly part of the Valmadonna Trust, London, UK.</ab>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <listPrefixDef>
+           <prefixDef ident="pxml"
+              matchPattern="(.+)"
+              replacementPattern="http://www.placeholder.uri#$1">
+              <p>Placeholder for path to source pagexml from which TEI derives.
+              </p>
+           </prefixDef>
+           <prefixDef ident="tei-facs"
+              matchPattern="(.+)"
+              replacementPattern="http://www.placeholder.uri#$1">
+              <p>Placeholder for path to tei-facsimile xml which serves as an intermediate transformation step.
+              </p>
+           </prefixDef>
+        </listPrefixDef>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+  </text>
+</TEI>

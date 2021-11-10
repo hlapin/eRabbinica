@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Gratus-Gratus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Gratus-d1e273335" n="Gratus-Gratus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e2548-person"
+                    n="Vol-1-L_M-Gratus-1">
+               <persName type="lemma">Gratus</persName>
+               <persName type="lemma" xml:lang="en">Gratus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Γρᾶτος<ref type="note" corresp="#Vol-1-L_M-ftn171"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e8218-person" type="relation" n="general-of">Herod (1)’s general</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ2:52;AJ17:266 (Schalit,NB, 35)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-1-L_M-ftn172"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0004" notAfter="-0004">4 BCE<ref type="note" corresp="#Vol-1-L_M-ftn173"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

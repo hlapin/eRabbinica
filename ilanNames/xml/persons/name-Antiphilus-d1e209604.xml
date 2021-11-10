@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Antiphilus-̓Αντίφιλος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Antiphilus-d1e209604"
+                     n="Antiphilus-̓Αντίφιλος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e2884-person"
+                    n="Vol-1-G_M-Antiphilus-1">
+               <persName type="lemma">̓Αντίφιλος</persName>
+               <persName type="lemma" xml:lang="en">Antiphilus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e2455-person" type="relation" n="friend-of">Antipatrus (3)’s friend</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ1:592;AJ17:70 (Schalit,NB, 13)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="-0004" notAfter="-0004">4 BCE<ref type="note" corresp="#Vol-1-G_M-ftn202"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e8394-person"
+                    n="Vol-3-G_M-Greek-Males-Antiphilus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αντίφιλος</persName>
+               <persName type="lemma" xml:lang="en">Antiphilus</persName>
+               <persName>̓Αντιφίλω</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="father-of">Joshua (19)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epheboi inscription, Cyrene, Oliverio &amp; Pugliese Carratelli</note>
+               </state>
+               <bibl>CJZC6</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn493"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyrenaica</note>
+               </state>
+               <floruit notBefore="-0099" notAfter="-0001">1stC BCE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

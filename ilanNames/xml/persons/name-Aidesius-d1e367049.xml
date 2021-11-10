@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Aidesius-Αἰδέσιος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Aidesius-d1e367049" n="Aidesius-Αἰδέσιος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e397-person"
+                    n="Vol-2-G_M-Greek-Males-Aidesius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Αἰδέσιος</persName>
+               <persName type="lemma" xml:lang="en">Aidesius</persName>
+               <persName>Αἰδεσίου<ref type="note" corresp="#Vol-2-G_M-ftn25"/>
+               </persName>
+               <persName>/Αἰδεσίῳ<ref type="note" corresp="#Vol-2-G_M-ftn26"/>
+               </persName>
+               <persName>/Αἰδέσις<ref type="note" corresp="#Vol-2-G_M-ftn27"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-G_M-ftn28"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaphs, Beth She‘arim,catacomb 12</note>
+               </state>
+               <bibl>1.BS2:141; 2. 2:142; 3. 2:143</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-G_M-ftn29"/>
+                  </note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_M-ftn30"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

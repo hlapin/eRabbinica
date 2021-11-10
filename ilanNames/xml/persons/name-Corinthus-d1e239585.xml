@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Corinthus-Κόρινθος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Corinthus-d1e239585" n="Corinthus-Κόρινθος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e11785-person"
+                    n="Vol-1-G_M-Corinthus-1">
+               <persName type="lemma">Κόρινθος</persName>
+               <persName type="lemma" xml:lang="en">Corinthus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e8218-person"
+                          type="relation"
+                          n="bodyguard-of">Herod (1)’s bodyguard</ref>
+                     <ref type="note" corresp="#Vol-1-G_M-ftn839"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ1:576;AJ17:55 (Schalit,NB, 76)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-1-G_M-ftn840"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0005" notAfter="-0005">5 BCE<ref type="note" corresp="#Vol-1-G_M-ftn841"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e10955-person"
+                    n="Vol-2-G_M-Greek-Males-Corinthus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Κόρινθος</persName>
+               <persName type="lemma" xml:lang="en">Corinthus</persName>
+               <persName>Κορίνθις<ref type="note" corresp="#Vol-2-G_M-ftn729"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Beth She‘arim,catacomb 1,CIJ1094</note>
+               </state>
+               <bibl>BS2:74</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_M-ftn730"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

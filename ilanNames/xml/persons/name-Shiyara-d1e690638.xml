@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Shiyara-שירא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Shiyara-d1e690638" n="Shiyara-שירא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e33670-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Shiyara-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שירא</persName>
+               <persName type="lemma" xml:lang="en">Shiyara</persName>
+               <persName>שאייא<ref type="note" corresp="#Vol-4-S-H_M-ftn2347"/>
+               </persName>
+               <persName>/שיאה<ref type="note" corresp="#Vol-4-S-H_M-ftn2348"/>
+               </persName>
+               <persName>/שילא<ref type="note" corresp="#Vol-4-S-H_M-ftn2349"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e1194-person" type="relation" n="father-of">Abba (26)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bShab66a (Kosowsky,Babylonico, 1547)</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2350"/>; nickname?<ref type="note" corresp="#Vol-4-S-H_M-ftn2351"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0399">4thC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn2352"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

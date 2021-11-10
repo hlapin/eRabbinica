@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Mathan-מתן</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Mathan-d1e454355" n="Mathan-מתן">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-B_M-d8e7823-person"
+                    n="Vol-2-Vol-1-ADD-B_M-Biblical-Males-Mathan-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מתן</persName>
+               <persName type="lemma" xml:lang="en">Mathan</persName>
+               <persName>Ματθαν<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn548"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e2484-person" type="relation" n="son-of">Eleazar (1)’s son</ref>, Jacob’s<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn549"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Matthew 1:15</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn550"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0099" notAfter="-0001">1stC BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn551"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-B_M-d8e7867-person"
+                    n="Vol-2-Vol-1-ADD-B_M-Biblical-Males-Mathan-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מתן</persName>
+               <persName type="lemma" xml:lang="en">Mathan</persName>
+               <persName>Ματτανίτ<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn552"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Tabael (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Zenon Archive</note>
+               </state>
+               <bibl>Skeat,Zenon Papyri, 2141</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn553"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0259" notAfter="-0259">259 BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-B_M-ftn554"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-B_M-d8e10267-person"
+                    n="Vol-3-B_M-Biblical-Males-Mathan-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מתן</persName>
+               <persName type="lemma" xml:lang="en">Mathan</persName>
+               <persName>–<ref type="note" corresp="#Vol-3-B_M-ftn706"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e12739-person" type="relation" n="father-of">Azariah (2)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Kition, Hadjisavvas</note>
+               </state>
+               <bibl>IJO3, Cyp7</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-B_M-ftn707"/>; early?<ref type="note" corresp="#Vol-3-B_M-ftn708"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyprus</note>
+               </state>
+               <floruit notBefore="-0399" notAfter="-0300">4thC BCE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

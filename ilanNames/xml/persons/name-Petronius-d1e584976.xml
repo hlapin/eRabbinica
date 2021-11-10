@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Petronius-Petronius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Petronius-d1e584976" n="Petronius-Petronius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e31523-person"
+                    n="Vol-3-L_M-Latin-Males-Petronius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Petronius</persName>
+               <persName type="lemma" xml:lang="en">Petronius</persName>
+               <persName>Πετρωνίῳ</persName>
+               <state type="desc">
+                  <note>Honoratus (2) and <ref corresp="#Vol-3-L_F-d8e28496-person" type="relation" n="son-of">Petronia (1)’s son</ref>, scribe, aged 24<ref type="note" corresp="#Vol-3-L_M-ftn1882"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vigna Randanini, Garrucci</note>
+               </state>
+               <bibl>CIJ149</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn1883"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

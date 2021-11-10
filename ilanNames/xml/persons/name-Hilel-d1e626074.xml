@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hilel-הלל</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hilel-d1e626074" n="Hilel-הלל">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_M-d8e4785-person"
+                    n="Vol-4-B_M-Biblical-Males-Hilel-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">הלל</persName>
+               <persName type="lemma" xml:lang="en">Hilel</persName>
+               <persName>The elder<ref type="note" corresp="#Vol-4-B_M-ftn409"/>
+               </persName>
+               <state type="findspot">
+                  <note>1.mAv1:12 (Kasovsky,Mishnae, 576); 2.bBer63a (Kosowsky,Babylonico, 403-16)</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-B_M-ftn410"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit>1 C BCE<ref type="note" corresp="#Vol-4-B_M-ftn411"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_M-d8e4826-person"
+                    n="Vol-4-B_M-Biblical-Males-Hilel-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">הלל</persName>
+               <persName type="lemma" xml:lang="en">Hilel</persName>
+               <persName>bBeṣ40a (Kosowsky,Babylonico, 416)</persName>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-B_M-ftn412"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0399">4thC CE<ref type="note" corresp="#Vol-4-B_M-ftn413"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_M-d8e4857-person"
+                    n="Vol-4-B_M-Biblical-Males-Hilel-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">הלל</persName>
+               <persName type="lemma" xml:lang="en">Hilel</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-B_M-ftn414"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Seal</note>
+               </state>
+               <bibl>Shaked, “Jewish Sasanian Sigillography,” no. 16</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-B_M-ftn415"/>; authentic?<ref type="note" corresp="#Vol-4-B_M-ftn416"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia?<ref type="note" corresp="#Vol-4-B_M-ftn417"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-4-B_M-ftn418"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

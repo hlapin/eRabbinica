@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Poseidonia-Ποσειδωνία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Poseidonia-d1e503904"
+                     n="Poseidonia-Ποσειδωνία">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e16816-person"
+                    n="Vol-3-G_F-Greek-Females-Poseidonia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Ποσειδωνία</persName>
+               <persName type="lemma" xml:lang="en">Poseidonia</persName>
+               <persName>Ποσιδονία<ref type="note" corresp="#Vol-3-G_F-ftn957"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Copper dedicatory inscription, Stobi, Wisemann &amp; Mano-Zissi</note>
+               </state>
+               <bibl>IJO1, Mac5</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn958"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0299">2nd-3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

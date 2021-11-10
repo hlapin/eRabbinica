@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sergius-Sergius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sergius-d1e665334" n="Sergius-Sergius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-L_M-d8e1205-person"
+                    n="Vol-4-L_M-Latin-Males-Sergius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Sergius</persName>
+               <persName type="lemma" xml:lang="en">Sergius</persName>
+               <persName>סרגיס<ref type="note" corresp="#Vol-4-L_M-ftn114"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="son-of">Warāzān-Dūχt (3)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl, Jerusalem</note>
+               </state>
+               <bibl>MSFno. 23</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-L_M-ftn115"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre- 7thC CE<ref type="note" corresp="#Vol-4-L_M-ftn116"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-L_M-d8e1245-person"
+                    n="Vol-4-L_M-Latin-Males-Sergius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Sergius</persName>
+               <persName type="lemma" xml:lang="en">Sergius</persName>
+               <persName>סרגיס<ref type="note" corresp="#Vol-4-L_M-ftn117"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-L_M-ftn118"/>
+                     <ref corresp="#Vol-4-I_F-d8e13334-person" type="relation" n="son-of">Šīrīn (3)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowl</note>
+               </state>
+               <bibl>CAMIBBM033A</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-L_M-ftn119"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-L_M-ftn120"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Meius-Meius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Meius-d1e583058" n="Meius-Meius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e29228-person"
+                    n="Vol-3-L_M-Latin-Males-Meius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Meius</persName>
+               <persName type="lemma" xml:lang="en">Meius</persName>
+               <persName>Μειοῦς<ref type="note" corresp="#Vol-3-L_M-ftn1734"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e41326-person" type="relation" n="son-of">Theodotus (16)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostraca, Edfu, Manteuffel</note>
+               </state>
+               <bibl>CPJ208, 228</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn1735"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0107" notAfter="0116">107-16 CE<ref type="note" corresp="#Vol-3-L_M-ftn1736"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

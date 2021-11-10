@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Bagabag-Bagabag</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Bagabag-d1e290621" n="Bagabag-Bagabag">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-P_M-d2e284-person"
+                    n="Vol-1-P_M-Bagabag-1">
+               <persName type="lemma">Bagabag</persName>
+               <persName type="lemma" xml:lang="en">Bagabag</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">בג-בג<ref type="note" corresp="#Vol-1-P_M-ftn20"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e25998-person" type="relation" n="father-of">Yohanan (42)’s father</ref>
+                     <ref type="note" corresp="#Vol-1-P_M-ftn21"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>mAb5:22 (Kasovsky,Mishnae, 391)</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-1-P_M-ftn22"/>
+                  </note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-1-P_M-ftn23"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

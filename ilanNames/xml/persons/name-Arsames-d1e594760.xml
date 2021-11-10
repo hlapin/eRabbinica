@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Arsames-Arsames</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Arsames-d1e594760" n="Arsames-Arsames">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-P_M-d8e118-person"
+                    n="Vol-3-P_M-Persian-Males-Arsames-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Arsames</persName>
+               <persName type="lemma" xml:lang="en">Arsames</persName>
+               <persName>[̓Α]ρσάμης<ref type="note" corresp="#Vol-3-P_M-ftn9"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-P_M-ftn10"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Heracleopolis</note>
+               </state>
+               <bibl>PC29 (2001) 11</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-P_M-ftn11"/>Male<ref type="note" corresp="#Vol-3-P_M-ftn12"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0133" notAfter="-0002">133/2 BCE<ref type="note" corresp="#Vol-3-P_M-ftn13"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

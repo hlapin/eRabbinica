@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Fulvius-Fulvius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Fulvius-d1e269996" n="Fulvius-Fulvius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e2000-person"
+                    n="Vol-1-L_M-Fulvius-1">
+               <persName type="lemma">Fulvius</persName>
+               <persName type="lemma" xml:lang="en">Fulvius</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Φούλειος<ref type="note" corresp="#Vol-1-L_M-ftn133"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Shu‘afat, Abel, 1913</note>
+               </state>
+               <bibl>CIJ, no. 1227</bibl>
+               <state type="addl-Descr">
+                  <note>Palmyra,<ref type="note" corresp="#Vol-1-L_M-ftn134"/>second name<ref type="note" corresp="#Vol-1-L_M-ftn135"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-L_M-ftn136"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-L_M-d8e567-person"
+                    n="Vol-4-L_M-Latin-Males-Fulvius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Fulvius</persName>
+               <persName type="lemma" xml:lang="en">Fulvius</persName>
+               <persName>Φούλειος<ref type="note" corresp="#Vol-4-L_M-ftn55"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Jerusalem, Abel</note>
+               </state>
+               <bibl>CIJ1227</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-L_M-ftn56"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra<ref type="note" corresp="#Vol-4-L_M-ftn57"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-4-L_M-ftn58"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

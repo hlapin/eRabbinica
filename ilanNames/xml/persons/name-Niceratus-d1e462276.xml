@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Niceratus-Νικήρατος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Niceratus-d1e462276" n="Niceratus-Νικήρατος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-G_M-d8e3514-person"
+                    n="Vol-2-Vol-1-ADD-G_M-Greek-Males-Niceratus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Νικήρατος</persName>
+               <persName type="lemma" xml:lang="en">Niceratus</persName>
+               <persName>ניקרתס<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn239"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e42706-person" type="relation" n="son-of">Shabtai (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Khirbet el-Kom<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn240"/>
+                  </note>
+               </state>
+               <bibl>Geraty,BASOR220 (1975) 55</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn241"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0277" notAfter="-0277">277 BCE<ref type="note" corresp="#Vol-2-Vol-1-ADD-G_M-ftn242"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

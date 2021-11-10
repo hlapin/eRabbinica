@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Roia-Roia</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Roia-d1e567332" n="Roia-Roia">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e30871-person"
+                    n="Vol-3-L_F-Latin-Females-Roia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Roia</persName>
+               <persName type="lemma" xml:lang="en">Roia</persName>
+               <persName>̔Ρουᾶς<ref type="note" corresp="#Vol-3-L_F-ftn1048"/>
+               </persName>
+               <state type="desc">
+                  <note>Cyra (1), <ref corresp="#Vol-3-G_M-d8e25936-person"
+                          type="relation"
+                          n="daughter-of">Entolius (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Alexandria, Botti</note>
+               </state>
+               <bibl>CIJ1438</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn1049"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE<ref type="note" corresp="#Vol-3-L_F-ftn1050"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ĀzarmīDūχt-ĀzarmīDūχt</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-zarmDt-d1e637729" n="ĀzarmīDūχt-ĀzarmīDūχt">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_F-d8e1233-person"
+                    n="Vol-4-I_F-Iranian-Females-ĀzarmīDūχt-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">ĀzarmīDūχt</persName>
+               <persName type="lemma" xml:lang="en">ĀzarmīDūχt</persName>
+               <persName>אזרמידוך<ref type="note" corresp="#Vol-4-I_F-ftn105"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#" type="relation" n="mother-of">Mithr-Anōš (1)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Incantation bowls</note>
+               </state>
+               <bibl>1. Geller,Bible World, 49; 2. Gordon,Orientalia53 (1984) 221</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-I_F-ftn106"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notAfter="0699">Pre-7thC CE<ref type="note" corresp="#Vol-4-I_F-ftn107"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

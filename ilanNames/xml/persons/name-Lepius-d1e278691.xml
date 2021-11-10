@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Lepius-Lepius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Lepius-d1e278691" n="Lepius-Lepius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e3181-person"
+                    n="Vol-1-L_M-Lepius-1">
+               <persName type="lemma">Lepius</persName>
+               <persName type="lemma" xml:lang="en">Lepius</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Ληοπεις<ref type="note" corresp="#Vol-1-L_M-ftn217"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e9312-person" type="relation" n="son-of">Theodosius (6)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Platter, Jerusalem</note>
+               </state>
+               <bibl>DJ202</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-L_M-ftn218"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

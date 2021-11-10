@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ʿArgan-ערגן</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Argan-d1e688526" n="ʿArgan-ערגן">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e31366-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-ʿArgan-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">ערגן</persName>
+               <persName type="lemma" xml:lang="en">ʿArgan</persName>
+               <persName>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2174"/>
+               </persName>
+               <state type="desc">
+                  <note>Simon (20), <ref corresp="#Vol-4-S-H_M-d8e22954-person"
+                          type="relation"
+                          n="father-of">Yadiʿabel (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Palmyra, Schröder</note>
+               </state>
+               <bibl>CIS2/3, 4364</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-S-H_M-ftn2175"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-4-S-H_M-ftn2176"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

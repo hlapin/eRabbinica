@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Rosina-Rosina</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Rosina-d1e567495" n="Rosina-Rosina">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_F-d8e31023-person"
+                    n="Vol-3-L_F-Latin-Females-Rosina-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Rosina</persName>
+               <persName type="lemma" xml:lang="en">Rosina</persName>
+               <persName>̔Ροσύνης<ref type="note" corresp="#Vol-3-L_F-ftn1058"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e5882-person" type="relation" n="mother-of">Peret (1)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Antinoopolis, Zereteli &amp; Jernstedt</note>
+               </state>
+               <bibl>CPJ511</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_F-ftn1059"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0500" notAfter="0599">6thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

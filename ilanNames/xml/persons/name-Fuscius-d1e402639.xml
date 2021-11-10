@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Fuscius-Fuscius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Fuscius-d1e402639" n="Fuscius-Fuscius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e3384-person"
+                    n="Vol-2-L_M-Latin-Males-Fuscius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Fuscius</persName>
+               <persName type="lemma" xml:lang="en">Fuscius</persName>
+               <persName>Φούσκου<ref type="note" corresp="#Vol-2-L_M-ftn266"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-L_M-d8e175-person" type="relation" n="father-of">Agrippa (1)’s father</ref>, of Phaena<ref type="note" corresp="#Vol-2-L_M-ftn267"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Rome, Kaibel</note>
+               </state>
+               <bibl>CIJ500</bibl>
+               <state type="addl-Descr">
+                  <note>God-fearer<ref type="note" corresp="#Vol-2-L_M-ftn268"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-L_M-ftn269"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

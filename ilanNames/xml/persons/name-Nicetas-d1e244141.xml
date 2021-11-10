@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Nicetas-Νικήτας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Nicetas-d1e244141" n="Nicetas-Νικήτας">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e13428-person"
+                    n="Vol-1-G_M-Nicetas-1">
+               <persName type="lemma">Νικήτας</persName>
+               <persName type="lemma" xml:lang="en">Nicetas</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Νικητα<ref type="note" corresp="#Vol-1-G_M-ftn960"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e17380-person" type="relation" n="son-of">Philopator (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary</note>
+               </state>
+               <bibl>JIJA31/A</bibl>
+               <state type="addl-Descr">
+                  <note>Inauthentic<ref type="note" corresp="#Vol-1-G_M-ftn961"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn962"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

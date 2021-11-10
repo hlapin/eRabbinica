@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Polemus-Πόλεμος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Polemus-d1e247792" n="Polemus-Πόλεμος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e15128-person"
+                    n="Vol-1-G_M-Polemus-1">
+               <persName type="lemma">Πόλεμος</persName>
+               <persName type="lemma" xml:lang="en">Polemus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">פלימו<ref type="note" corresp="#Vol-1-G_M-ftn1087"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>bTaan25a (Kosowsky,Babylonico, 1194)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Post-135 CE<ref type="note" corresp="#Vol-1-G_M-ftn1088"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e15569-person"
+                    n="Vol-2-G_M-Greek-Males-Polemus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Πόλεμος</persName>
+               <persName type="lemma" xml:lang="en">Polemus</persName>
+               <persName>Πόλεμο[ς]<ref type="note" corresp="#Vol-2-G_M-ftn1022"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Elijah’s Cave</note>
+               </state>
+               <bibl>Appendix, no. 3</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-G_M-ftn1023"/>
+                  </note>
+               </state>
+               <floruit>Pre-8thC<ref type="note" corresp="#Vol-2-G_M-ftn1024"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Petos-Petos</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Petos-d1e486493" n="Petos-Petos">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e6774-person"
+                    n="Vol-3-E_M-Egyptian-Males-Petos-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Petos</persName>
+               <persName type="lemma" xml:lang="en">Petos</persName>
+               <persName>Πετώς</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e6622-person" type="relation" n="son-of">Helkiah (4)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Heliopolis, Meyer</note>
+               </state>
+               <bibl>CPJ417</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-E_M-ftn413"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0059" notAfter="0059">59 CE<ref type="note" corresp="#Vol-3-E_M-ftn414"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e6812-person"
+                    n="Vol-3-E_M-Egyptian-Males-Petos-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Petos</persName>
+               <persName type="lemma" xml:lang="en">Petos</persName>
+               <persName>Πετῶτο<ref type="note" corresp="#Vol-3-E_M-ftn415"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e60664-person" type="relation" n="father-of">Numenius (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Schwartz</note>
+               </state>
+               <bibl>CPJ515</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-E_M-ftn416"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0199">2ndC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e6850-person"
+                    n="Vol-3-E_M-Egyptian-Males-Petos-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Petos</persName>
+               <persName type="lemma" xml:lang="en">Petos</persName>
+               <persName>Πετῶτος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e3314-person" type="relation" n="father-of">Labois (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Demerdesh, Edgar</note>
+               </state>
+               <bibl>CIJ1486</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn417"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0039" notAfter="-0039">39 BCE<ref type="note" corresp="#Vol-3-E_M-ftn418"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_M-d8e6882-person"
+                    n="Vol-3-E_M-Egyptian-Males-Petos-4">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Petos</persName>
+               <persName type="lemma" xml:lang="en">Petos</persName>
+               <persName>Πετῶτος</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_F-d8e13484-person" type="relation" n="husband-of">Cleupis (2)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Leontopolis, Leibovitch</note>
+               </state>
+               <bibl>CIJ1530b</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_M-ftn419"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0007" notAfter="-0007">7 BCE<ref type="note" corresp="#Vol-3-E_M-ftn420"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

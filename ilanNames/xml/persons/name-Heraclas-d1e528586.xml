@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Heraclas-̔Ηρακλᾶς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Heraclas-d1e528586" n="Heraclas-̔Ηρακλᾶς">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e37769-person"
+                    n="Vol-3-G_M-Greek-Males-Heraclas-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̔Ηρακλᾶς</persName>
+               <persName type="lemma" xml:lang="en">Heraclas</persName>
+               <persName>̔Ηρακ<ref type="note" corresp="#Vol-3-G_M-ftn2141"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e4938-person" type="relation" n="son-of">Papontos (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyri, Theadelphia, Westerman &amp; Keyes &amp; Kortenbeutel</note>
+               </state>
+               <bibl>CPJ489b,c,d</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2142"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0134" notAfter="0145">134-45 CE<ref type="note" corresp="#Vol-3-G_M-ftn2143"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e37804-person"
+                    n="Vol-3-G_M-Greek-Males-Heraclas-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̔Ηρακλᾶς</persName>
+               <persName type="lemma" xml:lang="en">Heraclas</persName>
+               <persName>̔Ηρακλᾶν</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn2144"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Manumission inscription, Panticapeum,<ref type="note" corresp="#Vol-3-G_M-ftn2145"/>Montpéreux</note>
+               </state>
+               <bibl>CIJ683</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2146"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Bosphoran Kingdom</note>
+               </state>
+               <floruit notBefore="0080" notAfter="0080">80 CE<ref type="note" corresp="#Vol-3-G_M-ftn2147"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e37864-person"
+                    n="Vol-3-G_M-Greek-Males-Heraclas-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̔Ηρακλᾶς</persName>
+               <persName type="lemma" xml:lang="en">Heraclas</persName>
+               <persName>Heracla</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn2148"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Adjuration inscription, Saguntum</note>
+               </state>
+               <bibl>Corell,ZPE130 (2000) 242</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn2149"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Spain</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0199">1st-2ndC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

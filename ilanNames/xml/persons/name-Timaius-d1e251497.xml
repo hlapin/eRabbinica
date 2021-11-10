@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Timaius-Τιμαῖος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Timaius-d1e251497" n="Timaius-Τιμαῖος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e16509-person"
+                    n="Vol-1-G_M-Timaius-1">
+               <persName type="lemma">Τιμαῖος</persName>
+               <persName type="lemma" xml:lang="en">Timaius</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Βαρτιμαῖος<ref type="note" corresp="#Vol-1-G_M-ftn1185"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Mark 10:46 (VKGNT 1252)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0027" notAfter="0030">27-30 CE<ref type="note" corresp="#Vol-1-G_M-ftn1186"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e17535-person"
+                    n="Vol-2-G_M-Greek-Males-Timaius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Τιμαῖος</persName>
+               <persName type="lemma" xml:lang="en">Timaius</persName>
+               <persName>טימי<ref type="note" corresp="#Vol-2-G_M-ftn1144"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e18645-person" type="relation" n="father-of">Joshua (18)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Eccl Rab9:9 (Hyman,Toldoth, 635)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-G_M-ftn1145"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e75260-person"
+                    n="Vol-3-G_M-Greek-Males-Timaius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Τιμαῖος</persName>
+               <persName type="lemma" xml:lang="en">Timaius</persName>
+               <persName>Τίμιος<ref type="note" corresp="#Vol-3-G_M-ftn4368"/>
+               </persName>
+               <persName>/Μεντίμιος<ref type="note" corresp="#Vol-3-G_M-ftn4369"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn4370"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>AJ18:131 (Schalit,NB, 85)</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn4371"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Cyprus</note>
+               </state>
+               <floruit notBefore="-0099" notAfter="0099">1stC BCE-1stC CE<ref type="note" corresp="#Vol-3-G_M-ftn4372"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e75324-person"
+                    n="Vol-3-G_M-Greek-Males-Timaius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Τιμαῖος</persName>
+               <persName type="lemma" xml:lang="en">Timaius</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_M-d8e75116-person" type="relation" n="son-of">Telephus (1)’s son</ref>, thief, of the epigone<ref type="note" corresp="#Vol-3-G_M-ftn4373"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Apollonias, Smyly</note>
+               </state>
+               <bibl>CPJ21</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn4374"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0210" notAfter="-0210">210 BCE<ref type="note" corresp="#Vol-3-G_M-ftn4375"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

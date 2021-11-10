@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Corcaina-Κορκαίνα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Corcaina-d1e501070" n="Corcaina-Κορκαίνα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e13552-person"
+                    n="Vol-3-G_F-Greek-Females-Corcaina-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Κορκαίνα</persName>
+               <persName type="lemma" xml:lang="en">Corcaina</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Aurelia (46) Artemia (2), Marcus (40) Aurelius (87) <ref corresp="#Vol-3-G_M-d8e57321-person" type="relation" n="wife-of">Moles (1)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Termessos</note>
+               </state>
+               <bibl>Tituli Asia Minoris3, 612</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn769"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

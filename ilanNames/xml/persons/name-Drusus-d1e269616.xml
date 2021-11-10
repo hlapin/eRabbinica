@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Drusus-Drusus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Drusus-d1e269616" n="Drusus-Drusus">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e1846-person"
+                    n="Vol-1-L_M-Drusus-1">
+               <persName type="lemma">Drusus</persName>
+               <persName type="lemma" xml:lang="en">Drusus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Δροῦσος<ref type="note" corresp="#Vol-1-L_M-ftn122"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-L_M-d2e141-person" type="relation" n="son-of">Agrippa (1)’s son</ref>
+                     <ref type="note" corresp="#Vol-1-L_M-ftn123"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>AJ18:132 (Schalit,NB, 40)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0001" notAfter="0099">1stC CE<ref type="note" corresp="#Vol-1-L_M-ftn124"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-L_M-d2e1891-person"
+                    n="Vol-1-L_M-Drusus-2">
+               <persName type="lemma">Drusus</persName>
+               <persName type="lemma" xml:lang="en">Drusus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">[Δ]ρόσον<ref type="note" corresp="#Vol-1-L_M-ftn125"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e14411-person" type="relation" n="father-of">Pantheras (2)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Nablus Rd, Clermont-Ganneau, 1891</note>
+               </state>
+               <bibl>CIJ, no. 1211</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-L_M-ftn126"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e14674-person"
+                    n="Vol-3-L_M-Latin-Males-Drusus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Drusus</persName>
+               <persName type="lemma" xml:lang="en">Drusus</persName>
+               <persName>Δρούσου</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-G_F-d8e19590-person" type="relation" n="husband-of">Chreste (1)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Manumission inscription, Panticapeum,<ref type="note" corresp="#Vol-3-L_M-ftn879"/>Montpéreux</note>
+               </state>
+               <bibl>CIJ683</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-L_M-ftn880"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Bosphoran Kingdom</note>
+               </state>
+               <floruit notBefore="0080" notAfter="0080">80 CE<ref type="note" corresp="#Vol-3-L_M-ftn881"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

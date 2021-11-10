@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Cleupis-Κλεῦπις</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Cleupis-d1e500963" n="Cleupis-Κλεῦπις">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e13447-person"
+                    n="Vol-3-G_F-Greek-Females-Cleupis-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Κλεῦπις</persName>
+               <persName type="lemma" xml:lang="en">Cleupis</persName>
+               <persName>Κλεουπώ<ref type="note" corresp="#Vol-3-G_F-ftn761"/>
+               </persName>
+               <state type="desc">
+                  <note>Quinta (1), <ref corresp="#" type="relation" n="wife-of">Judah (42)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Larissa, Oehler</note>
+               </state>
+               <bibl>CIJ698</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn762"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-G_F-ftn763"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e13484-person"
+                    n="Vol-3-G_F-Greek-Females-Cleupis-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Κλεῦπις</persName>
+               <persName type="lemma" xml:lang="en">Cleupis</persName>
+               <persName>Κλευπᾶς<ref type="note" corresp="#Vol-3-G_F-ftn764"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-E_M-d8e6882-person" type="relation" n="wife-of">Petos (4)’s wife</ref>, aged 25<ref type="note" corresp="#Vol-3-G_F-ftn765"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Leontopolis, Leibovitch</note>
+               </state>
+               <bibl>CIJ1530b</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn766"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="-0007" notAfter="-0007">7 BCE<ref type="note" corresp="#Vol-3-G_F-ftn767"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Castor-Κάστωρ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Castor-d1e238706" n="Castor-Κάστωρ">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e11121-person"
+                    n="Vol-1-G_M-Castor-1">
+               <persName type="lemma">Κάστωρ</persName>
+               <persName type="lemma" xml:lang="en">Castor</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ5:317 (Schalit,NB, 72)</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">70 CE<ref type="note" corresp="#Vol-1-G_M-ftn791"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e10835-person"
+                    n="Vol-2-G_M-Greek-Males-Castor-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Κάστωρ</persName>
+               <persName type="lemma" xml:lang="en">Castor</persName>
+               <persName>ⲅⲁcⲧⲱⲣ<ref type="note" corresp="#Vol-2-G_M-ftn722"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-G_M-ftn723"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Pseudo-Cyril of Jerusalem,Theotokos, 2a (627)</bibl>
+               <state type="addl-Descr">
+                  <note>Christian convert</note>
+               </state>
+               <floruit>335-80<ref type="note" corresp="#Vol-2-G_M-ftn724"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

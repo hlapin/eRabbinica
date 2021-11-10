@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Agathopus-̓Αγαθόπους</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Agathopus-d1e507746"
+                     n="Agathopus-̓Αγαθόπους">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e574-person"
+                    n="Vol-3-G_M-Greek-Males-Agathopus-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αγαθόπους</persName>
+               <persName type="lemma" xml:lang="en">Agathopus</persName>
+               <persName>Agathopo</persName>
+               <state type="desc">
+                  <note>Aurelius (14) Joseph (66) and Aurelia (4) <ref corresp="#Vol-3-L_F-d8e1578-person" type="relation" n="son-of">Auguria (1)’s son</ref>, aged 15<ref type="note" corresp="#Vol-3-G_M-ftn38"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Vigna Randanini, Garrucci</note>
+               </state>
+               <bibl>CIJ209</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn39"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e613-person"
+                    n="Vol-3-G_M-Greek-Males-Agathopus-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Αγαθόπους</persName>
+               <persName type="lemma" xml:lang="en">Agathopus</persName>
+               <persName>̓Αγαθόπο<ref type="note" corresp="#Vol-3-G_M-ftn40"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Monteverde, Schneider Graziosi</note>
+               </state>
+               <bibl>CIJ308</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_M-ftn41"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Rome</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

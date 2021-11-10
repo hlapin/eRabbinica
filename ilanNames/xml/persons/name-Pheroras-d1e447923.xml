@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Pheroras-פרורה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Pheroras-d1e447923" n="Pheroras-פרורה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e22530-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Pheroras-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">פרורה</persName>
+               <persName type="lemma" xml:lang="en">Pheroras</persName>
+               <persName>פרירא<ref type="note" corresp="#Vol-2-S-H_M-ftn1413"/>
+               </persName>
+               <persName>/פרירי<ref type="note" corresp="#Vol-2-S-H_M-ftn1414"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yPea7:3, 20b (Kosovsky,Yerushalmi, 591)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn1415"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e22571-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Pheroras-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">פרורה</persName>
+               <persName type="lemma" xml:lang="en">Pheroras</persName>
+               <persName>פרורס<ref type="note" corresp="#Vol-2-S-H_M-ftn1416"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-S-H_M-ftn1417"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription Hammat-Gader, Sukenik</note>
+               </state>
+               <bibl>CIJ856</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-438?<ref type="note" corresp="#Vol-2-S-H_M-ftn1418"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e22602-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Pheroras-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">פרורה</persName>
+               <persName type="lemma" xml:lang="en">Pheroras</persName>
+               <persName>Παρηρῳ<ref type="note" corresp="#Vol-2-S-H_M-ftn1419"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_M-d8e2539-person" type="relation" n="son-of">Aristeas (2)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Syria</note>
+               </state>
+               <bibl>Jarry,Annales Islamologique9 (1970) no. 60</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-H_M-ftn1420"/>
+                  </note>
+               </state>
+               <floruit>423/4<ref type="note" corresp="#Vol-2-S-H_M-ftn1421"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-P_M-d8e2227-person"
+                    n="Vol-2-Vol-1-ADD-P_M-Persian-Males-Pheroras-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">פרורה</persName>
+               <persName type="lemma" xml:lang="en">Pheroras</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e22091-person" type="relation" n="father-of">Joseph (4)’s father</ref>
+                     <ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn150"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yEruv1:2, 18d (Kosovsky,Yerushalmi, 591)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit notBefore="0135" notAfter="0135">Pre-135 CE<ref type="note" corresp="#Vol-2-Vol-1-ADD-P_M-ftn151"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

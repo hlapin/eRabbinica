@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Shafat-שפט</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Shafat-d1e360688" n="Shafat-שפט">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_M-d8e49340-person"
+                    n="Vol-2-B_M-Biblical-Males-Shafat-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שפט</persName>
+               <persName type="lemma" xml:lang="en">Shafat</persName>
+               <persName>–<ref type="note" corresp="#Vol-2-B_M-ftn3245"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e22765-person" type="relation" n="son-of">Ṣavo (1)’s son</ref>, leader<ref type="note" corresp="#Vol-2-B_M-ftn3246"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Tulida, 135</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-2-B_M-ftn3247"/>
+                  </note>
+               </state>
+               <floruit>3rd-4thC<ref type="note" corresp="#Vol-2-B_M-ftn3248"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-B_M-d8e49380-person"
+                    n="Vol-2-B_M-Biblical-Males-Shafat-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שפט</persName>
+               <persName type="lemma" xml:lang="en">Shafat</persName>
+               <persName>שפטיה<ref type="note" corresp="#Vol-2-B_M-ftn3249"/>
+               </persName>
+               <persName>/שפטי<ref type="note" corresp="#Vol-2-B_M-ftn3250"/>
+               </persName>
+               <persName>/שפטאי<ref type="note" corresp="#Vol-2-B_M-ftn3251"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>bMeg32a<ref type="note" corresp="#Vol-2-B_M-ftn3252"/>(Kosowsky,Babylonico, 1750-1)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-B_M-ftn3253"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_M-d8e33460-person"
+                    n="Vol-4-B_M-Biblical-Males-Shafat-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">שפט</persName>
+               <persName type="lemma" xml:lang="en">Shafat</persName>
+               <persName>Anan (4)’s son, exilarch<ref type="note" corresp="#Vol-4-B_M-ftn2263"/>
+               </persName>
+               <state type="findspot">
+                  <note>SOZ9, 10</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-B_M-ftn2264"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0299">2nd-3rdC CE<ref type="note" corresp="#Vol-4-B_M-ftn2265"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

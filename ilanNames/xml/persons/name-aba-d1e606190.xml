@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ṣaʿba-صعبة</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-aba-d1e606190" n="Ṣaʿba-صعبة">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-A_F-d8e474-person"
+                    n="Vol-4-A_F-Arabic-Females-Ṣaʿba-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">صعبة</persName>
+               <persName type="lemma" xml:lang="en">Ṣaʿba</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-A_M-d8e4000-person" type="relation" n="daughter-of">Khālid (2)’s daughter</ref>, <ref corresp="#Vol-4-A_M-d8e1838-person" type="relation" n="mother-of">Tuwayt (1)’s mother</ref>
+                     <ref type="note" corresp="#Vol-4-A_F-ftn36"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>Ibn al-Kalbī,jamharat al-nasab, 69</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-4-A_F-ftn37"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Arab. Pen.</note>
+               </state>
+               <floruit notBefore="0632" notAfter="0632">Pre- 632 CE<ref type="note" corresp="#Vol-4-A_F-ftn38"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

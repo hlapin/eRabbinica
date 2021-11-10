@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Aconius-Aconius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Aconius-d1e398879" n="Aconius-Aconius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e15-person"
+                    n="Vol-2-L_M-Latin-Males-Aconius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Aconius</persName>
+               <persName type="lemma" xml:lang="en">Aconius</persName>
+               <persName>̓Ακονε<ref type="note" corresp="#Vol-2-L_M-ftn2"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-2-L_M-ftn3"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Rome, Schneider Graziosi</note>
+               </state>
+               <bibl>CIJ362</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-L_M-ftn4"/>; Name?<ref type="note" corresp="#Vol-2-L_M-ftn5"/>Second name</note>
+               </state>
+               <floruit>3rd-4thC</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

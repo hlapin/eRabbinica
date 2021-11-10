@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Malthace-Μαλθάκη</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Malthace-d1e199112" n="Malthace-Μαλθάκη">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_F-d2e3080-person"
+                    n="Vol-1-G_F-Malthace-1">
+               <persName type="lemma">Μαλθάκη</persName>
+               <persName type="lemma" xml:lang="en">Malthace</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e8218-person" type="relation" n="wife-of">Herod (1)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>BJ1:562;AJ17:250 (Schalit,NB, 81)</bibl>
+               <state type="addl-Descr">
+                  <note>Samaritan<ref type="note" corresp="#Vol-1-G_F-ftn215"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0004" notAfter="-0004">4 BCE<ref type="note" corresp="#Vol-1-G_F-ftn216"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_F-d2e3109-person"
+                    n="Vol-1-G_F-Malthace-2">
+               <persName type="lemma">Μαλθάκη</persName>
+               <persName type="lemma" xml:lang="en">Malthace</persName>
+               <sex cert="high">F</sex>
+               <persName xml:lang="gr">Μαλθάκης<ref type="note" corresp="#Vol-1-G_F-ftn217"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-G_F-ftn218"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Lydda, Clermont-Ganneau, 1883</note>
+               </state>
+               <bibl>CIJ, no. 1173</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_F-ftn219"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

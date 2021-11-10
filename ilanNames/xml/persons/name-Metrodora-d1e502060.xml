@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Metrodora-Μητροδώρα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Metrodora-d1e502060" n="Metrodora-Μητροδώρα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e14780-person"
+                    n="Vol-3-G_F-Greek-Females-Metrodora-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Μητροδώρα</persName>
+               <persName type="lemma" xml:lang="en">Metrodora</persName>
+               <persName>Μετροδώρα<ref type="note" corresp="#Vol-3-G_F-ftn841"/>
+               </persName>
+               <state type="desc">
+                  <note>Phrugillianus (1) <ref corresp="#Vol-3-G_M-d8e13692-person" type="relation" n="wife-of">Auxanon (3)’s wife</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Phrygia,</note>
+               </state>
+               <bibl>Ramsay,Cities and Bishoprics2, no. 394</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn842"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-G_F-ftn843"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

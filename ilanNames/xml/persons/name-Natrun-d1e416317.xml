@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Natrun-נתרון</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Natrun-d1e416317" n="Natrun-נתרון">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_F-d8e1386-person"
+                    n="Vol-2-S-H_F-Semitic-Hebrew-Females-Natrun-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">נתרון</persName>
+               <persName type="lemma" xml:lang="en">Natrun</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_F-d8e3000-person" type="relation" n="daughter-of">Sarah (14)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, Nirim<ref type="note" corresp="#Vol-2-S-H_F-ftn94"/>
+                  </note>
+               </state>
+               <bibl>AMBno. 11</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>5thC</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

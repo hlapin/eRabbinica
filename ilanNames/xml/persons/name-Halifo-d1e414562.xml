@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ḥalifo-חליפו</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Halifo-d1e414562" n="Ḥalifo-חליפו">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_F-d8e439-person"
+                    n="Vol-2-S-H_F-Semitic-Hebrew-Females-Ḥalifo-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">חליפו</persName>
+               <persName type="lemma" xml:lang="en">Ḥalifo</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e20627-person"
+                          type="relation"
+                          n="daughter-of">Safra (3)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Na‘aran,<ref type="note" corresp="#Vol-2-S-H_F-ftn29"/>Vincent &amp; Carrière</note>
+               </state>
+               <bibl>CIJ1199</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-S-H_F-ftn30"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_F-d8e468-person"
+                    n="Vol-2-S-H_F-Semitic-Hebrew-Females-Ḥalifo-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">חליפו</persName>
+               <persName type="lemma" xml:lang="en">Ḥalifo</persName>
+               <persName>חלפו<ref type="note" corresp="#Vol-2-S-H_F-ftn31"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>Naveh,Tarbiz64 (1995) no. 3</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>505<ref type="note" corresp="#Vol-2-S-H_F-ftn32"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

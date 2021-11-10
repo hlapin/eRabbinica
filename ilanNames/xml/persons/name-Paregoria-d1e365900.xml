@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Paregoria-Παρηγορία</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Paregoria-d1e365900" n="Paregoria-Παρηγορία">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_F-d8e4320-person"
+                    n="Vol-2-G_F-Greek-Females-Paregoria-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Παρηγορία</persName>
+               <persName type="lemma" xml:lang="en">Paregoria</persName>
+               <persName>פריגרי<ref type="note" corresp="#Vol-2-G_F-ftn286"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e17353-person"
+                          type="relation"
+                          n="daughter-of">Judah (101)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Sepphoris</note>
+               </state>
+               <bibl>Weiss,Sepphoris Synagogue, no. 3</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>5th-7thC<ref type="note" corresp="#Vol-2-G_F-ftn287"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

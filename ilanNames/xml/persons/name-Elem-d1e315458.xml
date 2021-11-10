@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Elem-אלם</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Elem-d1e315458" n="Elem-אלם">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e1316-person"
+                    n="Vol-1-S-H_M-Elem-1">
+               <persName type="lemma">אלם</persName>
+               <persName type="lemma" xml:lang="en">Elem</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">̓́Ελλημος<ref type="note" corresp="#Vol-1-S-H_M-ftn80"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e31034-person" type="relation" n="father-of">Joseph (21)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>AJ17:166 (Schalit,NB, 44); tYK1:4 (Kasowski, Thosephthae, 304).</bibl>
+               <state type="addl-Descr">
+                  <note>Nickname<ref type="note" corresp="#Vol-1-S-H_M-ftn81"/>
+                  </note>
+               </state>
+               <floruit notBefore="-0004" notAfter="-0004">4 BCE<ref type="note" corresp="#Vol-1-S-H_M-ftn82"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e1355-person"
+                    n="Vol-1-S-H_M-Elem-2">
+               <persName type="lemma">אלם</persName>
+               <persName type="lemma" xml:lang="en">Elem</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">אלמא<ref type="note" corresp="#Vol-1-S-H_M-ftn83"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e19796-person" type="relation" n="father-of">Judah (100)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Mt of Offence, Husseini, 1942</note>
+               </state>
+               <bibl>CJO, no. 117</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn84"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-S-H_M-d2e1380-person"
+                    n="Vol-1-S-H_M-Elem-3">
+               <persName type="lemma">אלם</persName>
+               <persName type="lemma" xml:lang="en">Elem</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">אלמא<ref type="note" corresp="#Vol-1-S-H_M-ftn85"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e21021-person" type="relation" n="son-of">Judah (150)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, deed, Heber</note>
+               </state>
+               <bibl>PYadin 44</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0134" notAfter="0134">134 CE<ref type="note" corresp="#Vol-1-S-H_M-ftn86"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

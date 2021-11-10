@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tcouis-Tcouis</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tcouis-d1e478291" n="Tcouis-Tcouis">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-E_F-d8e1465-person"
+                    n="Vol-3-E_F-Egyptian-Females-Tcouis-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Tcouis</persName>
+               <persName type="lemma" xml:lang="en">Tcouis</persName>
+               <persName>Τκύτιος<ref type="note" corresp="#Vol-3-E_F-ftn98"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-3-B_M-d8e29678-person" type="relation" n="mother-of">Shabtai (53)’s mother</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Karanis, Boak</note>
+               </state>
+               <bibl>CPJ487</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-E_F-ftn99"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0112" notAfter="0112">112 CE<ref type="note" corresp="#Vol-3-E_F-ftn100"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

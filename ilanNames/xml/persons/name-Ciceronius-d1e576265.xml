@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ciceronius-Ciceronius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Ciceronius-d1e576265"
+                     n="Ciceronius-Ciceronius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e11567-person"
+                    n="Vol-3-L_M-Latin-Males-Ciceronius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Ciceronius</persName>
+               <persName type="lemma" xml:lang="en">Ciceronius</persName>
+               <persName>Ciceronis<ref type="note" corresp="#Vol-3-L_M-ftn680"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn681"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Mauritania</note>
+               </state>
+               <bibl>Le Bohec,Ant. Afr.17 (1981) no. 77</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn682"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>North Africa</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

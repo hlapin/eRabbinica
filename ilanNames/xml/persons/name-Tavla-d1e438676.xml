@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ṭavla-טבלא</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tavla-d1e438676" n="Ṭavla-טבלא">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e15245-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ṭavla-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">טבלא</persName>
+               <persName type="lemma" xml:lang="en">Ṭavla</persName>
+               <persName>טבלאי<ref type="note" corresp="#Vol-2-S-H_M-ftn955"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e30173-person" type="relation" n="father-of">Isaac (14)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yDem2:1, 22d (Kosovsky,Yerushalmi, 288)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn956"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e15279-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ṭavla-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">טבלא</persName>
+               <persName type="lemma" xml:lang="en">Ṭavla</persName>
+               <persName>טבליי<ref type="note" corresp="#Vol-2-S-H_M-ftn957"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e1400-person" type="relation" n="father-of">Abba (41)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>–</note>
+               </state>
+               <bibl>yBB4:8, 14d (Kosovsky,Yerushalmi, 14)</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>3rdC<ref type="note" corresp="#Vol-2-S-H_M-ftn958"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e15313-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Ṭavla-3">
+               <sex cert="high">M</sex>
+               <persName type="lemma">טבלא</persName>
+               <persName type="lemma" xml:lang="en">Ṭavla</persName>
+               <persName>טבלה<ref type="note" corresp="#Vol-2-S-H_M-ftn959"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Beth She‘arim, catacomb 13</note>
+               </state>
+               <bibl>BS3:7</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-S-H_M-ftn960"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

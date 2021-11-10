@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Marsah-מרסה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Marsah-d1e443979" n="Marsah-מרסה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e18679-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Marsah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מרסה</persName>
+               <persName type="lemma" xml:lang="en">Marsah</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_F-d8e652-person" type="relation" n="father-of">Maḥirshah (1)’s father</ref>, associate<ref type="note" corresp="#Vol-2-S-H_M-ftn1166"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>Naveh,Tarbiz64 (1995) no. 10</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>432<ref type="note" corresp="#Vol-2-S-H_M-ftn1167"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e18708-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Marsah-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">מרסה</persName>
+               <persName type="lemma" xml:lang="en">Marsah</persName>
+               <persName>Μάρσου<ref type="note" corresp="#Vol-2-S-H_M-ftn1168"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-B_M-d8e36452-person" type="relation" n="father-of">Moses (6)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Tombstone, Zoar</note>
+               </state>
+               <bibl>Cotton &amp; Price,ZPE134 (2001) 278-9</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit>360<ref type="note" corresp="#Vol-2-S-H_M-ftn1169"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

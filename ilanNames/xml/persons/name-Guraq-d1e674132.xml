@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Guraq-גורק</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Guraq-d1e674132" n="Guraq-גורק">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_M-d8e13125-person"
+                    n="Vol-4-S-H_M-Semitic-Hebrew-Males-Guraq-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">גורק</persName>
+               <persName type="lemma" xml:lang="en">Guraq</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Mtskheta</note>
+               </state>
+               <bibl>Shaked,JSAI32 (2006) 505</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_M-ftn917"/>; second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Georgia</note>
+               </state>
+               <floruit notBefore="0100" notAfter="0199">2ndC CE<ref type="note" corresp="#Vol-4-S-H_M-ftn918"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

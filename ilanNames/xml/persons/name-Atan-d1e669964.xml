@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ʿAtḥan-עתחן</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Atan-d1e669964" n="ʿAtḥan-עתחן">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-S-H_F-d8e5876-person"
+                    n="Vol-4-S-H_F-Semitic-Hebrew-Females-ʿAtḥan-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">עתחן</persName>
+               <persName type="lemma" xml:lang="en">ʿAtḥan</persName>
+               <persName>̓Αταν<ref type="note" corresp="#Vol-4-S-H_F-ftn436"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-G_M-d8e546-person" type="relation" n="daughter-of">Dorus (2)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, catacomb 3,CIJ1113, 1114, 1115</note>
+               </state>
+               <bibl>Beth Sheʿarim1:132, 133, 2:90</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-S-H_F-ftn437"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Palmyra</note>
+               </state>
+               <floruit notBefore="0352" notAfter="0352">Pre-352 CE<ref type="note" corresp="#Vol-4-S-H_F-ftn438"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

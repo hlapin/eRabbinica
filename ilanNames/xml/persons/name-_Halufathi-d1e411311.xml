@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - ̓Αλουφάθη Ḥalufathi-̓Αλουφάθη Ḥalufathi</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-_Halufathi-d1e411311"
+                     n="̓Αλουφάθη Ḥalufathi-̓Αλουφάθη Ḥalufathi">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-G_F-d8e65-person"
+                    n="Vol-2-S-G_F-Semitic-Greek-Females-̓Αλουφάθη Ḥalufathi-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">̓Αλουφάθη Ḥalufathi</persName>
+               <persName type="lemma" xml:lang="en">̓Αλουφάθη Ḥalufathi</persName>
+               <persName>̓Αλουφάθης</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-G_M-d8e1698-person"
+                          type="relation"
+                          n="daughter-of">Mazabano (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1a, no. 294</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-G_F-ftn6"/>
+                  </note>
+               </state>
+               <floruit>4th-6thC<ref type="note" corresp="#Vol-2-S-G_F-ftn7"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

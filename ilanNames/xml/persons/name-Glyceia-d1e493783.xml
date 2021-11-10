@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Glyceia-Γλυκεῖα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Glyceia-d1e493783" n="Glyceia-Γλυκεῖα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e4568-person"
+                    n="Vol-3-G_F-Greek-Females-Glyceia-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Γλυκεῖα</persName>
+               <persName type="lemma" xml:lang="en">Glyceia</persName>
+               <persName>Γλυκά<ref type="note" corresp="#Vol-3-G_F-ftn255"/>
+               </persName>
+               <state type="desc">
+                  <note>Sabinus (7) and <ref corresp="#Vol-3-B_F-d8e3706-person" type="relation" n="daughter-of">Naomi (1)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Otrante, Frey</note>
+               </state>
+               <bibl>CIJ632</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-3-G_F-ftn256"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Italy</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0399">3rd-4thC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

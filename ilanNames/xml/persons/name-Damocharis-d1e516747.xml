@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Damocharis-Δαμόχαρις</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Damocharis-d1e516747"
+                     n="Damocharis-Δαμόχαρις">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e16706-person"
+                    n="Vol-3-G_M-Greek-Males-Damocharis-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Δαμόχαρις</persName>
+               <persName type="lemma" xml:lang="en">Damocharis</persName>
+               <persName>Δαμοχάριδος</persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-G_M-ftn975"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Inscription, Aphrodisias, Roueché</note>
+               </state>
+               <bibl>Reynolds &amp; Tannenbaum, 138</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn976"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-3-G_M-ftn977"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

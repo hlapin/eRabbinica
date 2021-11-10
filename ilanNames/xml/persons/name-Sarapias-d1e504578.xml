@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Sarapias-Σαραπίας</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Sarapias-d1e504578" n="Sarapias-Σαραπίας">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e17413-person"
+                    n="Vol-3-G_F-Greek-Females-Sarapias-1">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Σαραπίας</persName>
+               <persName type="lemma" xml:lang="en">Sarapias</persName>
+               <persName>Σαραπιάδα</persName>
+               <state type="desc">
+                  <note>Julius (5) <ref corresp="#Vol-3-G_M-d8e8772-person" type="relation" n="sister-of">Apolinarius (1)’s sister</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyri, Karanis, Winter &amp; Youtie</note>
+               </state>
+               <bibl>CPJ486</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn993"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0107" notAfter="0107">107 CE<ref type="note" corresp="#Vol-3-G_F-ftn994"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_F-d8e17445-person"
+                    n="Vol-3-G_F-Greek-Females-Sarapias-2">
+               <sex cert="high">F</sex>
+               <persName type="lemma">Σαραπίας</persName>
+               <persName type="lemma" xml:lang="en">Sarapias</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Shabtit (32), <ref corresp="#Vol-3-G_M-d8e68032-person"
+                          type="relation"
+                          n="daughter-of">Ptolemaius (15)’s daughter</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Papyrus, Fayum Wilcken</note>
+               </state>
+               <bibl>CPJ498i</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_F-ftn995"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Egypt</note>
+               </state>
+               <floruit notBefore="0242" notAfter="0243">242/3 CE<ref type="note" corresp="#Vol-3-G_F-ftn996"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

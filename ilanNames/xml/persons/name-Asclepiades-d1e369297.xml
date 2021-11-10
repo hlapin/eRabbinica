@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Asclepiades-̓Ασκληπιάδης</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Asclepiades-d1e369297"
+                     n="Asclepiades-̓Ασκληπιάδης">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e2894-person"
+                    n="Vol-2-G_M-Greek-Males-Asclepiades-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓Ασκληπιάδης</persName>
+               <persName type="lemma" xml:lang="en">Asclepiades</persName>
+               <persName>̓Ασκληπιάδους<ref type="note" corresp="#Vol-2-G_M-ftn195"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_F-d8e4570-person" type="relation" n="father-of">Sibylle (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Zoar</note>
+               </state>
+               <bibl>IPT1a, no. 5</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-G_M-ftn196"/>
+                  </note>
+               </state>
+               <floruit>3th-4th-6thC<ref type="note" corresp="#Vol-2-G_M-ftn197"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

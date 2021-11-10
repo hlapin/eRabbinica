@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Onga-̓́Ογγα</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Onga-d1e382528" n="Onga-̓́Ογγα">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-G_M-d8e13866-person"
+                    n="Vol-2-G_M-Greek-Males-Onga-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">̓́Ογγα</persName>
+               <persName type="lemma" xml:lang="en">Onga</persName>
+               <persName>̓́Ογα<ref type="note" corresp="#Vol-2-G_M-ftn919"/>
+               </persName>
+               <state type="desc">
+                  <note>Isaac (53), <ref corresp="#Vol-2-B_M-d8e6238-person" type="relation" n="son-of">Benjamin (17)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Beth She‘arim, catacomb 1,CIJ1099</note>
+               </state>
+               <bibl>BS2:80</bibl>
+               <state type="addl-Descr">
+                  <note>Second name</note>
+               </state>
+               <floruit>Pre-352<ref type="note" corresp="#Vol-2-G_M-ftn920"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

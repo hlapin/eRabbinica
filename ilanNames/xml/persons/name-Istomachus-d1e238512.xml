@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Istomachus-̓Ιστόμαχος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Istomachus-d1e238512"
+                     n="Istomachus-̓Ιστόμαχος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e10948-person"
+                    n="Vol-1-G_M-Istomachus-1">
+               <persName type="lemma">̓Ιστόμαχος</persName>
+               <persName type="lemma" xml:lang="en">Istomachus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">איסטמכוס<ref type="note" corresp="#Vol-1-G_M-ftn779"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-G_M-d2e15046-person" type="relation" n="father-of">Petrus (5)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ostracon, Masada</note>
+               </state>
+               <bibl>Mas no. 413</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0073" notAfter="0073">Pre-73 CE<ref type="note" corresp="#Vol-1-G_M-ftn780"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

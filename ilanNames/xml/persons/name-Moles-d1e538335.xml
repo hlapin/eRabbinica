@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Moles-Μολῆς</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Moles-d1e538335" n="Moles-Μολῆς">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-G_M-d8e57321-person"
+                    n="Vol-3-G_M-Greek-Males-Moles-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Μολῆς</persName>
+               <persName type="lemma" xml:lang="en">Moles</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>Marcus (40) Aurelius (87), Aurelia (46) Artemia (2) <ref corresp="#Vol-3-G_F-d8e13552-person" type="relation" n="husband-of">Corcaina (1)’s husband</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Termessos</note>
+               </state>
+               <bibl>Tituli Asia Minoris3, 612</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-G_M-ftn3296"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Asia</note>
+               </state>
+               <floruit notBefore="0200" notAfter="0299">3rdC CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

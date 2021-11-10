@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Tamlah-תמלה</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Tamlah-d1e451837" n="Tamlah-תמלה">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-S-H_M-d8e26042-person"
+                    n="Vol-2-S-H_M-Semitic-Hebrew-Males-Tamlah-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">תמלה</persName>
+               <persName type="lemma" xml:lang="en">Tamlah</persName>
+               <persName>–<ref type="note" corresp="#Vol-2-S-H_M-ftn1644"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-S-H_M-d8e6877-person" type="relation" n="father-of">Aṣlaḥ (1)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Samâkiyé<ref type="note" corresp="#Vol-2-S-H_M-ftn1645"/>
+                  </note>
+               </state>
+               <bibl>Milik,LA9 (1958-9) 343</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-S-H_M-ftn1646"/>
+                  </note>
+               </state>
+               <floruit>
+                  <ref type="note" corresp="#Vol-2-S-H_M-ftn1647"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Buzi-בוזי</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Buzi-d1e625613" n="Buzi-בוזי">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-B_M-d8e3552-person"
+                    n="Vol-4-B_M-Biblical-Males-Buzi-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">בוזי</persName>
+               <persName type="lemma" xml:lang="en">Buzi</persName>
+               <persName>–</persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-4-S-H_M-d8e21144-person"
+                          type="relation"
+                          n="father-of">Ḥama (3)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>bBer50a(Kosowsky,Babylonico, 316)</note>
+               </state>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-B_M-ftn304"/>; nickname?<ref type="note" corresp="#Vol-4-B_M-ftn305"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Babylonia</note>
+               </state>
+               <floruit notBefore="0300" notAfter="0399">4thC CE<ref type="note" corresp="#Vol-4-B_M-ftn306"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

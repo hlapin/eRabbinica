@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Cassius-Cassius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Cassius-d1e400203" n="Cassius-Cassius">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e2245-person"
+                    n="Vol-2-L_M-Latin-Males-Cassius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Cassius</persName>
+               <persName type="lemma" xml:lang="en">Cassius</persName>
+               <persName>Κασ[σίου]<ref type="note" corresp="#Vol-2-L_M-ftn173"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Epitaph, Caesarea</note>
+               </state>
+               <bibl>Lehmann &amp; Holum,CMER5, no. 257</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-2-L_M-ftn174"/>
+                  </note>
+               </state>
+               <floruit>–<ref type="note" corresp="#Vol-2-L_M-ftn175"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-L_M-d8e2282-person"
+                    n="Vol-2-L_M-Latin-Males-Cassius-2">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Cassius</persName>
+               <persName type="lemma" xml:lang="en">Cassius</persName>
+               <persName>Κασίου<ref type="note" corresp="#Vol-2-L_M-ftn176"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-2-G_F-d8e3908-person" type="relation" n="son-of">Metradotion (1)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Amulet, Evron<ref type="note" corresp="#Vol-2-L_M-ftn177"/>
+                  </note>
+               </state>
+               <bibl>PC22/1 (1994) no. 56</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-2-L_M-ftn178"/>
+                  </note>
+               </state>
+               <floruit>3rd-4thC</floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-3-L_M-d8e11086-person"
+                    n="Vol-3-L_M-Latin-Males-Cassius-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Cassius</persName>
+               <persName type="lemma" xml:lang="en">Cassius</persName>
+               <persName>Κασσ[ίο]υ<ref type="note" corresp="#Vol-3-L_M-ftn651"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-3-L_M-ftn652"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Dedicatory inscription, Thessalonica, Dumont</note>
+               </state>
+               <bibl>Rajak, “Archisynagogoi,” no. 2</bibl>
+               <state type="addl-Descr">
+                  <note>Jew?<ref type="note" corresp="#Vol-3-L_M-ftn653"/>Second name</note>
+               </state>
+               <state type="provenance">
+                  <note>Greece</note>
+               </state>
+               <floruit notBefore="0155" notAfter="0155">155 CE<ref type="note" corresp="#Vol-3-L_M-ftn654"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

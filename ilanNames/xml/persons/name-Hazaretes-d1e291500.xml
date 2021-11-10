@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Hazaretes-Hazaretes</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Hazaretes-d1e291500" n="Hazaretes-Hazaretes">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-P_M-d2e1184-person"
+                    n="Vol-1-P_M-Hazaretes-1">
+               <persName type="lemma">Hazaretes</persName>
+               <persName type="lemma" xml:lang="en">Hazaretes</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">הזרעטוה<ref type="note" corresp="#Vol-1-P_M-ftn79"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_F-d2e4528-person" type="relation" n="son-of">Salome (18)’s son</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Wadi Yasoul, Clermont-Ganneau, 1878</note>
+               </state>
+               <bibl>CIJ, no. 1346</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-P_M-ftn80"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

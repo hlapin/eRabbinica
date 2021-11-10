@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Kundāk-Kundāk</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Kundk-d1e658758" n="Kundāk-Kundāk">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-4-I_M-d8e6073-person"
+                    n="Vol-4-I_M-Iranian-Males-Kundāk-1">
+               <sex cert="high">M</sex>
+               <persName type="lemma">Kundāk</persName>
+               <persName type="lemma" xml:lang="en">Kundāk</persName>
+               <persName>
+                  <ref type="note" corresp="#Vol-4-I_M-ftn517"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-4-I_M-ftn518"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Synagogue inscription, Dura-Europos, Pagliaro</note>
+               </state>
+               <bibl>IJO3, Syr113</bibl>
+               <state type="addl-Descr">
+                  <note>–<ref type="note" corresp="#Vol-4-I_M-ftn519"/>
+                  </note>
+               </state>
+               <state type="provenance">
+                  <note>Dura-Europos</note>
+               </state>
+               <floruit notBefore="0253" notAfter="0253">253 CE<ref type="note" corresp="#Vol-4-I_M-ftn520"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

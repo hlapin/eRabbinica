@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Nothus-Νόθος</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Nothus-d1e244879" n="Nothus-Νόθος">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e13860-person"
+                    n="Vol-1-G_M-Nothus-1">
+               <persName type="lemma">Νόθος</persName>
+               <persName type="lemma" xml:lang="en">Nothus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">נותוס<ref type="note" corresp="#Vol-1-G_M-ftn993"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref type="note" corresp="#Vol-1-G_M-ftn994"/>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Scroll, Qumran</note>
+               </state>
+               <bibl>4Q477</bibl>
+               <state type="addl-Descr">
+                  <note>Second name<ref type="note" corresp="#Vol-1-G_M-ftn995"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-G_M-ftn996"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-G_M-d2e13887-person"
+                    n="Vol-1-G_M-Nothus-2">
+               <persName type="lemma">Νόθος</persName>
+               <persName type="lemma" xml:lang="en">Nothus</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">נוטוס<ref type="note" corresp="#Vol-1-G_M-ftn997"/>
+               </persName>
+               <state type="desc">
+                  <note>
+                     <ref corresp="#Vol-1-B_M-d2e58996-person" type="relation" n="father-of">Simon (241)’s father</ref>
+                  </note>
+               </state>
+               <state type="findspot">
+                  <note>Jar, Masada</note>
+               </state>
+               <bibl>Mas no. 462</bibl>
+               <state type="addl-Descr">
+                  <note>—</note>
+               </state>
+               <floruit notBefore="0073" notAfter="0073">Pre-73 CE<ref type="note" corresp="#Vol-1-G_M-ftn998"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
