@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns:xi="http://www.w3.org/2001/XInclude"
+           xmlns="http://www.tei-c.org/ns/1.0"
+           xml:id="Qafah-eSc">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An automatic transcription of Qafah, Maimonides Mishnah, Bilingual using
+                        escriptorium</title>
+            <editor>
+               <persName corresp="ref.xml#HL">Hayim Lapin</persName>
+            </editor>
+            <respStmt>
+               <name/>
+               <resp/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>eRabbinica/Digital Mishnah Project</publisher>
+            <pubPlace>What Place are We Saying?</pubPlace>
+            <address>
+               <addrLine>Blah Blah</addrLine>
+            </address>
+            <idno type="local">Qafah</idno>
+            <availability status="restricted">
+               <p>This work is copyright Hayim lapin and Daniel Stoekl ben Ezra and
+                            licensed under a <ref target="http://creativecommons.org/licensesby/4.0//">Creative
+                                Commons Attribution International 4.0 License</ref>.</p>
+            </availability>
+            <pubPlace>PLACE</pubPlace>
+            <date>2022-06-09T10:31:57.939-04:00</date>
+         </publicationStmt>
+         <notesStmt>
+            <note>Automated transcription using <ref target="https://gitlab.com/scripta/escriptorium">escriptorium</ref>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Jeruslem</settlement>
+                  <repository>Mossad Rav Kook, xxx</repository>
+                  <idno type="repos" source="xxx">xxx</idno>
+                  <altIdentifier>
+                     <collection>Bibliography of the Hebrew Book</collection>
+                     <idno type="bhb" source="xxx">xxx</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+</teiCorpus>

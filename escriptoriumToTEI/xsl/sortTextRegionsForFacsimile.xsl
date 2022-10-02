@@ -30,16 +30,18 @@
     <xsl:template match="/">
         <xsl:variable name="Regions"
             select="
-            /PcGts/Page/TextRegion[TextLine/TextEquiv/Unicode]
+            /PcGts/Page[TextRegion]/TextRegion[TextLine/TextEquiv/Unicode]
             intersect
             (for $r in $regionTypesForColumns
             return
-            /PcGts/Page/TextRegion[contains(@custom, $r)])
+            /PcGts/Page[TextRegion]/TextRegion[contains(@custom, $r)])
             "/>
-        <xsl:call-template name="sortAndSplit">
+        
+        <xsl:if test="not(empty($Regions))">
+            <xsl:call-template name="sortAndSplit">
             <xsl:with-param name="Regions" select="$Regions"></xsl:with-param>
             <xsl:with-param name="num_columns" select="'2'"></xsl:with-param>
-        </xsl:call-template>
+        </xsl:call-template></xsl:if>
     </xsl:template>
     
     <xsl:template name="sortAndSplit" xmlns:PcGts="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15">
@@ -50,6 +52,7 @@
         <!--<xsl:copy-of select="$allRegionsBox"></xsl:copy-of>-->
         <!--<xsl:message select="$allRegionsBox"/>-->
         <!--    get regions as a sequence of elements with ids and coordinates -->
+        <xsl:message select="count($Regions)"></xsl:message>
         <xsl:variable name="regionsList" as="element()+">
             <xsl:call-template name="listRegions">
                 <xsl:with-param name="regions" select="$Regions"/>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Mekh.M117">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription of Mekhilta de-Rabbi Ishmael from Munich M117</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Produced as a project of Sopher Mahir</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bayerische Staatsbibliothek, München, shelfmark Cod. Hebr. 117 ff. 1r-102v<ref 
+               target="https://nbn-resolving.org/urn:nbn:de:bvb:12-bsb00084914-3 
+               https://data.biblissima.fr/entity/Q264089 
+               https://www.nli.org.il/en/discover/manuscripts/hebrew-manuscripts/itempage?docId=PNX_MANUSCRIPTS990001277720205171&amp;vid=MANUSCRIPTS&amp;scope=PNX_MANUSCRIPTS&amp;SearchTxt=%D7%9E%D7%9B%D7%99%D7%9C%D7%AA%D7%90"></ref></p>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <textClass>
+           <catRef target="#MekhY"/>
+        </textClass>
+     </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+  </text>
+</TEI>

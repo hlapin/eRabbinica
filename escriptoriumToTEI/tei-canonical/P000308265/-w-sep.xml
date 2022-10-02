@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An automatic transcription of Talmud Yerushalmi, Venice first printed edition (1523), produced with Escriptorium and kraken</title>
+            <editor>
+               <persName corresp="ref.xml#HL">Hayim Lapin</persName>
+            </editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="http://erabbinica.org">eRabbinica Digital Mishnah Project</publisher>
+            <publisher ref="'give-me-a-url">Sofer Mahir</publisher>
+            <pubPlace>Meyerhoff Center for Jewish Studies</pubPlace>
+            <address>
+               <addrLine>4141 Susqehanna Hall</addrLine>
+               <addrLine>University of Maryland</addrLine>
+               <addrLine>College Park, MD</addrLine>
+            </address>
+            <idno type="local">yT.000308265</idno>
+            <availability status="restricted">
+               <p>This work is copyright Hayim Lapin and the Joseph and Rebecca Meyerhoff Center for
+                  Jewish Studies and licensed under a <ref type="license"
+                       target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution-NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <pubPlace>College Park, MD USA</pubPlace>
+            <availability status="restricted">
+               <p>This work is copyright Hayim lapin and Daniel Stoekl ben Ezra and licensed under a
+                     <ref target="http://creativecommons.org/licensesby/4.0//">Creative Commons
+                     Attribution International 4.0 License</ref>.</p>
+            </availability>
+            <date>2021-09-1</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Munich</settlement>
+                  <repository>BSB</repository>
+                  <idno type="bsb" corresp="https://opacplus.bsb-muenchen.de/title/BV005878901">BV005878901</idno>
+                  <altIdentifier>
+                     <collection>Bibliography of the Hebrew Book</collection>
+                     <idno type="bhb"
+                           corresp="http://uli.nli.org.il:80/F/?func=direct&amp;doc_number=000308265&amp;local_base=MBI01">000308265</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <collection>Google Books</collection>
+                     <idno type="google"
+                           corresp="https://www.google.com/books/edition/%D7%AA%D7%9C%D7%9E%D7%95%D7%93_%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%9E%D7%99/T2RJAAAAcAAJ">T2RJAAAAcAAJ</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <ab>Available through Google Books. Occasional missing pages were supplied from other
+                  online sources</ab>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Electronic text produced using <ref target="https://escripta.hypotheses.org/">eScriptorium</ref> and <ref target="https://github.com/mittagessen/kraken">kraken</ref>
+            </p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="pxml"
+                       matchPattern="(.+)"
+                       replacementPattern="http://www.placeholder.uri#$1">
+               <p>Placeholder for path to source pagexml from which TEI derives. </p>
+            </prefixDef>
+            <prefixDef ident="tei-facs"
+                       matchPattern="(.+)"
+                       replacementPattern="http://www.placeholder.uri#$1">
+               <p>Placeholder for path to tei-facsimile xml which serves as an intermediate
+                  transformation step. </p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body/>
+   </text>
+</TEI>

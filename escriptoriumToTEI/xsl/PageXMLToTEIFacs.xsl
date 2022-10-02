@@ -14,49 +14,48 @@
     
     <xsl:include href="sortTextRegionsForFacsimile.xsl"/>
 
-     <xsl:param name="regionSelect" select="'Main Paratext Commentary'"/> 
+    <xsl:param name="regionSelect" select="'Main Commentary Margin Title'"/> 
      <xsl:variable name="regionTypesForColumns" select="tokenize($regionSelect, '\s+')"/>
-    <xsl:param name="how_many_cols" select="'2'"></xsl:param>
+    <xsl:param name="how_many_cols" select="'1'"></xsl:param>
     <xsl:param name="dataRoot"
         select="'file:///C:/Users/hlapin/Documents/GitHub/eRabbinica/escriptoriumToTEI/'"/>
-    <xsl:param name="pageXMLIn" select="concat($dataRoot, 'pagexml/export_bnf_328_329_maimonides/Main_Paratext')"/>
+    <xsl:param name="pageXMLIn" select="concat($dataRoot, 'pagexml/qafah_1_zer/')"/>
     <xsl:param name="outpath" select="concat($dataRoot, 'tei-facs/')"/>
-    
     
     <!-- ideally this should flow from the metadata in escriptorium -->
     <!--<xsl:param name="reposInfo" as="xs:string+"
         select="(
         (: project name :)
-        'Naples Editio Princeps of the Mishnah, 1492',
+        'Qafah Maimonides Commentary to the Mishnah',
         (:our internal ID number:)
-        'P1143297',
+        'Qafah',
         (: Institution :)
-        'NLI',
+        'NA',
         (: Place :)
         'Jerusalem',
         (: shelfmark at institution :)
-        '1143297',
+        'Qafah',
         (: link to NLI catalog :)
-        'https://www.nli.org.il/en/books/NNL_ALEPH001143297/NLI?volumeItem=3', 
+        'https://placeholder.uri', 
         (: if print bibliography of Hebrew Book; if in Ktiv, Ktiv link :)
-        'http://uli.nli.org.il:80/F/?func=direct&amp;doc_number=000150614&amp;local_base=MBI01'
+        'http://placeholder.uri'
         )"/> -->
     <xsl:param name="reposInfo" as="xs:string+"
         select="(
                 (: project name :)
-                'Paris ms of the Mishnah with Maimonides in Hebrew',
+                'Qafah, Maimonides Mishnah, Bilingual',
                 (:our internal ID number:)
-                'S08174',
+                'Qafah_01',
                 (: Institution :)
-                'BNF',
+                'Mossad Rav Kook',
                 (: Place :)
-                'Paris',
+                'Jeruslem',
                 (: shelfmark at institution :)
-                '328-329',
-                (: link to NLI catalog :)
-                'https://gallica.bnf.fr/ark:/12148/btv1b10541994j', 
+                'xxx',
+                (: link to repository catalog (NLI if ms and present:)
+                'xxx', 
                 (: if print bibliography of Hebrew Book; if in Ktiv, Ktiv link :)
-                'https://web.nli.org.il/sites/NLIS/en/ManuScript/Pages/Item.aspx?ItemID=PNX_MANUSCRIPTS990001292390205171'
+                'xxx'
                 )"/> 
 
     <xsl:variable name="data"
@@ -74,7 +73,7 @@
                     select="
                         for $page in $data
                         return
-                            $page/PcGts/Page[//*:TextRegion/Coords and //Unicode[normalize-space(.)]]"
+                            $page/PcGts/Page[//*:TextRegion[Coords|/TextLine//Unicode[normalize-space(.)]]]"
                 />
             </teiCorpus>
         </xsl:result-document>
@@ -345,7 +344,8 @@
                                 <xsl:value-of
                                     select="string-join(($reposInfo[3], $reposInfo[5]), ', ')"/>
                             </repository>
-                            <idno type="nli" corresp="{$reposInfo[6]}">
+                            <idno type="repos" source="{$reposInfo[6]}">
+                                <!-- possible values for type: "nli", "repos", "google" -->
                                 <xsl:value-of
                                     select="replace($reposInfo[6],'.*doc_number=0+(\d+)&amp;*','$1')"
                                 />
@@ -354,7 +354,7 @@
                                 <xsl:choose>
                                     <xsl:when test="contains($reposInfo[7], 'PNX_MANUSCRIPTS')">
                                         <collection>KTIV: Digitized Hebrew Manuscripts</collection>
-                                        <idno type="ktiv" corresp="{$reposInfo[7]}">
+                                        <idno type="ktiv" source="{$reposInfo[7]}">
                                             <xsl:value-of
                                                 select="substring-after($reposInfo[7], 'PNX_MANUSCRIPTS')"
                                             />
@@ -363,7 +363,7 @@
                                     </xsl:when>
                                     <xsl:when test="$reposInfo[7]">
                                         <collection>Bibliography of the Hebrew Book</collection>
-                                        <idno type="bhb" corresp="{$reposInfo[7]}">
+                                        <idno type="bhb" source="{$reposInfo[7]}">
                                             <xsl:value-of
                                                 select="replace($reposInfo[7],'.*doc_number=0+(\d+)&amp;*','$1')"
                                             />

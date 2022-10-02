@@ -13,20 +13,30 @@
     <!-- Creates a simpler XML in which elements are named by the column head and their value the cell value in the spreadsheet -->
     <!-- For now, ignores any formatting in the cells -->
     <!-- 8/28/21 Modified with assumption that called from start-excel with parameters xl-location passed in and utilized in templates below-->
-    <xsl:param name="xl-root"/>
+    <!--<xsl:param name="xl-path" 
+        select="'zip:file:/C:/Users/hlapin/Documents/GitHub/eRabbinica/escriptoriumToTEI/xlsx/qafahAutogrSplit/0501-Zeb.xlsm!/xl/worksheets/sheet1.xml'"
+    />-->
+    
+    <!-- start from template in pipeline -->
+    <xsl:template name="start_excel">
+        <xsl:param name="xl-path" tunnel="no"></xsl:param>
+        <xsl:message select="($xl-path, doc-available($xl-path))"></xsl:message>
+        <xsl:variable name="xl-data" select="saxon:discard-document(doc($xl-path))"/>
+        <xsl:variable name="uri" select="substring-before($xl-path,'worksheets')"></xsl:variable>
+        
+        <xsl:apply-templates select="$xl-data">
+            <xsl:with-param name="document-uri" select="$uri" tunnel="yes"></xsl:with-param>
+        </xsl:apply-templates>
+    </xsl:template>
+    
+    
     <xsl:template match="* | @* | text()">
         <xsl:copy>
             <xsl:apply-templates select="* | @* | text()"/>
         </xsl:copy>
     </xsl:template>
-    <xsl:template name="start_excel">
-        <xsl:param name="xl-path" tunnel="yes"></xsl:param>
-        <xsl:variable name="xl-data" select="saxon:discard-document(doc($xl-path))"/>
-        <xsl:variable name="uri" select="substring-before($xl-path,'worksheets')"></xsl:variable>
-        <xsl:apply-templates select="$xl-data">
-            <xsl:with-param name="document-uri" select="$uri" tunnel="yes"></xsl:with-param>
-        </xsl:apply-templates>
-    </xsl:template>
+    
+    
     
     <xsl:template match="sheetData">
        <rows>
@@ -42,7 +52,7 @@
     <xsl:template match="c">
         <xsl:param name="document-uri" tunnel="yes"></xsl:param>
         <xsl:variable name="count" select="count(preceding-sibling::c) + 1"/>
-        <xsl:variable name="colID" select="if (normalize-space(@r)) then normalize-space(translate(@r,'0123456789','')) 
+        <xsl:variable name="colID" select="if (normalize-space(@r)) then translate(normalize-space(@r),'0123456789','') 
             else ancestor::sheetData/row[1]/c[$count]"/>
         <xsl:variable name="colNames">
             <xsl:call-template name="colNames"/>

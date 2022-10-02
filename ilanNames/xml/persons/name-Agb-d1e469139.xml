@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Agb-Αγβ</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Αγβ-Agb-d1e469139" n="Αγβ-Agb">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-2-Vol-1-ADD-S-G_M-d8e8-person"
+                    n="Vol-2-Vol-1-ADD-S-G_M-Semitic-Greek-Males--1">
+               <sex cert="high">M</sex>
+               <persName type="lemma"/>
+               <persName type="lemma" xml:lang="en">Agb</persName>
+               <persName>Αγβ</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Talpiyot, Jerusalem</note>
+               </state>
+               <bibl>Kloner,New Studies on Jerusalem18 (2013) 158-9</bibl>
+               <state type="addl-Descr">
+                  <note>–</note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE</floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

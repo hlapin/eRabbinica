@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema" 
    xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
    xmlns:local="http://www.local-functions.uri" xmlns:j="http://www.w3.org/2013/XSL/json"
    xpath-default-namespace="http://www.w3.org/2005/xpath-functions" version="3.0"
-   exclude-result-prefixes="tei xs xlink j local">
+   exclude-result-prefixes="tei xs j local">
 
    <xsl:output indent="yes"/>
    <xsl:param name="pathToFile" select="'../data/json/'"/>

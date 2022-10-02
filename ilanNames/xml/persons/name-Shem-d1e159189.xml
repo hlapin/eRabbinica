@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Shem-שלמיהשם</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Shem-d1e159189"
+                     n="Shem-שלמיהשם">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e51852-person"
+                    n="Vol-1-B_M-Shem-1">
+               <persName type="lemma">שלמיהשם</persName>
+               <persName type="lemma" xml:lang="en">Shem</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="gr">Σήμης<ref type="note" corresp="#Vol-1-B_M-ftn3973"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>Acta Pilati A: 1 (Tischendorf,EA214)</bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-1-B_M-ftn3974"/>
+                  </note>
+               </state>
+               <floruit notBefore="0030" notAfter="0030">30 CE<ref type="note" corresp="#Vol-1-B_M-ftn3975"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

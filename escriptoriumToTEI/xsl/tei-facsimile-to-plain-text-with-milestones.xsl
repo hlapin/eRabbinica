@@ -12,9 +12,12 @@
     <xsl:output encoding="UTF-8" method="text"></xsl:output>
     
     <xsl:param name="regiontype-to-extract" select="'Main'"/>
-    <xsl:param name="out-path" select="'file:///C:/Users/hlapin/Documents/GitHub/eRabbinica/escriptoriumToTEI/tei-facs/S08174/txt_for_alignment/'"/>
+    <xsl:param name="out-path" select="'file:///C:/Users/hlapin/Documents/GitHub/eRabbinica/escriptoriumToTEI/tei-facs/qafah_01/'"/>
+    <xsl:param name="commentPattern" select="'^\s*\d{2}\.\d{2}\s*$'"></xsl:param>
     
-    <xsl:param name="milestones" select="1"></xsl:param>
+    <xsl:param name="milestones" select="1">
+        <!-- not implemented -->
+    </xsl:param>
     <xsl:variable name="id" select="teiCorpus/@xml:id"/>
     <xsl:variable name="data" as="element()+">
         <xsl:choose>
@@ -31,7 +34,7 @@
         <xsl:message select="$id/string()"></xsl:message>
         <xsl:variable name="extracted" as="node()+"><xsl:apply-templates select="$data"/></xsl:variable>
         <!--<out><xsl:copy-of select="$extracted"></xsl:copy-of></out>-->
-        <xsl:for-each-group select="$extracted" group-starting-with="comment()" >
+        <xsl:for-each-group select="$extracted" group-starting-with="comment()[matches(.,$commentPattern)]" >
             <!--<xsl:message select="current-group()[1][self::comment()]"></xsl:message>-->
             <xsl:if test="current-group()[1][self::comment()]">
                 <xsl:message select="current-group()[1]/string()"></xsl:message>
@@ -73,7 +76,6 @@
     <xsl:template match="text()">
         <xsl:text> </xsl:text><xsl:value-of select="normalize-space(.)"/>
     </xsl:template>
-    
 </xsl:stylesheet>
 
 

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexicon of Jewish Names - Ahiah Elhanan-אלחנן</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson corresp="../nyms.xml#name-Elhanan-d1e24418"
+                     n="Ahiah Elhanan-אלחנן">
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e1015-person"
+                    n="Vol-1-B_M-Elhanan-1">
+               <persName type="lemma">אלחנן</persName>
+               <persName type="lemma" xml:lang="en">Ahiah Elhanan</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="checkme">—</persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>—</note>
+               </state>
+               <bibl>S of S Zuta8:14<ref type="note" corresp="#Vol-1-B_M-ftn77"/>
+               </bibl>
+               <state type="addl-Descr">
+                  <note>Fictitious<ref type="note" corresp="#Vol-1-B_M-ftn78"/>
+                  </note>
+               </state>
+               <floruit notBefore="0066" notAfter="0070">66-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn79"/>
+               </floruit>
+            </person>
+            <person xmlns:local="http://local-functions.uri"
+                    xmlns:xi="http://www.w3.org/2001/XInclude"
+                    xml:id="Vol-1-B_M-d2e1056-person"
+                    n="Vol-1-B_M-Elhanan-2">
+               <persName type="lemma">אלחנן</persName>
+               <persName type="lemma" xml:lang="en">Ahiah Elhanan</persName>
+               <sex cert="high">M</sex>
+               <persName xml:lang="he">[א]לחנן<ref type="note" corresp="#Vol-1-B_M-ftn80"/>
+               </persName>
+               <state type="desc">
+                  <note/>
+               </state>
+               <state type="findspot">
+                  <note>Ossuary, Shu‘afat, Abel, 1913</note>
+               </state>
+               <bibl>CIJ, no. 1215</bibl>
+               <state type="addl-Descr">
+                  <note>Palmyra<ref type="note" corresp="#Vol-1-B_M-ftn81"/>
+                  </note>
+               </state>
+               <floruit notBefore="0070" notAfter="0070">Pre-70 CE<ref type="note" corresp="#Vol-1-B_M-ftn82"/>
+               </floruit>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

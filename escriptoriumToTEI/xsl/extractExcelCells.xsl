@@ -11,7 +11,7 @@
     <!-- Operates on a zipped excel worksheet. -->
     <!-- Creates a simpler XML in which elements are named by the column head and their value the cell value in the spreadsheet -->
     <!-- For now, ignores any formatting in the cells -->
-    <xsl:param name="xl-data" select="doc('zip:file:/C:/Users/hlapin/Documents/GitHub/mishnah/xsl-external/Maim_Qafah-05.01.xlsx!/xl/worksheets/sheet1.xml')"></xsl:param>
+    <!--<xsl:param name="xl-data"></xsl:param>-->
     <xsl:template match="* | @* | text()">
         <xsl:copy>
             <xsl:apply-templates select="* | @* | text()"/>

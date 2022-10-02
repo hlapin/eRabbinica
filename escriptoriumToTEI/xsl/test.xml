@@ -1,0 +1,1867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <fLib n="parts_of_speech" xml:id="POS">
+         <f name="POS" xml:id="POS.v">
+            <symbol value="VERB"/>
+         </f>
+         <f name="POS" xml:id="POS.n">
+            <symbol value="NOUN"/>
+         </f>
+         <f name="POS" xml:id="POS.pNoun">
+            <symbol value="PROPERNAME"/>
+         </f>
+         <f name="POS" xml:id="POS.pron">
+            <symbol value="PRONOUN"/>
+         </f>
+         <f name="POS" xml:id="POS.ptcpl">
+            <symbol value="PARTICIPLE"/>
+         </f>
+         <f name="POS" xml:id="POS.adj">
+            <symbol value="ADJECTIVE"/>
+         </f>
+         <f name="POS" xml:id="POS.adv">
+            <symbol value="ADVERB"/>
+         </f>
+         <f name="POS" xml:id="POS.prep">
+            <symbol value="PREPOSITION"/>
+         </f>
+         <f name="POS" xml:id="POS.numer.num">
+            <symbol value="NUMERAL"/>
+         </f>
+         <f name="POS" xml:id="POS.numer.card">
+            <symbol value="CARDINAL"/>
+         </f>
+         <f name="POS" xml:id="POS.numer.ord">
+            <symbol value="ORDINAL"/>
+         </f>
+         <f name="POS" xml:id="POS.numer.other">
+            <symbol value="OTHER_NUMERICAL"/>
+         </f>
+         <f name="POS" xml:id="POS.conj">
+            <symbol value="CONJUNCTION"/>
+         </f>
+         <f name="POS" xml:id="POS.interj">
+            <symbol value="INTERJECTION"/>
+         </f>
+         <f name="POS" xml:id="POS.interr">
+            <symbol value="INTERROGATIVE"/>
+         </f>
+         <f name="POS" fVal="#vb.type.copul">
+            <symbol value="COPULA"/>
+         </f>
+         <f name="POS" fVal="#vb.type.exist">
+            <symbol value="EXISTENTIAL"/>
+         </f>
+         <f name="POS" fVal="#vb.type.modal"/>
+         <f name="POS" xml:id="POS.neg">
+            <symbol value="NEGATION"/>
+         </f>
+         <f name="POS" xml:id="POS.quant">
+            <symbol value="QUANTIFIER"/>
+         </f>
+         <f name="POS" xml:id="POS.AT">
+            <symbol value="AT_PREP"/>
+         </f>
+         <f name="POS" xml:id="POS.shel">
+            <symbol value="SHEL_PREP"/>
+         </f>
+         <f name="POS" xml:id="POS.titul">
+            <symbol value="TITULAR"/>
+         </f>
+         <f name="POS" xml:id="POS.pref" ana="#prefType">
+            <symbol value="PREFIX"/>
+         </f>
+         <f name="POS" xml:id="POS.for">
+            <symbol value="FOREIGN"/>
+         </f>
+         <f name="POS" xml:id="POS.other">
+            <symbol value="other" ana="#otherStuff"/>
+         </f>
+      </fLib>
+      <fLib n="morphological_features" xml:id="morph">
+         <f name="morphFeat" xml:id="pref">
+            <symbol value="prefix"/>
+         </f>
+         <f name="morphFeat" xml:id="suff">
+            <symbol value="suffix"/>
+         </f>
+         <f xmlns:dcr="http://www.isocat.org/ns/dcr"
+            name="morphFeat"
+            xml:id="rt"
+            dcr:valueDatcat="http://www.isocat.org/ns/dcr/DC-2231">
+            <symbol value="root"/>
+         </f>
+         <f xmlns:dcr="http://www.isocat.org/ns/dcr"
+            name="morphFeat"
+            xml:id="stem"
+            dcr:valueDatcat="http://www.isocat.org/ns/dcr/DC-1389">
+            <symbol value="stem"/>
+         </f>
+         <f xmlns:local="http://localhost.uri"
+            name="morphFeat"
+            xml:id="base"
+            fVal="http://localhost.uri#base">
+            <symbol value="base"/>
+         </f>
+      </fLib>
+      <fLib n="stems" corresp="#stem">
+         <f name="stem" xml:id="stm.paal">
+            <symbol value="paal"/>
+         </f>
+         <f name="stem" xml:id="stm.nif">
+            <symbol value="nifal"/>
+         </f>
+         <f name="stem" xml:id="stm.piel">
+            <symbol value="piel"/>
+         </f>
+         <f name="stem" xml:id="stm.pual">
+            <symbol value="pual"/>
+         </f>
+         <f name="stem" xml:id="stm.hifil">
+            <symbol value="hifil"/>
+         </f>
+         <f name="stem" xml:id="stm.hofal">
+            <symbol value="hofal"/>
+         </f>
+         <f name="stem" xml:id="stm.hufal">
+            <symbol value="hufal"/>
+         </f>
+         <f name="stem" xml:id="stm.hitp">
+            <symbol value="hitpael"/>
+         </f>
+         <f name="stem" xml:id="stm.nitp">
+            <symbol value="nitpael"/>
+         </f>
+      </fLib>
+      <fLib n="person" xml:id="pers">
+         <f name="person" xml:id="pers.1">
+            <symbol value="first"/>
+         </f>
+         <f name="person" xml:id="pers.2">
+            <symbol value="second"/>
+         </f>
+         <f name="person" xml:id="pers.3">
+            <symbol value="third"/>
+         </f>
+         <f name="person" xml:id="pers.any">
+            <symbol value="any"/>
+         </f>
+      </fLib>
+      <fLib n="number" xml:id="num">
+         <f name="number" xml:id="num.sg">
+            <symbol value="singular"/>
+         </f>
+         <f name="number" xml:id="num.d">
+            <symbol value="dual"/>
+         </f>
+         <f name="number" xml:id="num.pl">
+            <symbol value="plural"/>
+         </f>
+         <f name="number" xml:id="num.sgpl">
+            <symbol value="singular_or_plural"/>
+         </f>
+         <f name="number" xml:id="num.dpl">
+            <symbol value="dual_or_plural"/>
+         </f>
+      </fLib>
+      <fLib n="gender" xml:id="gend">
+         <f name="gender" xml:id="gend.m">
+            <symbol value="masculine"/>
+         </f>
+         <f name="gender" xml:id="gend.f">
+            <symbol value="feminine"/>
+         </f>
+         <f name="gender" xml:id="gend.mf">
+            <symbol value="masculine_or_feminine"/>
+         </f>
+      </fLib>
+      <fLib n="tense_mood" xml:id="vb.tm">
+         <f name="tenseMood" xml:id="vb.tm.any">
+            <symbol value="perfect"/>
+         </f>
+         <f name="tenseMood" xml:id="vb.tm.perf">
+            <symbol value="perfect"/>
+         </f>
+         <f name="tenseMood" xml:id="vb.tm.impf">
+            <symbol value="imperfect"/>
+         </f>
+         <f name="tenseMood" xml:id="vb.tm.ptcpl">
+            <symbol value="participial_present"/>
+         </f>
+         <f name="tenseMood" xml:id="vb.tm.imptv">
+            <symbol value="imperative"/>
+         </f>
+         <f name="tenseMood" xml:id="vb.tm.constr_infin">
+            <symbol value="constr_infin"/>
+         </f>
+         <f name="tenseMood" xml:id="vb.tm.abs_infin">
+            <symbol value="abs_infin"/>
+         </f>
+      </fLib>
+      <fLib n="type" xml:id="vb.type">
+         <f name="vType" xml:id="vb.type.exist">
+            <symbol value="existential"/>
+         </f>
+         <f name="vType" xml:id="vb.type.copul">
+            <symbol value="copula"/>
+         </f>
+         <f name="vType" xml:id="vb.type.modal">
+            <symbol value="modal"/>
+         </f>
+         <f name="polarity" xml:id="posit">
+            <symbol value="positive"/>
+         </f>
+         <f name="polarity" xml:id="neg">
+            <symbol value="negative"/>
+         </f>
+      </fLib>
+      <fLib n="state" xml:id="stt" corresp="#POS.n #POS.adj #POS.ptcpl">
+         <f name="state" xml:id="stt.abs">
+            <symbol value="abs"/>
+         </f>
+         <f name="state" xml:id="stt.constr">
+            <symbol value="cstr"/>
+         </f>
+         <f name="state" xml:id="stt.abs_or_cstr">
+            <symbol value="abscstr"/>
+         </f>
+      </fLib>
+      <fLib n="definiteness" xml:id="def" ana="#POS.n #POS.adj #POS.ptcpl">
+         <f name="definiteness" xml:id="def.y">
+            <symbol value="definite"/>
+         </f>
+         <f name="definiteness" xml:id="def.n">
+            <symbol value="indefinite"/>
+         </f>
+      </fLib>
+      <fLib n="pronoun_type" xml:id="pron.type">
+         <f name="pronType" xml:id="pron.type.poss">
+            <symbol value="possessive"/>
+         </f>
+         <f name="pronType" xml:id="pron.type.pronom">
+            <symbol value="pronomial"/>
+         </f>
+         <f name="pronType" xml:id="pron.type.accnom">
+            <symbol value="accusative_or_nominative"/>
+         </f>
+      </fLib>
+      <fLib n="participle_functions" xml:id="funct">
+         <f name="participleFunction" xml:id="verbal">
+            <symbol value="verbal"/>
+         </f>
+         <f name="participleFunction" xml:id="subst">
+            <symbol value="substantive"/>
+         </f>
+      </fLib>
+      <body>
+         <div>
+            <entryFree xml:id="ezb_ezb_main_VERB_m_sg_3_PAST_paal" n="ezb_2251808825999360">
+               <w lemma="ezb">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">עזב</span>
+                  </seg>
+                  <span type="lemma">עזב</span>
+                  <span type="vocalized-surface">עָזַב</span>
+                  <span type="unvocalized-surface">עזב</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">עָזַב</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="wynclw_ncl_pre_waw_main_VERB_m_pl_3_FUTURE_nifal"
+                       n="wynclw_4503634426265602">
+               <w lemma="ncl">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">וינצלו</span>
+                  </seg>
+                  <span type="lemma">נצל</span>
+                  <span type="vocalized-surface">וְיִנָּצְלוּ</span>
+                  <span type="unvocalized-surface">וינצלו</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וְ</m>
+                        <m function="main" ana="#POS.v">יִנָּצְלוּ</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="Hysrwn_Hsrwn_main_NOUN_m_sg_abs" n="Hysrwn_1093009408">
+               <w lemma="HsrwN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">חיסרון</span>
+                  </seg>
+                  <span type="lemma">חִסָּרוֹן</span>
+                  <span type="vocalized-surface">חִיֽסָּרוֹן</span>
+                  <span type="unvocalized-surface">חיסרון</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">חִיֽסָּרוֹן</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="hSbwyym_Sbwy_pre_article_main_ADJECTIVE_m_pl_abs"
+                       n="hSbwyym_1109458948">
+               <w lemma="Sbwy">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">השבויים</span>
+                  </seg>
+                  <span type="lemma">שָׁבוּי</span>
+                  <span type="vocalized-surface">הַשְּׁבוּיִים</span>
+                  <span type="unvocalized-surface">השבויים</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.adj">שְּׁבוּיִים</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="raSwnh_raSwn_main_ADJECTIVE_f_sg_abs" n="raSwnh_1094778880">
+               <w lemma="raSwN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ראשונה</span>
+                  </seg>
+                  <span type="lemma">רִאשׁוֹן</span>
+                  <span type="vocalized-surface">רִאשֹׁוֽנָה</span>
+                  <span type="unvocalized-surface">ראשונה</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.adj">רִאשֹׁוֽנָה</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="mh_mh_main_INTERROGATIVE" n="mh_983040">
+               <w lemma="mh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">מה</span>
+                  </seg>
+                  <span type="lemma">מָה</span>
+                  <span type="vocalized-surface">מָה</span>
+                  <span type="unvocalized-surface">מה</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.interr">מָה</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="kbdym_kbd_main_ADJECTIVE_m_pl_abs" n="kbdym_1109458944">
+               <w lemma="kbd">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">כבדים</span>
+                  </seg>
+                  <span type="lemma">כָּבֵד</span>
+                  <span type="vocalized-surface">כְּבֵדִים</span>
+                  <span type="unvocalized-surface">כבדים</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.adj">כְּבֵדִים</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="kgwn_kgwn_main_PREPOSITION" n="kgwn_524288">
+               <w lemma="kgwN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">כגון</span>
+                  </seg>
+                  <span type="lemma">כְּגוֹן</span>
+                  <span type="vocalized-surface">כְּגוֹן</span>
+                  <span type="unvocalized-surface">כגון</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.prep">כְּגוֹן</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="npTrh_pTr_main_VERB_f_sg_3_PAST_nifal"
+                       n="npTrh_4503608641781760">
+               <w lemma="pTr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">נפטרה</span>
+                  </seg>
+                  <span type="lemma">פטר</span>
+                  <span type="vocalized-surface">נִפְטְרָה</span>
+                  <span type="unvocalized-surface">נפטרה</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">נִפְטְרָה</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="blr_lr_pre_preposition_main_PROPERNAME" n="blr_655424">
+               <w lemma="lr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">בלר</span>
+                  </seg>
+                  <span type="lemma">לֵר</span>
+                  <span type="vocalized-surface">בְּלֵר</span>
+                  <span type="unvocalized-surface">בלר</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">בְּ</m>
+                        <m function="main" ana="#POS.pNoun">לֵר</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="hgdgd_Hrhgdgd_main_PROPERNAME" n="hgdgd_655360">
+               <w lemma="Hrhgdgd">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">הגדגד</span>
+                  </seg>
+                  <span type="lemma">חֹר־הַגִּדְגָּד</span>
+                  <span type="vocalized-surface">הַגִּדְגָּד</span>
+                  <span type="unvocalized-surface">הגדגד</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.pNoun">הַגִּדְגָּד</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="aSkn_Skn_pre_preposition_main_VERB_m_sg_3_PRESENT_paal"
+                       n="aSkn_2254025029124160">
+               <w lemma="SkN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">אשכן</span>
+                  </seg>
+                  <span type="lemma">שׁכן</span>
+                  <span type="vocalized-surface">אַשָּׁכֵן</span>
+                  <span type="unvocalized-surface">אשכן</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">אַ</m>
+                        <m function="main" ana="#POS.v">שָּׁכֵן</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="hmhlkyn_mhlk_pre_article_main_PARTICIPLE_m_pl_ANY_abs_piel"
+                       n="hmhlkyn_11259000716394500">
+               <w lemma="mhlK">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">המהלכין</span>
+                  </seg>
+                  <span type="lemma">מְהַלֵּךְ</span>
+                  <span type="vocalized-surface">הַמְהַלְּכִין</span>
+                  <span type="unvocalized-surface">המהלכין</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.ptcpl">מְהַלְּכִין</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="emnw_em_main_PREPOSITION_suff_accnom_mf_pl_1"
+                       n="emnw_45767172030464">
+               <w lemma="eM">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">עמנו</span>
+                  </seg>
+                  <span type="lemma">עִם</span>
+                  <span type="vocalized-surface">עִמָּנוּ</span>
+                  <span type="unvocalized-surface">עמנו</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.prep #gend.mf #num.pl #pers.1">עִמָּנוּ</m>
+                        <m function="suff" ana="#pron.type.accnom #gend.mf #num.pl #pers.1"/>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="Sntgyyr_gyr_pre_relative_main_VERB_m_sg_3_PAST_hitpael"
+                       n="Sntgyyr_15762607708111104">
+               <w lemma="gyr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">שנתגייר</span>
+                  </seg>
+                  <span type="lemma">גיר</span>
+                  <span type="vocalized-surface">שֶׁנִּתְגַּיֵּיֽר</span>
+                  <span type="unvocalized-surface">שנתגייר</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#pref.rel">שֶׁ</m>
+                        <m function="main" ana="#POS.v">נִּתְגַּיֵּיֽר</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="wmteteyn_tete_pre_waw_main_VERB_m_pl_ANY_PRESENT_piel"
+                       n="wmteteyn_11259025411604482">
+               <w lemma="tete">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ומתעתעין</span>
+                  </seg>
+                  <span type="lemma">תעתע</span>
+                  <span type="vocalized-surface">וּמְתַעְתְּעִין</span>
+                  <span type="unvocalized-surface">ומתעתעין</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וּ</m>
+                        <m function="main" ana="#POS.v">מְתַעְתְּעִין</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="maHwryw_maHwry_main_PREPOSITION_suff_accnom_m_sg_3"
+                       n="maHwryw_110638358069248">
+               <w lemma="maHwry">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">מאחוריו</span>
+                  </seg>
+                  <span type="lemma">מֵאֲחוֹרֵי</span>
+                  <span type="vocalized-surface">מֵאֲחוֹרָיו</span>
+                  <span type="unvocalized-surface">מאחוריו</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.prep #gend.f #num.sg #pers.3">מֵאֲחוֹרָיו</m>
+                        <m function="suff" ana="#pron.type.accnom #gend.f #num.sg #pers.3"/>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="bymwt_ywm_pre_preposition_main_NOUN_m_pl_cstr"
+                       n="bymwt_2183528512">
+               <w lemma="ywM">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">בימות</span>
+                  </seg>
+                  <span type="lemma">יוֹם</span>
+                  <span type="vocalized-surface">בִּימוֹת</span>
+                  <span type="unvocalized-surface">בימות</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">בִּ</m>
+                        <m function="main" ana="#POS.n">ימוֹת</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="atpar_par_main_VERB_mf_sg_1_FUTURE_hitpael"
+                       n="atpar_15762633213673472">
+               <w lemma="par">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">אתפאר</span>
+                  </seg>
+                  <span type="lemma">פאר</span>
+                  <span type="vocalized-surface">אֶתְפָּאָר</span>
+                  <span type="unvocalized-surface">אתפאר</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">אֶתְפָּאָר</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="klSwn_lSwn_pre_preposition_main_NOUN_f_sg_abs"
+                       n="klSwn_1095106624">
+               <w lemma="lSwN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">כלשון</span>
+                  </seg>
+                  <span type="lemma">לָשׁוֹן</span>
+                  <span type="vocalized-surface">כְּלָשׁוֹן</span>
+                  <span type="unvocalized-surface">כלשון</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">כְּ</m>
+                        <m function="main" ana="#POS.n">לָשׁוֹן</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="btrwmh_trwmh_pre_article_preposition_main_NOUN_f_sg_abs"
+                       n="btrwmh_1095106628">
+               <w lemma="trwmh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">בתרומה</span>
+                  </seg>
+                  <span type="lemma">תְּרוּמָה</span>
+                  <span type="vocalized-surface">בַּתְּרוּמָה</span>
+                  <span type="unvocalized-surface">בתרומה</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">בַּ</m>
+                        <m function="main" ana="#POS.n">תְּרוּמָה</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="tge_nge_main_VERB_m_sg_2_FUTURE_paal" n="tge_2251834461585408">
+               <w lemma="nge">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">תגע</span>
+                  </seg>
+                  <span type="lemma">נגע</span>
+                  <span type="vocalized-surface">תִגַּע</span>
+                  <span type="unvocalized-surface">תגע</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">תִגַּע</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="wHlbym_Hlb_pre_waw_main_NOUN_m_pl_abs" n="wHlbym_1109786626">
+               <w lemma="Hlb">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">וחלבים</span>
+                  </seg>
+                  <span type="lemma">חָלָב</span>
+                  <span type="vocalized-surface">וַחֲלָבִים</span>
+                  <span type="unvocalized-surface">וחלבים</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וַ</m>
+                        <m function="main" ana="#POS.n">חֲלָבִים</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="kabnym_abn_pre_preposition_main_NOUN_f_pl_abs"
+                       n="kabnym_1111883840">
+               <w lemma="abN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">כאבנים</span>
+                  </seg>
+                  <span type="lemma">אֶבֶן</span>
+                  <span type="vocalized-surface">כַּאֲבָנִים</span>
+                  <span type="unvocalized-surface">כאבנים</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">כַּ</m>
+                        <m function="main" ana="#POS.n">אֲבָנִים</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="rwmh_rmy_main_VERB_m_sg_3_PAST_pual" n="rwmh_13510807894425600">
+               <w lemma="rmy">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">רומה</span>
+                  </seg>
+                  <span type="lemma">רמי</span>
+                  <span type="vocalized-surface">רֻוֽמָּה</span>
+                  <span type="unvocalized-surface">רומה</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">רֻוֽמָּה</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="llwwt_lwy_main_VERB_TOINF_paal" n="llwwt_2251851354144768">
+               <w lemma="lwy">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ללוות</span>
+                  </seg>
+                  <span type="lemma">לוי</span>
+                  <span type="vocalized-surface">לִלְווֹת</span>
+                  <span type="unvocalized-surface">ללוות</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">לִלְווֹת</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="Skywca_yca_pre_article_relative_adverbial_main_PARTICIPLE_m_sg_ANY_abs_paal"
+                       n="Skywca_2251801444877572">
+               <w lemma="yca">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">שכיוצא</span>
+                  </seg>
+                  <span type="lemma">יצא</span>
+                  <span type="vocalized-surface">שֶׁכַּיּוֹצֵא</span>
+                  <span type="unvocalized-surface">שכיוצא</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#pref.rel #pref.adv">שֶׁכַּ</m>
+                        <m function="main" ana="#POS.ptcpl">יּוֹצֵא</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="wyrb_arb_pre_waw_main_VERB_m_sg_3_PAST_hifil"
+                       n="wyrb_6755408453369858">
+               <w lemma="arb">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">וירב</span>
+                  </seg>
+                  <span type="lemma">ארב</span>
+                  <span type="vocalized-surface">וַיָּרֶב</span>
+                  <span type="unvocalized-surface">וירב</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וַ</m>
+                        <m function="main" ana="#POS.v">יָּרֶב</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="wSaHryhm_aHry_pre_waw_relative_main_PREPOSITION_suff_accnom_m_pl_3"
+                       n="wSaHryhm_115036404580610">
+               <w lemma="aHry">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ושאחריהם</span>
+                  </seg>
+                  <span type="lemma">אַחֲרֵי</span>
+                  <span type="vocalized-surface">וְשֶׁאַחֲרֵיהֶם</span>
+                  <span type="unvocalized-surface">ושאחריהם</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj #pref.rel">וְשֶׁ</m>
+                        <m function="main" ana="#POS.prep #gend.f #num.pl #pers.3">אַחֲרֵיהֶם</m>
+                        <m function="suff" ana="#pron.type.accnom #gend.f #num.pl #pers.3"/>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="lkswt_ksy_main_VERB_TOINF_piel" n="lkswt_11259050608885760">
+               <w lemma="ksy">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">לכסות</span>
+                  </seg>
+                  <span type="lemma">כסי</span>
+                  <span type="vocalized-surface">לְכַסּוֹת</span>
+                  <span type="unvocalized-surface">לכסות</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">לְכַסּוֹת</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="pwdyn_pwdh_main_PARTICIPLE_m_pl_ANY_abs_paal"
+                       n="pwdyn_2251801461653504">
+               <w lemma="pwdh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">פודין</span>
+                  </seg>
+                  <span type="lemma">פּוֹדֶה</span>
+                  <span type="vocalized-surface">פּוֹדִין</span>
+                  <span type="unvocalized-surface">פודין</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.ptcpl">פּוֹדִין</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="adnyw_adwn_main_NOUN_m_pl_abs_suff_poss_m_sg_3"
+                       n="adnyw_110570747854848">
+               <w lemma="adwN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">אדניו</span>
+                  </seg>
+                  <span type="lemma">אָדוֹן</span>
+                  <span type="vocalized-surface">אֲדֹנָיו</span>
+                  <span type="unvocalized-surface">אדניו</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n #gend.f #num.sg #pers.3">אֲדֹנָיו</m>
+                        <m function="suff" ana="#pron.type.poss #gend.f #num.sg #pers.3"/>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="mmnwyyh_mnwy_pre_preposition_main_NOUN_m_pl_abs_suff_poss_f_sg_3"
+                       n="mmnwyyh_111120503668800">
+               <w lemma="mnwy">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ממנוייה</span>
+                  </seg>
+                  <span type="lemma">מָנוּי</span>
+                  <span type="vocalized-surface">מִמְּנוּיֶיהָ</span>
+                  <span type="unvocalized-surface">ממנוייה</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">מִ</m>
+                        <m function="main" ana="#POS.n #gend.m #num.sg #pers.3">מְּנוּיֶיהָ</m>
+                        <m function="suff" ana="#pron.type.poss #gend.m #num.sg #pers.3"/>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="dyqdwqy_dqdwq_main_NOUN_m_sg_abs_suff_poss_mf_sg_1"
+                       n="dyqdwqy_41301498527744">
+               <w lemma="dqdwq">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">דיקדוקי</span>
+                  </seg>
+                  <span type="lemma">דִּקְדּוּק</span>
+                  <span type="vocalized-surface">דִּיֽקְדּוּקִי</span>
+                  <span type="unvocalized-surface">דיקדוקי</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n #gend.mf #num.sg #pers.1">דִּיֽקְדּוּקִי</m>
+                        <m function="suff" ana="#pron.type.poss #gend.mf #num.sg #pers.1"/>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="HSw_HwS_main_VERB_mf_pl_3_PAST_paal" n="HSw_2251808846970880">
+               <w lemma="HwS">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">חשו</span>
+                  </seg>
+                  <span type="lemma">חושׁ</span>
+                  <span type="vocalized-surface">חָשׁוּ</span>
+                  <span type="unvocalized-surface">חשו</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">חָשׁוּ</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="Hlqym_Hlq_main_NOUN_m_pl_abs" n="Hlqym_1109786624">
+               <w lemma="Hlq">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">חלקים</span>
+                  </seg>
+                  <span type="lemma">חֵלֶק</span>
+                  <span type="vocalized-surface">חֲלָקִים</span>
+                  <span type="unvocalized-surface">חלקים</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">חֲלָקִים</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="knpyk_knp_main_NOUN_f_d_abs_suff_poss_m_sg_2"
+                       n="knpyk_75386394640384">
+               <w lemma="knP">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">כנפיך</span>
+                  </seg>
+                  <span type="lemma">כָּנָף</span>
+                  <span type="vocalized-surface">כְּנָפֶיךָ</span>
+                  <span type="unvocalized-surface">כנפיך</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n #gend.f #num.sg #pers.2">כְּנָפֶיךָ</m>
+                        <m function="suff" ana="#pron.type.poss #gend.f #num.sg #pers.2"/>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="kdrk_drk_pre_preposition_main_NOUN_mf_sg_cstr"
+                       n="kdrk_2170945600">
+               <w lemma="drK">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">כדרך</span>
+                  </seg>
+                  <span type="lemma">דֶּרֶךְ</span>
+                  <span type="vocalized-surface">כְּדֶרֶךְ</span>
+                  <span type="unvocalized-surface">כדרך</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">כְּ</m>
+                        <m function="main" ana="#POS.n">דֶרֶךְ</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="gmwlwt_gmwlh_main_NOUN_f_pl_abs" n="gmwlwt_1111883776">
+               <w lemma="gmwlh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">גמולות</span>
+                  </seg>
+                  <span type="lemma">גְּמוּלָה</span>
+                  <span type="vocalized-surface">גְּמֻוֽלוֹת</span>
+                  <span type="unvocalized-surface">גמולות</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">גְּמֻוֽלוֹת</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="wgdwlth_gdlh_pre_waw_main_NOUN_f_sg_abs_suff_poss_f_sg_3"
+                       n="wgdwlth_111120488988674">
+               <w lemma="gdlh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">וגדולתה</span>
+                  </seg>
+                  <span type="lemma">גְּדֻלָּה</span>
+                  <span type="vocalized-surface">וּגְדֻוֽלָּתָהּ</span>
+                  <span type="unvocalized-surface">וגדולתה</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וּ</m>
+                        <m function="main" ana="#POS.n #gend.m #num.sg #pers.3">גְדֻוֽלָּתָהּ</m>
+                        <m function="suff" ana="#pron.type.poss #gend.m #num.sg #pers.3"/>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="hkll_kll_pre_article_main_QUANTIFIER_abs" n="hkll_1074921476">
+               <w lemma="kll">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">הכלל</span>
+                  </seg>
+                  <span type="lemma">כְּלָל</span>
+                  <span type="vocalized-surface">הַכְּלָל</span>
+                  <span type="unvocalized-surface">הכלל</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.quant">כְּלָל</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="hywm_ywm_main_ADVERB" n="hywm_131072">
+               <w lemma="ywM">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">היום</span>
+                  </seg>
+                  <span type="lemma">יוֹם</span>
+                  <span type="vocalized-surface">הַיּוֹם</span>
+                  <span type="unvocalized-surface">היום</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.adv">הַיּוֹם</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="lawt_awt_pre_preposition_main_NOUN_mf_sg_cstr"
+                       n="lawt_2170945600">
+               <w lemma="awt">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">לאות</span>
+                  </seg>
+                  <span type="lemma">אוֹת</span>
+                  <span type="vocalized-surface">לְאוֹת</span>
+                  <span type="unvocalized-surface">לאות</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">לְ</m>
+                        <m function="main" ana="#POS.n">אוֹת</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="gby_gb_main_NOUN_m_pl_cstr" n="gby_2183528448">
+               <w lemma="gb">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">גבי</span>
+                  </seg>
+                  <span type="lemma">גַּב</span>
+                  <span type="vocalized-surface">גַּבֵּי</span>
+                  <span type="unvocalized-surface">גבי</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">גַּבֵּי</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="wyasrwhw_asr_pre_waw_main_VERB_m_pl_3_PAST_paal_suff_accnom_m_sg_3"
+                       n="wyasrwhw_2362447200321538">
+               <w lemma="asr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ויאסרוהו</span>
+                  </seg>
+                  <span type="lemma">אסר</span>
+                  <span type="vocalized-surface">וַיַּאַסְרוּהוּ</span>
+                  <span type="unvocalized-surface">ויאסרוהו</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וַ</m>
+                        <m function="main" ana="#POS.v #gend.f #num.sg #pers.3">יַּאַסְרוּהוּ</m>
+                        <m function="suff" ana="#pron.type.accnom #gend.f #num.sg #pers.3"/>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="hHylwp_Hlwp_pre_article_main_NOUN_m_sg_abs"
+                       n="hHylwp_1093009412">
+               <w lemma="HlwP">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">החילוף</span>
+                  </seg>
+                  <span type="lemma">חִלּוּף</span>
+                  <span type="vocalized-surface">הַחִיֽלּוּף</span>
+                  <span type="unvocalized-surface">החילוף</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">חִיֽלּוּף</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="abyb_abyb_main_NOUN_m_sg_abs" n="abyb_1093009408">
+               <w lemma="abyb">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">אביב</span>
+                  </seg>
+                  <span type="lemma">אָבִיב</span>
+                  <span type="vocalized-surface">אָבִיב</span>
+                  <span type="unvocalized-surface">אביב</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">אָבִיב</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="lmTh_mTh_pre_preposition_main_ADVERB" n="lmTh_131136">
+               <w lemma="mTh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">למטה</span>
+                  </seg>
+                  <span type="lemma">מַטָּה</span>
+                  <span type="vocalized-surface">לְמַטָּה</span>
+                  <span type="unvocalized-surface">למטה</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">לְ</m>
+                        <m function="main" ana="#POS.adv">מַטָּה</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="nenh_nenh_main_NOUN_f_sg_abs" n="nenh_1095106560">
+               <w lemma="nenh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">נענה</span>
+                  </seg>
+                  <span type="lemma">נַעֲנָה</span>
+                  <span type="vocalized-surface">נַעֲנָה</span>
+                  <span type="unvocalized-surface">נענה</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">נַעֲנָה</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="lHdS_HdS_main_VERB_TOINF_piel" n="lHdS_11259050608885760">
+               <w lemma="HdS">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">לחדש</span>
+                  </seg>
+                  <span type="lemma">חדשׁ</span>
+                  <span type="vocalized-surface">לְחַדֵּשׁ</span>
+                  <span type="unvocalized-surface">לחדש</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">לְחַדֵּשׁ</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="gzyrwtyy_gzrh_main_NOUN_f_pl_abs_suff_poss_mf_sg_1"
+                       n="gzyrwtyy_41301517402112">
+               <w lemma="gzrh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">גזירותיי</span>
+                  </seg>
+                  <span type="lemma">גְּזֵרָה</span>
+                  <span type="vocalized-surface">גְּזֵיֽרוֹתַייֽ</span>
+                  <span type="unvocalized-surface">גזירותיי</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n #gend.mf #num.sg #pers.1">גְּזֵיֽרוֹתַייֽ</m>
+                        <m function="suff" ana="#pron.type.poss #gend.mf #num.sg #pers.1"/>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="wzrwek_zrwe_pre_waw_main_NOUN_f_sg_abs_suff_poss_m_sg_2"
+                       n="wzrwek_75386361085954">
+               <w lemma="zrwe">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">וזרועך</span>
+                  </seg>
+                  <span type="lemma">זְרוֹעַ</span>
+                  <span type="vocalized-surface">וּזְרוֹעֲךָ</span>
+                  <span type="unvocalized-surface">וזרועך</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וּ</m>
+                        <m function="main" ana="#POS.n #gend.f #num.sg #pers.2">זְרוֹעֲךָ</m>
+                        <m function="suff" ana="#pron.type.poss #gend.f #num.sg #pers.2"/>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="emy_em_main_NOUN_m_sg_abs_suff_poss" n="emy_69812486144">
+               <w lemma="eM">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">עמי</span>
+                  </seg>
+                  <span type="lemma">עַם</span>
+                  <span type="vocalized-surface">עַמִּי</span>
+                  <span type="unvocalized-surface">עמי</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">עַמִּי</m>
+                        <m function="suff" ana="#pron.type.poss"/>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="nyTwH_TwH_main_VERB_mf_pl_1_FUTURE_nifal"
+                       n="nyTwH_4503634162024448">
+               <w lemma="TwH">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ניטוח</span>
+                  </seg>
+                  <span type="lemma">טוח</span>
+                  <span type="vocalized-surface">נִיֽטּוֹחַ</span>
+                  <span type="unvocalized-surface">ניטוח</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">נִיֽטּוֹחַ</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="eykb_ekb_main_VERB_m_sg_3_PAST_piel" n="eykb_11259008080740352">
+               <w lemma="ekb">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">עיכב</span>
+                  </seg>
+                  <span type="lemma">עכב</span>
+                  <span type="vocalized-surface">עִיֽכֵּב</span>
+                  <span type="unvocalized-surface">עיכב</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">עִיֽכֵּב</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="kdym_kd_main_NOUN_m_pl_abs" n="kdym_1109786624">
+               <w lemma="kd">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">כדים</span>
+                  </seg>
+                  <span type="lemma">כַּד</span>
+                  <span type="vocalized-surface">כַּדִּים</span>
+                  <span type="unvocalized-surface">כדים</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">כַּדִּים</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="mmzrH_mzrH_pre_preposition_main_NOUN_m_sg_abs"
+                       n="mmzrH_1093009472">
+               <w lemma="mzrH">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ממזרח</span>
+                  </seg>
+                  <span type="lemma">מִזְרָח</span>
+                  <span type="vocalized-surface">מִמִּזְרָח</span>
+                  <span type="unvocalized-surface">ממזרח</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">מִ</m>
+                        <m function="main" ana="#POS.n">מִּזְרָח</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="mmzrt_mmzrt_main_NOUN_f_sg_abs" n="mmzrt_1095106560">
+               <w lemma="mmzrt">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ממזרת</span>
+                  </seg>
+                  <span type="lemma">מַמְזֶרֶת</span>
+                  <span type="vocalized-surface">מַמְזֶרֶת</span>
+                  <span type="unvocalized-surface">ממזרת</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">מַמְזֶרֶת</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="waswr_aswr_pre_waw_main_MODAL" n="waswr_1310722">
+               <w lemma="aswr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ואסור</span>
+                  </seg>
+                  <span type="lemma">אָסוּר</span>
+                  <span type="vocalized-surface">וְאָסוּר</span>
+                  <span type="unvocalized-surface">ואסור</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וְ</m>
+                        <m function="main" ana="#vb.type.modal">אָסוּר</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="npSwt_npS_main_NOUN_f_pl_cstr" n="npSwt_2185625600">
+               <w lemma="npS">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">נפשות</span>
+                  </seg>
+                  <span type="lemma">נֶפֶשׁ</span>
+                  <span type="vocalized-surface">נַפְשׁוֹת</span>
+                  <span type="unvocalized-surface">נפשות</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">נַפְשׁוֹת</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="hrwH_rwH_pre_article_main_NOUN_mf_sg_abs" n="hrwH_1097203716">
+               <w lemma="rwH">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">הרוח</span>
+                  </seg>
+                  <span type="lemma">רוּחַ</span>
+                  <span type="vocalized-surface">הָרוּחַ</span>
+                  <span type="unvocalized-surface">הרוח</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">רוּחַ</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="lewrw_ewr_pre_preposition_main_NOUN_m_sg_abs_suff_poss_m_sg_3"
+                       n="lewrw_110570731077696">
+               <w lemma="ewr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">לעורו</span>
+                  </seg>
+                  <span type="lemma">עוֹר</span>
+                  <span type="vocalized-surface">לְעוֹרוֹ</span>
+                  <span type="unvocalized-surface">לעורו</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">לְ</m>
+                        <m function="main" ana="#POS.n #gend.f #num.sg #pers.3">עוֹרוֹ</m>
+                        <m function="suff" ana="#pron.type.poss #gend.f #num.sg #pers.3"/>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="qrn_qrn_main_NOUN_f_sg_cstr" n="qrn_2168848384">
+               <w lemma="qrN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">קרן</span>
+                  </seg>
+                  <span type="lemma">קֶרֶן</span>
+                  <span type="vocalized-surface">קֶרֶן</span>
+                  <span type="unvocalized-surface">קרן</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">קֶרֶן</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="rSe_rSe_main_ADJECTIVE_m_sg_abs" n="rSe_1092681728">
+               <w lemma="rSe">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">רשע</span>
+                  </seg>
+                  <span type="lemma">רָשָׁע</span>
+                  <span type="vocalized-surface">רָשָׁע</span>
+                  <span type="unvocalized-surface">רשע</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.adj">רָשָׁע</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="bymyn_ymyn_pre_preposition_main_NOUN_m_sg_abs"
+                       n="bymyn_1093009472">
+               <w lemma="ymyN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">בימין</span>
+                  </seg>
+                  <span type="lemma">יָמִין</span>
+                  <span type="vocalized-surface">בְּיָמִין</span>
+                  <span type="unvocalized-surface">בימין</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">בְּ</m>
+                        <m function="main" ana="#POS.n">יָמִין</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="abn_abn_main_PROPERNAME" n="abn_655360">
+               <w lemma="abN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">אבן</span>
+                  </seg>
+                  <span type="lemma">אֶבֶן</span>
+                  <span type="vocalized-surface">אֶבֶן</span>
+                  <span type="unvocalized-surface">אבן</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.pNoun">אֶבֶן</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="mcrym_mcrym_main_PROPERNAME" n="mcrym_655360">
+               <w lemma="mcryM">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">מצרים</span>
+                  </seg>
+                  <span type="lemma">מִצְרַיִם</span>
+                  <span type="vocalized-surface">מִצְרַיִם</span>
+                  <span type="unvocalized-surface">מצרים</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.pNoun">מִצְרַיִם</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="hHlwn_Hlwn_pre_article_main_NOUN_m_sg_abs" n="hHlwn_1093009412">
+               <w lemma="HlwN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">החלון</span>
+                  </seg>
+                  <span type="lemma">חַלּוֹן</span>
+                  <span type="vocalized-surface">הַחַלּוֹן</span>
+                  <span type="unvocalized-surface">החלון</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">חַלּוֹן</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="yrch_rcy_main_VERB_m_sg_3_FUTURE_paal"
+                       n="yrch_2251834595803136">
+               <w lemma="rcy">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ירצה</span>
+                  </seg>
+                  <span type="lemma">רצי</span>
+                  <span type="vocalized-surface">יִרְצֶה</span>
+                  <span type="unvocalized-surface">ירצה</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">יִרְצֶה</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="whhr_hr_pre_waw_article_main_NOUN_m_sg_abs" n="whhr_1093009414">
+               <w lemma="hr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">וההר</span>
+                  </seg>
+                  <span type="lemma">הַר</span>
+                  <span type="vocalized-surface">וְהָהָר</span>
+                  <span type="unvocalized-surface">וההר</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וְהָ</m>
+                        <m function="main" ana="#POS.n">הָר</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="bqrk_bqr_main_NOUN_mf_sg_abs_suff_poss_m_sg_2"
+                       n="bqrk_75386363183104">
+               <w lemma="bqr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">בקרך</span>
+                  </seg>
+                  <span type="lemma">בָּקָר</span>
+                  <span type="vocalized-surface">בְּקָרֶךָ</span>
+                  <span type="unvocalized-surface">בקרך</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n #gend.f #num.sg #pers.2">בְּקָרֶךָ</m>
+                        <m function="suff" ana="#pron.type.poss #gend.f #num.sg #pers.2"/>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="mbwrk_mbrk_main_ADJECTIVE_m_sg_abs" n="mbwrk_1092681728">
+               <w lemma="mbrK">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">מבורך</span>
+                  </seg>
+                  <span type="lemma">מְבֹרָךְ</span>
+                  <span type="vocalized-surface">מְבֹוֽרָךְ</span>
+                  <span type="unvocalized-surface">מבורך</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.adj">מְבֹוֽרָךְ</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="weglh_eglh_pre_waw_main_NOUN_f_sg_abs" n="weglh_1095106562">
+               <w lemma="eglh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ועגלה</span>
+                  </seg>
+                  <span type="lemma">עֶגְלָה</span>
+                  <span type="vocalized-surface">וְעֶגְלָה</span>
+                  <span type="unvocalized-surface">ועגלה</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וְ</m>
+                        <m function="main" ana="#POS.n">עֶגְלָה</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="dwr_dwr_main_PROPERNAME" n="dwr_655360">
+               <w lemma="dwr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">דור</span>
+                  </seg>
+                  <span type="lemma">דּוֹר</span>
+                  <span type="vocalized-surface">דּוֹר</span>
+                  <span type="unvocalized-surface">דור</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.pNoun">דּוֹר</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="rwcH_rcH_main_VERB_m_sg_ANY_PRESENT_paal"
+                       n="rwcH_2251826140086272">
+               <w lemma="rcH">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">רוצח</span>
+                  </seg>
+                  <span type="lemma">רצח</span>
+                  <span type="vocalized-surface">רוֹצֵחַ</span>
+                  <span type="unvocalized-surface">רוצח</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">רוֹצֵחַ</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="mwne_mwne_main_PARTICIPLE_m_sg_ANY_abs_paal"
+                       n="mwne_2251801444876288">
+               <w lemma="mwne">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">מונע</span>
+                  </seg>
+                  <span type="lemma">מוֹנֵעַ</span>
+                  <span type="vocalized-surface">מוֹנֵעַ</span>
+                  <span type="unvocalized-surface">מונע</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.ptcpl">מוֹנֵעַ</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="lmlkym_mlk_pre_preposition_main_NOUN_m_pl_abs"
+                       n="lmlkym_1109786688">
+               <w lemma="mlK">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">למלכים</span>
+                  </seg>
+                  <span type="lemma">מֹלֶךְ</span>
+                  <span type="vocalized-surface">לִמְלָכִים</span>
+                  <span type="unvocalized-surface">למלכים</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">לִ</m>
+                        <m function="main" ana="#POS.n">מְלָכִים</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="bSdh_Sdh_pre_article_preposition_main_NOUN_m_sg_abs"
+                       n="bSdh_1093009476">
+               <w lemma="Sdh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">בשדה</span>
+                  </seg>
+                  <span type="lemma">שָׂדֶה</span>
+                  <span type="vocalized-surface">בַּשָּׂדֶה</span>
+                  <span type="unvocalized-surface">בשדה</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">בַּ</m>
+                        <m function="main" ana="#POS.n">שָּׂדֶה</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="wywnqym_ynq_pre_waw_main_VERB_m_pl_ANY_PRESENT_paal"
+                       n="wywnqym_2251826156863490">
+               <w lemma="ynq">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ויונקים</span>
+                  </seg>
+                  <span type="lemma">ינק</span>
+                  <span type="vocalized-surface">וְיֹוֽנְקִים</span>
+                  <span type="unvocalized-surface">ויונקים</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וְ</m>
+                        <m function="main" ana="#POS.v">יֹוֽנְקִים</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="wmyTb_myTb_pre_waw_main_NOUN_m_sg_cstr" n="wmyTb_2166751234">
+               <w lemma="myTb">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ומיטב</span>
+                  </seg>
+                  <span type="lemma">מֵיטָב</span>
+                  <span type="vocalized-surface">וּמֵיטַב</span>
+                  <span type="unvocalized-surface">ומיטב</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וּ</m>
+                        <m function="main" ana="#POS.n">מֵיטַב</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="pwdyhw_pdy_main_VERB_m_sg_ANY_PRESENT_paal_suff_accnom_m_sg_3"
+                       n="pwdyhw_2362464497631232">
+               <w lemma="pdy">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">פודיהו</span>
+                  </seg>
+                  <span type="lemma">פדי</span>
+                  <span type="vocalized-surface">פּוֹדֵיֽהוּ</span>
+                  <span type="unvocalized-surface">פודיהו</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v #gend.f #num.sg #pers.3">פּוֹדֵיֽהוּ</m>
+                        <m function="suff" ana="#pron.type.accnom #gend.f #num.sg #pers.3"/>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="tenh_eny_main_VERB_m_sg_2_FUTURE_paal"
+                       n="tenh_2251834461585408">
+               <w lemma="eny">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">תענה</span>
+                  </seg>
+                  <span type="lemma">עני</span>
+                  <span type="vocalized-surface">תַּעֲנֶה</span>
+                  <span type="unvocalized-surface">תענה</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">תַּעֲנֶה</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="pdh_pdy_main_VERB_BARINF_paal" n="pdh_2251859944079360">
+               <w lemma="pdy">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">פדה</span>
+                  </seg>
+                  <span type="lemma">פדי</span>
+                  <span type="vocalized-surface">פָדֹה</span>
+                  <span type="unvocalized-surface">פדה</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">פָדֹה</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="whn_hn_pre_waw_main_INTERJECTION" n="whn_1048578">
+               <w lemma="hN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">והן</span>
+                  </seg>
+                  <span type="lemma">הֵן</span>
+                  <span type="vocalized-surface">וְהֵן</span>
+                  <span type="unvocalized-surface">והן</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וְ</m>
+                        <m function="main" ana="#POS.interj">הֵן</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="mewmd_memd_main_ADJECTIVE_m_sg_abs" n="mewmd_1092681728">
+               <w lemma="memd">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">מעומד</span>
+                  </seg>
+                  <span type="lemma">מְעֻמָּד</span>
+                  <span type="vocalized-surface">מְעֻוֽמָּד</span>
+                  <span type="unvocalized-surface">מעומד</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.adj">מְעֻוֽמָּד</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="dbr_br_pre_relative_main_NOUN_m_sg_cstr" n="dbr_2166751488">
+               <w lemma="br">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">דבר</span>
+                  </seg>
+                  <span type="lemma">בַּר</span>
+                  <span type="vocalized-surface">דְּבַר</span>
+                  <span type="unvocalized-surface">דבר</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#pref.rel">דְּ</m>
+                        <m function="main" ana="#POS.n">בַר</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="lSkr_Skr_pre_preposition_main_NOUN_m_sg_cstr"
+                       n="lSkr_2166751296">
+               <w lemma="Skr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">לשכר</span>
+                  </seg>
+                  <span type="lemma">שָׂכָר</span>
+                  <span type="vocalized-surface">לִשְׂכַר</span>
+                  <span type="unvocalized-surface">לשכר</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">לִ</m>
+                        <m function="main" ana="#POS.n">שְׂכַר</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="wmbwSl_mbSl_pre_waw_main_PARTICIPLE_m_sg_ANY_abs_pual"
+                       n="wmbwSl_13510800513302530">
+               <w lemma="mbSl">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ומבושל</span>
+                  </seg>
+                  <span type="lemma">מְבֻשָּׁל</span>
+                  <span type="vocalized-surface">וּמְבֻוֽשָּׁל</span>
+                  <span type="unvocalized-surface">ומבושל</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וּ</m>
+                        <m function="main" ana="#POS.ptcpl">מְבֻוֽשָּׁל</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="bamce_amce_pre_preposition_main_NOUN_m_sg_abs"
+                       n="bamce_1093009472">
+               <w lemma="amce">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">באמצע</span>
+                  </seg>
+                  <span type="lemma">אֶמְצַע</span>
+                  <span type="vocalized-surface">בְּאֶמְצַע</span>
+                  <span type="unvocalized-surface">באמצע</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">בְּ</m>
+                        <m function="main" ana="#POS.n">אֶמְצַע</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="emdw_emd_main_VERB_mf_pl_3_PAST_paal" n="emdw_2251808846970880">
+               <w lemma="emd">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">עמדו</span>
+                  </seg>
+                  <span type="lemma">עמד</span>
+                  <span type="vocalized-surface">עָמְדוּ</span>
+                  <span type="unvocalized-surface">עמדו</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">עָמְדוּ</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="whdyn_dyn_pre_waw_article_main_NOUN_m_sg_abs"
+                       n="whdyn_1093009414">
+               <w lemma="dyN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">והדין</span>
+                  </seg>
+                  <span type="lemma">דִּין</span>
+                  <span type="vocalized-surface">וְהַדִּין</span>
+                  <span type="unvocalized-surface">והדין</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וְהַ</m>
+                        <m function="main" ana="#POS.n">דִּין</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="meSym_meSh_main_NOUN_m_pl_abs" n="meSym_1109786624">
+               <w lemma="meSh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">מעשים</span>
+                  </seg>
+                  <span type="lemma">מַעֲשֶׂה</span>
+                  <span type="vocalized-surface">מַעֲשִׂים</span>
+                  <span type="unvocalized-surface">מעשים</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">מַעֲשִׂים</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="kStqblw_qbl_pre_temporal_main_VERB_m_pl_2_FUTURE_piel"
+                       n="kStqblw_11259033733104128">
+               <w lemma="qbl">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">כשתקבלו</span>
+                  </seg>
+                  <span type="lemma">קבל</span>
+                  <span type="vocalized-surface">כְּשֶׁתְּקַבְּלוּ</span>
+                  <span type="unvocalized-surface">כשתקבלו</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#pref.temp">כְּשֶׁ</m>
+                        <m function="main" ana="#POS.v">תְּקַבְּלוּ</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="whSypwn_Sypwn_pre_waw_article_main_NOUN_m_sg_abs"
+                       n="whSypwn_1093009414">
+               <w lemma="SypwN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">והשיפון</span>
+                  </seg>
+                  <span type="lemma">שִׁיפוֹן</span>
+                  <span type="vocalized-surface">וְהַשִּׁיפוֹן</span>
+                  <span type="unvocalized-surface">והשיפון</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וְהַ</m>
+                        <m function="main" ana="#POS.n">שִּׁיפוֹן</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="mmyt_mwt_main_VERB_m_sg_ANY_PRESENT_hifil"
+                       n="mmyt_6755425767456768">
+               <w lemma="mwt">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ממית</span>
+                  </seg>
+                  <span type="lemma">מות</span>
+                  <span type="vocalized-surface">מֵמִית</span>
+                  <span type="unvocalized-surface">ממית</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">מֵמִית</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="Smty_Sym_main_VERB_mf_sg_1_PAST_paal" n="Smty_2251808561758208">
+               <w lemma="SyM">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">שמתי</span>
+                  </seg>
+                  <span type="lemma">שׂים</span>
+                  <span type="vocalized-surface">שַׂמְתִּי</span>
+                  <span type="unvocalized-surface">שמתי</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">שַׂמְתִּי</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="kngyHh_ngyHh_pre_preposition_main_NOUN_f_sg_abs"
+                       n="kngyHh_1095106624">
+               <w lemma="ngyHh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">כנגיחה</span>
+                  </seg>
+                  <span type="lemma">נְגִיחָה</span>
+                  <span type="vocalized-surface">כִּנְגִיחָה</span>
+                  <span type="unvocalized-surface">כנגיחה</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">כִּ</m>
+                        <m function="main" ana="#POS.n">נְגִיחָה</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="wyra_rah_pre_waw_main_VERB_m_sg_3_PAST_hifil"
+                       n="wyra_6755408453369858">
+               <w lemma="rah">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">וירא</span>
+                  </seg>
+                  <span type="lemma">ראה</span>
+                  <span type="vocalized-surface">וַיַּרְא</span>
+                  <span type="unvocalized-surface">וירא</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וַ</m>
+                        <m function="main" ana="#POS.v">יַּרְא</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+            <entryFree xml:id="qmyn_mn_pre_adverbial_main_ADVERB" n="qmyn_2199023387648">
+               <w lemma="mN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">קמין</span>
+                  </seg>
+                  <span type="lemma">מִן</span>
+                  <span type="vocalized-surface">קָמִיֽן</span>
+                  <span type="unvocalized-surface">קמין</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#pref.adv">קָ</m>
+                        <m function="main" ana="#POS.adv">מִיֽן</m>
+                     </seg>
+                  </choice>
+               </w>
+            </entryFree>
+         </div>
+      </body>
+   </text>
+</TEI>

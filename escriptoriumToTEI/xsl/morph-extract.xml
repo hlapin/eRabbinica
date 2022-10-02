@@ -1,0 +1,1520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <fLib n="parts_of_speech" xml:id="POS">
+         <f name="POS" xml:id="POS.v">
+            <symbol value="VERB"/>
+         </f>
+         <f name="POS" xml:id="POS.n">
+            <symbol value="NOUN"/>
+         </f>
+         <f name="POS" xml:id="POS.pNoun">
+            <symbol value="PROPERNAME"/>
+         </f>
+         <f name="POS" xml:id="POS.pron">
+            <symbol value="PRONOUN"/>
+         </f>
+         <f name="POS" xml:id="POS.ptcpl">
+            <symbol value="PARTICIPLE"/>
+         </f>
+         <f name="POS" xml:id="POS.adj">
+            <symbol value="ADJECTIVE"/>
+         </f>
+         <f name="POS" xml:id="POS.adv">
+            <symbol value="ADVERB"/>
+         </f>
+         <f name="POS" xml:id="POS.prep">
+            <symbol value="PREPOSITION"/>
+         </f>
+         <f name="POS" xml:id="POS.numer.num">
+            <symbol value="NUMERAL"/>
+         </f>
+         <f name="POS" xml:id="POS.numer.card">
+            <symbol value="CARDINAL"/>
+         </f>
+         <f name="POS" xml:id="POS.numer.ord">
+            <symbol value="ORDINAL"/>
+         </f>
+         <f name="POS" xml:id="POS.numer.other">
+            <symbol value="OTHER_NUMERICAL"/>
+         </f>
+         <f name="POS" xml:id="POS.conj">
+            <symbol value="CONJUNCTION"/>
+         </f>
+         <f name="POS" xml:id="POS.interj">
+            <symbol value="INTERJECTION"/>
+         </f>
+         <f name="POS" xml:id="POS.interr">
+            <symbol value="INTERROGATIVE"/>
+         </f>
+         <f name="POS" fVal="#vb.type.copul">
+            <symbol value="COPULA"/>
+         </f>
+         <f name="POS" fVal="#vb.type.exist">
+            <symbol value="EXISTENTIAL"/>
+         </f>
+         <f name="POS" fVal="#vb.type.modal"/>
+         <f name="POS" xml:id="POS.neg">
+            <symbol value="NEGATION"/>
+         </f>
+         <f name="POS" xml:id="POS.quant">
+            <symbol value="QUANTIFIER"/>
+         </f>
+         <f name="POS" xml:id="POS.AT">
+            <symbol value="AT_PREP"/>
+         </f>
+         <f name="POS" xml:id="POS.shel">
+            <symbol value="SHEL_PREP"/>
+         </f>
+         <f name="POS" xml:id="POS.titul">
+            <symbol value="TITULAR"/>
+         </f>
+         <f name="POS" xml:id="POS.pref" ana="#prefType">
+            <symbol value="PREFIX"/>
+         </f>
+         <f name="POS" xml:id="POS.for">
+            <symbol value="FOREIGN"/>
+         </f>
+         <f name="POS" xml:id="POS.other">
+            <symbol value="other" ana="#otherStuff"/>
+         </f>
+      </fLib>
+      <fLib n="morphological_features" xml:id="morph">
+         <f name="morphFeat" xml:id="pref">
+            <symbol value="prefix"/>
+         </f>
+         <f name="morphFeat" xml:id="suff">
+            <symbol value="suffix"/>
+         </f>
+         <f xmlns:dcr="http://www.isocat.org/ns/dcr"
+            name="morphFeat"
+            xml:id="rt"
+            dcr:valueDatcat="http://www.isocat.org/ns/dcr/DC-2231">
+            <symbol value="root"/>
+         </f>
+         <f xmlns:dcr="http://www.isocat.org/ns/dcr"
+            name="morphFeat"
+            xml:id="stem"
+            dcr:valueDatcat="http://www.isocat.org/ns/dcr/DC-1389">
+            <symbol value="stem"/>
+         </f>
+         <f xmlns:local="http://localhost.uri"
+            name="morphFeat"
+            xml:id="base"
+            fVal="http://localhost.uri#base">
+            <symbol value="base"/>
+         </f>
+      </fLib>
+      <fLib n="stems" corresp="#stem">
+         <f name="stem" xml:id="stm.paal">
+            <symbol value="paal"/>
+         </f>
+         <f name="stem" xml:id="stm.nif">
+            <symbol value="nifal"/>
+         </f>
+         <f name="stem" xml:id="stm.piel">
+            <symbol value="piel"/>
+         </f>
+         <f name="stem" xml:id="stm.pual">
+            <symbol value="pual"/>
+         </f>
+         <f name="stem" xml:id="stm.hifil">
+            <symbol value="hifil"/>
+         </f>
+         <f name="stem" xml:id="stm.hofal">
+            <symbol value="hofal"/>
+         </f>
+         <f name="stem" xml:id="stm.hufal">
+            <symbol value="hufal"/>
+         </f>
+         <f name="stem" xml:id="stm.hitp">
+            <symbol value="hitpael"/>
+         </f>
+         <f name="stem" xml:id="stm.nitp">
+            <symbol value="nitpael"/>
+         </f>
+      </fLib>
+      <fLib n="person" xml:id="pers">
+         <f name="person" xml:id="pers.1">
+            <symbol value="first"/>
+         </f>
+         <f name="person" xml:id="pers.2">
+            <symbol value="second"/>
+         </f>
+         <f name="person" xml:id="pers.3">
+            <symbol value="third"/>
+         </f>
+         <f name="person" xml:id="pers.any">
+            <symbol value="any"/>
+         </f>
+      </fLib>
+      <fLib n="number" xml:id="num">
+         <f name="number" xml:id="num.sg">
+            <symbol value="singular"/>
+         </f>
+         <f name="number" xml:id="num.d">
+            <symbol value="dual"/>
+         </f>
+         <f name="number" xml:id="num.pl">
+            <symbol value="plural"/>
+         </f>
+         <f name="number" xml:id="num.sgpl">
+            <symbol value="singular_or_plural"/>
+         </f>
+         <f name="number" xml:id="num.dpl">
+            <symbol value="dual_or_plural"/>
+         </f>
+      </fLib>
+      <fLib n="gender" xml:id="gend">
+         <f name="gender" xml:id="gend.m">
+            <symbol value="masculine"/>
+         </f>
+         <f name="gender" xml:id="gend.f">
+            <symbol value="feminine"/>
+         </f>
+         <f name="gender" xml:id="gend.mf">
+            <symbol value="masculine_or_feminine"/>
+         </f>
+      </fLib>
+      <fLib n="tense_mood" xml:id="vb.tm">
+         <f name="tenseMood" xml:id="vb.tm.any">
+            <symbol value="perfect"/>
+         </f>
+         <f name="tenseMood" xml:id="vb.tm.perf">
+            <symbol value="perfect"/>
+         </f>
+         <f name="tenseMood" xml:id="vb.tm.impf">
+            <symbol value="imperfect"/>
+         </f>
+         <f name="tenseMood" xml:id="vb.tm.ptcpl">
+            <symbol value="participial_present"/>
+         </f>
+         <f name="tenseMood" xml:id="vb.tm.imptv">
+            <symbol value="imperative"/>
+         </f>
+         <f name="tenseMood" xml:id="vb.tm.constr_infin">
+            <symbol value="constr_infin"/>
+         </f>
+         <f name="tenseMood" xml:id="vb.tm.abs_infin">
+            <symbol value="abs_infin"/>
+         </f>
+      </fLib>
+      <fLib n="type" xml:id="vb.type">
+         <f name="vType" xml:id="vb.type.exist">
+            <symbol value="existential"/>
+         </f>
+         <f name="vType" xml:id="vb.type.copul">
+            <symbol value="copula"/>
+         </f>
+         <f name="vType" xml:id="vb.type.modal">
+            <symbol value="modal"/>
+         </f>
+         <f name="polarity" xml:id="posit">
+            <symbol value="positive"/>
+         </f>
+         <f name="polarity" xml:id="neg">
+            <symbol value="negative"/>
+         </f>
+      </fLib>
+      <fLib n="state" xml:id="stt" corresp="#POS.n #POS.adj #POS.ptcpl">
+         <f name="state" xml:id="stt.abs">
+            <symbol value="abs"/>
+         </f>
+         <f name="state" xml:id="stt.constr">
+            <symbol value="cstr"/>
+         </f>
+         <f name="state" xml:id="stt.abs_or_cstr">
+            <symbol value="abscstr"/>
+         </f>
+      </fLib>
+      <fLib n="definiteness" xml:id="def" ana="#POS.n #POS.adj #POS.ptcpl">
+         <f name="definiteness" xml:id="def.y">
+            <symbol value="definite"/>
+         </f>
+         <f name="definiteness" xml:id="def.n">
+            <symbol value="indefinite"/>
+         </f>
+      </fLib>
+      <fLib n="pronoun_type" xml:id="pron.type">
+         <f name="pronType" xml:id="pron.type.poss">
+            <symbol value="possessive"/>
+         </f>
+         <f name="pronType" xml:id="pron.type.pronom">
+            <symbol value="pronomial"/>
+         </f>
+         <f name="pronType" xml:id="pron.type.accnom">
+            <symbol value="accusative_or_nominative"/>
+         </f>
+      </fLib>
+      <fLib n="participle_functions" xml:id="funct">
+         <f name="participleFunction" xml:id="verbal">
+            <symbol value="verbal"/>
+         </f>
+         <f name="participleFunction" xml:id="subst">
+            <symbol value="substantive"/>
+         </f>
+      </fLib>
+      <body>
+         <div>
+            <entryFree xml:id="bSM_1093009472">
+               <w lemma="SM">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">בשם</span>
+                  </seg>
+                  <span type="lemma">שֵׁם</span>
+                  <span type="vocalized-surface">בְּשֵׁם</span>
+                  <span type="unvocalized-surface">בשם</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">בְּ</m>
+                        <m function="main" ana="#POS.n">שֵׁם</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.H.0000100"/>
+            </entryFree>
+            <entryFree xml:id="al_1093009408">
+               <w lemma="al">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">אל</span>
+                  </seg>
+                  <span type="lemma">אֵל</span>
+                  <span type="vocalized-surface">אֵל</span>
+                  <span type="unvocalized-surface">אל</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">אֵל</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.H.0000200"/>
+            </entryFree>
+            <entryFree xml:id="Hy_1092681728">
+               <w lemma="Hy">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">חי</span>
+                  </seg>
+                  <span type="lemma">חַי</span>
+                  <span type="vocalized-surface">חַי</span>
+                  <span type="unvocalized-surface">חי</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.adj">חַי</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.H.0000300"/>
+            </entryFree>
+            <entryFree xml:id="bSmHh_1095106624">
+               <w lemma="SmHh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">בשמחה</span>
+                  </seg>
+                  <span type="lemma">שִׂמְחָה</span>
+                  <span type="vocalized-surface">בְּשִׂמְחָה</span>
+                  <span type="unvocalized-surface">בשמחה</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">בְּ</m>
+                        <m function="main" ana="#POS.n">שִׂמְחָה</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.H.0000400"/>
+            </entryFree>
+            <entryFree xml:id="atHyl_6755433958932480">
+               <w lemma="tHl">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">אתחיל</span>
+                  </seg>
+                  <span type="lemma">תחל</span>
+                  <span type="vocalized-surface">אַתְחִיל</span>
+                  <span type="unvocalized-surface">אתחיל</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">אַתְחִיל</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.H.0000700"/>
+            </entryFree>
+            <entryFree xml:id="wasyyM_11259033586302978">
+               <w lemma="syM">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ואסיים</span>
+                  </seg>
+                  <span type="lemma">סים</span>
+                  <span type="vocalized-surface">וַאֲסַיֵּיֽם</span>
+                  <span type="unvocalized-surface">ואסיים</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וַ</m>
+                        <m function="main" ana="#POS.v">אֲסַיֵּיֽם</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.H.0000800"/>
+            </entryFree>
+            <entryFree xml:id="balh_40435776">
+               <w lemma="alh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">באלה</span>
+                  </seg>
+                  <span type="lemma">אֵלֶּה</span>
+                  <span type="vocalized-surface">בְּאֵלֶּה</span>
+                  <span type="unvocalized-surface">באלה</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">בְּ</m>
+                        <m function="main" ana="#POS.pron">אֵלֶּה</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.H.0000900"/>
+            </entryFree>
+            <entryFree xml:id="Smwt_2183528448">
+               <w lemma="SM">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">שמות</span>
+                  </seg>
+                  <span type="lemma">שֵׁם</span>
+                  <span type="vocalized-surface">שְׁמוֹת</span>
+                  <span type="unvocalized-surface">שמות</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">שְׁמוֹת</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.H.0001000"/>
+            </entryFree>
+            <entryFree xml:id="rbh_23724032">
+               <w lemma="rbh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">רבה</span>
+                  </seg>
+                  <span type="lemma">רַבָּה</span>
+                  <span type="vocalized-surface">רַבָּה</span>
+                  <span type="unvocalized-surface">רבה</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.pNoun">רַבָּה</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.H.0001100"/>
+            </entryFree>
+            <entryFree xml:id="wyamr_2251808825999362">
+               <w lemma="amr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ויאמר</span>
+                  </seg>
+                  <span type="lemma">אמר</span>
+                  <span type="vocalized-surface">וַיֹּאמֶר</span>
+                  <span type="unvocalized-surface">ויאמר</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וַ</m>
+                        <m function="main" ana="#POS.v">יֹּאמֶר</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0000100 path-to-file#MekhY.M117.1.1.2.0001300"/>
+            </entryFree>
+            <entryFree xml:id="yyy_1093009408">
+               <w lemma="yy">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ייי</span>
+                  </seg>
+                  <span type="lemma">יְיָ</span>
+                  <span type="vocalized-surface">יְיָיָ</span>
+                  <span type="unvocalized-surface">ייי</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">יְיָיָ</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0000200 path-to-file#MekhY.M117.1.1.1.0002400 path-to-file#MekhY.M117.1.1.2.0001400"/>
+            </entryFree>
+            <entryFree xml:id="al_524288">
+               <w lemma="al">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">אל</span>
+                  </seg>
+                  <span type="lemma">אֶל</span>
+                  <span type="vocalized-surface">אֶל</span>
+                  <span type="unvocalized-surface">אל</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.prep">אֶל</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0000300 path-to-file#MekhY.M117.1.1.1.0003900 path-to-file#MekhY.M117.1.1.2.0000300 path-to-file#MekhY.M117.1.1.2.0001500"/>
+            </entryFree>
+            <entryFree xml:id="mSh_655360">
+               <w lemma="mSh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">משה</span>
+                  </seg>
+                  <span type="lemma">מֹשֶׁה</span>
+                  <span type="vocalized-surface">מֹשֶׁה</span>
+                  <span type="unvocalized-surface">משה</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.pNoun">מֹשֶׁה</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0000400 path-to-file#MekhY.M117.1.1.1.0004000 path-to-file#MekhY.M117.1.1.1.0004900 path-to-file#MekhY.M117.1.1.1.0006500 path-to-file#MekhY.M117.1.1.2.0000400 path-to-file#MekhY.M117.1.1.2.0001700"/>
+            </entryFree>
+            <entryFree xml:id="wal_524290">
+               <w lemma="al">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ואל</span>
+                  </seg>
+                  <span type="lemma">אֶל</span>
+                  <span type="vocalized-surface">וְאֶל</span>
+                  <span type="unvocalized-surface">ואל</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וְ</m>
+                        <m function="main" ana="#POS.prep">אֶל</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0000500 path-to-file#MekhY.M117.1.1.1.0004100 path-to-file#MekhY.M117.1.1.2.0000500"/>
+            </entryFree>
+            <entryFree xml:id="ahrN_19529728">
+               <w lemma="ahrN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">אהרן</span>
+                  </seg>
+                  <span type="lemma">אַהֲרֹן</span>
+                  <span type="vocalized-surface">אַהֲרֹן</span>
+                  <span type="unvocalized-surface">אהרן</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.pNoun">אַהֲרֹן</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0000600 path-to-file#MekhY.M117.1.1.1.0004200 path-to-file#MekhY.M117.1.1.1.0005400 path-to-file#MekhY.M117.1.1.1.0006900 path-to-file#MekhY.M117.1.1.2.0000600"/>
+            </entryFree>
+            <entryFree xml:id="barC_2168848448">
+               <w lemma="arC">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">בארץ</span>
+                  </seg>
+                  <span type="lemma">אֶרֶץ</span>
+                  <span type="vocalized-surface">בְּאֶרֶץ</span>
+                  <span type="unvocalized-surface">בארץ</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">בְּ</m>
+                        <m function="main" ana="#POS.n">אֶרֶץ</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0000700"/>
+            </entryFree>
+            <entryFree xml:id="mcryM_50987008">
+               <w lemma="mcryM">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">מצרים</span>
+                  </seg>
+                  <span type="lemma">מִצְרַיִם</span>
+                  <span type="vocalized-surface">מִצְרַיִם</span>
+                  <span type="unvocalized-surface">מצרים</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.pNoun">מִצְרַיִם</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0000800"/>
+            </entryFree>
+            <entryFree xml:id="lamr_2251851354144768">
+               <w lemma="amr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">לאמר</span>
+                  </seg>
+                  <span type="lemma">אמר</span>
+                  <span type="vocalized-surface">לֵאמֹר</span>
+                  <span type="unvocalized-surface">לאמר</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">לֵאמֹר</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0000900"/>
+            </entryFree>
+            <entryFree xml:id="Swme_2251826140086272">
+               <w lemma="Sme">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">שומע</span>
+                  </seg>
+                  <span type="lemma">שׁמע</span>
+                  <span type="vocalized-surface">שׁוֹמֵעַ</span>
+                  <span type="unvocalized-surface">שומע</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">שׁוֹמֵעַ</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0001100"/>
+            </entryFree>
+            <entryFree xml:id="any_157876224">
+               <w lemma="any">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">אני</span>
+                  </seg>
+                  <span type="lemma">אֲנִי</span>
+                  <span type="vocalized-surface">אֲנִי</span>
+                  <span type="unvocalized-surface">אני</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.pron">אֲנִי</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0001200"/>
+            </entryFree>
+            <entryFree xml:id="Shyh_9013231872">
+               <w lemma="hyy">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">שהיה</span>
+                  </seg>
+                  <span type="lemma">היי</span>
+                  <span type="vocalized-surface">שֶׁהָיָה</span>
+                  <span type="unvocalized-surface">שהיה</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#pref.rel">שֶׁ</m>
+                        <m function="main" ana="#vb.type.copul">הָיָה</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0001300 path-to-file#MekhY.M117.1.1.1.0004800"/>
+            </entryFree>
+            <entryFree xml:id="hdybwr_1093009412">
+               <w lemma="dbwr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">הדיבור</span>
+                  </seg>
+                  <span type="lemma">דִּבּוּר</span>
+                  <span type="vocalized-surface">הַדִּיֽבּוּר</span>
+                  <span type="unvocalized-surface">הדיבור</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">דִּיֽבּוּר</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0001400 path-to-file#MekhY.M117.1.1.1.0002800 path-to-file#MekhY.M117.1.1.1.0003100"/>
+            </entryFree>
+            <entryFree xml:id="lmSh_655424">
+               <w lemma="mSh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">למשה</span>
+                  </seg>
+                  <span type="lemma">מֹשֶׁה</span>
+                  <span type="vocalized-surface">לְמֹשֶׁה</span>
+                  <span type="unvocalized-surface">למשה</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">לְ</m>
+                        <m function="main" ana="#POS.pNoun">מֹשֶׁה</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0001500 path-to-file#MekhY.M117.1.1.1.0002600"/>
+            </entryFree>
+            <entryFree xml:id="wlahrN_19529794">
+               <w lemma="ahrN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ולאהרן</span>
+                  </seg>
+                  <span type="lemma">אַהֲרֹן</span>
+                  <span type="vocalized-surface">וּלְאַהֲרֹן</span>
+                  <span type="unvocalized-surface">ולאהרן</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj #POS.prep">וּלְ</m>
+                        <m function="main" ana="#POS.pNoun">אַהֲרֹן</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0001600"/>
+            </entryFree>
+            <entryFree xml:id="wkShwa_422117890">
+               <w lemma="hwa">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">וכשהוא</span>
+                  </seg>
+                  <span type="lemma">הוּא</span>
+                  <span type="vocalized-surface">וּכְשֶׁהוּא</span>
+                  <span type="unvocalized-surface">וכשהוא</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj #pref.temp">וּכְשֶׁ</m>
+                        <m function="main" ana="#POS.pron">הוּא</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0001900"/>
+            </entryFree>
+            <entryFree xml:id="amr_2251826140086272">
+               <w lemma="amr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">אמר</span>
+                  </seg>
+                  <span type="lemma">אמר</span>
+                  <span type="vocalized-surface">אָמַר</span>
+                  <span type="unvocalized-surface">אמר</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">אָמַר</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0002000"/>
+            </entryFree>
+            <entryFree xml:id="wyhy_2251808825999362">
+               <w lemma="hyh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ויהי</span>
+                  </seg>
+                  <span type="lemma">היה</span>
+                  <span type="vocalized-surface">וַיְהִי</span>
+                  <span type="unvocalized-surface">ויהי</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וַ</m>
+                        <m function="main" ana="#POS.v">יְהִי</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0002100"/>
+            </entryFree>
+            <entryFree xml:id="bywM_1093009472">
+               <w lemma="ywM">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ביום</span>
+                  </seg>
+                  <span type="lemma">יוֹם</span>
+                  <span type="vocalized-surface">בְּיוֹם</span>
+                  <span type="unvocalized-surface">ביום</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">בְּ</m>
+                        <m function="main" ana="#POS.n">יוֹם</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0002200"/>
+            </entryFree>
+            <entryFree xml:id="dbr_2166751232">
+               <w lemma="dbr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">דבר</span>
+                  </seg>
+                  <span type="lemma">דָּבָר</span>
+                  <span type="vocalized-surface">דְּבַר</span>
+                  <span type="unvocalized-surface">דבר</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">דְּבַר</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0002300"/>
+            </entryFree>
+            <entryFree xml:id="wg_19529730">
+               <w lemma="">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">וג'</span>
+                  </seg>
+                  <span type="lemma"/>
+                  <span type="vocalized-surface">וְג'</span>
+                  <span type="unvocalized-surface">וג'</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וְ</m>
+                        <m function="main" ana="#POS.pNoun">ג'</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0002500"/>
+            </entryFree>
+            <entryFree xml:id="hyh_9013231616">
+               <w lemma="hyy">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">היה</span>
+                  </seg>
+                  <span type="lemma">היי</span>
+                  <span type="vocalized-surface">הָיָה</span>
+                  <span type="unvocalized-surface">היה</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#vb.type.copul">הָיָה</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0002700 path-to-file#MekhY.M117.1.1.1.0003000 path-to-file#MekhY.M117.1.1.1.0005300"/>
+            </entryFree>
+            <entryFree xml:id="wla_327682">
+               <w lemma="la">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ולא</span>
+                  </seg>
+                  <span type="lemma">לֹא</span>
+                  <span type="vocalized-surface">וְלֹא</span>
+                  <span type="unvocalized-surface">ולא</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וְ</m>
+                        <m function="main" ana="#POS.neg">לֹא</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0002900"/>
+            </entryFree>
+            <entryFree xml:id="lahrN_19529792">
+               <w lemma="ahrN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">לאהרן</span>
+                  </seg>
+                  <span type="lemma">אַהֲרֹן</span>
+                  <span type="vocalized-surface">לְאַהֲרֹן</span>
+                  <span type="unvocalized-surface">לאהרן</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">לְ</m>
+                        <m function="main" ana="#POS.pNoun">אַהֲרֹן</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0003200"/>
+            </entryFree>
+            <entryFree xml:id="aM_196608">
+               <w lemma="aM">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">אם</span>
+                  </seg>
+                  <span type="lemma">אִם</span>
+                  <span type="vocalized-surface">אִם</span>
+                  <span type="unvocalized-surface">אם</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.conj">אִם</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0003400"/>
+            </entryFree>
+            <entryFree xml:id="kN_131072">
+               <w lemma="kN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">כן</span>
+                  </seg>
+                  <span type="lemma">כֵּן</span>
+                  <span type="vocalized-surface">כֵּן</span>
+                  <span type="unvocalized-surface">כן</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.adv">כֵּן</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0003500"/>
+            </entryFree>
+            <entryFree xml:id="mh_983040">
+               <w lemma="mh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">מה</span>
+                  </seg>
+                  <span type="lemma">מָה</span>
+                  <span type="vocalized-surface">מַה</span>
+                  <span type="unvocalized-surface">מה</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.interr">מַה</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0003600 path-to-file#MekhY.M117.1.1.1.0005800"/>
+            </entryFree>
+            <entryFree xml:id="tlmwd_1093009408">
+               <w lemma="tlmwd">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">תלמוד</span>
+                  </seg>
+                  <span type="lemma">תַּלְמוּד</span>
+                  <span type="vocalized-surface">תַּלְמוּד</span>
+                  <span type="unvocalized-surface">תלמוד</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">תַּלְמוּד</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0003700"/>
+            </entryFree>
+            <entryFree xml:id="lwmr_2251851354144768">
+               <w lemma="amr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">לומר</span>
+                  </seg>
+                  <span type="lemma">אמר</span>
+                  <span type="vocalized-surface">לוֹמַר</span>
+                  <span type="unvocalized-surface">לומר</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">לוֹמַר</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0003800"/>
+            </entryFree>
+            <entryFree xml:id="ala_196608">
+               <w lemma="ala">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">אלא</span>
+                  </seg>
+                  <span type="lemma">אֶלָּא</span>
+                  <span type="vocalized-surface">אֶלָּא</span>
+                  <span type="unvocalized-surface">אלא</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.conj">אֶלָּא</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0004300"/>
+            </entryFree>
+            <entryFree xml:id="mlmd_11259025394827264">
+               <w lemma="lmd">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">מלמד</span>
+                  </seg>
+                  <span type="lemma">למד</span>
+                  <span type="vocalized-surface">מְלַמֵּד</span>
+                  <span type="unvocalized-surface">מלמד</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">מְלַמֵּד</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0004600"/>
+            </entryFree>
+            <entryFree xml:id="SkSM_196864">
+               <w lemma="SM">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">שכשם</span>
+                  </seg>
+                  <span type="lemma">שֵׁם</span>
+                  <span type="vocalized-surface">שֶׁכְּשֵׁם</span>
+                  <span type="unvocalized-surface">שכשם</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#pref.rel">שֶׁ</m>
+                        <m function="main" ana="#POS.conj">כְּשֵׁם</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0004700"/>
+            </entryFree>
+            <entryFree xml:id="kll_1074921472">
+               <w lemma="kll">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">כלל</span>
+                  </seg>
+                  <span type="lemma">כְּלָל</span>
+                  <span type="vocalized-surface">כְּלָל</span>
+                  <span type="unvocalized-surface">כלל</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.quant">כְּלָל</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0005000"/>
+            </entryFree>
+            <entryFree xml:id="ldbrwt_1111883840">
+               <w lemma="dbr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">לדברות</span>
+                  </seg>
+                  <span type="lemma">דִּבֵּר</span>
+                  <span type="vocalized-surface">לְדִבְּרוֹת</span>
+                  <span type="unvocalized-surface">לדברות</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">לְ</m>
+                        <m function="main" ana="#POS.n">דִבְּרוֹת</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0005100"/>
+            </entryFree>
+            <entryFree xml:id="kK_131072">
+               <w lemma="kK">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">כך</span>
+                  </seg>
+                  <span type="lemma">כָּךְ</span>
+                  <span type="vocalized-surface">כָּךְ</span>
+                  <span type="unvocalized-surface">כך</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.adv">כָּךְ</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0005200"/>
+            </entryFree>
+            <entryFree xml:id="kll_131072">
+               <w lemma="kll">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">כלל</span>
+                  </seg>
+                  <span type="lemma">כְּלָל</span>
+                  <span type="vocalized-surface">כְּלָל</span>
+                  <span type="unvocalized-surface">כלל</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.adv">כְּלָל</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0005500"/>
+            </entryFree>
+            <entryFree xml:id="ldbrwt_1111883844">
+               <w lemma="dbr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">לדברות</span>
+                  </seg>
+                  <span type="lemma">דִּבֵּר</span>
+                  <span type="vocalized-surface">לַדִּבְּרוֹת</span>
+                  <span type="unvocalized-surface">לדברות</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">לַ</m>
+                        <m function="main" ana="#POS.n">דִּבְּרוֹת</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0005600"/>
+            </entryFree>
+            <entryFree xml:id="wmpny_524290">
+               <w lemma="mpny">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ומפני</span>
+                  </seg>
+                  <span type="lemma">מִפְּנֵי</span>
+                  <span type="vocalized-surface">וּמִפְּנֵי</span>
+                  <span type="unvocalized-surface">ומפני</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וּ</m>
+                        <m function="main" ana="#POS.prep">מִפְּנֵי</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0005700"/>
+            </entryFree>
+            <entryFree xml:id="la_327680">
+               <w lemma="la">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">לא</span>
+                  </seg>
+                  <span type="lemma">לֹא</span>
+                  <span type="vocalized-surface">לֹא</span>
+                  <span type="unvocalized-surface">לא</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.neg">לֹא</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0005900"/>
+            </entryFree>
+            <entryFree xml:id="ndbr_11259033603080192">
+               <w lemma="dbr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">נדבר</span>
+                  </seg>
+                  <span type="lemma">דבר</span>
+                  <span type="vocalized-surface">נְדַבֵּר</span>
+                  <span type="unvocalized-surface">נדבר</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">נְדַבֵּר</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0006000"/>
+            </entryFree>
+            <entryFree xml:id="emw_110638358069248">
+               <w lemma="eM">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">עמו</span>
+                  </seg>
+                  <span type="lemma">עִם</span>
+                  <span type="vocalized-surface">עִמּוֹ</span>
+                  <span type="unvocalized-surface">עמו</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.prep #gend.f #num.sg #pers.3">עִמּוֹ</m>
+                        <m function="suff" ana="#pron.type.accnom #gend.f #num.sg #pers.3"/>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0006100"/>
+            </entryFree>
+            <entryFree xml:id="mpny_524288">
+               <w lemma="mpny">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">מפני</span>
+                  </seg>
+                  <span type="lemma">מִפְּנֵי</span>
+                  <span type="vocalized-surface">מִפְּנֵי</span>
+                  <span type="unvocalized-surface">מפני</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.prep">מִפְּנֵי</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0006200"/>
+            </entryFree>
+            <entryFree xml:id="kbwdw_110570731077632">
+               <w lemma="kbwd">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">כבודו</span>
+                  </seg>
+                  <span type="lemma">כָּבוֹד</span>
+                  <span type="vocalized-surface">כְּבוֹדוֹ</span>
+                  <span type="unvocalized-surface">כבודו</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n #gend.f #num.sg #pers.3">כְּבוֹדוֹ</m>
+                        <m function="suff" ana="#pron.type.poss #gend.f #num.sg #pers.3"/>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0006300"/>
+            </entryFree>
+            <entryFree xml:id="Sl_1966080">
+               <w lemma="Sl">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">של</span>
+                  </seg>
+                  <span type="lemma">שֶׁל</span>
+                  <span type="vocalized-surface">שֶׁל</span>
+                  <span type="unvocalized-surface">של</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.shel">שֶׁל</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0006400"/>
+            </entryFree>
+            <entryFree xml:id="nmcat_4503601260658688">
+               <w lemma="nmca">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">נמצאת</span>
+                  </seg>
+                  <span type="lemma">נִמְצָא</span>
+                  <span type="vocalized-surface">נִמְצֵאת</span>
+                  <span type="unvocalized-surface">נמצאת</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.ptcpl">נִמְצֵאת</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0006600"/>
+            </entryFree>
+            <entryFree xml:id="mmeT_11259025394827264">
+               <w lemma="meT">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ממעט</span>
+                  </seg>
+                  <span type="lemma">מעט</span>
+                  <span type="vocalized-surface">מְמַעֵט</span>
+                  <span type="unvocalized-surface">ממעט</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">מְמַעֵט</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0006700"/>
+            </entryFree>
+            <entryFree xml:id="at_262144">
+               <w lemma="at">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">את</span>
+                  </seg>
+                  <span type="lemma">אֶת</span>
+                  <span type="vocalized-surface">אֶת</span>
+                  <span type="unvocalized-surface">את</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.AT">אֶת</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0006800"/>
+            </entryFree>
+            <entryFree xml:id="mkl_2148663360">
+               <w lemma="kl">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">מכל</span>
+                  </seg>
+                  <span type="lemma">כֹּל</span>
+                  <span type="vocalized-surface">מִכָּל</span>
+                  <span type="unvocalized-surface">מכל</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">מִ</m>
+                        <m function="main" ana="#POS.quant">כָּל</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0007100"/>
+            </entryFree>
+            <entryFree xml:id="hdbrwt_1111883780">
+               <w lemma="dbr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">הדברות</span>
+                  </seg>
+                  <span type="lemma">דִּבֵּר</span>
+                  <span type="vocalized-surface">הַדִּבְּרוֹת</span>
+                  <span type="unvocalized-surface">הדברות</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">דִּבְּרוֹת</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0007200"/>
+            </entryFree>
+            <entryFree xml:id="Sbtwrh_1095106884">
+               <w lemma="twrh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">שבתורה</span>
+                  </seg>
+                  <span type="lemma">תּוֹרָה</span>
+                  <span type="vocalized-surface">שֶׁבַּתּוֹרָה</span>
+                  <span type="unvocalized-surface">שבתורה</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep #pref.rel">שֶׁבַּ</m>
+                        <m function="main" ana="#POS.n">תּוֹרָה</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0007300"/>
+            </entryFree>
+            <entryFree xml:id="HwC_524288">
+               <w lemma="HwC">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">חוץ</span>
+                  </seg>
+                  <span type="lemma">חוּץ</span>
+                  <span type="vocalized-surface">חוּץ</span>
+                  <span type="unvocalized-surface">חוץ</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.prep">חוּץ</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0007400"/>
+            </entryFree>
+            <entryFree xml:id="mSlSh_1093075008">
+               <w lemma="SlwSh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">משלשה</span>
+                  </seg>
+                  <span type="lemma">שְׁלוֹשָׁה</span>
+                  <span type="vocalized-surface">מִשְּׁלֹשָׁה</span>
+                  <span type="unvocalized-surface">משלשה</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.prep">מִ</m>
+                        <m function="main" ana="#POS.numer.num">שְּׁלֹשָׁה</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0007500"/>
+            </entryFree>
+            <entryFree xml:id="mqwmwt_1109786624">
+               <w lemma="mqwM">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">מקומות</span>
+                  </seg>
+                  <span type="lemma">מָקוֹם</span>
+                  <span type="vocalized-surface">מְקוֹמוֹת</span>
+                  <span type="unvocalized-surface">מקומות</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">מְקוֹמוֹת</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0007600"/>
+            </entryFree>
+            <entryFree xml:id="mpny_196608">
+               <w lemma="mpny">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">מפני</span>
+                  </seg>
+                  <span type="lemma">מִפְּנֵי</span>
+                  <span type="vocalized-surface">מִפְּנֵי</span>
+                  <span type="unvocalized-surface">מפני</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.conj">מִפְּנֵי</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0007700"/>
+            </entryFree>
+            <entryFree xml:id="Say_1376512">
+               <w lemma="ay">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">שאי</span>
+                  </seg>
+                  <span type="lemma">אִי</span>
+                  <span type="vocalized-surface">שֶׁאִי</span>
+                  <span type="unvocalized-surface">שאי</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#pref.rel">שֶׁ</m>
+                        <m function="main" ana="#POS.pref">אִי</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0007800"/>
+            </entryFree>
+            <entryFree xml:id="apSr_1310720">
+               <w lemma="apSr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">אפשר</span>
+                  </seg>
+                  <span type="lemma">אֶפְשָׁר</span>
+                  <span type="vocalized-surface">אֶפְשָׁר</span>
+                  <span type="unvocalized-surface">אפשר</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#vb.type.modal">אֶפְשָׁר</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.1.0007900"/>
+            </entryFree>
+            <entryFree xml:id="dbr_1093009408">
+               <w lemma="dbr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">דבר</span>
+                  </seg>
+                  <span type="lemma">דָּבָר</span>
+                  <span type="vocalized-surface">דָּבָר</span>
+                  <span type="unvocalized-surface">דבר</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.n">דָּבָר</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.2.0000100"/>
+            </entryFree>
+            <entryFree xml:id="aHr_1092681728">
+               <w lemma="aHr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">אחר</span>
+                  </seg>
+                  <span type="lemma">אַחֵר</span>
+                  <span type="vocalized-surface">אַחֵר</span>
+                  <span type="unvocalized-surface">אחר</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.adj">אַחֵר</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.2.0000200"/>
+            </entryFree>
+            <entryFree xml:id="lmh_983040">
+               <w lemma="lmh">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">למה</span>
+                  </seg>
+                  <span type="lemma">לָמָּה</span>
+                  <span type="vocalized-surface">לָמָּה</span>
+                  <span type="unvocalized-surface">למה</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.interr">לָמָּה</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.2.0000800"/>
+            </entryFree>
+            <entryFree xml:id="namr_4503608639684608">
+               <w lemma="amr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">נאמר</span>
+                  </seg>
+                  <span type="lemma">אמר</span>
+                  <span type="vocalized-surface">נֶאֱמַר</span>
+                  <span type="unvocalized-surface">נאמר</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">נֶאֱמַר</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.2.0000900"/>
+            </entryFree>
+            <entryFree xml:id="lpy_524288">
+               <w lemma="lpy">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">לפי</span>
+                  </seg>
+                  <span type="lemma">לְפִי</span>
+                  <span type="vocalized-surface">לְפִי</span>
+                  <span type="unvocalized-surface">לפי</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.prep">לְפִי</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.2.0001000"/>
+            </entryFree>
+            <entryFree xml:id="Shwa_422117632">
+               <w lemma="hwa">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">שהוא</span>
+                  </seg>
+                  <span type="lemma">הוּא</span>
+                  <span type="vocalized-surface">שֶׁהוּא</span>
+                  <span type="unvocalized-surface">שהוא</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#pref.rel">שֶׁ</m>
+                        <m function="main" ana="#POS.pron">הוּא</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.2.0001100"/>
+            </entryFree>
+            <entryFree xml:id="awmr_2251826140086272">
+               <w lemma="amr">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">אומר</span>
+                  </seg>
+                  <span type="lemma">אמר</span>
+                  <span type="vocalized-surface">אוֹמֵר</span>
+                  <span type="unvocalized-surface">אומר</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">אוֹמֵר</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.2.0001200"/>
+            </entryFree>
+            <entryFree xml:id="rah_2251808825999360">
+               <w lemma="ray">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">ראה</span>
+                  </seg>
+                  <span type="lemma">ראי</span>
+                  <span type="vocalized-surface">רָאָה</span>
+                  <span type="unvocalized-surface">ראה</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.v">רָאָה</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.2.0001800"/>
+            </entryFree>
+            <entryFree xml:id="wgw_2199023386626">
+               <w lemma="gw">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">וגו'</span>
+                  </seg>
+                  <span type="lemma">גּוֹ</span>
+                  <span type="vocalized-surface">וְגוֹ'</span>
+                  <span type="unvocalized-surface">וגו'</span>
+                  <choice>
+                     <seg>
+                        <m function="pref" select="#POS.conj">וְ</m>
+                        <m function="main" ana="#POS.adv">גוֹ'</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.2.0001900"/>
+            </entryFree>
+            <entryFree xml:id="ayN_25771048960">
+               <w lemma="ayN">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">אין</span>
+                  </seg>
+                  <span type="lemma">אֵין</span>
+                  <span type="vocalized-surface">אֵין</span>
+                  <span type="unvocalized-surface">אין</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#vb.type.exist">אֵין</m>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.2.0002100"/>
+            </entryFree>
+            <entryFree xml:id="ly_41369125519360">
+               <w lemma="l">
+                  <seg type="uncorrected-surface-values">
+                     <span n="some_identifier">לי</span>
+                  </seg>
+                  <span type="lemma">לְ</span>
+                  <span type="vocalized-surface">לִי</span>
+                  <span type="unvocalized-surface">לי</span>
+                  <choice>
+                     <seg>
+                        <m function="main" ana="#POS.prep #gend.mf #num.sg #pers.1">לִי</m>
+                        <m function="suff" ana="#pron.type.accnom #gend.mf #num.sg #pers.1"/>
+                     </seg>
+                  </choice>
+               </w>
+               <ptr target="path-to-file#MekhY.M117.1.1.2.0002200"/>
+            </entryFree>
+         </div>
+      </body>
+   </text>
+</TEI>
