@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>A TEI publication of the Babylonian Talmud from Sefaria</title>
+            <editor>
+                <persName corresp="ref.xml#HL">Hayim Lapin</persName>
+            </editor>
+        </titleStmt>
+        <publicationStmt>
+            <publisher ref="http://erabbinica.org">eRabbinica Digital Mishnah Project</publisher>
+            <publisher ref="give-me-a-url">Sofer Mahir</publisher>
+            <pubPlace>Meyerhoff Center for Jewish Studies</pubPlace>
+            <address>
+                <addrLine>4141 Susqehanna Hall</addrLine>
+                <addrLine>University of Maryland</addrLine>
+                <addrLine>College Park, MD</addrLine>
+            </address>
+            <idno type="local">bT.ref-b</idno>
+            <pubPlace>College Park, MD USA</pubPlace>
+            <availability status="restricted">
+                <p>This work is copyright Hayim lapin and Daniel Stoekl ben Ezra and licensed under a
+                    <ref target="http://creativecommons.org/licensesby/4.0//">Creative Commons
+                        Attribution International 4.0 License</ref>.</p>
+            </availability>
+            <date>2023-06-18</date>
+        </publicationStmt>
+        <sourceDesc>
+            <p>Derived from <ref  target="https://www.sefaria.org/texts/Talmud">Sefaria text</ref> (wholly?) incorporating Steinzaltz edition. </p>
+        </sourceDesc>
+    </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <segmentation>
+                    <p>Retains sub-folio divisions.</p>
+                    <p>Omits Mishnah.</p>
+                    <p>Outer div[@unit='order'] corresponds to Mishnah/Talmud order/seder.</p>
+                    <p>Inner div[@unit='tractate'] corresponds to tractate/massekhet.</p>
+                    <p>ab corresponds to folo of the Vilna edition</p>
+                    <p>milestones mark chapter beginnings and sub-folio segments</p>
+                </segmentation>
+            </editorialDecl>
+
+        </encodingDesc>
+</teiHeader>
+    <text><body><p>placeholder</p></body></text>
+</TEI>
+

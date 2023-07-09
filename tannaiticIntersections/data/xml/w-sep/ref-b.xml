@@ -1,144 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ref-b">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>An Electronic Edition of the Babylonian Talmud</title>
+            <title>A TEI publication of the Babylonian Talmud from Sefaria</title>
             <editor>
                <persName corresp="ref.xml#HL">Hayim Lapin</persName>
             </editor>
-            <respStmt>
-               <resp>file conversion</resp>
-               <persName corresp="ref.xml#HL">Hayim Lapin</persName>
-            </respStmt>
-            <respStmt>
-               <resp>transcription</resp>
-               <orgName corresp="ref.xml#Responsa">Responsa Project</orgName>
-            </respStmt>
-            <sponsor n="primary">Joseph and Rebecca Meyerhoff Center for Jewish
-                        Studies</sponsor>
          </titleStmt>
          <publicationStmt>
-            <publisher>eRabbinica</publisher>
-            <pubPlace>...</pubPlace>
+            <publisher ref="http://erabbinica.org">eRabbinica Digital Mishnah Project</publisher>
+            <publisher ref="give-me-a-url">Sofer Mahir</publisher>
+            <pubPlace>Meyerhoff Center for Jewish Studies</pubPlace>
             <address>
-               <addrLine>...</addrLine>
+               <addrLine>4141 Susqehanna Hall</addrLine>
+               <addrLine>University of Maryland</addrLine>
+               <addrLine>College Park, MD</addrLine>
             </address>
-            <idno type="local">ref-b</idno>
-            <availability status="restricted">
-               <p>This work is copyright Hayim Lapin and the Joseph and Rebecca Meyerhoff
-                            Center for Jewish Studies and licensed under a <ref target="http://creativecommons.org/licenses/by-sa/4.0//">Creative
-                                Commons Attribution International 4.0 License</ref>.</p>
-            </availability>
+            <idno type="local">bT.ref-b</idno>
             <pubPlace>College Park, MD USA</pubPlace>
-            <date>2018-09-03</date>
+            <availability status="restricted">
+               <p>This work is copyright Hayim lapin and Daniel Stoekl ben Ezra and licensed under a
+                    <ref target="http://creativecommons.org/licensesby/4.0//">Creative Commons
+                        Attribution International 4.0 License</ref>.</p>
+            </availability>
+            <date>2023-06-18</date>
          </publicationStmt>
-         <notesStmt>
-            <note>
-               <p>Mekhilta from <ref target="http://www.daat.ac.il/daat/tanach/mehilta/tohen2.htm">Daat</ref>.</p>
-               <p>Divisions restored to Lauterbach's division of the text</p>
-               <p>Edited and converted by TEI/XML by Hayim Lapin</p>
-            </note>
-         </notesStmt>
          <sourceDesc>
-            <biblStruct xml:id="tba">
-               <monogr>
-                  <title xml:lang="en">Babylonian Talmud based on the Vilna
-                                Printing</title>
-                  <title xml:lang="he">תלמוד בבלי ע"פ דפוס וילנא</title>
-                  <imprint n="1">
-                     <pubPlace>...</pubPlace>
-                     <publisher>...</publisher>
-                     <date>...</date>
-                  </imprint>
-               </monogr>
-               <note type="nli-ref">...</note>
-            </biblStruct>
+            <p>Derived from <ref target="https://www.sefaria.org/texts/Talmud">Sefaria text</ref> (wholly?) incorporating Steinzaltz edition. </p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <tagsDecl/>
+         <editorialDecl>
+            <segmentation>
+               <p>Retains sub-folio divisions.</p>
+               <p>Omits Mishnah.</p>
+               <p>Outer div[@unit='order'] corresponds to Mishnah/Talmud order/seder.</p>
+               <p>Inner div[@unit='tractate'] corresponds to tractate/massekhet.</p>
+               <p>ab corresponds to folo of the Vilna edition</p>
+               <p>milestones mark chapter beginnings and sub-folio segments</p>
+            </segmentation>
+         </editorialDecl>
       </encodingDesc>
-      <revisionDesc>
-         <change when="2018-09-02" who="ref.xml#HL">Begun editing and tagging</change>
-      </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-1.01-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-2.02-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-2.03-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-2.04-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-2.06-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-2.07-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-2.08-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-2.09-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-2.10-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-2.11-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-2.12-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-2.13-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-3.01-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-3.02-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-3.03-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-3.04-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-3.05-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-3.06-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-3.07-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-4.01-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-4.02-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-4.03-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-4.04-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-4.05-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-4.06-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-4.08-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-4.10-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-5.01-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-5.02-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-5.03-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-5.04-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-5.05-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-5.06-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-5.07-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-5.08-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-5.09-w-sep.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ref-b/ref-b-6.07-w-sep.xml"/>
+         <div type="order" xml:id="ref-b.01">
+            <xi:include href="ref-b/ref-b.01.01-w-sep.xml" xpointer="ref-b.01.01"/>
+         </div>
+         <div type="order" xml:id="ref-b.02">
+            <xi:include href="ref-b/ref-b.02.01-w-sep.xml" xpointer="ref-b.02.01"/>
+            <xi:include href="ref-b/ref-b.02.03-w-sep.xml" xpointer="ref-b.02.03"/>
+            <xi:include href="ref-b/ref-b.02.04-w-sep.xml" xpointer="ref-b.02.04"/>
+            <xi:include href="ref-b/ref-b.02.05-w-sep.xml" xpointer="ref-b.02.05"/>
+            <xi:include href="ref-b/ref-b.02.06-w-sep.xml" xpointer="ref-b.02.06"/>
+            <xi:include href="ref-b/ref-b.02.07-w-sep.xml" xpointer="ref-b.02.07"/>
+            <xi:include href="ref-b/ref-b.02.08-w-sep.xml" xpointer="ref-b.02.08"/>
+            <xi:include href="ref-b/ref-b.02.09-w-sep.xml" xpointer="ref-b.02.09"/>
+            <xi:include href="ref-b/ref-b.02.10-w-sep.xml" xpointer="ref-b.02.10"/>
+            <xi:include href="ref-b/ref-b.02.11-w-sep.xml" xpointer="ref-b.02.11"/>
+            <xi:include href="ref-b/ref-b.02.12-w-sep.xml" xpointer="ref-b.02.12"/>
+         </div>
+         <div type="order" xml:id="ref-b.03">
+            <xi:include href="ref-b/ref-b.03.01-w-sep.xml" xpointer="ref-b.03.01"/>
+            <xi:include href="ref-b/ref-b.03.02-w-sep.xml" xpointer="ref-b.03.02"/>
+            <xi:include href="ref-b/ref-b.03.03-w-sep.xml" xpointer="ref-b.03.03"/>
+            <xi:include href="ref-b/ref-b.03.04-w-sep.xml" xpointer="ref-b.03.04"/>
+            <xi:include href="ref-b/ref-b.03.05-w-sep.xml" xpointer="ref-b.03.05"/>
+            <xi:include href="ref-b/ref-b.03.06-w-sep.xml" xpointer="ref-b.03.06"/>
+            <xi:include href="ref-b/ref-b.03.07-w-sep.xml" xpointer="ref-b.03.07"/>
+         </div>
+         <div type="order" xml:id="ref-b.04">
+            <xi:include href="ref-b/ref-b.04.01-w-sep.xml" xpointer="ref-b.04.01"/>
+            <xi:include href="ref-b/ref-b.04.02-w-sep.xml" xpointer="ref-b.04.02"/>
+            <xi:include href="ref-b/ref-b.04.03-w-sep.xml" xpointer="ref-b.04.03"/>
+            <xi:include href="ref-b/ref-b.04.04-w-sep.xml" xpointer="ref-b.04.04"/>
+            <xi:include href="ref-b/ref-b.04.05-w-sep.xml" xpointer="ref-b.04.05"/>
+            <xi:include href="ref-b/ref-b.04.08-w-sep.xml" xpointer="ref-b.04.08"/>
+            <xi:include href="ref-b/ref-b.04.10-w-sep.xml" xpointer="ref-b.04.10"/>
+         </div>
+         <div type="order" xml:id="ref-b.05">
+            <xi:include href="ref-b/ref-b.05.01-w-sep.xml" xpointer="ref-b.05.01"/>
+            <xi:include href="ref-b/ref-b.05.02-w-sep.xml" xpointer="ref-b.05.02"/>
+            <xi:include href="ref-b/ref-b.05.03-w-sep.xml" xpointer="ref-b.05.03"/>
+            <xi:include href="ref-b/ref-b.05.04-w-sep.xml" xpointer="ref-b.05.04"/>
+            <xi:include href="ref-b/ref-b.05.05-w-sep.xml" xpointer="ref-b.05.05"/>
+            <xi:include href="ref-b/ref-b.05.06-w-sep.xml" xpointer="ref-b.05.06"/>
+            <xi:include href="ref-b/ref-b.05.07-w-sep.xml" xpointer="ref-b.05.07"/>
+            <xi:include href="ref-b/ref-b.05.08-w-sep.xml" xpointer="ref-b.05.08"/>
+            <xi:include href="ref-b/ref-b.05.09-w-sep.xml" xpointer="ref-b.05.09"/>
+         </div>
+         <div type="order" xml:id="ref-b.06">
+            <xi:include href="ref-b/ref-b.06.07-w-sep.xml" xpointer="ref-b.06.07"/>
+         </div>
       </body>
    </text>
 </TEI>

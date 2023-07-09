@@ -9,7 +9,7 @@
    <xsl:output indent="yes"/>
    <xsl:param name="pathToFile" select="'../xml/json/Yerushalmi/'"/>
    <xsl:param name="fName" select="'Jerusalem Talmud Peah - he - Mechon Mamre Talmud Yerushalmi.json'"/>
-<xsl:param name="localID" select="'ref-sifre-d'"></xsl:param>
+   <xsl:param name="localID" select="'ref-y'"></xsl:param>
 
    <xsl:template name="startSingle">
       <xsl:copy-of select="json-to-xml(unparsed-text(encode-for-uri(concat($pathToFile, $fName))))"></xsl:copy-of>

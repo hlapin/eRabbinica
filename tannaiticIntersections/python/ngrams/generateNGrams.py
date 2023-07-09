@@ -4,7 +4,7 @@ import csv
 # "parameters"
 n = 3
 nEnd = 6
-inFName = "ref-sifrei-d-plain"
+inFName = "ref-y-plain"
 moreThan = 5 #use to get above threshold
 #topN = 0 #use to set n most frequent
 
@@ -12,7 +12,7 @@ if nEnd == None or nEnd <= n:
 	nEnd = n
 
 for i in range(nEnd,n-1, -1):
-	print i
+	print (i)
 
 	tokens = []
 	tokens = nGrams.openAndSplit(inFName)
@@ -36,7 +36,7 @@ for i in range(nEnd,n-1, -1):
 	sorted=[]
 	sorted = nGrams.sortByFreq(d, 0, len(d))
 
-	outFile = open(inFName + "_" + str(i) + "_grams" + "_gt_" + str(moreThan) + ".txt",'w+')
+	outFile = open(inFName + "_" + str(i) + "_grams" + "_gt_" + str(moreThan) + ".txt",'w+', encoding="UTF-8")
 	with outFile as f:
 		row = csv.writer(f)
 		row.writerows(sorted)

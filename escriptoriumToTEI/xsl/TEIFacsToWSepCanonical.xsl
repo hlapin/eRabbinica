@@ -147,6 +147,9 @@
     <xsl:template match="milestone">
         <xsl:copy-of select="."></xsl:copy-of>
     </xsl:template>
+    <xsl:template match="ref">
+        <xsl:copy-of select="."></xsl:copy-of>
+    </xsl:template>
     
     <!-- group on milestones and clean up-->
     <xsl:template name="group-on-milestones">
