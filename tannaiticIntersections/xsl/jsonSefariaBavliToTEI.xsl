@@ -3,8 +3,12 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:local="http://www.local-functions.uri" xmlns:j="http://www.w3.org/2013/XSL/json"
+    xmlns:functx="http://www.functx.com"
     xmlns:expath="http://expath.org/ns/file" version="3.0"
-    exclude-result-prefixes="tei xs j local expath">
+    exclude-result-prefixes="tei xs j local expath functx">
+
+
+    <!-- TO DO: final pass to assign chapter to IDs -->
 
     <xsl:output indent="yes"/>
     <!--<xsl:param name="input" select="'../data/json/bavli/0509%20Tamid%20-%20he%20-%20merged.json'"/>-->
@@ -77,7 +81,13 @@
                 </xsl:variable>
                 
                 <xsl:message select="'create body of included TEI doc'"></xsl:message>
-                <xsl:variable name="build-TEI-body"><xsl:apply-templates  select="$set-milestones"/></xsl:variable>
+            <xsl:variable name="build-TEI-body">
+                <xsl:apply-templates select="$set-milestones"/>
+            </xsl:variable>
+            <xsl:variable name="fix-ids">
+                <xsl:apply-templates select="$build-TEI-body" mode="fix-ids"/>
+            </xsl:variable>
+            
             <TEI>
                 <teiHeader>
                     <xsl:apply-templates 
@@ -96,7 +106,7 @@
                             <div type="tractate">
                                 <xsl:copy-of select="@xml:id"></xsl:copy-of>
                                 
-                                <xsl:copy-of select="$build-TEI-body"></xsl:copy-of>
+                                <xsl:copy-of select="$fix-ids"></xsl:copy-of>
                                 
                             </div>
                         </div>
@@ -148,5 +158,98 @@
                 </div>
             </xsl:for-each-group>        
     </xsl:template>
+    
+    <!-- fix ids to add chapters -->
+    <xsl:template match="@*|node()" mode="fix-ids">
+        <xsl:copy>
+            <xsl:apply-templates 
+                select="@*|node()" 
+                mode="fix-ids"></xsl:apply-templates>
+        </xsl:copy>
+    </xsl:template>
+
+    <xsl:template match="tei:ab" mode="fix-ids">
+        <xsl:variable name="ch_no" select="
+                functx:pad-integer-to-length((if (*[1][@unit = 'chapter']) then
+                    *[1]
+                else
+                    preceding::tei:milestone[@unit = 'chapter'][1])/@n, 2)"/>
+        <xsl:variable name="new_id" select="local:insert_ch_no($ch_no,@xml:id)"/>
+        
+        <ab xml:id="{$new_id}" n="{substring-after($new_id,'ref-b.')}">
+            <xsl:copy-of select="@* except (@xml:id|@n)"></xsl:copy-of>
+            <xsl:apply-templates 
+                select="@*|node()" 
+                mode="fix-ids">
+                <xsl:with-param name="ch_no" select="$ch_no" tunnel="yes"/>
+            </xsl:apply-templates>
+        </ab>
+    </xsl:template>
+
+    <xsl:template match="tei:milestone[@unit='chapter']" mode="fix-ids">
+        <xsl:variable name="ch_no" select="functx:pad-integer-to-length(@n,2)"/>
+        <xsl:variable name="id_tokens" select="tokenize(@xml:id,'\.')"/>
+        <milestone 
+            xml:id="{string-join((for $i in 1 to count($id_tokens) - 1 return $id_tokens[$i],$ch_no),'.')}"
+            n="{$ch_no}">
+            <xsl:copy-of select="@* except (@xml:id|@n)"/>
+        </milestone>
+    </xsl:template>
+    
+    <xsl:template match="tei:seg" mode="fix-ids">
+        <xsl:param name="ch_no" tunnel="yes"/>
+        <xsl:variable name="id_tokens" select="tokenize(@xml:id,'\.')"/>
+        <xsl:variable name="new_id" select="string-join((for $i in 1 to count($id_tokens) - 2 return $id_tokens[$i],$ch_no,'T'),'.')"/>
+        <seg 
+            xml:id="ref-b.{$new_id}"
+            n="{$new_id}">
+            <xsl:copy-of select="@* except (@xml:id|@n)"/>
+            <xsl:apply-templates mode="fix-ids"></xsl:apply-templates>
+        </seg>
+    </xsl:template>
+
+    <xsl:template match="tei:*[@xml:id][ancestor::tei:ab][not(@unit='chapter')]" mode="fix-ids">
+        <xsl:param name="ch_no" tunnel="yes"/>
+        <xsl:variable name="new_id" select="local:insert_ch_no($ch_no,@xml:id)"/>
+        <xsl:element name="{name()}">
+            <xsl:attribute name="xml:id" select="$new_id"></xsl:attribute>
+            <xsl:attribute name="n" select="substring-after($new_id,'ref-b.')"></xsl:attribute>
+            <xsl:copy-of select="@* except (@xml:id|@n)"></xsl:copy-of>
+        </xsl:element>
+    </xsl:template>
+
+    <xsl:function name="functx:pad-integer-to-length" as="xs:string">
+        <xsl:param name="integerToPad" as="xs:anyAtomicType?"/>
+        <xsl:param name="length" as="xs:integer"/>
+        
+        <xsl:sequence select="
+            if ($length &lt; string-length(string($integerToPad)))
+            then error(xs:QName('functx:Integer_Longer_Than_Length'))
+            else concat
+            (functx:repeat-string(
+            '0',$length - string-length(string($integerToPad))),
+            string($integerToPad))
+            "/>
+        
+    </xsl:function>
+    <xsl:function name="functx:repeat-string" as="xs:string">
+        <xsl:param name="stringToRepeat" as="xs:string?"/>
+        <xsl:param name="count" as="xs:integer"/>
+        
+        <xsl:sequence select="
+            string-join((for $i in 1 to $count return $stringToRepeat),
+            '')
+            "/>
+        
+    </xsl:function>
+    <xsl:function name="local:insert_ch_no">
+        <xsl:param name="ch_no"></xsl:param>
+        <xsl:param name="id_str"></xsl:param>
+        <xsl:variable name="before" select="substring($id_str,1,11)"/>
+        <xsl:variable name="after" select="substring($id_str,13)"/>
+        <xsl:value-of select="string-join(($before,$ch_no,$after),'.')"></xsl:value-of>
+        
+    </xsl:function>
+    
     
 </xsl:stylesheet>

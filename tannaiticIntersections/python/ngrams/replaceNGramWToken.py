@@ -5,8 +5,8 @@ import os
 import shutil
 
 #'parameters'
-plainTxtF = "ref-y-plain"
-tokensListWIds = "ref-y"
+plainTxtF = "ref-b-plain"
+tokensListWIds = "ref-b"
 nGramsList = ""
 
 print ("starting")

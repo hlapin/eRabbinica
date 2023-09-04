@@ -3,7 +3,10 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:expath="http://expath.org/ns/file"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs tei expath"
     version="2.0">
+   
     <xsl:output indent="yes"/>
+
+    <!-- TO DO: final pass to assign chapter to IDs -->
 
     <xsl:param name="keepM" select="'no'">
         <!-- need to write code for keepM = yes -->
@@ -46,11 +49,11 @@
    
     <xsl:template match="tei:label" mode="map-to-body">
         <xsl:variable name="preceding-ab" select="preceding-sibling::tei:milestone[@unit = 'ab'][1]"/>
-        <tei:label
+        <label
             xml:id="ref-b.{$preceding-ab/@n}-label-{1 + count(preceding-sibling::tei:label[preceding-sibling::tei:milestone[@unit = 'ab'][1] is $preceding-ab])}">
             <xsl:copy-of select="@*"/>
                 <xsl:copy-of select="node()"></xsl:copy-of>
-        </tei:label>
+        </label>
     </xsl:template>
     <xsl:template match="tei:str[not(@xml:id)]" mode="map-to-body">
         <xsl:if test="preceding-sibling::*[1][self::tei:str]">
@@ -75,7 +78,7 @@
                 <xsl:copy-of select="."/>
             </xsl:otherwise>
         </xsl:choose>
-    </xsl:template>
+    </xsl:template>    
     <xsl:template name="strip-m">
         <xsl:param name="text"></xsl:param>
         <xsl:for-each-group select="$text/node()" group-starting-with="tei:milestone[@unit='segment']">
@@ -96,7 +99,4 @@
     </xsl:template>
     <xsl:template match="tei:milestone[@unit='segment' and @type='mishnah']" mode="strip-m" priority="5">
         <!-- do nothing -->
-    </xsl:template>
-
-
-</xsl:stylesheet>
+    </xsl:template></xsl:stylesheet>

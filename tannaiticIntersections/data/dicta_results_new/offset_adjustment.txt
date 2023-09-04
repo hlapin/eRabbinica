@@ -1,0 +1,11 @@
+x = df_merge.groupby(['dif_end'])
+
+x.groups.keys()
+Out[44]: dict_keys([-6812196, -2847022, 0])
+
+df_merge['dif_start'] = df_merge['compCharStart_y'] - df_new['compCharStart']
+
+y = df_merge.groupby(['dif_start'])
+
+y.groups.keys()
+Out[47]: dict_keys([-6812196, -2847022, 0])
